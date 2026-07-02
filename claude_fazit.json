@@ -1,0 +1,20 @@
+{
+  "fazits": [
+    {
+      "datum": "2026-07-02",
+      "kurs_eur": 53689,
+      "eigene_tendenz": "bearish",
+      "eigene_einschaetzung": "Die aktuelle Erholung auf ~53.700 EUR wirkt technisch fragil und ist eher als Gegenbewegung nach dem brutalen Juni-Einbruch zu werten als als echte Trendwende. Das Zusammenspiel aus Rekord-ETF-Abflüssen (4,51 Mrd. USD im Juni), steigendem Exchange Whale Ratio (0,69) und dem historisch seltenen dritten Quartalsverlust in Folge zeichnet ein strukturell bärisches Bild. Die positiven Signale – dovische Fed-Rhetorik, Metaplanet-Käufe und LTH-Akkumulation – sind real, aber sie reichen meiner Einschätzung nach nicht aus, um den laufenden Deleveraging-Prozess (Open Interest von 31,3 auf 21,6 Mrd. USD gefallen) nachhaltig umzukehren. Der Markt befindet sich in einer klassischen 'dead cat bounce'-Konstellation: kurzfristige Entlastungsrallye bei fortbestehenden strukturellen Schwächen. Ohne klaren Durchbruch über die 60.000 USD-Marke und einen Stopp der ETF-Abflüsse bleibt das Risiko eines erneuten Tests der 48.000 EUR-Zone erhöht.",
+      "eigene_gewichtung": {
+        "bullish": 28,
+        "bearish": 57,
+        "neutral": 15
+      },
+      "kommentar_zu_haiku": "Haikus Einschätzung ist solide und ich teile die Grundtendenz – neutral mit Schlagseite nach bearish. Allerdings würde ich den bearishen Anteil stärker gewichten als Haiku es tut (50%): Die Kombination aus Rekord-ETF-Abflüssen und steigendem Whale Ratio ist ein ungewöhnlich klares Warnsignal, das Haiku meiner Meinung nach zu sehr im 'neutral'-Topf verschwinden lässt. Positiv finde ich, dass Haiku die LTH-Akkumulation und den Makro-Rückenwind korrekt als gegenläufige Kraft benennt – das ist ausgewogen. Was ich ergänzen würde: Der Rückgang des Open Interest um fast ein Drittel (von 31,3 auf 21,6 Mrd. USD) ist ein oft unterschätzter Indikator für anhaltenden Vertrauensverlust am Derivatemarkt, der über die reine Spot-Preis-Diskussion hinausgeht. Haikus Schlüsselniveau von 48.000 EUR halte ich für gut gewählt und nachvollziehbar begründet.",
+      "uebereinstimmung_mit_haiku": "hoch",
+      "haiku_tendenz_zum_vergleich": "neutral",
+      "erstellt_am": "2026-07-02T13:26:01.437728"
+    }
+  ],
+  "letzte_aktualisierung": "2026-07-02"
+}
