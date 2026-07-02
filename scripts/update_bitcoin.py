@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Bitcoin Ereignisse Updater
-Holt aktuelle Bitcoin-Nachrichten, analysiert sie mit Claude API
+Holt aktuelle Bitcoin-Nachrichten via RSS, analysiert sie mit Claude API
 und aktualisiert ereignisse.json im Repository.
 """
 
@@ -9,6 +9,7 @@ import json
 import os
 import sys
 import requests
+import xml.etree.ElementTree as ET
 from datetime import date, datetime, timedelta
 import anthropic
 
@@ -33,37 +34,84 @@ def fetch_btc_price():
         return 53000, 61000  # Fallback
 
 
-def fetch_recent_news():
-    """Aktuelle Bitcoin-Nachrichten (letzte 48h) von CryptoCompare holen."""
-    ts_48h = int((datetime.utcnow() - timedelta(hours=48)).timestamp())
+def fetch_rss(url, source_name, cutoff_hours=48):
+    """RSS-Feed abrufen und Artikel der letzten cutoff_hours Stunden zurückgeben."""
+    articles = []
+    cutoff = datetime.utcnow() - timedelta(hours=cutoff_hours)
     try:
-        resp = requests.get(
-            "https://min-api.cryptocompare.com/data/v2/news/",
-            params={"lang": "EN", "categories": "BTC", "lTs": ts_48h},
-            timeout=15,
-            headers={"User-Agent": "Mozilla/5.0"},
-        )
+        resp = requests.get(url, timeout=15, headers={"User-Agent": "Mozilla/5.0"})
         resp.raise_for_status()
-        articles = resp.json().get("Data", [])[:30]
+        root = ET.fromstring(resp.content)
 
-        lines = []
-        for a in articles:
-            ts = datetime.utcfromtimestamp(a.get("published_on", 0))
-            pub = ts.strftime("%Y-%m-%d %H:%M UTC")
-            title = a.get("title", "").strip()
-            source = a.get("source_info", {}).get("name", a.get("source", ""))
-            body = (a.get("body") or "")[:600].strip()
-            lines.append(f"[{pub}] {source}: {title}")
-            if body:
-                lines.append(f"  → {body}")
-            lines.append("")
+        # Namespaces für Atom/RSS
+        ns = {
+            "dc": "http://purl.org/dc/elements/1.1/",
+            "content": "http://purl.org/rss/1.0/modules/content/",
+        }
 
-        print(f"  {len(articles)} Artikel geladen")
-        return "\n".join(lines)
+        for item in root.iter("item"):
+            title = (item.findtext("title") or "").strip()
+            desc  = (item.findtext("description") or "").strip()[:400]
+            pub   = item.findtext("pubDate") or ""
 
+            # Datum parsen
+            pub_dt = None
+            for fmt in ("%a, %d %b %Y %H:%M:%S %z", "%a, %d %b %Y %H:%M:%S GMT"):
+                try:
+                    pub_dt = datetime.strptime(pub.strip(), fmt).replace(tzinfo=None)
+                    break
+                except ValueError:
+                    pass
+
+            if pub_dt and pub_dt < cutoff:
+                continue  # Zu alt
+
+            if title:
+                articles.append({
+                    "source": source_name,
+                    "title": title,
+                    "desc": desc,
+                    "pub": pub_dt.strftime("%Y-%m-%d %H:%M") if pub_dt else "unbekannt",
+                })
     except Exception as e:
-        print(f"  Warnung: News-Abruf fehlgeschlagen ({e})", file=sys.stderr)
-        return ""
+        print(f"  Warnung: RSS {source_name} fehlgeschlagen ({e})", file=sys.stderr)
+    return articles
+
+
+def fetch_recent_news():
+    """Bitcoin-Nachrichten der letzten 48h aus mehreren RSS-Quellen sammeln."""
+    feeds = [
+        ("https://www.coindesk.com/arc/outboundfeeds/rss/", "CoinDesk"),
+        ("https://cointelegraph.com/rss", "CoinTelegraph"),
+        ("https://bitcoinmagazine.com/.rss/full/", "Bitcoin Magazine"),
+        ("https://cryptonews.com/news/feed/", "CryptoNews"),
+    ]
+
+    all_articles = []
+    for url, name in feeds:
+        arts = fetch_rss(url, name)
+        all_articles.extend(arts)
+        print(f"  {name}: {len(arts)} Artikel")
+
+    # Bitcoin-relevante Artikel filtern
+    btc_keywords = ["bitcoin", "btc", "satoshi", "lightning", "halving",
+                    "etf", "blackrock", "microstrategy", "strategy", "sec",
+                    "fed", "inflation", "crypto", "blockchain"]
+    relevant = [
+        a for a in all_articles
+        if any(kw in (a["title"] + a["desc"]).lower() for kw in btc_keywords)
+    ]
+
+    # Ausgabe als Text für Claude
+    lines = []
+    for a in relevant[:30]:
+        lines.append(f"[{a['pub']}] {a['source']}: {a['title']}")
+        if a["desc"]:
+            lines.append(f"  → {a['desc']}")
+        lines.append("")
+
+    print(f"  Gesamt: {len(relevant)} relevante Bitcoin-Artikel")
+    return "\n".join(lines)
 
 
 # ─── JSON-Datei ─────────────────────────────────────────────────────────────
@@ -83,10 +131,8 @@ def save_data(daten, path="ereignisse.json"):
 def build_prompt(daten, news_text, btc_eur, btc_usd, heute):
     grenze = str(date.today() - timedelta(days=3))
 
-    # Bestehende Titel für Deduplizierung
     existing_titles = [e["titel"] for e in daten.get("ereignisse", [])]
 
-    # Alte Fazits ohne Rückblick
     alte_fazits = [
         f for f in daten.get("fazits", [])
         if f["datum"] <= grenze and "rueckblick" not in f
@@ -148,22 +194,13 @@ Antworte AUSSCHLIESSLICH mit einem gültigen JSON-Objekt (kein Markdown, kein Te
     "schluessel_niveau_erklaerung": "Warum ist dieses Niveau entscheidend?",
     "naechster_katalysator": "Welches Ereignis wird als nächstes richtungsweisend sein?"
   }},
-  "rueckblicke": {{
-    "YYYY-MM-DD": {{
-      "kurs_danach_eur": 50000,
-      "tendenz_korrekt": true,
-      "was_richtig": "Was an der damaligen Einschätzung korrekt war.",
-      "was_falsch": "Was falsch eingeschätzt wurde.",
-      "lerneffekt": "Was daraus gelernt werden kann.",
-      "gewichtungs_anpassung": "Wie zukünftige Gewichtungen angepasst werden sollten."
-    }}
-  }}
+  "rueckblicke": {{}}
 }}
 
 Hinweise:
 - gewichtung muss immer exakt 100 ergeben (bullish + bearish + neutral = 100)
 - Falls keine alten Fazits vorhanden: "rueckblicke" als leeres Objekt {{}}
-- Sei bei Rückblicken selbstkritisch und ehrlich – das verbessert die Methodik
+- Sei bei Rückblicken selbstkritisch und ehrlich
 """
 
 
@@ -173,7 +210,6 @@ def main():
     heute = str(date.today())
     print(f"\n=== Bitcoin Ereignisse Update {heute} ===\n")
 
-    # Daten laden
     daten = load_data()
     print(f"Bestand: {len(daten.get('ereignisse', []))} Ereignisse, "
           f"{len(daten.get('fazits', []))} Fazits\n")
@@ -184,27 +220,25 @@ def main():
         print("Tagesfazit für heute bereits vorhanden. Nichts zu tun.")
         sys.exit(0)
 
-    # Kurs und Nachrichten holen
     print("Abrufen: BTC-Kurs...")
     btc_eur, btc_usd = fetch_btc_price()
 
-    print("Abrufen: Bitcoin-Nachrichten (48h)...")
+    print("Abrufen: Bitcoin-Nachrichten via RSS (48h)...")
     news = fetch_recent_news()
 
-    # Claude API aufrufen
     print("\nAnalyse mit Claude API...")
     prompt = build_prompt(daten, news, btc_eur, btc_usd, heute)
 
     client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
     message = client.messages.create(
-        model="claude-3-5-sonnet-20241022",
+        model="claude-haiku-4-5",
         max_tokens=4096,
         messages=[{"role": "user", "content": prompt}],
     )
 
     response_text = message.content[0].text.strip()
 
-    # JSON aus Response extrahieren (falls in Markdown eingebettet)
+    # JSON extrahieren (falls in Markdown eingebettet)
     if "```json" in response_text:
         response_text = response_text.split("```json")[1].split("```")[0].strip()
     elif "```" in response_text:
@@ -217,7 +251,7 @@ def main():
         print(f"Response (erste 500 Zeichen): {response_text[:500]}", file=sys.stderr)
         sys.exit(1)
 
-    # Rückblicke in alte Fazits eintragen
+    # Rückblicke eintragen
     rueckblicke = result.get("rueckblicke", {})
     grenze = str(date.today() - timedelta(days=3))
     updated_rb = 0
@@ -229,28 +263,26 @@ def main():
             updated_rb += 1
             print(f"  ✓ Rückblick für {fazit['datum']} eingetragen")
 
-    # Neue Ereignisse hinzufügen (Duplikate filtern)
+    # Neue Ereignisse (Duplikate filtern)
     vorhandene_titel = {e["titel"] for e in daten.get("ereignisse", [])}
     neue = result.get("neue_ereignisse", [])
     neu_gefiltert = [e for e in neue if e["titel"] not in vorhandene_titel]
 
     daten.setdefault("ereignisse", [])
     daten["ereignisse"] = neu_gefiltert + daten["ereignisse"]
-    daten["ereignisse"] = daten["ereignisse"][:60]  # Max. 60 Einträge
+    daten["ereignisse"] = daten["ereignisse"][:60]
 
     # Tagesfazit einfügen
     tagesfazit = result.get("tagesfazit", {})
     if tagesfazit:
         daten.setdefault("fazits", [])
         daten["fazits"] = [tagesfazit] + daten["fazits"]
-        daten["fazits"] = daten["fazits"][:90]  # Max. 90 Einträge
+        daten["fazits"] = daten["fazits"][:90]
 
     daten["letzte_aktualisierung"] = heute
-
-    # Speichern
     save_data(daten)
 
-    # Zusammenfassung ausgeben
+    # Zusammenfassung
     print(f"\n{'='*40}")
     print(f"✓ {len(neu_gefiltert)} neue Ereignisse gespeichert")
     print(f"✓ {updated_rb} Rückblicke aktualisiert")
