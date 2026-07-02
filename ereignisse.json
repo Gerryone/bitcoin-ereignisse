@@ -1,6 +1,34 @@
 {
-  "letzte_aktualisierung": "2026-07-01",
+  "letzte_aktualisierung": "2026-07-02",
   "ereignisse": [
+    {
+      "datum": "2026-07-02",
+      "kategorie": "Makro",
+      "titel": "Bitcoin erholt sich auf ~60.000 USD nach Junis -20% Einbruch",
+      "beschreibung": "Nach dem schlimmsten Monatsverlust 2026 (-20,48% im Juni) zeigt Bitcoin zu Beginn des Juli eine leichte Erholung auf ~60.000 USD (+2,73% seit Monatsbeginn). Der Kurs testete zuvor die kritische Unterstützungszone bei 58.000 USD, die als Schlüssellevel für den weiteren Trend gilt.",
+      "richtung": "neutral"
+    },
+    {
+      "datum": "2026-07-02",
+      "kategorie": "ETF",
+      "titel": "Spot-Bitcoin-ETFs: Rekord-Monatsabflüsse im Juni – 4,51 Mrd. USD",
+      "beschreibung": "Die vollständigen Juni-Daten der US Spot-Bitcoin-ETFs zeigen Rekord-Netto-Abflüsse von 4,51 Mrd. USD – der schlechteste Monat seit Auflegung der Produkte. Besonders stark betroffen waren BlackRock IBIT (-444 Mio. USD an einem einzigen Tag am 26. Juni) und Fidelity FBTC. Das kumulierte Gesamtvolumen seit Auflegung liegt noch bei 51,2 Mrd. USD.",
+      "richtung": "bearish"
+    },
+    {
+      "datum": "2026-07-02",
+      "kategorie": "Makro",
+      "titel": "Bitcoin H1 2026: -30% zum Jahresstart – historisch dritte Quartalskorrektur in Folge",
+      "beschreibung": "Bitcoin schloss das erste Halbjahr 2026 bei ~59.582 USD, rund 30% unter dem Jahresanfangsniveau und 50% unter dem Allzeithoch vom Oktober 2024 (107.662 EUR). Damit verzeichnet Bitcoin die dritte aufeinanderfolgende Quartalsverlust – ein historisch seltenes Ereignis, das zuletzt 2014/2015 auftrat.",
+      "richtung": "bearish"
+    },
+    {
+      "datum": "2026-07-02",
+      "kategorie": "OnChain",
+      "titel": "Exchange Whale Ratio steigt auf 0,69 – erhöhter Verkaufsdruck droht",
+      "beschreibung": "Der Exchange Whale Ratio, der das Verhältnis großer Transfers zu Gesamttransfers an Börsen misst, kletterte auf 0,69. Als dieser Wert am 19. Juni 0,67 erreichte, fiel Bitcoin danach um 6,3%. Gleichzeitig sank das Open Interest von 31,3 auf 21,6 Mrd. USD – ein deutliches Deleveraging am Markt.",
+      "richtung": "bearish"
+    },
     {
       "datum": "2026-07-01",
       "kategorie": "Regulierung",
