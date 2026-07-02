@@ -4,6 +4,41 @@
     {
       "datum": "2026-07-02",
       "kategorie": "Makro",
+      "titel": "Fed Chair Warsh signalisiert Entwarnung bei Inflationsrisiken – Bitcoin springt über 61.000 USD",
+      "beschreibung": "Fed Chair Kevin Warsh gab dovische Signale zur Inflation ab, woraufhin Bitcoin um mehr als 4% anstieg und über 61.000 USD (ca. 53.700 EUR) kletterte – das höchste Niveau seit über einer Woche. Die Aussagen deuten auf weniger Zinserhöhungssorgen hin, was risikoreichere Assets wie Bitcoin begünstigt.",
+      "richtung": "bullish"
+    },
+    {
+      "datum": "2026-07-02",
+      "kategorie": "Institutionell",
+      "titel": "Metaplanet kauft weitere 2.823 BTC – Schatzkammer auf 43.000 BTC ausgebaut",
+      "beschreibung": "Das japanische Unternehmen Metaplanet, inzwischen der drittgrößte öffentlich gehandelte Bitcoin-Holder, investierte 170 Mio. USD in 2.823 BTC im Q2 2026. Dies signalisiert starkes institutionelles Vertrauen und akkumulativen Druck trotz Marktvolatilität.",
+      "richtung": "bullish"
+    },
+    {
+      "datum": "2026-07-02",
+      "kategorie": "OnChain",
+      "titel": "Long-Term Holder Akkumulation nimmt Fahrt auf – Netto-Ansammlung nach Distribution",
+      "beschreibung": "Glassnode-Daten zeigen, dass Wallets langfristiger Holder von Netto-Distribution zu Netto-Akkumulation umgeschaltet haben. Dies deaktiviert oft Verkaufsdruck und kann eine Bodenbildungsphase signalisieren.",
+      "richtung": "bullish"
+    },
+    {
+      "datum": "2026-07-02",
+      "kategorie": "Regulierung",
+      "titel": "MiCA 2.0 – Europa überprüft Krypto-Rahmen, Konsultation läuft bis September",
+      "beschreibung": "Drei Jahre nach Inkrafttreten von MiCA wird Europas Krypto-Regulierungsrahmen überprüft (MiCA 2.0). Die Konsultationsphase läuft bis September 2026 und könnte zu Verschärfungen oder Lockerungen führen – erhöhte regulatorische Unsicherheit für EU-Märkte.",
+      "richtung": "neutral"
+    },
+    {
+      "datum": "2026-07-02",
+      "kategorie": "Technik",
+      "titel": "Taiko-Brücke nach 10 Tagen wiedereröffnet – TAIKO Token steigt 136%",
+      "beschreibung": "Das Taiko-Protokoll hat seine Cross-Chain-Brücke nach einem Exploit von 1,7 Mio. USD vollständig wiederhergestellt und unabhängige Sicherheitsüberprüfungen abgeschlossen. Der TAIKO Token surgte kurzfristig um 136%, zeigt aber auch das anhaltende Risiko von Bridge-Exploits im Ökosystem.",
+      "richtung": "neutral"
+    },
+    {
+      "datum": "2026-07-02",
+      "kategorie": "Makro",
       "titel": "Bitcoin erholt sich auf ~53.500 EUR nach Junis -20% Einbruch",
       "beschreibung": "Nach dem schlimmsten Monatsverlust 2026 (-20,48% im Juni) zeigt Bitcoin zu Beginn des Juli eine leichte Erholung auf ~53.500 EUR (+2,73% seit Monatsbeginn). Der Kurs testete zuvor die kritische Unterstützungszone bei ~54.000 USD (≈50.000 EUR), die als Schlüssellevel für den weiteren Trend gilt.",
       "richtung": "neutral"
@@ -56,6 +91,22 @@
       "titel": "Bitcoin-ETFs verzeichnen vierten Tag in Folge Netto-Abflüsse",
       "beschreibung": "US-amerikanische Spot-Bitcoin-ETFs verzeichneten zum vierten Handelstag in Folge Netto-Abflüsse in Höhe von insgesamt 380 Mio. USD. BlackRocks IBIT war als einziger Fonds im Plus.",
       "richtung": "bearish"
+    }
+  ],
+  "fazits": [
+    {
+      "datum": "2026-07-02",
+      "tendenz": "neutral",
+      "kurs_eur": 53689,
+      "einschaetzung": "Bitcoin zeigt nach Juni-Crash (-20%) eine technische Gegenbewegung, angetrieben durch dovische Fed-Signale von Chair Warsh und institutionelle Akkumulation (Metaplanet). Der Anstieg über 53.700 EUR ist allerdings noch nicht als Trendwende zu interpretieren – der Kurs bleibt deutlich unter der 200-Wochenlinie und dem Juni-Realpreis, was auf einen laufenden Bären-Zyklus hindeutet. Positive Faktoren (LTH-Akkumulation, Inflation-Entwarnung) werden durch strukturelle Headwinds (ETF-Abflüsse in Q2, schlimmster Juni seit 2022) gemindert. Markt-Sentiment bleibt volatil und fragil.",
+      "gewichtung": {
+        "bullish": 35,
+        "bearish": 50,
+        "neutral": 15
+      },
+      "schluessel_niveau_eur": 48000,
+      "schluessel_niveau_erklaerung": "Unter 48.000 EUR würde eine neue Bärmarkt-Tiefe gesetzt und die Wahrscheinlichkeit eines Bodenbildungs-Szenarios wie von Cantor vorhergesagt schwinden. Dieses Niveau entspricht technischer Unterstützung aus der H1-2026 Korrektur und ist kritisch für die Glaubwürdigkeit der aktuellen Erholung.",
+      "naechster_katalysator": "U.S. Arbeitsmarktdaten für Juli (nächste Woche) und die September-Deadline der MiCA-2.0-Konsultation. Eine schwächer als erwartet ausfallende Jobszahl könnte zu aggressiveren Zinssenkungserwartungen und Bitcoin-Rallye führen; stärkere Daten würden Inflationssorgen erneut schüren und Druck ausüben."
     }
   ]
 }
