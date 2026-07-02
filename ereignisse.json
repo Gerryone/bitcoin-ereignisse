@@ -1,0 +1,33 @@
+{
+  "letzte_aktualisierung": "2026-07-01",
+  "ereignisse": [
+    {
+      "datum": "2026-07-01",
+      "kategorie": "Regulierung",
+      "titel": "Binance verliert EU-Marktzugang durch MiCA",
+      "beschreibung": "Binance hat seine Lizenz für den europäischen Markt nicht erneuert bekommen und muss den Betrieb in der EU unter MiCA-Regularien einstellen. Betroffen sind Millionen europäischer Nutzer.",
+      "richtung": "bearish"
+    },
+    {
+      "datum": "2026-07-01",
+      "kategorie": "Institutionell",
+      "titel": "Citi senkt Bitcoin-Kursziel auf 95.000 USD",
+      "beschreibung": "Citigroup hat ihr Bitcoin-Kursziel für Ende 2026 von 120.000 auf 95.000 USD reduziert, begründet mit makroökonomischen Unsicherheiten und nachlassendem ETF-Zufluss.",
+      "richtung": "bearish"
+    },
+    {
+      "datum": "2026-07-01",
+      "kategorie": "Makro",
+      "titel": "Fed-Gouverneur Warsh warnt vor verfrühten Zinssenkungen",
+      "beschreibung": "Federal Reserve Gouverneur Kevin Warsh betonte, dass die Fed keine Eile bei Zinssenkungen habe und risikoreich sei, zu früh zu lockern. Risikoassets reagierten negativ.",
+      "richtung": "bearish"
+    },
+    {
+      "datum": "2026-07-01",
+      "kategorie": "ETF",
+      "titel": "Bitcoin-ETFs verzeichnen vierten Tag in Folge Netto-Abflüsse",
+      "beschreibung": "US-amerikanische Spot-Bitcoin-ETFs verzeichneten zum vierten Handelstag in Folge Netto-Abflüsse in Höhe von insgesamt 380 Mio. USD. BlackRocks IBIT war als einziger Fonds im Plus.",
+      "richtung": "bearish"
+    }
+  ]
+}
