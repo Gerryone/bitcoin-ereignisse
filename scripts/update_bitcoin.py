@@ -62,6 +62,29 @@ def fetch_crypto_prices():
         }
 
 
+def fetch_fear_greed():
+    """
+    Aktuellen Crypto Fear & Greed Index von alternative.me holen
+    (kostenlos, kein API-Key nötig - dieselbe Quelle, die auch im
+    Home-Assistant-Dashboard genutzt wird). Wert 0-100:
+    0-24 Extreme Fear, 25-49 Fear, 50 Neutral, 51-74 Greed, 75-100
+    Extreme Greed. Wird als Kontext in den Prompt aufgenommen, siehe
+    build_prompt - fließt bewusst nicht in eine feste Formel ein,
+    sondern wird dem Sprachmodell zur eigenen Einordnung überlassen.
+    """
+    try:
+        resp = requests.get("https://api.alternative.me/fng/?limit=1", timeout=15)
+        resp.raise_for_status()
+        data = resp.json()["data"][0]
+        wert = int(data["value"])
+        klassifikation = data.get("value_classification", "unbekannt")
+        print(f"  Fear & Greed: {wert} ({klassifikation})")
+        return {"wert": wert, "klassifikation": klassifikation}
+    except Exception as e:
+        print(f"  Warnung: Fear&Greed-Abruf fehlgeschlagen ({e}), nutze Fallback", file=sys.stderr)
+        return {"wert": 50, "klassifikation": "Neutral (Fallback)"}
+
+
 def fetch_rss(url, source_name, cutoff_hours=48):
     """RSS-Feed abrufen und Artikel der letzten cutoff_hours Stunden zurückgeben."""
     articles = []
@@ -152,7 +175,7 @@ def save_data(daten, path="ereignisse.json"):
 
 # ─── Claude-Prompt ──────────────────────────────────────────────────────────
 
-def build_prompt(daten, news_text, preise, heute):
+def build_prompt(daten, news_text, preise, fear_greed, heute):
     grenze = str(date.today() - timedelta(days=3))
 
     existing_titles = [e["titel"] for e in daten.get("ereignisse", [])]
@@ -186,6 +209,15 @@ Beziehe diesen Kontext in deine Einschätzung ein, wo relevant - z.B. ob
 BTC und ETH sich aktuell im Gleichschritt bewegen (deutet auf breite
 Markt-/Risikostimmung hin) oder auseinanderlaufen (deutet auf
 Bitcoin-spezifische statt allgemeine Krypto-Faktoren hin).
+
+MARKTSTIMMUNG (Crypto Fear & Greed Index, 0-100):
+{fear_greed['wert']} ({fear_greed['klassifikation']})
+Dieser Index fasst Volatilität, Handelsvolumen, Social-Media-Stimmung
+und weitere Faktoren zusammen. Extreme Werte (unter 20 oder über 80)
+werden von manchen Marktteilnehmern als Kontraindikator gedeutet
+(extreme Angst als möglicher Boden, extreme Gier als möglicher
+Warnhinweis vor Korrektur) - das ist aber kein verlässliches Signal
+für sich allein, beziehe es nur als einen von mehreren Faktoren ein.
 
 AKTUELLE BITCOIN-NACHRICHTEN (letzte 48 Stunden):
 {news_text if news_text else "Keine Nachrichten verfügbar."}
@@ -264,11 +296,14 @@ def main():
     print("Abrufen: BTC- und ETH-Kurs...")
     preise = fetch_crypto_prices()
 
+    print("Abrufen: Fear & Greed Index...")
+    fear_greed = fetch_fear_greed()
+
     print("Abrufen: Bitcoin-Nachrichten via RSS (48h)...")
     news = fetch_recent_news()
 
     print("\nAnalyse mit Claude API...")
-    prompt = build_prompt(daten, news, preise, heute)
+    prompt = build_prompt(daten, news, preise, fear_greed, heute)
 
     client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
     message = client.messages.create(
