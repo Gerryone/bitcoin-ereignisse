@@ -230,6 +230,11 @@ AUFGABEN:
 1. Wähle 3–5 der marktrelevantesten Ereignisse aus den Nachrichten (keine Duplikate).
 2. Erstelle ein Tagesfazit mit ehrlicher Markteinschätzung.
 3. Schreibe für alle alten Fazits ohne Rückblick einen selbstkritischen Rückblick.
+4. Benenne im Tagesfazit konkrete SZENARIO-BEDINGUNGEN: Welche 2-4
+   konkreten, überprüfbaren Ereignisse/Entwicklungen müssten eintreten,
+   damit sich deine Einschätzung bestätigt? Das ist KEINE Zeitprognose,
+   sondern eine Liste überprüfbarer Auslöser, damit man später
+   nachvollziehen kann, ob genau diese Bedingungen eingetreten sind.
 
 WICHTIG: Alle Bitcoin-Preisangaben in EUR. ETF-Flüsse dürfen in USD bleiben.
 
@@ -264,7 +269,12 @@ Antworte AUSSCHLIESSLICH mit einem gültigen JSON-Objekt (kein Markdown, kein Te
     }},
     "schluessel_niveau_eur": 48000,
     "schluessel_niveau_erklaerung": "Warum ist dieses Niveau entscheidend?",
-    "naechster_katalysator": "Welches Ereignis wird als nächstes richtungsweisend sein?"
+    "naechster_katalysator": "Welches Ereignis wird als nächstes richtungsweisend sein?",
+    "szenario_bedingungen": [
+      "Konkrete, überprüfbare Bedingung 1",
+      "Konkrete, überprüfbare Bedingung 2",
+      "Konkrete, überprüfbare Bedingung 3 (optional)"
+    ]
   }},
   "rueckblicke": {{}}
 }}
