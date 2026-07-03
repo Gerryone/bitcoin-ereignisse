@@ -1,6 +1,21 @@
 {
   "fazits": [
     {
+      "datum": "2026-07-03",
+      "kurs_eur": 53882,
+      "eigene_einschaetzung_numerisch": -2,
+      "eigene_einschaetzung": "Die heutigen ETF-Zuflüsse von 221 Mio. USD sind ein echtes positives Signal und rechtfertigen eine leichte Aufwertung gegenüber meiner gestrigen bearishen Einschätzung – allerdings nur bedingt, da die Zuflüsse nicht von BlackRocks IBIT stammen und damit eher opportunistische Bottom-Fisher als strukturelle institutionelle Überzeugung signalisieren. Dass mehr Bitcoin im Verlust als im Gewinn notiert, ist on-chain ein klassisches Warnsignal für weiteren Verkaufsdruck, auch wenn es historisch nahe an Bodenbildungsphasen auftritt. Die ETH-Outperformance gegenüber BTC deutet auf eine breitere Risk-on-Bewegung durch makroökonomische Faktoren (Fed-Erwartungen) hin, nicht auf Bitcoin-spezifische Stärke – das schwächt das bullishe Narrativ für BTC zusätzlich. Metaplanets Akkumulation ist langfristig positiv, kurzfristig aber kein Kursmotor. Ich bleibe moderat bearish: Die Stabilisierung über 53.500 EUR ist fragil, und das regulatorische Umfeld (RBI, MiCA 2.0) schafft Unsicherheit, die institutionelles Re-Engagement bremst.",
+      "eigene_gewichtung": {
+        "bullish": 30,
+        "bearish": 55,
+        "neutral": 15
+      },
+      "kommentar_zu_haiku": "Haikus neutrale Gesamteinschätzung (0) erscheint mir angesichts der Datenlage etwas zu ausgewogen – ich sehe das Risiko/Chancen-Verhältnis weiterhin leicht bearish verschoben, weshalb eine Einschätzung von -1 bis -2 ehrlicher wäre. Gut herausgearbeitet ist die Unterscheidung zwischen ETF-Zuflüssen außerhalb von IBIT und echter institutioneller Überzeugung – das ist ein wichtiger Nuancepunkt, den viele Analysen übersehen. Was ich ergänzen würde: Die Short-Liquidationen von 281 Mio. USD in 24h könnten kurzfristig für einen technischen Squeeze nach oben sorgen, der die 55.000–56.000-EUR-Zone testet, ohne dass dies fundamental gerechtfertigt wäre – ein wichtiger Unterschied. Haikus Schlüsselniveau bei 48.000 EUR ist plausibel und gut begründet; ich würde jedoch auch 51.500 EUR als intermediäre Unterstützung markieren, deren Verlust den Weg zu 48.000 EUR deutlich beschleunigen könnte. Insgesamt eine solide, ausgewogene Analyse mit guter Katalysator-Priorisierung.",
+      "uebereinstimmung_mit_haiku": "mittel",
+      "haiku_einschaetzung_zum_vergleich": 0,
+      "erstellt_am": "2026-07-03T14:28:40.846981"
+    },
+    {
       "datum": "2026-07-02",
       "kurs_eur": 53689,
       "eigene_tendenz": "bearish",
@@ -16,5 +31,5 @@
       "erstellt_am": "2026-07-02T13:26:01.437728"
     }
   ],
-  "letzte_aktualisierung": "2026-07-02"
+  "letzte_aktualisierung": "2026-07-03"
 }
