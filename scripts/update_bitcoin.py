@@ -3,6 +3,14 @@
 Bitcoin Ereignisse Updater
 Holt aktuelle Bitcoin-Nachrichten via RSS, analysiert sie mit Claude API
 und aktualisiert ereignisse.json im Repository.
+
+GEÄNDERT (02.07.2026): "richtung" (bullish/bearish/neutral) und
+"tendenz" wurden durch eine direkte numerische Einschätzung von -5
+(stark negativ) bis +5 (stark positiv) ersetzt. Grund: Die Übersetzung
+von bullish/bearish/neutral in eine Zahl musste vorher nachträglich
+(und notwendigerweise ungenau) in Home Assistant geraten werden -
+jetzt liefert Claude die Zahl direkt, feiner abgestuft und ohne
+Informationsverlust durch die Zwischenübersetzung.
 """
 
 import json
@@ -43,7 +51,6 @@ def fetch_rss(url, source_name, cutoff_hours=48):
         resp.raise_for_status()
         root = ET.fromstring(resp.content)
 
-        # Namespaces für Atom/RSS
         ns = {
             "dc": "http://purl.org/dc/elements/1.1/",
             "content": "http://purl.org/rss/1.0/modules/content/",
@@ -54,7 +61,6 @@ def fetch_rss(url, source_name, cutoff_hours=48):
             desc  = (item.findtext("description") or "").strip()[:400]
             pub   = item.findtext("pubDate") or ""
 
-            # Datum parsen
             pub_dt = None
             for fmt in ("%a, %d %b %Y %H:%M:%S %z", "%a, %d %b %Y %H:%M:%S GMT"):
                 try:
@@ -64,7 +70,7 @@ def fetch_rss(url, source_name, cutoff_hours=48):
                     pass
 
             if pub_dt and pub_dt < cutoff:
-                continue  # Zu alt
+                continue
 
             if title:
                 articles.append({
@@ -93,7 +99,6 @@ def fetch_recent_news():
         all_articles.extend(arts)
         print(f"  {name}: {len(arts)} Artikel")
 
-    # Bitcoin-relevante Artikel filtern
     btc_keywords = ["bitcoin", "btc", "satoshi", "lightning", "halving",
                     "etf", "blackrock", "microstrategy", "strategy", "sec",
                     "fed", "inflation", "crypto", "blockchain"]
@@ -102,7 +107,6 @@ def fetch_recent_news():
         if any(kw in (a["title"] + a["desc"]).lower() for kw in btc_keywords)
     ]
 
-    # Ausgabe als Text für Claude
     lines = []
     for a in relevant[:30]:
         lines.append(f"[{a['pub']}] {a['source']}: {a['title']}")
@@ -144,8 +148,8 @@ def build_prompt(daten, news_text, btc_eur, btc_usd, heute):
         for f in alte_fazits[:5]:
             fazit_block += (
                 f"\nDatum: {f['datum']}\n"
-                f"Tendenz: {f.get('tendenz')} | Kurs damals: €{f.get('kurs_eur')}\n"
-                f"Einschätzung: {f.get('einschaetzung')}\n"
+                f"Einschätzung damals: {f.get('einschaetzung_numerisch')} (-5 bis +5) | Kurs damals: €{f.get('kurs_eur')}\n"
+                f"Begründung: {f.get('einschaetzung')}\n"
                 f"Schlüsselniveau: €{f.get('schluessel_niveau_eur')} – "
                 f"{f.get('schluessel_niveau_erklaerung')}\n"
             )
@@ -168,6 +172,13 @@ AUFGABEN:
 
 WICHTIG: Alle Bitcoin-Preisangaben in EUR. ETF-Flüsse dürfen in USD bleiben.
 
+WICHTIG ZUR EINSCHÄTZUNG: Nutze für jedes Ereignis und für das Tagesfazit
+eine numerische Skala von -5 (stark negativ/bearish für Bitcoin) bis +5
+(stark positiv/bullish für Bitcoin), 0 = neutral. Sei bei der Wahl der
+Zahl differenziert - nutze nicht nur die Extremwerte, auch Zwischenwerte
+wie -2, +1, +3 etc. sind erwünscht und meistens realistischer als ein
+Extremwert.
+
 Antworte AUSSCHLIESSLICH mit einem gültigen JSON-Objekt (kein Markdown, kein Text davor/danach):
 
 {{
@@ -177,14 +188,14 @@ Antworte AUSSCHLIESSLICH mit einem gültigen JSON-Objekt (kein Markdown, kein Te
       "kategorie": "ETF|Regulierung|Institutionell|Makro|OnChain|Technik|Persönlichkeiten",
       "titel": "Kurzer prägnanter Titel",
       "beschreibung": "2-3 Sätze mit konkreten Zahlen. Bitcoin-Kurs immer in EUR.",
-      "richtung": "bullish|bearish|neutral"
+      "einschaetzung_numerisch": -3
     }}
   ],
   "tagesfazit": {{
     "datum": "{heute}",
-    "tendenz": "bullish|bearish|neutral",
+    "einschaetzung_numerisch": -3,
     "kurs_eur": {int(btc_eur)},
-    "einschaetzung": "3-5 Sätze Gesamtbewertung. Warum diese Tendenz? Welche Faktoren dominieren?",
+    "einschaetzung": "3-5 Sätze Gesamtbewertung. Warum diese Zahl? Welche Faktoren dominieren?",
     "gewichtung": {{
       "bullish": 30,
       "bearish": 60,
@@ -198,7 +209,9 @@ Antworte AUSSCHLIESSLICH mit einem gültigen JSON-Objekt (kein Markdown, kein Te
 }}
 
 Hinweise:
-- gewichtung muss immer exakt 100 ergeben (bullish + bearish + neutral = 100)
+- einschaetzung_numerisch: -5 bis +5, differenziert gewählt (nicht nur Extremwerte)
+- gewichtung muss weiterhin exakt 100 ergeben (bullish + bearish + neutral = 100),
+  dient als zusätzliche Kontext-Information neben der Zahl
 - Falls keine alten Fazits vorhanden: "rueckblicke" als leeres Objekt {{}}
 - Sei bei Rückblicken selbstkritisch und ehrlich
 """
@@ -214,7 +227,6 @@ def main():
     print(f"Bestand: {len(daten.get('ereignisse', []))} Ereignisse, "
           f"{len(daten.get('fazits', []))} Fazits\n")
 
-    # Prüfen ob Tagesfazit schon existiert
     vorhandene_fazit_daten = {f["datum"] for f in daten.get("fazits", [])}
     if heute in vorhandene_fazit_daten:
         print("Tagesfazit für heute bereits vorhanden. Nichts zu tun.")
@@ -238,7 +250,6 @@ def main():
 
     response_text = message.content[0].text.strip()
 
-    # JSON extrahieren (falls in Markdown eingebettet)
     if "```json" in response_text:
         response_text = response_text.split("```json")[1].split("```")[0].strip()
     elif "```" in response_text:
@@ -251,7 +262,6 @@ def main():
         print(f"Response (erste 500 Zeichen): {response_text[:500]}", file=sys.stderr)
         sys.exit(1)
 
-    # Rückblicke eintragen
     rueckblicke = result.get("rueckblicke", {})
     grenze = str(date.today() - timedelta(days=3))
     updated_rb = 0
@@ -263,7 +273,6 @@ def main():
             updated_rb += 1
             print(f"  ✓ Rückblick für {fazit['datum']} eingetragen")
 
-    # Neue Ereignisse (Duplikate filtern)
     vorhandene_titel = {e["titel"] for e in daten.get("ereignisse", [])}
     neue = result.get("neue_ereignisse", [])
     neu_gefiltert = [e for e in neue if e["titel"] not in vorhandene_titel]
@@ -272,7 +281,6 @@ def main():
     daten["ereignisse"] = neu_gefiltert + daten["ereignisse"]
     daten["ereignisse"] = daten["ereignisse"][:60]
 
-    # Tagesfazit einfügen
     tagesfazit = result.get("tagesfazit", {})
     if tagesfazit:
         daten.setdefault("fazits", [])
@@ -282,13 +290,12 @@ def main():
     daten["letzte_aktualisierung"] = heute
     save_data(daten)
 
-    # Zusammenfassung
     print(f"\n{'='*40}")
     print(f"✓ {len(neu_gefiltert)} neue Ereignisse gespeichert")
     print(f"✓ {updated_rb} Rückblicke aktualisiert")
     if tagesfazit:
         gew = tagesfazit.get("gewichtung", {})
-        print(f"✓ Tagesfazit: {tagesfazit.get('tendenz', '?').upper()} | "
+        print(f"✓ Tagesfazit: Einschätzung {tagesfazit.get('einschaetzung_numerisch', '?')} (-5 bis +5) | "
               f"€{tagesfazit.get('kurs_eur', 0):,.0f} | "
               f"Bullish {gew.get('bullish')}% / "
               f"Bearish {gew.get('bearish')}% / "
@@ -296,7 +303,7 @@ def main():
     if neu_gefiltert:
         print("\nNeue Ereignisse:")
         for e in neu_gefiltert:
-            print(f"  [{e.get('richtung', '?'):7}] {e.get('titel', '')}")
+            print(f"  [{e.get('einschaetzung_numerisch', '?')}] {e.get('titel', '')}")
 
 
 if __name__ == "__main__":
