@@ -24,7 +24,7 @@ jobs:
           python-version: '3.11'
 
       - name: Abhängigkeiten installieren
-        run: pip install anthropic
+        run: pip install anthropic requests
 
       - name: Claude (Sonnet) Einschätzung erstellen
         env:
