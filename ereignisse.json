@@ -1,6 +1,41 @@
 {
-  "letzte_aktualisierung": "2026-07-02",
+  "letzte_aktualisierung": "2026-07-03",
   "ereignisse": [
+    {
+      "datum": "2026-07-03",
+      "kategorie": "ETF",
+      "titel": "Bitcoin-ETF-Zuflüsse brechen 10-Tage-Dürre – 221 Mio. USD am stärksten seit Mai",
+      "beschreibung": "Spot-Bitcoin-ETFs verzeichneten erstmals seit Mai wieder Zuflüsse von 221 Millionen USD, angetrieben durch Fonds außerhalb von BlackRocks IBIT. Dies beendet eine schmerzhaften 10-Tages-Abflussphase und signalisiert Bodenbildung institutioneller Käufer bei Bitcoin ~53.882 EUR.",
+      "einschaetzung_numerisch": 3
+    },
+    {
+      "datum": "2026-07-03",
+      "kategorie": "OnChain",
+      "titel": "Mehr Bitcoin im Verlust als im Gewinn – spätzyklische Liquidation setzt fort",
+      "beschreibung": "Der Anteil von Bitcoin, das unterhalb des Kaufpreises notiert, übersteigt erstmals seit Monaten den im Gewinn befindlichen Teil. Parallel liquidieren Short-Positionen ($281M in 24h) und Leveraged-Trader ihre Positionen – klassisches Zeichen spätzyklischer Reinigung vor Bodenbildung.",
+      "einschaetzung_numerisch": -2
+    },
+    {
+      "datum": "2026-07-03",
+      "kategorie": "Institutionell",
+      "titel": "Metaplanet und Securitize erweitern Treasury/Tokenisierung – Risk-on-Signal von Corporates",
+      "beschreibung": "Metaplanet kaufte weitere 170 Mio. USD Bitcoin (43.000 BTC gesamt), während Securitize mit NYSE-Debut tokenisierte Aktien auf Solana/Avalanche emittiert. Beide Signale deuten auf institutionelle Re-Engagement nach Juni-Rückzug hin, unterstützen aber auch Ethereum-Narrative (ETH +5% vs. BTC +0,5% heute).",
+      "einschaetzung_numerisch": 2
+    },
+    {
+      "datum": "2026-07-02",
+      "kategorie": "Makro",
+      "titel": "US-Arbeitsmarktbericht schwächer als erwartet – Zinssenkungshoffnungen beleben Bitcoin",
+      "beschreibung": "Juni-Jobzuwächse fielen auf nur 57.000 (deutlich unter Erwartungen), was Spekulationen über frühere Fed-Zinssenkungen schürt. Bitcoin reagierte mit 4%-Bounce über 61.000 USD. Jedoch: schwacher Arbeitsmarkt kann auch Konjunkturängste verstärken und Risk-off-Szenarien triggern.",
+      "einschaetzung_numerisch": 1
+    },
+    {
+      "datum": "2026-07-03",
+      "kategorie": "Regulierung",
+      "titel": "Indien und EU verschärfen Druck – RBI isoliert Bankensektor, MiCA 2.0 in Überprüfung",
+      "beschreibung": "Indische Zentralbank drängt auf Bankenisolation von Krypto, während europäische MiCA-Regelungen einer grundsätzlichen Überprüfung (MiCA 2.0) bis September unterliegen. Längerfristig ambivalent: EU-Klarheit könnte positiv sein, RBI-Druck mindert lokale Adoption und Liquidität.",
+      "einschaetzung_numerisch": -1
+    },
     {
       "datum": "2026-07-02",
       "kategorie": "Makro",
@@ -94,6 +129,20 @@
     }
   ],
   "fazits": [
+    {
+      "datum": "2026-07-03",
+      "einschaetzung_numerisch": 0,
+      "kurs_eur": 53882,
+      "einschaetzung": "Bitcoin befindet sich an einem kritischen Wendepunkt zwischen Hoffnung und Realität. Die wiederauflebenden ETF-Zuflüsse (221 Mio. USD, stärkster Tag seit Mai) und Metaplanets aggressive Akkumulation signalisieren institutionelle Bodensuche nach dem Juni-Crash (-20%). Parallel jedoch sprechen technische Warnsignale gegen schnelle Entwarnung: Mehr Bitcoin steht im Verlust als im Gewinn, Long-Liquidationen überwiegen Short-Liquidationen, und Ethereum weitet Outperformance aus (+5% vs. BTC +0,5%), was auf breitere Risk-on-Bewegung (schwacher US-Arbeitsmarkt, Fed-Zinssenkungshoffnungen) statt Bitcoin-spezifischer Stärke hindeutet. Die Kombination von Extreme-Fear-Index (21) und echten Marktkräften (Rehypothecation-Unwind bei Strategy, RBI-/EU-Regulierungsdruck) deuten auf unausgeglichenes Angebot/Nachfrage hin. Technisch: Haltung über 53.500 EUR ist notwendig; Bruch unter 48.000 EUR würde weitere kapitulative Abverkäufe auslösen.",
+      "gewichtung": {
+        "bullish": 35,
+        "bearish": 50,
+        "neutral": 15
+      },
+      "schluessel_niveau_eur": 48000,
+      "schluessel_niveau_erklaerung": "Unter 48.000 EUR würde Bitcoin die psychologische 50%-Fibonacci-Retracement des H1-2026-Crashs (-30% YtD) durchbrechen und könnte kaskadierende Liquidationen ab Long-Positionen in der 45.000–50.000-EUR-Zone auslösen. Haltung über 53.500 EUR stabilisiert dagegen das Narrativ von Bodenbildung und ermöglicht Testlauf der 58.000–62.000-EUR-Widerstandszone.",
+      "naechster_katalysator": "Fed-Zinsentscheidung im Juli (erwartete Signale für Q3-Zinssenkungen), Strategie-Bilanz und weitere Hashrate-Umverteilungen nach SBI-Mining-Pool-Schließung (31. Juli), sowie MiCA-2.0-Konsultationsergebnisse (September). Kurzfristig: CPI-Daten in der kommenden Woche könnten dovish/hawkish Fed-Narrative umdrehen."
+    },
     {
       "datum": "2026-07-02",
       "tendenz": "neutral",
