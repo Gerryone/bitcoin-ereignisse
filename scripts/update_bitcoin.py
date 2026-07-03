@@ -24,22 +24,42 @@ import anthropic
 
 # ─── Daten-Abruf ────────────────────────────────────────────────────────────
 
-def fetch_btc_price():
-    """Aktuellen BTC-Kurs in EUR und USD von CoinGecko holen."""
+def fetch_crypto_prices():
+    """
+    Aktuellen BTC- und ETH-Kurs in EUR/USD sowie deren 24h-Änderung
+    von CoinGecko holen. Der Ethereum-Kontext wird als zusätzliche
+    Information in den Prompt aufgenommen (siehe build_prompt) - die
+    Korrelation zwischen BTC und ETH ist meist deutlich, aber nicht
+    konstant (Ethereum hat auch eigene Treiber wie Foundation-News,
+    Layer-2-Wachstum, Staking-Anteil), daher überlassen wir die
+    Einordnung dem Sprachmodell statt sie fest zu verrechnen.
+    """
     try:
         resp = requests.get(
             "https://api.coingecko.com/api/v3/simple/price",
-            params={"ids": "bitcoin", "vs_currencies": "eur,usd"},
+            params={
+                "ids": "bitcoin,ethereum",
+                "vs_currencies": "eur,usd",
+                "include_24hr_change": "true",
+            },
             timeout=15,
         )
         resp.raise_for_status()
-        data = resp.json()["bitcoin"]
-        eur, usd = data["eur"], data["usd"]
-        print(f"  BTC Kurs: €{eur:,.0f} / ${usd:,.0f}")
-        return eur, usd
+        data = resp.json()
+        btc = data["bitcoin"]
+        eth = data["ethereum"]
+        print(f"  BTC Kurs: €{btc['eur']:,.0f} / ${btc['usd']:,.0f} ({btc.get('eur_24h_change', 0):+.1f}% 24h)")
+        print(f"  ETH Kurs: €{eth['eur']:,.0f} / ${eth['usd']:,.0f} ({eth.get('eur_24h_change', 0):+.1f}% 24h)")
+        return {
+            "btc_eur": btc["eur"], "btc_usd": btc["usd"], "btc_change_24h": btc.get("eur_24h_change", 0),
+            "eth_eur": eth["eur"], "eth_usd": eth["usd"], "eth_change_24h": eth.get("eur_24h_change", 0),
+        }
     except Exception as e:
         print(f"  Warnung: Preisabruf fehlgeschlagen ({e}), nutze Fallback", file=sys.stderr)
-        return 53000, 61000  # Fallback
+        return {
+            "btc_eur": 53000, "btc_usd": 61000, "btc_change_24h": 0,
+            "eth_eur": 1450, "eth_usd": 1650, "eth_change_24h": 0,
+        }
 
 
 def fetch_rss(url, source_name, cutoff_hours=48):
@@ -132,7 +152,7 @@ def save_data(daten, path="ereignisse.json"):
 
 # ─── Claude-Prompt ──────────────────────────────────────────────────────────
 
-def build_prompt(daten, news_text, btc_eur, btc_usd, heute):
+def build_prompt(daten, news_text, preise, heute):
     grenze = str(date.today() - timedelta(days=3))
 
     existing_titles = [e["titel"] for e in daten.get("ereignisse", [])]
@@ -156,7 +176,16 @@ def build_prompt(daten, news_text, btc_eur, btc_usd, heute):
 
     return f"""Du bist ein erfahrener Bitcoin-Marktanalyst. Heute ist der {heute}.
 
-AKTUELLER BITCOIN-KURS: €{btc_eur:,.0f} EUR / ${btc_usd:,.0f} USD
+AKTUELLER BITCOIN-KURS: €{preise['btc_eur']:,.0f} EUR / ${preise['btc_usd']:,.0f} USD (24h: {preise['btc_change_24h']:+.1f}%)
+
+MARKTKONTEXT ETHEREUM (zweitgrößte Kryptowährung, oft aber nicht immer
+mit Bitcoin korreliert - Ethereum hat auch eigene Treiber wie
+Foundation-Entscheidungen, Layer-2-Wachstum, Staking-Anteil):
+ETH-Kurs: €{preise['eth_eur']:,.0f} EUR / ${preise['eth_usd']:,.0f} USD (24h: {preise['eth_change_24h']:+.1f}%)
+Beziehe diesen Kontext in deine Einschätzung ein, wo relevant - z.B. ob
+BTC und ETH sich aktuell im Gleichschritt bewegen (deutet auf breite
+Markt-/Risikostimmung hin) oder auseinanderlaufen (deutet auf
+Bitcoin-spezifische statt allgemeine Krypto-Faktoren hin).
 
 AKTUELLE BITCOIN-NACHRICHTEN (letzte 48 Stunden):
 {news_text if news_text else "Keine Nachrichten verfügbar."}
@@ -194,7 +223,7 @@ Antworte AUSSCHLIESSLICH mit einem gültigen JSON-Objekt (kein Markdown, kein Te
   "tagesfazit": {{
     "datum": "{heute}",
     "einschaetzung_numerisch": -3,
-    "kurs_eur": {int(btc_eur)},
+    "kurs_eur": {int(preise['btc_eur'])},
     "einschaetzung": "3-5 Sätze Gesamtbewertung. Warum diese Zahl? Welche Faktoren dominieren?",
     "gewichtung": {{
       "bullish": 30,
@@ -232,14 +261,14 @@ def main():
         print("Tagesfazit für heute bereits vorhanden. Nichts zu tun.")
         sys.exit(0)
 
-    print("Abrufen: BTC-Kurs...")
-    btc_eur, btc_usd = fetch_btc_price()
+    print("Abrufen: BTC- und ETH-Kurs...")
+    preise = fetch_crypto_prices()
 
     print("Abrufen: Bitcoin-Nachrichten via RSS (48h)...")
     news = fetch_recent_news()
 
     print("\nAnalyse mit Claude API...")
-    prompt = build_prompt(daten, news, btc_eur, btc_usd, heute)
+    prompt = build_prompt(daten, news, preise, heute)
 
     client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
     message = client.messages.create(
