@@ -48,6 +48,19 @@ def fetch_crypto_prices():
         return {"btc_eur": 53000, "btc_change_24h": 0, "eth_eur": 1450, "eth_change_24h": 0}
 
 
+def fetch_fear_greed():
+    """Aktuellen Crypto Fear & Greed Index von alternative.me holen
+    (kostenlos, kein API-Key nötig), als Kontext für den Prompt."""
+    try:
+        resp = requests.get("https://api.alternative.me/fng/?limit=1", timeout=15)
+        resp.raise_for_status()
+        data = resp.json()["data"][0]
+        return {"wert": int(data["value"]), "klassifikation": data.get("value_classification", "unbekannt")}
+    except Exception as e:
+        print(f"  Warnung: Fear&Greed-Abruf fehlgeschlagen ({e}), nutze Fallback", file=sys.stderr)
+        return {"wert": 50, "klassifikation": "Neutral (Fallback)"}
+
+
 def load_ereignisse(path="ereignisse.json"):
     with open(path, "r", encoding="utf-8") as f:
         return json.load(f)
@@ -68,7 +81,7 @@ def save_claude_fazit(daten, path="claude_fazit.json"):
         json.dump(daten, f, ensure_ascii=False, indent=2)
 
 
-def build_prompt(ereignisse_daten, eigene_historie, preise, heute):
+def build_prompt(ereignisse_daten, eigene_historie, preise, fear_greed, heute):
     """Baut den Prompt für Sonnet: aktuelle Ereignisse + Haikus Fazit
     + Ethereum-Kontext + unsere eigene bisherige Einschätzungs-Historie
     (für Kontinuität)."""
@@ -127,6 +140,13 @@ Beziehe diesen Kontext ein, wo relevant - z.B. ob BTC und ETH sich
 aktuell im Gleichschritt bewegen (deutet auf breite Markt-/
 Risikostimmung hin) oder auseinanderlaufen (deutet auf Bitcoin-
 spezifische statt allgemeine Krypto-Faktoren hin).
+
+MARKTSTIMMUNG (Crypto Fear & Greed Index, 0-100):
+{fear_greed['wert']} ({fear_greed['klassifikation']})
+Extreme Werte (unter 20 oder über 80) werden von manchen als
+Kontraindikator gedeutet (extreme Angst als möglicher Boden, extreme
+Gier als möglicher Warnhinweis) - kein verlässliches Signal für sich
+allein, nur als ein Faktor unter mehreren einbeziehen.
 
 HEUTIGE BITCOIN-EREIGNISSE (von einem anderen KI-System recherchiert):
 {ereignis_text}
@@ -190,8 +210,11 @@ def main():
     print("Abrufen: BTC- und ETH-Kurs...")
     preise = fetch_crypto_prices()
 
+    print("Abrufen: Fear & Greed Index...")
+    fear_greed = fetch_fear_greed()
+
     print("Baue Prompt mit heutigen Ereignissen + Haikus Fazit + ETH-Kontext...")
-    prompt = build_prompt(ereignisse_daten, eigene_historie, preise, heute)
+    prompt = build_prompt(ereignisse_daten, eigene_historie, preise, fear_greed, heute)
 
     client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
     message = client.messages.create(
