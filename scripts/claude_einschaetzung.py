@@ -164,6 +164,14 @@ AUFGABEN:
    stimmst du zu? Wo bist du anderer Meinung? Was würdest du ergänzen oder
    anders gewichten? Sei konkret und konstruktiv-kritisch, nicht nur
    zustimmend.
+3. Benenne konkrete SZENARIO-BEDINGUNGEN: Welche 2-4 konkreten,
+   überprüfbaren Ereignisse/Entwicklungen müssten eintreten, damit sich
+   deine Einschätzung (bullish oder bearish) bestätigt? Das ist KEINE
+   Zeitprognose ("wann"), sondern eine Liste überprüfbarer AUSLÖSER
+   ("was müsste passieren"), damit man später (auch nach Monaten oder
+   Jahren) nachvollziehen kann, ob genau diese Bedingungen eingetreten
+   sind oder nicht - das macht die damalige Einschätzung im Rückblick
+   nachvollziehbar, unabhängig vom genauen Zeitpunkt.
 
 WICHTIG ZUR EINSCHÄTZUNG: Nutze eine numerische Skala von -5 (stark
 negativ/bearish) bis +5 (stark positiv/bullish), 0 = neutral. Sei
@@ -186,7 +194,12 @@ kein Text davor/danach):
     "neutral": 10
   }},
   "kommentar_zu_haiku": "3-5 Sätze: wo stimmst du zu, wo widersprichst du, was ergänzt du?",
-  "uebereinstimmung_mit_haiku": "hoch|mittel|niedrig"
+  "uebereinstimmung_mit_haiku": "hoch|mittel|niedrig",
+  "szenario_bedingungen": [
+    "Konkrete, überprüfbare Bedingung 1 (z.B. 'ETF-Abflüsse setzen sich über mehrere Tage fort')",
+    "Konkrete, überprüfbare Bedingung 2 (z.B. 'Bruch unter 53.500 EUR Unterstützung')",
+    "Konkrete, überprüfbare Bedingung 3 (optional)"
+  ]
 }}
 
 Hinweis: eigene_gewichtung muss immer exakt 100 ergeben (bullish + bearish + neutral = 100),
@@ -252,6 +265,7 @@ def main():
         "eigene_gewichtung": result.get("eigene_gewichtung"),
         "kommentar_zu_haiku": result.get("kommentar_zu_haiku"),
         "uebereinstimmung_mit_haiku": result.get("uebereinstimmung_mit_haiku"),
+        "szenario_bedingungen": result.get("szenario_bedingungen", []),
         "haiku_einschaetzung_zum_vergleich": (
             haiku_fazit_heute.get("einschaetzung_numerisch", haiku_fazit_heute.get("tendenz"))
             if haiku_fazit_heute else None
