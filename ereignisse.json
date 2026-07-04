@@ -1,6 +1,41 @@
 {
-  "letzte_aktualisierung": "2026-07-03",
+  "letzte_aktualisierung": "2026-07-04",
   "ereignisse": [
+    {
+      "datum": "2026-07-04",
+      "kategorie": "OnChain",
+      "titel": "Bitcoin Profit/Loss Ratio fällt auf 43-Monats-Tief – spätzyklische Bodenbildung signalisiert",
+      "beschreibung": "Der Anteil von Bitcoin im Gewinn fällt auf den tiefsten Stand seit März 2023. Bitwise CIO Matt Hougan kommentiert, der Boden sei \"näher als je zuvor\". Dies deutet auf massenhafte Liquidationen von Retail-Positionen und potenzielle Kapitulation hin.",
+      "einschaetzung_numerisch": 2
+    },
+    {
+      "datum": "2026-07-03",
+      "kategorie": "Institutionell",
+      "titel": "Whale-Akkumulation trotz ETF-Blutung – 16,7 Mrd. USD in 2 Wochen bei -4 Mrd. institutionellen Abflüssen",
+      "beschreibung": "Während Spot-Bitcoin-ETFs im Juni Rekord-Nettoabflüsse von 4,51 Mrd. USD verzeichneten, kauften Bitcoin-Wale 16,7 Mrd. USD in nur zwei Wochen. Diese Divergenz ist historisch bei Zyklusböden aufgetreten und deutet auf Umschichtung von Retail zu akkumulierenden Großinvestoren.",
+      "einschaetzung_numerisch": 3
+    },
+    {
+      "datum": "2026-07-04",
+      "kategorie": "Makro",
+      "titel": "Zinssenkungshoffnungen beleben Risk-On nach schwachem US-Arbeitsmarkt (57K Jobs)",
+      "beschreibung": "Der US-Arbeitsmarktbericht vom 2.7. mit nur 57.000 neu geschaffenen Jobs reduziert Zinssteigerungserwartungen erheblich. Fed-Governor Warsh signalisierte bereits Entwarnung. Bitcoin reagiert mit Erholung über 62.000 USD – klassisches Risk-On-Szenario begünstigt Krypto.",
+      "einschaetzung_numerisch": 2
+    },
+    {
+      "datum": "2026-07-03",
+      "kategorie": "Makro",
+      "titel": "Kapitalrotation aus KI-Technologie zu Bitcoin – Halbleiter-Momentum flauen ab",
+      "beschreibung": "Nach dominanter Performance von Halbleiter- und Memory-Aktien in H1 2026 zeigt sich Momentumverlust. CoinDesk berichtet von möglicher Kapitalrotation zurück in Bitcoin. Short-Squeeze liquidierte 281 Mio. USD Bärenpositionen (doppelt Longs) – technisches Upside-Potenzial erkennbar.",
+      "einschaetzung_numerisch": 1
+    },
+    {
+      "datum": "2026-07-02",
+      "kategorie": "Institutionell",
+      "titel": "JPMorgan kritisiert Stratagies Bitcoin-Verkaufspolitik – Saylor-Strategie unter Druck",
+      "beschreibung": "JPMorgan warnt, dass Strategys Bitcoin-Verkäufe \"Two-Way Risk\" für Märkte schaffen und Volatilität unnötig erhöhen. Die Bank fordert Equity-Finanzierung statt BTC-Verkäufe. Dies untergräbt das Corporate-Treasury-Modell und sorgt für Unsicherheit bei institutionellen Nachahmer-Käufen.",
+      "einschaetzung_numerisch": -2
+    },
     {
       "datum": "2026-07-03",
       "kategorie": "ETF",
@@ -129,6 +164,26 @@
     }
   ],
   "fazits": [
+    {
+      "datum": "2026-07-04",
+      "einschaetzung_numerisch": 1,
+      "kurs_eur": 54594,
+      "einschaetzung": "Bitcoin erholt sich mit +1,5% auf 54.594 EUR und bestätigt technisches Aufwärts-Momentum nach Extreme-Fear-Index (22). Die Divergenz zwischen institutionellen ETF-Abflüssen (-4 Mrd. USD Juni) und Whale-Akkumulation (+16,7 Mrd. USD in 2 Wochen) ist historisch bullish und typisch für spätzyklische Böden. Makro-Katalysator (schwacher US-Arbeitsmarkt, Zinssenkungshoffnungen) und Kapitalrotation aus dem erschöpften KI-Trade unterstützen. Negativ wirken JPMorgans Kritik am Saylor-Modell und CoinDesk-Einschätzung, dass für nächste Rallye 1 Billion USD frische Kapital nötig sein könnte – aktuelle $697 Mrd. in diesem Zyklus reichten nur für 689% Anstieg. Fazit: Taktischer Aufbau von Boden-Positionen rechtfertigt, aber strategischer Euphorismus verfrüht. BTC/ETH-Korrelation (+1,5% vs. +2,0%) bleibt intact – breiter Risk-On-Markt, keine BTC-spezifischen Treiber.",
+      "gewichtung": {
+        "bullish": 55,
+        "bearish": 35,
+        "neutral": 10
+      },
+      "schluessel_niveau_eur": 48000,
+      "schluessel_niveau_erklaerung": "Das Niveau von ~48.000 EUR entspricht dem Juni-Tief und markiert psychologische Support. Nachhaltige Unterschreitung würde 43-Monats-Profit/Loss-Verhältnis sowie Whale-Akkumulation als falsche Signale entlarven und neue Kapitulationswelle einleiten. Oberhalb 56.000 EUR hingegen öffnen sich 60.000+ EUR als nächste Widerstandszone.",
+      "naechster_katalysator": "Fed-Zinsbeschluss oder Powell-Äußerungen zu Inflationstrend; Strategie-News zu Treasury-Finanzmittel ohne BTC-Verkäufe; neue Makrodaten (Inflation, Arbeitsmarkt); ETF-Nettovergleich (ob institutionelle Abflüsse stoppen oder beschleunigen).",
+      "szenario_bedingungen": [
+        "ETF-Netto-Zuflüsse stabilisieren sich oberhalb von $100 Mio./Tag für mindestens 5 Handelstage (vs. aktuelle 10-Tage-Durststrecke beendet)",
+        "BTC/USD bleibt über 61.000 USD und schließt Wochenchart nicht unter 59.000 EUR (technische Bestätigung der Whale-Akkumulation)",
+        "Fed-Gouverneure oder Powell äußern sich zu Zinssenkungen im H2 2026 oder August – konkrete Forward Guidance unter 3,5% bis Jahresende",
+        "Corporate-Treasury-Nachahmer (außer Strategie) kündigen BTC-Käufe an oder Saylor kalibriert Strategie um: Equity-Finanzierung statt BTC-Verkäufe"
+      ]
+    },
     {
       "datum": "2026-07-03",
       "einschaetzung_numerisch": 0,
