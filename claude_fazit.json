@@ -1,6 +1,27 @@
 {
   "fazits": [
     {
+      "datum": "2026-07-04",
+      "kurs_eur": 54594,
+      "eigene_einschaetzung_numerisch": 0,
+      "eigene_einschaetzung": "Ich revidiere meine vorherige bearishe Haltung leicht nach oben auf neutral: Die Kombination aus 43-Monats-Tief beim Profit/Loss-Ratio, Extreme-Fear-Index von 22 und dem makroökonomischen Katalysator (schwacher US-Arbeitsmarkt → Zinssenkungshoffnungen) erzeugt ein klassisches Kontraindikator-Setup, das historisch mit Bodenbildungsphasen korreliert. Gleichzeitig bewegt sich Bitcoin noch immer deutlich unter den Höchstständen und die zugrundeliegende Schwäche – anhaltende ETF-Abflüsse, Retail-Kapitulation, fehlende frische Liquidität – ist real. Die synchrone Bewegung von BTC (+1,3%) und ETH (+1,9%) deutet auf breite Risk-On-Stimmung statt Bitcoin-spezifischer Stärke hin, was die Rally anfälliger für Makroumkehrungen macht. Ich halte eine neutrale Haltung für ehrlicher als ein klares bullishes Signal: die Bodenbildungsindikatoren sind vorhanden, aber Bodenbildung ist ein Prozess, kein Ereignis – und falschen Böden zu kaufen ist ein klassischer Fehler in Bärenphasen.",
+      "eigene_gewichtung": {
+        "bullish": 38,
+        "bearish": 38,
+        "neutral": 24
+      },
+      "kommentar_zu_haiku": "Haikus Fazit ist solide und ich teile die Kernthese, dass dies ein taktisches Bodenbildungs-Setup sein könnte – die Divergenz zwischen Retail-Kapitulation und Whale-Akkumulation ist ein ernstzunehmendes Signal. Allerdings finde ich die Einschätzung von +1 etwas zu optimistisch gewichtet: Die Aussage 'Bitcoin reagiert mit Erholung über 62.000 USD' im ETH/BTC-Kontext verwirrt – BTC notiert bei 54.586 EUR, nicht annähernd bei 62.000 USD/EUR, was auf eine inkonsistente Quellenverarbeitung hindeutet und die Verlässlichkeit des Fazits leicht untergräbt. Wichtiger: Haiku unterschätzt meines Erachtens das Risiko, dass Zinssenkungshoffnungen sich als flüchtiger Katalysator erweisen können – der Arbeitsmarktbericht ist einmalig und Powell kann in einer einzigen Äußerung das Narrativ kippen. Das 'näher als je zuvor' des Bitwise CIO ist außerdem eine klassische Marketing-Aussage, die mit Vorsicht zu genießen ist. Ich würde die bullishe Gewichtung auf 45-50% statt 55% setzen.",
+      "uebereinstimmung_mit_haiku": "mittel",
+      "szenario_bedingungen": [
+        "Bullish-Bestätigung: ETF-Nettozuflüsse drehen auf mindestens 3 aufeinanderfolgende positive Handelstage ohne zwischenzeitliche Netto-Abflusstage – dies würde institutionelle Umkehr signalisieren statt nur kurzfristige taktische Bewegungen.",
+        "Bullish-Bestätigung: Bitcoin schließt auf Wochenbasis nachhaltig über 56.000 EUR und hält dieses Niveau mindestens 48 Stunden, ohne auf unter 53.500 EUR zurückzufallen – dies würde das technische Bild von Bodenbildung zu echter Trendwende upgraden.",
+        "Bearish-Bestätigung: Bruch unter 48.000 EUR auf Tagesbasis, verbunden mit erneut steigenden ETF-Abflüssen (>500 Mio. USD täglich über mehrere Tage) – dies würde die Whale-Akkumulations-These als Fehlsignal entlarven und eine neue Kapitulationswelle einleiten.",
+        "Bearish-Bestätigung: Fed kommuniziert hawkishen Kurswechsel oder revidiert Zinssenkungserwartungen nach oben, woraufhin Bitcoin innerhalb von 24-48 Stunden über 5% fällt und das Risk-On-Narrativ als alleinigen Treiber der aktuellen Erholung entlarvt."
+      ],
+      "haiku_einschaetzung_zum_vergleich": 1,
+      "erstellt_am": "2026-07-04T09:59:33.604273"
+    },
+    {
       "datum": "2026-07-03",
       "kurs_eur": 53882,
       "eigene_einschaetzung_numerisch": -2,
@@ -31,5 +52,5 @@
       "erstellt_am": "2026-07-02T13:26:01.437728"
     }
   ],
-  "letzte_aktualisierung": "2026-07-03"
+  "letzte_aktualisierung": "2026-07-04"
 }
