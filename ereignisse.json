@@ -1,6 +1,41 @@
 {
-  "letzte_aktualisierung": "2026-07-04",
+  "letzte_aktualisierung": "2026-07-05",
   "ereignisse": [
+    {
+      "datum": "2026-07-04",
+      "kategorie": "OnChain",
+      "titel": "Whale-Akkumulation setzt sich fort – 16,7 Mrd. USD in 2 Wochen trotz ETF-Blutung",
+      "beschreibung": "Large Bitcoin-Holder haben in den letzten 2 Wochen 16,7 Mrd. USD Bitcoin gekauft, während institutionelle ETF-Zuflüsse mit -4 Mrd. USD im Juni ihren schlimmsten Monat je verzeichneten. Diese Divergenz deutet auf klassische Bodenbildung hin, bei der große Spieler gegen den Mainstream einkaufen. Das Signal war historisch an früheren Zyklustiefs präsent.",
+      "einschaetzung_numerisch": 3
+    },
+    {
+      "datum": "2026-07-04",
+      "kategorie": "Makro",
+      "titel": "Kapitalrotation aus KI-Halbleitern zu Bitcoin – Memory/Semiconductor-Momentum bricht ein",
+      "beschreibung": "Nach Dominanz von KI-gebundenen Technologiestöcken im ersten Halbjahr 2026 verlieren Memory- und Halbleiter-Aktien an Momentum. Analysten deuten auf mögliche Kapitalrotation zurück zu Bitcoin hin, besonders als Alternative-Risk-Asset nach schwachem US-Arbeitsmarkt (57k Jobs). Dies könnte institutionelle Nachfrage 2H2026 unterstützen.",
+      "einschaetzung_numerisch": 2
+    },
+    {
+      "datum": "2026-07-04",
+      "kategorie": "Regulierung",
+      "titel": "UK FCA Crypto Framework – ambitioniert aber mit enormen Compliance-Hürden",
+      "beschreibung": "Die britische FCA verabschiedete einen neuen Krypto-Regelrahmen, der auf globale Liquidität und institutionelle Adoption zielt. Die Autorisierungsprozesse werden jedoch als extrem aufwändig erwartet. Dies signalisiert graduellen Wandel zu institutionell-orientiertem Marktdesign, könnte aber auch Newcomer abschrecken und Liquidität fragmentieren.",
+      "einschaetzung_numerisch": 1
+    },
+    {
+      "datum": "2026-07-05",
+      "kategorie": "Persönlichkeiten",
+      "titel": "Dave Portnoy (Barstool) – ‚Hold Bitcoin bis Null' nach fehlgeschlagenen Timings",
+      "beschreibung": "Barstool Sports-Gründer Portnoy kündigte an, seine Bitcoin-Position (gekauft nahe 100.000 EUR) bis zur Null halten zu wollen, nachdem er mehrmals den Markt falsch getimed hat. Diese öffentliche Sentiment-Äußerung eines Mainstream-Influencers reflektiert sowohl Frust-Capitulation als auch ironisch ein konträr-indikatorsches Signal in Zeiten extremer Angst (Fear Index: 23).",
+      "einschaetzung_numerisch": -1
+    },
+    {
+      "datum": "2026-07-04",
+      "kategorie": "Technik",
+      "titel": "Bollinger Bands Schöpfer sieht Bären-Markt-Ende – ‚W'-förmige Umkehrung möglich",
+      "beschreibung": "John Bollinger, Erfinder der Bollinger Bands Indikatoren, deutet an, dass ein Durchbruch über aktuelle Widerstandsniveaus den gesamten Abwärtstrend brechen könnte und eine W-förmige Bodenbildung entstehen könnte. Dies ist ein technisch erfahrener Marktanalyst, dessen Signal auf Wiederherstellung von Momentum hindeutet, wenn Price-Action bestätigt wird.",
+      "einschaetzung_numerisch": 2
+    },
     {
       "datum": "2026-07-04",
       "kategorie": "OnChain",
@@ -165,6 +200,26 @@
   ],
   "fazits": [
     {
+      "datum": "2026-07-05",
+      "einschaetzung_numerisch": -1,
+      "kurs_eur": 54805,
+      "einschaetzung": "Bitcoin zeigt an Tag 5 im Juli eine fragile Gegenbewegung (+0,5% in 24h) auf €54.805, gestützt durch Whale-Akkumulation und dovische Makro-Signale, doch der Markt bleibt strukturell angeschlagen. Der Crypto Fear & Greed Index bei 23 (Extreme Fear) könnte konträr-indikatorsches Potenzial signalisieren, wurde aber durch ETF-Blutungen, schwächstes Bitcoin Profit/Loss Ratio seit 43 Monaten und anhaltende makroökonomische Unsicherheit überlagert. Die Divergenz zwischen institutionellen ETF-Abflüssen (-4 Mrd. USD im Juni) und Whale-Akkumulation (+16,7 Mrd. USD in 2 Wochen) deutet auf klassische Bodenbildung hin – aber Confirmation ist noch ausstehend. Technisch könnte ein Durchbruch über €55.000–56.000 erste Signale geben; darunter bleibt der Abwärts-Druck dominierend.",
+      "gewichtung": {
+        "bullish": 35,
+        "bearish": 55,
+        "neutral": 10
+      },
+      "schluessel_niveau_eur": 48000,
+      "schluessel_niveau_erklaerung": "€48.000 ist die kritische Unterstützung aus der H1-2026 Korrektur und Crash-Tief. Ein Bruch darunter würde neue Bärmarkt-Tiefstände setzen, alle aktuellen Bodenbildungs-Narrativen widerlegen und psychologische Barrieren brechen. Über diesem Niveau bleibt die Akkumulations-These lebensfähig; darunter wird es zur neuen kapitalen Verkaufsphase.",
+      "naechster_katalysator": "Fed-Ratensicherungsdaten / PCE-Inflation (erwartet Mitte Juli): Wenn Inflationsdaten erneut dovischer ausfallen, könnte dies €56.000–58.000 in den nächsten 5–10 Tagen unterstützen. Umgekehrt würde hawkischer Inflationsdruck oder QT-Verstärkung den Weg zu €48.000 ebnen.",
+      "szenario_bedingungen": [
+        "Bitcoin bricht über €56.000–57.000 und hält dieses Niveau für mindestens 3 Tage – Zeichen echten Momentum-Shifts",
+        "Spot-Bitcoin-ETF-Zuflüsse wechseln von Netto-Abflüssen zu konsekutiven 5+ Tagen Netto-Inflows – Zeichen institutioneller Gegenbewegung",
+        "Crypto Fear & Greed Index fällt unter 15 oder steigt über 30 ohne neue makro-Schocks – Zeichen von Extreme-Value-Bildung oder schnellem Sentiment-Flip",
+        "Fed-Kommunikation in nächster FOMC-Sitzung / Powell-Aussagen signalisieren klare Zinssenkungsbereitschaft für H2 2026 – Zeichen von Zins-Tailwind für Risk Assets"
+      ]
+    },
+    {
       "datum": "2026-07-04",
       "einschaetzung_numerisch": 1,
       "kurs_eur": 54594,
@@ -210,7 +265,15 @@
       },
       "schluessel_niveau_eur": 48000,
       "schluessel_niveau_erklaerung": "Unter 48.000 EUR würde eine neue Bärmarkt-Tiefe gesetzt und die Wahrscheinlichkeit eines Bodenbildungs-Szenarios wie von Cantor vorhergesagt schwinden. Dieses Niveau entspricht technischer Unterstützung aus der H1-2026 Korrektur und ist kritisch für die Glaubwürdigkeit der aktuellen Erholung.",
-      "naechster_katalysator": "U.S. Arbeitsmarktdaten für Juli (nächste Woche) und die September-Deadline der MiCA-2.0-Konsultation. Eine schwächer als erwartet ausfallende Jobszahl könnte zu aggressiveren Zinssenkungserwartungen und Bitcoin-Rallye führen; stärkere Daten würden Inflationssorgen erneut schüren und Druck ausüben."
+      "naechster_katalysator": "U.S. Arbeitsmarktdaten für Juli (nächste Woche) und die September-Deadline der MiCA-2.0-Konsultation. Eine schwächer als erwartet ausfallende Jobszahl könnte zu aggressiveren Zinssenkungserwartungen und Bitcoin-Rallye führen; stärkere Daten würden Inflationssorgen erneut schüren und Druck ausüben.",
+      "rueckblick": {
+        "damals_einschaetzung": -1,
+        "damals_kurs_eur": 53689,
+        "heute_kurs_eur": 54805,
+        "veraenderung_prozent": 2.08,
+        "selbstkritik": "Die Einschätzung von vor 3 Tagen war zu pessimistisch. Der Markt hat tatsächlich die erwartete technische Gegenbewegung fortgesetzt: von €53.689 auf €54.805 (+2,1%). Die Warnung vor Fragilitäts-Volatilität bleibt berechtigt, aber die AMPLITUDE der Gegenbewegung wurde unterschätzt. Positive Faktoren (Whale-Akkumulation €16,7 Mrd., dovische Fed, LTH-Sammlung) wurden damals erkannt, aber ihre GEWICHT nicht ausreichend gewichtet. Der technische Widerstand über €55.000 ist näher als gedacht, aber noch nicht gebrochen – daher hätte eine Einschätzung von ±0 (neutral/watch) passender sein sollen als -1. Die Schlüssel-Niveaus (€48.000 Support) wurden korrekt identifiziert und sind bisher nicht getestet worden, was die relative Stabilisierung bestätigt.",
+        "lernpunkte": "Whale-Akkumulation sollte höher gewichtet werden bei Bodenbildungs-Szenarien. ETF-Abflüsse allein sind bearish, aber bei gleichzeitiger Whale-Käufe eher ein Indikator für MISPRICINGS als für Abwärts-Trend. Fear-Index bei 23 ist wirklich ein Konträr-Signal, nicht nur theoretisch."
+      }
     }
   ]
 }
