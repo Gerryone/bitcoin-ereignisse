@@ -1,6 +1,27 @@
 {
   "fazits": [
     {
+      "datum": "2026-07-05",
+      "kurs_eur": 54805,
+      "eigene_einschaetzung_numerisch": -1,
+      "eigene_einschaetzung": "Der Bitcoin-Markt befindet sich weiterhin in einer fragilen Übergangsphase: Der Fear & Greed Index bei 23 signalisiert Extreme Fear, was historisch als Kontraindikator wirken kann, aber kein verlässliches Einstiegssignal darstellt. Die minimale 24h-Bewegung von +0,2% bei BTC und praktisch 0% bei ETH deutet auf eine breite Risikoaversion ohne eindirektionale Impulse hin – beide Assets bewegen sich im Gleichschritt, was auf allgemeine Marktmüdigkeit hinweist, nicht auf Bitcoin-spezifische Stärke. Dave Portnoys 'Hold bis Null'-Aussage ist zwar ein klassisches Frustrationskapitulations-Signal, das mancher als Konträrindikator wertet, aber einzelne Influencer-Statements sind schwache Signale ohne strukturellen Wert. Ich bleibe bei einer leicht bärischen bis neutralen Haltung: Die Bodenbildungsthese ist noch unbestätigt, und ein Durchbruch über 55.000–56.000 EUR fehlt weiterhin als Bestätigung.",
+      "eigene_gewichtung": {
+        "bullish": 30,
+        "bearish": 50,
+        "neutral": 20
+      },
+      "kommentar_zu_haiku": "Haikus Analyse ist insgesamt solide und gut strukturiert – die Einschätzung der Divergenz zwischen institutionellen ETF-Abflüssen und Whale-Akkumulation als klassisches Bodenbildungsmuster ist analytisch korrekt, aber ich würde diese Divergenz weniger betonen: Whale-Akkumulation allein reicht nicht, um einen Trendwechsel zu bestätigen, wenn ETF-Flows (der institutionelle Angebotskanal schlechthin) weiterhin negativ sind. Die Gewichtung von Bearish 55% teile ich, würde aber den Neutral-Anteil auf 20% anheben und Bullish entsprechend reduzieren, da es schlicht zu wenig konkrete positive Katalysatoren für heute gibt. Das Schlüsselniveau bei 48.000 EUR halte ich für korrekt gesetzt und wichtig. Ergänzend würde ich stärker betonen, dass die ETH/BTC-Koinzidenz (beide nahezu flat) eher Apathie als bullishe Akkumulation signalisiert – echte Bodenbildungen zeigen oft selektive Stärke in einzelnen Assets, die hier fehlt.",
+      "uebereinstimmung_mit_haiku": "hoch",
+      "szenario_bedingungen": [
+        "Bestätigung bullisher Trendwende: Bitcoin schließt mehrere aufeinanderfolgende Tageskerzen klar über 56.000 EUR bei steigendem Volumen – ohne unmittelbaren Rückfall darunter.",
+        "Bestätigung bärischer Fortsetzung: ETF-Nettoabflüsse bleiben auch in der zweiten Juliwoche negativ (kumuliert über -500 Mio. USD), kombiniert mit einem Bruch unter 52.000 EUR auf Tagesschlusskurs-Basis.",
+        "Makro-Katalysator bullish: PCE-Inflationsdaten Mitte Juli fallen deutlich unter Erwartungen (unter 2,3% YoY) und lösen eine messbare Neubewertung der Fed-Zinspfad-Erwartungen aus, sichtbar in sinkenden 2-Jahres-US-Treasury-Renditen.",
+        "Kapitulationssignal als möglicher Boden: Fear & Greed Index fällt unter 15 (Extreme Fear, Tiefstwert) gleichzeitig mit einem Intraday-Spike unter 50.000 EUR, der sich innerhalb von 24–48 Stunden vollständig erholt – klassisches V-Reversal-Muster als Bodenindikator."
+      ],
+      "haiku_einschaetzung_zum_vergleich": -1,
+      "erstellt_am": "2026-07-05T10:03:10.089924"
+    },
+    {
       "datum": "2026-07-04",
       "kurs_eur": 54594,
       "eigene_einschaetzung_numerisch": 0,
@@ -52,5 +73,5 @@
       "erstellt_am": "2026-07-02T13:26:01.437728"
     }
   ],
-  "letzte_aktualisierung": "2026-07-04"
+  "letzte_aktualisierung": "2026-07-05"
 }
