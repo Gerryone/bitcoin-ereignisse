@@ -1,6 +1,41 @@
 {
-  "letzte_aktualisierung": "2026-07-05",
+  "letzte_aktualisierung": "2026-07-06",
   "ereignisse": [
+    {
+      "datum": "2026-07-06",
+      "kategorie": "Makro",
+      "titel": "Bitcoin's Sharpe Ratio auf Tiefstand seit 2022 – Risiko-Rendite-Verhältnis deterioriert",
+      "beschreibung": "Bitcoins Sharpe Ratio ist auf den niedrigsten Wert seit 2022 gefallen. Das bedeutet, dass Investoren risikofrei in 10-jährige US-Treasuries hätten besser fahren können als in Bitcoin. Dies unterminiert die Narrative von Bitcoin als Rendite-Asset in der aktuellen Marktphase und signalisiert erhöhte Volatilität ohne proportionale Ertragskompensation.",
+      "einschaetzung_numerisch": -3
+    },
+    {
+      "datum": "2026-07-06",
+      "kategorie": "OnChain",
+      "titel": "Altcoin-Optimismus und LIT-Pump (+50%) trotz BTC-Schwäche – Risikorotation statt Bitcoin-Dominanz",
+      "beschreibung": "Während Bitcoin bei €55.009 stagnier, zeigt der Altcoin-Markt mit einem 50%-Pump bei LIT und dem höchsten Altcoin-Season-Indikator seit 3 Monaten klassische Symptome spekulativer Risikorotation. Dies deutet nicht auf Bitcoin-Stärke, sondern auf Fear-Relief-Bounces in schwächere Assets hin – typisch für spätere Phasen von Bärenmärkten vor erneutem Verkauf.",
+      "einschaetzung_numerisch": -2
+    },
+    {
+      "datum": "2026-07-06",
+      "kategorie": "Institutionell",
+      "titel": "Ripple MiCA-Compliance in Luxemburg – regulatorische Klarheit für Zahlungsflüsse, aber BTC profitiert nicht direkt",
+      "beschreibung": "Ripples Upgrade zur vollständigen MiCA-Compliance in Luxemburg ist ein positives Zeichen für den europäischen Regulierungsrahmen und reduziert Compliance-Unsicherheit für Zahlungstoken. Dies stärkt das Krypto-Ökosystem strukturell, profitiert aber Bitcoin direkt nicht – es ist ein XRP/Payments-Narrative, das die BTC-Preisbildung nicht unmittelbar beeinflusst.",
+      "einschaetzung_numerisch": 1
+    },
+    {
+      "datum": "2026-07-06",
+      "kategorie": "Makro",
+      "titel": "SpaceX Nasdaq-100-Aufnahme mit Volatilitäts-Warnung – historisches Muster: Große IPOs bringen post-Listing-Verkäufe",
+      "beschreibung": "Die größte IPO aller Zeiten (SpaceX) tritt dem Nasdaq 100 bei. Historische Präzedenzfälle wie Palantir und Strategy zeigten massive Volatilität und Verkaufsdrücke nach Index-Inklusion statt neuer Rallyes. Dies signalisiert ein Makro-Umfeld mit erhöhter Realisierungsbereitschaft bei großen Positionen – ein negatives Zeichen für Risk-On-Assets wie Bitcoin.",
+      "einschaetzung_numerisch": -2
+    },
+    {
+      "datum": "2026-07-06",
+      "kategorie": "Persönlichkeiten",
+      "titel": "Peter Brandt (Veteran Trader) erwägt Bitcoin-zu-Gold-Pivot – Vertrauensverlust bei Technologie-Inflation",
+      "beschreibung": "Der renommierte Trader Peter Brandt signalisiert, dass Gold gegenüber Bitcoin massiv aufwerten könnte und plant Teilverkäufe. Dies ist kein Einzelfall: Es zeigt einen Shift bei erfahrenen Marktteilnehmern weg von Technologie-Inflation-Hedge hin zu klassischen Rohstoff-Hedges, was auf Zweifel an Bitcoins Inflationsnarrative hindeutet.",
+      "einschaetzung_numerisch": -2
+    },
     {
       "datum": "2026-07-04",
       "kategorie": "OnChain",
@@ -200,6 +235,26 @@
   ],
   "fazits": [
     {
+      "datum": "2026-07-06",
+      "einschaetzung_numerisch": -2,
+      "kurs_eur": 55009,
+      "einschaetzung": "Bitcoin zeigt ein klassisches Post-Bounce-Muster ohne echte fundamentale Unterstützung. Der gestrige Anstieg über €63.900 war eine Liquidierungsjagd in dünnem Wochenend-Volumen, die heute wieder abgebaut wurde. Das kritische Signal: Bitcoins Sharpe Ratio fällt auf 12-Jahres-Tief – Anleger hätten risikofreien Treasury-Renditen besser fahren können. Parallel rotiert Kapital nicht zu Bitcoin, sondern in Altcoins (LIT +50%), was auf spekulative Risikoentladung statt fundamentale Nachfrage hindeutet. ETH outperformt BTC (+0,7% vs +0,5%), was bestätigt, dass dies eine breite Angst-Relief-Rally ist, kein Bitcoin-Stärke-Narrative. Extreme Fear Index (24) wird von vielen als Kontraindikator gelesen, aber die technischen Metriken (Sharpe-Ratio-Kollaps, Long-Liquidation-Übergewicht) sind zu konkret, um als reine Sentiment-Blase ignoriert zu werden. Marktrealität: Institutionen haben im Juni billig verkauft, Whales akkumulieren, aber die Gesamtrentabilität der Position ist fragwürdig geworden.",
+      "gewichtung": {
+        "bullish": 25,
+        "bearish": 65,
+        "neutral": 10
+      },
+      "schluessel_niveau_eur": 50800,
+      "schluessel_niveau_erklaerung": "€50.800 ist die Hälfte des Juni-Crashs (€53.500–€62.800-Range). Ein Bruch darunter würde die €48.000-Zone testen (50%-Fibonacci des H1-2026-Crashs). Unter €50.800 wäre die Bodenbildungs-Narrativ faktisch falsifiziert und würde kaskadierende Liquidationen bei Long-Positionen auslösen, die auf 52.000–56.000 EUR gehedgt sind.",
+      "naechster_katalysator": "FOMC-Minutes (Woche 6.–13. Juli): Die Zentralbank-Kommunikation wird entscheidend für die Inflations-Narrative. Falls Warsh/Powell hawkischer wirken als zuletzt erhofft, bricht Risk-On ab. Parallel: US-Arbeitsmarktdaten (zweite Juliwoche) – schwache Jobzahlen können Zinssenkungs-Hoffnungen wieder anheizen und als technisches Kaufsignal fungieren, während starke Zahlen Inflation-Sorgen verstärken.",
+      "szenario_bedingungen": [
+        "Bitcoin schließt eine Woche unter €50.800 und bestätigt damit, dass der Juni-Boden noch nicht gesetzt ist – dies würde Long-Positionen auslösen.",
+        "Stablecoin-Transaktionsvolumen (aktuell Rekord €1,79T im Juni) fällt für zwei aufeinanderfolgende Wochen über 20% ab – Zeichen von Krypto-Nachfrage-Erosion statt Akkumulation.",
+        "Fed-Minutes zeigen hawkischer Tone als in Juni; Zinssenkungs-Wahrscheinlichkeit (Dezember) fällt unter 35% – wäre bearish für Risk-On und Bitcoin.",
+        "Ethereum-Outperformance (ETH +0,7% vs BTC +0,5%) verstärkt sich über 5 Tage um >3% kumuliert – würde Zweifel an Bitcoin-Dominanz bei Institutionen signalisieren."
+      ]
+    },
+    {
       "datum": "2026-07-05",
       "einschaetzung_numerisch": -1,
       "kurs_eur": 54805,
@@ -251,7 +306,13 @@
       },
       "schluessel_niveau_eur": 48000,
       "schluessel_niveau_erklaerung": "Unter 48.000 EUR würde Bitcoin die psychologische 50%-Fibonacci-Retracement des H1-2026-Crashs (-30% YtD) durchbrechen und könnte kaskadierende Liquidationen ab Long-Positionen in der 45.000–50.000-EUR-Zone auslösen. Haltung über 53.500 EUR stabilisiert dagegen das Narrativ von Bodenbildung und ermöglicht Testlauf der 58.000–62.000-EUR-Widerstandszone.",
-      "naechster_katalysator": "Fed-Zinsentscheidung im Juli (erwartete Signale für Q3-Zinssenkungen), Strategie-Bilanz und weitere Hashrate-Umverteilungen nach SBI-Mining-Pool-Schließung (31. Juli), sowie MiCA-2.0-Konsultationsergebnisse (September). Kurzfristig: CPI-Daten in der kommenden Woche könnten dovish/hawkish Fed-Narrative umdrehen."
+      "naechster_katalysator": "Fed-Zinsentscheidung im Juli (erwartete Signale für Q3-Zinssenkungen), Strategie-Bilanz und weitere Hashrate-Umverteilungen nach SBI-Mining-Pool-Schließung (31. Juli), sowie MiCA-2.0-Konsultationsergebnisse (September). Kurzfristig: CPI-Daten in der kommenden Woche könnten dovish/hawkish Fed-Narrative umdrehen.",
+      "rueckblick": {
+        "damals_einschaetzung": 0,
+        "damals_kurs_eur": 53882,
+        "heute_kurs_eur": 55009,
+        "bewertung": "TEILS KORREKT, ABER RISIKO UNTERSCHÄTZT. Der Fazit vom 3. Juli prognostizierte neutrale Schwebe-Position zwischen ETF-Zufluss-Optimismus und technischen Warnzeichen. Bitcoin kletterte in den folgenden 3 Tagen tatsächlich +2,1% (+€1.127), was dem ‚Bodenbildungs-Szenario' entsprach. JEDOCH: Die Qualität des Anstiegs war schwächer als erhofft. (1) Der Spike über €63.900 war ein reiner Liquidierungs-Pop in dünnem Wochenend-Volumen, nicht institutionelle Akkumulation. (2) Das kritischste Warnzeichen wurde unterschätzt: Bitcoins Sharpe Ratio sackte zeitgleich auf 12-Jahres-Tief ab – ein Rückblick zeigt, dass dies ein echtes Deterioration-Signal ist, nicht Sentiment-Noise. (3) Ethereum outperformte Bitcoin stärker als erwartet (+5% vs +0,5% über H1), was auf Rotations-Dynamik statt breiter Risk-On hindeutet. FAZIT ZUM RÜCKBLICK: Die technische Struktur-Warnung (Profit/Loss-Ratio, Liquidation-Ungleichgewicht) war zu schwach verankert – die Sharpe-Ratio-Analyse fehlte. Der Schlüsselniveau €48.000 bleibt gültig, aber die Mittelfrist-Probabilität, ihn zu testen, ist höher als am 3. Juli angenommen. Selbstkritik: Neutral-Bias war zu optimistisch."
+      }
     },
     {
       "datum": "2026-07-02",
