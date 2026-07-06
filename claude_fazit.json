@@ -1,6 +1,27 @@
 {
   "fazits": [
     {
+      "datum": "2026-07-06",
+      "kurs_eur": 55009,
+      "eigene_einschaetzung_numerisch": -2,
+      "eigene_einschaetzung": "Der Bitcoin-Markt zeigt heute ein widersprüchliches Bild: Einerseits bleibt die Stimmung mit Fear & Greed bei 24 gedrückt, was historisch als Kontraindikator gelten kann, andererseits sind die fundamentalen Signale weiterhin belastend – insbesondere die deteriorierte Sharpe Ratio und die Kapitalrotation in Altcoins statt in Bitcoin. Der moderate Tagesgewinn von +0,6% bei BTC und +0,9% bei ETH deutet auf eine breite, wenig überzeugend fundierte Sentiment-Erholung hin, nicht auf Bitcoin-spezifische Stärke. Peter Brandts angekündigter Pivot zu Gold und die SpaceX-IPO-Dynamik verstärken das Bild eines Makro-Umfelds, das Risk-On-Assets strukturell unter Druck hält. Insgesamt tendiere ich zu einer leicht bearishen Einschätzung, da die technischen und fundamentalen Warnsignale die schwache Kontraindikator-Hoffnung überwiegen – ohne jedoch den extremen Pessimismus von Haiku vollständig zu teilen.",
+      "eigene_gewichtung": {
+        "bullish": 25,
+        "bearish": 60,
+        "neutral": 15
+      },
+      "kommentar_zu_haiku": "Haikus Einschätzung von -2 ist gut begründet und ich teile die Kernanalyse zur Sharpe-Ratio-Verschlechterung und zur Altcoin-Rotation als Warnsignal. Allerdings halte ich die Nennung eines 'gestrigen Anstiegs über €63.900' für möglicherweise fehlerhaft oder auf einem anderen Zeitfenster basierend – bei einem aktuellen Kurs von ~€55.000 wäre ein solcher Rückgang von fast 14% in einem Tag extrem ungewöhnlich und sollte explizit kommentiert werden. Den Extreme Fear Index bei 24 würde ich etwas höher gewichten als Haiku: Nicht als verlässliches Kaufsignal, aber als Hinweis, dass das kurzfristige Abwärtspotenzial durch überdehnte Short-Positionen begrenzt sein könnte. Ergänzend würde ich stärker auf die bevorstehenden FOMC-Minutes als entscheidenden Katalysator hinweisen – hawkische Signale dort würden die bearishe These konkret bestätigen und könnten den Schlüssellevel bei €50.800 real testen.",
+      "uebereinstimmung_mit_haiku": "hoch",
+      "szenario_bedingungen": [
+        "Bestätigung bearish: FOMC-Minutes (Woche 6.-13. Juli) zeigen hawkischere Haltung als erwartet – Risk-On-Assets brechen ein und BTC fällt unter €53.500 EUR auf Tagesschlusskursbasis",
+        "Bestätigung bearish: Bitcoin-Kurs bricht unter €50.800 EUR und schließt darunter, was kaskadierende Long-Liquidationen auslöst und die Bodenbildungs-Narrativ falsifiziert",
+        "Bestätigung bullish: ETF-Zuflüsse kehren auf mehrere aufeinanderfolgende Tage mit >200 Mio. USD zurück und BTC hält >€57.000 EUR trotz makroökonomischem Gegenwind",
+        "Bestätigung bullish: Fear & Greed Index steigt binnen 5-7 Tagen über 40 (Bereich 'Fear') und Altcoin-Dominanz fällt wieder zugunsten von Bitcoin-Dominanz über 55%"
+      ],
+      "haiku_einschaetzung_zum_vergleich": -2,
+      "erstellt_am": "2026-07-06T11:55:24.869357"
+    },
+    {
       "datum": "2026-07-05",
       "kurs_eur": 54805,
       "eigene_einschaetzung_numerisch": -1,
@@ -73,5 +94,5 @@
       "erstellt_am": "2026-07-02T13:26:01.437728"
     }
   ],
-  "letzte_aktualisierung": "2026-07-05"
+  "letzte_aktualisierung": "2026-07-06"
 }
