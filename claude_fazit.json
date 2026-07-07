@@ -1,6 +1,27 @@
 {
   "fazits": [
     {
+      "datum": "2026-07-07",
+      "kurs_eur": 55321,
+      "eigene_einschaetzung_numerisch": -1,
+      "eigene_einschaetzung": "Der Bitcoin-Markt zeigt heute eine leichte Erholung auf €55.321 EUR mit +0,5% – ein kleines positives Signal, aber keineswegs ein Trendwechsel. Die Marktstimmung mit Fear & Greed bei 27 bleibt gedrückt, was einerseits konträres Aufwärtspotenzial andeutet, andererseits zeigt, dass das Vertrauen der Marktteilnehmer noch nicht zurückgekehrt ist. Auffällig ist, dass BTC und ETH sich heute im Gleichschritt bewegen (+0,5% vs. +0,2%), was auf eine leicht positive, aber breite Risikostimmung hindeutet – kein Bitcoin-spezifischer Katalysator erkennbar. Ohne neue fundamentale Ereignisse heute und angesichts der anhaltenden Konsolidierungsphase nach dem Juni-Einbruch überwiegen weiterhin leicht die Abwärtsrisiken, obwohl der Fear-Bereich historisch oft den Boden markiert. Ich bewerte die Lage mit -1, eine moderate bearishe Tendenz bei leicht verbesserter Stimmung.",
+      "eigene_gewichtung": {
+        "bullish": 30,
+        "bearish": 45,
+        "neutral": 25
+      },
+      "kommentar_zu_haiku": "Da kein Haiku-Fazit für heute vorliegt, kann ich keinen direkten Vergleich ziehen. Ich ergänze jedoch: Die leichte Preiserholung heute bei gleichzeitig ruhigem Nachrichtenumfeld deutet auf organische Konsolidierung hin – weder ein starkes Kaufsignal noch ein Warnsignal. Die Entwicklung der letzten Tage (meine Einschätzungen von -2 bis 0) scheint sich zu bestätigen: Der Markt findet keinen klaren Boden, schwankt aber auch nicht stark weiter nach unten. Auffällig ist die leichte Verbesserung des Fear & Greed von 22-24 auf jetzt 27 – ein minimaler Stimmungsaufheller, der aber noch keine Trendwende markiert.",
+      "uebereinstimmung_mit_haiku": "niedrig",
+      "szenario_bedingungen": [
+        "Bestätigung des bearishen Szenarios: Bitcoin fällt wieder unter €53.000 EUR und hält dieses Niveau über mehrere Handelstage, was den Supportbereich endgültig bricht",
+        "Bestätigung des bullishen Szenarios: Fear & Greed Index steigt nachhaltig über 40 und Bitcoin überschreitet €58.000 EUR mit erhöhtem Volumen, was eine echte Trendwende signalisieren würde",
+        "Entscheidender Katalysator: Signifikante ETF-Abflüsse über mehrere aufeinanderfolgende Tage (>200 Mio. USD täglich) würden das bearishe Szenario erheblich verstärken",
+        "Makroökonomischer Auslöser: Eine überraschende Fed-Entscheidung oder ein CPI-Druck-Anstieg in den USA würde Risikoassets inklusive Bitcoin unter Druck setzen und meine bearishe Einschätzung bestätigen"
+      ],
+      "haiku_einschaetzung_zum_vergleich": null,
+      "erstellt_am": "2026-07-07T10:45:23.987588"
+    },
+    {
       "datum": "2026-07-06",
       "kurs_eur": 55009,
       "eigene_einschaetzung_numerisch": -2,
@@ -94,5 +115,5 @@
       "erstellt_am": "2026-07-02T13:26:01.437728"
     }
   ],
-  "letzte_aktualisierung": "2026-07-06"
+  "letzte_aktualisierung": "2026-07-07"
 }
