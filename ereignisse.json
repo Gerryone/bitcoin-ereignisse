@@ -1,6 +1,41 @@
 {
-  "letzte_aktualisierung": "2026-07-06",
+  "letzte_aktualisierung": "2026-07-07",
   "ereignisse": [
+    {
+      "datum": "2026-07-07",
+      "kategorie": "OnChain",
+      "titel": "Open Interest fällt – Rallye-Haltbarkeit in Frage gestellt",
+      "beschreibung": "Bitcoin stürzte von $64.500 (zwei-Wochen-Hoch) zurück, während das Open Interest in Derivaten sank. Dies signalisiert fehlende Hebelposition-Unterstützung für den Juli-Anstieg von 8,4%. Die technische Divergenz zwischen Preisanstieg und Derivat-Engagement deutet auf schwache Marktbreite hin und stellt die Nachhaltigkeit der Rally in Frage.",
+      "einschaetzung_numerisch": -2
+    },
+    {
+      "datum": "2026-07-07",
+      "kategorie": "Makro",
+      "titel": "Japanische Zinsen steigen – neuer Gegenwind für Risk Assets",
+      "beschreibung": "Japanische Anleiherenditen klettern weiter, was US-Treasuries mit sich zieht. Dies belastet Risk Assets wie Bitcoin unmittelbar, da höhere risikofreie Renditen Opportunitätskosten für volatile Assets erhöhen. Das Carry-Trade-Unwinding könnte sich beschleunigen und Liquidität aus Kryptos abziehen.",
+      "einschaetzung_numerisch": -3
+    },
+    {
+      "datum": "2026-07-07",
+      "kategorie": "Institutionell",
+      "titel": "Coinbase UK-Lizenz – Regulierungsausweitung, aber fragliche BTC-Direkteffekte",
+      "beschreibung": "Coinbase erhält FCA-Genehmigung für traditionelle Kapitalmarkt-Instrumente neben Krypto (Perpetual Futures, Equities). Dies ist langfristig bullish für Krypto-Infrastruktur und Mainstream-Adoption, aber BTC profitiert nicht unmittelbar – eher ETF- und Derivatives-Volumen-Effekt. Heute: neutraler bis schwach-positiver Katalysator (+1).",
+      "einschaetzung_numerisch": 1
+    },
+    {
+      "datum": "2026-07-07",
+      "kategorie": "Institutionell",
+      "titel": "Binance BTC Yield-Produkt – Yield-Jagd als Late-Cycle-Signal",
+      "beschreibung": "Binance launcht 'BTC Yield' für Hodler, um Yield-Hunger zu stillen. Dies ist klassisch für spätzyklische Phasen, wenn Anleger Risiko suchen, um fehlende Rendite zu kompensieren. Signalisiert, dass institutionelle Nachfrage abkühlt und Rückgewinnung durch Rendite-Strukturen erfolgt – eher bearish für echte Preisappreciation.",
+      "einschaetzung_numerisch": -1
+    },
+    {
+      "datum": "2026-07-07",
+      "kategorie": "OnChain",
+      "titel": "Spot-ETF-Blutung setzt sich fort – 8. Woche negative Netto-Flows",
+      "beschreibung": "Spot-Bitcoin-ETFs verzeichneten in der verkürzten Feiertags-Woche Netto-Abflüsse von $526,6 Mio. Dies ist die achte aufeinanderfolgende Woche mit negativen Flows. Institutionelle Investoren signalisieren damit Disengagement troück gegenwärtiger +2,7% Tages-Rally. Klassisches Zeichen schwacher Nachfrage im Aufwärts-Trend.",
+      "einschaetzung_numerisch": -2
+    },
     {
       "datum": "2026-07-06",
       "kategorie": "Makro",
@@ -235,6 +270,26 @@
   ],
   "fazits": [
     {
+      "datum": "2026-07-07",
+      "einschaetzung_numerisch": -2,
+      "kurs_eur": 55419,
+      "einschaetzung": "Bitcoin zeigt taktische Stärke (+2,7% in 24h, €55.419), aber unter der Oberfläche mehren sich Warnsignale einer angeschlagenen Rally. Das offene Interesse sinkt bei gleichzeitig stagnierenden Spot-Flows (8. Woche negativ), was darauf hindeutet, dass Retail-/Leverage-Positionen den Anstieg tragen, nicht fundamentale Nachfrage. Der Fear & Greed Index bei 27 signalisiert zwar 'Angst', doch das ist in diesem Kontext nicht automatisch bullish – es könnte auch Resignation von bullish Positionen sein. Negativ wirken steigende japanische Zinsen, schwache US-Nachfrage und Strategy's 216-Mio.-USD-Bitcoin-Verkauf zur Dividend-Finanzierung (signalisiert Druck auf Sator-Modell). ETH bewegt sich im Gleichschritt (+2,5%), was auf breiten Risk-On-Markt deutet, nicht auf BTC-spezifische Stärke. Das Szenario einer 'durable bottom' (wie Grayscale argumentiert) ist nicht falsch, aber heute sind die Katalysatoren zu schwach und die Gegenkräfte (Makro-Zins, fehlende institutionelle Beteiligung) zu dominant. Mittelfristig bleibt Akkumulation unter Whales relevant, aber der aktuelle Aufbau ist fragil.",
+      "gewichtung": {
+        "bullish": 25,
+        "bearish": 60,
+        "neutral": 15
+      },
+      "schluessel_niveau_eur": 48000,
+      "schluessel_niveau_erklaerung": "€48.000 markiert das Juni-Tief und ist psychologisch kritisch. Ein Bruch darunter würde die These der 'durable bottom' widerlegen und könnte Whale-Akkumulation als fehlerhaft entlarven. Oberhalb 48.000 EUR bleibt ein fragiler Support vorhanden; Bruch nach unten signalisiert Eskalation zu neuen Tiefs (43k–45k EUR möglich bei Carry-Trade-Unwinding). Oberhalb 56.000 EUR öffnet sich erst wieder bullish Szenario.",
+      "naechster_katalysator": "US-Arbeitsmarkt-Daten (nächste Woche): Sollten die Zahlen weiter schwächen, könnte Fed-Zinssenkungsdruck steigen und BTC unterstützen. Umgekehrt: Japanische Notenbank-Signale diese Woche – weitere Rendite-Anstiege könnten Carry-Trade-Unwinding beschleunigen und BTC unter €50k drücken. Mittelfristig: Klarheit zur US-Bitcoin-Reserve-Struktur (noch 'in Evaluierung') – könnte Milliarden freigeben.",
+      "szenario_bedingungen": [
+        "Open Interest stabilisiert sich mindestens 3 Tage auf aktuellem Niveau und steigt danach wieder – Derivat-Markt bestätigt Rallye-Kraft",
+        "Spot-Bitcoin-ETF-Flows drehen positiv (mindestens $200M Netto-Zuflüsse in einer Woche) – institutionelle Rückkehr nach 8 Wochen Abflüssen",
+        "US 10-Jahr Treasuries fallen unter 3,9% Rendite und japanische 10J-Yields sinken oder stabilisieren – Makro-Gegenwind lässt nach",
+        "Strategy oder andere große Bitcoin-Holder halten Verkäufe ein oder drehen zu Akkumulation – Signalwechsel der Mega-Whales"
+      ]
+    },
+    {
       "datum": "2026-07-06",
       "einschaetzung_numerisch": -2,
       "kurs_eur": 55009,
@@ -292,7 +347,14 @@
         "BTC/USD bleibt über 61.000 USD und schließt Wochenchart nicht unter 59.000 EUR (technische Bestätigung der Whale-Akkumulation)",
         "Fed-Gouverneure oder Powell äußern sich zu Zinssenkungen im H2 2026 oder August – konkrete Forward Guidance unter 3,5% bis Jahresende",
         "Corporate-Treasury-Nachahmer (außer Strategie) kündigen BTC-Käufe an oder Saylor kalibriert Strategie um: Equity-Finanzierung statt BTC-Verkäufe"
-      ]
+      ],
+      "rueckblick": {
+        "einschaetzung_damals": 1,
+        "kurs_damals_eur": 54594,
+        "kurs_heute_eur": 55419,
+        "veraenderung_prozent": 1.51,
+        "rueckblick": "Das Fazit vom 2026-07-04 war moderat bullish (Score: +1) und erwartete Boden-Akkumulation trotz ETF-Blutung. Rückblick nach 3 Tagen: Bitcoin legte moderat um +1,51% zu und bestätigte die taktische Aufwärts-Dynamik. Allerdings offenbarten sich seither **kritische Schwächen**: (1) Das Open Interest sinkt trotz Preisaufstieg – eine klassische Divergenz, die die Aussage 'bullish Whale-Akkumulation' in Frage stellt. (2) Strategy verkaufte massiv ($216M) zur Dividend-Finanzierung, was gegen die 'Whale-Bullish'-These spricht und die fundamentale Fragilität des Saylor-Modells bestätigt JPMorgans Kritik. (3) Spot-ETF-Flows blieben negativ (8. Woche), trotz Preisanstieg – klassisches Late-Cycle-Signal. **Selbstkritik**: Das Fazit vom 04.07. war zu optimistisch bei der Bewertung der Whale-Akkumulation als 'historisch bullish'. Es ignorierte, dass Whale-Buying ohne institutionelle ETF-Unterstützung fragil ist und dass Saylor selbst massive Verkäufe durchführt. Die Annahme, dass 'schwacher US-Arbeitsmarkt = Zinssenkungen = Bitcoin-Rally' funktioniert, wird durch steigende japanische Zinsen und Carry-Trade-Unwinding konterkariert. **Korrektives Update**: Der moderate Aufstieg war real, bestätigt aber nicht die Bull-These. Es war eher eine technische Erholung von Extreme-Fear-Bedingungen, keine fundamentale Trendwende. Score +1 war korrekt positioniert, aber die Begründung war zu sehr auf Whale-Action fokussiert und ignorierte das ETF-Zeichen und Makro-Gegenwind (japanische Zinsen)."
+      }
     },
     {
       "datum": "2026-07-03",
