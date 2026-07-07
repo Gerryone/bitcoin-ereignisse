@@ -6,15 +6,14 @@ und aktualisiert ereignisse.json im Repository.
 
 GEÄNDERT (02.07.2026): "richtung" (bullish/bearish/neutral) und
 "tendenz" wurden durch eine direkte numerische Einschätzung von -5
-(stark negativ) bis +5 (stark positiv) ersetzt. Grund: Die Übersetzung
-von bullish/bearish/neutral in eine Zahl musste vorher nachträglich
-(und notwendigerweise ungenau) in Home Assistant geraten werden -
-jetzt liefert Claude die Zahl direkt, feiner abgestuft und ohne
-Informationsverlust durch die Zwischenübersetzung.
+(stark negativ) bis +5 (stark positiv) ersetzt.
 
-GEÄNDERT (07.07.2026): max_tokens auf 6000 erhöht (Antwort wurde
-manchmal mitten im JSON abgeschnitten). JSON-Parsing robuster gemacht:
-aggressivere Bereinigung der Response + automatischer Retry (bis 3x).
+GEÄNDERT (07.07.2026): max_tokens auf 6000 erhöht + Retry-Logik (3x)
++ aggressivere JSON-Bereinigung.
+
+GEÄNDERT (07.07.2026): Gold- und Silberkurse (EUR) werden täglich
+abgerufen, in edelmetalle.json gespeichert und in den Prompt
+aufgenommen, damit Haiku im Ereignis-Log auf die Entwicklung eingeht.
 """
 
 import json
@@ -29,15 +28,6 @@ import anthropic
 # ─── Daten-Abruf ────────────────────────────────────────────────────────────
 
 def fetch_crypto_prices():
-    """
-    Aktuellen BTC- und ETH-Kurs in EUR/USD sowie deren 24h-Änderung
-    von CoinGecko holen. Der Ethereum-Kontext wird als zusätzliche
-    Information in den Prompt aufgenommen (siehe build_prompt) - die
-    Korrelation zwischen BTC und ETH ist meist deutlich, aber nicht
-    konstant (Ethereum hat auch eigene Treiber wie Foundation-News,
-    Layer-2-Wachstum, Staking-Anteil), daher überlassen wir die
-    Einordnung dem Sprachmodell statt sie fest zu verrechnen.
-    """
     try:
         resp = requests.get(
             "https://api.coingecko.com/api/v3/simple/price",
@@ -66,16 +56,107 @@ def fetch_crypto_prices():
         }
 
 
+def fetch_precious_metals():
+    """
+    Gold- und Silberkurs in EUR von metals.live abrufen (kostenlos, kein API-Key).
+    Gibt Kurs pro Unze (oz) zurück. Fallback auf Vortagswert falls API nicht
+    erreichbar. Wechselkurs USD→EUR wird ebenfalls von der API geliefert.
+    """
+    try:
+        resp = requests.get(
+            "https://api.metals.live/v1/spot",
+            timeout=15,
+            headers={"User-Agent": "Mozilla/5.0"},
+        )
+        resp.raise_for_status()
+        data = resp.json()
+
+        # API liefert Liste von Objekten: [{"gold": 3200.5}, {"silver": 32.1}, ...]
+        metals = {}
+        for item in data:
+            metals.update(item)
+
+        # USD→EUR Kurs für Umrechnung
+        fx_resp = requests.get(
+            "https://api.frankfurter.app/latest?from=USD&to=EUR",
+            timeout=15,
+        )
+        fx_resp.raise_for_status()
+        usd_to_eur = fx_resp.json()["rates"]["EUR"]
+
+        gold_usd = float(metals.get("gold", 0))
+        silver_usd = float(metals.get("silver", 0))
+
+        gold_eur = round(gold_usd * usd_to_eur, 2)
+        silver_eur = round(silver_usd * usd_to_eur, 4)
+
+        print(f"  Gold:   ${gold_usd:,.2f} / €{gold_eur:,.2f} pro Unze")
+        print(f"  Silber: ${silver_usd:,.3f} / €{silver_eur:,.3f} pro Unze")
+        print(f"  USD/EUR: {usd_to_eur:.4f}")
+
+        return {
+            "gold_usd": gold_usd,
+            "gold_eur": gold_eur,
+            "silver_usd": silver_usd,
+            "silver_eur": silver_eur,
+            "usd_eur": usd_to_eur,
+        }
+    except Exception as e:
+        print(f"  Warnung: Edelmetall-Abruf fehlgeschlagen ({e}), nutze Fallback", file=sys.stderr)
+        return {
+            "gold_usd": 3200.0,
+            "gold_eur": 2950.0,
+            "silver_usd": 32.0,
+            "silver_eur": 29.5,
+            "usd_eur": 0.922,
+        }
+
+
+def load_edelmetalle(path="edelmetalle.json"):
+    """Bisherige Edelmetall-Kursdaten laden (für Verlaufsdarstellung in HA)."""
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        return {"kurse": []}
+
+
+def save_edelmetalle(daten, path="edelmetalle.json"):
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(daten, f, ensure_ascii=False, indent=2)
+
+
+def update_edelmetalle(metalle, heute):
+    """
+    Tageskurs in edelmetalle.json eintragen. Bereits vorhandener Eintrag
+    für heute wird überschrieben (Idempotenz bei mehrfachem Run).
+    Maximale Anzahl gespeicherter Tage: 90.
+    """
+    daten = load_edelmetalle()
+    kurse = daten.get("kurse", [])
+
+    # Heutigen Eintrag entfernen falls vorhanden (Überschreiben)
+    kurse = [k for k in kurse if k["datum"] != heute]
+
+    kurse.insert(0, {
+        "datum": heute,
+        "gold_eur": metalle["gold_eur"],
+        "gold_usd": metalle["gold_usd"],
+        "silver_eur": metalle["silver_eur"],
+        "silver_usd": metalle["silver_usd"],
+        "usd_eur": metalle["usd_eur"],
+    })
+
+    # Auf 90 Tage begrenzen
+    kurse = kurse[:90]
+    daten["kurse"] = kurse
+    daten["letzte_aktualisierung"] = heute
+    save_edelmetalle(daten)
+    print(f"  ✓ edelmetalle.json aktualisiert ({len(kurse)} Einträge)")
+    return daten
+
+
 def fetch_fear_greed():
-    """
-    Aktuellen Crypto Fear & Greed Index von alternative.me holen
-    (kostenlos, kein API-Key nötig - dieselbe Quelle, die auch im
-    Home-Assistant-Dashboard genutzt wird). Wert 0-100:
-    0-24 Extreme Fear, 25-49 Fear, 50 Neutral, 51-74 Greed, 75-100
-    Extreme Greed. Wird als Kontext in den Prompt aufgenommen, siehe
-    build_prompt - fließt bewusst nicht in eine feste Formel ein,
-    sondern wird dem Sprachmodell zur eigenen Einordnung überlassen.
-    """
     try:
         resp = requests.get("https://api.alternative.me/fng/?limit=1", timeout=15)
         resp.raise_for_status()
@@ -90,24 +171,16 @@ def fetch_fear_greed():
 
 
 def fetch_rss(url, source_name, cutoff_hours=48):
-    """RSS-Feed abrufen und Artikel der letzten cutoff_hours Stunden zurückgeben."""
     articles = []
     cutoff = datetime.utcnow() - timedelta(hours=cutoff_hours)
     try:
         resp = requests.get(url, timeout=15, headers={"User-Agent": "Mozilla/5.0"})
         resp.raise_for_status()
         root = ET.fromstring(resp.content)
-
-        ns = {
-            "dc": "http://purl.org/dc/elements/1.1/",
-            "content": "http://purl.org/rss/1.0/modules/content/",
-        }
-
         for item in root.iter("item"):
             title = (item.findtext("title") or "").strip()
             desc  = (item.findtext("description") or "").strip()[:400]
             pub   = item.findtext("pubDate") or ""
-
             pub_dt = None
             for fmt in ("%a, %d %b %Y %H:%M:%S %z", "%a, %d %b %Y %H:%M:%S GMT"):
                 try:
@@ -115,10 +188,8 @@ def fetch_rss(url, source_name, cutoff_hours=48):
                     break
                 except ValueError:
                     pass
-
             if pub_dt and pub_dt < cutoff:
                 continue
-
             if title:
                 articles.append({
                     "source": source_name,
@@ -132,14 +203,12 @@ def fetch_rss(url, source_name, cutoff_hours=48):
 
 
 def fetch_recent_news():
-    """Bitcoin-Nachrichten der letzten 48h aus mehreren RSS-Quellen sammeln."""
     feeds = [
         ("https://www.coindesk.com/arc/outboundfeeds/rss/", "CoinDesk"),
         ("https://cointelegraph.com/rss", "CoinTelegraph"),
         ("https://bitcoinmagazine.com/.rss/full/", "Bitcoin Magazine"),
         ("https://cryptonews.com/news/feed/", "CryptoNews"),
     ]
-
     all_articles = []
     for url, name in feeds:
         arts = fetch_rss(url, name)
@@ -153,14 +222,12 @@ def fetch_recent_news():
         a for a in all_articles
         if any(kw in (a["title"] + a["desc"]).lower() for kw in btc_keywords)
     ]
-
     lines = []
     for a in relevant[:30]:
         lines.append(f"[{a['pub']}] {a['source']}: {a['title']}")
         if a["desc"]:
             lines.append(f"  → {a['desc']}")
         lines.append("")
-
     print(f"  Gesamt: {len(relevant)} relevante Bitcoin-Artikel")
     return "\n".join(lines)
 
@@ -179,16 +246,13 @@ def save_data(daten, path="ereignisse.json"):
 
 # ─── Claude-Prompt ──────────────────────────────────────────────────────────
 
-def build_prompt(daten, news_text, preise, fear_greed, heute):
+def build_prompt(daten, news_text, preise, fear_greed, metalle, heute):
     grenze = str(date.today() - timedelta(days=3))
-
     existing_titles = [e["titel"] for e in daten.get("ereignisse", [])]
-
     alte_fazits = [
         f for f in daten.get("fazits", [])
         if f["datum"] <= grenze and "rueckblick" not in f
     ]
-
     fazit_block = ""
     if alte_fazits:
         fazit_block = "\n\nALTE FAZITS OHNE RÜCKBLICK (≥ 3 Tage alt, bitte Rückblick ergänzen):\n"
@@ -205,23 +269,23 @@ def build_prompt(daten, news_text, preise, fear_greed, heute):
 
 AKTUELLER BITCOIN-KURS: €{preise['btc_eur']:,.0f} EUR / ${preise['btc_usd']:,.0f} USD (24h: {preise['btc_change_24h']:+.1f}%)
 
-MARKTKONTEXT ETHEREUM (zweitgrößte Kryptowährung, oft aber nicht immer
-mit Bitcoin korreliert - Ethereum hat auch eigene Treiber wie
-Foundation-Entscheidungen, Layer-2-Wachstum, Staking-Anteil):
+MARKTKONTEXT ETHEREUM:
 ETH-Kurs: €{preise['eth_eur']:,.0f} EUR / ${preise['eth_usd']:,.0f} USD (24h: {preise['eth_change_24h']:+.1f}%)
-Beziehe diesen Kontext in deine Einschätzung ein, wo relevant - z.B. ob
-BTC und ETH sich aktuell im Gleichschritt bewegen (deutet auf breite
-Markt-/Risikostimmung hin) oder auseinanderlaufen (deutet auf
-Bitcoin-spezifische statt allgemeine Krypto-Faktoren hin).
+
+MARKTKONTEXT EDELMETALLE (Kurs pro Unze):
+Gold:   €{metalle['gold_eur']:,.2f} EUR / ${metalle['gold_usd']:,.2f} USD
+Silber: €{metalle['silver_eur']:,.3f} EUR / ${metalle['silver_usd']:,.3f} USD
+
+Beziehe Gold und Silber in deine Ereignis-Beschreibungen ein, wo relevant:
+- Bewegt sich Gold parallel zu Bitcoin (breite Inflations-/Krisenangst)?
+- Läuft Gold besser als Bitcoin (Kapitalrotation zu klassischen Safe-Havens)?
+- Fällt Silber mit Bitcoin (Risk-Off bei allen Assets)?
+Diese Vergleiche sind besonders wertvoll für das Tagesfazit und für Ereignisse
+der Kategorie Makro oder Persönlichkeiten (z.B. wenn jemand von Bitcoin zu Gold
+rotiert). Nenne immer konkrete EUR-Kurse bei Gold/Silber-Erwähnungen.
 
 MARKTSTIMMUNG (Crypto Fear & Greed Index, 0-100):
 {fear_greed['wert']} ({fear_greed['klassifikation']})
-Dieser Index fasst Volatilität, Handelsvolumen, Social-Media-Stimmung
-und weitere Faktoren zusammen. Extreme Werte (unter 20 oder über 80)
-werden von manchen Marktteilnehmern als Kontraindikator gedeutet
-(extreme Angst als möglicher Boden, extreme Gier als möglicher
-Warnhinweis vor Korrektur) - das ist aber kein verlässliches Signal
-für sich allein, beziehe es nur als einen von mehreren Faktoren ein.
 
 AKTUELLE BITCOIN-NACHRICHTEN (letzte 48 Stunden):
 {news_text if news_text else "Keine Nachrichten verfügbar."}
@@ -234,20 +298,12 @@ AUFGABEN:
 1. Wähle 3–5 der marktrelevantesten Ereignisse aus den Nachrichten (keine Duplikate).
 2. Erstelle ein Tagesfazit mit ehrlicher Markteinschätzung.
 3. Schreibe für alle alten Fazits ohne Rückblick einen selbstkritischen Rückblick.
-4. Benenne im Tagesfazit konkrete SZENARIO-BEDINGUNGEN: Welche 2-4
-   konkreten, überprüfbaren Ereignisse/Entwicklungen müssten eintreten,
-   damit sich deine Einschätzung bestätigt? Das ist KEINE Zeitprognose,
-   sondern eine Liste überprüfbarer Auslöser, damit man später
-   nachvollziehen kann, ob genau diese Bedingungen eingetreten sind.
+4. Benenne im Tagesfazit konkrete SZENARIO-BEDINGUNGEN.
 
-WICHTIG: Alle Bitcoin-Preisangaben in EUR. ETF-Flüsse dürfen in USD bleiben.
+WICHTIG: Alle Bitcoin-Preisangaben in EUR. Gold/Silber ebenfalls in EUR.
+ETF-Flüsse dürfen in USD bleiben.
 
-WICHTIG ZUR EINSCHÄTZUNG: Nutze für jedes Ereignis und für das Tagesfazit
-eine numerische Skala von -5 (stark negativ/bearish für Bitcoin) bis +5
-(stark positiv/bullish für Bitcoin), 0 = neutral. Sei bei der Wahl der
-Zahl differenziert - nutze nicht nur die Extremwerte, auch Zwischenwerte
-wie -2, +1, +3 etc. sind erwünscht und meistens realistischer als ein
-Extremwert.
+WICHTIG ZUR EINSCHÄTZUNG: Numerische Skala -5 bis +5, differenziert gewählt.
 
 Antworte AUSSCHLIESSLICH mit einem gültigen JSON-Objekt (kein Markdown, kein Text davor/danach):
 
@@ -257,7 +313,7 @@ Antworte AUSSCHLIESSLICH mit einem gültigen JSON-Objekt (kein Markdown, kein Te
       "datum": "{heute}",
       "kategorie": "ETF|Regulierung|Institutionell|Makro|OnChain|Technik|Persönlichkeiten",
       "titel": "Kurzer prägnanter Titel",
-      "beschreibung": "2-3 Sätze mit konkreten Zahlen. Bitcoin-Kurs immer in EUR.",
+      "beschreibung": "2-3 Sätze mit konkreten Zahlen. Bitcoin-Kurs in EUR. Gold/Silber erwähnen wo relevant.",
       "einschaetzung_numerisch": -3
     }}
   ],
@@ -265,7 +321,9 @@ Antworte AUSSCHLIESSLICH mit einem gültigen JSON-Objekt (kein Markdown, kein Te
     "datum": "{heute}",
     "einschaetzung_numerisch": -3,
     "kurs_eur": {int(preise['btc_eur'])},
-    "einschaetzung": "3-5 Sätze Gesamtbewertung. Warum diese Zahl? Welche Faktoren dominieren?",
+    "gold_eur": {metalle['gold_eur']},
+    "silver_eur": {metalle['silver_eur']},
+    "einschaetzung": "3-5 Sätze Gesamtbewertung inkl. Einordnung von Gold/Silber-Entwicklung.",
     "gewichtung": {{
       "bullish": 30,
       "bearish": 60,
@@ -284,10 +342,9 @@ Antworte AUSSCHLIESSLICH mit einem gültigen JSON-Objekt (kein Markdown, kein Te
 }}
 
 Hinweise:
-- einschaetzung_numerisch: -5 bis +5, differenziert gewählt (nicht nur Extremwerte)
-- gewichtung muss weiterhin exakt 100 ergeben (bullish + bearish + neutral = 100),
-  dient als zusätzliche Kontext-Information neben der Zahl
-- Falls keine alten Fazits vorhanden: "rueckblicke" als leeres Objekt {{}}
+- einschaetzung_numerisch: -5 bis +5, differenziert
+- gewichtung muss exakt 100 ergeben
+- Falls keine alten Fazits: "rueckblicke" als leeres Objekt {{}}
 - Sei bei Rückblicken selbstkritisch und ehrlich
 """
 
@@ -313,11 +370,17 @@ def main():
     print("Abrufen: Fear & Greed Index...")
     fear_greed = fetch_fear_greed()
 
+    print("Abrufen: Gold- und Silberkurs...")
+    metalle = fetch_precious_metals()
+
+    print("Speichern: edelmetalle.json...")
+    update_edelmetalle(metalle, heute)
+
     print("Abrufen: Bitcoin-Nachrichten via RSS (48h)...")
     news = fetch_recent_news()
 
     print("\nAnalyse mit Claude API...")
-    prompt = build_prompt(daten, news, preise, fear_greed, heute)
+    prompt = build_prompt(daten, news, preise, fear_greed, metalle, heute)
 
     client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
 
@@ -334,13 +397,11 @@ def main():
 
         response_text = message.content[0].text.strip()
 
-        # Markdown-Backticks entfernen
         if "```json" in response_text:
             response_text = response_text.split("```json")[1].split("```")[0].strip()
         elif "```" in response_text:
             response_text = response_text.split("```")[1].split("```")[0].strip()
 
-        # Alles vor dem ersten { und nach dem letzten } abschneiden
         start = response_text.find("{")
         end = response_text.rfind("}") + 1
         if start != -1 and end > start:
@@ -348,7 +409,7 @@ def main():
 
         try:
             result = json.loads(response_text)
-            break  # Erfolg
+            break
         except json.JSONDecodeError as e:
             print(f"  Versuch {versuch+1}: Ungültiges JSON ({e})", file=sys.stderr)
             print(f"  Response (erste 300 Zeichen): {response_text[:300]}", file=sys.stderr)
@@ -390,7 +451,9 @@ def main():
     if tagesfazit:
         gew = tagesfazit.get("gewichtung", {})
         print(f"✓ Tagesfazit: Einschätzung {tagesfazit.get('einschaetzung_numerisch', '?')} (-5 bis +5) | "
-              f"€{tagesfazit.get('kurs_eur', 0):,.0f} | "
+              f"BTC €{tagesfazit.get('kurs_eur', 0):,.0f} | "
+              f"Gold €{tagesfazit.get('gold_eur', 0):,.2f} | "
+              f"Silber €{tagesfazit.get('silver_eur', 0):,.3f} | "
               f"Bullish {gew.get('bullish')}% / "
               f"Bearish {gew.get('bearish')}% / "
               f"Neutral {gew.get('neutral')}%")
