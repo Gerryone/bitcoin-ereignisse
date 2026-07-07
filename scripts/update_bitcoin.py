@@ -359,9 +359,15 @@ def main():
     print(f"Bestand: {len(daten.get('ereignisse', []))} Ereignisse, "
           f"{len(daten.get('fazits', []))} Fazits\n")
 
+    print("Abrufen: Gold- und Silberkurs...")
+    metalle = fetch_precious_metals()
+
+    print("Speichern: edelmetalle.json...")
+    update_edelmetalle(metalle, heute)
+
     vorhandene_fazit_daten = {f["datum"] for f in daten.get("fazits", [])}
     if heute in vorhandene_fazit_daten:
-        print("Tagesfazit für heute bereits vorhanden. Nichts zu tun.")
+        print("Tagesfazit für heute bereits vorhanden. Nur edelmetalle.json wurde aktualisiert.")
         sys.exit(0)
 
     print("Abrufen: BTC- und ETH-Kurs...")
@@ -369,12 +375,6 @@ def main():
 
     print("Abrufen: Fear & Greed Index...")
     fear_greed = fetch_fear_greed()
-
-    print("Abrufen: Gold- und Silberkurs...")
-    metalle = fetch_precious_metals()
-
-    print("Speichern: edelmetalle.json...")
-    update_edelmetalle(metalle, heute)
 
     print("Abrufen: Bitcoin-Nachrichten via RSS (48h)...")
     news = fetch_recent_news()
