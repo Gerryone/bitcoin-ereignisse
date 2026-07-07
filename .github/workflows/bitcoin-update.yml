@@ -2,17 +2,14 @@ name: Bitcoin Ereignisse Update
 
 on:
   schedule:
-    # Täglich um 07:00 UTC (09:00 MESZ / 08:00 MEZ)
     - cron: '0 7 * * *'
   workflow_dispatch:
-    # Manuell auslösbar über GitHub UI (Actions → Run workflow)
 
 jobs:
   update:
     runs-on: ubuntu-latest
     permissions:
-      contents: write  # Nötig für git push
-
+      contents: write
     steps:
       - name: Repository auschecken
         uses: actions/checkout@v4
@@ -32,13 +29,13 @@ jobs:
 
       - name: Änderungen committen und pushen
         run: |
-          git config user.name "Bitcoin-Bot"
-          git config user.email "bitcoin-bot@github.com"
-          git add ereignisse.json
+          git config user.name "Bitcoin-Ereignisse-Bot"
+          git config user.email "bitcoin-ereignisse-bot@github.com"
+          git add ereignisse.json edelmetalle.json
           if git diff --staged --quiet; then
             echo "Keine Änderungen – nichts zu committen."
           else
-            git commit -m "Update: Bitcoin-Ereignisse $(date +%Y-%m-%d)"
+            git commit -m "Update: Bitcoin-Ereignisse + Edelmetalle $(date +%Y-%m-%d)"
             git push
             echo "✓ Erfolgreich gepusht."
           fi
