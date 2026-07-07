@@ -11,6 +11,10 @@ von bullish/bearish/neutral in eine Zahl musste vorher nachträglich
 (und notwendigerweise ungenau) in Home Assistant geraten werden -
 jetzt liefert Claude die Zahl direkt, feiner abgestuft und ohne
 Informationsverlust durch die Zwischenübersetzung.
+
+GEÄNDERT (07.07.2026): max_tokens auf 6000 erhöht (Antwort wurde
+manchmal mitten im JSON abgeschnitten). JSON-Parsing robuster gemacht:
+aggressivere Bereinigung der Response + automatischer Retry (bis 3x).
 """
 
 import json
@@ -316,25 +320,41 @@ def main():
     prompt = build_prompt(daten, news, preise, fear_greed, heute)
 
     client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
-    message = client.messages.create(
-        model="claude-haiku-4-5",
-        max_tokens=4096,
-        messages=[{"role": "user", "content": prompt}],
-    )
 
-    response_text = message.content[0].text.strip()
+    result = None
+    for versuch in range(3):
+        if versuch > 0:
+            print(f"  Retry {versuch}/2...")
 
-    if "```json" in response_text:
-        response_text = response_text.split("```json")[1].split("```")[0].strip()
-    elif "```" in response_text:
-        response_text = response_text.split("```")[1].split("```")[0].strip()
+        message = client.messages.create(
+            model="claude-haiku-4-5",
+            max_tokens=6000,
+            messages=[{"role": "user", "content": prompt}],
+        )
 
-    try:
-        result = json.loads(response_text)
-    except json.JSONDecodeError as e:
-        print(f"\nFehler: Ungültiges JSON von Claude: {e}", file=sys.stderr)
-        print(f"Response (erste 500 Zeichen): {response_text[:500]}", file=sys.stderr)
-        sys.exit(1)
+        response_text = message.content[0].text.strip()
+
+        # Markdown-Backticks entfernen
+        if "```json" in response_text:
+            response_text = response_text.split("```json")[1].split("```")[0].strip()
+        elif "```" in response_text:
+            response_text = response_text.split("```")[1].split("```")[0].strip()
+
+        # Alles vor dem ersten { und nach dem letzten } abschneiden
+        start = response_text.find("{")
+        end = response_text.rfind("}") + 1
+        if start != -1 and end > start:
+            response_text = response_text[start:end]
+
+        try:
+            result = json.loads(response_text)
+            break  # Erfolg
+        except json.JSONDecodeError as e:
+            print(f"  Versuch {versuch+1}: Ungültiges JSON ({e})", file=sys.stderr)
+            print(f"  Response (erste 300 Zeichen): {response_text[:300]}", file=sys.stderr)
+            if versuch == 2:
+                print("\nFehler: JSON nach 3 Versuchen nicht parsebar.", file=sys.stderr)
+                sys.exit(1)
 
     rueckblicke = result.get("rueckblicke", {})
     grenze = str(date.today() - timedelta(days=3))
