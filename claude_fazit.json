@@ -1,6 +1,27 @@
 {
   "fazits": [
     {
+      "datum": "2026-07-08",
+      "kurs_eur": 54171,
+      "eigene_einschaetzung_numerisch": -2,
+      "eigene_einschaetzung": "Die Marktlage bleibt klar bearish geprägt: Die Iran-Krise-Eskalation liefert einen handfesten makroökonomischen Druckfaktor, der kurzfristig kaum durch regulatorische Fortschritte (SEC, Vanguard, Coinbase UK) kompensiert werden kann. Bemerkenswert ist der Gleichschritt von BTC (-2,1%) und ETH (-2,5%) – beide fallen nahezu identisch, was auf breite Risikoaversion als Treiber hindeutet, nicht auf Bitcoin-spezifische Schwäche. Der Extreme Fear Index bei 20 ist als Kontraindikator theoretisch relevant, wird aber durch reale geopolitische Entwicklungen überschrieben – ein Boden aus Erschöpfung heraus ist möglich, aber kein verlässliches Signal ohne Stabilisierungskatalysator. Meine konsistent bearishe Haltung der letzten Woche bestätigt sich: Die kurzfristige Erholung vom 07.07. auf €55.321 hat keine Substanz gezeigt und wurde schnell korrigiert.",
+      "eigene_gewichtung": {
+        "bullish": 20,
+        "bearish": 65,
+        "neutral": 15
+      },
+      "kommentar_zu_haiku": "Haikus Analyse ist solide und ich teile die Kernaussagen weitgehend – insbesondere die Einschätzung des Risk-Off-Musters und die Beobachtung, dass Gold und Silber keine klassische Safe-Haven-Divergenz zeigen. Ich würde jedoch die Formulierung 'panisches Derisiking' etwas abschwächen: Das Muster sieht eher nach einem geordneten, wenn auch breiten Verkaufsdruck aus als nach echter Panik. Positiv fällt auf, dass Haiku den ETH-BTC-Gleichschritt nicht explizit erwähnt – dieser ist jedoch ein wichtiger Indikator, der die allgemeine Risikoaversion unterstreicht und gegen Bitcoin-spezifische Narrative (ETF-Blutung als isolierter Faktor) spricht. Die Gewichtung 25% bullish / 65% bearish teile ich, wobei ich bei 20% bullish / 65% bearish lande, da ich den regulatorischen Fortschritten noch weniger kurzfristiges Gewicht beimesse – Institutionalisierung ist ein langer Trend, kein Kurstreiber dieser Woche.",
+      "uebereinstimmung_mit_haiku": "hoch",
+      "szenario_bedingungen": [
+        "Iran-Krise-Deeskalation: Offizielle Waffenstillstandsankündigung oder diplomatische Verhandlungen führen zu einem Rückgang der Ölpreise unter vorherige Niveaus – dies wäre ein klarer Bullish-Katalysator für alle Risk Assets inklusive Bitcoin",
+        "Bruch unter €48.000 EUR: Unterschreitung des H1-2026-Korrektionstief bei €48.000 würde das Bodenbildungs-Narrativ widerlegen und neue bearishe Dynamik mit potenziell beschleunigten Verkäufen auslösen",
+        "Spot-ETF-Zuflüsse über 3 aufeinanderfolgende Tage über +300 Mio. USD: Würde signalisieren, dass institutionelle Nachfrage trotz Makro-Gegenwind zurückkehrt und die aktuelle Schwäche als Kaufgelegenheit gewertet wird",
+        "SEC Reg Crypto Proposal vom 16. Juli enthält konkrete, marktfreundliche Details: Klare Klassifizierungsrahmen ohne prohibitive Auflagen würden regulatorische Unsicherheit reduzieren und könnten mittel- bis langfristig als strukturell bullish bewertet werden"
+      ],
+      "haiku_einschaetzung_zum_vergleich": -2,
+      "erstellt_am": "2026-07-08T10:07:28.856189"
+    },
+    {
       "datum": "2026-07-07",
       "kurs_eur": 55321,
       "eigene_einschaetzung_numerisch": -1,
@@ -115,5 +136,5 @@
       "erstellt_am": "2026-07-02T13:26:01.437728"
     }
   ],
-  "letzte_aktualisierung": "2026-07-07"
+  "letzte_aktualisierung": "2026-07-08"
 }
