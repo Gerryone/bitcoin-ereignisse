@@ -1,6 +1,41 @@
 {
-  "letzte_aktualisierung": "2026-07-07",
+  "letzte_aktualisierung": "2026-07-08",
   "ereignisse": [
+    {
+      "datum": "2026-07-08",
+      "kategorie": "Makro",
+      "titel": "Iran-Krise eskaliert erneut – Geopolitisches Risk-Off drückt Bitcoin und alle Risk Assets",
+      "beschreibung": "Trump verkündet Ende des Iran-Waffenstillstands; neue US-Luftschläge und Raketenbeschuss auf Schiffe im Persischen Golf treiben Ölpreise nach oben und drücken Bitcoin auf €54.171 (-1,9% in 24h). Hedge-Fonds haben sich auf die bärischste Yen-Position seit 2007 positioniert (138.000 Kontrakte). Gold (€2.950/oz) bleibt stabil, Silber (€29,50/oz) folgt Bitcoin nach unten – klassisches Risk-Off-Muster ohne Safe-Haven-Divergenz.",
+      "einschaetzung_numerisch": -3
+    },
+    {
+      "datum": "2026-07-08",
+      "kategorie": "Regulierung",
+      "titel": "SEC und Vanguard signalisieren Institutionalisierung – aber Markt bleibt skeptisch",
+      "beschreibung": "SEC agendarisiert Reg Crypto für Juli 2026; Vanguard sucht Digital-Assets-Chef für Tokenisierung und Stablecoins. Coinbase erhält UK-Lizenz für Perpetual Futures und Equity-Trading. Trotz dieser positiven Regulierungstrends verharrt Bitcoin bei €54.171, was auf Vertrauensverlust hindeutet: Institutionalisierung kommt zu spät, während Marktgrundlagen (ETF-Blutung, schwache Spot-Nachfrage) erosiv bleiben.",
+      "einschaetzung_numerisch": -1
+    },
+    {
+      "datum": "2026-07-07",
+      "kategorie": "OnChain",
+      "titel": "Open Interest fällt weiter – Rally-Haltbarkeit bleibt fraglich",
+      "beschreibung": "Bitcoin stieg am 7. Juli auf €54.400 (≈$64.400), zog sich dann zurück. Open Interest ist gesunken und signalisiert schwache Derivate-Unterstützung, während Spot-Nachfrage weiterhin versiegt. Die 8,4% Juli-Gewinne werden durch fallende Leverage und mangelnde institutionelle Unterstützung in Frage gestellt.",
+      "einschaetzung_numerisch": -2
+    },
+    {
+      "datum": "2026-07-07",
+      "kategorie": "Institutionell",
+      "titel": "Strategie-Verkäufe destabilisieren Narrative – JPMorgan kritisiert Saylor",
+      "beschreibung": "Strategie Capital hat in den letzten Wochen mehrere hundert Millionen USD an Bitcoin verkauft, nachdem zuvor tausende BTC gekauft wurden. JPMorgan kritisiert die Inkohärenz der Saylor-Strategie öffentlich. Dies beschädigt das Erzählung von Corporate Treasury Accumulation und deutet auf Gewinnmitnahmen bei schwacher Marktsituation hin.",
+      "einschaetzung_numerisch": -2
+    },
+    {
+      "datum": "2026-07-08",
+      "kategorie": "Technologie",
+      "titel": "Base B20 Standard Aktivierung – technologischer Fortschritt ohne Kurs-Support",
+      "beschreibung": "Base aktiviert seinen B20 Token Standard für Stablecoins und Real-World Assets am 8. Juli; gleichzeitig wird die XRP Ledger-Sicherheitsan-Amendment fragmentiert. Diese On-Chain-Entwicklungen sind graduell positiv, können aber das Makro-Bearishness (Extreme Fear Index 20) nicht aufheben und bieten keinen unmittelbaren Bitcoin-Kurs-Katalysator.",
+      "einschaetzung_numerisch": 0
+    },
     {
       "datum": "2026-07-07",
       "kategorie": "OnChain",
@@ -270,6 +305,27 @@
   ],
   "fazits": [
     {
+      "datum": "2026-07-08",
+      "einschaetzung_numerisch": -2,
+      "kurs_eur": 54171,
+      "gold_eur": 2950.0,
+      "silver_eur": 29.5,
+      "einschaetzung": "Bitcoin fällt auf €54.171 (-1,9%) inmitten einer Iran-Krise-Eskalation, die ein klassisches Risk-Off-Szenario auslöst. Gold (€2.950/oz) und Silber (€29,50/oz) zeigen keine Divergenz zu Bitcoin – beide Assets werden mit gleichem Gewicht verkauft, was bedeutet, dass es sich nicht um eine Kapitalrotation zu klassischen Safe-Havens handelt, sondern um panisches Derisiking über alle Assetklassen hinweg. Positiv: Die Regulierungs-Pipeline (SEC Reg Crypto, Vanguard Digital Assets Chief, Coinbase UK-Lizenz) zeugt von institutioneller Vorbereitung; negativ: Strategie-Verkäufe, sinkende Open Interest und schwache Spot-ETF-Zuflüsse widerlegen die Akkumulations-These in kritischen Momenten. Der Extreme Fear Index (20) könnte konträr-indikatorsches Potenzial bieten, wird aber durch makroökonomische und geopolitische Realität überschrieben.",
+      "gewichtung": {
+        "bullish": 25,
+        "bearish": 65,
+        "neutral": 10
+      },
+      "schluessel_niveau_eur": 48000,
+      "schluessel_niveau_erklaerung": "€48.000 ist das kritische H1-2026-Korrektionstief und psychologische Unterstützung. Ein Bruch unter dieses Niveau bei erneuten geopolitischen Schocks oder Spread-Verbreiterungen würde den Bodenbildungs-Narrativ widerlegen und neue Bärmarkt-Extreme setzen. Über €48.000 bleibt die Whale-Akkumulations-These noch verteidigbar.",
+      "naechster_katalysator": "US-Arbeitsmarktdaten (Jobless Claims, Payrolls nächste Woche) oder Eskalation/Deeskalation der Iran-Krise; Falls Iran-Spannungen sich beruhigen und Safe-Haven-Verkäufe greifen, könnte Gold relativ zu Bitcoin besser laufen und Hinweis auf klassische Inflationsfurcht statt Risk-Off sein. SEC Reg Crypto Proposal am 16. Juli könnte Feinheiten der Regulierung offenbaren.",
+      "szenario_bedingungen": [
+        "BEARISH: Iran-Krise mit neuen Luftschlägen und Ölpreisen >$100/barrel; gleichzeitig sinkende ETF-Zuflüsse und Bruch unter €52.000 → zielstrebig auf €48.000.",
+        "NEUTRAL: Geopolitische Stabilisierung, aber schwache US-Arbeitsmarktdaten (Jobless Claims >250K) führen zu dovischer Fed-Spekulation → Bitcoin erholt sich auf €55.000–56.000, bleibt aber volatil.",
+        "BULLISH: Iran-Deeskalation (Waffenstillstand erneuert), SEC Reg Crypto wird konkret und institutionenfreundlich, institutionelle ETF-Zuflüsse >$500M/Tag für 5 Tage → Bitcoin könnte sich über €58.000 erholen; Gold (€2.950) bleibt stabil und weicht nicht ab = Indiz für fehlende Inflationsfurcht, sondern Recovery-Hoffnung."
+      ]
+    },
+    {
       "datum": "2026-07-07",
       "einschaetzung_numerisch": -2,
       "kurs_eur": 55419,
@@ -327,7 +383,15 @@
         "Spot-Bitcoin-ETF-Zuflüsse wechseln von Netto-Abflüssen zu konsekutiven 5+ Tagen Netto-Inflows – Zeichen institutioneller Gegenbewegung",
         "Crypto Fear & Greed Index fällt unter 15 oder steigt über 30 ohne neue makro-Schocks – Zeichen von Extreme-Value-Bildung oder schnellem Sentiment-Flip",
         "Fed-Kommunikation in nächster FOMC-Sitzung / Powell-Aussagen signalisieren klare Zinssenkungsbereitschaft für H2 2026 – Zeichen von Zins-Tailwind für Risk Assets"
-      ]
+      ],
+      "rueckblick": {
+        "damalige_einschaetzung": -1,
+        "damaliger_kurs_eur": 54805,
+        "heutiger_kurs_eur": 54171,
+        "veraenderung_eur": -634,
+        "veraenderung_prozent": -1.16,
+        "rueckblick": "Die Einschätzung von -1 (fragile Gegenbewegung, aber strukturelle Schwäche) war zu optimistisch. Bitcoin ist von €54.805 auf €54.171 gefallen, und die am 5. Juli erhofften Whale-Akkumulations- und dovischen Makro-Narrative wurden durch die Iran-Krise am 7.–8. Juli überlagert. Der damalige Hinweis, dass ein Durchbruch über €55.000–56.000 notwendig wäre, wurde nicht erreicht; stattdessen gab es Anschläge auf Schiffer im Golf und Drawdowns unter €53.000. Die Bodenbildungs-These bleibt intakt, aber die Zeitachse wird länger. Der CFF Index bei 23 damals war nicht konträr-indikatorisch genug, um Geopolitik zu überwinden. Korrekte Warnung bezüglich €48.000-Unterstützung, aber die Marktvolatilität hat sich verschärft – Whale-Akkumulation wird durch Flash-Crashes unterbrochen."
+      }
     },
     {
       "datum": "2026-07-04",
