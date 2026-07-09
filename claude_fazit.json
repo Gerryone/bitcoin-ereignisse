@@ -1,6 +1,27 @@
 {
   "fazits": [
     {
+      "datum": "2026-07-09",
+      "kurs_eur": 55081,
+      "eigene_einschaetzung_numerisch": -2,
+      "eigene_einschaetzung": "Der Bitcoin-Markt befindet sich am 9. Juli 2026 in einer konsistent bearishen Phase, die sich mit meinen Vortagseinschätzungen deckt: Die ETF-Abflüsse ($84M), die anhaltende AI-IPO-Kapitalrotation und der Iran-Konflikt als makroökonomischer Belastungsfaktor ergeben zusammen ein klares negatives Bild. Bemerkenswert ist, dass BTC (+1,1%) und ETH (+0,6%) sich heute im Gleichschritt bewegen, was auf eine breite Risikostimmung hindeutet und kein bitcoin-spezifisches Erholungsnarrativ stützt – die moderate Aufwärtsbewegung wirkt eher wie technische Gegenbewegung als echter Trendwechsel. Die On-Chain-Daten (Börsensupply auf 9-Jahres-Tief) bleiben strukturell bullish, verlieren aber kurzfristig ihre Signalwirkung, solange institutionelles Kapital systematisch zu AI-Tech abfließt und kein neuer Nachfrage-Katalysator in Sicht ist. Ich halte daher an meiner -2 Einschätzung fest: klar bearish, aber kein Absturzszenario – eher eine zermürbende Seitwärts-Abwärtsdrift mit erhöhter Downside-Asymmetrie.",
+      "eigene_gewichtung": {
+        "bullish": 25,
+        "bearish": 62,
+        "neutral": 13
+      },
+      "kommentar_zu_haiku": "Haikus Analyse ist insgesamt solide und ich stimme den drei identifizierten kontermotorischen Kräften (AI-Rotation, Iran-Risk-Off, ETF-Abflüsse) zu – das ist die Kernthese dieser Marktphase. Allerdings halte ich Haikus Formulierung 'Ethereum outperformt Bitcoin' für irreführend: +0,9% vs. +1,1% ist faktisch eine Bitcoin-Outperformance, nicht umgekehrt – hier liegt ein Fehler im Fazit, der die Argumentation leicht untergräbt. Das Schlüsselniveau €48.000 ist gut begründet als psychologischer Bruchpunkt, ich würde aber zusätzlich €52.000–€53.000 als kurzfristig relevantere technische Unterstützung benennen, da dort potenzielle Stop-Loss-Häufungen liegen, bevor das €48.000-Szenario überhaupt relevant wird. Die Einordnung der Sony- und SWIFT-Meldungen als neutral-bis-negativ für Bitcoin teile ich vollständig: Institutionelle Blockchain-Adoption ohne BTC-Exposure ist kein Preistreiber.",
+      "uebereinstimmung_mit_haiku": "hoch",
+      "szenario_bedingungen": [
+        "ETF-Netto-Abflüsse setzen sich über mindestens 5 aufeinanderfolgende Handelstage fort (kumuliert über $300M), was das Zufluss-Narrativ der Vorwochen endgültig widerlegt",
+        "Bitcoin bricht unter €52.000 EUR und schließt mindestens zwei Tageskerzen darunter, was den kurzfristigen technischen Support invalidiert und erhöhten Liquidationsdruck auslöst",
+        "Fed kommuniziert auf FOMC-Sitzung (Juli 2026) hawkishen Bias trotz schwachem Arbeitsmarkt, was Kapitalfluss zu US-Treasuries verstärkt und Risk-Assets wie Bitcoin strukturell belastet",
+        "Mindestens zwei weitere große AI-IPOs oder Kapitalmarktankündigungen (>$5Mrd Volumen) werden im Juli 2026 angekündigt und bestätigen die institutionelle Rotationsthese empirisch"
+      ],
+      "haiku_einschaetzung_zum_vergleich": -2,
+      "erstellt_am": "2026-07-09T10:50:36.225264"
+    },
+    {
       "datum": "2026-07-08",
       "kurs_eur": 54171,
       "eigene_einschaetzung_numerisch": -2,
@@ -136,5 +157,5 @@
       "erstellt_am": "2026-07-02T13:26:01.437728"
     }
   ],
-  "letzte_aktualisierung": "2026-07-08"
+  "letzte_aktualisierung": "2026-07-09"
 }
