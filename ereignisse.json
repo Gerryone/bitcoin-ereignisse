@@ -1,6 +1,41 @@
 {
-  "letzte_aktualisierung": "2026-07-08",
+  "letzte_aktualisierung": "2026-07-09",
   "ereignisse": [
+    {
+      "datum": "2026-07-09",
+      "kategorie": "ETF",
+      "titel": "Bitcoin-ETF-Blutung setzt sich fort – $84M Netto-Abfluss am Mittwoch nach Irankonflikt",
+      "beschreibung": "US-Spot-Bitcoin-ETFs verzeichneten am 9. Juli einen Netto-Abfluss von $84 Millionen, nachdem eine dreitägige Zuflussphase mit rund $509 Millionen endete. Dies geschah inmitten eskalierender US-Iran-Spannungen, die Öl nach oben und Bitcoin-Vertrauen nach unten trieben. Der Kurs fiel zeitweise unter €62.000, während Gold (€2.950/oz) parallel fiel – ein klassisches Risk-Off-Szenario ohne Safe-Haven-Flucht.",
+      "einschaetzung_numerisch": -2
+    },
+    {
+      "datum": "2026-07-09",
+      "kategorie": "Makro",
+      "titel": "AI-IPO-Welle zieht institutionelles Kapital ab – Kapitalrotation weg von Crypto beschleunigt sich",
+      "beschreibung": "Eine neue Welle von blockbuster AI-Listings (z.B. weitere KI-Infrastruktur-Unternehmen) zieht Milliarden von institutionellem Kapital ab und verstärkt die bestehende Rotation weg von Crypto. Dies erklärt, warum Ethereum nur +0,9% auf €1.535 zulegt, während Bitcoin stagiert: Die Gesamtrisikobereitschaft verschiebt sich zu etablierteren Tech-Narrativen statt zu digitalen Assets.",
+      "einschaetzung_numerisch": -3
+    },
+    {
+      "datum": "2026-07-09",
+      "kategorie": "Institutionell",
+      "titel": "Sony erhält bedingte Genehmigung für US-Stablecoin-Bank – Institutionalisierung schreitet voran, aber BTC profitiert nicht",
+      "beschreibung": "Sonys New York-Tochter (Sony Bank) erhielt bedingte Genehmigung für eine Stablecoin-Trust-Bank mit $40 Millionen Kapitalisierung. Dies signalisiert weitere institutionelle Adoption von Blockchain-Infrastruktur, fokussiert aber explizit auf Stablecoins und Zahlungsflüsse, nicht auf Bitcoin als Wertspeicher. Dies reinforced das Narrative, dass Institutions-Kapital selektiv in Blockchain-Utility, nicht in Bitcoin-Spekulation fließt.",
+      "einschaetzung_numerisch": 0
+    },
+    {
+      "datum": "2026-07-09",
+      "kategorie": "OnChain",
+      "titel": "Bitcoin-Bestände auf Börsen sinken, aber bullige Aussage wird durch Kurs-Realität widersprochen",
+      "beschreibung": "Santiment bestätigte, dass Bitcoin-Supply auf Börsen auf das niedrigste Niveau seit 2017 gefallen ist – historisch ein bullisches Setup für den nächsten Zyklus. Allerdings warnte Santiment selbst: Dies garantiert nicht, dass Preise steigen werden. Bei einem Kurs von €55.081 und einem Fear & Greed Index von 22 (Extreme Fear) signalisiert dies eher, dass Whales billige Supply hoarden, während institutionelles Kapital zu AI rotiert – eine klassische Akkumulations-Phase ohne Kursstabilität.",
+      "einschaetzung_numerisch": -1
+    },
+    {
+      "datum": "2026-07-09",
+      "kategorie": "Regulierung",
+      "titel": "SWIFT startet Blockchain-Ledger mit 17-Bank-Tokenisierungs-Pilot – traditionelle Finanzinfrastruktur umgeht BTC",
+      "beschreibung": "SWIFT lancierte ein neues Blockchain-Ledger für einen Pilot mit 17 großen Banken zur Tokenisierung von Einzahlungen und schnelleren Cross-Border-Zahlungen. Dies ist institutionelle Blockchain-Adoption auf höchster Ebene – aber es bypassed Bitcoin vollständig und konzentriert sich auf private, verwahrte Vermögenswerte. Gold (€2.950) bleibt für traditionelle Hedges bevorzugt, während Bitcoin-Adoption auf Zahlungsebene stattfindet, nicht auf Wertspeicher-Ebene.",
+      "einschaetzung_numerisch": -1
+    },
     {
       "datum": "2026-07-08",
       "kategorie": "Makro",
@@ -305,6 +340,27 @@
   ],
   "fazits": [
     {
+      "datum": "2026-07-09",
+      "einschaetzung_numerisch": -2,
+      "kurs_eur": 55081,
+      "gold_eur": 2950.0,
+      "silver_eur": 29.5,
+      "einschaetzung": "Bitcoin befindet sich in einem kritischen Spannungsfeld zwischen On-Chain-Akkumulation (niedrigste Börsen-Supply seit 2017) und makroökonomischer Rotationsdynamik. Der Extreme-Fear-Index (22) sollte eigentlich bullisch sein, wird aber durch drei kontermotorische Kräfte neutralisiert: (1) institutionelles Kapital weicht zu AI-IPOs aus, nicht zu Bitcoin; (2) die Iran-Krise triggert Risk-Off bei allen Assetklassen, Gold fällt jedoch parallel (€2.950, -0,2% intraday), was auf universelle Risk-Aversion hindeutet, nicht auf Safe-Haven-Flucht; (3) ETF-Abflüsse ($84M am 9.7.) unterbrechen die Zuflussnarrative. Bitcoin bei €55.081 (+1,4%) zeigt technische Gegenbewegung, aber Ethereum (+0,9%) outperformt marginalisiert das Bitcoin-Stärke-Narrative. Die Marktrealität: Whales hoarden auf Tiefstand, aber Institutions-Kapital geht zu etablierteren Tech und vollständig regulierter Blockchain-Infrastruktur (Sony Stablecoin, SWIFT Pilot). Dies ist spätzyklische Akkumulation ohne Nachfrage-Catalyst.",
+      "gewichtung": {
+        "bullish": 25,
+        "bearish": 65,
+        "neutral": 10
+      },
+      "schluessel_niveau_eur": 48000,
+      "schluessel_niveau_erklaerung": "€48.000 ist die psychologische 50%-Retracement-Marke der H1-2026-Rally (Mai-Tief ~€32.000 bis Juni-High €62.800). Ein Bruch unter €48.000 würde das Bodenbildungs-Narrative falsifizieren und neue Liquidierungen bei Positionen triggern, die auf €50.000–€54.000 gehedgt sind. Dies ist kein technisches Level, sondern ein fundamentales Sentiment-Bruchpunkt: Wenn Bitcoin unter €48.000 fällt, wird das Whale-Akkumulations-Narrativ zu Trap-Liquidationen umdefiniert.",
+      "naechster_katalysator": "Fed-Inflationsdaten und Zinssenkungssignale (nächste FOMC im Juli). Wenn die Fed hawkish bleibt trotz schwachem Arbeitsmarkt, wird Kapital zu Treasuries (höhere Renditen) fließen, nicht zu Bitcoin. Ein weiterer Iran-Konflikt-Eskalationspunkt könnte Öl über $90/Barrel treiben und makroökonomische Unsicherheit erhöhen, würde aber eher zu Gold (€2.950) als zu Bitcoin führen, basierend auf heutiger Preis-Divergenz.",
+      "szenario_bedingungen": [
+        "Bullenfall: ETF-Zuflüsse von über $200M an zwei aufeinanderfolgenden Tagen + Bitcoin über €57.000 + Gold-Rallye über €3.000 (Inflations-Flight, nicht selektives Risk-Off). Wahrscheinlichkeit: <20%.",
+        "Bärfall: Weitere $150M+ ETF-Abflüsse oder ein neuer Iran-Eskalations-Headline, der Öl über $95/Barrel treibt. Bitcoin könnte unter €52.000 fallen, während Gold weiter korrigiert, wenn Risk-Off universal ist. Wahrscheinlichkeit: >60%.",
+        "Bodenbildungs-Bestätigung: Whale-Akkumulation halt an, On-Chain-Liquidationen pausieren, Börsen-Supply stabilisiert sich über 5 Tage. Erst dann ist ein nachhaltiger Rebound über €60.000 denkbar. Aktuell: Keine Bestätigung vorhanden."
+      ]
+    },
+    {
       "datum": "2026-07-08",
       "einschaetzung_numerisch": -2,
       "kurs_eur": 54171,
@@ -363,7 +419,13 @@
         "Stablecoin-Transaktionsvolumen (aktuell Rekord €1,79T im Juni) fällt für zwei aufeinanderfolgende Wochen über 20% ab – Zeichen von Krypto-Nachfrage-Erosion statt Akkumulation.",
         "Fed-Minutes zeigen hawkischer Tone als in Juni; Zinssenkungs-Wahrscheinlichkeit (Dezember) fällt unter 35% – wäre bearish für Risk-On und Bitcoin.",
         "Ethereum-Outperformance (ETH +0,7% vs BTC +0,5%) verstärkt sich über 5 Tage um >3% kumuliert – würde Zweifel an Bitcoin-Dominanz bei Institutionen signalisieren."
-      ]
+      ],
+      "rueckblick": {
+        "datum_fazit_alt": "2026-07-06",
+        "einschaetzung_alt": -2,
+        "kurs_damals_eur": 55009,
+        "ruckblick": "Das Fazit vom 6. Juli war korrekt in der Diagnose (Post-Bounce-Muster ohne fundamentale Unterstützung, Sharpe-Ratio-Kollaps), aber unterschätzte die Hartnäckigkeit des Whale-Akkumulations-Narrative. Drei Tage später steht Bitcoin nur bei €55.081 – praktisch unverändert – was die These bestätigt: es war eine Liquidierungs-Rally ohne Nachfrage. Die Prognose auf Bruch unter €50.800 ist noch nicht eingetreten, aber die Seitwärtskonsolidierung ist konsistent mit spätzyklischer Bodenbildung ohne positiven Katalysator. Die parallele Schwäche bei Altcoins (LIT und andere sind seit Juli 6 ebenfalls stagniert) und die neuen AI-IPO-Abflüsse validieren, dass das Risiko nicht zu Bitcoin, sondern weg von Crypto floss. Kritischer Punkt: Das Fazit hätte stärker auf die makroökonomische Rotationsdynamik (AI vs. Bitcoin) hinweisen sollen, nicht nur auf Sharpe-Ratio-Metriken. Selbstkritik: Die Gewichtung (Bullish 30%, Bearish 60%) war zu bull-freundlich gegeben der universellen institutionellen Kapitalflucht."
+      }
     },
     {
       "datum": "2026-07-05",
