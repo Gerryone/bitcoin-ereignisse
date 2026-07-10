@@ -1,6 +1,41 @@
 {
-  "letzte_aktualisierung": "2026-07-09",
+  "letzte_aktualisierung": "2026-07-10",
   "ereignisse": [
+    {
+      "datum": "2026-07-10",
+      "kategorie": "Technik",
+      "titel": "MACD-Signal bullish – aber gegen schwache Fundamentaldaten",
+      "beschreibung": "Ein längerfristiger MACD hat gerade bullisch gedreht und signalisiert technisches Kaufsignal. Bitcoin steigt auf €56.233 (+2,1% in 24h), doch die institutionelle Nachfrage bleibt schwach: Spot-Bitcoin-Fonds verloren $95 Mio. am Mittwoch, während Gold (€2.950/Unze) und Silber (€29,50/Unze) parallel stagnieren. Das fehlende Fluchtkapital in klassische Safe-Havens deutet auf breite Risikoaversion ohne sichere Häfen hin.",
+      "einschaetzung_numerisch": -1
+    },
+    {
+      "datum": "2026-07-10",
+      "kategorie": "Makro",
+      "titel": "307-Tage-Konsolidierung im €60k–€70k-Band – historisch drittweiteste",
+      "beschreibung": "Bitcoin verweilt seit 307 Tagen in der €60.000–€70.000-Range, die drittweiteste Konsolidierung in dieser Gewichtungsklasse. Das signalisiert extreme Unentschlossenheit und schwindende Breakout-Energie. Parallel schwächelt Yen-Stärke (Intervention-Befürchtungen in Japan), was Bitcoin in JPY-Termen underperformen lässt – ein Signal für abnehmende globale Nachfrage trotz USD-Stabilität.",
+      "einschaetzung_numerisch": -2
+    },
+    {
+      "datum": "2026-07-10",
+      "kategorie": "Institutionell",
+      "titel": "Metaplanet Bitcoin-Kredit-Exploration – Tokenisierung ohne BTC-Kurssupport",
+      "beschreibung": "Metaplanet arbeitet mit JPYC und Progmat an Bitcoin-gestützten digitalen Kreditprodukten für Japan, um 24/7-Märkte zu ermöglichen. Dies ist ein wichtiger Infrastruktur-Schritt für institutionelle Integration, aber kein direktes Kurskatalyst – ähnlich wie SWIFT's 17-Bank-Pilot (€2.950 Gold, €29,50 Silber bewegen sich unabhängig). Es zeigt, dass institutionelle Nutzung vom Preis entkoppelt ist.",
+      "einschaetzung_numerisch": 0
+    },
+    {
+      "datum": "2026-07-10",
+      "kategorie": "Regulierung",
+      "titel": "Clarity Act droht bis Ende Juli – aber ohne Bipartisan-Konsens",
+      "beschreibung": "Insider berichten, dass eine neue Version des Crypto Clarity Act bis nächste Woche vorgelegt werden könnte, mit Zieldatum Juli. Allerdings fehlt der überparteiliche Konsens, was ein großes Risiko für Verzögerungen oder Verwässerung darstellt. Regulierungsunsicherheit bleibt ein persistenter Bremsfaktor für Risk-On-Moves, während Gold (€2.950) als echte Risikoabsicherung fungiert.",
+      "einschaetzung_numerisch": -1
+    },
+    {
+      "datum": "2026-07-10",
+      "kategorie": "Persönlichkeiten",
+      "titel": "Grayscale-CFO Edward McGee tritt nach 7 Jahren ab – Instabilität in Verwaltung",
+      "beschreibung": "Edward McGee verließ seinen Posten als CFO nach sieben Jahren; dies folgt auf den Abgang des Distribution Chief John Hoffman im Mai. Der vierte C-Level-Wechsel in 12 Monaten deutet auf Unruhe bei der größten Vermögensverwalterin hin – kurz nachdem Grayscale seine Spot-ETF-Genehmigung erhielt. Personelle Instabilität in Key-Positionen während institutioneller Expansion ist ein Warnzeichen.",
+      "einschaetzung_numerisch": -1
+    },
     {
       "datum": "2026-07-09",
       "kategorie": "ETF",
@@ -340,6 +375,27 @@
   ],
   "fazits": [
     {
+      "datum": "2026-07-10",
+      "einschaetzung_numerisch": -2,
+      "kurs_eur": 56233,
+      "gold_eur": 2950.0,
+      "silver_eur": 29.5,
+      "einschaetzung": "Bitcoin zeigt taktische Erholung zu €56.233 (+2,1%), gestützt durch bullische MACD-Umkehrung, aber die Marktfundamentale bleiben fragil. Institutionelle Spot-Flows sind negativ ($95M Abfluss), und die 307-Tage-lange Konsolidierung im €60k–€70k-Band deutet auf völlige Unentschlossenheit hin. Gold (€2.950) und Silber (€29,50) stagnieren parallel – ein Signal dafür, dass weder Inflations-/Krisen-Flucht noch klassische Safe-Haven-Rotation stattfindet. Der Fear & Greed Index bei 23 (Extreme Fear) spiegelt Resignation wider, nicht Boden-Bildung. Regulierungshoffnungen (Clarity Act) sind ungewiss, Grayscale leidet unter Management-Turbulenzen, und die Yen-Stärke (Japan-Intervention) drückt BTC in lokalen Termen. Technisch ist der MACD-Flip ein Signal, aber gegen die Strömung schwacher fundamentaler Nachfrage.",
+      "gewichtung": {
+        "bullish": 25,
+        "bearish": 65,
+        "neutral": 10
+      },
+      "schluessel_niveau_eur": 48000,
+      "schluessel_niveau_erklaerung": "€48.000 markiert das Juni-Tief und bleibt psychologisch kritisch. Ein Bruch darunter zerstört die 'durable bottom'-These und könnte Carry-Trade-Unwinding plus neue Tiefs (€43k–€45k) auslösen. Oberhalb €56.000 könnte die MACD-Umkehrung nachhaltig sein; darunter bleibt die Rally ein Bear-Trap.",
+      "naechster_katalysator": "Clarity Act Entwurf (erwartete Woche vom 14.–18. Juli), US-Arbeitsmarktdaten, japanische Zinsentwicklung und das €65.000-Widerstandsniveau als nächste technische Hürde",
+      "szenario_bedingungen": [
+        "Bullish: Clarity Act mit echtem Bipartisan-Support + MACD hält sich über Signallinie + institutionelle Spot-Flows drehen positiv (Woche des 14.7.). → Potenzial €65k–€68k.",
+        "Bearish: MACD-Flip ist False-Signal, Spot-ETF-Abflüsse verschärfen sich, oder Yen-Stress/Japan-Zinserhöhung wird konjunkturzerstörend → Bruch unter €48.000 führt zu neuen Tiefs €43k–€45k.",
+        "Neutral-Langfristig: €60k–€70k-Konsolidierung hält an, bis makroökonomische Katalysatoren (US-Zinsweg, Inflation) Klarheit geben. Gold/Silber-Stagnation deutet auf Warten hin."
+      ]
+    },
+    {
       "datum": "2026-07-09",
       "einschaetzung_numerisch": -2,
       "kurs_eur": 55081,
@@ -399,7 +455,14 @@
         "Spot-Bitcoin-ETF-Flows drehen positiv (mindestens $200M Netto-Zuflüsse in einer Woche) – institutionelle Rückkehr nach 8 Wochen Abflüssen",
         "US 10-Jahr Treasuries fallen unter 3,9% Rendite und japanische 10J-Yields sinken oder stabilisieren – Makro-Gegenwind lässt nach",
         "Strategy oder andere große Bitcoin-Holder halten Verkäufe ein oder drehen zu Akkumulation – Signalwechsel der Mega-Whales"
-      ]
+      ],
+      "rueckblick": {
+        "damals_einschaetzung": -2,
+        "kurs_damals_eur": 55419,
+        "kurs_heute_eur": 56233,
+        "performance_seit_damals": "+1,5% (+€814)",
+        "selbstkritische_analyse": "Die Einschätzung vom 7.7. war zu pessimistisch bezüglich der technischen Gegenkräfte. Zwar war die Warnung vor fragiler Rally korrekt (Spot-Flows bleiben negativ, Open Interest schwach), aber der MACD-Flip wurde unterschätzt – das Signal war valider als erwartet. Allerdings bleibt die Kritik an fehlender fundamentaler Nachfrage, sinkenden Flows und japanischen Zinsrisiken weiterhin hochrelevant. Die Rally von €55.419 zu €56.233 war organisch schwach (nur +1,5% in 3 Tagen bei Extreme Fear), nicht das Zeichen einer Trendumkehrung. Whale-Akkumulation wurde korrekt identifiziert, aber es fehlte die Unterscheidung: Whales kaufen zur Spekulation (AI-Pivot), nicht zum langfristigen Hold. Das Schlüsselniveau €48.000 bleibt kritisch und unverändert relevant."
+      }
     },
     {
       "datum": "2026-07-06",
