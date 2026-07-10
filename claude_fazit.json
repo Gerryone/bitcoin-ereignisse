@@ -1,6 +1,27 @@
 {
   "fazits": [
     {
+      "datum": "2026-07-10",
+      "kurs_eur": 56233,
+      "eigene_einschaetzung_numerisch": -2,
+      "eigene_einschaetzung": "Der Bitcoin-Markt zeigt am 10. Juli 2026 ein konsistent bearishes Bild, das sich über mehrere Wochen meiner eigenen Einschätzungen bestätigt hat. Die heutige Erholung auf €56.296 (+2,4%) ist technisch bemerkenswert – der MACD-Flip ist ein reales Signal – aber die zugrundeliegenden Fundamentaldaten bleiben schwach: anhaltende ETF-Abflüsse ($95M), 307-tägige Konsolidierung ohne Breakout-Energie und institutionelle Unsicherheit durch die Grayscale-Führungswechsel sprechen gegen eine nachhaltige Trendwende. Die Tatsache, dass ETH nahezu gleichauf mit BTC steigt (+2,6% vs. +2,4%), deutet auf eine breite Risiko-Erholung ohne Bitcoin-spezifischen Treiber hin – solche synchronen Moves verpuffen oft schneller als sektorspezifische Rallyes. Bei einem Fear & Greed Index von 23 sehe ich noch keine klassische Boden-Bildung, sondern eher technische Gegenbewegungen in einem intakten Abwärtstrend.",
+      "eigene_gewichtung": {
+        "bullish": 25,
+        "bearish": 60,
+        "neutral": 15
+      },
+      "kommentar_zu_haiku": "Haikus Fazit deckt sich weitgehend mit meiner Einschätzung, und die Kernargumente – schwache institutionelle Flows, Konsolidierungsmüdigkeit, Regulierungsunsicherheit – sind solide gewählt. Ich würde jedoch die Bedeutung der ETH-BTC-Korrelation stärker betonen: Dass beide Kryptowährungen nahezu identisch steigen, ist kein Zeichen für Bitcoin-spezifische Stärke, sondern für eine generelle Risikoappetit-Verbesserung ohne fundamentalen Anlass – und solche Moves sind historisch weniger stabil. Kritisch sehe ich die Formulierung, der Fear & Greed Index von 23 spiegele 'Resignation, nicht Boden-Bildung' – diese Unterscheidung ist analytisch schwierig zu begründen und klingt nach post-hoc-Rationalisierung; der Index allein kann beides bedeuten. Das Schlüsselniveau €48.000 als psychologisch kritisch ist gut gesetzt, aber ich würde €53.500–€54.000 als näheres, kurzfristig relevanteres Unterstützungsniveau ergänzen, das vor einem Test der €48.000 brechen müsste.",
+      "uebereinstimmung_mit_haiku": "hoch",
+      "szenario_bedingungen": [
+        "ETF-Spot-Abflüsse setzen sich über mindestens 5 aufeinanderfolgende Handelstage fort (kumulativ über $300M), was institutionelle Verkaufsbereitschaft bestätigt",
+        "Bitcoin bricht die Unterstützungszone €53.500–€54.000 nach unten und hält dort nicht – dies würde den aktuellen Erholungsversuch als Bear-Trap bestätigen",
+        "Der Crypto Clarity Act wird nicht bis Ende Juli verabschiedet oder veröffentlicht ein stark verwässertes Entwurfsdokument ohne bipartisane Unterstützung – Regulierungsunsicherheit bleibt als Bremsfaktor aktiv",
+        "BTC und ETH beginnen auseinanderzulaufen (ETH übertrifft BTC um >5% in einer Woche), was auf Bitcoin-spezifischen Verkaufsdruck hindeutet und die aktuelle synchrone Erholung als rein liquiditätsgetrieben entlarvt"
+      ],
+      "haiku_einschaetzung_zum_vergleich": -2,
+      "erstellt_am": "2026-07-10T10:44:20.890444"
+    },
+    {
       "datum": "2026-07-09",
       "kurs_eur": 55081,
       "eigene_einschaetzung_numerisch": -2,
@@ -157,5 +178,5 @@
       "erstellt_am": "2026-07-02T13:26:01.437728"
     }
   ],
-  "letzte_aktualisierung": "2026-07-09"
+  "letzte_aktualisierung": "2026-07-10"
 }
