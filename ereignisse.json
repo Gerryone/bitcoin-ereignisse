@@ -1,6 +1,41 @@
 {
-  "letzte_aktualisierung": "2026-07-10",
+  "letzte_aktualisierung": "2026-07-11",
   "ereignisse": [
+    {
+      "datum": "2026-07-11",
+      "kategorie": "Technik",
+      "titel": "Robinhood AI-Agent-Feature für Crypto-Trader startet – Algorithmic Risk-Taking in Late Cycle",
+      "beschreibung": "Robinhood meldet, dass über 70.000 agentic accounts seit Mai erstellt wurden und KI-Assistenten nun auch für Crypto-Trader verfügbar werden. Dies signalisiert Retail-Gamification am Ende eines Zyklus: Automated Trading und FOMO-Verstärkung durch KI folgen klassischerweise auf Peak-Euphorie, nicht auf Bodenbildung. Bitcoin notiert bei €56.251, während Gold (€2.950/oz) stabil bleibt – keine Safe-Haven-Rotation erkennbar.",
+      "einschaetzung_numerisch": -2
+    },
+    {
+      "datum": "2026-07-11",
+      "kategorie": "Institutionell",
+      "titel": "Circle U.S. Trust Bank Genehmigung – regulatorischer Erfolg ohne BTC-Kurskatalyse",
+      "beschreibung": "Circle erhält U.S. Trust Bank Approval und wird Teil einer wachsenden Liste von Crypto-Firmen, die sich in das regulierte Finanzsystem integrieren. Historisch betrachtet: Institutionalisierung ohne parallele BTC-Dominanz-Erhöhung deutet auf Umweg-Strukturierung hin – Stablecoin-Infrastruktur wird gebaut, aber für traditionelle Finanzströme, nicht als BTC-Zugangsmechanismus. Positive Regulierung wird vom Markt ignoriert (ETF-Abflüsse von $95M am Vortag).",
+      "einschaetzung_numerisch": -1
+    },
+    {
+      "datum": "2026-07-10",
+      "kategorie": "Makro",
+      "titel": "Japanische ‚Invest Locally'-Initiative und Yen-Stärke – BTC unterperformt in JPY-Begriffen",
+      "beschreibung": "Japan plant ‚Invest Locally'-Kampagne, die Gold und Bitcoin-Nachfrage stützen soll. Allerdings zeigt eine parallele CoinDesk-Analyse: Bitcoin in JPY-Begriffen unterperformt deutlich gegen sein USD-Äquivalent. Der Yen-Anstieg (auf Interventionsfears) drückt BTC-JPY auf €56.251 während Gold (€2.950/oz) strukturell stabiler bleibt. Dies ist klassische Currency Headwind, kein fundamentales BTC-Kaufsignal.",
+      "einschaetzung_numerisch": -2
+    },
+    {
+      "datum": "2026-07-10",
+      "kategorie": "Regulierung",
+      "titel": "New Hampshire Bitcoin Bond Voting scheitert (3-2) – Institutionelle Adoption stagniert real",
+      "beschreibung": "Nach Monaten der Vorbereitung lehnt New Hampshires Executive Council einen $100M Bitcoin Bond Proposal ab – ein symbolischer Rückschlag für die Narrative der Regierungs-BTC-Integration. Der Scheitern zeigt strukturelles Misstrauen gegen Bitcoin als stabiles Reservemedium, während Gold (€2.950/oz) weiterhin als klassischer Staatliches Anker gilt. State-Level Adoption, die 2024-2025 als Katalysator gepriesen wurde, kollabiert.",
+      "einschaetzung_numerisch": -2
+    },
+    {
+      "datum": "2026-07-09",
+      "kategorie": "Persönlichkeiten",
+      "titel": "Coinbase Chief Legal Officer Paul Grewal tritt ab – Exodus von Crypto-Leadership verstärkt sich",
+      "beschreibung": "Nach Grayscale-CFO Edward McGee (letzte Woche) verlässt Coinbase Chief Legal Officer Paul Grewal das Unternehmen. Dies ist die dritte C-Suite-Abgangswelle in 10 Tagen und signalisiert Verwaltungs-Demoralisierung: Die Phase ‚wir haben die regulatorische Schlacht gewonnen' (SEC-Sieg 2024) wird durch ‚Wir sind intern instabil' ersetzt. Institutionelle Vertrauensfrage.",
+      "einschaetzung_numerisch": -1
+    },
     {
       "datum": "2026-07-10",
       "kategorie": "Technik",
@@ -375,6 +410,27 @@
   ],
   "fazits": [
     {
+      "datum": "2026-07-11",
+      "einschaetzung_numerisch": -2,
+      "kurs_eur": 56251,
+      "gold_eur": 2950.0,
+      "silver_eur": 29.5,
+      "einschaetzung": "Bitcoin verharrt bei €56.251 (+0,3% in 24h) in einem Zustand regulatorischer Erfolge ohne Kurs-Validierung. Circle erhält U.S. Trust Bank-Genehmigung, New Hampshire Bitcoin Bond scheitert symbolisch, und Coinbase/Grayscale verlieren Top-Management – ein Mixed Bag, das die Spannung zwischen ‚Institutionalisierung voranschreitend' und ‚reale Adoption fraglich' offenbart. Gold (€2.950/oz) und Silber (€29,50/oz) zeigen keine Divergenz zu Bitcoin, was bedeutet, dass die +0,3% BTC-Bewegung nicht von klassischen Safe-Haven-Rotationen unterstützt wird. Der Extreme Fear Index (26, ‚Fear') signalisiert konträr-Potenzial, wird aber durch die 307-Tages-Konsolidierung im €60k–€70k-Band und sinkende Open Interest (Rallye-Haltbarkeit fragwürdig) überschattet. Japan-Kampagne und Yen-Stärke sind für BTC negativ (JPY-Underperformance). Die Kombination aus Retail-Gamification (Robinhood KI), schwachen ETF-Flows ($95M Abfluss), und Management-Exodus deutet auf End-of-Cycle-Comportement hin, nicht auf Bodenbildung.",
+      "gewichtung": {
+        "bullish": 25,
+        "bearish": 65,
+        "neutral": 10
+      },
+      "schluessel_niveau_eur": 48000,
+      "schluessel_niveau_erklaerung": "€48.000 ist das kritische H1-2026-Korrektionstief und psychologische Unterstützung. Ein Bruch unter diesen Level bei erneuten geopolitischen Schocks, Yen-Volatilität oder ETF-Kapitalabzug würde die Whale-Akkumulations-These widerlegen. Über €48.000 bleibt theoretisch Bodenbildung möglich, aber nur mit Kurs-Validierung durch ETF-Zuflüsse oder Regulierungs-Katalyse-Durchbruch.",
+      "naechster_katalysator": "Clarity Act Drafting (erwartet bis Ende Juli) – Wenn das Bipartisan-Konsens scheitert, würde sich die Regulierungs-Hoffnung in Desillusion wandeln. Parallel: SK Hynix IPO und Yen-Entwicklung beobachten – starker Yen und Chip-Schwäche führten zu Abflüssen. ETF-Flows der nächsten Woche sind entscheidend: Werden positive News (Circle, Japan) in Zuflüsse übersetzt, oder setzt sich die Blutung fort?",
+      "szenario_bedingungen": [
+        "Bullisch: Clarity Act wird mit Bipartisan-Support vor 31.07. verabschiedet UND Spot-ETF-Netto-Zuflüsse betragen >$100M/Woche für 2 Wochen UND Bitcoin durchbricht €64.000 deutlich (über Juni 15 Peak von €67.250)",
+        "Bearisch: Clarity Act scheitert oder wird verwässert UND Yen bleibt über 140 JPY/USD (Headwind) UND Open Interest fällt weiter unter 4,5 Mrd. USD UND neuer Geopolitik-Schock (Iran, Nahost)",
+        "Neutal: Bitcoin verbleibt im €60k–€70k-Band für weitere 2+ Wochen, Management-Exodus stabilisiert sich, Japan-Nachfrage bleibt auf Spekulativ-Ebene ohne Institutional Anchor"
+      ]
+    },
+    {
       "datum": "2026-07-10",
       "einschaetzung_numerisch": -2,
       "kurs_eur": 56233,
@@ -435,7 +491,14 @@
         "BEARISH: Iran-Krise mit neuen Luftschlägen und Ölpreisen >$100/barrel; gleichzeitig sinkende ETF-Zuflüsse und Bruch unter €52.000 → zielstrebig auf €48.000.",
         "NEUTRAL: Geopolitische Stabilisierung, aber schwache US-Arbeitsmarktdaten (Jobless Claims >250K) führen zu dovischer Fed-Spekulation → Bitcoin erholt sich auf €55.000–56.000, bleibt aber volatil.",
         "BULLISH: Iran-Deeskalation (Waffenstillstand erneuert), SEC Reg Crypto wird konkret und institutionenfreundlich, institutionelle ETF-Zuflüsse >$500M/Tag für 5 Tage → Bitcoin könnte sich über €58.000 erholen; Gold (€2.950) bleibt stabil und weicht nicht ab = Indiz für fehlende Inflationsfurcht, sondern Recovery-Hoffnung."
-      ]
+      ],
+      "rueckblick": {
+        "einschaetzung_damals": -2,
+        "kurs_damals_eur": 54171,
+        "kurs_heute_eur": 56251,
+        "veraenderung_proz": 3.84,
+        "selbstkritische_analyse": "Das Fazit vom 08.07. prognostizierte ein klassisches Risk-Off durch Iran-Eskalation und sah Gold/Silber als non-divergent zu Bitcoin, was korrekt war. Allerdings wurde die Rally-Dynamik vom 10.07. (MACD bullish, Whale-Akkumulation, Chip-Rally) unterschätzt. Bitcoin erholte sich von €54.171 auf €56.251 (+3,84%), was die contrarian Strength im Extreme Fear Index (damals 20) teilweise validiert. ALLERDINGS: Die Warnung vor €48.000 als kritischem Level bleibt korrekt, und die Skepsis gegenüber ETF-Stabilität wurde durch die $95M Abflüsse am 10.07. trotz Kursgewinns bestätigt. Das Narrative ‚Whale Akkumulation trotz ETF-Blutung' wurde teilweise validiert, aber als unsustainable erkannt: Whales kaufen Spot, während Institutionen ETF-Positionen abgeben – Zeichen fragmentierter Marktmeinung, nicht coherenter Bullcase. Die Einschätzung -2 war zu pessimistisch auf 2-3 Tage-Horizont, bleibt aber strategisch valide für 2+ Wochen Sicht."
+      }
     },
     {
       "datum": "2026-07-07",
