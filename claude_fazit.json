@@ -1,6 +1,27 @@
 {
   "fazits": [
     {
+      "datum": "2026-07-11",
+      "kurs_eur": 56251,
+      "eigene_einschaetzung_numerisch": -2,
+      "eigene_einschaetzung": "Der Bitcoin-Markt verharrt am 11. Juli 2026 in einer zähen Konsolidierungsphase ohne klare Richtungsimpulse: Das 0,0%-Tagessignal bei €56.206 spricht für totale Lethargie, nicht für Stabilität. Meine eigenen Einschätzungen der letzten fünf Tage bei konsistent -2 haben sich insofern bestätigt, als kein nachhaltiger Aufwärtsimpuls entstanden ist – die Erholung vom 10. Juli (+2,4%) wurde nicht weitergeführt. Das leichte Auseinanderlaufen von BTC (0,0%) und ETH (+0,9%) deutet darauf hin, dass ETH-spezifische Faktoren (Staking, Layer-2) kurzfristig besser performen, während BTC ohne eigenständigen Katalysator feststeckt. Bei Fear & Greed von 26 wäre konträres Potenzial theoretisch vorhanden, wird aber durch anhaltende ETF-Abflüsse und fehlende institutionelle Zufluss-Bestätigung neutralisiert.",
+      "eigene_gewichtung": {
+        "bullish": 25,
+        "bearish": 60,
+        "neutral": 15
+      },
+      "kommentar_zu_haiku": "Haikus Analyse ist solide und deckt sich weitgehend mit meiner eigenen Einschätzung – die Charakterisierung als 'End-of-Cycle-Comportement' durch Retail-Gamification (Robinhood KI) und Management-Exodus halte ich für gut begründet. Allerdings würde ich den Circle-Trust-Bank-Approval weniger negativ einordnen: Regulatorische Infrastruktur für Stablecoins stärkt langfristig das gesamte Krypto-Ökosystem, auch wenn der kurzfristige BTC-Kursimpuls ausbleibt – das als reines Negativzeichen zu werten, erscheint mir etwas überinterpretiert. Haikus Betonung der ETF-Abflüsse ($95M) als zentrales Warnsignal teile ich vollständig, denn institutionelle Flows sind aktuell der verlässlichste Stimmungsindikator. Was Haiku nicht ausreichend gewichtet: Die ETH/BTC-Divergenz von heute könnte auf eine beginnende Altcoin-Rotation hindeuten, die BTC-Kapital temporär abzieht und den Kursdruck verstärkt. Das €48.000-Schlüsselniveau als definierter Bruchpunkt ist analytisch sauber gesetzt und hilfreicher als viele diffuse 'Unterstützungszonen'.",
+      "uebereinstimmung_mit_haiku": "hoch",
+      "szenario_bedingungen": [
+        "ETF-Zuflüsse drehen positiv: Mindestens drei aufeinanderfolgende Handelstage mit netto positiven Bitcoin-ETF-Flows (>$50M täglich) wären ein belastbares bullishes Signal, das die aktuelle Abfluss-These widerlegt",
+        "Bruch unter €53.000: Ein Schlusskurs unterhalb von €53.000 EUR würde die aktuelle Konsolidierung nach unten auflösen und das Korrekturtief von €48.000 als realistisches Ziel rücken lassen – bearishes Bestätigungssignal",
+        "Clarity Act Scheitern oder substanzielle Verzögerung: Falls das erwartete Bipartisan-Konsens-Drafting bis Ende Juli nicht liefert oder öffentlich als gescheitert gilt, würde die Regulierungshoffnung als bullisher Faktor wegfallen und Verkaufsdruck verstärken",
+        "ETH/BTC-Ratio-Verschiebung über mehrere Wochen: Sollte ETH dauerhaft stärker als BTC performen (ETH/BTC-Ratio steigt >10% über 4 Wochen), bestätigt das eine Altcoin-Rotation zu Lasten von Bitcoin und wäre ein bearishes BTC-spezifisches Signal"
+      ],
+      "haiku_einschaetzung_zum_vergleich": -2,
+      "erstellt_am": "2026-07-11T09:17:20.089586"
+    },
+    {
       "datum": "2026-07-10",
       "kurs_eur": 56233,
       "eigene_einschaetzung_numerisch": -2,
@@ -178,5 +199,5 @@
       "erstellt_am": "2026-07-02T13:26:01.437728"
     }
   ],
-  "letzte_aktualisierung": "2026-07-10"
+  "letzte_aktualisierung": "2026-07-11"
 }
