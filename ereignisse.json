@@ -1,6 +1,41 @@
 {
-  "letzte_aktualisierung": "2026-07-11",
+  "letzte_aktualisierung": "2026-07-12",
   "ereignisse": [
+    {
+      "datum": "2026-07-12",
+      "kategorie": "Makro",
+      "titel": "USA eskaliert Iran-Konflikte erneut – dritte Welle in einer Woche, Straße von Hormuz geschlossen",
+      "beschreibung": "Die USA haben Iran zum dritten Mal diese Woche angegriffen; Teheran hat die Straße von Hormuz erneut geschlossen. Bitcoin zeigt mit -0,4% (€56.018) minimale Reaktion, während Gold (€2.950) praktisch unverändert bleibt. Dies deutet auf Desensibilisierung gegenüber geopolitischen Schocks hin – weder Safe-Haven-Flucht noch Risk-Off-Verkäufe materialisieren sich nachhaltig.",
+      "einschaetzung_numerisch": -2
+    },
+    {
+      "datum": "2026-07-12",
+      "kategorie": "Regulierung",
+      "titel": "BIP 110 Fork-Deadline rückt näher – Miner-Support bei null, Saylor/Back warnen vor Consensus-Risiko",
+      "beschreibung": "Michael Saylor und Adam Back warnen vor dem BIP 110 Ordinals-Spam-Cap-Vorschlag; Miner-Unterstützung liegt bei praktisch null. Die interne Bitcoin-Governance-Krise offenbart tiefe philosophische Bruchlinien genau dann, wenn externe Katalysatoren (Iran, Kapitalrotation zu AI) bereits fragmentierend wirken. Ein Consensus-Split würde Entwickler-Vertrauen untergraben.",
+      "einschaetzung_numerisch": -2
+    },
+    {
+      "datum": "2026-07-11",
+      "kategorie": "Institutionell",
+      "titel": "Empery Digital liquidiert ~50% BTC-Bestand für AI-Datencenter – Bitcoin Treasury Narrative kollabiert",
+      "beschreibung": "Das Bitcoin Treasury Unternehmen Empery Digital verkauft etwa die Hälfte seiner BTC-Position, um in AI-Infrastruktur zu investieren. Dies symbolisiert den fundamentalen Regime-Wechsel: Selbst Unternehmen, die auf Bitcoin als strategisches Reservemittel gegründet wurden, rotieren zu AI-Hardware. Aktienkurs gestiegen trotz Bitcoin-Verkauf – ein Signal, dass der Markt Bitcoin-Hoarding nicht mehr als Werttreiber bewertet.",
+      "einschaetzung_numerisch": -3
+    },
+    {
+      "datum": "2026-07-11",
+      "kategorie": "Institutionell",
+      "titel": "Crypto IPO-Markt stagniert – Kapitalrotation zu AI beschleunigt sich, Funding-Engpässe bremsen Listings",
+      "beschreibung": "Laut Cohen & Company Capital Markets ist der Crypto-IPO-Markt nicht durch Regulierung, sondern durch Kapital-Absorption durch AI-Sektor gelähmt. Aktueller Kontext: Auch traditionelle Venture-Kapitalquellen priorisieren AI-Datencenter (TeraWulf $3,5B Debt-Raise für Anthropic-Link) über Crypto-Regulation-Clarity. Dies manifestiert institutionelle Ungeduld mit Bitcoin-Konsolidierungsphasen.",
+      "einschaetzung_numerisch": -2
+    },
+    {
+      "datum": "2026-07-10",
+      "kategorie": "Persönlichkeiten",
+      "titel": "Real Vision-Analyst Jamie Coutts prognostiziert späte Bärmarkt-Phase – $250k bis 2030 realistischer als $1M",
+      "beschreibung": "Real Vision Chief Crypto Analyst Jamie Coutts warnt vor zu optimistischen Prognosen: $250k bis 2030 seien realistischer als die jüngst populären $300k–$500k-Szenarien. Gold bei €2.950 läuft parallel zu Bitcoin-Pessimismus ohne Safe-Haven-Pop – ein Zeichen, dass makroökonomische Sorgen (nicht Inflation) dominieren. Coutts-Aussage unterminiert das Moonshot-Narrativ der letzten 18 Monate.",
+      "einschaetzung_numerisch": -1
+    },
     {
       "datum": "2026-07-11",
       "kategorie": "Technik",
@@ -385,30 +420,30 @@
       "titel": "Binance verliert EU-Marktzugang durch MiCA",
       "beschreibung": "Binance hat seine Lizenz für den europäischen Markt nicht erneuert bekommen und muss den Betrieb in der EU unter MiCA-Regularien einstellen. Betroffen sind Millionen europäischer Nutzer.",
       "richtung": "bearish"
-    },
-    {
-      "datum": "2026-07-01",
-      "kategorie": "Institutionell",
-      "titel": "Citi senkt Bitcoin-Kursziel auf ~88.000 EUR",
-      "beschreibung": "Citigroup hat ihr Bitcoin-Kursziel für Ende 2026 von ~112.000 auf ~88.000 EUR (ca. 95.000 USD) reduziert, begründet mit makroökonomischen Unsicherheiten und nachlassendem ETF-Zufluss.",
-      "richtung": "bearish"
-    },
-    {
-      "datum": "2026-07-01",
-      "kategorie": "Makro",
-      "titel": "Fed-Gouverneur Warsh warnt vor verfrühten Zinssenkungen",
-      "beschreibung": "Federal Reserve Gouverneur Kevin Warsh betonte, dass die Fed keine Eile bei Zinssenkungen habe und risikoreich sei, zu früh zu lockern. Risikoassets reagierten negativ.",
-      "richtung": "bearish"
-    },
-    {
-      "datum": "2026-07-01",
-      "kategorie": "ETF",
-      "titel": "Bitcoin-ETFs verzeichnen vierten Tag in Folge Netto-Abflüsse",
-      "beschreibung": "US-amerikanische Spot-Bitcoin-ETFs verzeichneten zum vierten Handelstag in Folge Netto-Abflüsse in Höhe von insgesamt 380 Mio. USD. BlackRocks IBIT war als einziger Fonds im Plus.",
-      "richtung": "bearish"
     }
   ],
   "fazits": [
+    {
+      "datum": "2026-07-12",
+      "einschaetzung_numerisch": -3,
+      "kurs_eur": 56018,
+      "gold_eur": 2950.0,
+      "silver_eur": 29.5,
+      "einschaetzung": "Bitcoin bei €56.018 (-0,4%) zeigt emotionale Erschöpfung inmitten geopolitischer Eskalation (dritte Iran-Offensive diese Woche), interner Governance-Krise (BIP 110 ohne Miner-Konsens) und struktureller Kapitalrotation zu AI-Infrastruktur statt Crypto. Gold (€2.950, -0,2%) und Silber (€29,50) fallen parallel, was auf universelle Risk-Aversion statt Safe-Haven-Flucht hindeutet. Die Empery-Digital-Liquidation (50% BTC-Verkauf für AI-Datencenter bei positiver Aktienkurs-Reaktion) signalisiert, dass selbst Bitcoin-Bulls institutionell zu AI-Hardware rotieren. Marktstimmung (Fear Index 26) ist zwar pessimistisch, wird aber nicht durch Akkumulations-Druck kompensiert – Whale-Hoarding ist ohne positiven Liquiditäts-Katalysator bleibt Dead-Weight.",
+      "gewichtung": {
+        "bullish": 25,
+        "bearish": 65,
+        "neutral": 10
+      },
+      "schluessel_niveau_eur": 48000,
+      "schluessel_niveau_erklaerung": "€48.000 bleibt das entscheidende psychologische Widerstandsniveau als 50%-Retracement der H1-2026-Rally (Mai-Tief ~€32.000 bis Juni-High €62.800). Ein Break darunter würde das Whale-Akkumulations-Narrativ zu Trap-Liquidationen umdefinieren und neue Verkaufskaskaden bei gehegten Positionen im €50k–€54k-Bereich triggern. Dies ist keine technische Linie, sondern ein Sentiment-Bruchpunkt zwischen struktureller Schwäche und zyklischer Erholung.",
+      "naechster_katalysator": "US-Arbeitsmarkt-Daten (CPI/NFP) Anfang August und Klarheit zu Threat-Level der Iran-Krise für globale Ölpreise/Zinserwartungen. Ein neuer Kriegsschuss könnte Risk-Off beschleunigen; alternativ könnten Fed-Entspannungssignale Goldkonkurrenz durch Zinserwartungen neu bewerten und Bitcoin indirekt stützen. Auch: BIP 110 Fork-Deadline und Ablauf der 307-Tage-Konsolidierung im €60k–€70k-Band – statistische Häufung von Breakout-Zylen endet Anfang/Mitte August.",
+      "szenario_bedingungen": [
+        "Bullisch nur wenn: Iran-Konflikt eskaliert NICHT zu direktem US-Iran-Krieg (setzt Ölpreise nicht über $120/Barrel) UND Fed signalisiert Zinssenkungen bis September 2026 UND Bitcoin-ETF-Zuflüsse kehren zurück (>$50M wöchentlich). Dann könnte €58k–€62k Bereich wieder bullig wirken.",
+        "Bearisch wenn: Neue Iran-Offensive triggert +5% Ölpreis-Spike UND Real Yields steigen (10Y BUND über 2,5%) UND Crypto-IPO-Stagnation anhält (weitere Kapitalrotation zu AI) UND Bitcoin unter €54k fällt für 4+ Wochen. Dies würde €48k als nächstes Ziel aktivieren.",
+        "Neutral-Szenario (aktuell am wahrscheinlichsten): Bitcoin oszilliert in €54k–€60k für weitere 4–6 Wochen, Whale-Hoarding wird zu kostspieliger Carry ohne Zinsträger, und Konsolidierung vertieft sich zu €50k–€65k bis September. Dieser Fall könnte nur durch exogene Schocks durchbrochen werden (Zinsüberraschung oder Kriegs-Eskalation)."
+      ]
+    },
     {
       "datum": "2026-07-11",
       "einschaetzung_numerisch": -2,
@@ -470,7 +505,15 @@
         "Bullenfall: ETF-Zuflüsse von über $200M an zwei aufeinanderfolgenden Tagen + Bitcoin über €57.000 + Gold-Rallye über €3.000 (Inflations-Flight, nicht selektives Risk-Off). Wahrscheinlichkeit: <20%.",
         "Bärfall: Weitere $150M+ ETF-Abflüsse oder ein neuer Iran-Eskalations-Headline, der Öl über $95/Barrel treibt. Bitcoin könnte unter €52.000 fallen, während Gold weiter korrigiert, wenn Risk-Off universal ist. Wahrscheinlichkeit: >60%.",
         "Bodenbildungs-Bestätigung: Whale-Akkumulation halt an, On-Chain-Liquidationen pausieren, Börsen-Supply stabilisiert sich über 5 Tage. Erst dann ist ein nachhaltiger Rebound über €60.000 denkbar. Aktuell: Keine Bestätigung vorhanden."
-      ]
+      ],
+      "rueckblick": {
+        "damals_einschaetzung": -2,
+        "damals_kurs_eur": 55081,
+        "heute_kurs_eur": 56018,
+        "kurs_delta_eur": 937,
+        "kurs_delta_prozent": 1.7,
+        "selbstkritik": "Das Fazit vom 9. Juli beschrieb korrekt die fundamentale Spannung zwischen On-Chain-Akkumulation und Kapitalrotation, aber unterschätzte die Hartnäckigkeit des technischen Widerstands im €55k–€56k-Bereich. Die Einschätzung (-2) war für den 1-Tages-Horizont zu pessimistisch; der +1,7%-Anstieg am 9.–12. Juli zeigt, dass technische Gegenbewegungen stärker sind als die pessimistische Makrodiagnose implizierte. Allerdings: Der Fazit-Punkt zur Kapitalrotation zu AI und zur ETF-Blutung hat sich vollständig bestätigt (Empery Digital Verkauf, Crypto IPO-Stagnation). Das kritische Fehlen war: Keine Erwähnung der bevorstehenden BIP 110 Governance-Krise, die interne Bitcoin-Fraktionen offenbart. Aktualisierte Einschätzung: Das -2-Fazit war strukturell korrekt (bearish), aber der 3-Tages-Timeframe sollte auf -1 bis 0 moderiert worden sein, da technische Gegenbewegungen in Fear-Phasen stärker sind. Lehre: Fear Index 22–26 führt zu Bounce-Technicals, nicht zu Conviction-Rallies."
+      }
     },
     {
       "datum": "2026-07-08",
