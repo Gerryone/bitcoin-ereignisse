@@ -1,6 +1,27 @@
 {
   "fazits": [
     {
+      "datum": "2026-07-12",
+      "kurs_eur": 56018,
+      "eigene_einschaetzung_numerisch": -2,
+      "eigene_einschaetzung": "Bitcoin verharrt bei €56.026 in einer zermürbenden Konsolidierungsphase, die durch akkumulierende Belastungsfaktoren gekennzeichnet ist: Die wiederholte Iran-Eskalation löst keine nennenswerten Preisausschläge mehr aus – weder Risk-Off-Verkäufe noch Safe-Haven-Zuflüsse – was auf Markttaubheit hindeutet, nicht auf Stärke. Das BIP-110-Governance-Problem ist dabei das unterschätztere Risiko: Ein Protokoll-Dissens ohne Miner-Konsens untergräbt das Vertrauen in Bitcoins institutionelle Stabilität strukturell. Bemerkenswert ist die Divergenz zwischen BTC (-0,3%) und ETH (+0,2%), die andeutet, dass heute Bitcoin-spezifische Faktoren (Governance-Krise, AI-Kapitalrotation) stärker wirken als ein allgemeines Krypto-Sentiment. Ich teile die bearishe Grundhaltung meiner Vortagseinschätzungen, halte aber -2 statt -3 für angemessener, da der Fear-Index bei 26 technisch einen antizyklischen Puffer bietet und €56k bislang keine dynamische Kapitulation zeigt.",
+      "eigene_gewichtung": {
+        "bullish": 25,
+        "bearish": 60,
+        "neutral": 15
+      },
+      "kommentar_zu_haiku": "Haikus -3 ist gut begründet, aber ich halte die Gewichtung von 65% bearish für einen Tick zu aggressiv angesichts der Tatsache, dass Bitcoin trotz drei Iran-Angriffswellen und einem Governance-Streit strukturell um die €56k-Marke hält – das ist immerhin Preisresistenz, keine Kapitulation. Die Erwähnung der Empery-Digital-Liquidation als institutionelles Signal für AI-Rotation ist ein wertvoller Zusatz, der über den Tageslärm hinausgeht und das strukturelle Bild schärft – das stimmt ich klar zu. Was ich ergänzen würde: Die BTC/ETH-Divergenz heute ist ein konkret messbarer Hinweis darauf, dass Bitcoin-spezifische Faktoren dominieren, was Haiku nicht explizit herausarbeitet. Das €48.000-Schlüsselniveau als '50%-Retracement-Unterstützung' halte ich für methodisch etwas fragwürdig, weil es stark vom gewählten Kurshoch/Kurstief abhängt – hier wäre mehr Transparenz über die Basis-Levels hilfreich.",
+      "uebereinstimmung_mit_haiku": "hoch",
+      "szenario_bedingungen": [
+        "BIP 110 Fork-Dissens eskaliert zu einem formalen Chain-Split-Vorschlag oder führt zu öffentlichem Rückzug eines relevanten Core-Entwicklers – das würde die Governance-Krise von einem philosophischen in einen technischen Risikofaktor verwandeln",
+        "Bitcoin fällt unter €53.500 EUR (untere Konsolidierungsgrenze der letzten Wochen) auf Tagesbasis mit erhöhtem Volumen – dies würde bearishe Szenario-Bedingungen aktivieren und potenzielle Kaskaden Richtung €48k-€50k wahrscheinlicher machen",
+        "Institutionelle ETF-Abflüsse überschreiten $150M netto über 3 aufeinanderfolgende Handelstage – dies würde die AI-Kapitalrotations-These empirisch bestätigen und zeigen, dass die institutionelle Nachfragebasis strukturell erodiert",
+        "Straße von Hormuz bleibt länger als 7 Tage geschlossen, Ölpreis steigt über $110/Barrel – das würde Inflationserwartungen neu befeuern, Fed-Zinssenkungshoffnungen dämpfen und Bitcoin gemeinsam mit Risikoassets unter Druck setzen"
+      ],
+      "haiku_einschaetzung_zum_vergleich": -3,
+      "erstellt_am": "2026-07-12T09:43:07.165873"
+    },
+    {
       "datum": "2026-07-11",
       "kurs_eur": 56251,
       "eigene_einschaetzung_numerisch": -2,
@@ -199,5 +220,5 @@
       "erstellt_am": "2026-07-02T13:26:01.437728"
     }
   ],
-  "letzte_aktualisierung": "2026-07-11"
+  "letzte_aktualisierung": "2026-07-12"
 }
