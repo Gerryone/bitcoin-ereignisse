@@ -1,6 +1,41 @@
 {
-  "letzte_aktualisierung": "2026-07-12",
+  "letzte_aktualisierung": "2026-07-13",
   "ereignisse": [
+    {
+      "datum": "2026-07-13",
+      "kategorie": "Makro",
+      "titel": "Bitcoin zeigt Widerstandsfähigkeit gegen geopolitische Eskalation – Gold und Silber stagnieren parallel",
+      "beschreibung": "Während die USA zum vierten Mal innerhalb einer Woche den Iran angegriffen haben und Teheran die Straße von Hormuz erneut geschlossen hat, verharrt Bitcoin bei €55.131 (€63.024 USD) mit minimaler Bewegung. Gold (€2.950) und Silber (€29,50) zeigen ebenfalls Stagnation statt Flight-to-Safety-Reflexe. Dies deutet darauf hin, dass weder klassische Krisenflucht noch Inflationsangst die Märkte treibt – beide Assets befinden sich in einer Wartehaltung, nicht in einer Safe-Haven-Rallye.",
+      "einschaetzung_numerisch": -1
+    },
+    {
+      "datum": "2026-07-13",
+      "kategorie": "ETF",
+      "titel": "Bitcoin-ETF-Inflows brechen 8-Wochen-Ausfluss-Serie, aber institutionelle Nachfrage bleibt zaghaft (+$197M)",
+      "beschreibung": "Nach acht Wochen kontinuierlicher Netto-Abflüsse zeichnet sich mit +$197M am 13.07. eine technische Unterbrechung der Blutung ab. Analysten mahnen jedoch zur Vorsicht – dies sei keine Erholung institutioneller Nachfrage, sondern lediglich eine taktische Verschnaufpause. Der Fear & Greed Index bei 28 signalisiert anhaltende Furcht, nicht Akkumulation.",
+      "einschaetzung_numerisch": 0
+    },
+    {
+      "datum": "2026-07-13",
+      "kategorie": "Regulierung",
+      "titel": "Clarity Act-Entwurf könnte diese Woche landen, aber Konsens bleibt fragil und ungewiss",
+      "beschreibung": "Mehrere Quellen bestätigen gegenüber CoinDesk, dass ein neuer Clarity-Act-Entwurf in dieser Woche veröffentlicht werden könnte. Allerdings bleiben erhebliche Herausforderungen bestehen – ein bipartisanischer Konsens ist nicht gesichert, und die Verabschiedung ist nicht garantiert. Dies ist weniger ein Katalysator als eine offene Frage, die Ungewissheit aufrechterhält.",
+      "einschaetzung_numerisch": 0
+    },
+    {
+      "datum": "2026-07-13",
+      "kategorie": "Persönlichkeiten",
+      "titel": "Empery Digital und Saylor drehen BTC-zu-AI-Pivot um – Treasury-Narrative bröckelt weiter",
+      "beschreibung": "Empery Digital hat ~50% seines BTC-Bestands liquidiert, um in AI-Datencenter zu investieren – eine symbolische Kapitulation des Bitcoin-Treasury-Ansatzes. Michael Saylor wird kritisiert, weil er seine BTC-Botschaft unklar kommuniziert, während strategische Verkäufe das Großanleger-Vertrauen erschüttern. Standard Chartered warnt, dass Saylor die Glaubwürdigkeit verliert. Dies unterstreicht ein tieferes Problem: Selbst die größten Bitcoin-Befürworter rotieren zu Narrativen mit höherer Rendite (AI, Stablecoins).",
+      "einschaetzung_numerisch": -2
+    },
+    {
+      "datum": "2026-07-13",
+      "kategorie": "Technik",
+      "titel": "Bitcoin nähert sich Fidelity Power Law Support Line seit 2015 – aber ohne Bounce-Katalysator",
+      "beschreibung": "Fidelitys Global Macro-Direktor Jurien Timmer bemerkt, dass Bitcoin einer Macht-Gesetz-Akkumulationszone nahe kommt, die seit 2015 beobachtet wird. Dies könnte ein Boden-Signal sein – aber Timmer warnt ausdrücklich: Es gibt keinen erkennbaren Katalysator für einen Bounce. Die technische Position ist potenziell attraktiv, die fundamentale Nachfrage jedoch weiterhin absent.",
+      "einschaetzung_numerisch": -1
+    },
     {
       "datum": "2026-07-12",
       "kategorie": "Makro",
@@ -385,44 +420,31 @@
       "titel": "Taiko-Brücke nach 10 Tagen wiedereröffnet – TAIKO Token steigt 136%",
       "beschreibung": "Das Taiko-Protokoll hat seine Cross-Chain-Brücke nach einem Exploit von 1,7 Mio. USD vollständig wiederhergestellt und unabhängige Sicherheitsüberprüfungen abgeschlossen. Der TAIKO Token surgte kurzfristig um 136%, zeigt aber auch das anhaltende Risiko von Bridge-Exploits im Ökosystem.",
       "richtung": "neutral"
-    },
-    {
-      "datum": "2026-07-02",
-      "kategorie": "Makro",
-      "titel": "Bitcoin erholt sich auf ~53.500 EUR nach Junis -20% Einbruch",
-      "beschreibung": "Nach dem schlimmsten Monatsverlust 2026 (-20,48% im Juni) zeigt Bitcoin zu Beginn des Juli eine leichte Erholung auf ~53.500 EUR (+2,73% seit Monatsbeginn). Der Kurs testete zuvor die kritische Unterstützungszone bei ~54.000 USD (≈50.000 EUR), die als Schlüssellevel für den weiteren Trend gilt.",
-      "richtung": "neutral"
-    },
-    {
-      "datum": "2026-07-02",
-      "kategorie": "ETF",
-      "titel": "Spot-Bitcoin-ETFs: Rekord-Monatsabflüsse im Juni – 4,51 Mrd. USD",
-      "beschreibung": "Die vollständigen Juni-Daten der US Spot-Bitcoin-ETFs zeigen Rekord-Netto-Abflüsse von 4,51 Mrd. USD – der schlechteste Monat seit Auflegung der Produkte. Besonders stark betroffen waren BlackRock IBIT (-444 Mio. USD an einem einzigen Tag am 26. Juni) und Fidelity FBTC. Das kumulierte Gesamtvolumen seit Auflegung liegt noch bei 51,2 Mrd. USD.",
-      "richtung": "bearish"
-    },
-    {
-      "datum": "2026-07-02",
-      "kategorie": "Makro",
-      "titel": "Bitcoin H1 2026: -30% zum Jahresstart – historisch dritte Quartalskorrektur in Folge",
-      "beschreibung": "Bitcoin schloss das erste Halbjahr 2026 bei ~55.500 EUR, rund 30% unter dem Jahresanfangsniveau und 50% unter dem Allzeithoch vom Oktober 2024 (107.662 EUR). Damit verzeichnet Bitcoin die dritte aufeinanderfolgende Quartalsverlust – ein historisch seltenes Ereignis, das zuletzt 2014/2015 auftrat.",
-      "richtung": "bearish"
-    },
-    {
-      "datum": "2026-07-02",
-      "kategorie": "OnChain",
-      "titel": "Exchange Whale Ratio steigt auf 0,69 – erhöhter Verkaufsdruck droht",
-      "beschreibung": "Der Exchange Whale Ratio, der das Verhältnis großer Transfers zu Gesamttransfers an Börsen misst, kletterte auf 0,69. Als dieser Wert am 19. Juni 0,67 erreichte, fiel Bitcoin danach um 6,3%. Gleichzeitig sank das Open Interest von 31,3 auf 21,6 Mrd. USD – ein deutliches Deleveraging am Markt.",
-      "richtung": "bearish"
-    },
-    {
-      "datum": "2026-07-01",
-      "kategorie": "Regulierung",
-      "titel": "Binance verliert EU-Marktzugang durch MiCA",
-      "beschreibung": "Binance hat seine Lizenz für den europäischen Markt nicht erneuert bekommen und muss den Betrieb in der EU unter MiCA-Regularien einstellen. Betroffen sind Millionen europäischer Nutzer.",
-      "richtung": "bearish"
     }
   ],
   "fazits": [
+    {
+      "datum": "2026-07-13",
+      "einschaetzung_numerisch": -2,
+      "kurs_eur": 55131,
+      "gold_eur": 2950.0,
+      "silver_eur": 29.5,
+      "einschaetzung": "Bitcoin fällt um -1,5% auf €55.131 und bleibt in einer psychologisch belasteten Akkumulationszone gefangen, die bisher keinen überzeugenden Bounce-Katalysator hat. Die geopolitische Eskalation im Iran hätte klassischerweise Gold (€2.950) und Silber (€29,50) zu Safe-Haven-Rallyes treiben sollen – stattdessen stagnieren alle drei Assets parallel, was signalisiert, dass weder Krisenangst noch Inflationserwartungen den Markt treiben. Die 8-Wochen-Blutung bei Spot-ETFs wird durch einen zaghaften +$197M-Inflow unterbrochen, aber Analysten lehnen eine Trendwende ab. Regulatorische Hoffnungen (Clarity Act) sind ungewiss, und der Pivot institutioneller Akteure (Empery, Saylor) zu AI/Stablecoins erodiert das Bitcoin-Treasury-Narrativ weiter. Der Fear & Greed Index bei 28 zeigt Resignation, nicht Boden. Technisch könnte die Nähe zur Fidelity Power Law Support Line attraktiv wirken, aber ohne fundamentalen Kaufimpuls bleibt dies spekulativ.",
+      "gewichtung": {
+        "bullish": 25,
+        "bearish": 65,
+        "neutral": 10
+      },
+      "schluessel_niveau_eur": 48000,
+      "schluessel_niveau_erklaerung": "€48.000 markiert das Juni-Tief und ist psychologisch und technisch kritisch. Ein Bruch darunter würde die ‚durable bottom'-These zerstören und könnte zu Kaskaden-Liquidationen führen (Ziele: €43k–€45k). Ein Halt oberhalb €48k mit Rückgang unter €56k bleibt bearish, verlängert aber die Konsolidierung. Ein Ausbruch über €60k würde dagegen erste Anzeichen eines technischen Rebounds liefern.",
+      "naechster_katalysator": "Die Veröffentlichung des Clarity-Act-Entwurfs (erwartet diese Woche) und die FOMC-Sitzung am 30–31.07. könnten richtungsweisend werden. Kurzfristig sind US-Inflationsdaten und die Entwicklung der Iran-Krise entscheidend. Ohne einen dieser Katalysatoren könnte Bitcoin weiterhin in der Konsolidierung verharren oder nach unten durchbrechen.",
+      "szenario_bedingungen": [
+        "Clarity Act wird diese Woche als bipartisanischer Entwurf veröffentlicht UND erhält öffentliche Unterstützung von mindestens 2–3 großen Senatoren beider Parteien → Bitcoin könnte zu €58k–€62k anziehen",
+        "Bitcoin bricht unter €48.000 EUR und schließt unter diesem Niveau an zwei aufeinanderfolgenden Tagen → Cascade-Liquidation und Test von €43k–€45k wahrscheinlich; Fear & Greed fällt unter 15",
+        "Gold fällt unter €2.850 EUR oder Silber fällt unter €28 EUR WÄHREND Bitcoin auch fällt → Risk-Off-Szenario bestätigt, USD-Stärke dominiert alle Assets",
+        "Bitcoin stabilisiert sich oberhalb €54.000 EUR mit 3-Tage-Schlusskurs und ETF-Inflows drehen positiv ($300M+) → Potenzial für Test der €60k-Zone innerhalb von 5–10 Tagen"
+      ]
+    },
     {
       "datum": "2026-07-12",
       "einschaetzung_numerisch": -3,
@@ -484,7 +506,14 @@
         "Bullish: Clarity Act mit echtem Bipartisan-Support + MACD hält sich über Signallinie + institutionelle Spot-Flows drehen positiv (Woche des 14.7.). → Potenzial €65k–€68k.",
         "Bearish: MACD-Flip ist False-Signal, Spot-ETF-Abflüsse verschärfen sich, oder Yen-Stress/Japan-Zinserhöhung wird konjunkturzerstörend → Bruch unter €48.000 führt zu neuen Tiefs €43k–€45k.",
         "Neutral-Langfristig: €60k–€70k-Konsolidierung hält an, bis makroökonomische Katalysatoren (US-Zinsweg, Inflation) Klarheit geben. Gold/Silber-Stagnation deutet auf Warten hin."
-      ]
+      ],
+      "rueckblick": {
+        "prognose_damals": "-2 bei €56.233 – Bitcoin zeigt taktische Erholung, aber Fundamentale bleiben fragil",
+        "kurs_heute": "€55.131 (-€1.102 seit Prognose, -1,96%)",
+        "was_richtig": "Die Einschätzung einer ‚fragilen Erholung' war korrekt. Der Kurs konsolidierte nicht oben, sondern fiel weiter. Die MACD-Umkehrung erwies sich als Bear-Trap, nicht als Wendepunkt.",
+        "was_falsch": "Die Prognose von -2 war zu optimistisch. Der Kurs fiel kontinuierlich weiter statt in der €54k–€57k-Zone zu halten. Das €48k-Schlüsselniveau wurde nicht getestet, aber die Nähe dazu zeigt, dass die Abwärtsrisiken unterschätzt wurden.",
+        "lernpunkt": "MACD-Signale auf Tages-/Wochen-Charts sind bei fehlendem institutionellem Volumen unreliabel. Die parallele Stagnation von Gold und Silber hätte als stärkeres ‚No-Catalyst'-Signal interpretiert werden müssen – dass keine Angebots-Schocks eingepreist sind, bedeutet auch keine Nachfrage-Schocks."
+      }
     },
     {
       "datum": "2026-07-09",
