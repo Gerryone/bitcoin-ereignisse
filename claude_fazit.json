@@ -1,6 +1,27 @@
 {
   "fazits": [
     {
+      "datum": "2026-07-13",
+      "kurs_eur": 55131,
+      "eigene_einschaetzung_numerisch": -2,
+      "eigene_einschaetzung": "Bitcoin bestätigt heute erneut das bearishe Bild, das sich seit Wochen konsistent festigt: Der Kurs ist von €56.026 gestern auf €55.007 gefallen (-1,8%), was den langsamen aber stetigen Abwärtsdruck unterstreicht. Besonders besorgniserregend ist die Kombination aus dem Empery-Pivot (institutionelle Kapitalrotation weg von BTC hin zu AI) und dem bröckelnden Saylor-Narrativ – diese Signale deuten auf einen strukturellen Vertrauensverlust in das 'Bitcoin-als-Treasury-Asset'-Modell hin, nicht nur auf kurzfristige Volatilität. Die Tatsache, dass weder die Iran-Eskalation noch der ETF-Inflow-Unterbruch (+$197M) nennenswerte Preisreaktionen ausgelöst haben, zeigt eine erschreckende Nachfrageschwäche: Der Markt ist immun gegen potenzielle Bullish-Trigger. Die Parallelentwicklung von BTC und ETH (-1,6% vs. -1,3%) deutet auf eine breite Risiko-Off-Stimmung hin, nicht auf Bitcoin-spezifische Probleme – was für sich genommen neutral wäre, aber im Kontext der Bitcoin-spezifischen Negativfaktoren (Treasury-Narrative, ETF-Abflüsse) das bearishe Bild verstärkt.",
+      "eigene_gewichtung": {
+        "bullish": 20,
+        "bearish": 65,
+        "neutral": 15
+      },
+      "kommentar_zu_haiku": "Haikus Analyse ist solide und ich stimme der Kernthese zu: Die Kombination aus fehlendem Bounce-Katalysator, bröckelndem Treasury-Narrativ und resignierter Stimmung (Fear & Greed 28) ergibt ein klar bearishes Bild. Ich würde jedoch die Gewichtung des Empery/Saylor-Pivots stärker hervorheben – dies ist meiner Einschätzung nach nicht nur ein 'Einschätzung -2'-Ereignis, sondern ein potenziell struktureller Wendepunkt für das institutionelle Bitcoin-Narrativ, der mittelfristig schwerer wiegen könnte als kurzfristige ETF-Daten. Haiku wertet den ETF-Inflow-Unterbruch zu Recht als neutral, aber ich frage mich, ob das Signal nach 8 Wochen Abflüssen nicht etwas stärker als mögliches Stabilisierungssignal gewichtet werden sollte – auch wenn Analysten warnen. Die Analyse der Parallelkorrelation BTC/ETH fehlt bei Haiku und wäre ein sinnvoller Zusatz, da sie bestätigt, dass die heutige Schwäche marktbreit ist und nicht Bitcoin-spezifisch.",
+      "uebereinstimmung_mit_haiku": "hoch",
+      "szenario_bedingungen": [
+        "Bitcoin fällt unter €48.000 und hält sich nicht innerhalb von 48h wieder darüber – dies würde die 'durable bottom'-These zerstören und Kaskaden-Liquidationen wahrscheinlich machen",
+        "ETF-Abflüsse setzen sich nach dem heutigen +$197M-Unterbruch in der nächsten Woche wieder durch (mindestens 3 aufeinanderfolgende Tage mit Netto-Abflüssen), was bestätigt, dass institutionelles Desinteresse strukturell ist",
+        "Weitere namhafte Bitcoin-Treasury-Unternehmen (nach Empery-Vorbild) liquidieren BTC-Bestände zugunsten von AI oder anderen Sektoren – Bestätigung des strukturellen Narrativ-Wechsels",
+        "Clarity Act scheitert in dieser Woche oder verzögert sich deutlich über Q3 2026 hinaus, was regulatorische Unsicherheit als anhaltenden Belastungsfaktor zementiert"
+      ],
+      "haiku_einschaetzung_zum_vergleich": -2,
+      "erstellt_am": "2026-07-13T10:49:51.781832"
+    },
+    {
       "datum": "2026-07-12",
       "kurs_eur": 56018,
       "eigene_einschaetzung_numerisch": -2,
@@ -220,5 +241,5 @@
       "erstellt_am": "2026-07-02T13:26:01.437728"
     }
   ],
-  "letzte_aktualisierung": "2026-07-12"
+  "letzte_aktualisierung": "2026-07-13"
 }
