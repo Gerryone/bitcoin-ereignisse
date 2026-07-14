@@ -1,6 +1,41 @@
 {
-  "letzte_aktualisierung": "2026-07-13",
+  "letzte_aktualisierung": "2026-07-14",
   "ereignisse": [
+    {
+      "datum": "2026-07-14",
+      "kategorie": "Makro",
+      "titel": "Iran-Hormuz-Blockade neu eskaliert – CPI-Test heute, Rate-Hike-Wetten steigen, Peace Trade kollabiert",
+      "beschreibung": "Trump hat die Hormuz-Blockade reaktiviert, was Ölpreise und Fed-Rate-Hike-Erwartungen nach oben treibt und die Erholung von Anfang Juli zunichte macht. Bitcoin bei €54.927 (-0,5% in 24h) zeigt keine Flucht-zu-Sicherheit: Gold stagniert bei €2.950/oz, Silber bei €29,50/oz – paralleles Underperformance deutet auf breiteres Risk-Off hin, nicht auf klassische Inflations-Angst-Rally. Der CPI-Print heute ist der kritische Test für Fed-Narrative.",
+      "einschaetzung_numerisch": -3
+    },
+    {
+      "datum": "2026-07-14",
+      "kategorie": "ETF",
+      "titel": "$425M Spot-Bitcoin-ETF-Outflow nach kurzer Erholung – institutionelle Nachfrage bricht zusammen",
+      "beschreibung": "US-Spot-Bitcoin-ETFs sahen den größten Tagesabfluss im Juli mit $425M Netto-Abgang, nachdem die Woche mit Zuflüssen begann. Dies signalisiert, dass institutionelle Käufer die Iran-Eskalation und Rate-Hike-Signale als Verkaufssignal interpretieren. Die Volatilität in ETF-Flows (Zuflüsse → Abflüsse innerhalb 48h) zeigt mangelnde Überzeugung.",
+      "einschaetzung_numerisch": -3
+    },
+    {
+      "datum": "2026-07-14",
+      "kategorie": "Institutionell",
+      "titel": "US-Regierung transferiert $297M in beschlagnahmtem Bitcoin/Ether zu Coinbase Prime – Trump-Reserve-Zusage in Frage gestellt",
+      "beschreibung": "Die Bewegung von ~$288–297M in beschlagnahmten Coins (Farace, BTC-e Seizures) durch neue Wallets zu Coinbase Prime verstärkt Markt-Spekulationen über mögliche Verkäufe trotz Trumps öffentlicher ‚No-Sell'-Reserve-Versprechen. Technisch keine Verkaufsbestätigung (Coinbase Prime ist auch für Holding genutzt), aber psychologisch negativ für vertrauensbasierte Trump-Narrative.",
+      "einschaetzung_numerisch": -2
+    },
+    {
+      "datum": "2026-07-14",
+      "kategorie": "Regulierung",
+      "titel": "Südkorea testet tokenisierte Staatsanleihen mit Wholesale-CBDC 2027 – traditionelle Finanzen umgehen BTC",
+      "beschreibung": "South Koreas Bank of Korea plant Tokenisierungs-Pilot für Staatsanleihen via Wholesale-CBDC, nicht Bitcoin-basiert. Paralleles Muster zu SWIFT-Blockchain-Ledger und UK-Tokenisierungs-Taskforce: Institutionalisierung schreitet voran, aber auf traditionellen Infrastrukturen, nicht BTC-Blockchain. Gold/Silber nicht betroffen.",
+      "einschaetzung_numerisch": -1
+    },
+    {
+      "datum": "2026-07-14",
+      "kategorie": "OnChain",
+      "titel": "Solo-Bitcoin-Mining-Surge (+41% YoY auf 24 Blöcke in 12 Monaten) – Dezentralisierung ohne Preissupport",
+      "beschreibung": "Bitcoin-Mining-Dezentralisierung nimmt zu (Solo-Mining +41% YoY), mit kleinen Minern die $200k mit $150-Ausrüstung verdienen. Bullish für Netzwerk-Robustheit, aber ohne Kurs-Katalysator bei €54.927. Zeigt, dass fundamentale Stärke (wie von Franklin-CIO Seth Ginns erwähnt) weiterhin Preisen nicht entspricht.",
+      "einschaetzung_numerisch": 0
+    },
     {
       "datum": "2026-07-13",
       "kategorie": "Makro",
@@ -385,44 +420,31 @@
       "titel": "Indien und EU verschärfen Druck – RBI isoliert Bankensektor, MiCA 2.0 in Überprüfung",
       "beschreibung": "Indische Zentralbank drängt auf Bankenisolation von Krypto, während europäische MiCA-Regelungen einer grundsätzlichen Überprüfung (MiCA 2.0) bis September unterliegen. Längerfristig ambivalent: EU-Klarheit könnte positiv sein, RBI-Druck mindert lokale Adoption und Liquidität.",
       "einschaetzung_numerisch": -1
-    },
-    {
-      "datum": "2026-07-02",
-      "kategorie": "Makro",
-      "titel": "Fed Chair Warsh signalisiert Entwarnung bei Inflationsrisiken – Bitcoin springt über 61.000 USD",
-      "beschreibung": "Fed Chair Kevin Warsh gab dovische Signale zur Inflation ab, woraufhin Bitcoin um mehr als 4% anstieg und über 61.000 USD (ca. 53.700 EUR) kletterte – das höchste Niveau seit über einer Woche. Die Aussagen deuten auf weniger Zinserhöhungssorgen hin, was risikoreichere Assets wie Bitcoin begünstigt.",
-      "richtung": "bullish"
-    },
-    {
-      "datum": "2026-07-02",
-      "kategorie": "Institutionell",
-      "titel": "Metaplanet kauft weitere 2.823 BTC – Schatzkammer auf 43.000 BTC ausgebaut",
-      "beschreibung": "Das japanische Unternehmen Metaplanet, inzwischen der drittgrößte öffentlich gehandelte Bitcoin-Holder, investierte 170 Mio. USD in 2.823 BTC im Q2 2026. Dies signalisiert starkes institutionelles Vertrauen und akkumulativen Druck trotz Marktvolatilität.",
-      "richtung": "bullish"
-    },
-    {
-      "datum": "2026-07-02",
-      "kategorie": "OnChain",
-      "titel": "Long-Term Holder Akkumulation nimmt Fahrt auf – Netto-Ansammlung nach Distribution",
-      "beschreibung": "Glassnode-Daten zeigen, dass Wallets langfristiger Holder von Netto-Distribution zu Netto-Akkumulation umgeschaltet haben. Dies deaktiviert oft Verkaufsdruck und kann eine Bodenbildungsphase signalisieren.",
-      "richtung": "bullish"
-    },
-    {
-      "datum": "2026-07-02",
-      "kategorie": "Regulierung",
-      "titel": "MiCA 2.0 – Europa überprüft Krypto-Rahmen, Konsultation läuft bis September",
-      "beschreibung": "Drei Jahre nach Inkrafttreten von MiCA wird Europas Krypto-Regulierungsrahmen überprüft (MiCA 2.0). Die Konsultationsphase läuft bis September 2026 und könnte zu Verschärfungen oder Lockerungen führen – erhöhte regulatorische Unsicherheit für EU-Märkte.",
-      "richtung": "neutral"
-    },
-    {
-      "datum": "2026-07-02",
-      "kategorie": "Technik",
-      "titel": "Taiko-Brücke nach 10 Tagen wiedereröffnet – TAIKO Token steigt 136%",
-      "beschreibung": "Das Taiko-Protokoll hat seine Cross-Chain-Brücke nach einem Exploit von 1,7 Mio. USD vollständig wiederhergestellt und unabhängige Sicherheitsüberprüfungen abgeschlossen. Der TAIKO Token surgte kurzfristig um 136%, zeigt aber auch das anhaltende Risiko von Bridge-Exploits im Ökosystem.",
-      "richtung": "neutral"
     }
   ],
   "fazits": [
+    {
+      "datum": "2026-07-14",
+      "einschaetzung_numerisch": -3,
+      "kurs_eur": 54927,
+      "gold_eur": 2950.0,
+      "silver_eur": 29.5,
+      "einschaetzung": "Bitcoin bei €54.927 (-0,5% in 24h) gerät unter erneutem geopolitischem Druck (Iran-Hormuz-Blockade, Rate-Hike-Wetten) und institutioneller Kapitalflucht ($425M ETF-Outflow) in Bedrängnis. Gold (€2.950/oz) und Silber (€29,50/oz) zeigen keine Flucht-zu-Sicherheit parallel zu Bitcoin – beide stagnieren, was auf breiteres Risk-Off ohne klassisches Inflations-Hedging hindeutet. Der Extreme Fear Index (22, Extreme Fear) ist konträr-bullish, wird aber durch sinkende Open Interest und 307-Tage-Konsolidierung im €60k–€70k-Band überschattet. Die heutige CPI-Veröffentlichung und mögliche Fed-Rate-Hike-Signale sind kritische Tests. Regulatorische Fortschritte (Südkorea CBDC-Tokens, UK-Taskforce) validieren Institutionalisierung, aber auf traditionellen Infrastrukturen, nicht Bitcoin. Management-Exodus (Coinbase, Grayscale, White House Crypto Adviser) signalisiert Confidence-Erosion in der Branche.",
+      "gewichtung": {
+        "bullish": 25,
+        "bearish": 65,
+        "neutral": 10
+      },
+      "schluessel_niveau_eur": 48000,
+      "schluessel_niveau_erklaerung": "€48.000 ist das kritische H1-2026-Korrektionstief und psychologische Unterstützung. Ein Bruch unter diesen Level bei heutigem CPI-Schock, erneuter Iran-Eskalation oder weiterem ETF-Kapitalabzug würde die These von Whale-Akkumulation und Bodenbildung widerlegen. Über €48.000 bleibt Szenario einer prolongierten Konsolidierung oder Late-Cycle-Bounce möglich, aber nur mit sofortigem ETF-Zufluss-Turnaround oder Regulierungs-Katalysator.",
+      "naechster_katalysator": "Heutige CPI-Veröffentlichung und Fed-Waller-Signale (Rate-Hike-Timing). Falls CPI >3,5% YoY und/oder Juli-Hike-Wahrscheinlichkeit >50%, Abwärtsdruck auf €50k wahrscheinlich. ETF-Flows in den nächsten 48h sind sekundärer Validator.",
+      "szenario_bedingungen": [
+        "CPI-Daten (erwartet heute): Wenn Inflation >3,5% YoY, Fed-Hike-Wetten springen, Bitcoin unter €52k gedrückt",
+        "ETF-Netto-Flows: Wenn Abflüsse >$200M heute bestätigen, Technisches Verkaufssignal unter €51k wahrscheinlich",
+        "Gold/Silber-Divergenz: Wenn Gold >€3.000/oz steigt und Bitcoin unter €52k fällt, bestätigt dies klassische Safe-Haven-Rotation weg von Crypto",
+        "Iran-Eskalations-Tracks: Weitere Hormuz-Blockade-Erweiterung = zusätzlicher Makro-Schock; Deeskalation stärkt Peace-Trade-Narrative"
+      ]
+    },
     {
       "datum": "2026-07-13",
       "einschaetzung_numerisch": -2,
@@ -485,7 +507,13 @@
         "Bullisch: Clarity Act wird mit Bipartisan-Support vor 31.07. verabschiedet UND Spot-ETF-Netto-Zuflüsse betragen >$100M/Woche für 2 Wochen UND Bitcoin durchbricht €64.000 deutlich (über Juni 15 Peak von €67.250)",
         "Bearisch: Clarity Act scheitert oder wird verwässert UND Yen bleibt über 140 JPY/USD (Headwind) UND Open Interest fällt weiter unter 4,5 Mrd. USD UND neuer Geopolitik-Schock (Iran, Nahost)",
         "Neutal: Bitcoin verbleibt im €60k–€70k-Band für weitere 2+ Wochen, Management-Exodus stabilisiert sich, Japan-Nachfrage bleibt auf Spekulativ-Ebene ohne Institutional Anchor"
-      ]
+      ],
+      "rueckblick": {
+        "kurs_damals_eur": 56251,
+        "einschaetzung_damals_numerisch": -2,
+        "einschaetzung_heute_numerisch": -3,
+        "rückblick": "Am 11. Juli wurde Bitcoin bei €56.251 mit -2 bewertet – Begründung war 'regulatorische Erfolge ohne Kurs-Validierung' (Circle Trust Bank, New Hampshire Bond-Scheitern, Management-Exodus). Diese Einschätzung war teilweise zu optimistisch: Die Hoffnung auf 'konträr-Potenzial durch Extreme Fear Index (26)' hat sich nicht materialisiert. Stattdessen folgte eine Abwärtsbewegung um ~3,2% auf €54.927, getrieben durch Iran-Eskalation und ETF-Kapitalabfluss. Gold und Silber zeigten damals wie heute keine Divergenz – das war korrekt diagnostiziert, aber die Konsequenz (breiteres Risk-Off) wurde unterschätzt. Die '307-Tages-Konsolidierung'-These bleibt gültig, wird aber zunehmend in Richtung unteres Band (€48k-Riss) aufgelöst. Fehler: Zu viel Gewicht auf 'regulatorische Erfolge als konträr-bullish' gelegt, ohne die makroökonomische Überschattung (Iran, Fed-Hikes) ausreichend zu berücksichtigen. Heute: -3 ist gerechtfertigt, da makro-Headwinds eskaliert haben."
+      }
     },
     {
       "datum": "2026-07-10",
