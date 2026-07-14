@@ -1,6 +1,27 @@
 {
   "fazits": [
     {
+      "datum": "2026-07-14",
+      "kurs_eur": 54927,
+      "eigene_einschaetzung_numerisch": -3,
+      "eigene_einschaetzung": "Die Marktlage hat sich heute gegenüber meinen Vortagseinschätzungen merklich verschlechtert: Der $425M ETF-Outflow ist qualitativ anders als die graduellen Abflüsse der Vorwoche – das ist kein schleichendes Signal mehr, sondern ein deutlicher institutioneller Rückzug. Das Zusammentreffen von Iran-Eskalation, steigenden Rate-Hike-Wetten und dem heutigen CPI-Test bildet einen toxischen Dreiklang, der kurzfristig kaum positiv aufgelöst werden dürfte. Bemerkenswert ist die Entkopplung von BTC und ETH: ETH liegt minimal im Plus (+0,2%), während BTC leicht fällt – das deutet nicht auf allgemeine Krypto-Schwäche, sondern auf Bitcoin-spezifischen Verkaufsdruck hin, möglicherweise getrieben durch die Regierungs-Wallet-Bewegung und ETF-Abflüsse. Der Fear & Greed Index bei 22 ist konträr-interessant, aber in einem makrogetriebenen Risk-Off-Umfeld historisch kein zuverlässiger Boden – Kontraindikator-Logik versagt, wenn externe Schocks (Geopolitik, Fed) dominieren.",
+      "eigene_gewichtung": {
+        "bullish": 20,
+        "bearish": 65,
+        "neutral": 15
+      },
+      "kommentar_zu_haiku": "Haikus Einschätzung von -3 teile ich inhaltlich weitgehend, insbesondere die Analyse der ETF-Abflüsse als Qualitätswechsel und die CPI-Abhängigkeit als kritischen Kurzfrist-Faktor. Ich würde jedoch die BTC/ETH-Divergenz stärker gewichten: Dass ETH leicht positiv ist während BTC fällt, spricht für Bitcoin-spezifische Belastungen (Regierungs-Wallet, ETF-Struktur) und nicht nur allgemeines Risk-Off – das ist eine wichtige Nuancierung. Haiku erwähnt den 'Management-Exodus bei Coinbase, Grayscale, White House Crypto Adviser' als Faktor, der in den Ereignissen heute nicht explizit auftaucht – ich würde diesen Punkt vorsichtiger formulieren, da er ohne heutige Evidenz eher als Hintergrundrauschen einzustufen ist. Das Schlüsselniveau €48.000 halte ich für analytisch korrekt, aber ich würde €52.000 als nähere, kurzfristig relevantere Unterstützungszone ergänzen – ein Test dieses Levels wäre bei CPI-Schock realistischer als ein direkter Durchbruch auf €48.000.",
+      "uebereinstimmung_mit_haiku": "hoch",
+      "szenario_bedingungen": [
+        "CPI-Print heute über 3,5% YoY UND Fed-Waller-Signale erhöhen Juli-Rate-Hike-Wahrscheinlichkeit auf über 50% – würde Abwärtsdruck Richtung €50.000-€52.000 bestätigen",
+        "ETF-Abflüsse setzen sich in den nächsten 3-5 Handelstagen fort (kumulativ über $600M Wochenabfluss) – würde institutionellen Vertrauensverlust strukturell statt episodisch bestätigen",
+        "US-Regierung bestätigt tatsächliche Verkäufe aus den zu Coinbase Prime transferierten beschlagnahmten BTC (on-chain verifizierbar) – würde Trump-Reserve-Narrativ kollabieren lassen und psychologisch starken Verkaufsdruck auslösen",
+        "Bruch unter €52.000 EUR auf Tagesschlusskurs-Basis – technische Bestätigung des Abwärtstrends und Invalidierung jeder kurzfristigen Bodenbildungsthese über dem H1-2026-Tief"
+      ],
+      "haiku_einschaetzung_zum_vergleich": -3,
+      "erstellt_am": "2026-07-14T09:46:20.203391"
+    },
+    {
       "datum": "2026-07-13",
       "kurs_eur": 55131,
       "eigene_einschaetzung_numerisch": -2,
@@ -241,5 +262,5 @@
       "erstellt_am": "2026-07-02T13:26:01.437728"
     }
   ],
-  "letzte_aktualisierung": "2026-07-13"
+  "letzte_aktualisierung": "2026-07-14"
 }
