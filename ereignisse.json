@@ -1,6 +1,41 @@
 {
-  "letzte_aktualisierung": "2026-07-14",
+  "letzte_aktualisierung": "2026-07-15",
   "ereignisse": [
+    {
+      "datum": "2026-07-15",
+      "kategorie": "ETF",
+      "titel": "Bitcoin-ETF-Inflows kehren zurück (+$181M) – aber nach $425M Ausfluss bleibt Netto-Blutung bestehen",
+      "beschreibung": "US Spot Bitcoin ETFs verzeichneten am 15.07. Zuflüsse von etwa $181M nach massivem $425M Ausfluss am Vortag. Dies signalisiert kurzfristige Erholung bei €56.675 (+3,2% in 24h), aber die kumulative Wochenentwicklung zeigt strukturelles Vertrauensverlust institutioneller Anleger. Ethereum ETFs mit $58M Zufluss deuten auf Diversifizierung statt Crypto-Conviction hin.",
+      "einschaetzung_numerisch": -1
+    },
+    {
+      "datum": "2026-07-15",
+      "kategorie": "Makro",
+      "titel": "Juni-CPI-Überraschung drückt Fed-Zinserhöhungs-Odds von 43% auf 13% – Peace Trade bricht erneut zusammen",
+      "beschreibung": "Der Juni-CPI-Bericht fiel überraschend schwach aus (−0,4%), was Fed-Rate-Hike-Wahrscheinlichkeiten für späte Juli von 43% auf 13% reduzierte. Bitcoin reagierte mit Sprung zu €56.675. Allerdings fällt Gold parallel (€2.950, −0,2%) statt bullisch zu rotieren – klassische Safe-Haven-Flucht bleibt aus. Dies deutet auf Risikoaversion über alle Assets hin, nicht auf Inflationsangst-Absicherung.",
+      "einschaetzung_numerisch": 1
+    },
+    {
+      "datum": "2026-07-15",
+      "kategorie": "Regulierung",
+      "titel": "USA friert $131M iranisches Crypto ein – Geopolitik bleibt Sentiment-Bremse troach CPI-Hoffnung",
+      "beschreibung": "US-Finanzministerium sperrte $131M in Krypto-Assets iranischer Quellen inmitten neuer Hormuz-Blockade-Drohungen. Der Schritt signalisiert aggressive US-Crypto-Überwachung und verstärkt geopolitisches Risiko-Premium, obwohl CPI-Daten bearish für Fed-Zinserhöhungen wirken sollten. Gold (€2.950) bleibt stagnant – weder Konflikt noch Deflations-Signal triggert klassische Safe-Haven-Flucht.",
+      "einschaetzung_numerisch": -2
+    },
+    {
+      "datum": "2026-07-15",
+      "kategorie": "Institutionell",
+      "titel": "UK plant erste G7-Digital-Sovereign-Bond auf Blockchain (HSBC Orion) – Traditional Finance umgeht Bitcoin",
+      "beschreibung": "Großbritannien kündigt Pilotprogramm für digitale Staatsanleihen auf HSBC's Orion-Plattform an (Early 2027). Dies zeigt, dass institutionelle Tokenisierung zunehmend Bitcoin umgeht und auf Private-Blockchain-Infrastruktur setzt. Kein direkter BTC-Kurs-Katalysator, aber langfristiges Signal: Institutional Grade Crypto ≠ Bitcoin.",
+      "einschaetzung_numerisch": -2
+    },
+    {
+      "datum": "2026-07-14",
+      "kategorie": "Persönlichkeiten",
+      "titel": "White House Crypto Adviser Patrick Witt nimmt Militärurlaubszeit – Clarity Act-Momentum verflacht weiter",
+      "beschreibung": "Patrick Witt, kryptopolitischer Berater des Weißen Hauses, nimmt Militärurlaubszeit inmitten kritischer CLARITY-Act-Abstimmungen. Dies schwächt das regulatorische Rückenwind-Narrative und signalisiert, dass selbst pro-Crypto-Administratoren das Feld räumen. Timing ist desaströs für institutionelle Clarity-Hoffnungen.",
+      "einschaetzung_numerisch": -2
+    },
     {
       "datum": "2026-07-14",
       "kategorie": "Makro",
@@ -385,44 +420,30 @@
       "titel": "JPMorgan kritisiert Stratagies Bitcoin-Verkaufspolitik – Saylor-Strategie unter Druck",
       "beschreibung": "JPMorgan warnt, dass Strategys Bitcoin-Verkäufe \"Two-Way Risk\" für Märkte schaffen und Volatilität unnötig erhöhen. Die Bank fordert Equity-Finanzierung statt BTC-Verkäufe. Dies untergräbt das Corporate-Treasury-Modell und sorgt für Unsicherheit bei institutionellen Nachahmer-Käufen.",
       "einschaetzung_numerisch": -2
-    },
-    {
-      "datum": "2026-07-03",
-      "kategorie": "ETF",
-      "titel": "Bitcoin-ETF-Zuflüsse brechen 10-Tage-Dürre – 221 Mio. USD am stärksten seit Mai",
-      "beschreibung": "Spot-Bitcoin-ETFs verzeichneten erstmals seit Mai wieder Zuflüsse von 221 Millionen USD, angetrieben durch Fonds außerhalb von BlackRocks IBIT. Dies beendet eine schmerzhaften 10-Tages-Abflussphase und signalisiert Bodenbildung institutioneller Käufer bei Bitcoin ~53.882 EUR.",
-      "einschaetzung_numerisch": 3
-    },
-    {
-      "datum": "2026-07-03",
-      "kategorie": "OnChain",
-      "titel": "Mehr Bitcoin im Verlust als im Gewinn – spätzyklische Liquidation setzt fort",
-      "beschreibung": "Der Anteil von Bitcoin, das unterhalb des Kaufpreises notiert, übersteigt erstmals seit Monaten den im Gewinn befindlichen Teil. Parallel liquidieren Short-Positionen ($281M in 24h) und Leveraged-Trader ihre Positionen – klassisches Zeichen spätzyklischer Reinigung vor Bodenbildung.",
-      "einschaetzung_numerisch": -2
-    },
-    {
-      "datum": "2026-07-03",
-      "kategorie": "Institutionell",
-      "titel": "Metaplanet und Securitize erweitern Treasury/Tokenisierung – Risk-on-Signal von Corporates",
-      "beschreibung": "Metaplanet kaufte weitere 170 Mio. USD Bitcoin (43.000 BTC gesamt), während Securitize mit NYSE-Debut tokenisierte Aktien auf Solana/Avalanche emittiert. Beide Signale deuten auf institutionelle Re-Engagement nach Juni-Rückzug hin, unterstützen aber auch Ethereum-Narrative (ETH +5% vs. BTC +0,5% heute).",
-      "einschaetzung_numerisch": 2
-    },
-    {
-      "datum": "2026-07-02",
-      "kategorie": "Makro",
-      "titel": "US-Arbeitsmarktbericht schwächer als erwartet – Zinssenkungshoffnungen beleben Bitcoin",
-      "beschreibung": "Juni-Jobzuwächse fielen auf nur 57.000 (deutlich unter Erwartungen), was Spekulationen über frühere Fed-Zinssenkungen schürt. Bitcoin reagierte mit 4%-Bounce über 61.000 USD. Jedoch: schwacher Arbeitsmarkt kann auch Konjunkturängste verstärken und Risk-off-Szenarien triggern.",
-      "einschaetzung_numerisch": 1
-    },
-    {
-      "datum": "2026-07-03",
-      "kategorie": "Regulierung",
-      "titel": "Indien und EU verschärfen Druck – RBI isoliert Bankensektor, MiCA 2.0 in Überprüfung",
-      "beschreibung": "Indische Zentralbank drängt auf Bankenisolation von Krypto, während europäische MiCA-Regelungen einer grundsätzlichen Überprüfung (MiCA 2.0) bis September unterliegen. Längerfristig ambivalent: EU-Klarheit könnte positiv sein, RBI-Druck mindert lokale Adoption und Liquidität.",
-      "einschaetzung_numerisch": -1
     }
   ],
   "fazits": [
+    {
+      "datum": "2026-07-15",
+      "einschaetzung_numerisch": -2,
+      "kurs_eur": 56675,
+      "gold_eur": 2950.0,
+      "silver_eur": 29.5,
+      "einschaetzung": "Bitcoin bei €56.675 zeigt technische Erholung (+3,2%) auf schwache CPI-Daten (June −0,4%), was Fed-Rate-Hike-Wahrscheinlichkeiten reduziert. Allerdings ist dies ein False-Bottom-Szenario: Gold (€2.950, −0,2%) und Silber (€29,50) fallen parallel statt in typischer Safe-Haven-Flucht zu rotieren. Dies signalisiert universelle Risikoaversion, nicht Crypto-spezifische Akkumulation. ETF-Inflows von $181M suggerieren Bounce-Jagd nach $425M-Ausfluss, nicht strukturelle Nachfrage-Rückkehr. Geopolitische Eskalation (Iran-Crypto-Freeze von $131M, Hormuz-Blockade-Drohungen) und regulatorische Verzögerungen (Patrick Witt's Urlaub, Clarity Act fragil) überlagern makro-bullische Signale. Fear Index bei 25 (Extreme Fear) spiegelt Sentiment-Kapitulation, aber ohne Liquiditäts-Katalysator bleibt dies eine technische Falle statt Kaufgelegenheit.",
+      "gewichtung": {
+        "bullish": 25,
+        "bearish": 65,
+        "neutral": 10
+      },
+      "schluessel_niveau_eur": 48000,
+      "schluessel_niveau_erklaerung": "€48.000 ist das 50%-Retracement der H1-2026-Rally (Mai-Tief €32.000 bis Juni-High €62.800). Ein Bruch darunter würde Whale-Akkumulations-Narrativ zu Capitulation-Liquidationen umdefinieren und Verkaufskaskaden im €50k–€54k-Bereich triggern. Dies ist kein technisches Level, sondern Sentiment-Bruchpunkt zwischen struktureller Schwäche und zyklischer Erholung.",
+      "naechster_katalysator": "Late-July Fed-Entscheidung (25.–26.07.) und Clarity-Act-Abstimmung (diese Woche/nächste Woche) – beide könnten entweder Bounce-Katalysator oder neue Verkaufskaskaden triggern. Geopolitische Eskalation (Iran/Hormuz) bleibt volatilitäts-induktiv ohne richtungweisenden Impact.",
+      "szenario_bedingungen": [
+        "Fed senkt Rate-Hike-Odds unter 10% bis Late-July Entscheidung ODER CPI-Print nächste Woche confirmt Deflation → potenzielle Relief-Rally zu €62k+, aber nur bei parallelem Gold-Anstieg (€2.950 → €3.100+)",
+        "Clarity Act scheitert oder wird auf unbestimmte Zeit verschoben → regulatorische Hoffnung verdampft, institutionelle Rotationen zu AI beschleunigen sich, BTC fällt zu €48k–€50k Kapitulations-Zone",
+        "Geopolitische Eskalation widerlegt sich (Hormuz-Blockade aufgehoben, Iran-Konflikt deeskaliert) → Risk-On-Rotation möglich, aber nur wenn ETF-Inflows sustained $150M+/Tag erreichen und Gold synchron ansteigt"
+      ]
+    },
     {
       "datum": "2026-07-14",
       "einschaetzung_numerisch": -3,
@@ -486,7 +507,13 @@
         "Bullisch nur wenn: Iran-Konflikt eskaliert NICHT zu direktem US-Iran-Krieg (setzt Ölpreise nicht über $120/Barrel) UND Fed signalisiert Zinssenkungen bis September 2026 UND Bitcoin-ETF-Zuflüsse kehren zurück (>$50M wöchentlich). Dann könnte €58k–€62k Bereich wieder bullig wirken.",
         "Bearisch wenn: Neue Iran-Offensive triggert +5% Ölpreis-Spike UND Real Yields steigen (10Y BUND über 2,5%) UND Crypto-IPO-Stagnation anhält (weitere Kapitalrotation zu AI) UND Bitcoin unter €54k fällt für 4+ Wochen. Dies würde €48k als nächstes Ziel aktivieren.",
         "Neutral-Szenario (aktuell am wahrscheinlichsten): Bitcoin oszilliert in €54k–€60k für weitere 4–6 Wochen, Whale-Hoarding wird zu kostspieliger Carry ohne Zinsträger, und Konsolidierung vertieft sich zu €50k–€65k bis September. Dieser Fall könnte nur durch exogene Schocks durchbrochen werden (Zinsüberraschung oder Kriegs-Eskalation)."
-      ]
+      ],
+      "rueckblick": {
+        "einschaetzung_damals": -3,
+        "kurs_damals_eur": 56018,
+        "gold_damals_eur": 2950.0,
+        "rückblick": "Fazit vom 12.07. prognostizierte strukturelle Schwäche bei €56.018 (-0,4%) aufgrund geopolitischer Eskalation, BIP-110-Governance-Krise und Kapitalrotation zu AI. Der Rückblick war korrekt: Bitcoin ist seither NICHT über €57k gebrochen und schwankt weiter im €56k-Bereich. Gold blieb bei €2.950 stagnant – die damalige Diagnose 'universelle Risk-Aversion statt Safe-Haven-Flucht' wurde bestätigt. JEDOCH: Die Prognose des €48k-Break-Szenarios ist NICHT eingetreten, obwohl technische Gründe (Empery-Digital-Liquidation, ETF-Abflüsse, Clarity-Act-Verzögerung) vorhanden waren. Dies deutet darauf hin, dass Whale-Support im €50k–€54k-Bereich stärker ist als angenommen. Der Fehler: Zu pessimistische Einschätzung der institutionellen Akkumulations-Resilienz trotz negativer Sentiment-Marker. Heutige Bewertung (-2 statt -3) kalibriert diese Lektion: Extreme Fear Index kann technische Support-Level länger stützen als Fundamentaldaten suggeren. SELBSTKRITIK: Der Fazit hätte Whale-Lockup-Effekte stärker gewichten und weniger linear zum Worst-Case-Szenario extrapolieren sollen."
+      }
     },
     {
       "datum": "2026-07-11",
