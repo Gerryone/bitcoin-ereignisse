@@ -1,6 +1,27 @@
 {
   "fazits": [
     {
+      "datum": "2026-07-15",
+      "kurs_eur": 56675,
+      "eigene_einschaetzung_numerisch": -2,
+      "eigene_einschaetzung": "Der heutige +3,2%-Bounce auf €56.623 ist primär durch den schwachen CPI getrieben und damit ein makro-getriggerter Reflex, kein organischer Bitcoin-Demand – das zeigt auch die ETH-Outperformance (+5,1%), die eher auf breite Risikobereitschaft als BTC-spezifische Stärke hindeutet. Die ETF-Situation bleibt strukturell besorgniserregend: $181M Inflows nach $425M Ausfluss sind rechnerisch Netto-negativ, und ein einzelner Erholungstag reicht nicht, um das institutionelle Vertrauensproblem der letzten Woche zu neutralisieren. Die regulatorische Belastung durch den Iran-Crypto-Freeze und das UK-Sovereign-Bond-Signal (institutionelle Tokenisierung ohne Bitcoin) verstärken den mittelfristig bearishen Rahmen, auch wenn sie keine unmittelbaren Kurs-Trigger sind. Ich sehe den Kurs in einer fragilen Erholungsphase, die ohne klaren Katalysator (Fed-Entscheidung, Clarity Act) kurzfristig keine nachhaltige Aufwärtsdynamik entwickeln kann – meine Einschätzung bleibt bearish, aber ich hebe leicht von gestern -3 auf -2 an, weil der CPI-Rückenwind real und nicht trivial ist.",
+      "eigene_gewichtung": {
+        "bullish": 28,
+        "bearish": 60,
+        "neutral": 12
+      },
+      "kommentar_zu_haiku": "Haikus Kernthese – technische Erholung als 'False-Bottom-Szenario' – teile ich grundsätzlich, und die Beobachtung, dass Gold parallel fällt statt als Safe-Haven zu rotieren, ist ein wichtiges, oft übersehenes Signal für universelle Risikoaversion. Ich würde jedoch die -2-Einschätzung stärker auf die ETH-BTC-Divergenz stützen: ETH +5,1% vs. BTC +3,2% deutet darauf hin, dass der Move breiter risikogetrieben ist – das ist kurzfristig nicht negativ, aber auch kein BTC-bullishes Signal. Haikus Schlüsselniveau €48.000 als psychologischen Bruchpunkt halte ich für analytisch korrekt, aber die Verwendung des Begriffs 'False-Bottom' ist etwas überzuversichtlich formuliert – wir wissen nicht, ob dies ein Boden ist, nur dass die Bedingungen für eine nachhaltige Erholung fehlen. Der Punkt zu HSBC Orion und institutioneller Tokenisierung wird von Haiku als -2 gewertet, was mir etwas zu stark erscheint für ein Pilotprogramm mit 2027-Horizont – ich würde das eher als langfristiges Hintergrundrauschen auf -1 einordnen, nicht als akuten Sentiment-Faktor.",
+      "uebereinstimmung_mit_haiku": "hoch",
+      "szenario_bedingungen": [
+        "ETF-Flüsse: Bitcoin-ETF-Abflüsse setzen sich in der laufenden Woche (15.–18.07.) fort und die Wochennettoabflüsse überschreiten $500M kumulativ – würde strukturelle institutionelle Verkäufe bestätigen und bearishes Szenario validieren",
+        "Fed/Clarity-Act-Katalysator: Fed-Entscheidung (25.–26.07.) liefert entweder explizite Pause-Signale ODER Clarity Act passiert ohne wesentliche Abänderungen – beides wäre ein echter bullisher Katalysator, der die aktuelle Erholung nachhaltig machen könnte",
+        "Unterstützungsbruch: Bitcoin schließt auf Wochenbasis unter €53.000 (ca. lokales Mai-Unterstützungsniveau), was den Erholungsversuch als gescheitert markieren und den Weg in Richtung €48.000-Bereich öffnen würde",
+        "Geopolitische Eskalation: Hormuz-Blockade wird von Iran tatsächlich implementiert oder US-Sanktionen gegen weitere Krypto-Adressen ausgeweitet – würde Risikoaversion über alle Assets verstärken und Bitcoin trotz CPI-Rückenwind unter Druck setzen"
+      ],
+      "haiku_einschaetzung_zum_vergleich": -2,
+      "erstellt_am": "2026-07-15T09:50:13.709858"
+    },
+    {
       "datum": "2026-07-14",
       "kurs_eur": 54927,
       "eigene_einschaetzung_numerisch": -3,
@@ -262,5 +283,5 @@
       "erstellt_am": "2026-07-02T13:26:01.437728"
     }
   ],
-  "letzte_aktualisierung": "2026-07-14"
+  "letzte_aktualisierung": "2026-07-15"
 }
