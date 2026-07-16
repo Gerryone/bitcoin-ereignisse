@@ -1,6 +1,27 @@
 {
   "fazits": [
     {
+      "datum": "2026-07-16",
+      "kurs_eur": 55881,
+      "eigene_einschaetzung_numerisch": -2,
+      "eigene_einschaetzung": "Der Bitcoin-Markt zeigt heute ein konsistentes Bild struktureller Schwäche: Der Kursrückgang von €56.623 (gestern) auf €55.840 (-1,3%) bestätigt meine gestrige Einschätzung, dass der CPI-getriggerte Bounce keine echte Kaufkraft hatte. Besonders beunruhigend ist die institutionelle Rotation weg von Bitcoin hin zu Ethereum-ETFs – wenn BlackRock selektiv Kapital in ETH statt BTC allokiert, untergräbt das das 'digitales Gold'-Narrativ auf institutioneller Ebene spürbar. Die divergierende Performance (BTC -1,3% vs. ETH -0,2%) heute deutet weniger auf allgemeine Krypto-Schwäche als auf Bitcoin-spezifischen Verkaufsdruck hin, vermutlich aus den zwei on-chain identifizierten Investorengruppen, die in die Rally verkauft haben. Der Fear & Greed-Index bei 25 ist zwar kontrarisch lesbar, aber in einem Umfeld ohne erkennbaren Kaufkatalysator und mit aktiven Verkäufern kein verlässlicher Boden-Indikator.",
+      "eigene_gewichtung": {
+        "bullish": 20,
+        "bearish": 65,
+        "neutral": 15
+      },
+      "kommentar_zu_haiku": "Haikus Analyse ist in den Kernpunkten solide und ich teile die bearishe Grundeinschätzung (-2). Die Beobachtung zur fehlenden Gold/Silber-Rally trotz schwächerer CPI-Daten ist ein wichtiger und oft übersehener Punkt – wenn klassische Safe-Haven-Assets nicht reagieren, fehlt dem gesamten Inflationshedge-Narrativ der Treibstoff. Wo ich etwas abweiche: Haiku beschreibt den Markt als 'Markt der Resignation', ich würde ihn eher als 'Markt aktiver Umverteilung' charakterisieren – die institutionelle Rotation zu ETH ist kein passives Zuschauen, sondern eine aktive Entscheidung gegen Bitcoin als primäres Krypto-Exposure, was strukturell relevanter ist als bloße Apathie. Die €383M-Wallet-Bewegung gewichte ich etwas weniger stark als Haiku, da keine Exchange-Transaktion erfolgte – die Mehrdeutigkeit sollte hier zu mehr Vorsicht bei der Interpretation führen. Positiv anzumerken: Das Schlüsselniveau €48.000 ist gut gewählt und die Einschätzung zu Trump Clarity Act als leerem Versprechen teile ich vollständig.",
+      "uebereinstimmung_mit_haiku": "hoch",
+      "szenario_bedingungen": [
+        "Bitcoin-ETFs verzeichnen weitere Nettoabflüsse (>100M USD täglich über mindestens 3 aufeinanderfolgende Handelstage), während Ethereum-ETFs gleichzeitig Zuflüsse zeigen – würde die institutionelle Rotation von BTC zu ETH als strukturellen Trend bestätigen",
+        "Kursbruch und Tagesschluss unterhalb €52.000 EUR, was die €48.000-Unterstützungszone als nächstes Ziel in den Fokus rückt und das bullishe 'durable bottom'-Narrativ technisch zerstört",
+        "Gold erholt sich auf über €3.100 EUR während Bitcoin seitwärts läuft oder fällt – würde die Entkopplung von Bitcoin als Inflationshedge klar dokumentieren und institutionelle Umschichtung in klassische Safe-Haven-Assets signalisieren",
+        "Der US Clarity Act scheitert im Kongress oder wird auf 2027 verschoben – würde das regulatorische Aufhell-Narrativ als primären Bull-Case für H2 2026 eliminieren und den Markt seiner letzten konsensfähigen bullishen Story berauben"
+      ],
+      "haiku_einschaetzung_zum_vergleich": -2,
+      "erstellt_am": "2026-07-16T09:57:00.645232"
+    },
+    {
       "datum": "2026-07-15",
       "kurs_eur": 56675,
       "eigene_einschaetzung_numerisch": -2,
@@ -283,5 +304,5 @@
       "erstellt_am": "2026-07-02T13:26:01.437728"
     }
   ],
-  "letzte_aktualisierung": "2026-07-15"
+  "letzte_aktualisierung": "2026-07-16"
 }
