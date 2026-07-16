@@ -1,6 +1,41 @@
 {
-  "letzte_aktualisierung": "2026-07-15",
+  "letzte_aktualisierung": "2026-07-16",
   "ereignisse": [
+    {
+      "datum": "2026-07-16",
+      "kategorie": "OnChain",
+      "titel": "$383M aus 2017er-Bitcoin-Wallet bewegt – Long-Term Holder könnte Profit-Taking signalisieren",
+      "beschreibung": "Ein seit 2017 inaktiver Bitcoin-Wallet transferierte $383M zu einer neuen Adresse, nicht zu einer Exchange. Das Signal bleibt mehrdeutig: Entweder Vorbereitung zum Verkauf bei €55.881 (leichter Profit nach 9 Jahren) oder Umstrukturierung zu Cold Storage. Bei Fear & Greed Index von 25 (Extreme Fear) wäre dies ein psychologisch bedeutsames Zeichen institutioneller Unsicherheit – als würde ein klassischer Value-Investor die Position bewegen, ohne sie sofort zu liquidieren.",
+      "einschaetzung_numerisch": -2
+    },
+    {
+      "datum": "2026-07-16",
+      "kategorie": "Persönlichkeiten",
+      "titel": "ZachXBT verdammt Hardware-Wallets als \"complete garbage\" – Sicherheits-Narrative unter Druck",
+      "beschreibung": "Der bekannte Blockchain-Investigator ZachXBT kritisierte Hardware-Wallets scharf, was in einem Markt mit Extreme Fear (25) zu Unsicherheit über Self-Custody-Narrative führt. Dies untergräbt parallel die Verwahrungsfähigkeit von Privatanlegern und könnte institutionelle Concerns um Sicherheits-Infrastructure verschärfen. Bitcoin hielt sich dennoch bei €55.881 stabil nach Südkoreas Zinserhöhung.",
+      "einschaetzung_numerisch": -1
+    },
+    {
+      "datum": "2026-07-16",
+      "kategorie": "Regulierung",
+      "titel": "US-Senat lehnt Sam Bankman-Fried-Gnade einstimmig ab – Krypto-Gnade-Narrative kollabiert",
+      "beschreibung": "Nach Trump-Begnadigungen von Changpeng Zhao und Ross Ulbricht lehnte der US-Senat jede Clemency für FTX-Gründer Bankman-Fried einstimmig ab. Dies signalisiert, dass die Gnade-Dynamik begrenzt ist und Betrug weiterhin hart bestraft wird – während dies Vertrauen in das Crypto-Regulatory-Framework verbessern könnte, schafft es auch Ungewissheit über die Reichweite des Trump-Crypto-Friendly-Narrativs.",
+      "einschaetzung_numerisch": 0
+    },
+    {
+      "datum": "2026-07-16",
+      "kategorie": "Institutionell",
+      "titel": "Ethereum überholt Bitcoin bei ETF-Zuflüssen – BlackRock dominiert, Bitcoin bleibt untergewichtet",
+      "beschreibung": "Ethereum ETFs verzeichneten überproportionale Zuflüsse (fast ganz von BlackRock), während Bitcoin nur 4% Gewinn machte und Solana, TRON, Hyperliquid alle fielen. Dies zeigt eine selektive institutionelle Rotation weg von BTC zu ETH und Altcoins – ein Signal, dass Macro-Käufer (Inflationshedge) Bitcoin nicht mehr als primären Profit-Taker sehen. Gold (€2.950) und Silber (€29,50) stagnieren parallel, was Absenz von klassischem Safe-Haven-Rotations-Verhalten unterstreicht.",
+      "einschaetzung_numerisch": -2
+    },
+    {
+      "datum": "2026-07-16",
+      "kategorie": "Makro",
+      "titel": "Two Investor Groups dumpen Bitcoin in Rally zu €55.881 – Leverage-Position-Liquidierung trotz positiven Inflations-Signals",
+      "beschreibung": "On-Chain-Daten zeigen zwei Investor-Kohorten verkaufen in die Bounce-Rally auf €55.881 nach schwächeren US-Inflationsdaten. Dies widerlegt das ‚Inflations-Hedge'-Narrativ und deutet auf Profit-Taking von zyklischen Positionsträgern hin, nicht auf Akkumulation. Die fehlende Rally von Gold (€2.950) und Silber (€29,50) trotz Zins-Erleichterungs-Signalen verstärkt den Eindruck eines unterverkauften Marktes ohne fundamentale Kaufkraft.",
+      "einschaetzung_numerisch": -3
+    },
     {
       "datum": "2026-07-15",
       "kategorie": "ETF",
@@ -385,44 +420,30 @@
       "titel": "Bollinger Bands Schöpfer sieht Bären-Markt-Ende – ‚W'-förmige Umkehrung möglich",
       "beschreibung": "John Bollinger, Erfinder der Bollinger Bands Indikatoren, deutet an, dass ein Durchbruch über aktuelle Widerstandsniveaus den gesamten Abwärtstrend brechen könnte und eine W-förmige Bodenbildung entstehen könnte. Dies ist ein technisch erfahrener Marktanalyst, dessen Signal auf Wiederherstellung von Momentum hindeutet, wenn Price-Action bestätigt wird.",
       "einschaetzung_numerisch": 2
-    },
-    {
-      "datum": "2026-07-04",
-      "kategorie": "OnChain",
-      "titel": "Bitcoin Profit/Loss Ratio fällt auf 43-Monats-Tief – spätzyklische Bodenbildung signalisiert",
-      "beschreibung": "Der Anteil von Bitcoin im Gewinn fällt auf den tiefsten Stand seit März 2023. Bitwise CIO Matt Hougan kommentiert, der Boden sei \"näher als je zuvor\". Dies deutet auf massenhafte Liquidationen von Retail-Positionen und potenzielle Kapitulation hin.",
-      "einschaetzung_numerisch": 2
-    },
-    {
-      "datum": "2026-07-03",
-      "kategorie": "Institutionell",
-      "titel": "Whale-Akkumulation trotz ETF-Blutung – 16,7 Mrd. USD in 2 Wochen bei -4 Mrd. institutionellen Abflüssen",
-      "beschreibung": "Während Spot-Bitcoin-ETFs im Juni Rekord-Nettoabflüsse von 4,51 Mrd. USD verzeichneten, kauften Bitcoin-Wale 16,7 Mrd. USD in nur zwei Wochen. Diese Divergenz ist historisch bei Zyklusböden aufgetreten und deutet auf Umschichtung von Retail zu akkumulierenden Großinvestoren.",
-      "einschaetzung_numerisch": 3
-    },
-    {
-      "datum": "2026-07-04",
-      "kategorie": "Makro",
-      "titel": "Zinssenkungshoffnungen beleben Risk-On nach schwachem US-Arbeitsmarkt (57K Jobs)",
-      "beschreibung": "Der US-Arbeitsmarktbericht vom 2.7. mit nur 57.000 neu geschaffenen Jobs reduziert Zinssteigerungserwartungen erheblich. Fed-Governor Warsh signalisierte bereits Entwarnung. Bitcoin reagiert mit Erholung über 62.000 USD – klassisches Risk-On-Szenario begünstigt Krypto.",
-      "einschaetzung_numerisch": 2
-    },
-    {
-      "datum": "2026-07-03",
-      "kategorie": "Makro",
-      "titel": "Kapitalrotation aus KI-Technologie zu Bitcoin – Halbleiter-Momentum flauen ab",
-      "beschreibung": "Nach dominanter Performance von Halbleiter- und Memory-Aktien in H1 2026 zeigt sich Momentumverlust. CoinDesk berichtet von möglicher Kapitalrotation zurück in Bitcoin. Short-Squeeze liquidierte 281 Mio. USD Bärenpositionen (doppelt Longs) – technisches Upside-Potenzial erkennbar.",
-      "einschaetzung_numerisch": 1
-    },
-    {
-      "datum": "2026-07-02",
-      "kategorie": "Institutionell",
-      "titel": "JPMorgan kritisiert Stratagies Bitcoin-Verkaufspolitik – Saylor-Strategie unter Druck",
-      "beschreibung": "JPMorgan warnt, dass Strategys Bitcoin-Verkäufe \"Two-Way Risk\" für Märkte schaffen und Volatilität unnötig erhöhen. Die Bank fordert Equity-Finanzierung statt BTC-Verkäufe. Dies untergräbt das Corporate-Treasury-Modell und sorgt für Unsicherheit bei institutionellen Nachahmer-Käufen.",
-      "einschaetzung_numerisch": -2
     }
   ],
   "fazits": [
+    {
+      "datum": "2026-07-16",
+      "einschaetzung_numerisch": -2,
+      "kurs_eur": 55881,
+      "gold_eur": 2950.0,
+      "silver_eur": 29.5,
+      "einschaetzung": "Bitcoin verharrt bei €55.881 (-1,4% in 24h) in einer psychologisch abgelasteten Zone, die durch widersprüchliche Signale geprägt ist. Die geldpolitische Hoffnung (Juni-CPI schwächer) sollte klassischerweise Gold (€2.950) und Silber (€29,50) zu Safe-Haven-Rallyes treiben – stattdessen stagnieren alle drei Assets parallel, was darauf hindeutet, dass weder Inflationsangst noch Krisenerwartungen den Markt treiben. Stattdessen dominiert extreme Resignation (Fear & Greed 25) und selektive institutionelle Rotation zu Ethereum und Altcoins, während on-chain-Daten zeigen, dass Investoren in die aktuellen Bounces verkaufen, nicht kaufen. Die bewegliche €383M aus 2017er-Wallet und die Kritik an Hardware-Wallets durch ZachXBT untergraben paralleles Vertrauen in Self-Custody. Technisch bleibt Bitcoin über der kritischen €48.000-Linie, aber ohne überzeugenden Kaufimpuls – dies ist ein Markt der Resignation, kein Boden.",
+      "gewichtung": {
+        "bullish": 25,
+        "bearish": 65,
+        "neutral": 10
+      },
+      "schluessel_niveau_eur": 48000,
+      "schluessel_niveau_erklaerung": "€48.000 ist das Juni-Tief und markiert die psychologische sowie technische kritische Zone. Ein Bruch darunter würde die 'durable bottom'-These zerstören und Kaskaden-Liquidationen auslösen (Ziele: €43k–€45k). Ein Halt oberhalb €48k mit Rückgang unter €56k verlängert die bearish Konsolidierung. Nur ein Ausbruch über €60k (mit Gold-Rally parallel) würde technischen Rebound-Beginn signalisieren.",
+      "naechster_katalysator": "Trump-Clarity Act Finalität (erwartet Ende Juli) – ohne Bipartisan-Konsens bleibt dies leeres Versprechen. Alternativ: Geopolitische Eskalation (Iran-Hormuz) oder US-Jobdaten/Fed-Signale, die klassische Safe-Haven-Rotation zu Gold/Silber triggern könnten und damit BTC-Liquiditätsumfeld verschärfen würden.",
+      "szenario_bedingungen": [
+        "BULLISH: Clarity Act wird diese Woche mit konkretem Datum (vor Aug 15) ratifiziert, UND institutionelle ETF-Inflows kehren auf >$300M/Tag zurück, UND Gold bricht über €3.000 (Safe-Haven-Rotation), dann €62k–€68k möglich.",
+        "BEARISH: Clarity Act bleibt ungelöst oder verschoben bis Q4, UND on-chain Selling-Druck bleibt (weitere $2017er-Wallets mobilisieren sich), UND Iran-Eskalation triggert Risk-Off ohne BTC-Rallye, dann €48k–€45k break-down innerhalb von 10 Tagen.",
+        "NEUTRAL: Bitcoin oscillates €53k–€58k bis Clarity Act-Klarheit, Gold stagniert <€3.000, institutionelle Rotationen favoresieren ETH/SOL über BTC, Krypto bleibt im 'Warteraum'."
+      ]
+    },
     {
       "datum": "2026-07-15",
       "einschaetzung_numerisch": -2,
@@ -486,7 +507,15 @@
         "Bitcoin bricht unter €48.000 EUR und schließt unter diesem Niveau an zwei aufeinanderfolgenden Tagen → Cascade-Liquidation und Test von €43k–€45k wahrscheinlich; Fear & Greed fällt unter 15",
         "Gold fällt unter €2.850 EUR oder Silber fällt unter €28 EUR WÄHREND Bitcoin auch fällt → Risk-Off-Szenario bestätigt, USD-Stärke dominiert alle Assets",
         "Bitcoin stabilisiert sich oberhalb €54.000 EUR mit 3-Tage-Schlusskurs und ETF-Inflows drehen positiv ($300M+) → Potenzial für Test der €60k-Zone innerhalb von 5–10 Tagen"
-      ]
+      ],
+      "rueckblick": {
+        "damals_einschaetzung": -2,
+        "damals_kurs_eur": 55131,
+        "aktueller_kurs_eur": 55881,
+        "veraenderung_eur": 750,
+        "veraenderung_prozent": 1.36,
+        "rückblick": "Das Fazit vom 13.7. war zu pessimistisch. Bitcoin ist nicht zusammengebrochen, sondern hat sich um +€750 (+1,36%) erholt und signalisiert damit immerhin eine gewisse Widerstandsfähigkeit gegen die parallele Stagnation von Gold (€2.950) und Silber (€29,50). Die Prognose 'psychologisch belastete Akkumulationszone ohne Bounce-Katalysator' traf zu, aber die Trendwende war konservativer beschrieben als die tatsächliche 24-48h Stabilität. Die 8-Wochen-ETF-Blutung wurde nicht gestoppt (BlackRock-Inflows gingen zu ETH, nicht BTC), und das Treasury-Narrativ kollabiert weiterhin (Empery, Saylor zu AI). Die Warnung €48k sei kritisch bleibt valide – es gibt keine Kaskaden-Liquidierung bisher. Aber die fehlende Rally bei Gold/Silber und die on-chain Sell-Signale sind jetzt bestätigt, nicht spekulativ. Einschätzung war technisch korrekt, aber Ton zu panisch."
+      }
     },
     {
       "datum": "2026-07-12",
