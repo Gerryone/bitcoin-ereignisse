@@ -1,6 +1,27 @@
 {
   "fazits": [
     {
+      "datum": "2026-07-17",
+      "kurs_eur": 54906,
+      "eigene_einschaetzung_numerisch": -2,
+      "eigene_einschaetzung": "Der Markt bewegt sich heute im bekannten negativen Muster, das ich seit dem 12. Juli konsistent mit -2 bis -3 bewertet habe – und diese Einschätzung hat sich weitgehend bestätigt. Das zentrale Signal heute ist nicht die Kursbewegung selbst, sondern die Gleichförmigkeit des Risk-Off: Wenn Gold und Silber parallel zu Bitcoin stagnieren statt als Safe Haven zu fungieren, fehlt die klassische Krisenrotation, die Bitcoin manchmal schützt. ETH mit -2,4% fällt im Gleichschritt mit BTC (-1,4%), was auf breite Risikoaversion statt Bitcoin-spezifische Faktoren hindeutet – ein strukturell schwaches Signal. Der Fork-Diskurs um BIP 110 und den '$DOG Mode'-Client ist ein echter Governance-Belastungsfaktor, der das Narrativ 'Bitcoin als digitales Gold' untergräbt, auch wenn er kurzfristig keine direkten Preisauswirkungen hat. ETF-Inflows von $79M sind positiv, aber angesichts der externen Druckfaktoren eindeutig nicht ausreichend, um den Trend zu drehen.",
+      "eigene_gewichtung": {
+        "bullish": 25,
+        "bearish": 62,
+        "neutral": 13
+      },
+      "kommentar_zu_haiku": "Haikus Analyse ist solide und in den Kernpunkten überzeugend – die Bewertung des fehlenden Safe-Haven-Signals bei Gold/Silber halte ich für besonders treffend und wichtig. Ich teile die bearishe Grundhaltung (-2), bin aber skeptisch gegenüber der Dramatisierung des ETF-Trends: $368M über drei Tage nach $425M Abflüssen ist kein 'trügerisches Sicherheitsgefühl', sondern zeigt immerhin eine reale Gegenbewegung, die man nicht kleinreden sollte. Haikus Formulierung 'Kapital um Bitcoin herum' bezüglich Citadel/Crypto.com halte ich für spekulativ – institutionelle Infrastrukturinvestitionen können mittelfristig auch Bitcoin zugutekommen. Der Fear-Index bei 27 verdient mehr Differenzierung: Er ist noch kein Kontraindikator-Signal, aber er nähert sich jenem Bereich, in dem kapitulierende Retail-Verkäufer erschöpft sein könnten – das sollte nicht völlig ignoriert werden.",
+      "uebereinstimmung_mit_haiku": "hoch",
+      "szenario_bedingungen": [
+        "Tägliche Bitcoin-ETF-Inflows übersteigen $200M an mindestens zwei aufeinanderfolgenden Tagen – bestätigt echte institutionelle Nachfrage-Erholung und würde meine bearishe Einschätzung revidieren",
+        "Bitcoin bricht nachhaltig unter €51.000 EUR und schließt mindestens zwei Tageskerzen darunter – bestätigt beschleunigte Abwärtsphase und würde Einschätzung auf -4 verschlechtern",
+        "Der '$DOG Mode'-Client gewinnt messbare Miner-Unterstützung (>10% Hashrate-Signalisierung) – bestätigt echtes Fork-Risiko als eigenständigen Belastungsfaktor für Bitcoin-Governance-Prämie",
+        "Geopolitische De-Eskalation zwischen USA und Iran mit verifiziertem Waffenstillstand oder Verhandlungsaufnahme – würde Risk-On-Sentiment zurückbringen und ETF-Inflows potenziell beschleunigen"
+      ],
+      "haiku_einschaetzung_zum_vergleich": -2,
+      "erstellt_am": "2026-07-17T09:46:39.287920"
+    },
+    {
       "datum": "2026-07-16",
       "kurs_eur": 55881,
       "eigene_einschaetzung_numerisch": -2,
@@ -304,5 +325,5 @@
       "erstellt_am": "2026-07-02T13:26:01.437728"
     }
   ],
-  "letzte_aktualisierung": "2026-07-16"
+  "letzte_aktualisierung": "2026-07-17"
 }
