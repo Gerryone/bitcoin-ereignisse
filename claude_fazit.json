@@ -1,6 +1,27 @@
 {
   "fazits": [
     {
+      "datum": "2026-07-18",
+      "kurs_eur": 55902,
+      "eigene_einschaetzung_numerisch": -2,
+      "eigene_einschaetzung": "Der aktuelle Bitcoin-Kurs von €55.897 (+1,8% heute) sendet ein ambivalentes Signal: Der leichte Tagesanstieg bei gleichzeitig schwerem Nachrichtenumfeld deutet eher auf technische Gegenbewegung als auf echte Stärke hin – meine konsistente -2 bis -3-Einschätzung der letzten Woche bleibt strukturell intakt. Das Gleichlaufen von BTC (+1,8%) und ETH (+0,9%) im moderaten Bereich suggeriert breites Risk-On-Micro-Sentiment, aber kein spezifisches Bitcoin-Momentum. Entscheidend: Der Fear & Greed Index bei 25 (Extreme Fear) bei gleichzeitig parallelem Gold-Rückgang widerlegt das Safe-Haven-Narrativ – Bitcoin ist derzeit ein Risk-Asset, das unter Makro-Druck (Iran, AI-Unwinding, China-Unsicherheit) bleibt, ohne strukturelle Käufer, die den Boden setzen könnten. Ich halte -2 statt Haikus -3, weil der heutige Kursanstieg und die ETF-Datenlage (keine frischen Massenabflüsse gemeldet heute) eine leichte Bodenbildung nicht ausschließen.",
+      "eigene_gewichtung": {
+        "bullish": 25,
+        "bearish": 60,
+        "neutral": 15
+      },
+      "kommentar_zu_haiku": "Haikus -3 ist methodisch solide begründet, aber ich gewichte den heutigen +1,8%-Anstieg etwas anders: Ein -3 bei positiver Tagesperformance setzt voraus, dass dieser Bounce vollständig bedeutungslos ist – das ist möglich, aber nicht sicher. Ich stimme vollständig zu, dass das parallele Gold-Rückgang-Signal (keine Safe-Haven-Rotation) strukturell bearish ist und dass die institutionellen Infrastrukturprojekte (Stripe, Swift, T. Rowe Price) Bitcoin eher marginalisieren als stützen. Haikus Hinweis auf das €48.000-Fib-Level als Schlüsselbruchpunkt ist analytisch gut platziert, aber die Formulierung 'historisch tendieren extreme Fear-Werte zu weiteren 15–25% Rückgang' halte ich für zu direktiv – der Fear & Greed Index ist als Kontraindikator bekannt und ein Level von 25 markiert historisch oft kurzfristige Erholungsphasen, nicht zwingend weitere Beschleunigung. Ergänzend würde ich die heutige ETH/BTC-Relation stärker betonen: ETH (+0,9%) underperformt BTC (+1,8%), was gegen einen breiten Krypto-Optimismus spricht und eher BTC-spezifische technische Käufe (Short-Covering?) nahelegt.",
+      "uebereinstimmung_mit_haiku": "hoch",
+      "szenario_bedingungen": [
+        "Bestätigung bearish: Bitcoin schließt mehrere Tage in Folge unter €54.000 ohne signifikante ETF-Zuflüsse, was den Abwärtstrend als strukturell und nicht technisch bestätigt",
+        "Bestätigung bearish: US-Senat scheitert am Clarity Act oder vertagt ihn über August hinaus, was den regulatorischen Schwebezustand verlängert und institutionelle Neukäufer weiter in Wartehaltung hält",
+        "Revision bullish: Gold und Silber drehen in klassische Safe-Haven-Rotation (Gold >€3.000, Bitcoin gleichzeitig stabil oder steigend), was Bitcoin-Entkopplung von Risk-Asset-Kategorisierung signalisieren würde",
+        "Bestätigung bearish: Straße-von-Hormuz-Situation eskaliert zur partiellen Blockade oder ein weiterer US-Militärschlag auf Iran, was Öl-Stagflationsängste und damit Risk-Off-Selling bei Bitcoin konkret auslöst"
+      ],
+      "haiku_einschaetzung_zum_vergleich": -3,
+      "erstellt_am": "2026-07-18T09:16:59.920385"
+    },
+    {
       "datum": "2026-07-17",
       "kurs_eur": 54906,
       "eigene_einschaetzung_numerisch": -2,
@@ -325,5 +346,5 @@
       "erstellt_am": "2026-07-02T13:26:01.437728"
     }
   ],
-  "letzte_aktualisierung": "2026-07-17"
+  "letzte_aktualisierung": "2026-07-18"
 }
