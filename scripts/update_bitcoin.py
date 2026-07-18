@@ -14,6 +14,14 @@ GEÄNDERT (07.07.2026): max_tokens auf 6000 erhöht + Retry-Logik (3x)
 GEÄNDERT (07.07.2026): Gold- und Silberkurse (EUR) werden täglich
 abgerufen, in edelmetalle.json gespeichert und in den Prompt
 aufgenommen, damit Haiku im Ereignis-Log auf die Entwicklung eingeht.
+
+GEÄNDERT (18.07.2026): api.metals.live/v1/spot ist nicht mehr
+erreichbar (SSL-Handshake schlägt fehl: TLSV1_UNRECOGNIZED_NAME -
+der Endpunkt existiert offenbar nicht mehr / wurde stillgelegt).
+fetch_precious_metals() umgestellt auf gold-api.com (kein API-Key
+nötig), das über 10 Tage lang stillschweigend auf den Fallback-Wert
+zurückgefallen war und dadurch eine flache Linie im HA-Dashboard
+erzeugt hatte.
 """
 
 import json
@@ -58,23 +66,33 @@ def fetch_crypto_prices():
 
 def fetch_precious_metals():
     """
-    Gold- und Silberkurs in EUR von metals.live abrufen (kostenlos, kein API-Key).
-    Gibt Kurs pro Unze (oz) zurück. Fallback auf Vortagswert falls API nicht
-    erreichbar. Wechselkurs USD→EUR wird ebenfalls von der API geliefert.
+    Gold- und Silberkurs in EUR abrufen.
+
+    GEÄNDERT (18.07.2026): api.metals.live/v1/spot ist nicht mehr
+    erreichbar (SSL-Handshake schlägt fehl: TLSV1_UNRECOGNIZED_NAME -
+    der Endpunkt existiert offenbar nicht mehr / wurde stillgelegt).
+    Umgestellt auf gold-api.com, das keinen API-Key benötigt und
+    Gold/Silber-Spotpreise in USD pro Feinunze liefert.
+
+    Fallback auf Vortagswert falls API nicht erreichbar. Wechselkurs
+    USD→EUR wird weiterhin separat von api.frankfurter.app geholt.
     """
     try:
-        resp = requests.get(
-            "https://api.metals.live/v1/spot",
+        gold_resp = requests.get(
+            "https://api.gold-api.com/price/XAU",
             timeout=15,
             headers={"User-Agent": "Mozilla/5.0"},
         )
-        resp.raise_for_status()
-        data = resp.json()
+        gold_resp.raise_for_status()
+        gold_usd = float(gold_resp.json()["price"])
 
-        # API liefert Liste von Objekten: [{"gold": 3200.5}, {"silver": 32.1}, ...]
-        metals = {}
-        for item in data:
-            metals.update(item)
+        silver_resp = requests.get(
+            "https://api.gold-api.com/price/XAG",
+            timeout=15,
+            headers={"User-Agent": "Mozilla/5.0"},
+        )
+        silver_resp.raise_for_status()
+        silver_usd = float(silver_resp.json()["price"])
 
         # USD→EUR Kurs für Umrechnung
         fx_resp = requests.get(
@@ -83,9 +101,6 @@ def fetch_precious_metals():
         )
         fx_resp.raise_for_status()
         usd_to_eur = fx_resp.json()["rates"]["EUR"]
-
-        gold_usd = float(metals.get("gold", 0))
-        silver_usd = float(metals.get("silver", 0))
 
         gold_eur = round(gold_usd * usd_to_eur, 2)
         silver_eur = round(silver_usd * usd_to_eur, 4)
