@@ -1,6 +1,41 @@
 {
-  "letzte_aktualisierung": "2026-07-17",
+  "letzte_aktualisierung": "2026-07-18",
   "ereignisse": [
+    {
+      "datum": "2026-07-18",
+      "kategorie": "Makro",
+      "titel": "AI-Frenzy-Unwinding beschleunigt sich – Chip-Selloff zieht Bitcoin mit Edelmetallen in Korrelation",
+      "beschreibung": "Chinesische KI-Überraschung (Kimi K3 schlägt Claude/GPT im Coding) triggert globalen Semiconductor-Selloff, der Bitcoin unter €63.000 drückt und Ether doppelt so hart trifft. Gold (€2.950, −0,2%) und Silber (€29,50) fallen parallel statt in Safe-Haven-Rotation zu fliehen – dies signalisiert universelle Risk-Off, nicht strukturelle Schwäche von Bitcoin allein. Japans Nikkei verzeichnete schlechtesten Tag seit März; die Chip-Korrektur wird sich voraussichtlich noch 5–7 Handelstage fortsetzen.",
+      "einschaetzung_numerisch": -2
+    },
+    {
+      "datum": "2026-07-18",
+      "kategorie": "Geopolitik",
+      "titel": "US-Iran-Eskalation (dritte Welle in einer Woche) + Trump-China-Unsicherheit drücken Risikoassets",
+      "beschreibung": "Neue US-Luftschläge auf Iran kombiniert mit Trump-Kommentaren zu US-China-Reibereien erzeugen Perfect-Storm für Risk-Off-Sentiment. Bitcoin fällt unter €63.000, während institutionelle Investoren in klassische Absicherungen (Staatsanleihen, USD-Liquidität) flüchten. Die Straße von Hormuz-Blockade-Drohung bleibt ungelöst; dieses Szenario könnte 30–60 Tage andauern. Geopolitische Prämien sind in Volatilitäts-Indizes eingepreist, aber Bitcoin-spezifische Fluchtkapitalströme bleiben begrenzt.",
+      "einschaetzung_numerisch": -3
+    },
+    {
+      "datum": "2026-07-18",
+      "kategorie": "Institutionell",
+      "titel": "Stripe & Swift Infrastruktur-Wettrennen um digitale Zahlungen – Bitcoin marginalisiert",
+      "beschreibung": "Etablierte Finanzriesen (Stripe, Swift, SBI Group mit Coinhako-Übernahme, Citadel Securities $400M bei Crypto.com) konkurrieren um Next-Gen-Zahlungs-Schnittstellen ohne Bitcoin-native Integration. HSBC erhält Bank-of-England-Genehmigung für Digital-Gilt-Instrument; T. Rowe Price ($1,9T AUM) launcht Multi-Token-ETF – all dies umgeht Bitcoin als Nukleus. Bitcoin wird zum Commodities-Korb-Bestandteil, nicht zur Zahlungs-Revolution, die 2025 versprochen war.",
+      "einschaetzung_numerisch": -2
+    },
+    {
+      "datum": "2026-07-18",
+      "kategorie": "Regulierung",
+      "titel": "Senator Warren fordert Trump-Crypto-Earnings-Transparenz – politische Feindschaft persistiert trotz Clarity Act",
+      "beschreibung": "Warren-Anfrage zu Trumps $1,4B Crypto-Disclosure kurz vor möglichem Clarity-Act-Vote im Senat offenbart tiefe Parteilinien-Spannungen. Auch wenn der Clarity Act technisch \"diese Woche\" landen könnte, bleibt politischer Konsens fragil. Regulatory-Schwebezustand lädt Kapitalpause bei institutionellen Neukäufern; Fidelity und T. Rowe Price agieren vorsichtig statt aggressiv.",
+      "einschaetzung_numerisch": -1
+    },
+    {
+      "datum": "2026-07-18",
+      "kategorie": "OnChain",
+      "titel": "Knaken-Exchange Konkurs in Niederlanden + UK-Strafverfolgung für $115M Ransomware-Ring – Vertrauen bröckelt",
+      "beschreibung": "Niederländisches Gericht erklärt Knaken bankrott wegen fehlender Assets; UK verurteilt zwei Hacker des Scattered Spider-Ransomware-Syndikat (gekoppelt an 2024er Crypto-Exploit-Wellen). Solche Regulierungs-/Enforcement-Nachrichten untergraben Retail-Neueinsteiger-Vertrauen in Custodians, selbst wenn Hardware-Wallets (ZachXBT-Kritik) in Frage stehen. Vertrauens-Defizit transloziert sich nicht direkt zu Preis, aber blockiert neue Kapitalzuflüsse.",
+      "einschaetzung_numerisch": -1
+    },
     {
       "datum": "2026-07-17",
       "kategorie": "Makro",
@@ -385,44 +420,31 @@
       "titel": "Spot-ETF-Blutung setzt sich fort – 8. Woche negative Netto-Flows",
       "beschreibung": "Spot-Bitcoin-ETFs verzeichneten in der verkürzten Feiertags-Woche Netto-Abflüsse von $526,6 Mio. Dies ist die achte aufeinanderfolgende Woche mit negativen Flows. Institutionelle Investoren signalisieren damit Disengagement troück gegenwärtiger +2,7% Tages-Rally. Klassisches Zeichen schwacher Nachfrage im Aufwärts-Trend.",
       "einschaetzung_numerisch": -2
-    },
-    {
-      "datum": "2026-07-06",
-      "kategorie": "Makro",
-      "titel": "Bitcoin's Sharpe Ratio auf Tiefstand seit 2022 – Risiko-Rendite-Verhältnis deterioriert",
-      "beschreibung": "Bitcoins Sharpe Ratio ist auf den niedrigsten Wert seit 2022 gefallen. Das bedeutet, dass Investoren risikofrei in 10-jährige US-Treasuries hätten besser fahren können als in Bitcoin. Dies unterminiert die Narrative von Bitcoin als Rendite-Asset in der aktuellen Marktphase und signalisiert erhöhte Volatilität ohne proportionale Ertragskompensation.",
-      "einschaetzung_numerisch": -3
-    },
-    {
-      "datum": "2026-07-06",
-      "kategorie": "OnChain",
-      "titel": "Altcoin-Optimismus und LIT-Pump (+50%) trotz BTC-Schwäche – Risikorotation statt Bitcoin-Dominanz",
-      "beschreibung": "Während Bitcoin bei €55.009 stagnier, zeigt der Altcoin-Markt mit einem 50%-Pump bei LIT und dem höchsten Altcoin-Season-Indikator seit 3 Monaten klassische Symptome spekulativer Risikorotation. Dies deutet nicht auf Bitcoin-Stärke, sondern auf Fear-Relief-Bounces in schwächere Assets hin – typisch für spätere Phasen von Bärenmärkten vor erneutem Verkauf.",
-      "einschaetzung_numerisch": -2
-    },
-    {
-      "datum": "2026-07-06",
-      "kategorie": "Institutionell",
-      "titel": "Ripple MiCA-Compliance in Luxemburg – regulatorische Klarheit für Zahlungsflüsse, aber BTC profitiert nicht direkt",
-      "beschreibung": "Ripples Upgrade zur vollständigen MiCA-Compliance in Luxemburg ist ein positives Zeichen für den europäischen Regulierungsrahmen und reduziert Compliance-Unsicherheit für Zahlungstoken. Dies stärkt das Krypto-Ökosystem strukturell, profitiert aber Bitcoin direkt nicht – es ist ein XRP/Payments-Narrative, das die BTC-Preisbildung nicht unmittelbar beeinflusst.",
-      "einschaetzung_numerisch": 1
-    },
-    {
-      "datum": "2026-07-06",
-      "kategorie": "Makro",
-      "titel": "SpaceX Nasdaq-100-Aufnahme mit Volatilitäts-Warnung – historisches Muster: Große IPOs bringen post-Listing-Verkäufe",
-      "beschreibung": "Die größte IPO aller Zeiten (SpaceX) tritt dem Nasdaq 100 bei. Historische Präzedenzfälle wie Palantir und Strategy zeigten massive Volatilität und Verkaufsdrücke nach Index-Inklusion statt neuer Rallyes. Dies signalisiert ein Makro-Umfeld mit erhöhter Realisierungsbereitschaft bei großen Positionen – ein negatives Zeichen für Risk-On-Assets wie Bitcoin.",
-      "einschaetzung_numerisch": -2
-    },
-    {
-      "datum": "2026-07-06",
-      "kategorie": "Persönlichkeiten",
-      "titel": "Peter Brandt (Veteran Trader) erwägt Bitcoin-zu-Gold-Pivot – Vertrauensverlust bei Technologie-Inflation",
-      "beschreibung": "Der renommierte Trader Peter Brandt signalisiert, dass Gold gegenüber Bitcoin massiv aufwerten könnte und plant Teilverkäufe. Dies ist kein Einzelfall: Es zeigt einen Shift bei erfahrenen Marktteilnehmern weg von Technologie-Inflation-Hedge hin zu klassischen Rohstoff-Hedges, was auf Zweifel an Bitcoins Inflationsnarrative hindeutet.",
-      "einschaetzung_numerisch": -2
     }
   ],
   "fazits": [
+    {
+      "datum": "2026-07-18",
+      "einschaetzung_numerisch": -3,
+      "kurs_eur": 55902,
+      "gold_eur": 2950.0,
+      "silver_eur": 29.5,
+      "einschaetzung": "Bitcoin bei €55.902 zeigt weitere Erosion von €56.675 (15. Juli) um −1,4% über 3 Tage, während Institutionalisierungs-Narrative (T. Rowe Price, Citadel/Crypto.com) durch echte Nachfrage-Liquidität nicht gestützt werden. Das kritische Signal: Gold (€2.950) und Silber (€29,50) fallen parallel zu Bitcoin statt klassischer Safe-Haven-Rotation – dies bestätigt universelle Risk-Off statt Crypto-spezifischer Akkumulation. Chip-Selloff, US-Iran-Eskalation (dritte Welle), Trump-China-Unsicherheit und regulatorische Fragmentierung (Warren vs. Clarity Act) bilden Triple-Druck. Fear & Greed Index (25, Extreme Fear) ist technischer Indikator, nicht Kaufsignal – historisch tendieren extreme Werte zu weiteren 15–25% Rückgang, bevor Kapitulation einsetzt. Institutionelle Käufer (SBI, Stripe, Swift, traditionelle Asset Manager) agieren orthogonal zu Bitcoin-Preis; sie bauen Infrastruktur, nicht Bitcoin-Reserve.",
+      "gewichtung": {
+        "bullish": 25,
+        "bearish": 65,
+        "neutral": 10
+      },
+      "schluessel_niveau_eur": 48000,
+      "schluessel_niveau_erklaerung": "€48.000 ist 50%-Fib-Retracement der H1-2026-Rally (Mai-Tief €32.000 bis Juni-High €62.800). Ein Bruch darunter würde Whale-Akkumulations-Narrative zu kapitulierender Liquidation umdefinieren und Verkaufskaskaden im €50k–€54k-Bereich triggern. Dies ist Sentiment-Bruchpunkt zwischen struktureller Schwäche (bärischer Dominanz der Institutionalisierung) und zyklischer Erholung (Edelmetall-Bodenbildung). Derzeit bewegt sich Bitcoin auf 18% Abstand zu diesem Level; ein weiterer 10%iger Rückgang über 4–7 Tage wäre syntomatisch für neuen Bären-Leg.",
+      "naechster_katalysator": "US-CPI-Daten (Anfang August, sofern nicht heute veröffentlicht) oder Fed-Kommunikation; falls Inflation erneut überraschend, können Rate-Hike-Odds (derzeit 13% nach Juni-Überraschung) wieder steigen. Parallel: Clarity Act-Vote im Senat (diese Woche möglich, aber fragil); negativer Ausfall würde weitere −3% bis −5% triggern. Geopolitische Eskalation (Hormuz-Blockade konkretisiert sich) könnte paradoxal Ölpreise hochdrücken, was Stagflations-Angst verstärkt und Bitcoin als Risk-Asset weiter unter Druck setzt.",
+      "szenario_bedingungen": [
+        "Chip-Selloff stabilisiert sich in nächsten 3–5 Handelstagen UND Semiconductor-Futures (NVIDIA, TSMC) prallen von technischen Supports ab → Bitcoin könnte zu €58k–€60k zurückfinden.",
+        "US-Iran-Eskalation de-eskaliert (Waffenstillstand-Verhandlungen) UND Gold/Silber beginnen klassische Safe-Haven-Rotation (Gold +1% zu €2.970+) → Bitcoin könnte zu €62k–€64k zurückspringen.",
+        "Clarity Act wird diese Woche blockiert oder deutlich verwässert + Warren-Untersuchung zu Trump-Crypto-Assets wird öffentlich → Bitcoin fällt durch €54k zu €48k–€50k Fib-Support.",
+        "T. Rowe Price Multi-Token-ETF verzeichnet Inflow >$150M in Woche 1 + Crypto.com/Citadel erweisen Skalierbarkeit nach Funding → Bitcoin könnte zu €60k–€63k stabilisieren, aber Einzelkurs-Dynamik bleibt sekundär zu Infrastruktur-Nachfrage."
+      ]
+    },
     {
       "datum": "2026-07-17",
       "einschaetzung_numerisch": -2,
@@ -484,7 +506,14 @@
         "Fed senkt Rate-Hike-Odds unter 10% bis Late-July Entscheidung ODER CPI-Print nächste Woche confirmt Deflation → potenzielle Relief-Rally zu €62k+, aber nur bei parallelem Gold-Anstieg (€2.950 → €3.100+)",
         "Clarity Act scheitert oder wird auf unbestimmte Zeit verschoben → regulatorische Hoffnung verdampft, institutionelle Rotationen zu AI beschleunigen sich, BTC fällt zu €48k–€50k Kapitulations-Zone",
         "Geopolitische Eskalation widerlegt sich (Hormuz-Blockade aufgehoben, Iran-Konflikt deeskaliert) → Risk-On-Rotation möglich, aber nur wenn ETF-Inflows sustained $150M+/Tag erreichen und Gold synchron ansteigt"
-      ]
+      ],
+      "rueckblick": {
+        "einschaetzung_damals": -2,
+        "kurs_damals_eur": 56675,
+        "tatsaechlicher_kurs_heute": 55902,
+        "veraenderung_prozent": -1.36,
+        "selbstkritik": "Die Einschätzung vom 15. Juli war zu optimistisch hinsichtlich False-Bottom-Erholung. Der Fehler lag darin, dass CPI-Überraschung (−0,4%) als temporärer Positiv-Trigger eingeordnet wurde, ohne hinreichend zu berücksichtigen, dass Geopolitik (Iran, Trump-China) PERSISTENTER ist als makro-Zyklus-News. Gold/Silber-Parallelfall hätte als stärkeres Bearish-Signal interpretiert werden müssen – dies war korrekt diagnostiziert, aber in der Gewichtung untergewichtet (Fear Index 25 als Kapitulations-Chancen-Signal statt als Warnung vor Further-Drawdown). Der 'False Bottom'-Satz war richtig, aber die Bounce-Wahrscheinlichkeit von +2,0% wurde zu hoch angesetzt. Realistisch wäre −2 bis −3 gewesen. Schlüsselfehler: Institutionalisierungs-Narrativ (ETF-Inflows $181M) als strukturelle Nachfrage-Rückkehr zu interpretieren, statt als taktische Bounce-Jagd nach $425M-Outflow zu sehen. Die heutige Preis-Dynamik (−1,4% über 3 Tage) bestätigt eher −3 bis −4 Einschätzung für 3-Tages-Fenster."
+      }
     },
     {
       "datum": "2026-07-14",
