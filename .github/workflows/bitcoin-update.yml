@@ -1,10 +1,8 @@
 name: Bitcoin Ereignisse Update
-
 on:
   schedule:
     - cron: '0 7 * * *'
   workflow_dispatch:
-
 jobs:
   update:
     runs-on: ubuntu-latest
@@ -13,20 +11,16 @@ jobs:
     steps:
       - name: Repository auschecken
         uses: actions/checkout@v4
-
       - name: Python einrichten
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-
       - name: Abhängigkeiten installieren
         run: pip install anthropic requests
-
       - name: Bitcoin-Ereignisse aktualisieren
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python scripts/update_bitcoin.py
-
       - name: Änderungen committen und pushen
         run: |
           git config user.name "Bitcoin-Ereignisse-Bot"
@@ -36,6 +30,12 @@ jobs:
             echo "Keine Änderungen – nichts zu committen."
           else
             git commit -m "Update: Bitcoin-Ereignisse + Edelmetalle $(date +%Y-%m-%d)"
+            # GEÄNDERT (18.07.2026): git pull --rebase direkt vor dem Push
+            # ergänzt, um "rejected (fetch first)"-Fehler zu vermeiden,
+            # falls der Remote-Branch seit dem Checkout zu Beginn des
+            # Jobs weitere Commits erhalten hat (z.B. durch einen
+            # manuellen Re-Run kurz nach einem eigenen Commit im Repo).
+            git pull --rebase origin main
             git push
             echo "✓ Erfolgreich gepusht."
           fi
