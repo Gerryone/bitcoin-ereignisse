@@ -1,6 +1,27 @@
 {
   "fazits": [
     {
+      "datum": "2026-07-19",
+      "kurs_eur": 56544,
+      "eigene_einschaetzung_numerisch": -2,
+      "eigene_einschaetzung": "Bitcoin bewegt sich seit Tagen in einer engen Konsolidierungszone um €55.800–€56.600, und der heutige Kurs von €56.376 (+0,9%) setzt dieses Muster fort – kein Ausbruch, keine Kapitulation. Die parallele Bewegung von BTC (+0,9%) und ETH (+1,2%) deutet auf allgemeine Risikostimmung statt Bitcoin-spezifischer Nachfrage hin, was meine konsistente -2-Einschätzung der letzten Woche bestätigt. Das Call-Spread-Positionierungsargument (Ziel €64.800 bis Monatsende) halte ich für überbewertet: Optionspositionierungen sind Absicherungsstrukturen, keine verlässlichen Direktionalindikatoren, und der Fear & Greed Index bei 28 spiegelt reale Kaufzurückhaltung wider. Der entscheidende Faktor bleibt die regulatorische Unsicherheit (Clarity Act bei 48% Passierungswahrscheinlichkeit) kombiniert mit dem strukturellen Narrativ, dass traditionelle Finanzinfrastruktur Bitcoin systematisch umgeht statt einzubinden.",
+      "eigene_gewichtung": {
+        "bullish": 25,
+        "bearish": 60,
+        "neutral": 15
+      },
+      "kommentar_zu_haiku": "Haikus Fazit trifft den Kern richtig: 'Limbo-Zustand' und 'Wartezustand auf Katalysatoren' beschreiben die aktuelle Marktstruktur präzise. Ich teile die Einschätzung zum Clarity Act und zur $542M-Liquiditätsstagnation als Warnsignal. Allerdings würde ich das SBI/Coinhako-Argument differenzierter sehen: RWA-Tokenisierung und Stablecoin-Infrastruktur schließen mittelfristige Bitcoin-Integration nicht aus, sondern bauen zunächst parallele Layer auf – das ist strukturell neutral, nicht notwendigerweise negativ für BTC. Das Schlüsselniveau €48k teile ich grundsätzlich, würde aber €53.000–€54.000 als näheren und relevanteren technischen Support-Test einstufen, der vor einer möglichen Kaskade getestet werden dürfte. Die Formulierung, der Fear-Index sei 'realistisch, kein irrational', ist treffend – ich würde ergänzen, dass genau diese rationale Angst oft länger anhält als Kontraindikator-Logiker erwarten.",
+      "uebereinstimmung_mit_haiku": "hoch",
+      "szenario_bedingungen": [
+        "Clarity Act scheitert in beiden Juli-Abstimmungsfenstern oder wird auf unbestimmte Zeit vertagt – messbar durch offizielle Kongressabstimmung oder formellen Rückzug des Gesetzesentwurfs",
+        "Bitcoin-Kurs bricht nachhaltig unter €53.500 mit erhöhtem Volumen (nicht nur Intraday-Wick), was den technischen Support-Bereich definitiv aufgibt und Kaskadenliquidationen wahrscheinlicher macht",
+        "Fed-Meeting Ende Juli liefert kein Pivot-Signal oder Liquidity-Trigger (Status quo oder hawkishe Überraschung) – messbar durch offizielle Fed-Statement ohne Zinssenkungsandeutung und BTC-Reaktion unter €54.000 innerhalb 24h nach dem Meeting",
+        "ETF-Nettoabflüsse kehren zurück und überschreiten $200M+ an mehreren aufeinanderfolgenden Handelstagen, was institutionelles Desinteresse konkret quantifizierbar bestätigt"
+      ],
+      "haiku_einschaetzung_zum_vergleich": -2,
+      "erstellt_am": "2026-07-19T09:44:15.519438"
+    },
+    {
       "datum": "2026-07-18",
       "kurs_eur": 55902,
       "eigene_einschaetzung_numerisch": -2,
@@ -346,5 +367,5 @@
       "erstellt_am": "2026-07-02T13:26:01.437728"
     }
   ],
-  "letzte_aktualisierung": "2026-07-18"
+  "letzte_aktualisierung": "2026-07-19"
 }
