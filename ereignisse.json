@@ -1,6 +1,41 @@
 {
-  "letzte_aktualisierung": "2026-07-19",
+  "letzte_aktualisierung": "2026-07-20",
   "ereignisse": [
+    {
+      "datum": "2026-07-20",
+      "kategorie": "Makro",
+      "titel": "Ölpreis-Sprung auf Einjahreshoch durch US-Iran-Eskalation – Bitcoin unter €64.000 trotz Inflations-Signal",
+      "beschreibung": "Brent-Rohöl sprang fast 4% auf Einjahreshoch nach eskalierenden US-Iran-Luftangriffen, klassisches Inflations-Trigger-Szenario. Bitcoin fiel trotzdem unter $64.000 EUR (€56.160), Gold stagnierte bei €3.516,40/oz und Silber verharrte bei €49,93/oz – parallele Bewegung zeigt breites Risk-Off statt klassischer Inflations-Hedge-Rotation. Das ist das kritische Missverständnis des Marktes: Geopolitische Ölpreisschocks treiben heute nicht mehr Inflations-Hedges, sondern Zinssteigerungs-Angst und Rezessions-Szenarien.",
+      "einschaetzung_numerisch": -3
+    },
+    {
+      "datum": "2026-07-20",
+      "kategorie": "ETF",
+      "titel": "Bitcoin-ETF-Inflows setzen sich fort (+$273M über 2 Wochen), aber Momentum-Schwäche bleibt unübersehbar",
+      "beschreibung": "$273 Millionen Zuflüsse in zwei Wochen sind objektiv schwach – eine einzelne \"langsame\" Woche früher kostete Bitcoin die gleiche Summe an Kapitalabfluss. Das bedeutet: Institutionelle Käufer sind nicht zurück, sondern testen Positionen an schwächeren Preisen. Die Akkumulations-These hält nur, wenn tägliche Zuflüsse >$150M dauerhaft werden; aktuell deuten $136M/Tag eher auf \"Schadensbegrenzung\" als auf neue Bullish-Phase hin.",
+      "einschaetzung_numerisch": -1
+    },
+    {
+      "datum": "2026-07-20",
+      "kategorie": "Regulierung",
+      "titel": "Saylor schärft \"110 Gründe\" gegen BIP-110-Zensur-Vorschlag – Governance-Fragmentierung beschleunigt sich",
+      "beschreibung": "Michael Saylor (MicroStrategy Bitcoin-Whale) mobilisiert öffentlich gegen BIP-110-Datenfilter-Proposal und warnt vor Zensur-Präzedenzfall. Das ist nicht technische Diskussion, sondern Governance-Spaltung: Saylor vs. Bitcoin Core vs. Ordinals-Fraktion vs. Altcoin-Zukunft. Jede dieser Gruppen kann einen Client forcieren – Hardfork-Risiko steigt real an, weniger als 2 Jahre nach Taproot-Einigung. Gold (€3.516,40) bleibt indifferent, weil Metal-Märkte nicht mit Software-Governance-Risiken rechnen.",
+      "einschaetzung_numerisch": -2
+    },
+    {
+      "datum": "2026-07-20",
+      "kategorie": "Institutionell",
+      "titel": "AI-Frenzy-Unwinding beschleunigt: Kimi/Alibaba-Chocs treiben Chip-Selloff, Bitcoin leidet in Korrelation",
+      "beschreibung": "Tage nach Kimi K3 AI-Schock wollen sich Moonshot AI und Alibaba Qwen neu positionieren. Asiatic Chipbestände bleiben gedrückt, und Bitcoin sitzt ölpreisgetrieben zwischen Geopolitik und Tech-Volatilität. Das ist das Problem: Bitcoin ist weder inflations-korreliert (wäre Gold-Substitute) noch Tech-Growth-korreliert (wäre AI-Hedge). Es ist bloß volatil. Fear Index bei 29 spricht für noch nicht diskontierte Abwärtsszenarien.",
+      "einschaetzung_numerisch": -2
+    },
+    {
+      "datum": "2026-07-20",
+      "kategorie": "Regulierung",
+      "titel": "ECB-Ratsentscheidung in dieser Woche erwartet – Zinserwartungen kurzfristig kritischer als geopolitische Ölrallye",
+      "beschreibung": "CoinDesk listet die \"Crypto Week Ahead\" mit Fokus auf US-Regulierung und ECB-Decision. ECB-Zinsbeschluss wird Rendite-Erwartungen in EUR-Assets neu kalibrieren – wenn EZB hawkish bleibt, fallen Bitcoin und alle Risk-Assets. Silber (€49,93) sollte als erste Warnung fungieren: Wenn Silber nicht mit Ölpreis-Spike reagiert, sind Zinserwartungen nach unten revidiert, Bitcoin folgt der Rezessions-Angst statt Inflations-Hoffnung.",
+      "einschaetzung_numerisch": -2
+    },
     {
       "datum": "2026-07-19",
       "kategorie": "Makro",
@@ -385,44 +420,30 @@
       "titel": "SWIFT startet Blockchain-Ledger mit 17-Bank-Tokenisierungs-Pilot – traditionelle Finanzinfrastruktur umgeht BTC",
       "beschreibung": "SWIFT lancierte ein neues Blockchain-Ledger für einen Pilot mit 17 großen Banken zur Tokenisierung von Einzahlungen und schnelleren Cross-Border-Zahlungen. Dies ist institutionelle Blockchain-Adoption auf höchster Ebene – aber es bypassed Bitcoin vollständig und konzentriert sich auf private, verwahrte Vermögenswerte. Gold (€2.950) bleibt für traditionelle Hedges bevorzugt, während Bitcoin-Adoption auf Zahlungsebene stattfindet, nicht auf Wertspeicher-Ebene.",
       "einschaetzung_numerisch": -1
-    },
-    {
-      "datum": "2026-07-08",
-      "kategorie": "Makro",
-      "titel": "Iran-Krise eskaliert erneut – Geopolitisches Risk-Off drückt Bitcoin und alle Risk Assets",
-      "beschreibung": "Trump verkündet Ende des Iran-Waffenstillstands; neue US-Luftschläge und Raketenbeschuss auf Schiffe im Persischen Golf treiben Ölpreise nach oben und drücken Bitcoin auf €54.171 (-1,9% in 24h). Hedge-Fonds haben sich auf die bärischste Yen-Position seit 2007 positioniert (138.000 Kontrakte). Gold (€2.950/oz) bleibt stabil, Silber (€29,50/oz) folgt Bitcoin nach unten – klassisches Risk-Off-Muster ohne Safe-Haven-Divergenz.",
-      "einschaetzung_numerisch": -3
-    },
-    {
-      "datum": "2026-07-08",
-      "kategorie": "Regulierung",
-      "titel": "SEC und Vanguard signalisieren Institutionalisierung – aber Markt bleibt skeptisch",
-      "beschreibung": "SEC agendarisiert Reg Crypto für Juli 2026; Vanguard sucht Digital-Assets-Chef für Tokenisierung und Stablecoins. Coinbase erhält UK-Lizenz für Perpetual Futures und Equity-Trading. Trotz dieser positiven Regulierungstrends verharrt Bitcoin bei €54.171, was auf Vertrauensverlust hindeutet: Institutionalisierung kommt zu spät, während Marktgrundlagen (ETF-Blutung, schwache Spot-Nachfrage) erosiv bleiben.",
-      "einschaetzung_numerisch": -1
-    },
-    {
-      "datum": "2026-07-07",
-      "kategorie": "OnChain",
-      "titel": "Open Interest fällt weiter – Rally-Haltbarkeit bleibt fraglich",
-      "beschreibung": "Bitcoin stieg am 7. Juli auf €54.400 (≈$64.400), zog sich dann zurück. Open Interest ist gesunken und signalisiert schwache Derivate-Unterstützung, während Spot-Nachfrage weiterhin versiegt. Die 8,4% Juli-Gewinne werden durch fallende Leverage und mangelnde institutionelle Unterstützung in Frage gestellt.",
-      "einschaetzung_numerisch": -2
-    },
-    {
-      "datum": "2026-07-07",
-      "kategorie": "Institutionell",
-      "titel": "Strategie-Verkäufe destabilisieren Narrative – JPMorgan kritisiert Saylor",
-      "beschreibung": "Strategie Capital hat in den letzten Wochen mehrere hundert Millionen USD an Bitcoin verkauft, nachdem zuvor tausende BTC gekauft wurden. JPMorgan kritisiert die Inkohärenz der Saylor-Strategie öffentlich. Dies beschädigt das Erzählung von Corporate Treasury Accumulation und deutet auf Gewinnmitnahmen bei schwacher Marktsituation hin.",
-      "einschaetzung_numerisch": -2
-    },
-    {
-      "datum": "2026-07-08",
-      "kategorie": "Technologie",
-      "titel": "Base B20 Standard Aktivierung – technologischer Fortschritt ohne Kurs-Support",
-      "beschreibung": "Base aktiviert seinen B20 Token Standard für Stablecoins und Real-World Assets am 8. Juli; gleichzeitig wird die XRP Ledger-Sicherheitsan-Amendment fragmentiert. Diese On-Chain-Entwicklungen sind graduell positiv, können aber das Makro-Bearishness (Extreme Fear Index 20) nicht aufheben und bieten keinen unmittelbaren Bitcoin-Kurs-Katalysator.",
-      "einschaetzung_numerisch": 0
     }
   ],
   "fazits": [
+    {
+      "datum": "2026-07-20",
+      "einschaetzung_numerisch": -3,
+      "kurs_eur": 56160,
+      "gold_eur": 3516.4,
+      "silver_eur": 49.9345,
+      "einschaetzung": "Bitcoin bei €56.160 (-0,4% 24h) verliert trotz klassischem Inflations-Katalysator (Ölpreis +4% auf Einjahreshoch durch US-Iran-Eskalation) an Boden – das ist das Kern-Thesis-Fehler des Marktes. Gold (€3.516,40) und Silber (€49,93) stagnieren parallel, keine Rotations-Bewegung erkennbar. Das bedeutet: Marktteilnehmer diskontieren Rezession + Zinserhöhung stärker als Ölpreis-Inflations-Signal. Bitcoin-ETF-Inflows (+$273M über 2 Wochen) sind quantitativ schwach und deuten auf Schadensbegrenzungs-Akkumulation, nicht auf Conviction-Buy. Governance-Spaltung (Saylor vs. BIP-110) und AI-Sector-Volatilität belasten zusätzlich. Der Fear Index bei 29 warnt: Noch nicht Extreme-Fear, aber kein Margin für weitere negative Szenarien.",
+      "gewichtung": {
+        "bullish": 25,
+        "bearish": 65,
+        "neutral": 10
+      },
+      "schluessel_niveau_eur": 48000,
+      "schluessel_niveau_erklaerung": "€48.000 ist das H1-2026-Korrektionstief und psychologische Unterstützung. Bruch bei ECB-Hawkish-Signal, neuer Iran-Eskalation oder ETF-Outflow >$100M/Tag würde Whale-Akkumulations-These widerlegen und Late-Cycle-Bären-Phase bestätigen. Oberhalb €48.000 bleibt Konsolidierungs-Szenario möglich, aber nur mit sofortiger ETF-Zufluss-Beschleunigung (>$200M/Tag) ODER Clarity-Act-Durchbruch diese Woche.",
+      "naechster_katalysator": "ECB-Ratsentscheidung (diese Woche) wird unmittelbare Neukalibration aller Risk-Asset-Yields forcieren. Falls ECB hawkish bleibt, fällt Bitcoin wieder unter €55.000. Falls dovish pivot, könnten Silber + Bitcoin synchron rallyen – aktuell besteht diese Korrelation nicht.",
+      "szenario_bedingungen": [
+        "Bull-Szenario: ECB signalisiert Zinsschnitt-Ende, Bitcoin-ETF-Inflows >$200M/Tag ab Montag, Ölpreis stabilisiert sich (keine neue Iran-Eskalation). Ziel: €64.800 bis Monatsende (bekannt von Call-Spreads), bedarf Zinserwartungs-Pivot.",
+        "Bear-Szenario: ECB hawkish oder neutral-haltend, Bitcoin-ETF-Outflows >$50M/Tag, neuer geopolitischer Schock (Hormuz-Blockade-Ankündigung) sendet Ölpreis über $95. Ziel: €48.000 Bruch möglich, würde Whale-Akkumulations-These falsifizieren und Bären-Phase bis Q4-2026 forcieren.",
+        "Neutral-Szenario: ECB dovish überraschend, aber Clarity Act bleibt stecken, Michael Saylor gewinnt BIP-110-Governance-Kampf und schreibt Fork-Risiko massiv auf. Bitcoin bewegt sich seitwärts €52.000–€58.000 während Institutionelle und Retail sich neu positionieren. Momentum reicht nicht für neues ATH dieses Jahr."
+      ]
+    },
     {
       "datum": "2026-07-19",
       "einschaetzung_numerisch": -2,
@@ -486,7 +507,17 @@
         "Bearisches Szenario: Weitere Iran-Luftangriffe auf US-Basen oder Trump-China-Escalation führt zu >3% Tagesrückgang; Bitcoin fällt unter €52.000; Gold und Silber bleiben stagnant; ETF-Outflows >$100M/Tag",
         "Neutrales Szenario: Geopolitische Spannung stabilisiert sich auf aktuellem Niveau; Bitcoin konsolidiert €50.000–€56.000; ETF-Zuflüsse continue moderat (+$50M–$100M/Tag); Regulierungsfortschritte (Clarity Act) bleiben diskountiert",
         "Bullisches Szenario: De-Eskalations-Ankündigung oder Peace-Verhandlungs-Signal + Clarity Act-Passage + Bitcoin-ETF-Inflows >$200M/Tag führen zu schneller Rückkehr zu €57.000–€60.000; Gold würde dann mit Bitcoin parallel steigen (Inflations-Hedging-Rotation)"
-      ]
+      ],
+      "rueckblick": {
+        "damalige_einschaetzung": -2,
+        "damaliger_kurs_eur": 54906,
+        "damaliges_gold_eur": 2950,
+        "damaliges_silber_eur": 29.5,
+        "aktueller_kurs_eur": 56160,
+        "aktuelles_gold_eur": 3516.4,
+        "aktuelles_silber_eur": 49.9345,
+        "rückblick": "Die Einschätzung vom 2026-07-17 war zu optimistisch bezüglich institutioneller Akkumulations-Dynamik. Damals wurde angenommen, dass +$368M ETF-Inflows über 3 Tage eine bullische Trendwende signalisierten – das war Irrglauben. Kurs stieg von €54.906 auf €56.160 (+2,3%), aber das war technischer Bounce, nicht Regime-Change. Das kritische Missverständnis: Damals wurde Gold-Stagnation (€2.950) als weniger alarmierend bewertet; heute zeigt sich, dass die Stagnation korrekt war – beide Assets bleiben in Rezessions-Preis-Muster stecken. Die Warnung vor €48.000-Bruch war korrekt als Trigger, aber die Wahrscheinlichkeit wurde unterschätzt: Mit ECB-Hawkish-Risiko, geopolitischer Volatilität und nur $136M/Tag durchschnittliche ETF-Inflows ist €48.000 eher 40%-Szenario als 20%-Szenario. Silber-Anstieg (€29,50 → €49,93, +69%) ist völlig uncorrelated mit Bitcoin-Bewegung – das deutet auf klassische Inflation-Hedge-Rotation hin, Bitcoin ist davon NICHT profitiert. Fazit: Bullische Bias war zu früh; das Fazit hätte eingehen sollen, dass ETF-Inflows ohne regulatorischen Durchbruch (Clarity Act) inkrementelle Stabilisierung bringen, aber kein Breakout-Kataly sator."
+      }
     },
     {
       "datum": "2026-07-16",
