@@ -1,6 +1,32 @@
 {
   "fazits": [
     {
+      "datum": "2026-07-20",
+      "kurs_eur": 56160,
+      "identifizierte_schwachstellen": [
+        "Datenfehler/Kursverwechslung: Haiku nennt €56.160 als aktuellen Bitcoin-Kurs und schreibt '-0,4% 24h' – der tatsächliche Systemkurs heute ist jedoch €53.000 (+0,0%). Das ist eine Diskrepanz von über €3.000 (ca. 5,5%), die Haiku offensichtlich aus den Ereignisdaten übernommen hat, ohne zu prüfen, ob dieser Kurs dem 'AKTUELLER BITCOIN-KURS'-Parameter entspricht. Eine Analyse, die mit falschen Ausgangsdaten arbeitet, verliert strukturell an Glaubwürdigkeit.",
+        "Bestätigungsfehler durch selektive Interpretation der ETF-Daten: Haiku bezeichnet $273M in zwei Wochen als 'quantitativ schwach' und setzt einen willkürlichen Schwellenwert von >$150M/Tag als 'Conviction-Buy'. Dieser Schwellenwert ist nicht aus Marktdaten abgeleitet, sondern aus dem Bedürfnis, das bearishe Narrativ zu stützen. Positive ETF-Inflows über zwei Wochen ohne einzigen Outflow-Tag sind ein relevantes Signal – Haiku negiert es mit einer selbst definierten Benchmark, die keiner Basisrate entspricht.",
+        "Überladung mit kausal nicht verknüpften Narrativen: Haiku verbindet Ölpreis-Eskalation, ECB-Entscheidung, AI-Sektor-Volatilität (Kimi/Alibaba), BIP-110-Governance-Spaltung und ETF-Schwäche zu einem kohärenten Bearish-Bild – aber diese Faktoren ziehen in teils entgegengesetzte Richtungen (Ölpreis = Inflations-Hedge-These für BTC, ECB hawkish = Risk-Off, AI-Selloff = Korrelation mit Growth-Assets). Haiku behandelt alle als additive Negativfaktoren, ohne die internen Widersprüche zu benennen: Wenn Bitcoin weder als Inflations-Hedge noch als Tech-Growth-Korrelat funktioniert, ist es unklar, welches konkrete Transmissions-Modell den Kursrückgang antreibt."
+      ],
+      "staerkstes_gegenargument": "Bitcoin notiert seit mehreren Wochen konsistent im Bereich €53.000–€56.600 – ein Muster, das strukturelle Unterstützung durch Akkumulation signalisieren kann, nicht Schwäche. Ein Fear-Index von 29 (Fear, nicht Extreme Fear) kombiniert mit anhaltenden ETF-Inflows und einer engen Handelsspanne sind historisch häufiger Vorboten einer Bodenbildung als eines weiteren signifikanten Einbruchs. Haiku extrapoliert aus kurzfristigem Newsflow einen -3-Wert, ignoriert dabei aber, dass Bitcoin in den letzten 5 Handelstagen trotz eskalierender Geopolitik, AI-Volatilität und schwacher ETF-Daten NICHT unter €52.000 gefallen ist – der Markt hat diese Szenarien möglicherweise bereits verarbeitet.",
+      "eigene_einschaetzung_numerisch": -1,
+      "eigene_einschaetzung": "Meine eigene Trefferquote von 0% bei konsistentem -2-Signal ist ein klares Warnsignal: Ich habe systematisch zu pessimistisch analysiert, während Bitcoin seitwärts bis leicht aufwärts tendierte. Das zwingt mich heute zur Kalibrierung. Der aktuelle Kurs von €53.000 liegt deutlich unter den Ereignisdaten (die von €56.160 sprechen) – was darauf hindeutet, dass ein Teil des Rückgangs bereits stattgefunden hat und im heutigen Kurs eingepreist ist. Geopolitik, ECB-Unsicherheit und Governance-Debatte sind real, aber ein Markt, der bei diesen Nachrichten nicht mehr signifikant fällt (+0,0% heute), zeigt Resilienz. Ich sehe einen moderaten Negativ-Bias wegen der ECB-Entscheidung und der strukturellen Schwäche des Momentum, aber ich halte eine -3-Einschätzung für überzogen und positioniere mich bei -1 als konservativstem bearishem Signal.",
+      "eigene_gewichtung": {
+        "bullish": 30,
+        "bearish": 45,
+        "neutral": 25
+      },
+      "begruendung_bei_uebereinstimmung": "Meine Einschätzung weicht signifikant von Haiku (-3 vs. -1) ab. Die identifizierte Kritik kippt das Gesamtbild: Haiku arbeitet mit einem falschen Ausgangskurs, setzt willkürliche ETF-Benchmarks und häuft Narrativen auf, die sich teilweise widersprechen. Entscheidend ist meine eigene Kalibrierungspflicht: 0% Trefferquote bei 5 konsekutiven -2-Signalen zeigt, dass systematischer Pessimismus unter den aktuellen Marktbedingungen nicht die Realität abbildet. Die Kombination aus Kursresilienz (+0,0% trotz Schlechtnachrichten), Fear-Index noch nicht in Extrembereich und kontinuierlichen ETF-Inflows rechtfertigt eine deutlich weniger bearishe Positionierung.",
+      "uebereinstimmung_mit_haiku": "mittel",
+      "szenario_bedingungen": [
+        "ECB-Entscheidung diese Woche erweist sich als hawkish surprise (kein Pivot-Signal) UND Bitcoin fällt daraufhin unter €51.500 – das würde die Bären-These bestätigen",
+        "Bitcoin-ETF-Outflows von mehr als $80M an mindestens zwei aufeinanderfolgenden Handelstagen – das würde die Akkumulations-These widerlegen und strukturelle Nachfrageschwäche beweisen",
+        "Bitcoin bricht nach oben aus der Konsolidierungszone und schließt zwei aufeinanderfolgende Tage über €56.000 mit steigendem Volumen – das würde meine negative Bias als Fehlkalibrierung entlarven und ein Gegensignal erzeugen"
+      ],
+      "haiku_einschaetzung_zum_vergleich": -3,
+      "erstellt_am": "2026-07-20T10:41:01.621742"
+    },
+    {
       "datum": "2026-07-19",
       "kurs_eur": 56544,
       "eigene_einschaetzung_numerisch": -2,
@@ -145,7 +171,9 @@
         "Clarity Act scheitert in dieser Woche oder verzögert sich deutlich über Q3 2026 hinaus, was regulatorische Unsicherheit als anhaltenden Belastungsfaktor zementiert"
       ],
       "haiku_einschaetzung_zum_vergleich": -2,
-      "erstellt_am": "2026-07-13T10:49:51.781832"
+      "erstellt_am": "2026-07-13T10:49:51.781832",
+      "rueckblick_prozent_7_tage": 2.68,
+      "rueckblick_kurs_7_tage": 56607.277644832175
     },
     {
       "datum": "2026-07-12",
@@ -166,7 +194,9 @@
         "Straße von Hormuz bleibt länger als 7 Tage geschlossen, Ölpreis steigt über $110/Barrel – das würde Inflationserwartungen neu befeuern, Fed-Zinssenkungshoffnungen dämpfen und Bitcoin gemeinsam mit Risikoassets unter Druck setzen"
       ],
       "haiku_einschaetzung_zum_vergleich": -3,
-      "erstellt_am": "2026-07-12T09:43:07.165873"
+      "erstellt_am": "2026-07-12T09:43:07.165873",
+      "rueckblick_prozent_7_tage": 1.13,
+      "rueckblick_kurs_7_tage": 56652.31474805442
     },
     {
       "datum": "2026-07-11",
@@ -187,7 +217,9 @@
         "ETH/BTC-Ratio-Verschiebung über mehrere Wochen: Sollte ETH dauerhaft stärker als BTC performen (ETH/BTC-Ratio steigt >10% über 4 Wochen), bestätigt das eine Altcoin-Rotation zu Lasten von Bitcoin und wäre ein bearishes BTC-spezifisches Signal"
       ],
       "haiku_einschaetzung_zum_vergleich": -2,
-      "erstellt_am": "2026-07-11T09:17:20.089586"
+      "erstellt_am": "2026-07-11T09:17:20.089586",
+      "rueckblick_prozent_7_tage": -0.66,
+      "rueckblick_kurs_7_tage": 55879.33332784664
     },
     {
       "datum": "2026-07-10",
@@ -208,7 +240,9 @@
         "BTC und ETH beginnen auseinanderzulaufen (ETH übertrifft BTC um >5% in einer Woche), was auf Bitcoin-spezifischen Verkaufsdruck hindeutet und die aktuelle synchrone Erholung als rein liquiditätsgetrieben entlarvt"
       ],
       "haiku_einschaetzung_zum_vergleich": -2,
-      "erstellt_am": "2026-07-10T10:44:20.890444"
+      "erstellt_am": "2026-07-10T10:44:20.890444",
+      "rueckblick_prozent_7_tage": -0.88,
+      "rueckblick_kurs_7_tage": 55740.55226618456
     },
     {
       "datum": "2026-07-09",
@@ -229,7 +263,9 @@
         "Mindestens zwei weitere große AI-IPOs oder Kapitalmarktankündigungen (>$5Mrd Volumen) werden im Juli 2026 angekündigt und bestätigen die institutionelle Rotationsthese empirisch"
       ],
       "haiku_einschaetzung_zum_vergleich": -2,
-      "erstellt_am": "2026-07-09T10:50:36.225264"
+      "erstellt_am": "2026-07-09T10:50:36.225264",
+      "rueckblick_prozent_7_tage": 2.45,
+      "rueckblick_kurs_7_tage": 56428.0556442409
     },
     {
       "datum": "2026-07-08",
@@ -367,5 +403,5 @@
       "erstellt_am": "2026-07-02T13:26:01.437728"
     }
   ],
-  "letzte_aktualisierung": "2026-07-19"
+  "letzte_aktualisierung": "2026-07-20"
 }
