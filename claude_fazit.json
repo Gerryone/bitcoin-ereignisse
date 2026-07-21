@@ -1,6 +1,34 @@
 {
   "fazits": [
     {
+      "datum": "2026-07-21",
+      "kurs_eur": 57899,
+      "identifizierte_schwachstellen": [
+        "Gold/Silber-Korrelations-Fehler: Haiku interpretiert die Nicht-Parallelität von Gold und Bitcoin als Risk-Off-Signal und bearishes Zeichen für Bitcoin. Das ist methodisch fragwürdig: Bitcoin und Gold haben historisch eine sehr instabile Korrelation, die phasenweise positiv, negativ oder neutral ist. Dass Gold 'stagniert' während Bitcoin steigt, ist genauso vereinbar mit einer positiven Bitcoin-spezifischen Akkumulations-These wie mit universeller Risk-Off-Logik. Haiku wählt die bearishe Interpretation ohne alternative Erklärung zu falsifizieren.",
+        "Multi-Token-Diversifizierung als Bitcoin-Schwäche: Haikus Argument, dass Grayscale Worldcoin-ETF und T. Rowe Price Multi-Token-Ansätze 'Bitcoin strukturell marginalisieren', ist eine Überextrapolation. ETF-Zuflüsse in Crypto-Produkte generell erhöhen Markt-Legitimität und Infrastruktur, was historisch Bitcoin überproportional begünstigt (als Marktführer und Referenzasset). Dass mehr Crypto-Produkte = weniger Bitcoin ist eine unbewiesene Nullsummen-Annahme.",
+        "Fibonacci-Niveau €48.000 als Schlüssellevel ist methodisch zweifelhaft: Haiku konstruiert ein 50%-Fibonacci-Retracement basierend auf Mai-Tief €32.000 bis Juni-High €62.800. Dieses Level liegt 20,6% unter dem aktuellen Kurs – es wird als 'kritisches Schlüsselniveau' behandelt, obwohl es praktisch irrelevant ist solange Bitcoin nicht erst durch mehrere andere Supports (€54k, €50k) gebrochen hat. Das Schlüsselniveau erzeugt eine dramatische bearishe Rahmung ohne tatsächliche kurzfristige Relevanz.",
+        "Systematischer Bestätigungsfehler in der Ereignisgewichtung: Von 5 Ereignissen werden 3 bearish interpretiert (-2, -1, -1 bzw. Einschätzung 0 als 'gleichgültig'), während die bullishen Signale (fünf Tage ETF-Inflows, €57.899 Kurs, +3,3% Tagesperformance) aktiv umgedeutet werden. Kein einziges Ereignis wird als unambiguös positiv akzeptiert. Das ist Confirmation Bias, nicht neutrale Analyse."
+      ],
+      "staerkstes_gegenargument": "Bitcoin steigt heute um +3,4% auf €58.054 – das ist keine kleine Bewegung. ETH steigt sogar +4,3%, was auf broad-crypto-bullishe Stimmung hindeutet, nicht auf Bitcoin-spezifische Schwäche. Fünf aufeinanderfolgende Tage ETF-Inflows (~$727M) sind die längste Serie seit April – das ist statistisch bedeutsam und repräsentiert reale Kapitalallokation, kein Rauschen. Ein Fear & Greed Index von 25 (Extreme Fear) bei steigenden Kursen ist klassisch kontraindikatorisch bullish: Märkte steigen oft gerade dann, wenn die Stimmung am pessimistischsten ist und Short-Positionen gedeckt werden müssen.",
+      "eigene_einschaetzung_numerisch": -1,
+      "eigene_einschaetzung": "Meine Trefferquote von 10% über 10 Einschätzungen ist ein klares empirisches Signal, dass mein bisheriger Analyseansatz systematisch falsch kalibriert war – konsistent zu bearish in einem Markt, der mehrheitlich seitwärts bis aufwärts tendierte. Heute sehe ich ein ambivalentes Bild: Der +3,4%-Tagesanstieg und die ETF-Inflows-Serie sind reale bullishe Signale, die ich nicht durch narrative Umdeutung wegdiskutieren sollte. Gleichzeitig bleibt der Kontext fragil: Fear & Greed bei 25 zeigt Marktunsicherheit, die Makrolage (ECB, Tech-Earnings) bleibt ungelöst, und der €58k-Level ist noch kein technischer Ausbruch aus der Konsolidierungszone. Ich wähle -1 als leicht bearish, aber wesentlich weniger negativ als Haiku, weil die empirische Evidenz meiner eigenen Analyse-Bias deutlich genug ist um eine Kalibrierungskorrektur zu rechtfertigen.",
+      "eigene_gewichtung": {
+        "bullish": 35,
+        "bearish": 45,
+        "neutral": 20
+      },
+      "begruendung_bei_uebereinstimmung": "Meine Einschätzung ist nominell bearish wie Haiku, aber deutlich weniger stark (-1 vs -2). Die von mir gefundene Kritik kippt das Gesamtbild nicht vollständig, weil: (1) Die makroökonomische Unsicherheit (ECB, Fed, Tech-Earnings) real ist und kurzfristig Druck erzeugen kann; (2) Fear & Greed bei 25 kann kontraindikatorisch bullish ODER als Bestätigung anhaltender Schwäche gelesen werden – Ambiguität bleibt. Was die Kritik jedoch tut: Sie reduziert die Stärke der Bearish-These erheblich, weil die spezifischen Argumente (Gold-Korrelation, Multi-Token-Marginalisierung, Fibonacci €48k) methodisch schwach sind. Mein -1 reflektiert primär Makro-Unsicherheit und meinen eigenen ungelösten Bias, nicht die Stärke von Haikus spezifischer Analyse.",
+      "uebereinstimmung_mit_haiku": "hoch",
+      "szenario_bedingungen": [
+        "ECB-Entscheidung diese Woche ist hawkish (Zinserhöhung oder explizit hawkishe Kommunikation) UND Bitcoin fällt daraufhin unter €56.000 – das würde die bearishe These bestätigen",
+        "Q2-Tech-Earnings enttäuschen mehrheitlich (mindestens 3 der 5 größten Tech-Unternehmen verfehlen Konsensschätzungen) UND Crypto-Korrelation zu Tech führt zu Bitcoin-Rückgang unter €55.000",
+        "ETF-Inflows-Serie bricht ab (Nettoabfluss an mindestens einem der nächsten 3 Handelstage) UND Bitcoin schließt eine Woche unter €56.000 – das würde die These bestätigen, dass aktuelle Inflows keine neue Akkumulationsphase signalisieren",
+        "Bitcoin hält €58.000 über 48 Stunden und steigt auf €62.000 – das würde meine Kalibrierungskorrektur bestätigen und bedeuten, dass sowohl Haiku als auch ich zu bearish waren"
+      ],
+      "haiku_einschaetzung_zum_vergleich": -2,
+      "erstellt_am": "2026-07-21T10:15:18.511504"
+    },
+    {
       "datum": "2026-07-20",
       "kurs_eur": 56160,
       "identifizierte_schwachstellen": [
@@ -150,7 +178,9 @@
         "Bruch unter €52.000 EUR auf Tagesschlusskurs-Basis – technische Bestätigung des Abwärtstrends und Invalidierung jeder kurzfristigen Bodenbildungsthese über dem H1-2026-Tief"
       ],
       "haiku_einschaetzung_zum_vergleich": -3,
-      "erstellt_am": "2026-07-14T09:46:20.203391"
+      "erstellt_am": "2026-07-14T09:46:20.203391",
+      "rueckblick_prozent_7_tage": 3.99,
+      "rueckblick_kurs_7_tage": 57120.119052255504
     },
     {
       "datum": "2026-07-13",
@@ -286,7 +316,9 @@
         "SEC Reg Crypto Proposal vom 16. Juli enthält konkrete, marktfreundliche Details: Klare Klassifizierungsrahmen ohne prohibitive Auflagen würden regulatorische Unsicherheit reduzieren und könnten mittel- bis langfristig als strukturell bullish bewertet werden"
       ],
       "haiku_einschaetzung_zum_vergleich": -2,
-      "erstellt_am": "2026-07-08T10:07:28.856189"
+      "erstellt_am": "2026-07-08T10:07:28.856189",
+      "rueckblick_prozent_7_tage": 4.99,
+      "rueckblick_kurs_7_tage": 56875.270743248504
     },
     {
       "datum": "2026-07-07",
@@ -307,7 +339,9 @@
         "Makroökonomischer Auslöser: Eine überraschende Fed-Entscheidung oder ein CPI-Druck-Anstieg in den USA würde Risikoassets inklusive Bitcoin unter Druck setzen und meine bearishe Einschätzung bestätigen"
       ],
       "haiku_einschaetzung_zum_vergleich": null,
-      "erstellt_am": "2026-07-07T10:45:23.987588"
+      "erstellt_am": "2026-07-07T10:45:23.987588",
+      "rueckblick_prozent_7_tage": -1.16,
+      "rueckblick_kurs_7_tage": 54680.565994162
     },
     {
       "datum": "2026-07-06",
@@ -328,7 +362,9 @@
         "Bestätigung bullish: Fear & Greed Index steigt binnen 5-7 Tagen über 40 (Bereich 'Fear') und Altcoin-Dominanz fällt wieder zugunsten von Bitcoin-Dominanz über 55%"
       ],
       "haiku_einschaetzung_zum_vergleich": -2,
-      "erstellt_am": "2026-07-06T11:55:24.869357"
+      "erstellt_am": "2026-07-06T11:55:24.869357",
+      "rueckblick_prozent_7_tage": 1.64,
+      "rueckblick_kurs_7_tage": 55910.60100071614
     },
     {
       "datum": "2026-07-05",
@@ -349,7 +385,9 @@
         "Kapitulationssignal als möglicher Boden: Fear & Greed Index fällt unter 15 (Extreme Fear, Tiefstwert) gleichzeitig mit einem Intraday-Spike unter 50.000 EUR, der sich innerhalb von 24–48 Stunden vollständig erholt – klassisches V-Reversal-Muster als Bodenindikator."
       ],
       "haiku_einschaetzung_zum_vergleich": -1,
-      "erstellt_am": "2026-07-05T10:03:10.089924"
+      "erstellt_am": "2026-07-05T10:03:10.089924",
+      "rueckblick_prozent_7_tage": 2.13,
+      "rueckblick_kurs_7_tage": 55970.21402973511
     },
     {
       "datum": "2026-07-04",
@@ -403,5 +441,5 @@
       "erstellt_am": "2026-07-02T13:26:01.437728"
     }
   ],
-  "letzte_aktualisierung": "2026-07-20"
+  "letzte_aktualisierung": "2026-07-21"
 }
