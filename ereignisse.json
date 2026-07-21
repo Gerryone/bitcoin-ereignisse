@@ -1,6 +1,41 @@
 {
-  "letzte_aktualisierung": "2026-07-20",
+  "letzte_aktualisierung": "2026-07-21",
   "ereignisse": [
+    {
+      "datum": "2026-07-21",
+      "kategorie": "ETF",
+      "titel": "Bitcoin-ETF-Zuflüsse setzen sich fort – fünfter Tag in Folge, aber Momentum-Brüchigkeit bleibt kritisch",
+      "beschreibung": "US-Spot-Bitcoin-ETFs verzeichnen fünften Handelstag in Folge mit Zuflüssen (insgesamt ~$727M über die Periode), die längste Serie seit April. Allerdings: Mit Bitcoin bei €57.899 und Gold bei €3.560,75 EUR – ein klassisches €2.950-Niveau-Fehlen – bleibt die institutionelle Käufer-Aktivität orthogonal zur Preisermittlung. Die ETF-Inflows decken gerade die früheren Ausflusswunden ab, ohne neues Kapital zu signalisieren.",
+      "einschaetzung_numerisch": 0
+    },
+    {
+      "datum": "2026-07-21",
+      "kategorie": "Makro",
+      "titel": "Chip-Handel-Turnaround trifft auf geopolitische Ölvolatilität – Bitcoin oscilliert zwischen Tech-Anker und Risk-Off-Druck",
+      "beschreibung": "Asiatische Halbleiter-Aktien erholen sich nach Kimi-AI-Schock, was Bitcoin zu €65.500 zweitägigem Hoch treibt; gleichzeitig deeskaliert Nahost-Diplomatie Ölpreise. Gold bei €3.560,75 EUR zeigt aber keine Safe-Haven-Rallye parallel zu Bitcoin – stattdessen parallele Unterperformance, was universelle Risk-Off (nicht Inflations-Flucht) signalisiert. Silber bei €51,96 EUR bestätigt schwache Growth-Erwartungen.",
+      "einschaetzung_numerisch": 1
+    },
+    {
+      "datum": "2026-07-21",
+      "kategorie": "Regulierung",
+      "titel": "UK-Parlament startet Inquiry zu Banking-Chokepoints für Crypto – strukturelle Marginalität auch auf regulatorischer Ebene",
+      "beschreibung": "Die britische APPG untersucht Bankenbeschränkungen für Crypto-Firmen (Kontosperrungen, Transaktions-Restriktionen). Dies ist das dritte koordinierte regulatorische Infrastruktur-Projekt in einer Woche (CLARITY Act, Brazils Tokenization Task Force, Bank of Korea CBDC). Bitcoin wird strukturell marginalisiert: Traditional Finance baut Systeme um Bitcoin herum, nicht mit Bitcoin.",
+      "einschaetzung_numerisch": -2
+    },
+    {
+      "datum": "2026-07-21",
+      "kategorie": "Persönlichkeiten",
+      "titel": "Patrick Witt (Trump-Crypto-Berater) verzichtet auf Militärtraining – CLARITY Act auf letzter diplomatischer Meile",
+      "beschreibung": "Der White House-Crypto-Policy-Verhandler bleibt im Posten, während CLARITY Act in den Senat geht. Dies ist taktisches Zeichen für ernsthafte legislatorische Finalphase, aber ohne Bitcoin-Preis-Katalyse. Saylor vs. BIP-110 Governance-Schlacht zeigt gleichzeitig interne Fragmentierung – nicht Konsens-Bildung.",
+      "einschaetzung_numerisch": 1
+    },
+    {
+      "datum": "2026-07-21",
+      "kategorie": "Institutionell",
+      "titel": "Grayscale reicht S-1 für ersten US Worldcoin ETF ein – Bitcoin-Narrative durch Multi-Token-Produkte weiter verwässert",
+      "beschreibung": "Nach T. Rowe Price Multi-Token-ETF folgt Grayscale mit Worldcoin-Spezialisierung. Dies bestätigt Trend: Institutionelle Käufer diversifizieren WEG von Bitcoin-Konzentration hin zu Crypto-Portfolio-Ansätzen. Bitcoin-Gewichtung sinkt strukturell, auch wenn absolute Zuflüsse positiv sind.",
+      "einschaetzung_numerisch": -1
+    },
     {
       "datum": "2026-07-20",
       "kategorie": "Makro",
@@ -385,44 +420,31 @@
       "titel": "Grayscale-CFO Edward McGee tritt nach 7 Jahren ab – Instabilität in Verwaltung",
       "beschreibung": "Edward McGee verließ seinen Posten als CFO nach sieben Jahren; dies folgt auf den Abgang des Distribution Chief John Hoffman im Mai. Der vierte C-Level-Wechsel in 12 Monaten deutet auf Unruhe bei der größten Vermögensverwalterin hin – kurz nachdem Grayscale seine Spot-ETF-Genehmigung erhielt. Personelle Instabilität in Key-Positionen während institutioneller Expansion ist ein Warnzeichen.",
       "einschaetzung_numerisch": -1
-    },
-    {
-      "datum": "2026-07-09",
-      "kategorie": "ETF",
-      "titel": "Bitcoin-ETF-Blutung setzt sich fort – $84M Netto-Abfluss am Mittwoch nach Irankonflikt",
-      "beschreibung": "US-Spot-Bitcoin-ETFs verzeichneten am 9. Juli einen Netto-Abfluss von $84 Millionen, nachdem eine dreitägige Zuflussphase mit rund $509 Millionen endete. Dies geschah inmitten eskalierender US-Iran-Spannungen, die Öl nach oben und Bitcoin-Vertrauen nach unten trieben. Der Kurs fiel zeitweise unter €62.000, während Gold (€2.950/oz) parallel fiel – ein klassisches Risk-Off-Szenario ohne Safe-Haven-Flucht.",
-      "einschaetzung_numerisch": -2
-    },
-    {
-      "datum": "2026-07-09",
-      "kategorie": "Makro",
-      "titel": "AI-IPO-Welle zieht institutionelles Kapital ab – Kapitalrotation weg von Crypto beschleunigt sich",
-      "beschreibung": "Eine neue Welle von blockbuster AI-Listings (z.B. weitere KI-Infrastruktur-Unternehmen) zieht Milliarden von institutionellem Kapital ab und verstärkt die bestehende Rotation weg von Crypto. Dies erklärt, warum Ethereum nur +0,9% auf €1.535 zulegt, während Bitcoin stagiert: Die Gesamtrisikobereitschaft verschiebt sich zu etablierteren Tech-Narrativen statt zu digitalen Assets.",
-      "einschaetzung_numerisch": -3
-    },
-    {
-      "datum": "2026-07-09",
-      "kategorie": "Institutionell",
-      "titel": "Sony erhält bedingte Genehmigung für US-Stablecoin-Bank – Institutionalisierung schreitet voran, aber BTC profitiert nicht",
-      "beschreibung": "Sonys New York-Tochter (Sony Bank) erhielt bedingte Genehmigung für eine Stablecoin-Trust-Bank mit $40 Millionen Kapitalisierung. Dies signalisiert weitere institutionelle Adoption von Blockchain-Infrastruktur, fokussiert aber explizit auf Stablecoins und Zahlungsflüsse, nicht auf Bitcoin als Wertspeicher. Dies reinforced das Narrative, dass Institutions-Kapital selektiv in Blockchain-Utility, nicht in Bitcoin-Spekulation fließt.",
-      "einschaetzung_numerisch": 0
-    },
-    {
-      "datum": "2026-07-09",
-      "kategorie": "OnChain",
-      "titel": "Bitcoin-Bestände auf Börsen sinken, aber bullige Aussage wird durch Kurs-Realität widersprochen",
-      "beschreibung": "Santiment bestätigte, dass Bitcoin-Supply auf Börsen auf das niedrigste Niveau seit 2017 gefallen ist – historisch ein bullisches Setup für den nächsten Zyklus. Allerdings warnte Santiment selbst: Dies garantiert nicht, dass Preise steigen werden. Bei einem Kurs von €55.081 und einem Fear & Greed Index von 22 (Extreme Fear) signalisiert dies eher, dass Whales billige Supply hoarden, während institutionelles Kapital zu AI rotiert – eine klassische Akkumulations-Phase ohne Kursstabilität.",
-      "einschaetzung_numerisch": -1
-    },
-    {
-      "datum": "2026-07-09",
-      "kategorie": "Regulierung",
-      "titel": "SWIFT startet Blockchain-Ledger mit 17-Bank-Tokenisierungs-Pilot – traditionelle Finanzinfrastruktur umgeht BTC",
-      "beschreibung": "SWIFT lancierte ein neues Blockchain-Ledger für einen Pilot mit 17 großen Banken zur Tokenisierung von Einzahlungen und schnelleren Cross-Border-Zahlungen. Dies ist institutionelle Blockchain-Adoption auf höchster Ebene – aber es bypassed Bitcoin vollständig und konzentriert sich auf private, verwahrte Vermögenswerte. Gold (€2.950) bleibt für traditionelle Hedges bevorzugt, während Bitcoin-Adoption auf Zahlungsebene stattfindet, nicht auf Wertspeicher-Ebene.",
-      "einschaetzung_numerisch": -1
     }
   ],
   "fazits": [
+    {
+      "datum": "2026-07-21",
+      "einschaetzung_numerisch": -2,
+      "kurs_eur": 57899,
+      "gold_eur": 3560.75,
+      "silver_eur": 51.9562,
+      "einschaetzung": "Bitcoin erholt sich auf €57.899 (+3,3% täglich) als Reaktion auf Chip-Handel-Rebound und fünftägige ETF-Inflows, aber dies ist taktische Volatilität ohne strukturelle Marktvalidation. Das kritische Signal: Gold (€3.560,75 EUR) und Silber (€51,96 EUR) laufen nicht parallel zu Bitcoin – beide stagnieren trotz Inflations-/Geopolitik-Signals, was auf universelle Risk-Off (nicht Crypto-spezifische Akkumulation) hindeutet. Institutionelle Käufer (ETFs, T. Rowe Price, Grayscale, traditionelle Asset Manager) diversifizieren WEG von Bitcoin-Monopöl-Positionen hin zu Multi-Token/Blockchain-Infrastruktur-Ansätzen. Regulatorische Infrastruktur (UK Banking, Brazil Tokenization, Korea CBDC, CLARITY Act) wird um Bitcoin herum, nicht mit Bitcoin gebaut. Fear & Greed Index bleibt bei 25 (Extreme Fear), technisch ein Warnsignal für weitere 15–25% Downside vor Kapitulation.",
+      "gewichtung": {
+        "bullish": 25,
+        "bearish": 65,
+        "neutral": 10
+      },
+      "schluessel_niveau_eur": 48000,
+      "schluessel_niveau_erklaerung": "€48.000 ist 50%-Fibonacci-Retracement der H1-2026-Rally (Mai-Tief €32.000 bis Juni-High €62.800). Ein Bruch darunter würde die Whale-Akkumulations-Narrative zu kapitulierender Liquidation redefinieren und könnte Verkaufskaskaden im €50k–€54k-Bereich triggern. Bitcoin sitzt derzeit 20,6% über diesem Level; weitere 10% Rückgang über 4–7 Tage wäre symptomatisch für neuen Bären-Leg und würde bestätigen, dass institutionelle Käufe Bodenbildung nicht stabilisieren.",
+      "naechster_katalysator": "ECB-Ratsentscheidung (später diese Woche erwartet) + Q2-Tech-Earnings-Reports (diese Woche laufend) + mögliche Fed-Zinserwartungs-Neubewertung. Wenn ECB hawkish bleibt oder Tech-Earnings-Rückgang Rezessions-Angst triggert, könnte Bitcoin unter €56.000 brechen. Umgekehrt: Wenn Korea CBDC-Pilot (September) oder Brazil Tokenization-Framework (60 Tage) Positive Signale senden, könnte spekulativer Short-Squeeze zu €62.000 führen.",
+      "szenario_bedingungen": [
+        "ECB-Entscheidung fällt hawkish (Zinserhalt oder subtile Straffungs-Signalisierung): Bitcoin tendiert zu €54.000–€56.000 über 2–3 Tage, Gold bleibt flach (bestätigt Risk-Off statt Safe-Haven-Flucht).",
+        "Tech-Earnings (Apple, Microsoft, Meta, Nvidia diese Woche) verfehlen Konsens und triggern KI-Frenzy-Unwinding: Chip-Rebound dreht, Bitcoin fällt unter €56.000, Silber unter €50 EUR.",
+        "CLARITY Act Senat-Abstimmung verschoben oder fragmentiert: Regulatory-Premium für Crypto-Infrastruktur deflationiert, Bitcoin bleibt gegenüber Gold-Stagnation strukturell schwach.",
+        "Korea CBDC oder Brazil Tokenization erhalten positive erste Signale: Spekulativer Cover von Short-Positionen könnte Bitcoin zu €62.000–€63.000 treiben, aber ohne institutionelle Gold-Rotation (Gold bleibt bei €3.500–€3.600)."
+      ]
+    },
     {
       "datum": "2026-07-20",
       "einschaetzung_numerisch": -3,
@@ -486,7 +508,23 @@
         "US-Iran-Eskalation de-eskaliert (Waffenstillstand-Verhandlungen) UND Gold/Silber beginnen klassische Safe-Haven-Rotation (Gold +1% zu €2.970+) → Bitcoin könnte zu €62k–€64k zurückspringen.",
         "Clarity Act wird diese Woche blockiert oder deutlich verwässert + Warren-Untersuchung zu Trump-Crypto-Assets wird öffentlich → Bitcoin fällt durch €54k zu €48k–€50k Fib-Support.",
         "T. Rowe Price Multi-Token-ETF verzeichnet Inflow >$150M in Woche 1 + Crypto.com/Citadel erweisen Skalierbarkeit nach Funding → Bitcoin könnte zu €60k–€63k stabilisieren, aber Einzelkurs-Dynamik bleibt sekundär zu Infrastruktur-Nachfrage."
-      ]
+      ],
+      "rueckblick": {
+        "einschaetzung_damals": -3,
+        "kurs_damals_eur": 55902,
+        "kurs_heute_eur": 57899,
+        "performance": "+€1.997 (+3,6%) über 3 Tage",
+        "gold_damals_eur": 2950,
+        "gold_heute_eur": 3560.75,
+        "gold_performance": "+€610,75 (+20,7%) – MASSIVE Reperformance von Gold",
+        "selbstkritik": "Die Prognose vom 18. Juli war pessimistisch zu recht (Risk-Off-Umgebung), aber die Gold-Dynamik wurde SCHWER unterschätzt. Gold explodierte um +20,7% während Bitcoin nur +3,6% gewann – dies signalisiert NICHT parallele Safe-Haven-Flucht (die negative Lese damals), sondern geopolitische Inflations-Angst, die Gold bevorzugt. Die Einschätzung 'Gold und Silber fallen parallel = universelle Risk-Off' war ungenau; es hätte 'Gold ralliert relativ zu Bitcoin = Dollar-Schwäche + Inflations-Hedging-Pivot' sein sollen. Institutionelle Käufe (T. Rowe, Citadel/Crypto.com) wurden korrekt als 'orthogonal zum Preis' diagnostiziert, aber der Einfluss von geopolitischer Ölvolatilität und US-Iran-Eskalation auf relative Edelmetall-Rotation wurde unterschätzt. Schlüsselniveau €48.000 bleibt valide, aber technisch hätte ein +3,6% Bounce zu Gewinnmitnahmen andeuten sollen (€54k–€56k als Widerstand), was nicht passierte – dies signalisiert schwächeres technisches Setup als am 18. erwartet.",
+        "lernpunkte": [
+          "Gold-Stagnation vs. Gold-Rally ist kritischer Unterscheidungsfaktor zwischen Risk-Off und Inflations-Hedging-Pivot – einfache Parallelität ist zu grob.",
+          "Ölvolatilität (3 US-Iran Eskalationszyklen in einer Woche) drives Edelmetall-Relative Performance mehr als Bitcoin-Korrelation.",
+          "Institutionelle Multi-Token-Diversifikation (T. Rowe, Grayscale) ist Real-Time-Prozess, nicht Forward-Prognose – sollte täglich re-evaluiert werden.",
+          "Fear & Greed Index 25 ist valider Bären-Indikator für weitere Downside, aber nicht lineares Prognose-Tool; ein +3,6% Bounce sollte zu höherer Volatilität um €56k–€58k führen, nicht zu Stabilisierung."
+        ]
+      }
     },
     {
       "datum": "2026-07-17",
