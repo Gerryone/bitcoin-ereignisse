@@ -1,6 +1,34 @@
 {
   "fazits": [
     {
+      "datum": "2026-07-22",
+      "kurs_eur": 57861,
+      "identifizierte_schwachstellen": [
+        "Übergewichtung narrativ unverbundener Risiken: Haiku verknüpft den $915K Balance-Exploit und die OpenAI-Sandbox-Flucht mit Bitcoin-Kursrisiken, obwohl beide Ereignisse keine direkte Wirkung auf Bitcoin-Liquidität, ETF-Flows oder On-Chain-Metriken haben. Der Balance-Exploit betrifft ein kleines DeFi-Protokoll mit minimaler AUM-Relevanz für Bitcoin. OpenAI-Sandboxing ist ein AI-Safety-Thema, kein Bitcoin-Marktrisiko. Haiku behandelt diese als 'systemische Warnzeichen' ohne Nachweis eines Transmissionsmechanismus zum BTC-Kurs.",
+        "Selektive Interpretation der ETF-Daten: Haiku gewichtet den kumulativen Juni-Rückstand ($4,84 Mrd.) stark negativ, ignoriert aber die Trendumkehr selbst: sechs aufeinanderfolgende Inflow-Tage mit ~$930M kumulativ sind ein strukturelles Signal, keine Zufälligkeit. In Haikus eigener Logik wäre das 'taktisches Bottom-Fishing' – aber konsistentes Bottom-Fishing über sechs Tage ist per Definition ein Nachfrage-Signal, nicht ein Mangel an 'struktureller Überzeugung'. Die Rahmung negiert das bullische Signal durch Kontextualisierung, ohne das Argument wirklich zu belegen.",
+        "Eigene Trefferquoten-Blindheit anwenden auf Haiku: Meine Bilanz zeigt 10% Trefferquote bei konsistent bearischen -2 Signalen, während Bitcoin in 7 von 10 Fällen gestiegen ist. Haiku produziert heute erneut -2 mit identischer Argumentationsstruktur (ETF-Zuflüsse als unzureichend, Makro-Unsicherheit, DeFi-Risiken). Das Muster 'bearish mit Qualifikation' war empirisch falsch kalibriert – Haiku wiederholt strukturell denselben Bias, ohne den Track Record zu reflektieren.",
+        "Fehlende Basisrate-Betrachtung beim Kurs €57.773: Der Kurs liegt ~20% über dem genannten Support-Niveau €48.000 und hat dieses Level monatelang nicht getestet. Haiku setzt €48k als 'kritische Bruchzone', aber die implizite Wahrscheinlichkeit eines 20%+ Rückgangs innerhalb des Zeitfensters ist deutlich geringer als durch die bearish 65%-Gewichtung suggeriert."
+      ],
+      "staerkstes_gegenargument": "Das stärkste Argument gegen Haikus -2 Einschätzung ist das anhaltende ETF-Inflow-Momentum: Sechs aufeinanderfolgende Tage mit Netto-Zuflüssen (kumulativ ~$930M) in einem Fear-Index-Umfeld von 33 zeigen, dass institutionelles Kapital aktiv zu niedrigeren Preisen kauft, während Retail-Sentiment pessimistisch ist. Historisch ist genau diese Divergenz – institutionelles Buying bei Retail-Fear – oft ein Kontraindikator für unmittelbar bärischen Druck. Der Kurs hat bei €57.773 trotz multiplen negativer Nachrichten keine signifikante Abwärtsdynamik entwickelt (-0,5% in 24h), was relative Stärke anzeigt, nicht Schwäche. Haiku interpretiert Resistenz gegen Abverkauf als 'Wartezeit-Equilibrium', aber Preisresistenz bei negativen Nachrichten ist bullischer als bearisches Sentiment suggeriert.",
+      "eigene_einschaetzung_numerisch": -1,
+      "eigene_einschaetzung": "Meine 10%-Trefferquote ist ein harter empirischer Zwang zur Rekalibrierung: Ich war in 9 von 10 Fällen zu bearisch, während Bitcoin seitwärts oder aufwärts tendierte. Heute sehe ich einen Markt mit echten negativen Faktoren (Fear Index 33, Makro-Unsicherheit vor Alphabet-Earnings, DeFi-Exploit-Narrativ), aber auch mit strukturellen Stützungssignalen (sechs ETF-Inflow-Tage, Kursresistenz bei -0,5% trotz schlechten Nachrichten). Die bearischen Argumente Haikus sind narrativ überzeugend, aber empirisch überdehnt – insbesondere die DeFi-Exploit-zu-Bitcoin-Transmissionslogik. Ich halte an einer leicht bärischen Einschätzung fest (-1), weil der Kontext schwieriger ist als in der Aufwärtsphase, aber eine klare Abwärtsprognose wäre angesichts meiner bisherigen Fehlkalibrierung unverantwortlich. Der Markt wartet auf den Alphabet-Earnings-Katalysator mit offenem Ausgang.",
+      "eigene_gewichtung": {
+        "bullish": 35,
+        "bearish": 45,
+        "neutral": 20
+      },
+      "begruendung_bei_uebereinstimmung": "Meine Einschätzung ist leicht bearisch wie Haiku, aber deutlich weniger ausgeprägt (-1 statt -2). Die Kritik kippt das Gesamtbild nicht vollständig, weil der Fear Index 33 und die makroökonomische Unsicherheit (Alphabet-Earnings, ECB) reale, nicht konstruierte Risiken darstellen. Jedoch nötigt meine eigene Trefferquote zur Deeskalation: Wenn ich bei jedem bearischen Argument konsequent zu -2 bis -3 komme und damit systematisch falsch liege, ist die Wahrscheinlichkeit höher, dass der Markt erneut resistenter ist als die Nachrichtenlage suggeriert. Die Kursresistenz bei -0,5% trotz vier negativer Events heute ist das konkrete Gegengewicht, das Haiku untergewichtet.",
+      "uebereinstimmung_mit_haiku": "hoch",
+      "szenario_bedingungen": [
+        "Alphabet-Quartalsergebnisse enttäuschen die Konsenserwartungen deutlich (Umsatz oder Cloud-Wachstum unter Prognose), was Risk-Off-Verkäufe in Tech und Crypto auslöst und Bitcoin unter €56.000 drückt",
+        "Die ETF-Inflow-Serie bricht ab – ein oder mehrere Netto-Outflow-Tage folgen auf die aktuelle 6-Tage-Inflow-Sequenz, was das 'taktisches Buying' als nicht nachhaltig bestätigt",
+        "Bitcoin unterschreitet €55.500 auf erhöhtem Volumen (nicht nur intraday-Spike), was die Konsolidierungszone nach unten bricht und technischen Verkaufsdruck aktiviert",
+        "ECB-Entscheidung signalisiert hawkishe Überraschung oder bleibt hinter Zinssenkungserwartungen zurück, was Risk-Assets übergreifend belastet und den Risikoappetit für Bitcoin weiter dämpft"
+      ],
+      "haiku_einschaetzung_zum_vergleich": -2,
+      "erstellt_am": "2026-07-22T10:14:52.245328"
+    },
+    {
       "datum": "2026-07-21",
       "kurs_eur": 57899,
       "identifizierte_schwachstellen": [
@@ -157,7 +185,9 @@
         "Geopolitische Eskalation: Hormuz-Blockade wird von Iran tatsächlich implementiert oder US-Sanktionen gegen weitere Krypto-Adressen ausgeweitet – würde Risikoaversion über alle Assets verstärken und Bitcoin trotz CPI-Rückenwind unter Druck setzen"
       ],
       "haiku_einschaetzung_zum_vergleich": -2,
-      "erstellt_am": "2026-07-15T09:50:13.709858"
+      "erstellt_am": "2026-07-15T09:50:13.709858",
+      "rueckblick_prozent_7_tage": 2.92,
+      "rueckblick_kurs_7_tage": 58328.86740183794
     },
     {
       "datum": "2026-07-14",
@@ -408,7 +438,9 @@
         "Bearish-Bestätigung: Fed kommuniziert hawkishen Kurswechsel oder revidiert Zinssenkungserwartungen nach oben, woraufhin Bitcoin innerhalb von 24-48 Stunden über 5% fällt und das Risk-On-Narrativ als alleinigen Treiber der aktuellen Erholung entlarvt."
       ],
       "haiku_einschaetzung_zum_vergleich": 1,
-      "erstellt_am": "2026-07-04T09:59:33.604273"
+      "erstellt_am": "2026-07-04T09:59:33.604273",
+      "rueckblick_prozent_7_tage": 2.79,
+      "rueckblick_kurs_7_tage": 56119.14195045373
     },
     {
       "datum": "2026-07-03",
@@ -423,7 +455,9 @@
       "kommentar_zu_haiku": "Haikus neutrale Gesamteinschätzung (0) erscheint mir angesichts der Datenlage etwas zu ausgewogen – ich sehe das Risiko/Chancen-Verhältnis weiterhin leicht bearish verschoben, weshalb eine Einschätzung von -1 bis -2 ehrlicher wäre. Gut herausgearbeitet ist die Unterscheidung zwischen ETF-Zuflüssen außerhalb von IBIT und echter institutioneller Überzeugung – das ist ein wichtiger Nuancepunkt, den viele Analysen übersehen. Was ich ergänzen würde: Die Short-Liquidationen von 281 Mio. USD in 24h könnten kurzfristig für einen technischen Squeeze nach oben sorgen, der die 55.000–56.000-EUR-Zone testet, ohne dass dies fundamental gerechtfertigt wäre – ein wichtiger Unterschied. Haikus Schlüsselniveau bei 48.000 EUR ist plausibel und gut begründet; ich würde jedoch auch 51.500 EUR als intermediäre Unterstützung markieren, deren Verlust den Weg zu 48.000 EUR deutlich beschleunigen könnte. Insgesamt eine solide, ausgewogene Analyse mit guter Katalysator-Priorisierung.",
       "uebereinstimmung_mit_haiku": "mittel",
       "haiku_einschaetzung_zum_vergleich": 0,
-      "erstellt_am": "2026-07-03T14:28:40.846981"
+      "erstellt_am": "2026-07-03T14:28:40.846981",
+      "rueckblick_prozent_7_tage": 2.63,
+      "rueckblick_kurs_7_tage": 55296.6681385288
     },
     {
       "datum": "2026-07-02",
@@ -438,8 +472,10 @@
       "kommentar_zu_haiku": "Haikus Einschätzung ist solide und ich teile die Grundtendenz – neutral mit Schlagseite nach bearish. Allerdings würde ich den bearishen Anteil stärker gewichten als Haiku es tut (50%): Die Kombination aus Rekord-ETF-Abflüssen und steigendem Whale Ratio ist ein ungewöhnlich klares Warnsignal, das Haiku meiner Meinung nach zu sehr im 'neutral'-Topf verschwinden lässt. Positiv finde ich, dass Haiku die LTH-Akkumulation und den Makro-Rückenwind korrekt als gegenläufige Kraft benennt – das ist ausgewogen. Was ich ergänzen würde: Der Rückgang des Open Interest um fast ein Drittel (von 31,3 auf 21,6 Mrd. USD) ist ein oft unterschätzter Indikator für anhaltenden Vertrauensverlust am Derivatemarkt, der über die reine Spot-Preis-Diskussion hinausgeht. Haikus Schlüsselniveau von 48.000 EUR halte ich für gut gewählt und nachvollziehbar begründet.",
       "uebereinstimmung_mit_haiku": "hoch",
       "haiku_tendenz_zum_vergleich": "neutral",
-      "erstellt_am": "2026-07-02T13:26:01.437728"
+      "erstellt_am": "2026-07-02T13:26:01.437728",
+      "rueckblick_prozent_7_tage": 1.52,
+      "rueckblick_kurs_7_tage": 54505.1633858627
     }
   ],
-  "letzte_aktualisierung": "2026-07-21"
+  "letzte_aktualisierung": "2026-07-22"
 }
