@@ -1,6 +1,34 @@
 {
   "fazits": [
     {
+      "datum": "2026-07-24",
+      "kurs_eur": 57142,
+      "identifizierte_schwachstellen": [
+        "Übergewichtung eines einzigen ETF-Datenpunkts: Haiku behandelt einen einzigen Tag mit $225M Nettoabfluss nach sieben aufeinanderfolgenden Tagen mit kumulativ ~$1 Mrd. Zuflüssen als 'Umkehrsignal'. Statistisch ist ein Einzeltag-Reversal nach einer starken Kaufserie eher als Normalisierung denn als Trendwende zu werten. Die Netto-Bilanz der letzten 8 Tage ist immer noch deutlich positiv – Haiku ignoriert diesen Kontext vollständig und extrapoliert einen Datenpunkt zu einem Strukturwechsel.",
+        "Kausalitätsfehler bei der 'Multi-Asset-Plattform'-These: Haiku behauptet, institutionelle Adoption laufe 'um Bitcoin herum, nicht mit Bitcoin' – gestützt auf Mirae/Digital X und Uniswap RWA-Pools. Das ist eine Interpretation, die nicht aus den Tagesevents folgt. Mirae rebrandet eine Bitcoin-Börse (Korbit), was ebenso gut als Bitcoin-bullish gewertet werden kann. Dass Multi-Asset-Plattformen existieren, bedeutet nicht, dass Bitcoin verdrängt wird – historisch hat breitere Crypto-Infrastruktur Bitcoin-Adoption beschleunigt, nicht gebremst. Haiku wählt selektiv die bearishe Lesart.",
+        "Fehlende Basisraten-Berücksichtigung: Haiku setzt eine -2-Einschätzung ohne zu prüfen, wie oft Bitcoin nach ähnlichen Nachrichtenlagen tatsächlich in 7 Tagen fiel. Der Fear & Greed Index bei 28 (Fear) ist historisch eher ein contrarian-bullishes Signal als Bestätigung bearisher Thesen – Haiku verwendet ihn als Bestätigung für 'defensive Positionierung', ignoriert aber die klassische Mean-Reversion-Eigenschaft dieses Indikators. Fear-Phasen bei BTC sind statistisch häufiger Akkumulationsphasen als Vorboten weiterer Verluste.",
+        "Poolin-Insolvenz wird strukturell überbewertet: Poolin ist seit Jahren ein schrumpfender Pool mit bekannten Liquiditätsproblemen nach der chinesischen Mining-Regulierung 2021. Die $52M-Liquidation ist nicht groß genug, um die globale Hash-Rate oder Bitcoin-Angebotsdynamik materiell zu verändern. Haiku koppelt dieses Ereignis mit 'zweiter gravierender Störung in 48 Stunden' zu einer Narrativ-Kette, die empirisch nicht belegt ist – Mining-Konsolidierung stärkt langfristig verbleibende Pools und erhöht die Netzwerksicherheit."
+      ],
+      "staerkstes_gegenargument": "Bitcoin hat trotz einem $800M Tech-Sektor-Selloff (Magnificent Seven worst day seit April 2025) nur -0,6% korrigiert, was erhebliche relative Stärke und Entkopplung vom Risk-Off-Sentiment demonstriert. In einem Umfeld, in dem der breiteste Risikoappetit-Proxy (Nasdaq-Schwergewichte) massiv verkauft wird, aber Bitcoin kaum reagiert, deutet das eher auf solide Demand-Absorption hin. Ein Fear & Greed Index von 28 in Kombination mit dieser relativen Stärke ist historisch häufiger ein Kaufsignal als ein Verkaufssignal – bearishe Sentiment-Extrema bei gleichzeitig stabilem Kurs sind oft Vorstufen zu Rebounds, nicht zu Abwärts-Kaskaden.",
+      "eigene_einschaetzung_numerisch": -1,
+      "eigene_einschaetzung": "Meine 0%-Trefferquote über 10 Einschätzungen ist ein harter empirischer Beweis für einen systematischen Bearish-Bias, den ich aktiv korrigieren muss – nicht rhetorisch, sondern in der Zahl. Der heutige Datensatz ist gemischt, nicht eindeutig bearish: Ein ETF-Abfluss nach sieben Zufluss-Tagen ist Normalisierung, keine Trendwende; Bitcoins -0,6% bei -$800M Tech-Selloff ist relative Stärke; Fear & Greed 28 ist historisch eher contrarian-bullish. Die echten Risiken – Poolin-Konkurs, Tech-Rotation, taktische ETF-Gewinnmitnahmen – sind real, aber kurzfristig und ohne klares Preis-Katalysator-Momentum. Ich sehe leicht bearishe Tendenz für die nächsten 7 Tage, deutlich schwächer als Haiku, mit hoher Seitwärts-Wahrscheinlichkeit.",
+      "eigene_gewichtung": {
+        "bullish": 30,
+        "bearish": 45,
+        "neutral": 25
+      },
+      "begruendung_bei_uebereinstimmung": "Meine Einschätzung geht in dieselbe Richtung wie Haiku (leicht bearish), aber signifikant schwächer (-1 vs. -2). Die Kritik kippt das Gesamtbild nicht vollständig, weil ein ETF-Nettoabfluss nach langer Zufluss-Streak und ein Poolin-Konkurs objektiv kurzfristig belastende Signale sind. Sie kippen es aber auch nicht vollständig in Haikus Richtung, weil: (1) Basisraten und Fear-Index-Historik gegen starke Abwärtsbewegung sprechen, (2) die relative Stärke gegenüber Tech als positives Signal gewertet werden muss, und (3) meine eigene Trefferquote von 0% bei konsistent bearishen Einschätzungen mich zwingt, meine Overconfidence in negative Szenarien strukturell zu reduzieren.",
+      "uebereinstimmung_mit_haiku": "hoch",
+      "szenario_bedingungen": [
+        "ETF-Nettoabflüsse halten sich mindestens 3 weitere aufeinanderfolgende Handelstage über $100M/Tag – das würde einen echten Stimmungsumschwung bei institutionellen Käufern bestätigen, nicht nur Gewinnmitnahme nach einer Streak",
+        "Bitcoin fällt unter €54.000 auf 7-Tages-Sicht und schließt zwei aufeinanderfolgende Tageskerzen darunter – das würde technische Unterstützung brechen und Liquidationsrisiken im €52k–€54k-Bereich aktivieren",
+        "Fed-Meeting (Juli/August 2026) liefert hawkishe Überraschung (Zinserhöhung oder deutlich restriktivere Forward Guidance als erwartet) – dieser Makro-Schock wäre der fehlende Katalysator für eine materiell bearishe Bewegung",
+        "Poolin-Liquidationsvolumen wächst über $52M hinaus oder weitere große Mining-Pools melden binnen 7 Tagen Insolvenz – erst dann wäre die Hash-Rate-Narrativ-Kette empirisch belegt statt spekulativ"
+      ],
+      "haiku_einschaetzung_zum_vergleich": -2,
+      "erstellt_am": "2026-07-24T10:07:45.512663"
+    },
+    {
       "datum": "2026-07-23",
       "kurs_eur": 57554,
       "identifizierte_schwachstellen": [
@@ -170,7 +198,9 @@
         "Geopolitische De-Eskalation zwischen USA und Iran mit verifiziertem Waffenstillstand oder Verhandlungsaufnahme – würde Risk-On-Sentiment zurückbringen und ETF-Inflows potenziell beschleunigen"
       ],
       "haiku_einschaetzung_zum_vergleich": -2,
-      "erstellt_am": "2026-07-17T09:46:39.287920"
+      "erstellt_am": "2026-07-17T09:46:39.287920",
+      "rueckblick_prozent_7_tage": 4.15,
+      "rueckblick_kurs_7_tage": 57183.79414506889
     },
     {
       "datum": "2026-07-16",
@@ -506,5 +536,5 @@
       "rueckblick_kurs_7_tage": 54505.1633858627
     }
   ],
-  "letzte_aktualisierung": "2026-07-23"
+  "letzte_aktualisierung": "2026-07-24"
 }
