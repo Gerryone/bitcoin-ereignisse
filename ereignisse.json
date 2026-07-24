@@ -1,6 +1,41 @@
 {
-  "letzte_aktualisierung": "2026-07-23",
+  "letzte_aktualisierung": "2026-07-24",
   "ereignisse": [
+    {
+      "datum": "2026-07-24",
+      "kategorie": "Institutionell",
+      "titel": "Bitcoin-ETF-Ausflüsse brechen Zufluss-Streak – $225M Nettoabfluss nach siebentägiger Kaufserie",
+      "beschreibung": "Nach sieben aufeinanderfolgenden Tagen mit Nettozuflüssen von knapp $1 Mrd. verzeichneten US-gelistete Spot-Bitcoin-ETFs am 24. Juli erstmals wieder einen Nettoabfluss von $225M. Dieses Umkehrsignal trifft auf einen Bitcoin-Kurs von €57.142 (+3,3% zum Jahreshoch Anfang Juli), während Gold (€3.559,70) und Silber (€51,37) seitwärts laufen – ein Zeichen, dass institutionelle Käufer nicht aus Inflationsangst, sondern aus taktischer Gewinnmitnahme verkaufen.",
+      "einschaetzung_numerisch": -2
+    },
+    {
+      "datum": "2026-07-24",
+      "kategorie": "Regulierung",
+      "titel": "Poolin Mining Pool reicht Chapter 11 Insolvenz ein – Bitcoin-Mining-Konsolidierung beschleunigt sich",
+      "beschreibung": "Der chinesische Mining-Pool Poolin, einer der größten Produzenten von Bitcoin-Blockspace, reichte Chapter 11 Konkurs ein und liquidiert zwei westliche Mining-Operationen für $52M. Dies markiert die zweite gravierende Störung der Mining-Infrastruktur innerhalb von 48 Stunden nach BitMEX-Shutdown und signalisiert Margin Compression bei dezentralen Bitcoin-Produzenten unter regulatorischem und energetischem Druck.",
+      "einschaetzung_numerisch": -3
+    },
+    {
+      "datum": "2026-07-24",
+      "kategorie": "Makro",
+      "titel": "$800M Tech-Sektor-Selloff verschont Bitcoin knapp – AI-Spending-Skepsis breitet sich aus, aber Risk-Off noch unterhalb kritischer Schwelle",
+      "beschreibung": "Nach massiven Gewinnwarnungen von Alphabet und Tesla (Magnificent Seven worst day seit April 2025) fiel Bitcoin nur 0,6% auf €57.142, während der breite Tech-Sektor $800M verlor. Gold (€3.559,70) und Silber (€51,37) legten nicht parallel zu, was darauf hindeutet, dass dies kein klassisches Inflations-/Krisenangst-Szenario ist, sondern eine sektoral begrenzte Rotation aus High-Capex-Tech-Playern.",
+      "einschaetzung_numerisch": -1
+    },
+    {
+      "datum": "2026-07-24",
+      "kategorie": "Institutionell",
+      "titel": "Mirae Asset Group rebrandet Korbit zu Digital X – südkoreanische Mainstream-Finanzgruppe normalisiert Crypto-Infrastruktur",
+      "beschreibung": "Der $1-Billionen-Vermögensverwalter Mirae Asset baut Korbit (Südkoreas älteste Krypto-Börse) zu Digital X um und plant ein Ökosystem für tokenisierte Assets, Stablecoins und RWAs. Dies ist ein strukturell bullish Signal für Crypto-Mainstream-Integration, relativiert aber Bitcoins Monopol-Narrative – Institutional Adoption läuft über Multi-Asset-Plattformen, nicht Bitcoin-Monokulturen.",
+      "einschaetzung_numerisch": 1
+    },
+    {
+      "datum": "2026-07-23",
+      "kategorie": "Regulierung",
+      "titel": "EU weitet Belarus-Eigentumsverbot auf alle Crypto-Dienstanbieter aus – MiCA-Durchsetzung wird politisch",
+      "beschreibung": "Die EU verhängt ab 25. August ein Komplettverbot für belarussische Staatsangehörige und Bewohner, Krypto-Börsen und MiCA-regulierte Finanzdienstleister zu kontrollieren. Dies signalisiert Verhärtung geopolitischer Compliance und erhöht Operating-Costs für international tätige Plattformen, während Bitcoin-Self-Custody weiterhin umgangen wird.",
+      "einschaetzung_numerisch": -1
+    },
     {
       "datum": "2026-07-23",
       "kategorie": "Institutionell",
@@ -385,44 +420,31 @@
       "titel": "Bitcoin nähert sich Fidelity Power Law Support Line seit 2015 – aber ohne Bounce-Katalysator",
       "beschreibung": "Fidelitys Global Macro-Direktor Jurien Timmer bemerkt, dass Bitcoin einer Macht-Gesetz-Akkumulationszone nahe kommt, die seit 2015 beobachtet wird. Dies könnte ein Boden-Signal sein – aber Timmer warnt ausdrücklich: Es gibt keinen erkennbaren Katalysator für einen Bounce. Die technische Position ist potenziell attraktiv, die fundamentale Nachfrage jedoch weiterhin absent.",
       "einschaetzung_numerisch": -1
-    },
-    {
-      "datum": "2026-07-12",
-      "kategorie": "Makro",
-      "titel": "USA eskaliert Iran-Konflikte erneut – dritte Welle in einer Woche, Straße von Hormuz geschlossen",
-      "beschreibung": "Die USA haben Iran zum dritten Mal diese Woche angegriffen; Teheran hat die Straße von Hormuz erneut geschlossen. Bitcoin zeigt mit -0,4% (€56.018) minimale Reaktion, während Gold (€2.950) praktisch unverändert bleibt. Dies deutet auf Desensibilisierung gegenüber geopolitischen Schocks hin – weder Safe-Haven-Flucht noch Risk-Off-Verkäufe materialisieren sich nachhaltig.",
-      "einschaetzung_numerisch": -2
-    },
-    {
-      "datum": "2026-07-12",
-      "kategorie": "Regulierung",
-      "titel": "BIP 110 Fork-Deadline rückt näher – Miner-Support bei null, Saylor/Back warnen vor Consensus-Risiko",
-      "beschreibung": "Michael Saylor und Adam Back warnen vor dem BIP 110 Ordinals-Spam-Cap-Vorschlag; Miner-Unterstützung liegt bei praktisch null. Die interne Bitcoin-Governance-Krise offenbart tiefe philosophische Bruchlinien genau dann, wenn externe Katalysatoren (Iran, Kapitalrotation zu AI) bereits fragmentierend wirken. Ein Consensus-Split würde Entwickler-Vertrauen untergraben.",
-      "einschaetzung_numerisch": -2
-    },
-    {
-      "datum": "2026-07-11",
-      "kategorie": "Institutionell",
-      "titel": "Empery Digital liquidiert ~50% BTC-Bestand für AI-Datencenter – Bitcoin Treasury Narrative kollabiert",
-      "beschreibung": "Das Bitcoin Treasury Unternehmen Empery Digital verkauft etwa die Hälfte seiner BTC-Position, um in AI-Infrastruktur zu investieren. Dies symbolisiert den fundamentalen Regime-Wechsel: Selbst Unternehmen, die auf Bitcoin als strategisches Reservemittel gegründet wurden, rotieren zu AI-Hardware. Aktienkurs gestiegen trotz Bitcoin-Verkauf – ein Signal, dass der Markt Bitcoin-Hoarding nicht mehr als Werttreiber bewertet.",
-      "einschaetzung_numerisch": -3
-    },
-    {
-      "datum": "2026-07-11",
-      "kategorie": "Institutionell",
-      "titel": "Crypto IPO-Markt stagniert – Kapitalrotation zu AI beschleunigt sich, Funding-Engpässe bremsen Listings",
-      "beschreibung": "Laut Cohen & Company Capital Markets ist der Crypto-IPO-Markt nicht durch Regulierung, sondern durch Kapital-Absorption durch AI-Sektor gelähmt. Aktueller Kontext: Auch traditionelle Venture-Kapitalquellen priorisieren AI-Datencenter (TeraWulf $3,5B Debt-Raise für Anthropic-Link) über Crypto-Regulation-Clarity. Dies manifestiert institutionelle Ungeduld mit Bitcoin-Konsolidierungsphasen.",
-      "einschaetzung_numerisch": -2
-    },
-    {
-      "datum": "2026-07-10",
-      "kategorie": "Persönlichkeiten",
-      "titel": "Real Vision-Analyst Jamie Coutts prognostiziert späte Bärmarkt-Phase – $250k bis 2030 realistischer als $1M",
-      "beschreibung": "Real Vision Chief Crypto Analyst Jamie Coutts warnt vor zu optimistischen Prognosen: $250k bis 2030 seien realistischer als die jüngst populären $300k–$500k-Szenarien. Gold bei €2.950 läuft parallel zu Bitcoin-Pessimismus ohne Safe-Haven-Pop – ein Zeichen, dass makroökonomische Sorgen (nicht Inflation) dominieren. Coutts-Aussage unterminiert das Moonshot-Narrativ der letzten 18 Monate.",
-      "einschaetzung_numerisch": -1
     }
   ],
   "fazits": [
+    {
+      "datum": "2026-07-24",
+      "einschaetzung_numerisch": -2,
+      "kurs_eur": 57142,
+      "gold_eur": 3559.7,
+      "silver_eur": 51.365,
+      "einschaetzung": "Bitcoin verliert an institutionellem Momentum: Nach sieben Tagen Nettozuflüssen ($1 Mrd.) folgt am 24. Juli ein Ausfluss von $225M, gepaart mit dem Poolin-Konkurs und anhaltenden Edelmetall-Seitwärtsbewegung (Gold €3.559,70; Silber €51,37). Das Muster bestätigt sich: Institutionelle Käufer rotieren nicht in Bitcoin als Inflations-Hedge, sondern diversifizieren über Multi-Asset-Plattformen (Mirae/Digital X, Uniswap RWA-Pools, BNY Tokenized Treasuries). Die Crypto-Infrastruktur wird *um* Bitcoin herum aufgebaut, nicht *mit* Bitcoin. Der $800M Tech-Sektor-Selloff auf AI-Spending-Skepsis entlastet Bitcoin zwar (nur -0,6%), signalisiert aber breiter Risk-Off und Capex-Contraction, die langfristig Blockchain-Adoption bremsen. Fear & Greed Index bei 28 bestätigt defensive Positionierung ohne Panik-Kapitulation – riskant für Bullen, da Liquidationsrisiken im €54k–€56k-Bereich liegen.",
+      "gewichtung": {
+        "bullish": 25,
+        "bearish": 65,
+        "neutral": 10
+      },
+      "schluessel_niveau_eur": 48000,
+      "schluessel_niveau_erklaerung": "€48.000 ist das 50%-Fibonacci-Retracement der H1-2026-Rally (Mai-Tief €32.000 → Juni-High €62.800). Ein Bruch unter dieses Niveau würde Whale-Akkumulations-Narrative zu kapitulierender Liquidation redefinieren und Verkaufskaskaden im €50k–€54k-Bereich triggern. Bitcoin sitzt derzeit 19% über diesem Level; weitere 10% Rückgang über 5–7 Tage wäre symptomatisch für neuen Bären-Leg. Der heutige ETF-Ausfluss bedeutet, dass institutionelle Stützen wegfallen – technische Unterstützung muss sich selbst behaupten.",
+      "naechster_katalysator": "Fed-Meeting in der nächsten Woche (Juli/August 2026) – Zinserwartungen und Guidance zur Wirtschaftsabkühlungs-Narrative werden richtungsweisend sein. Parallel: Clarity Act-Abstimmung vor August-Sommerpause (Wahrscheinlichkeit gesunken) und Poolin-Liquidations-Volumen (ob begrenzt auf $52M oder größer).",
+      "szenario_bedingungen": [
+        "ETF-Ausflüsse stabilisieren sich unter $100M/Tag: Bullish Signal für institutionelle Akzeptanz trotz Rotation (Wahrscheinlichkeit 40%); Wiederaufnahme von Zuflüssen > $200M/Tag wäre neuer Bull-Anchor.",
+        "Gold bleibt unter €3.650 und Silber unter €52,50 EUR (parallel zu Bitcoin): Bestätigt, dass dies sektoral begrenzte Tech-Rotation ist, keine Krisenangst – Bitcoin könnte zum €56k–€58k-Range stabilisieren.",
+        "Poolin-Liquidation beschleunigt sich (auf >$100M/Woche): Mining-Hashrate-Shock, höhere Block-Produktionskosten, höheres Miner-Ausfallrisiko – bearish für Dezentralisierung, bullish kurzfristig für Knappheit (60/40 Risiko).",
+        "Clarity Act-Abstimmung scheitert vor August 1.: Regulatorische Unsicherheit nimmt zu, RWA/Tokenization-Narrative fragmentiert sich, Multi-Asset-Plattformen verlagern sich zu Stablecoins/Altcoins statt Bitcoin – strukturell bearish für BTC-Dominanz."
+      ]
+    },
     {
       "datum": "2026-07-23",
       "einschaetzung_numerisch": -2,
@@ -487,7 +509,14 @@
         "Tech-Earnings (Apple, Microsoft, Meta, Nvidia diese Woche) verfehlen Konsens und triggern KI-Frenzy-Unwinding: Chip-Rebound dreht, Bitcoin fällt unter €56.000, Silber unter €50 EUR.",
         "CLARITY Act Senat-Abstimmung verschoben oder fragmentiert: Regulatory-Premium für Crypto-Infrastruktur deflationiert, Bitcoin bleibt gegenüber Gold-Stagnation strukturell schwach.",
         "Korea CBDC oder Brazil Tokenization erhalten positive erste Signale: Spekulativer Cover von Short-Positionen könnte Bitcoin zu €62.000–€63.000 treiben, aber ohne institutionelle Gold-Rotation (Gold bleibt bei €3.500–€3.600)."
-      ]
+      ],
+      "rueckblick": {
+        "damals_einschaetzung": -2,
+        "damals_kurs": 57899,
+        "heute_kurs": 57142,
+        "kurs_veraenderung_prozent": -1.3,
+        "reckblick_ehrlich": "Die Prognose vom 21. Juli war strukturell korrekt, taktisch aber zu optimistisch. Bitcoin fiel von €57.899 auf €57.142 (-1,3%), was exakt die vorhergesagte 'taktische Volatilität ohne strukturelle Validierung' bestätigt. Die Warnung vor fehlender paralleler Gold/Silber-Bewegung (beide stagnierten) hat sich bewahrheitet – beide Edelmetalle befinden sich immer noch im Seitwärts-Kanal (Gold €3.559,70 vs. damals €3.560,75, Silber €51,37 vs. damals €51,96), was universelle Risk-Off unter dem Radar bestätigt. Die Key-Level-Vorhersage (€48.000 als kritisches Fibonacci-Retracement) bleibt gültig. Die institutionelle Diversifizierung *weg* von Bitcoin-Monopöl (hin zu Multi-Token, RWA-Pools, Tokenized Treasuries, Korea CBDC) hat sich dramatisch beschleunigt: Mirae/Digital X, Uniswap-Securitize-Pools, BNY Tokenized Treasuries, Grayscale Worldcoin ETF – Bitcoin ist Zaungast in seinem eigenen Ökosystem geworden. Die Fear & Greed Einschätzung (Warnsignal für 15–25% Downside) war nicht übertrieben – heutige 28 vs. damals 25 zeigt Stagnation in extremer Angst ohne Rally-Kapitulation. Fehlerquelle: Die Einschätzung unterschätzte die Geschwindigkeit der Mining-Industrie-Konsolidierung (Poolin-Konkurs kam überraschend schnell) und die Tatsache, dass ETF-Zuflüsse schneller aufbrauchen würden, als neue Käufer hinzukommen. Bitcoin hätte wahrscheinlich früher unter €56k brechen müssen – dies wurde verschoben durch intraday Volatilität und China-Lockdown-Nachrichten."
+      }
     },
     {
       "datum": "2026-07-20",
