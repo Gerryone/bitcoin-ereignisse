@@ -1,6 +1,41 @@
 {
-  "letzte_aktualisierung": "2026-07-24",
+  "letzte_aktualisierung": "2026-07-25",
   "ereignisse": [
+    {
+      "datum": "2026-07-24",
+      "kategorie": "Regulierung",
+      "titel": "EU verhängt 21. Sanktionspaket gegen Russland – HTX und 13 weitere Crypto-Anbieter gezielt sanctioniert",
+      "beschreibung": "Die EU beschließt massive Sanktionen im Umfang von $120 Mrd. gegen Russland und nimmt erstmals gezielt Crypto-Dienstanbieter ins Visier, darunter die HTX-Börse. Dies signalisiert eine Eskalation der regulatorischen Kontrolle über Crypto-Infrastruktur als geopolitisches Druckmittel und könnte Liquidität aus der EU-Zone abziehen. Bitcoin fällt unter €64.000, während Gold (€3.563,08) stabil bleibt – kein paralleles Flucht-Szenario erkennbar.",
+      "einschaetzung_numerisch": -2
+    },
+    {
+      "datum": "2026-07-24",
+      "kategorie": "Institutionell",
+      "titel": "Bitcoin Treasury Companies liquidieren Holdings – Debt-Druck und Aktienkollaps erzwingen Pivot zu AI",
+      "beschreibung": "Ehemalige Bitcoin-Akkumulatoren wie Michael Saylor's Strategy müssen angesichts fallender Aktienpreise, Schuldverpflichtungen und bärenmarkt-Druck ihre BTC-Bestände verkaufen und umstrukturieren. Saylor's Team überarbeitet Kennzahlen zur Transparenzoptimierung, signalisiert aber zugleich Notwendigkeit von Derisking. Dies verstärkt strukturellen Verkaufsdruck bei Bitcoin und delegitimiert das \"Crypto Treasury\"-Narrativ.",
+      "einschaetzung_numerisch": -3
+    },
+    {
+      "datum": "2026-07-24",
+      "kategorie": "OnChain",
+      "titel": "Poolin Mining Pool reicht Insolvenz mit $173M Schulden ein – Bitcoin-Mining-Konsolidierung beschleunigt sich",
+      "beschreibung": "Der ehemals größte Bitcoin-Mining-Pool (≈20% Hashrate-Anteil) aus Singapur meldet Konkurs an und verkauft verbleibende Assets. Dies markiert eine Stufe der Mining-Infrastruktur-Kollapse und signalisiert, dass auch große spezialisierte Betreiber unter aktueller Profitabilität leiden. Bitcoin unter €56.000, Fear Index 27 – Mining-Stress wird nicht als existenziell betrachtet, reflektiert aber anhaltende Fundamentalschwäche.",
+      "einschaetzung_numerisch": -2
+    },
+    {
+      "datum": "2026-07-24",
+      "kategorie": "Makro",
+      "titel": "Brent-Rohöl rallyt auf $97,66 – höchstes Niveau seit Mai durch Iran-Konflikt, Bitcoin bleibt unbeeindruckt",
+      "beschreibung": "Ölpreis springt nahe $100 aufgrund anhaltender Iran-Eskalation, bietet klassisches Inflations-Signal. Bitcoin aber fällt 2,3% auf €56.058, während Gold mit €3.563,08 parallel zu Bitcoin schwach bleibt (nicht Rally wie in echtem Krisenszenario). Dies zeigt: Markt bewertet Ölvolatilität nicht als systemisch inflationär, sondern als geopolitisches Noise – Bitcoin und Safe-Haven-Assets decoupling, nicht converging.",
+      "einschaetzung_numerisch": -1
+    },
+    {
+      "datum": "2026-07-24",
+      "kategorie": "Regulierung",
+      "titel": "Clarity Act verfehlt Sommerferien-Deadline – demokratische Bedenken zu Ethik-Regeln bremsen finale Passage",
+      "beschreibung": "Senatsmehrheitsführer Thune bestätigt, dass das Crypto Market Structure Bill vor Sommerpause nicht abgestimmt wird, obwohl Präsident Trump bereits auf Konzessionen zu Limits seiner persönlichen Crypto-Deals einging. Demokratische Kritik an mangelhaften Safeguards suggeriert, dass politischer Konsens fragmentiert bleibt – auch wenn White House Zugeständnisse machte, fehlt breite legislative Rückendeckung.",
+      "einschaetzung_numerisch": -2
+    },
     {
       "datum": "2026-07-24",
       "kategorie": "Institutionell",
@@ -385,44 +420,30 @@
       "titel": "Solo-Bitcoin-Mining-Surge (+41% YoY auf 24 Blöcke in 12 Monaten) – Dezentralisierung ohne Preissupport",
       "beschreibung": "Bitcoin-Mining-Dezentralisierung nimmt zu (Solo-Mining +41% YoY), mit kleinen Minern die $200k mit $150-Ausrüstung verdienen. Bullish für Netzwerk-Robustheit, aber ohne Kurs-Katalysator bei €54.927. Zeigt, dass fundamentale Stärke (wie von Franklin-CIO Seth Ginns erwähnt) weiterhin Preisen nicht entspricht.",
       "einschaetzung_numerisch": 0
-    },
-    {
-      "datum": "2026-07-13",
-      "kategorie": "Makro",
-      "titel": "Bitcoin zeigt Widerstandsfähigkeit gegen geopolitische Eskalation – Gold und Silber stagnieren parallel",
-      "beschreibung": "Während die USA zum vierten Mal innerhalb einer Woche den Iran angegriffen haben und Teheran die Straße von Hormuz erneut geschlossen hat, verharrt Bitcoin bei €55.131 (€63.024 USD) mit minimaler Bewegung. Gold (€2.950) und Silber (€29,50) zeigen ebenfalls Stagnation statt Flight-to-Safety-Reflexe. Dies deutet darauf hin, dass weder klassische Krisenflucht noch Inflationsangst die Märkte treibt – beide Assets befinden sich in einer Wartehaltung, nicht in einer Safe-Haven-Rallye.",
-      "einschaetzung_numerisch": -1
-    },
-    {
-      "datum": "2026-07-13",
-      "kategorie": "ETF",
-      "titel": "Bitcoin-ETF-Inflows brechen 8-Wochen-Ausfluss-Serie, aber institutionelle Nachfrage bleibt zaghaft (+$197M)",
-      "beschreibung": "Nach acht Wochen kontinuierlicher Netto-Abflüsse zeichnet sich mit +$197M am 13.07. eine technische Unterbrechung der Blutung ab. Analysten mahnen jedoch zur Vorsicht – dies sei keine Erholung institutioneller Nachfrage, sondern lediglich eine taktische Verschnaufpause. Der Fear & Greed Index bei 28 signalisiert anhaltende Furcht, nicht Akkumulation.",
-      "einschaetzung_numerisch": 0
-    },
-    {
-      "datum": "2026-07-13",
-      "kategorie": "Regulierung",
-      "titel": "Clarity Act-Entwurf könnte diese Woche landen, aber Konsens bleibt fragil und ungewiss",
-      "beschreibung": "Mehrere Quellen bestätigen gegenüber CoinDesk, dass ein neuer Clarity-Act-Entwurf in dieser Woche veröffentlicht werden könnte. Allerdings bleiben erhebliche Herausforderungen bestehen – ein bipartisanischer Konsens ist nicht gesichert, und die Verabschiedung ist nicht garantiert. Dies ist weniger ein Katalysator als eine offene Frage, die Ungewissheit aufrechterhält.",
-      "einschaetzung_numerisch": 0
-    },
-    {
-      "datum": "2026-07-13",
-      "kategorie": "Persönlichkeiten",
-      "titel": "Empery Digital und Saylor drehen BTC-zu-AI-Pivot um – Treasury-Narrative bröckelt weiter",
-      "beschreibung": "Empery Digital hat ~50% seines BTC-Bestands liquidiert, um in AI-Datencenter zu investieren – eine symbolische Kapitulation des Bitcoin-Treasury-Ansatzes. Michael Saylor wird kritisiert, weil er seine BTC-Botschaft unklar kommuniziert, während strategische Verkäufe das Großanleger-Vertrauen erschüttern. Standard Chartered warnt, dass Saylor die Glaubwürdigkeit verliert. Dies unterstreicht ein tieferes Problem: Selbst die größten Bitcoin-Befürworter rotieren zu Narrativen mit höherer Rendite (AI, Stablecoins).",
-      "einschaetzung_numerisch": -2
-    },
-    {
-      "datum": "2026-07-13",
-      "kategorie": "Technik",
-      "titel": "Bitcoin nähert sich Fidelity Power Law Support Line seit 2015 – aber ohne Bounce-Katalysator",
-      "beschreibung": "Fidelitys Global Macro-Direktor Jurien Timmer bemerkt, dass Bitcoin einer Macht-Gesetz-Akkumulationszone nahe kommt, die seit 2015 beobachtet wird. Dies könnte ein Boden-Signal sein – aber Timmer warnt ausdrücklich: Es gibt keinen erkennbaren Katalysator für einen Bounce. Die technische Position ist potenziell attraktiv, die fundamentale Nachfrage jedoch weiterhin absent.",
-      "einschaetzung_numerisch": -1
     }
   ],
   "fazits": [
+    {
+      "datum": "2026-07-25",
+      "einschaetzung_numerisch": -3,
+      "kurs_eur": 56058,
+      "gold_eur": 3563.08,
+      "silver_eur": 51.228,
+      "einschaetzung": "Bitcoin testet unter €56.000 vor kritischen Makro-Katalysatoren und in Umfeld anhaltender struktureller Verwundbarkeit. Die 2,3%-Tagesabgabe wird getragen von: (1) Clarity Act Verzögerung, die regulatorische Euphorie des Vorwochentages zusammenfallen lässt, (2) Treasury-Liquidationen (Strategy, ehemalige BTC-Akkumulatoren), die organischen Verkaufsdruck erzeugen, (3) Poolin-Insolvenz, die Mining-Konsolidierung und Profitabilitätsdruck dokumentiert, (4) EU-Sanktionen gegen HTX und 13 weitere Crypto-Dienstanbieter als geopolitische Kontrolleskalation. Besonders kritisch: Gold (€3.563,08) bleibt flat zu Bitcoin, während Ölpreis ($97,66) auf Jahreshoch rallyt – das ist kein synchronisiertes Safe-Haven-Buy-Signal, sondern Beweis, dass Markt Ölvolatilität als isoliert geopolitisch, nicht systemisch inflationär bewertet. Fear Index 27 (tiefer Fear) ist paradox: normale Indikatoren sagen \"buy the dip\", aber fundamentale Triggers (Mining-Stress, Treasury-Verkäufe, Regulierungs-Zerstückelung) sind real. Dies ist strukturelle Schwäche unter technischem Overextension-Gelaber.",
+      "gewichtung": {
+        "bullish": 25,
+        "bearish": 65,
+        "neutral": 10
+      },
+      "schluessel_niveau_eur": 48000,
+      "schluessel_niveau_erklaerung": "€48.000 war Juni-Tief und bleibt psychologisch-technische Bruchzone. Ein Halten über €48k mit Konsolidierung unter €56.5k bestätigt Seitwärts-Bärenmarkt; ein Bruch unter €48k hätte Kaskaden-Liquidationen (Ziele €43k–€45k) zur Folge. Auf der anderen Seite: Ausbruch über €60k kombiniert mit paralleler Gold-Rally über €3.650 (statt aktuelle €3.563,08) wäre erst echtes Rebound-Signal.",
+      "naechster_katalysator": "ECB-Ratentscheidung (erwartet diese Woche) – sollte Zinserwartungen fallen lassen, könnte dies Softness in Fiat-Renditen brechen und ETF-Zuflüsse reaktivieren. Parallel: US-Arbeitsmarktdaten (nächste Woche) als Fed-Führungsindikator – Schwäche würde Rate-Cut-Erwartungen stützen und klassische BTC-Inflations-Hedging-Story reaktivieren. Ohne diese Makro-Breaks bleibt Bitcoin in Liquidations-Range €50k–€58k.",
+      "szenario_bedingungen": [
+        "Bullish-Fall: ECB schneidet Sätze und Gold steigt über €3.650 EUR parallel zu Bitcoin-Ausbruch über €60.000 EUR – zeigt synchronisierte Inflations-Flucht, nicht isolierte Volatilität",
+        "Bearish-Fall: Treasury-Liquidationen setzen sich fort UND Clarity Act-Passage scheitert bis Ende Q3 2026 – Bitcoin bricht €48.000 EUR und testet €43.000 EUR (Juni-Support-Erosion)",
+        "Neutral-Fall: Bitcoin konsolidiert €50k–€58k EUR über nächste 2 Wochen, während ECB/Fed-Signale klarer werden – kein großer Katalysator bis August-FOMC"
+      ]
+    },
     {
       "datum": "2026-07-24",
       "einschaetzung_numerisch": -2,
@@ -487,7 +508,14 @@
         "ECB senkt Leitzinsen um 50 BP und signalisiert weitere Kürzungen → Gold springt über €3.700, Bitcoin folgt mit Inflations-Hedge-Rotation zu €62k–€64k",
         "Clarity Act Bill-Text wird zwischen Trump/Republicans/Dems verabschiedet UND innerhalb 48h signiert → Regulatory-Clarity Rallye zu €68k+ möglich, aber <5% Wahrscheinlichkeit in dieser Woche",
         "Balance/DeFi Exploit-Fallout führt zu weiterer Vertrauensunterminierung und Liquidationen im Lending-Sektor → Bitcoin unter €48k Bruch mit Kaskade zu €43k–€45k"
-      ]
+      ],
+      "rueckblick": {
+        "kurs_damals_eur": 57861,
+        "einschaetzung_damals_numerisch": -2,
+        "kurs_heute_eur": 56058,
+        "change_pct": -3.1,
+        "rueckblick": "Das Fazit vom 22.07. identifizierte korrekterweise ein \"strukturelles Limbo\" zwischen ETF-Bottom-Fishing und fundamentalen Risiken. Die Prognose war nicht bullish (-2 Einschätzung), warnte aber nicht explizit vor Treasury-Liquidationen und Mining-Insolvenz, die sich seitdem manifestiert haben. Gold-Parallelität (damals €3.608,78) wurde korrekt als Signal für spezifisches Tech-/AI-Derisking gelesen, nicht Inflationspanik – diese Einsicht bleibt valide. Die Clarity Act-Euphorie (43% Odds damals) wurde als unzureichend ohne Bill-Text diagnostiziert; sie ist jetzt durch Summer-Break-Verzögerung entkräftet. Das Schlüsselniveau €48.000 bleibt gültig. SELBSTKRITIK: Das Fazit unterschätzte Geschwindigkeit von Treasury-Liquidationen und unterschied nicht deutlich genug zwischen ETF-Rebound-Volatilität und struktureller Verschuldungs-Erosion im Bitcoin-Treasury-Ökosystem. Auch: Die Warnung vor €43k–€45k-Kaskaden basierte auf \"Ausbruch unter €48k\", aber die gegenwärtigen €56.058 zeigen, dass Kaskaden nicht linear verlaufen – Markt fragmentiert sich stattdessen in Micro-Liquidationen über breite Spannen."
+      }
     },
     {
       "datum": "2026-07-21",
