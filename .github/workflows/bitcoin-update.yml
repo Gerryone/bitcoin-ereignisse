@@ -1,7 +1,15 @@
 name: Bitcoin Ereignisse Update
 on:
   schedule:
-    - cron: '0 7 * * *'
+    # GEÄNDERT (25.07.2026): von 07:00 UTC auf 22:00 UTC verschoben, um
+    # sich am US-Börsenschluss (21:00 UTC / NYSE-Handelsende) zu
+    # orientieren - mit 1h Puffer, damit tagesaktuelle Bitcoin-ETF-Flow-
+    # Meldungen (BlackRock, Fidelity etc.) für den News-Kontext bereits
+    # verfügbar sind, statt sie erst am nächsten Tag nachträglich zu
+    # erfassen. Bitcoin selbst hat keine Börsenschlusszeit (24/7-Handel),
+    # aber die ETF-Flows sind an die klassischen US-Handelszeiten
+    # gebunden und oft kursrelevant.
+    - cron: '0 22 * * *'
   workflow_dispatch:
 jobs:
   update:
