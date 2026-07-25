@@ -1,6 +1,34 @@
 {
   "fazits": [
     {
+      "datum": "2026-07-25",
+      "kurs_eur": 56058,
+      "identifizierte_schwachstellen": [
+        "Haiku listet vier 'Trigger' (Clarity Act, Treasury-Liquidationen, Poolin-Insolvenz, EU-Sanktionen), ohne deren relative Gewichtung oder Evidenzstärke zu belegen. Dass 'keine neuen Ereignisse für heute vorhanden' vermerkt ist, lässt stark vermuten, dass diese Ereignisse synthetisiert oder aus älteren Nachrichten extrapoliert wurden – Haiku behandelt sie aber als tagesaktuell kausale Treiber des -1.6% Rückgangs. Das ist methodisch unsolide: Korrelation mit Tagesverlust ≠ Kausalität.",
+        "Die Gold/Öl-Interpretation ist zirkulär und selektiv: Haiku argumentiert, dass Gold 'flat zu Bitcoin' bleibt und Öl auf Jahreshoch steht – und leitet daraus ab, dass kein systemisches Inflationssignal vorliegt. Aber Gold bei €3.563 auf historisch hohem Niveau ist per se bullish für BTC als alternativer Store-of-Value-Asset. Haiku wählt die Deutung, die zur bearishen These passt, und ignoriert die alternative Interpretation (Gold-Stärke als Umfeld-Rückenwind für BTC).",
+        "Die Schlüsselniveau-Analyse ist inkonsistent: Haiku nennt €48.000 als 'kritische Bruchzone' und 'Juni-Tief', aber der aktuelle Kurs liegt bei €56.141 – das ist ein Abstand von über 14%. Eine Einschätzung von -3 (stark bearish) basierend auf einem Niveau, das 14% entfernt liegt und das der Markt nicht aktiv testet, ist eine unzulässig starke Extrapolation. Die Einschätzung -3 impliziert einen nahen, wahrscheinlichen Kursrückgang – nicht einen hypothetischen Bruch eines weit entfernten Supports.",
+        "Haiku ignoriert systematisch seinen eigenen Fear-Index-Widerspruch: Er nennt Fear-Index 27 'paradox' und 'normal würden Indikatoren buy the dip sagen', löst diesen Widerspruch aber nicht auf – er verwirft ihn mit dem Adjektiv 'strukturell', ohne zu belegen, warum diesmal historische Contrarian-Signale nicht gelten. Das ist kein Argument, das ist Anchoring auf ein vorgewähltes Fazit."
+      ],
+      "staerkstes_gegenargument": "Ein Fear & Greed Index von 27 (Fear) in Kombination mit einem Kurs, der über 14% über dem benannten Schlüsselunterstützungsniveau (€48k) liegt, ist historisch gesehen ein statistisch positives Setup für die nächsten 7 Tage – nicht ein negatives. Märkte, die bei moderatem Fear weit über ihrem Crash-Support notieren, tendieren zur Konsolidierung oder Erholung, nicht zum Zusammenbruch. Haiku bietet keinen quantitativen Beleg dafür, dass die genannten 'strukturellen' Faktoren stark genug sind, um diese historische Basiswahrscheinlichkeit zu überwinden, und eine -3 Einschätzung ohne diesen Beleg ist bloße Assertion.",
+      "eigene_einschaetzung_numerisch": -1,
+      "eigene_einschaetzung": "Meine 0%-Trefferquote über 10 Einschätzungen ist kein statistisches Rauschen mehr – sie ist ein harter Beweis für einen systematischen Bearish-Bias, den ich heute erneut aktiv bekämpfen muss, indem ich die Zahl nach oben verschiebe, nicht nur rhetorisch. Der heutige Markt zeigt ein -1.6% Tageskorrektur ohne verifizierbare tagesaktuell neue Katalysatoren bei einem Fear-Index von 27 und einem Kurs, der strukturell über €48k hält. Das ist eher ein volatiles Seitwärts-Szenario als ein beginnender Zusammenbruch. ETH zeigt mit -1.4% ähnliche, aber nicht stärkere Schwäche – kein Zeichen für altcoin-spezifisches Capitulation-Verhalten, das BTC-Kaskaden vorausgehen würde. Ich halte -1 als leicht bearishe Einschätzung, die die reale Abwärtsdynamik würdigt, ohne Haikus Überextrapolation zu übernehmen.",
+      "eigene_gewichtung": {
+        "bullish": 30,
+        "bearish": 50,
+        "neutral": 20
+      },
+      "begruendung_bei_uebereinstimmung": "Beide Einschätzungen sind bearish (Haiku -3, ich -1), aber die Richtungsübereinstimmung hält meiner Kritik Stand aus folgendem Grund: Ein -1.6% Tagesrückgang ohne positive Katalysatoren und bei Fear-Sentiment ist ein legitimes, wenn auch schwaches, Abwärtssignal – meine Kritik richtet sich gegen die Stärke (-3) und die methodische Qualität der Begründung, nicht gegen die Richtung per se. Meine Korrektur von Haikus -3 auf -1 ist der direkte Output der Kritik: Die Schwachstellen (unverifizierten Trigger, selektive Marktinterpretation, weit entferntes Schlüsselniveau) reduzieren die Konfidenz in eine stark bearishe Einschätzung erheblich. Der leicht negative Bias bleibt, weil der Markt keine frischen bullishen Katalysatoren zeigt und unter kurzfristigem Verkaufsdruck steht – aber weit entfernt von einem -3 Szenario.",
+      "uebereinstimmung_mit_haiku": "mittel",
+      "szenario_bedingungen": [
+        "Bitcoin schließt mindestens 3 aufeinanderfolgende Tageskerzen unter €54.000, was einen strukturellen Bruch des aktuellen Konsolidierungsbereichs signalisieren würde.",
+        "ETF-Nettozuflüsse drehen in zwei aufeinanderfolgenden Wochen negativ (messbar über öffentliche ETF-Flow-Daten), was institutionellen Rückzug dokumentieren würde.",
+        "ECB-Zinsentscheidung fällt hawkisher aus als erwartet (kein Cut oder explizit restriktive Sprache), was Risk-Off-Sentimen verstärkt und EUR/USD-Dynamik gegen BTC dreht.",
+        "Fear & Greed Index fällt unter 20 (Extreme Fear) bei gleichzeitigem Kurs unter €52.000, was Capitulation-Dynamik statt bloßer Konsolidierung bestätigen würde."
+      ],
+      "haiku_einschaetzung_zum_vergleich": -3,
+      "erstellt_am": "2026-07-25T09:28:01.532090"
+    },
+    {
       "datum": "2026-07-24",
       "kurs_eur": 57142,
       "identifizierte_schwachstellen": [
@@ -177,7 +205,9 @@
         "Bestätigung bearish: Straße-von-Hormuz-Situation eskaliert zur partiellen Blockade oder ein weiterer US-Militärschlag auf Iran, was Öl-Stagflationsängste und damit Risk-Off-Selling bei Bitcoin konkret auslöst"
       ],
       "haiku_einschaetzung_zum_vergleich": -3,
-      "erstellt_am": "2026-07-18T09:16:59.920385"
+      "erstellt_am": "2026-07-18T09:16:59.920385",
+      "rueckblick_prozent_7_tage": 0.77,
+      "rueckblick_kurs_7_tage": 56334.71558361861
     },
     {
       "datum": "2026-07-17",
@@ -536,5 +566,5 @@
       "rueckblick_kurs_7_tage": 54505.1633858627
     }
   ],
-  "letzte_aktualisierung": "2026-07-24"
+  "letzte_aktualisierung": "2026-07-25"
 }
