@@ -22,6 +22,19 @@ fetch_precious_metals() umgestellt auf gold-api.com (kein API-Key
 nötig), das über 10 Tage lang stillschweigend auf den Fallback-Wert
 zurückgefallen war und dadurch eine flache Linie im HA-Dashboard
 erzeugt hatte.
+
+GEÄNDERT (25.07.2026): Die abstrakte -5/+5-Einschätzung wurde durch
+konkrete KURSZIELE in EUR ersetzt, für dieselben vier Zeithorizonte,
+die auch für die Rückblicke verwendet werden (3/7/14/30 Tage). Ein
+Kursziel lässt sich objektiv gegen den tatsächlichen späteren Kurs
+prüfen ("Du hast 61.000 € in 7 Tagen erwartet, tatsächlich waren es
+58.500 €") - deutlich aussagekräftiger als eine abstrakte Zahl ohne
+erkennbaren Bezug zur Kursbewegung. ALTE Fazits mit der -5/+5-Skala
+bleiben unverändert in ereignisse.json stehen (keine Rückwirkung),
+neue Fazits verwenden ausschließlich das neue Format.
+Die Gewichtung (bullish/bearish/neutral %) bleibt zusätzlich
+erhalten, da sie eine andere, weiterhin nützliche Information liefert
+(grobe Richtungsverteilung unabhängig vom konkreten Kursziel).
 """
 
 import json
@@ -259,6 +272,23 @@ def save_data(daten, path="ereignisse.json"):
         json.dump(daten, f, ensure_ascii=False, indent=2)
 
 
+# ─── Kursziel-Formatierung (NEU 25.07.2026) ────────────────────────────────
+
+def formatiere_kursziel_alt_oder_neu(fazit):
+    """Zeigt ein altes Fazit im Prompt-Kontext an, egal ob es die neue
+    Kursziel-Struktur oder die alte -5/+5-Skala verwendet (Migrations-
+    Kompatibilität für den 'ALTE FAZITS OHNE RÜCKBLICK'-Block)."""
+    if "kursziel_eur" in fazit and fazit["kursziel_eur"]:
+        kz = fazit["kursziel_eur"]
+        return (
+            f"Kursziele damals (3/7/14/30 Tage): "
+            f"€{kz.get('3_tage')} / €{kz.get('7_tage')} / "
+            f"€{kz.get('14_tage')} / €{kz.get('30_tage')}"
+        )
+    # Fallback für alte Einträge vor der Umstellung (25.07.2026)
+    return f"Einschätzung damals (ALTE SKALA, -5 bis +5): {fazit.get('einschaetzung_numerisch')}"
+
+
 # ─── Claude-Prompt ──────────────────────────────────────────────────────────
 
 def build_prompt(daten, news_text, preise, fear_greed, metalle, heute):
@@ -274,7 +304,7 @@ def build_prompt(daten, news_text, preise, fear_greed, metalle, heute):
         for f in alte_fazits[:5]:
             fazit_block += (
                 f"\nDatum: {f['datum']}\n"
-                f"Einschätzung damals: {f.get('einschaetzung_numerisch')} (-5 bis +5) | Kurs damals: €{f.get('kurs_eur')}\n"
+                f"{formatiere_kursziel_alt_oder_neu(f)} | Kurs damals: €{f.get('kurs_eur')}\n"
                 f"Begründung: {f.get('einschaetzung')}\n"
                 f"Schlüsselniveau: €{f.get('schluessel_niveau_eur')} – "
                 f"{f.get('schluessel_niveau_erklaerung')}\n"
@@ -318,7 +348,15 @@ AUFGABEN:
 WICHTIG: Alle Bitcoin-Preisangaben in EUR. Gold/Silber ebenfalls in EUR.
 ETF-Flüsse dürfen in USD bleiben.
 
-WICHTIG ZUR EINSCHÄTZUNG: Numerische Skala -5 bis +5, differenziert gewählt.
+WICHTIG ZUR EINSCHÄTZUNG (GEÄNDERT 25.07.2026): Statt einer abstrakten
+Zahl von -5 bis +5 gibst du ein KONKRETES KURSZIEL IN EUR an, für vier
+Zeithorizonte: in 3, 7, 14 und 30 Tagen. Das Kursziel ist deine
+Punktschätzung, wo der Bitcoin-Kurs zum jeweiligen Zeitpunkt stehen
+wird, ausgehend vom aktuellen Kurs von €{preise['btc_eur']:,.0f}.
+Sei realistisch - die meisten 3-Tage-Bewegungen sind klein (wenige
+Prozent), 30-Tage-Bewegungen können deutlich größer ausfallen. Ein
+Kursziel gleich dem aktuellen Kurs ist eine valide Aussage ("keine
+klare Richtung erkennbar"), kein Fehler.
 
 Antworte AUSSCHLIESSLICH mit einem gültigen JSON-Objekt (kein Markdown, kein Text davor/danach):
 
@@ -329,12 +367,17 @@ Antworte AUSSCHLIESSLICH mit einem gültigen JSON-Objekt (kein Markdown, kein Te
       "kategorie": "ETF|Regulierung|Institutionell|Makro|OnChain|Technik|Persönlichkeiten",
       "titel": "Kurzer prägnanter Titel",
       "beschreibung": "2-3 Sätze mit konkreten Zahlen. Bitcoin-Kurs in EUR. Gold/Silber erwähnen wo relevant.",
-      "einschaetzung_numerisch": -3
+      "kursziel_eur_7_tage": {int(preise['btc_eur'])}
     }}
   ],
   "tagesfazit": {{
     "datum": "{heute}",
-    "einschaetzung_numerisch": -3,
+    "kursziel_eur": {{
+      "3_tage": {int(preise['btc_eur'])},
+      "7_tage": {int(preise['btc_eur'])},
+      "14_tage": {int(preise['btc_eur'])},
+      "30_tage": {int(preise['btc_eur'])}
+    }},
     "kurs_eur": {int(preise['btc_eur'])},
     "gold_eur": {metalle['gold_eur']},
     "silver_eur": {metalle['silver_eur']},
@@ -357,7 +400,10 @@ Antworte AUSSCHLIESSLICH mit einem gültigen JSON-Objekt (kein Markdown, kein Te
 }}
 
 Hinweise:
-- einschaetzung_numerisch: -5 bis +5, differenziert
+- kursziel_eur: konkrete EUR-Werte je Zeithorizont, keine Prozent- oder
+  abstrakten Werte. "kursziel_eur_7_tage" bei einzelnen Ereignissen ist
+  ein einzelner Wert (nur 7-Tage-Horizont, für die kurzfristige
+  Einordnung des Ereignisses selbst).
 - gewichtung muss exakt 100 ergeben
 - Falls keine alten Fazits: "rueckblicke" als leeres Objekt {{}}
 - Sei bei Rückblicken selbstkritisch und ehrlich
@@ -465,8 +511,11 @@ def main():
     print(f"✓ {updated_rb} Rückblicke aktualisiert")
     if tagesfazit:
         gew = tagesfazit.get("gewichtung", {})
-        print(f"✓ Tagesfazit: Einschätzung {tagesfazit.get('einschaetzung_numerisch', '?')} (-5 bis +5) | "
-              f"BTC €{tagesfazit.get('kurs_eur', 0):,.0f} | "
+        kz = tagesfazit.get("kursziel_eur", {})
+        print(f"✓ Tagesfazit: Kursziele 3/7/14/30 Tage = "
+              f"€{kz.get('3_tage')} / €{kz.get('7_tage')} / "
+              f"€{kz.get('14_tage')} / €{kz.get('30_tage')} | "
+              f"BTC aktuell €{tagesfazit.get('kurs_eur', 0):,.0f} | "
               f"Gold €{tagesfazit.get('gold_eur', 0):,.2f} | "
               f"Silber €{tagesfazit.get('silver_eur', 0):,.3f} | "
               f"Bullish {gew.get('bullish')}% / "
@@ -475,7 +524,7 @@ def main():
     if neu_gefiltert:
         print("\nNeue Ereignisse:")
         for e in neu_gefiltert:
-            print(f"  [{e.get('einschaetzung_numerisch', '?')}] {e.get('titel', '')}")
+            print(f"  [Kursziel 7T: €{e.get('kursziel_eur_7_tage', '?')}] {e.get('titel', '')}")
 
 
 if __name__ == "__main__":
