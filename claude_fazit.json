@@ -1,6 +1,37 @@
 {
   "fazits": [
     {
+      "datum": "2026-07-27",
+      "kurs_eur": 57358,
+      "identifizierte_schwachstellen": [
+        "Kein Haiku-Fazit vorhanden – die primäre Aufgabe (kritische Gegenprüfung eines konkreten Fazits) entfällt strukturell. Das bedeutet, dass meine Analyse heute ausschließlich auf Rohdaten basiert, ohne einen definierten Kontrastpunkt. Dies ist keine Schwachstelle in Haikus Analyse, sondern ein methodisches Vakuum: Ich kann keine Verzerrungen in etwas identifizieren, das nicht existiert. Das sollte im Output transparent gemacht werden statt so zu tun, als gäbe es echte Schwachstellen zu benennen.",
+        "Meine eigenen Kursziele vom 26.07.2026 (€56.200 / €57.500 / €58.800 / €60.500) implizieren eine kontinuierlich steigende Kurve über 30 Tage – von einem Ausgangspunkt €56.537 auf €60.500. Heute liegt der Kurs bei €57.358, also bereits oberhalb meiner 3-Tage-Prognose von €56.200 nach nur einem Tag. Das ist eine klare Falsifizierung meines 3-Tage-Ziels nach 24 Stunden und zeigt, dass meine Unter-Kalibrierung im kurzfristigen Bereich anhält.",
+        "ETH outperformt BTC heute deutlich (+4.1% vs. +1.5%). Das ist ein Signal, das in Abwesenheit eines Haiku-Fazits besonders unterbewertet bleibt: Altcoin-Outperformance kann auf Risk-On-Rotation hindeuten, aber auch auf BTC-Dominanz-Verlust vor Korrekturen. Keines dieser Szenarien wird durch die verfügbaren Daten allein aufgelöst – und der Fear & Greed Index bei 30 (Fear) widerspricht einer klaren Risk-On-Interpretation aktiv."
+      ],
+      "staerkstes_gegenargument": "Das stärkste Argument gegen jede bullishe Interpretation der heutigen Datenlage ist die Kombination aus struktureller Informationsleere und kontradiktorischen Signalen: Ein Fear & Greed Index von 30 bei gleichzeitig positiven Tageskursveränderungen (+1.5% BTC, +4.1% ETH) zeigt, dass der Markt trotz steigender Kurse fundamental in einem Angstzustand verharrt. Technische Kaufsignale, die in einem Fear-Umfeld entstehen, haben historisch eine deutlich höhere Umkehrwahrscheinlichkeit als dieselben Signale bei neutraler oder bullisher Stimmung – die Stärke des heutigen Moves ist also kein Beweis für Stärke, sondern möglicherweise ein kurzfristiger Squeeze in einem ansonsten schwachen Marktregime.",
+      "eigenes_kursziel_eur": {
+        "3_tage": 56800,
+        "7_tage": 57200,
+        "14_tage": 58000,
+        "30_tage": 59500
+      },
+      "eigene_einschaetzung": "Mit einem Kurs von €57.358 und Fear & Greed bei 30 befinde ich mich in einem typischen 'Angst-Bounce'-Szenario: kurzfristige Kursgewinne in einem grundsätzlich verunsicherten Markt. ETH outperformt BTC deutlich, was kurzfristig als Risk-On-Signal interpretiert werden könnte, aber auch als rotationsbedingte Schwäche des Bitcoin-Dominanz-Trends. Ohne externe Katalysatoren (keine Ereignisse für heute) fehlt die Grundlage für einen substanziellen Trendbruch nach oben oder unten. Meine Kursziele bleiben moderat bullish, aber deutlich vorsichtiger als eine naive Extrapolation der heutigen Tagesperformance nahelegen würde – insbesondere, weil meine eigene historische Tendenz zum Unter-Kalibrieren im Kurzfristbereich mich zwingt, die 3-Tage-Prognose bewusst konservativ unter dem Tagesschlusskurs zu halten, um Regression zur Mitte abzubilden.",
+      "eigene_gewichtung": {
+        "bullish": 35,
+        "bearish": 45,
+        "neutral": 20
+      },
+      "begruendung_bei_uebereinstimmung": "Keine Übereinstimmung mit einem Haiku-Fazit möglich, da keines vorliegt. Meine Kursziele weichen von meinen gestrigen Prognosen nach oben ab (korrekter Richtung, da der Kurs heute bei €57.358 liegt und mein 3-Tage-Ziel von gestern €56.200 bereits übertroffen ist). Die gefundene Kritik – insbesondere das Fehlen eines Kontrastpunkts und die kontradiktorischen Fear/Kurs-Signale – verändert meine Gesamteinschätzung nicht grundlegend, da beide bearishen und bullishen Interpretationen der ETH-Outperformance und des Fear-Index gleich gut vertretbar bleiben: Ich halte an einem leicht bearischen Übergewicht fest, weil ein Fear-Index von 30 strukturell selten den Startpunkt nachhaltiger Aufwärtstrends markiert.",
+      "uebereinstimmung_mit_haiku": "unbekannt",
+      "szenario_bedingungen": [
+        "BTC hält das Niveau von €57.000 als Support über mindestens 3 aufeinanderfolgende Tagesschlusskurse – dies würde die Konsolidierung oberhalb dieses Niveaus bestätigen und das 7-Tage-Ziel von €57.200 stützen.",
+        "Der Fear & Greed Index steigt innerhalb von 7 Tagen auf mindestens 45 (Neutral) – ohne diese Stimmungsaufhellung bleibt jeder Kursanstieg strukturell fragil und das 14-Tage-Ziel von €58.000 unrealistisch.",
+        "ETH/BTC-Ratio stabilisiert sich oder gibt nach – anhaltende ETH-Outperformance über 7+ Tage würde auf Kapitalrotation weg von BTC hindeuten und mein 30-Tage-Ziel von €59.500 gefährden."
+      ],
+      "haiku_kursziel_zum_vergleich": null,
+      "erstellt_am": "2026-07-27T00:02:18.975797"
+    },
+    {
       "datum": "2026-07-26",
       "kurs_eur": 56537,
       "identifizierte_schwachstellen": [
@@ -598,5 +629,5 @@
       "rueckblick_kurs_7_tage": 54505.1633858627
     }
   ],
-  "letzte_aktualisierung": "2026-07-26"
+  "letzte_aktualisierung": "2026-07-27"
 }
