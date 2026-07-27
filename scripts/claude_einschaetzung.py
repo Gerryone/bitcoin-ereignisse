@@ -525,6 +525,17 @@ def main():
     haiku_kursziel = haiku_fazit_heute.get("kursziel_eur") if haiku_fazit_heute else None
     eigenes_kursziel = result.get("eigenes_kursziel_eur", {})
 
+    # NEU (27.07.2026): Validierung ergänzt, analog zu update_bitcoin.py -
+    # ein technisch gültiges JSON ohne vollständiges eigenes_kursziel_eur
+    # soll den Workflow-Lauf sichtbar rot markieren, statt unbemerkt ein
+    # leeres/unvollständiges Kursziel abzuspeichern.
+    if not isinstance(eigenes_kursziel, dict) or not all(
+        f"{h}_tage" in eigenes_kursziel for h in [3, 7, 14, 30]
+    ):
+        print(f"\nFEHLER: eigenes_kursziel_eur unvollständig oder fehlt: {eigenes_kursziel}", file=sys.stderr)
+        print(f"Vorhandene Antwort-Keys: {list(result.keys())}", file=sys.stderr)
+        sys.exit(1)
+
     # Übereinstimmung wird OBJEKTIV aus der Differenz der erwarteten
     # 7-Tage-%-Veränderung berechnet (GEÄNDERT 25.07.2026: vorher aus der
     # Differenz der -5/+5-Zahlen). Nur möglich, wenn Haiku ebenfalls
