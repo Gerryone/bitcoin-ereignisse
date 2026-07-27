@@ -1,6 +1,41 @@
 {
-  "letzte_aktualisierung": "2026-07-26",
+  "letzte_aktualisierung": "2026-07-27",
   "ereignisse": [
+    {
+      "datum": "2026-07-27",
+      "kategorie": "Makro",
+      "titel": "US-Iran-Deeskalation treibt Ölpreis 5% tiefer – Bitcoin bleibt unbeeindruckt, Fluchtkapital-Narrative schwächer",
+      "beschreibung": "Nach geopolitischer Entspannung zwischen USA und Iran fällt Rohöl 5% – klassisches Safe-Haven-Barometer schwächt sich ab. Bitcoin hält €57.348 (+1,4% 24h), während Gold seitwärts bei €3.602,55 notiert und Silber stagniert (€52,37). Das Ausbleiben von Bitcoin-Rallyes bei Entlastung am Ölmarkt deutet darauf hin, dass das Asset nicht als Inflations-Hedge oder Krisenkapital fungiert, sondern eher als Spekulations-Vehikel.",
+      "kursziel_eur_7_tage": 58200
+    },
+    {
+      "datum": "2026-07-27",
+      "kategorie": "Institutionell",
+      "titel": "Ethereum outperformt Bitcoin deutlich (+4,4% vs. +1,4%) – Altcoin-Rotation oder ETF-Umschichtung?",
+      "beschreibung": "ETH steigt auf €1.726 mit +4,4% 24h-Gewinn, während Bitcoin nur +1,4% notiert. CoinDesk-Analysten sehen darin Hinweis auf kommende Altcoin-Rallye, doch die Nachricht korreliert mit ETH-ETF-Zuflüssen und möglicher Profit-Taking aus Bitcoin-Positionen. Gold (€3.602,55) und Silber (€52,37) zeigen keine Fluchtbewegung – klassische Risk-Off-Rotation findet nicht statt.",
+      "kursziel_eur_7_tage": 57100
+    },
+    {
+      "datum": "2026-07-26",
+      "kategorie": "Regulierung",
+      "titel": "BitMart schließt nach 9 Jahren – Austausch-Konsolidierung setzt sich fort, BMX-Token kollabiert 58%",
+      "beschreibung": "BitMart kündigt Schließung bis August 26 an; BMX-Token stürzt 58% ab. Nutzer haben 1 Monat für Trades, 6 Monate für Abhebungen. Dies folgt BitMEX-Shutdown und Dango-Schließung – die Basis-Infrastruktur wird konzentriert auf Binance, Kraken, Coinbase. Bitcoin-Kurs notiert €57.348, aber Liquiditäts-Fragmentierung nimmt zu. Regulatorischer Druck (MiCA, CFTC-Warnungen) treibt Konsolidierungswelle.",
+      "kursziel_eur_7_tage": 56800
+    },
+    {
+      "datum": "2026-07-25",
+      "kategorie": "Institutionell",
+      "titel": "Südkorea: KB Kookmin Bank startet Zahlungsservice auf JPMorgans Kinexys – Mainsteam-Banking normalisiert Blockchain",
+      "beschreibung": "Südkoreas größte Bank (KB Kookmin) launcht Cross-Border-Zahlungen auf JPMorgans privatem Blockchain-Netzwerk. POSCO International tokenisiert auf Injective – RWA-Adoption kommt auf etablierten Plattformen, nicht Bitcoin. Gold (€3.602,55) und Silber (€52,37) stagnieren; institutionelles Kapital fließt in Zcash-ähnliche Permissioned-Blockchains, nicht öffentliche Layer-1.",
+      "kursziel_eur_7_tage": 57500
+    },
+    {
+      "datum": "2026-07-25",
+      "kategorie": "Sicherheit & Regulierung",
+      "titel": "Nordkorea verhaftet Hacker-Ring mit Bankraub und Crypto-Geldwäsche – innerchinesische Broker als Konvertierungs-Knoten",
+      "beschreibung": "Nordkoreas Cyberoperationen verhaften eigene Hacker wegen Diebstahl aus Zentralbank und Geldwäsche über chinesische Broker. Dies zeigt: Crypto wird gezielt von State-Akteuren als Liquiditäts-Tunnel missbilligt, nicht als Store-of-Value. Bitcoin bei €57.348; Gold (€3.602,55) und Silber (€52,37) zeigen keine Flight-to-Safety. Narrative \"Bitcoin schützt vor autoritärem Zugriff\" wird durch Staats-Hacker-Verhaftungen widerlegt.",
+      "kursziel_eur_7_tage": 57000
+    },
     {
       "datum": "2026-07-26",
       "kategorie": "Regulierung",
@@ -385,44 +420,35 @@
       "titel": "Two Investor Groups dumpen Bitcoin in Rally zu €55.881 – Leverage-Position-Liquidierung trotz positiven Inflations-Signals",
       "beschreibung": "On-Chain-Daten zeigen zwei Investor-Kohorten verkaufen in die Bounce-Rally auf €55.881 nach schwächeren US-Inflationsdaten. Dies widerlegt das ‚Inflations-Hedge'-Narrativ und deutet auf Profit-Taking von zyklischen Positionsträgern hin, nicht auf Akkumulation. Die fehlende Rally von Gold (€2.950) und Silber (€29,50) trotz Zins-Erleichterungs-Signalen verstärkt den Eindruck eines unterverkauften Marktes ohne fundamentale Kaufkraft.",
       "einschaetzung_numerisch": -3
-    },
-    {
-      "datum": "2026-07-15",
-      "kategorie": "ETF",
-      "titel": "Bitcoin-ETF-Inflows kehren zurück (+$181M) – aber nach $425M Ausfluss bleibt Netto-Blutung bestehen",
-      "beschreibung": "US Spot Bitcoin ETFs verzeichneten am 15.07. Zuflüsse von etwa $181M nach massivem $425M Ausfluss am Vortag. Dies signalisiert kurzfristige Erholung bei €56.675 (+3,2% in 24h), aber die kumulative Wochenentwicklung zeigt strukturelles Vertrauensverlust institutioneller Anleger. Ethereum ETFs mit $58M Zufluss deuten auf Diversifizierung statt Crypto-Conviction hin.",
-      "einschaetzung_numerisch": -1
-    },
-    {
-      "datum": "2026-07-15",
-      "kategorie": "Makro",
-      "titel": "Juni-CPI-Überraschung drückt Fed-Zinserhöhungs-Odds von 43% auf 13% – Peace Trade bricht erneut zusammen",
-      "beschreibung": "Der Juni-CPI-Bericht fiel überraschend schwach aus (−0,4%), was Fed-Rate-Hike-Wahrscheinlichkeiten für späte Juli von 43% auf 13% reduzierte. Bitcoin reagierte mit Sprung zu €56.675. Allerdings fällt Gold parallel (€2.950, −0,2%) statt bullisch zu rotieren – klassische Safe-Haven-Flucht bleibt aus. Dies deutet auf Risikoaversion über alle Assets hin, nicht auf Inflationsangst-Absicherung.",
-      "einschaetzung_numerisch": 1
-    },
-    {
-      "datum": "2026-07-15",
-      "kategorie": "Regulierung",
-      "titel": "USA friert $131M iranisches Crypto ein – Geopolitik bleibt Sentiment-Bremse troach CPI-Hoffnung",
-      "beschreibung": "US-Finanzministerium sperrte $131M in Krypto-Assets iranischer Quellen inmitten neuer Hormuz-Blockade-Drohungen. Der Schritt signalisiert aggressive US-Crypto-Überwachung und verstärkt geopolitisches Risiko-Premium, obwohl CPI-Daten bearish für Fed-Zinserhöhungen wirken sollten. Gold (€2.950) bleibt stagnant – weder Konflikt noch Deflations-Signal triggert klassische Safe-Haven-Flucht.",
-      "einschaetzung_numerisch": -2
-    },
-    {
-      "datum": "2026-07-15",
-      "kategorie": "Institutionell",
-      "titel": "UK plant erste G7-Digital-Sovereign-Bond auf Blockchain (HSBC Orion) – Traditional Finance umgeht Bitcoin",
-      "beschreibung": "Großbritannien kündigt Pilotprogramm für digitale Staatsanleihen auf HSBC's Orion-Plattform an (Early 2027). Dies zeigt, dass institutionelle Tokenisierung zunehmend Bitcoin umgeht und auf Private-Blockchain-Infrastruktur setzt. Kein direkter BTC-Kurs-Katalysator, aber langfristiges Signal: Institutional Grade Crypto ≠ Bitcoin.",
-      "einschaetzung_numerisch": -2
-    },
-    {
-      "datum": "2026-07-14",
-      "kategorie": "Persönlichkeiten",
-      "titel": "White House Crypto Adviser Patrick Witt nimmt Militärurlaubszeit – Clarity Act-Momentum verflacht weiter",
-      "beschreibung": "Patrick Witt, kryptopolitischer Berater des Weißen Hauses, nimmt Militärurlaubszeit inmitten kritischer CLARITY-Act-Abstimmungen. Dies schwächt das regulatorische Rückenwind-Narrative und signalisiert, dass selbst pro-Crypto-Administratoren das Feld räumen. Timing ist desaströs für institutionelle Clarity-Hoffnungen.",
-      "einschaetzung_numerisch": -2
     }
   ],
   "fazits": [
+    {
+      "datum": "2026-07-27",
+      "kursziel_eur": {
+        "3_tage": 57500,
+        "7_tage": 57200,
+        "14_tage": 55800,
+        "30_tage": 52500
+      },
+      "kurs_eur": 57348,
+      "gold_eur": 3602.55,
+      "silver_eur": 52.365,
+      "einschaetzung": "Bitcoin notiert mit +1,4% (€57.348) stabil, doch die Marktdynamik offenbart tiefe Strukturprobleme: Ethereum (+4,4% auf €1.726) outperformt deutlich – Zeichen institutioneller Umschichtung weg von Bitcoin zu Altcoins oder RWA-Plattformen. Gold (€3.602,55) und Silber (€52,365) stagnieren bei Iran-Deeskalation und 5% Ölrückgang – Bitcoin gilt nicht als Inflations- oder Krisenhedge. Die Austausch-Konsolidierungswelle (BitMart, BitMEX, Dango) konzentriert Liquidität bei regulatorischen Compliance-Führern und verdrängt Retail-Aktion. Südkoreanische und japanische Mainstreambanken normalisieren Blockchain via private JPM-Kinexys-Netzwerke, nicht über Bitcoin. Die Nordkorea-Hacker-Verhaftung zeigt: State-Akteure bekämpfen Crypto als Geldwäsche-Tool, nicht als revolutionäres Geld. Fear & Greed Index (30, Fear) ist stabil, aber kein Panik-Signal – eher defensive Konsolidierung ohne neuen Katalysator. Bitcoin-Fundamentals bleiben schwach: Whale-Accumulation-Signale deuten auf Resignation gegenüber schnellen Gewinnen, nicht auf Vertrauen.",
+      "gewichtung": {
+        "bullish": 25,
+        "bearish": 60,
+        "neutral": 15
+      },
+      "schluessel_niveau_eur": 55200,
+      "schluessel_niveau_erklaerung": "€55.200 ist die 61,8%-Fibonacci-Retracement der Mai–Juni-Rally (€32.000 Tief → €62.800 High). Ein Bruch unter dieses Niveau würde die Whale-Akkumulations-These zerbrechen und neue Liquidationskaskaden im €52k–€54k-Bereich auslösen. Bitcoin sitzt derzeit 3,8% über diesem Level; jede Fehlbewegung unter €56k über die nächsten 7 Tage würde Bären-Momentum aufbauen.",
+      "naechster_katalysator": "US-Senat CLARITY Act (Deadline: 14 Tage bis Sommerpause) – ein Scheitern würde Regulatory-Risk-Prämie verschärfen und Austausch-Konsolidierung beschleunigen. Alternative: Alphabet/Tech-Earnings nächste Woche (AI-Capex-Guidance) als Proxy für Blockchain-Investitionen.",
+      "szenario_bedingungen": [
+        "Szenario BULLISH (€60.500 in 14 Tagen): CLARITY Act passiert Senate, ETH-Momentum dreht auf Bitcoin um, Whale-Dormant-Activity signalisiert neuen Akkumulations-Leg, Gold (€3.602,55) durchbricht €3.700 (Inflations-Angst zurück).",
+        "Szenario BEARISH (€54.000 in 14 Tagen): CLARITY Act scheitert, BitMart-Schließung führt zu Liquiditäts-Drain in andere Assets, Ethereum dominiert weiter Bitcoin (Altcoin-Rotation persistent), Nordkorea-Hacker-Fall stärkt Regulierungs-Druck auf CeFi und Mixing-Services.",
+        "Szenario NEUTRAL (€57.000 in 7 Tagen): Bitcoin range-gebunden €56k–€58,5k, Ethereum zieht Spekulanten an, institutionelle ETF-Flüsse bleiben moderat, Gold und Silber stagnieren (keine neuen Makro-Chocks)."
+      ]
+    },
     {
       "datum": "2026-07-26",
       "kursziel_eur": {
@@ -492,7 +518,14 @@
         "Gold bleibt unter €3.650 und Silber unter €52,50 EUR (parallel zu Bitcoin): Bestätigt, dass dies sektoral begrenzte Tech-Rotation ist, keine Krisenangst – Bitcoin könnte zum €56k–€58k-Range stabilisieren.",
         "Poolin-Liquidation beschleunigt sich (auf >$100M/Woche): Mining-Hashrate-Shock, höhere Block-Produktionskosten, höheres Miner-Ausfallrisiko – bearish für Dezentralisierung, bullish kurzfristig für Knappheit (60/40 Risiko).",
         "Clarity Act-Abstimmung scheitert vor August 1.: Regulatorische Unsicherheit nimmt zu, RWA/Tokenization-Narrative fragmentiert sich, Multi-Asset-Plattformen verlagern sich zu Stablecoins/Altcoins statt Bitcoin – strukturell bearish für BTC-Dominanz."
-      ]
+      ],
+      "rueckblick": {
+        "damals_kurs_eur": 57142,
+        "damals_einschaetzung": "-2 (alte Skala)",
+        "heute_kurs_eur": 57348,
+        "entwicklung_prozent": "+0,36%",
+        "selbstkritik": "Das Fazit vom 24.07. warnte korrekt vor Instititions-Momentum-Verlust nach $225M ETF-Ausfluss und prognostizierte Risk-Off durch Tech-AI-Skepsis. Die Einschätzung war **zu pessimistisch bei der Zeithorizont-Kalibrierung**: Bitcoin fiel nicht in die €54k–€56k Liquidationszone wie befürchtet, sondern konsolidierte stabil im €57k-Bereich. JEDOCH war die Grundeinschätzung **strukturell korrekt**: Bitcoin wird nicht als Inflations-Hedge aufgebaut (Gold €3.602,55 stagniert), sondern als Spekulations-Instrument marginalisiert. Die Prognose €48k als kritisches 50%-Fibonacci-Level war **zu kurzfristig optimistisch** – dieser Break würde 3–4 Wochen brauchen, nicht 5–7 Tage. **Gewinnmitnahme**: Der Fehler war, die Konsolidierungsfestigkeit zu unterschätzen; Whale-Dormant-Activity-Rückgang (4-Jahres-Tief) hätte als BUYBACK-Signal stärker gewichtet werden sollen. **Fazit**: Mittelfristig (7–14 Tage) bestätigt sich die bearish Einschätzung, aber ohne Panik-Liquidation. Die Ethereum-Outperformance (heute +4,4%) war eine Blindspot – hätte RWA-Token-Rotation deutlicher benennen sollen."
+      }
     },
     {
       "datum": "2026-07-23",
