@@ -498,10 +498,42 @@ def main():
     daten["ereignisse"] = daten["ereignisse"][:60]
 
     tagesfazit = result.get("tagesfazit", {})
-    if tagesfazit:
-        daten.setdefault("fazits", [])
-        daten["fazits"] = [tagesfazit] + daten["fazits"]
-        daten["fazits"] = daten["fazits"][:90]
+
+    # NEU (27.07.2026): Validierung ergänzt, nachdem am 26.07. (erster Lauf
+    # mit dem neuen, komplexeren Kursziel-Prompt) ein Tagesfazit komplett
+    # fehlte, OHNE dass der Workflow das als Fehler erkannte - das JSON war
+    # technisch gültig, aber inhaltlich unvollständig, und der Lauf zeigte
+    # trotzdem "erfolgreich" an. Fehlt tagesfazit oder eines seiner
+    # Pflichtfelder, brechen wir jetzt HART ab (sys.exit(1)), damit das im
+    # GitHub-Actions-Log als roter, sichtbarer Fehler auftaucht, statt
+    # unbemerkt zu verschwinden. edelmetalle.json und neue Ereignisse wurden
+    # zu diesem Zeitpunkt bereits gespeichert (siehe oben), gehen also nicht
+    # verloren, auch wenn das Tagesfazit fehlschlägt.
+    pflichtfelder = ["kursziel_eur", "kurs_eur", "einschaetzung", "gewichtung"]
+    fehlende_felder = [f for f in pflichtfelder if f not in tagesfazit]
+    if not tagesfazit:
+        print("\nFEHLER: Claude hat kein 'tagesfazit' geliefert (Feld fehlt komplett im JSON).", file=sys.stderr)
+        print(f"Rohe Antwort-Keys: {list(result.keys())}", file=sys.stderr)
+        daten["letzte_aktualisierung"] = heute
+        save_data(daten)  # neue Ereignisse + Rückblicke trotzdem sichern
+        sys.exit(1)
+    elif fehlende_felder:
+        print(f"\nFEHLER: tagesfazit fehlen Pflichtfelder: {fehlende_felder}", file=sys.stderr)
+        print(f"Vorhandene Felder: {list(tagesfazit.keys())}", file=sys.stderr)
+        daten["letzte_aktualisierung"] = heute
+        save_data(daten)
+        sys.exit(1)
+    elif not isinstance(tagesfazit.get("kursziel_eur"), dict) or not all(
+        f"{h}_tage" in tagesfazit["kursziel_eur"] for h in [3, 7, 14, 30]
+    ):
+        print(f"\nFEHLER: kursziel_eur unvollständig: {tagesfazit.get('kursziel_eur')}", file=sys.stderr)
+        daten["letzte_aktualisierung"] = heute
+        save_data(daten)
+        sys.exit(1)
+
+    daten.setdefault("fazits", [])
+    daten["fazits"] = [tagesfazit] + daten["fazits"]
+    daten["fazits"] = daten["fazits"][:90]
 
     daten["letzte_aktualisierung"] = heute
     save_data(daten)
