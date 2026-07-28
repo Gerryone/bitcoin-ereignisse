@@ -1,6 +1,41 @@
 {
-  "letzte_aktualisierung": "2026-07-27",
+  "letzte_aktualisierung": "2026-07-28",
   "ereignisse": [
+    {
+      "datum": "2026-07-28",
+      "kategorie": "Regulierung",
+      "titel": "Senate CLARITY Act erneut vertagt – Crypto-Policy-Roadmap zerfällt in Sommerpause",
+      "beschreibung": "Der US-Senat hat die Abstimmung über den CLARITY Act erneut verschoben und priorisiert andere Gesetzesentwürfe. Mit nur 14 Tagen bis zur Sommerpause und demokratischen Bedenken zu Ethik-Safeguards bleibt die Passage ungewiss. Dies verstärkt regulatorische Unsicherheit in einem Markt, der auf Policy-Klarheit spekuliert hat. Bitcoin fiel 0,5% auf €55.974, während Gold (€3.535,41) und Silber (€50,18) flach blieben – kein klassisches Risk-Off-Signal, eher Apathie vor makro-Katalysatoren.",
+      "kursziel_eur_7_tage": 54200
+    },
+    {
+      "datum": "2026-07-28",
+      "kategorie": "Institutionell",
+      "titel": "Morgan Stanley debütiert ETH- und SOL-Exchange-Traded Products – Wall Street expandiert über Bitcoin hinaus",
+      "beschreibung": "Morgan Stanley hat Ether- und Solana-ETPs gelauncht, nachdem sein Bitcoin-Fonds €380M AUM erreicht hat. Dies signalisiert institutionelle Normalisierung von Altcoins und diversifizierte Crypto-Exposure. Allerdings zeigt ETH (+0,3%) deutlich weniger Aufwärts-Momentum als BTC (-0,5%), was auf selektive statt breite Rotation hindeutet. Gold (€3.535,41) bleibt stabil, deutet also nicht auf Kapitalflucht aus risikobehafteten Assets hin.",
+      "kursziel_eur_7_tage": 57100
+    },
+    {
+      "datum": "2026-07-28",
+      "kategorie": "Makro",
+      "titel": "Südkorea Kospi-Crash (10-11%) und AI-Chip-Sektor-Ausverkauf belasten Risk-On-Narrative",
+      "beschreibung": "Der südkoreanische Aktienindex fiel 11%, getrieben durch Chip-Stock-Panik. Bitcoin rutschte initial 2% auf Intraday-Tiefs unter €63k ab, erholte sich dann teilweise. Dies ist kein klassisches Crypto-Korrelations-Muster: Gold (€3.535,41) fiel parallel, was darauf hindeutet, dass Anleger systematisch aus risikobehafteten Assets rotieren, nicht nur aus Crypto. Der Fear Index sank auf 29 (Fear), bleibt aber über den Juni-Tiefs von 26.",
+      "kursziel_eur_7_tage": 53500
+    },
+    {
+      "datum": "2026-07-28",
+      "kategorie": "OnChain",
+      "titel": "Core Scientific verlässt Bitcoin-Mining für AI-Colocation – Branche-Pivot beschleunigt sich",
+      "beschreibung": "Core Scientific beendet sein ASIC-Mining-Geschäft mit Block und pivotiert zu AMD AI Data Center Infrastructure. Die Dividende Q2-Umsatzsteigerung um 100% signalisiert, dass Mining-Profitabilität strukturell unter Druck steht. Dies entspricht dem Poolin-Insolvenz-Signal vom 25.07: Hash-Rate-Konsolidierung und Gewinn-Erosion sind systemisch, nicht episodisch. Gold (€3.535,41) bleibt unbeeindruckt, was zeigt, dass Markt dies als industrielle Umschichtung, nicht als Crash-Vorbote bewertet.",
+      "kursziel_eur_7_tage": 55500
+    },
+    {
+      "datum": "2026-07-28",
+      "kategorie": "Regulierung",
+      "titel": "BlackRock, Fidelity, Goldman Sachs unterstützen CLARITY Act – aber Senat-Zeitplan bleibt fragmentiert",
+      "beschreibung": "Fünf Wall-Street-Giganten (BlackRock, Fidelity, Franklin Templeton, Goldman Sachs, SoFi) endorsen öffentlich den CLARITY Act. Dies ist institutionelle Bestätigung für Crypto-Regulierungs-Klarheit, aber ohne Senat-Durchbruch bleibt es virtue signaling. Das widerlegt nicht die Kernfrage: Kann CLARITY bis September passieren oder kollabiert es in Sommerpause? Bitcoin blieb unbeeindruckt (-0,5%), Gold (€3.535,41) und Silber (€50,18) ebenfalls flach.",
+      "kursziel_eur_7_tage": 56800
+    },
     {
       "datum": "2026-07-27",
       "kategorie": "Makro",
@@ -385,44 +420,36 @@
       "titel": "$DOG Mode: Ordinals-Befürworter schlagen neuen Bitcoin-Client vor, um Datenbeschränkungen zu umgehen – Fork-Risiko steigt",
       "beschreibung": "Leonidas und die Ordinals-Fraktion schlagen einen '$DOG Mode'-Client vor, um BIP 110 (Daten-Restriktions-Proposals) zu umgehen – ein indirekter Fork-Kampf ohne formale Abstimmung. Dies unterminiert die Consensus-Governance bei Bitcoin, während BIP 110 selbst keine Miner-Unterstützung hat. Technische Kontroversen über Blockchain-Datenschicht-Ressourcen destabilisieren das Narrativ und lenken von Preistreibern bei €54.906 EUR ab.",
       "einschaetzung_numerisch": -1
-    },
-    {
-      "datum": "2026-07-16",
-      "kategorie": "OnChain",
-      "titel": "$383M aus 2017er-Bitcoin-Wallet bewegt – Long-Term Holder könnte Profit-Taking signalisieren",
-      "beschreibung": "Ein seit 2017 inaktiver Bitcoin-Wallet transferierte $383M zu einer neuen Adresse, nicht zu einer Exchange. Das Signal bleibt mehrdeutig: Entweder Vorbereitung zum Verkauf bei €55.881 (leichter Profit nach 9 Jahren) oder Umstrukturierung zu Cold Storage. Bei Fear & Greed Index von 25 (Extreme Fear) wäre dies ein psychologisch bedeutsames Zeichen institutioneller Unsicherheit – als würde ein klassischer Value-Investor die Position bewegen, ohne sie sofort zu liquidieren.",
-      "einschaetzung_numerisch": -2
-    },
-    {
-      "datum": "2026-07-16",
-      "kategorie": "Persönlichkeiten",
-      "titel": "ZachXBT verdammt Hardware-Wallets als \"complete garbage\" – Sicherheits-Narrative unter Druck",
-      "beschreibung": "Der bekannte Blockchain-Investigator ZachXBT kritisierte Hardware-Wallets scharf, was in einem Markt mit Extreme Fear (25) zu Unsicherheit über Self-Custody-Narrative führt. Dies untergräbt parallel die Verwahrungsfähigkeit von Privatanlegern und könnte institutionelle Concerns um Sicherheits-Infrastructure verschärfen. Bitcoin hielt sich dennoch bei €55.881 stabil nach Südkoreas Zinserhöhung.",
-      "einschaetzung_numerisch": -1
-    },
-    {
-      "datum": "2026-07-16",
-      "kategorie": "Regulierung",
-      "titel": "US-Senat lehnt Sam Bankman-Fried-Gnade einstimmig ab – Krypto-Gnade-Narrative kollabiert",
-      "beschreibung": "Nach Trump-Begnadigungen von Changpeng Zhao und Ross Ulbricht lehnte der US-Senat jede Clemency für FTX-Gründer Bankman-Fried einstimmig ab. Dies signalisiert, dass die Gnade-Dynamik begrenzt ist und Betrug weiterhin hart bestraft wird – während dies Vertrauen in das Crypto-Regulatory-Framework verbessern könnte, schafft es auch Ungewissheit über die Reichweite des Trump-Crypto-Friendly-Narrativs.",
-      "einschaetzung_numerisch": 0
-    },
-    {
-      "datum": "2026-07-16",
-      "kategorie": "Institutionell",
-      "titel": "Ethereum überholt Bitcoin bei ETF-Zuflüssen – BlackRock dominiert, Bitcoin bleibt untergewichtet",
-      "beschreibung": "Ethereum ETFs verzeichneten überproportionale Zuflüsse (fast ganz von BlackRock), während Bitcoin nur 4% Gewinn machte und Solana, TRON, Hyperliquid alle fielen. Dies zeigt eine selektive institutionelle Rotation weg von BTC zu ETH und Altcoins – ein Signal, dass Macro-Käufer (Inflationshedge) Bitcoin nicht mehr als primären Profit-Taker sehen. Gold (€2.950) und Silber (€29,50) stagnieren parallel, was Absenz von klassischem Safe-Haven-Rotations-Verhalten unterstreicht.",
-      "einschaetzung_numerisch": -2
-    },
-    {
-      "datum": "2026-07-16",
-      "kategorie": "Makro",
-      "titel": "Two Investor Groups dumpen Bitcoin in Rally zu €55.881 – Leverage-Position-Liquidierung trotz positiven Inflations-Signals",
-      "beschreibung": "On-Chain-Daten zeigen zwei Investor-Kohorten verkaufen in die Bounce-Rally auf €55.881 nach schwächeren US-Inflationsdaten. Dies widerlegt das ‚Inflations-Hedge'-Narrativ und deutet auf Profit-Taking von zyklischen Positionsträgern hin, nicht auf Akkumulation. Die fehlende Rally von Gold (€2.950) und Silber (€29,50) trotz Zins-Erleichterungs-Signalen verstärkt den Eindruck eines unterverkauften Marktes ohne fundamentale Kaufkraft.",
-      "einschaetzung_numerisch": -3
     }
   ],
   "fazits": [
+    {
+      "datum": "2026-07-28",
+      "kursziel_eur": {
+        "3_tage": 55500,
+        "7_tage": 54800,
+        "14_tage": 52000,
+        "30_tage": 58500
+      },
+      "kurs_eur": 55974,
+      "gold_eur": 3535.41,
+      "silver_eur": 50.176,
+      "einschaetzung": "Bitcoin verliert -0,5% auf €55.974 in fragmentiertem Markt, der zwischen institutioneller Normalisierung (Morgan Stanley ETH/SOL, Wall Street CLARITY-Support) und struktureller Verwundbarkeit (Kospi-Crash, Mining-Pivot, Senate-Verzögerung) oszilliert. Gold (€3.535,41) und Silber (€50,18) bleiben flach, was bedeutet, dass die heutige Schwäche KEINE synchronisierte Fluchtbewegung ist – eher Apathie vor dem Fed-Meeting am 30.07. Die Lage ist ein Schachbrett: Bullische Katalysatoren (institutionelle Wall-Street-Expansion, Clarity-Act-Support von Schwergewichten) koexistieren mit Bären-Signalen (Mining-Liquidation, Senat-Procrastination, AI-Chip-Sektor-Verunsicherung). Der Fear Index bei 29 ist rational, nicht panisch – Markt erkennt an, dass es Aufwärts- und Abwärtspfade gibt, aber keinen klaren Konsens.",
+      "gewichtung": {
+        "bullish": 35,
+        "bearish": 50,
+        "neutral": 15
+      },
+      "schluessel_niveau_eur": 48000,
+      "schluessel_niveau_erklaerung": "€48.000 war das Juni-Tief und bleibt die psychologisch-technische Bruchzone. Ein Halten über €48k mit Konsolidierung zwischen €48k–€56.5k bestätigt Seitwärts-Bärenmarkt. Ein Bruch unter €48k hätte Kaskaden-Liquidationen bis €43k–€45k zur Folge. Auf der Oberseite: Ein Ausbruch über €60k + gleichzeitige Gold-Rally über €3.650 (statt aktuell €3.535,41) wäre erst echtes Rebound-Signal.",
+      "naechster_katalysator": "Fed-Entscheidung am 30. Juli 2026: Jede 'dovish'-Überraschung (Zins-Pause oder Senkung) könnte Bitcoin über €60k treiben; jedes hawkish-Signal drückt unter €50k. Parallel: Bank of Japan Meeting am 01. August könnte Yen-Carry-Trade-Dynamiken neu zünden (Lehre aus 2024-Unwind).",
+      "szenario_bedingungen": [
+        "Fed signalisiert Zins-Pausen oder Senkungen → Bitcoin rallyt über €60k; Gold muss über €3.650 steigen, sonst ist Bewegung isoliert spekulativ statt Safe-Haven-getrieben",
+        "Fed bleibt hawkish, Senat verpasst CLARITY-Deadline → Bitcoin testet €48k; wenn Bruch, dann Ziele €43k–€45k bis 14 Aug",
+        "Morgan Stanley's ETH/SOL-Expansion treibt Altcoin-Rotation → ETH sollte BTC outperformen (derzeit nur +0,3% vs. BTC -0,5%); wenn ETH weiterhin underperformt, ist Institutional-Narrative schwach",
+        "Mining-Liquidation (Core Scientific AMD-Pivot, Poolin-Insolvenz) setzt sich fort → Hash-Rate-Abfall könnte kurzzeitig BTC-Volatilität dämpfen, aber langfristig Profitabilität verbessern → bullisch nach 4-6 Wochen"
+      ]
+    },
     {
       "datum": "2026-07-27",
       "kursziel_eur": {
@@ -496,7 +523,14 @@
         "Bullish-Fall: ECB schneidet Sätze und Gold steigt über €3.650 EUR parallel zu Bitcoin-Ausbruch über €60.000 EUR – zeigt synchronisierte Inflations-Flucht, nicht isolierte Volatilität",
         "Bearish-Fall: Treasury-Liquidationen setzen sich fort UND Clarity Act-Passage scheitert bis Ende Q3 2026 – Bitcoin bricht €48.000 EUR und testet €43.000 EUR (Juni-Support-Erosion)",
         "Neutral-Fall: Bitcoin konsolidiert €50k–€58k EUR über nächste 2 Wochen, während ECB/Fed-Signale klarer werden – kein großer Katalysator bis August-FOMC"
-      ]
+      ],
+      "rueckblick": {
+        "damals_kurs_eur": 56058,
+        "damals_einschaetzung": "-3 (strukturelle Schwäche)",
+        "heute_kurs_eur": 55974,
+        "performance": "-0,15% (€56.058 → €55.974)",
+        "selbstkritik": "Die -3-Bewertung vom 25.07 war zu pessimistisch auf 3-Tages-Basis. Ich habe Clarity-Act-Verzögerung, Treasury-Liquidationen und EU-Sanktionen kombiniert als 'struktureller Kollaps' dargestellt, aber der Kurs blieb über €55.900 stabil – das widerlegt nicht die Diagnose struktureller Schwäche, bestätigt aber, dass die technische Unterstützung resilient ist. Gold (€3.563,08 damals vs. €3.535,41 heute) ist GEFALLEN (-0,8%), nicht parallel zu Bitcoin angestiegen – das widerlegt meine These einer fehlenden Safe-Haven-Synchronisierung nicht, sondern bestätigt sie: Kapital flieht nicht aus Assets, es sitzt 'flat' in Bargeld/Bonds. Mein Schlüsselniveau €48k bleibt valide; Kurs blieb darüber. Fazit: Diagnose richtig, aber Zeithorizont zu kurzfristig pessimistisch gepeilt. Die 3-Tage-Vorhersage hätte 'ca. €55.800–€56.200, keine Richtung' sein sollen statt impliziter Downtrenderwartung."
+      }
     },
     {
       "datum": "2026-07-24",
