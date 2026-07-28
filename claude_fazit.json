@@ -1,6 +1,38 @@
 {
   "fazits": [
     {
+      "datum": "2026-07-28",
+      "kurs_eur": 56016,
+      "identifizierte_schwachstellen": [
+        "Kein Haiku-Fazit vorhanden – die primäre Aufgabe (Gegenprüfung eines bestehenden Fazits) entfällt strukturell. Das bedeutet aber nicht, dass die Marktlage unanalysierbar ist. Ein System, das bei fehlendem Input keine eigene Analyse liefert, produziert einen blinden Fleck genau dann, wenn eigenständiges Urteilsvermögen gefragt wäre.",
+        "Eigene historische Verzerrung (Bearish-Bias): Meine früheren Einschätzungen zeigen laut Kontext eine 0%-10% Trefferquote mit systematisch zu bearisher Ausrichtung. Das Risiko ist real, dass ich heute erneut die -2.2%-Bewegung übergewichte und den 'Regression-to-mean'-Effekt bei Fear-Phasen unterschätze. Das Fear & Greed bei 29 ist historisch gesehen oft ein Kontraindikator für kurzfristige Bounces – diesen Punkt habe ich in der Vergangenheit zu wenig gewichtet.",
+        "Fehlende Ereignisdaten als Bias-Quelle: 'Keine neuen Ereignisse' ist kein neutrales Signal – es bedeutet, dass der Kursrückgang von -2.2% (BTC) und -2.9% (ETH) von keiner identifizierbaren Nachricht getrieben wird. Das kann sowohl technischen Verkaufsdruck/Liquidierungen bedeuten ALS AUCH organische Konsolidierung ohne fundamentalen Trigger. Beide Interpretationen sind möglich, aber eine fearbasierte Analyse neigt dazu, das Negative zu wählen."
+      ],
+      "staerkstes_gegenargument": "Der stärkste Einwand gegen eine bearishe Einschätzung lautet: Ein Fear & Greed-Wert von 29 bei gleichzeitig fehlendem negativem Nachrichtenkatalysator deutet auf überverkaufte Bedingungen hin, nicht auf fundamentale Verschlechterung. Historisch sind Fear-Phasen unter 30 ohne spezifischen Auslöser häufig Akkumulationszonen, in denen 'smart money' kauft, während Retailanleger verkaufen. Der synchrone Rückgang von BTC (-2.2%) und ETH (-2.9%) deutet auf allgemeinen Risikoabbau hin, nicht auf Bitcoin-spezifische Schwäche – und solche breiten Korrekturen kehren sich in Bullmärkten oft innerhalb von 3-7 Tagen um.",
+      "eigenes_kursziel_eur": {
+        "3_tage": 55200,
+        "7_tage": 56500,
+        "14_tage": 57800,
+        "30_tage": 59000
+      },
+      "eigene_einschaetzung": "Mit €56.016 und Fear & Greed bei 29 befindet sich Bitcoin in einer technischen Schwächephase ohne klaren fundamentalen Treiber – weder bullish noch bearish. Der Rückgang von meinem gestrigen Kursziel (€56.800 für 3 Tage) bestätigt leicht meinen bisherigen Bullish-Bias in der kurzen Frist, aber ich muss vorsichtig sein, meinen historischen Bearish-Bias nicht mechanisch durch übertriebenen Bullish-Reflex zu 'korrigieren'. Kurzfristig (3 Tage) sehe ich weiteres Abwärtspotenzial bis ~€55.200, da keine katalytischen Ereignisse erkennbar sind und Fear-Märkte oft erst dann drehen, wenn Verkäufer erschöpft sind. Mittelfristig (14-30 Tage) halte ich eine Erholung Richtung €57.800-59.000 für wahrscheinlicher als eine Fortsetzung des Abwärtstrends, sofern keine makroökonomischen Schocks eintreten. ETH's relative Schwäche (-2.9% vs. BTC -2.2%) signalisiert höhere Risikoaversion im Altcoin-Segment, was BTC relativ stärkt.",
+      "eigene_gewichtung": {
+        "bullish": 25,
+        "bearish": 55,
+        "neutral": 20
+      },
+      "begruendung_bei_uebereinstimmung": "Da kein Haiku-Fazit vorliegt, ist keine direkte Übereinstimmung oder Abweichung feststellbar. Meine Kursziele folgen einem leicht bearishen kurzfristigen Pfad mit anschließender Erholung – das entspricht keiner spezifischen Haiku-Linie, sondern ist eine eigenständige Einschätzung. Die identifizierten Schwachstellen (Bearish-Bias, Überinterpretation von Fear-Daten) kippen das kurzfristige Bild nicht vollständig, weil der tatsächliche Kursverlust real ist und ohne positive Catalyst-Nachrichten zunächst weiterer technischer Verkaufsdruck plausibel bleibt.",
+      "uebereinstimmung_mit_haiku": "unbekannt",
+      "szenario_bedingungen": [
+        "BTC hält die Unterstützungszone bei €54.500-55.000 ohne signifikantes Volumen-Spike nach unten – bestätigt kurzfristigen Boden und erhöht Wahrscheinlichkeit der 7-Tage-Erholung auf €56.500",
+        "Fear & Greed-Index steigt innerhalb der nächsten 7 Tage wieder über 35 (Neutral-Zone), was Kaufinteresse signalisiert und das 14-Tage-Ziel von €57.800 aktiviert",
+        "ETH/BTC-Ratio stabilisiert sich oder dreht leicht aufwärts – solange ETH stärker fällt als BTC, bleibt die Risikoaversion dominant und das 30-Tage-Ziel von €59.000 unter Druck",
+        "Kein makroökonomischer Schock (US-Zinsentscheid, regulatorische Negativmeldung) in den nächsten 14 Tagen – bei externem Negativ-Catalyst müssen alle Ziele nach unten revidiert werden"
+      ],
+      "haiku_kursziel_zum_vergleich": null,
+      "erstellt_am": "2026-07-28T00:04:12.357544"
+    },
+    {
       "datum": "2026-07-27",
       "kurs_eur": 57358,
       "identifizierte_schwachstellen": [
@@ -629,5 +661,5 @@
       "rueckblick_kurs_7_tage": 54505.1633858627
     }
   ],
-  "letzte_aktualisierung": "2026-07-27"
+  "letzte_aktualisierung": "2026-07-28"
 }
