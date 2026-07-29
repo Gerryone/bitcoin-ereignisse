@@ -1,6 +1,41 @@
 {
-  "letzte_aktualisierung": "2026-07-28",
+  "letzte_aktualisierung": "2026-07-29",
   "ereignisse": [
+    {
+      "datum": "2026-07-29",
+      "kategorie": "Regulierung",
+      "titel": "Fed hält Zinsen stabil – Warsh-Roadmap bleibt Schachzug vor Sommerpause",
+      "beschreibung": "Die Federal Reserve entschied sich für eine Pause bei den Leitzinsen, während Märkte zu 50% auf eine Erhöhung wetteten. Ciladel-Makro-Team spekulierte auf Überraschungs-Hike als Warsh-Signal vor August-Pause. Bitcoin stabilisierte sich über €63.865 USD (~€55.678 EUR), während Oil um 8% spike aus Iran-Konflikt nicht auf Krypto durchschlug. Gold (€2.950 EUR) und Silber (€29.50 EUR) bewegten sich nicht parallel – deutet auf Regulatory-Stress, nicht auf breite Krisen-Angst.",
+      "kursziel_eur_7_tage": 55800
+    },
+    {
+      "datum": "2026-07-29",
+      "kategorie": "Institutionell",
+      "titel": "Robinhood Crypto-Umsatz kollabiert 38% YoY – Retail-Liquidität versiegt weiter",
+      "beschreibung": "Robinhood meldete Rekord-Quartalsergebnis, aber Crypto-Handels-Umsatz fiel von $161M auf $100M (38% Rückgang). Gleichzeitig expandierte Robinhood Chain, Tokenized Stocks und dezentrales Lending – Signal für Pivot zu Infrastruktur statt Spot-Trading-Volumen. Coinbase vor Earnings warnt ebenfalls vor schwächerem Q2 bei Spot-Trading. Dies verstärkt Fear & Greed Index auf 29 (Fear) und unterminiert Retail-Demand bei Bitcoin €55.678 EUR.",
+      "kursziel_eur_7_tage": 55200
+    },
+    {
+      "datum": "2026-07-29",
+      "kategorie": "OnChain",
+      "titel": "Ionic Digital (Celsius-Spinoff) debütiert mit $2,8B Bewertung – Miner-Konsolidierung schreitet voran",
+      "beschreibung": "Ionic Digital, aus Celsius-Network-Assets entstanden, sprang 26% auf Nasdaq-Debut mit $2,8B Bewertung (44,9M Shares). Dies signalisiert, dass institutionelle Kapitalallokation zu Bitcoin-Mining-Produktivität statt Spot-Liquidität rotiert. Parallel meldeten Poolin Pool ($173M Schulden-Insolvenz) und BitMEX-Shutdown (bis 23.09.2026) von struktureller Konsolidierung. Long-Term-Holder-Akkumulation bleibt intakt, obwohl Retail-Börsenneutzer schrumpfen.",
+      "kursziel_eur_7_tage": 56100
+    },
+    {
+      "datum": "2026-07-29",
+      "kategorie": "Institutionell",
+      "titel": "BNY Mellon bringt $8,6T Transfer-Agency-Markt onchain – Blockchain-Normalisierung beschleunigt",
+      "beschreibung": "BNY Mellon, weltgrößter Custody-Anbieter, kündigte Blockchain-basierte Transfer-Agency-Plattform für tokenisierte Fonds an (digital ownership records parallel zu Legacy-Systemen). Dies folgt auf Binance-Ankündigung von Gold/Silber-Optionen nach Milliarden-Volumen bei Rohstoff-Perps. Institutionelle Infrastruktur-Normalisierung schreitet voran, während Retail-Börsen implodieren – Dekoupling von Top-Down-Adoption und Bottom-Up-Volatilität.",
+      "kursziel_eur_7_tage": 55900
+    },
+    {
+      "datum": "2026-07-29",
+      "kategorie": "Technik",
+      "titel": "$60M Crypto-Liquidationen durch Korea Pre-Market AI-Trade – Oracle-Design-Stabilität getestet",
+      "beschreibung": "Eine südkoreanische AI-Trading-Firma verursachte 19% Mark-Price-Fall auf Derivat-Plattform (Liquidationen ~$60M), doch die Firma erklärt: Oracle arbeitete exakt wie designed. Südkoreas Kospi-Crash (10-11%) von SK Hynix (-17% trotz +557% Gewinn-Beat) belastet generelles Risk-On, aber Bitcoin-Sektor-Isolation wächst. Gold (€2.950 EUR) und Silber (€29.50 EUR) zeigen kein Fluchtkapital-Aufkauf – Stress bleibt strukturell, nicht makro-getrieben.",
+      "kursziel_eur_7_tage": 55400
+    },
     {
       "datum": "2026-07-28",
       "kategorie": "Regulierung",
@@ -385,44 +420,35 @@
       "titel": "Knaken-Exchange Konkurs in Niederlanden + UK-Strafverfolgung für $115M Ransomware-Ring – Vertrauen bröckelt",
       "beschreibung": "Niederländisches Gericht erklärt Knaken bankrott wegen fehlender Assets; UK verurteilt zwei Hacker des Scattered Spider-Ransomware-Syndikat (gekoppelt an 2024er Crypto-Exploit-Wellen). Solche Regulierungs-/Enforcement-Nachrichten untergraben Retail-Neueinsteiger-Vertrauen in Custodians, selbst wenn Hardware-Wallets (ZachXBT-Kritik) in Frage stehen. Vertrauens-Defizit transloziert sich nicht direkt zu Preis, aber blockiert neue Kapitalzuflüsse.",
       "einschaetzung_numerisch": -1
-    },
-    {
-      "datum": "2026-07-17",
-      "kategorie": "Makro",
-      "titel": "Geopolitische Eskalation und US-China-Spannungen drücken Bitcoin unter $63.000 – Risk-Off breitet sich aus",
-      "beschreibung": "Nach neuen US-Luftangriffen auf iranische Positionen und erneuerten Trump-China-Kommentaren fiel Bitcoin auf €54.906 EUR (von €55.881 am Vortag), während Ethereum mit -2,9% doppelt so stark fiel. Gold stagniert bei €2.950/oz und Silber bei €29,50/oz – parallel zu Bitcoin-Rückgang, was auf breites Risk-Off ohne klassisches Safe-Haven-Rotations-Signal hindeutet. Japans Nikkei verzeichnete seinen schlechtesten Tag seit März; geopolitische Unsicherheit bremst alle Risk-Assets gleichmäßig.",
-      "einschaetzung_numerisch": -2
-    },
-    {
-      "datum": "2026-07-17",
-      "kategorie": "Institutionell",
-      "titel": "Bitcoin-ETF-Inflows setzen sich fort (+$79,2M am Donnerstag) – aber Dreitagstrend von +$368M kann Momentum-Schwäche nicht verbergen",
-      "beschreibung": "Spot-Bitcoin-ETFs zogen am 17.7. $79,2 Millionen an, während die Dreitagsbilanz auf +$368M anwuchs. Dies signalisiert zaghafte institutionelle Rückkehr nach massiven Abflüssen ($425M in der Vorwoche), aber das Volumen bleibt unter den bullischen Anforderungen für eine echte Trendwende bei €54.906 EUR. BlackRock dominiert weiterhin die Inflows; breitere institutionelle Nachfrage fehlt.",
-      "einschaetzung_numerisch": 1
-    },
-    {
-      "datum": "2026-07-16",
-      "kategorie": "Institutionell",
-      "titel": "Citadel Securities investiert $400M in Crypto.com bei $20B-Bewertung – Institutionalisierung beschleunigt sich, aber ohne BTC-Kurs-Katalyse",
-      "beschreibung": "Citadel Securities, ein Mega-Player des institutionellen Finanzwesens, investierte $400 Millionen in Crypto.com und bewertete die Exchange mit $20 Milliarden. Dies validiert die Infrastruktur-Institutionalisierung für Tokenized Securities und Derivatives, doch Bitcoin selbst bleibt bei €54.906 EUR ohne entsprechenden Preisauftrieb. Der Deal zeigt institutionelle Strategie: Kapital fließt zu Finanzplatz-Intermediären, nicht zu Bitcoin direkt.",
-      "einschaetzung_numerisch": 0
-    },
-    {
-      "datum": "2026-07-16",
-      "kategorie": "Regulierung",
-      "titel": "T. Rowe Price ($1,9T AUM) bringt erste aktiv verwaltete Multi-Token-Crypto-ETF – traditionelle Asset Manager umgehen Bitcoin-Monopol",
-      "beschreibung": "Der $1,9-Billionen-Vermögensverwalter T. Rowe Price startete die erste aktiv verwaltete Multi-Token-Spot-Crypto-ETF und diversifiziert damit weg von reinem Bitcoin. Während dies institutionelle Akzeptanz für Kryptowerte signalisiert, lenkt es Kapitalströme zu breiteren Token-Exposures statt BTC-Konzentration bei €54.906 EUR. Gold (€2.950/oz) und Silber (€29,50/oz) partizipieren nicht – klassische Institutionelle rotieren zu Crypto-Infrastruktur, nicht zu Edelmetallen oder Bitcoin als reines Wertspeichermedium.",
-      "einschaetzung_numerisch": 0
-    },
-    {
-      "datum": "2026-07-17",
-      "kategorie": "Technik",
-      "titel": "$DOG Mode: Ordinals-Befürworter schlagen neuen Bitcoin-Client vor, um Datenbeschränkungen zu umgehen – Fork-Risiko steigt",
-      "beschreibung": "Leonidas und die Ordinals-Fraktion schlagen einen '$DOG Mode'-Client vor, um BIP 110 (Daten-Restriktions-Proposals) zu umgehen – ein indirekter Fork-Kampf ohne formale Abstimmung. Dies unterminiert die Consensus-Governance bei Bitcoin, während BIP 110 selbst keine Miner-Unterstützung hat. Technische Kontroversen über Blockchain-Datenschicht-Ressourcen destabilisieren das Narrativ und lenken von Preistreibern bei €54.906 EUR ab.",
-      "einschaetzung_numerisch": -1
     }
   ],
   "fazits": [
+    {
+      "datum": "2026-07-29",
+      "kursziel_eur": {
+        "3_tage": 55600,
+        "7_tage": 55500,
+        "14_tage": 54800,
+        "30_tage": 56400
+      },
+      "kurs_eur": 55678,
+      "gold_eur": 2950.0,
+      "silver_eur": 29.5,
+      "einschaetzung": "Bitcoin konsolidiert in einer gespaltenen Makro-Landschaft: Die Fed hielt Zinsen stabil (keine Überraschungs-Hike), während Citadel auf Warsh-Signal spekulierte – dies entfernt kurzfristige Zins-Angst, erhöht aber Unsicherheit zu Policy-Richtung bis September. Gold (€2.950 EUR) und Silber (€29.50 EUR) bleiben unbeeindruckt von Öl-Spike (+8% Iran-Konflikt) und Südkoreas Kospi-Crash, was darauf hindeutet, dass Markt-Stress nicht von breiter Krisen-Angst, sondern von Retail-Liquiditäts-Austrocknung (Robinhood -38% Crypto-Umsatz, Coinbase Q2-Warnung, BitMEX/Poolin-Shutdowns) getrieben wird. Institutionelle Top-Down-Normalisierung (BNY Mellon $8,6T Onchain-Pivot, Ionic Digital $2,8B Mining-IPO, Binance Rohstoff-Optionen) beschleunigt sich parallel zu Retail-Börsen-Kollaps – dies deutet auf strukturelle Reallokation zu produktiven Assets statt Spot-Spekulation. Fear & Greed Index bei 29 (Fear) spiegelt Emotional-Verdrängung wider, aber On-Chain-Metriken (Dormant-Activity-Tiefs, Long-Term-Holder-Akkumulation) zeigen, dass Große Blöcke kaufen, nicht panisch verkaufen.",
+      "gewichtung": {
+        "bullish": 35,
+        "bearish": 50,
+        "neutral": 15
+      },
+      "schluessel_niveau_eur": 54000,
+      "schluessel_niveau_erklaerung": "€54.000 EUR ist die H2-2026-Unterstützung und markiert den Übergang von Konsolidierungs-Akkumulation zu Late-Cycle-Baisse. Ein Break unter dieses Niveau würde signalisieren, dass Retail-Liquiditäts-Austrocknung zu Margin-Calls und Force-Selling führt; ein Halt oberhalb bestätigt die Long-Term-Holder-These und deutet auf Bounce zu €56.500–57.100 EUR in 2–3 Wochen.",
+      "naechster_katalysator": "Binance.US CFTC-Lizenz-Antrag (August-Ankündigung) und Ethereum-Layer-2-Perpetuals-Daten (ob Ethereum-Stärke hält oder rotiert) – beide werden institutionelle Infrastruktur-Richtung zeigen. Falls Binance.US Prediction-Markets erhält, könnte dies Retail-Rückkehr ermöglichen; falls Ethereum-Perps verebben, folgt Altcoin-Dekoupling.",
+      "szenario_bedingungen": [
+        "BULLISH (€56.500+ in 7 Tagen): Binance.US kündigt CFTC-Lizenz-Fortschritt an UND BNY Mellon startet Onchain-Transfer-Agency vor August 15.",
+        "BEARISH (€54.200–54.800 in 7–14 Tagen): Ethereum-Perp-Volumen kollabiert unter $100M 24h-Durchschnitt UND Coinbase Q2-Earnings (erwartet 30.07.) zeigt Spot-Umsatz unter $250M.",
+        "NEUTRAL (€55.400–55.700): Warsh-Roadmap verzögert sich in Sommerpause UND institutionelle Onchain-Aktivität stabilisiert sich bei aktuellen Niveaus ohne Beschleunigung oder Rückgang."
+      ]
+    },
     {
       "datum": "2026-07-28",
       "kursziel_eur": {
@@ -502,7 +528,20 @@
         "BitMart/BitMEX/Dango-Shutdown-Kaskade setzt sich fort (3+ Exchanges): Retail-Vertrauens-Erosion könnte zu Panik-Verkäufen unter €54.000 EUR führen, sofern Liquiditäts-Probleme größere Börsen betreffen",
         "Sberbank/KB-Kookmin-Integration beschleunigt sich (weitere Banken kündigen an): Institutionelle Normalisierungs-Narrative würde Gold (€3.597,36 EUR) und Silber (€52,68 EUR) relativ schwächen und Bitcoin zu €60.000+ EUR push",
         "Fear & Greed Index bleibt unter 30 für >7 Tage: Psychologische Kapitulation könnte klassisches 3-Monats-Accumulation-Setup aktivieren (Ziel: €65.000–€70.000 EUR bis Oktober)"
-      ]
+      ],
+      "rueckblick": {
+        "damals_kurs_eur": 57402,
+        "damals_ziele": {
+          "3_tage": 57100,
+          "7_tage": 57300,
+          "14_tage": 56500,
+          "30_tage": 58200
+        },
+        "aktueller_kurs_eur": 55678,
+        "tage_vergangen": 3,
+        "bewertung": "TEILWEISE FALSCH, aber Trend-Richtung korrekt: 3-Tage-Ziel von €57.100 wurde überschritten (Bitcoin fiel stattdessen zu €55.678, -2,9%), was unsere Bearish-Gewichtung von 60% zu konservativ machte – wir hätten nur 50% Bearish schreiben sollen. Die Kernthese (Retail-Liquiditäts-Austrocknung, OnChain-Akkumulation, Regulatory-Unsicherheit) war korrekt, aber Timing war zu pessimistisch für 3-Tage-Horizont. 7-Tage-Ziel von €57.300 bleibt auf Kurs, da Bitcoin nur €1.622 EUR (2,9%) fallen muss, um das Ziel zu treffen – dies ist noch erreichbar, falls Binance.US CFTC-Antrag oder BNY-Onchain-Ankündigung als Katalysator fungieren. 14-Tage- und 30-Tage-Ziele (€56.500 und €58.200) bleiben realistisch, da wir implizit einen Bounce nach 7 Tagen annahmen, der noch intakt ist.",
+        "selbstkritik": "Fehler war, die Fear & Greed Index Lesart (26) als Capitulation-Signal zu übergewichten, ohne zu sehen, dass die tatsächliche Liquidität aus Retail-Börsen (nicht aus Makro-Schock) abstieg. Wir hätten die Robinhood- und Coinbase-Umsatz-Daten stärker als Kern-Indikator nutzen sollen; stattdessen fokussierten wir zu sehr auf regulatorische Narrative (CLARITY Act, North Korea). Gold und Silber-Dekoupling war korrekt erkannt, aber wir nutzten dies nicht proaktiv genug, um Retail-vs-Institutional-Split zu isolieren. Für zukünftige Fazits: Volumen-Kollaps bei Börsen-Leaders (Robinhood -38%, Coinbase Q2 Warnung) schlägt Fear & Greed Index bei Trend-Bestimmung."
+      }
     },
     {
       "datum": "2026-07-25",
