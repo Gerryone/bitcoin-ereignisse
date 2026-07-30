@@ -1,6 +1,41 @@
 {
-  "letzte_aktualisierung": "2026-07-29",
+  "letzte_aktualisierung": "2026-07-30",
   "ereignisse": [
+    {
+      "datum": "2026-07-30",
+      "kategorie": "Institutionell",
+      "titel": "Strategy bucht $8,2B Q2-Verlust – Bitcoin-Treasury-Unternehmen unter Druck",
+      "beschreibung": "Das größte Corporate-Bitcoin-Holder der Welt verzeichnet massive unrealisierte Verluste und hat eine $3,75B-Barreserve aufgebaut, um Vorzugsaktien-Dividenden zu decken. Dies signalisiert Liquiditätsdruck bei institutionellen Großhaltern und könnte zu erzwungenen Verkäufen führen. Bitcoin notiert bei €56.209, während Gold (€3.581,81) und Silber (€51,59) stabil bleiben – klassische Safe-Havens profitieren nicht von dieser Unsicherheit.",
+      "kursziel_eur_7_tage": 54800
+    },
+    {
+      "datum": "2026-07-30",
+      "kategorie": "Regulierung",
+      "titel": "Clarity Act: Überarbeitete Ethik-Regeln gehen zum Weißen Haus – Senat-Ratifizierung vor Sommerpause unklar",
+      "beschreibung": "Senatoren haben überarbeitete Ethik-Bestimmungen zum Weißen Haus geschickt, um Trumps Crypto-Geschäfte zu adressieren. Das Fenster für eine Verabschiedung vor der einmonatigen Sommerpause schließt sich – nur noch wenige Tage bleiben. Ein erneutes Scheitern würde den regulatorischen Katalysator für Q3 eliminieren und institutionelle Positionen gefährden.",
+      "kursziel_eur_7_tage": 55200
+    },
+    {
+      "datum": "2026-07-30",
+      "kategorie": "Institutionell",
+      "titel": "Coinbase verfehlt Q2-Umsatzziele deutlich – Revenue-Rückgang 19% YoY auf $1,22B",
+      "beschreibung": "Der führende US-Crypto-Exchange meldet $1,22B Umsatz (vs. $1,5B im Vorjahr) und verfehlt Erwartungen, trotz Rekord-Marktanteilen. Schwacher Spot-Handel und niedrige Volatilität belasten Profitabilität. Dies verstärkt das Narrativ einer ermüdeten Retail-Liquidität und reduziert den Nutzen für Einzelanleger – ein Strukturproblem für breite Adoption.",
+      "kursziel_eur_7_tage": 55600
+    },
+    {
+      "datum": "2026-07-30",
+      "kategorie": "Makro",
+      "titel": "Bitcoin-ETFs auf Kurs für kleinste Monats-Zuflüsse aller Zeiten – Institutionelles Interesse erlahmt",
+      "beschreibung": "Bitcoin-ETFs steuern auf die schwächsten Juli-Zuflüsse ihrer Geschichte zu, nachdem eine 7-Tage-Kaufserie mit einem Nettoabfluss endete. Dies deuten darauf hin, dass institutionelle Accumulation entweder abgeschlossen ist oder dass Unsicherheit rund um Clarity Act und Fed-Politik Neukäufer abschreckt. Gold (€3.581,81) und Silber (€51,59) zeigen keine Fluchtbewegungen – breite Inflationsangst fehlt.",
+      "kursziel_eur_7_tage": 55400
+    },
+    {
+      "datum": "2026-07-30",
+      "kategorie": "Makro",
+      "titel": "Fed bleibt hawkish, BUT: PCE-Inflation sinkt erstmals seit 6 Jahren – Markt verarbeitet Zinswende-Hemmung",
+      "beschreibung": "Die Federal Reserve hält Zinsen stabil, signalisiert aber Widerstand gegen Senkungen, während PCE-Inflationsdaten einen Monatsinfall zeigen. Das schafft Widerspruch: Inflation sinkt, aber die Fed bleibt bullish auf höhere Raten. Bitcoin (-0,9% YoY trotz +0,9% heute) profitiert nicht – die Unsicherheit über Zinsdynamik bleibt Bremse. Gold und Silber stagnieren, was auf fehlende Inflations-Hedge-Nachfrage hindeutet.",
+      "kursziel_eur_7_tage": 56000
+    },
     {
       "datum": "2026-07-29",
       "kategorie": "Regulierung",
@@ -385,44 +420,36 @@
       "titel": "Zcash Zakura Client zielt auf 50.000 Transaktionen/Sekunde Visa-Scale Privacy – BTC Privacy-Narrative erodiert",
       "beschreibung": "Zcash's neue Lösung skaliert private Transaktionen von ~1/Sekunde auf Visa-Level, was Bitcoin's fehlende native Privacy-Layer erneut unterstreicht. Dies verstärkt die Narrative, dass spezialisierte Coins (nicht BTC) für echte Payment-Anwendungsfälle dominieren. Besonders relevant angesichts Brazil-Stablecoin-Boom (90% USD-gebunden), wo Bitcoin ebenfalls marginalisiert wird.",
       "einschaetzung_numerisch": -1
-    },
-    {
-      "datum": "2026-07-18",
-      "kategorie": "Makro",
-      "titel": "AI-Frenzy-Unwinding beschleunigt sich – Chip-Selloff zieht Bitcoin mit Edelmetallen in Korrelation",
-      "beschreibung": "Chinesische KI-Überraschung (Kimi K3 schlägt Claude/GPT im Coding) triggert globalen Semiconductor-Selloff, der Bitcoin unter €63.000 drückt und Ether doppelt so hart trifft. Gold (€2.950, −0,2%) und Silber (€29,50) fallen parallel statt in Safe-Haven-Rotation zu fliehen – dies signalisiert universelle Risk-Off, nicht strukturelle Schwäche von Bitcoin allein. Japans Nikkei verzeichnete schlechtesten Tag seit März; die Chip-Korrektur wird sich voraussichtlich noch 5–7 Handelstage fortsetzen.",
-      "einschaetzung_numerisch": -2
-    },
-    {
-      "datum": "2026-07-18",
-      "kategorie": "Geopolitik",
-      "titel": "US-Iran-Eskalation (dritte Welle in einer Woche) + Trump-China-Unsicherheit drücken Risikoassets",
-      "beschreibung": "Neue US-Luftschläge auf Iran kombiniert mit Trump-Kommentaren zu US-China-Reibereien erzeugen Perfect-Storm für Risk-Off-Sentiment. Bitcoin fällt unter €63.000, während institutionelle Investoren in klassische Absicherungen (Staatsanleihen, USD-Liquidität) flüchten. Die Straße von Hormuz-Blockade-Drohung bleibt ungelöst; dieses Szenario könnte 30–60 Tage andauern. Geopolitische Prämien sind in Volatilitäts-Indizes eingepreist, aber Bitcoin-spezifische Fluchtkapitalströme bleiben begrenzt.",
-      "einschaetzung_numerisch": -3
-    },
-    {
-      "datum": "2026-07-18",
-      "kategorie": "Institutionell",
-      "titel": "Stripe & Swift Infrastruktur-Wettrennen um digitale Zahlungen – Bitcoin marginalisiert",
-      "beschreibung": "Etablierte Finanzriesen (Stripe, Swift, SBI Group mit Coinhako-Übernahme, Citadel Securities $400M bei Crypto.com) konkurrieren um Next-Gen-Zahlungs-Schnittstellen ohne Bitcoin-native Integration. HSBC erhält Bank-of-England-Genehmigung für Digital-Gilt-Instrument; T. Rowe Price ($1,9T AUM) launcht Multi-Token-ETF – all dies umgeht Bitcoin als Nukleus. Bitcoin wird zum Commodities-Korb-Bestandteil, nicht zur Zahlungs-Revolution, die 2025 versprochen war.",
-      "einschaetzung_numerisch": -2
-    },
-    {
-      "datum": "2026-07-18",
-      "kategorie": "Regulierung",
-      "titel": "Senator Warren fordert Trump-Crypto-Earnings-Transparenz – politische Feindschaft persistiert trotz Clarity Act",
-      "beschreibung": "Warren-Anfrage zu Trumps $1,4B Crypto-Disclosure kurz vor möglichem Clarity-Act-Vote im Senat offenbart tiefe Parteilinien-Spannungen. Auch wenn der Clarity Act technisch \"diese Woche\" landen könnte, bleibt politischer Konsens fragil. Regulatory-Schwebezustand lädt Kapitalpause bei institutionellen Neukäufern; Fidelity und T. Rowe Price agieren vorsichtig statt aggressiv.",
-      "einschaetzung_numerisch": -1
-    },
-    {
-      "datum": "2026-07-18",
-      "kategorie": "OnChain",
-      "titel": "Knaken-Exchange Konkurs in Niederlanden + UK-Strafverfolgung für $115M Ransomware-Ring – Vertrauen bröckelt",
-      "beschreibung": "Niederländisches Gericht erklärt Knaken bankrott wegen fehlender Assets; UK verurteilt zwei Hacker des Scattered Spider-Ransomware-Syndikat (gekoppelt an 2024er Crypto-Exploit-Wellen). Solche Regulierungs-/Enforcement-Nachrichten untergraben Retail-Neueinsteiger-Vertrauen in Custodians, selbst wenn Hardware-Wallets (ZachXBT-Kritik) in Frage stehen. Vertrauens-Defizit transloziert sich nicht direkt zu Preis, aber blockiert neue Kapitalzuflüsse.",
-      "einschaetzung_numerisch": -1
     }
   ],
   "fazits": [
+    {
+      "datum": "2026-07-30",
+      "kursziel_eur": {
+        "3_tage": 56100,
+        "7_tage": 55300,
+        "14_tage": 54200,
+        "30_tage": 51800
+      },
+      "kurs_eur": 56209,
+      "gold_eur": 3581.81,
+      "silver_eur": 51.59,
+      "einschaetzung": "Bitcoin notiert bei €56.209 mit nur +0,9% 24h-Gewinn, während die Marktstruktur unter Druck gerät. Strategy's $8,2B-Verlustbuchung, Coinbase's Revenue-Verfehlungen (-19% YoY) und die kleinsten ETF-Zuflüsse aller Zeiten signalisieren, dass institutionelle Euphorie verfallen ist und Retail-Liquidität ausgetrocknet ist. Die Clarity-Act-Saga geht in ihre finale Woche vor der Sommerpause – ein erneutes Scheitern würde den letzten Policy-Katalysator für Q3 killen. Gold (€3.581,81) und Silber (€51,59) bleiben unbeeindruckt, was zeigt, dass Bitcoin NICHT als Inflations- oder Krisenhedge wahrgenommen wird; das Vertrauen in Volcker-ähnliche Fed-Straffung (trotz sinkender PCE-Zahlen) hat Fluchtkapital nicht zu Rohstoffen gezogen. Das Fear & Greed Index bei 28 (Fear) ist nicht panisch, sondern apathisch – eine diagnostische rote Flagge für mangelnde Nachfrage. Der technische Bruch unter €56.000 innerhalb von 7 Tagen ist hochwahrscheinlich; das 61,8%-Fibonacci-Retracement bei €55.200 (vom 27.07.) wird zur neuen Frontlinie für Bären-Momentum.",
+      "gewichtung": {
+        "bullish": 22,
+        "bearish": 66,
+        "neutral": 12
+      },
+      "schluessel_niveau_eur": 55200,
+      "schluessel_niveau_erklaerung": "Das 61,8%-Fibonacci-Retracement der Mai–Juni-Rally (€32.000 → €62.800) markiert die psychologische und technische Grenze zwischen Konsolidierung und neuer Bären-Phase. Ein stabiler Schluss unter €55.200 über 3+ Tage würde Cascade-Liquidationen in Richtung €52.500–€53.800 auslösen, wo aktuell größere Stop-Losses liegen. Bitcoin sitzt aktuell nur 1,8% über diesem Level – die Margin für Fehler ist minimal.",
+      "naechster_katalysator": "Clarity Act final vote im US-Senat (bis 08.08.2026) oder offizielle Vertagung nach Sommerpause. Ein Verabschiedungs-Scheitern würde sofort -€1.500 bis -€2.000 Verkaufsdruck auslösen. Parallel: Strategy/Microstrategy oder andere Treasury-Unternehmen kündigen Verkäufe zur Schuldenbedienung an (Wahrscheinlichkeit >50% bis Ende August).",
+      "szenario_bedingungen": [
+        "Clarity Act wird bis 08.08. verabschiedet → Bitcoin stabilisiert sich über €56.000, 7-Tage-Ziel €57.500",
+        "Clarity Act wird vertagt/scheitert → Bruch unter €55.200 wahrscheinlich, 14-Tage-Ziel €53.800–€54.500",
+        "Strategy/Treasury-Unternehmen verkündigen erzwungene BTC-Verkäufe >500M USD → Cascade-Liquidation bis €52.000–€53.200 möglich",
+        "Fed-Sprecher deuten auf Zinssenkungen an (trotz PCE-Daten) → Bitcoin könnte zu €57.000–€58.000 rallyen, aber Wahrscheinlichkeit <25%"
+      ]
+    },
     {
       "datum": "2026-07-29",
       "kursziel_eur": {
@@ -500,7 +527,20 @@
         "Szenario BULLISH (€60.500 in 14 Tagen): CLARITY Act passiert Senate, ETH-Momentum dreht auf Bitcoin um, Whale-Dormant-Activity signalisiert neuen Akkumulations-Leg, Gold (€3.602,55) durchbricht €3.700 (Inflations-Angst zurück).",
         "Szenario BEARISH (€54.000 in 14 Tagen): CLARITY Act scheitert, BitMart-Schließung führt zu Liquiditäts-Drain in andere Assets, Ethereum dominiert weiter Bitcoin (Altcoin-Rotation persistent), Nordkorea-Hacker-Fall stärkt Regulierungs-Druck auf CeFi und Mixing-Services.",
         "Szenario NEUTRAL (€57.000 in 7 Tagen): Bitcoin range-gebunden €56k–€58,5k, Ethereum zieht Spekulanten an, institutionelle ETF-Flüsse bleiben moderat, Gold und Silber stagnieren (keine neuen Makro-Chocks)."
-      ]
+      ],
+      "rueckblick": {
+        "original_kursziele": {
+          "3_tage": 57500,
+          "7_tage": 57200,
+          "14_tage": 55800,
+          "30_tage": 52500
+        },
+        "kurs_damals": 57348,
+        "kurs_heute": 56209,
+        "veraenderung_prozent": -1.99,
+        "bewertung": "TEILWEISE KORREKT mit Rückblick. Das 7-Tage-Ziel (€57.200) wurde verfehlt – Bitcoin ist stattdessen 1,99% gefallen, nicht gestiegen. Jedoch traf die längerfristige Einschätzung (14-Tage-Ziel €55.800, 30-Tage-Ziel €52.500) den Trend korrekt: Bitcoin rutscht Richtung €55.200. Der Fehler lag in der zu optimistischen 3–7-Tage-Projektion. Das war eine klassische Übergewichtung von technischem Bounce-Potential (vom €54.800-Tief vom 26.07.) gegen die stärkeren Fundamentals (Ethereum-Outperformance, Austausch-Konsolidierung, Whale-Apathie). Die Analyse hat richtig erkannt, dass State-Akteure und Mainstreambanken Bitcoin ablösen, aber die SHORT-TERM Bounce-Amplitude unterschätzt. SCHLUSSFOLGERUNG: Längerfristige makro-strukturelle Einschätzungen (Fear-Narrative, Treasury-Druck) sind zuverlässig; 3–7-Tage-Ziele sind anfälliger für intraweek Volatilität und sollten konservativer ausfallen.",
+        "selbstkritik": "Das Fazit vom 27.07. war zu bullish auf einen technischen Bounce und hat die Kraft institutioneller Liquidations-Signals unterschätzt. Strategy's $8,2B-Verlust war schon damals bekannt, aber die Implikation (erzwungene zukünftige Verkäufe) wurde zu spät als Katalysator erkannt. Auch die Ethereum-Outperformance (+4,4% vs. +1,4% Bitcoin) hätte lauter als ‚Rotation weg von Bitcoin' interpretiert werden sollen, nicht als neutrales Umschichtungs-Signal. Die Fear & Greed Lesart (30, Fear) war richtig, aber die Schlussfolgerung ('defensive Konsolidierung ohne neuen Katalysator') hat die kommende Clarity-Act-Deadline und Treasury-Liquidationswelle übersehen."
+      }
     },
     {
       "datum": "2026-07-26",
