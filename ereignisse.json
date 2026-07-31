@@ -1,6 +1,41 @@
 {
-  "letzte_aktualisierung": "2026-07-30",
+  "letzte_aktualisierung": "2026-07-31",
   "ereignisse": [
+    {
+      "datum": "2026-07-31",
+      "kategorie": "Technik",
+      "titel": "Coldcard Hardware-Wallet-Bug: $38M Bitcoin gestohlen – Self-Custody-Vertrauen erschüttert",
+      "beschreibung": "Ein Randomness-Bug in der beliebten Coldcard Hardware-Wallet führte zur Entwendung von ~600 BTC (~€38M) in 25 Minuten. Sicherheitsexperten warnen, dass die Seed-Generierung kompromittiert wurde. Dies verstärkt die Flucht zu ETF-Lösungen und institutioneller Custody, während Self-Custody-Narrative unter Druck gerät. Bitcoin notiert bei €54.494, Gold (€3.520,85) und Silber (€50,23) zeigen keine Flucht-Rallies – technisches Risiko wird isoliert betrachtet.",
+      "kursziel_eur_7_tage": 53500
+    },
+    {
+      "datum": "2026-07-31",
+      "kategorie": "Regulierung",
+      "titel": "Circle erhält New York Trust Charter – USDC-Regulierung normalisiert sich",
+      "beschreibung": "Circle sichert sich New York Trust Charter und darf künftig Fiduciary- und Custody-Services anbieten. Dies ist ein strukturelles Normalisierungs-Signal für stablecoin-Ökosysteme, auch während Bitcoin -3,1% im 24h-Verlauf verliert. Parallel: Tether generiert Q2-Gewinn von $1,5B, kauft 14 Tonnen Gold und 1.800 Bitcoin – klassische Safe-Haven-Käufe trotz Krypto-Schwäche. Gold (€3.520,85) bleibt stabil, was auf differentielle Risikowahrnehmung hindeutet.",
+      "kursziel_eur_7_tage": 54000
+    },
+    {
+      "datum": "2026-07-31",
+      "kategorie": "Makro",
+      "titel": "Quantum Computing vor kommerziellem Durchbruch – IBM prognostiziert materielle Revenue vor 2030",
+      "beschreibung": "IBM-CEO Arvind Krishna kündigt an, dass Quantum Computing vor Ende des Jahrzehnts bedeutende Umsätze generieren wird. Dies reignet Besorgnis über Krypto-Sicherheit auf (Quantum-Resistenz unbekannt) und könnte langfristig Bitcoin-Sicherheitsmodelle in Frage stellen. Markt reagiert emotional (Fear Index 25 = Extreme Fear), nicht technisch. Gold (€3.520,85) und Silber (€50,23) reflektieren Unsicherheit nicht – eher Zinsdiskonto-Sorge.",
+      "kursziel_eur_7_tage": 52800
+    },
+    {
+      "datum": "2026-07-31",
+      "kategorie": "Institutionell",
+      "titel": "Coinbase verfehlte Q2-Umsatzziele – Wall Street zweifelt an Timing der Erholung",
+      "beschreibung": "Coinbase verfehlt Q2-Revenue-Schätzungen deutlich (€1,22B vs. Vorjahr €1,5B, -19% YoY). Analysten spalten sich über Erholungs-Timing. Dies unterstreicht Retail-Liquidations-Apathie parallel zu institutionellen Normalisierungs-Spielen (Morgan Stanley, BNY Mellon). Bitcoin fällt -3,1% auf €54.494 in Markt mit Fear Index 25. Gold (€3.520,85) bleibt unbewegt – kein Safe-Haven-Escape erkennbar.",
+      "kursziel_eur_7_tage": 53200
+    },
+    {
+      "datum": "2026-07-31",
+      "kategorie": "Makro",
+      "titel": "US-Sanktionen gegen iranische Bitcoin-Versicherungs- und Schiffs-Sanctions-Umgeh-Netzwerke",
+      "beschreibung": "US Treasury verhängt Sanktionen gegen Hormuz Safe Platform (Bitcoin-basierte Schiffs-Versicherung) und Dubai-basierte Shelbit (angeblich $4B Iran-Netzwerk zur Sanktions-Umgehung, mit Zuflüssen zu Binance). Dies signalisiert hawkish geopolitische Regulatory-Stimmung. Bitcoin bleibt bei €54.494 stabil – Geopolitik-Risiko nicht in Kurs eingepreist. Gold (€3.520,85) und Silber (€50,23) zeigen KEINE Flucht-Rally, was bedeutet: Sicherheitsrisiko, nicht Inflations-/Krisen-Angst.",
+      "kursziel_eur_7_tage": 53800
+    },
     {
       "datum": "2026-07-30",
       "kategorie": "Institutionell",
@@ -385,44 +420,35 @@
       "titel": "ECB-Ratsentscheidung in dieser Woche erwartet – Zinserwartungen kurzfristig kritischer als geopolitische Ölrallye",
       "beschreibung": "CoinDesk listet die \"Crypto Week Ahead\" mit Fokus auf US-Regulierung und ECB-Decision. ECB-Zinsbeschluss wird Rendite-Erwartungen in EUR-Assets neu kalibrieren – wenn EZB hawkish bleibt, fallen Bitcoin und alle Risk-Assets. Silber (€49,93) sollte als erste Warnung fungieren: Wenn Silber nicht mit Ölpreis-Spike reagiert, sind Zinserwartungen nach unten revidiert, Bitcoin folgt der Rezessions-Angst statt Inflations-Hoffnung.",
       "einschaetzung_numerisch": -2
-    },
-    {
-      "datum": "2026-07-19",
-      "kategorie": "Makro",
-      "titel": "Massive Bitcoin Call Spreads zielen auf €64.800 bis Monatsende – genau beim Fed-Meeting",
-      "beschreibung": "Große Trader positionieren sich aggressiv auf Kursanstieg zu $72.000 (ca. €64.800) bis Ende Juli, zeitlich synchron mit dem Fed-Termin. Dies signalisiert institutionelle Erwartung einer geldpolitischen Überraschung oder eines Pivot-Signals. Gold (€3.514,92) und Silber (€49,04) stagnieren parallel, was darauf hindeutet, dass die Wette nicht auf Inflationsangst basiert, sondern auf technische Rallye-Erwartung und Liquiditäts-Trigger.",
-      "einschaetzung_numerisch": 1
-    },
-    {
-      "datum": "2026-07-19",
-      "kategorie": "Regulierung",
-      "titel": "Clarity Act mit Last-Chance-Deadline im Juli – Konsens fragmentiert sich weiter",
-      "beschreibung": "Mit nur zwei verbleibenden Abstimmungs-Fenster im Juli und Passierungs-Wahrscheinlichkeit von 48% bleibt die zentrale pro-Crypto-Regulierung des Jahres in Schwebe. Die Spannungen zwischen Warren-kritischen Demokraten und Trump-unterstützenden Republikanern (Stichwort: $1,4B Trump-Crypto-Earnings-Disclosure) untergraben breiten Konsens. Scheitern würde institutionelle Nachfrage weiter bremsen und Bitcoin unterhalb €56.544 halten.",
-      "einschaetzung_numerisch": -2
-    },
-    {
-      "datum": "2026-07-19",
-      "kategorie": "Institutionell",
-      "titel": "SBI Holdings vollendet Coinhako-Übernahme – Asien-Expansion bestätigt, aber BTC bleibt marginalisiert",
-      "beschreibung": "Japan's Finanz-Riese konsolidiert Singapur-Krypto-Plattform und tokenisiert Assets über Ondo Finance. Dies belegt institutionelle Mainstream-Akzeptanz in Asien und RWA-Fokus, aber Bitcoin wird in diesem Play als Payment-Layer ignoriert – stattdessen stehen digitale Vermögenswerte und Stablecoin-Integration im Vordergrund. Parallele zu Stripe/Swift-Nachrichten: Traditionelle Finance umgeht BTC systematisch.",
-      "einschaetzung_numerisch": -1
-    },
-    {
-      "datum": "2026-07-19",
-      "kategorie": "OnChain",
-      "titel": "$542M wöchentliche Crypto-Liquidität sitzt untätig außerhalb aktiver Handelsspannen",
-      "beschreibung": "Ein massiver Liquiditäts-Überschuss erzeugt null Gebühren und keine Market-Depth – klassisches Zeichen für Marktteilnehmer, die weder bullish noch bearish sind. Bei Bitcoin €56.544 und stagnierenden Edelmetallen (Gold €3.514,92, Silber €49,04) deutet dies auf Resignation und fehlende Kaufkonviktionen hin. Dies ist das Gegenteil eines Bodens – es ist ein Limbo-Zustand.",
-      "einschaetzung_numerisch": -2
-    },
-    {
-      "datum": "2026-07-19",
-      "kategorie": "Technologie",
-      "titel": "Zcash Zakura Client zielt auf 50.000 Transaktionen/Sekunde Visa-Scale Privacy – BTC Privacy-Narrative erodiert",
-      "beschreibung": "Zcash's neue Lösung skaliert private Transaktionen von ~1/Sekunde auf Visa-Level, was Bitcoin's fehlende native Privacy-Layer erneut unterstreicht. Dies verstärkt die Narrative, dass spezialisierte Coins (nicht BTC) für echte Payment-Anwendungsfälle dominieren. Besonders relevant angesichts Brazil-Stablecoin-Boom (90% USD-gebunden), wo Bitcoin ebenfalls marginalisiert wird.",
-      "einschaetzung_numerisch": -1
     }
   ],
   "fazits": [
+    {
+      "datum": "2026-07-31",
+      "kursziel_eur": {
+        "3_tage": 54200,
+        "7_tage": 53500,
+        "14_tage": 52800,
+        "30_tage": 56200
+      },
+      "kurs_eur": 54494,
+      "gold_eur": 3520.85,
+      "silver_eur": 50.2307,
+      "einschaetzung": "Bitcoin schließt Juli mit -3,1% (24h) und extremer Fear (Index 25), aber moderater Monats-Volatilität ab – technisches Signal ist Konsolidierung unter Druck, nicht Panik-Verkauf. Gold (€3.520,85) und Silber (€50,23) bleiben flach und ignorieren Krypto-Schwäche komplett, was bedeutet: die Risikoaversion ist spezifisch für Krypto (Self-Custody-Bugs, Regulierungs-Unsicherheit, Quantum-Angst), nicht systemisch breit (Inflation/Geopolitik). Institutional Tailwinds (Circle Charter, Tether-Gewinne, BIS-Pilot, Morgan Stanley ETH/SOL) treffen auf Retail-Flaute (Coinbase Miss, Robinhood-Kollaps, BitMart-Schließung) – eine strukturelle Zwei-Klassen-Marktsituation. Die nächsten 7 Tage sind kritisch: August historisch volatil, US-Jobs-Daten und Fed-Signale könnten Fear-Index eher nach oben treiben (zu 20-22) oder stabilisieren (zu 28-30). Schlüssel: Hält Bitcoin über €48k, oder bricht es ab? Wird Gold über €3.650 steigen (dann systemisches Risiko), oder bleibt es flat (dann nur Crypto-Selektion)?",
+      "gewichtung": {
+        "bullish": 25,
+        "bearish": 60,
+        "neutral": 15
+      },
+      "schluessel_niveau_eur": 48000,
+      "schluessel_niveau_erklaerung": "€48.000 ist die Juni-Jahrestiefs und psychologische Bruchzone. Ein Halten über €48k mit Konsolidierung zwischen €48k–€56.5k bestätigt Seitwärts-Bärenmarkt und verhindert Kaskaden-Liquidationen. Ein Bruch unter €48k würde technisch bis €43k–€45k führen und Fear-Index in die Bereiche 15-20 drücken. Aktuell liegt Bitcoin bei €54.494 – noch 11% Luft bis zum kritischen Level, aber Momentum ist schwach.",
+      "naechster_katalysator": "US Non-Farm Payroll (August, Freitag) und Federal Reserve Forward Guidance. Falls Arbeitsmarkt schwächer als erwartet + Fed signalisiert Zinsschritte vor Ende 2026, könnte Bitcoin kurzfristig zu €56k–€58k rallyen (Inflationshedge-Rotation). Falls NFP überraschend stark + Fed remains hawkish, Druck bis €50k–€52k. Parallel: Coinbase Earnings-Erholung (nächste Quartal) oder weiterer Decline werden Institutional-Sentiment bestimmen.",
+      "szenario_bedingungen": [
+        "Bullish Szenario: Bitcoin hält über €48k, NFP enttäuscht (< +150k), Fed signalisiert Pause → Bitcoin zu €56.200–€58.000 in 30 Tagen. Gold (€3.520,85) müsste über €3.650 steigen, Silber über €52, um Inflations-Narrativ zu unterstützen.",
+        "Bearish Szenario: Bitcoin fällt unter €48k, NFP überraschend stark (> +250k), Fed bleibt hawkish, Quantum-Risiken werden ernster → Bitcoin zu €42.000–€45.000 in 14 Tagen. Gold bleibt flat (wie heute), was Deflations-/Risikoangst signalisiert, nicht Flucht zu klassischen Safe-Havens.",
+        "Neutral/Sideways Szenario (aktuell wahrscheinlich): Bitcoin konsolidiert €50.000–€56.500 für nächste 7–14 Tage, Fear Index stabilisiert bei 24–28. Institutionelle Käufe (Circle, BNY Mellon, Tether) vs. Retail-Flucht halten sich die Waage. Gold und Silber bleiben isoliert, was auf Crypto-selektive Verwundbarkeit deutet, nicht auf systemisches Makro-Risiko."
+      ]
+    },
     {
       "datum": "2026-07-30",
       "kursziel_eur": {
@@ -501,7 +527,20 @@
         "Fed bleibt hawkish, Senat verpasst CLARITY-Deadline → Bitcoin testet €48k; wenn Bruch, dann Ziele €43k–€45k bis 14 Aug",
         "Morgan Stanley's ETH/SOL-Expansion treibt Altcoin-Rotation → ETH sollte BTC outperformen (derzeit nur +0,3% vs. BTC -0,5%); wenn ETH weiterhin underperformt, ist Institutional-Narrative schwach",
         "Mining-Liquidation (Core Scientific AMD-Pivot, Poolin-Insolvenz) setzt sich fort → Hash-Rate-Abfall könnte kurzzeitig BTC-Volatilität dämpfen, aber langfristig Profitabilität verbessern → bullisch nach 4-6 Wochen"
-      ]
+      ],
+      "rueckblick": {
+        "kursziel_damals_eur": {
+          "3_tage": 55500,
+          "7_tage": 54800,
+          "14_tage": 52000,
+          "30_tage": 58500
+        },
+        "kurs_damals_eur": 55974,
+        "kurs_heute_eur": 54494,
+        "veraenderung_prozent": -2.64,
+        "selbstkritik": "Das 3-Tage-Ziel von €55.500 war zu optimistisch – Bitcoin fiel stattdessen um -2,64% auf €54.494. Die Begründung damals war korrekt (fragmentierter Markt, Morgan Stanley-Support vs. Mining-Liquidation), aber die Gewichtung war zu bullish (30% Bullish war zu hoch). Der 7-Tage-Zielwert von €54.800 liegt sehr nah und könnte bis Freitag noch getroffen werden, ist aber auch konservativ. Die 30-Tage-Erwartung von €58.500 war unrealistisch für einen Markt mit Fear Index 25–29 und so vielen strukturellen Headwinds (Coldcard-Bug erst am 31.07 bekannt, was Vertrauen weiter erodiert). Selbstkritisch: Die Unterschätzung von Self-Custody-Risiken (Coldcard wurde nicht antizipiert) und die Überschätzung institutioneller Normalisierungs-Tempo sind Fehler. Gold und Silber-Stabilität wurde korrekt als Nicht-Flucht-Signal interpretiert, was für heutige Analyse wertvoll ist.",
+        "lektionen": "1. Technische Sicherheits-Vulnerabilities (Hardware-Wallet-Bugs) können schnell Vertrauen erodieren und Retail zu ETF-Flucht treiben. 2. Institutionelle Katalysatoren (Morgan Stanley, BNY Mellon) entfalten Wirkung langsamer als erwartet – Timing-Fehler sind häufig. 3. Gold/Silber-Verhalten ist ein guter Indikator für systemisches vs. Crypto-selektives Risiko; wenn beide flat bleiben, ist Panik nicht systemisch. 4. 3-Tage-Ziele sollten enger auf technischen Schlüsselniveaus liegen; 30-Tage-Ziele verdienen größere Sicherheitsmarge bei Fear-Regimen unter 30."
+      }
     },
     {
       "datum": "2026-07-27",
