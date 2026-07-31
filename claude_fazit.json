@@ -1,6 +1,38 @@
 {
   "fazits": [
     {
+      "datum": "2026-07-31",
+      "kurs_eur": 56194,
+      "identifizierte_schwachstellen": [
+        "Kein Haiku-Fazit vorhanden – Gegenprüfung strukturell leer: Die Hauptaufgabe besteht darin, ein konkretes Fazit zu kritisieren, das heute schlicht nicht existiert. Das bedeutet, dass jede 'Kritik' an Haiku heute methodisch ins Leere läuft und ich mich auf eigene Beobachtungen stützen muss, ohne einen echten Kontrapunkt zu setzen. Das ist ein wiederkehrendes strukturelles Problem des Setups, das den Erkenntnisgewinn der Gegenprüfung systematisch reduziert.",
+        "Fehlende Datenbasis durch Abwesenheit von Ereignissen: Auch die Ereignisliste ist heute leer. Zwei fehlende Inputs (Haiku-Fazit + Ereignisse) gleichzeitig bedeuten, dass die heutige Analyse fast vollständig auf veralteten Daten und technischen Indikatoren beruht. Das Risiko besteht darin, vergangene Muster unreflektiert fortzuschreiben, ohne zu berücksichtigen, dass der Markt durch unbeobachtete Nachrichtenlagen (z.B. over-the-weekend-Events, regulatorische Ankündigungen, Makro-Überraschungen) bereits bewegt wurde – der Fear & Greed Index bei 25 könnte ein Nachlaufsignal sein, das aktuelle Marktdynamik nicht mehr korrekt abbildet.",
+        "Systematischer Drift meiner eigenen Kursziele nach unten: Meine eigenen Ziele vom 27.07. (3-Tages-Ziel €56.800) bis 30.07. (3-Tages-Ziel €55.400) zeigen einen konsistenten Abwärtstrend, obwohl der tatsächliche Kurs sich in einer engen Spanne von €55.735 bis €56.537 bewegt hat. Das deutet auf einen erneuten Bearish-Bias in meiner Kalibrierung hin – ich adjustiere meine Ziele offenbar stärker an negative Stimmungsindikatoren als an die tatsächliche Preisstabilität, was meiner eigenen Selbstkritik vom 25.07. direkt widerspricht."
+      ],
+      "staerkstes_gegenargument": "Das stärkste Argument gegen eine bärische Einschätzung ist die bemerkenswerte Preisstabilität: Bitcoin hält sich seit mindestens einer Woche konstant in der Spanne €55.400–€57.400, obwohl Fear & Greed bei 25 (Extreme Fear) notiert. Historisch ist 'Extreme Fear' bei gleichzeitig stabilem Preis ein Zeichen, dass Verkaufsdruck bereits absorbiert wurde und schwache Hände den Markt verlassen haben. Der aktuelle Kurs bei €56.194 mit +0,8% widerspricht einer bärischen Kapituationsdynamik – der Markt fällt nicht trotz extremer Angst, was auf latente Akkumulation hindeutet.",
+      "eigenes_kursziel_eur": {
+        "3_tage": 55800,
+        "7_tage": 56500,
+        "14_tage": 57200,
+        "30_tage": 58500
+      },
+      "eigene_einschaetzung": "Bitcoin zeigt bei €56.194 eine technische Konsolidierung mit leicht positivem Tagesbias (+0,8%), die sich im Einklang mit der Preisstabilität der letzten Woche befindet. ETH bei +0,1% signalisiert keine starke altcoin-Rotation, was Bitcoin kurzfristig weder Rückenwind noch Gegenwind gibt. Der Fear & Greed Index bei 25 (Extreme Fear) ist für sich allein kein Verkaufssignal, sondern kann bei anhaltender Preisstabilität als Contrarian-Indikator dienen – allerdings nur dann, wenn sich ein konkreter Katalysator zeigt, der die Stimmung dreht. Ohne neue Ereignisse und ohne Haiku-Fazit ist das heutige Signal-Rauschen-Verhältnis besonders niedrig, weshalb moderate Ziele nahe am aktuellen Kurs die ehrlichste Kalibrierung darstellen. Ich korrigiere meinen zuletzt beobachteten Bearish-Drift aktiv nach oben, ohne in unbegründeten Optimismus zu verfallen.",
+      "eigene_gewichtung": {
+        "bullish": 35,
+        "bearish": 45,
+        "neutral": 20
+      },
+      "begruendung_bei_uebereinstimmung": "Keine direkte Übereinstimmung mit einem Haiku-Fazit möglich, da keines existiert. Meine Kursziele weichen bewusst von meinem eigenen Abwärtstrend der letzten Tage ab: Das 3-Tages-Ziel liegt mit €55.800 unter dem aktuellen Kurs (kurzfristige Schwankungsbreite realistisch), aber das 7- und 14-Tages-Ziel liegt erstmals seit einer Woche wieder über dem aktuellen Kurs, um den identifizierten Bearish-Drift-Fehler aktiv zu korrigieren. Die Gesamtrichtung bleibt vorsichtig bärisch gewichtet (45%), weil fehlende Katalysatoren und extreme Angststimmung keine Trendwende erzwingen.",
+      "uebereinstimmung_mit_haiku": "unbekannt",
+      "szenario_bedingungen": [
+        "Bitcoin durchbricht €57.500 mit erhöhtem Volumen (>30% über 7-Tage-Durchschnitt) und hält dieses Niveau über 24 Stunden – Bestätigung des bullishen 14/30-Tage-Szenarios.",
+        "Fear & Greed Index steigt auf über 40 (Neutral-Zone) innerhalb der nächsten 7 Tage ohne gleichzeitigen Kursrückgang – Signal, dass Stimmungsumkehr ohne Panikverkäufe stattfindet.",
+        "Bitcoin fällt unter €54.500 und schließt einen Tageschart unter diesem Niveau – Invalidierung der Konsolidierungsthese, Bestätigung des bärischen Szenarios mit Ziel €52.000–€53.000.",
+        "ETH/BTC-Ratio steigt spürbar an (ETH outperformt BTC um >3% über 48h) – Indikator für Risk-On-Rotation in den breiteren Kryptomarkt, der Bitcoin mittelfristig nach oben ziehen würde."
+      ],
+      "haiku_kursziel_zum_vergleich": null,
+      "erstellt_am": "2026-07-31T00:03:56.959646"
+    },
+    {
       "datum": "2026-07-30",
       "kurs_eur": 55735,
       "identifizierte_schwachstellen": [
@@ -93,7 +125,10 @@
         "ETH/BTC-Ratio stabilisiert sich oder gibt nach – anhaltende ETH-Outperformance über 7+ Tage würde auf Kapitalrotation weg von BTC hindeuten und mein 30-Tage-Ziel von €59.500 gefährden."
       ],
       "haiku_kursziel_zum_vergleich": null,
-      "erstellt_am": "2026-07-27T00:02:18.975797"
+      "erstellt_am": "2026-07-27T00:02:18.975797",
+      "rueckblick_3_tage_erwartet_prozent": -0.97,
+      "rueckblick_3_tage_tatsaechlich_prozent": -2.85,
+      "rueckblick_3_tage_tatsaechlicher_kurs": 55723.46049929949
     },
     {
       "datum": "2026-07-26",
@@ -696,5 +731,5 @@
       "rueckblick_kurs_7_tage": 54505.1633858627
     }
   ],
-  "letzte_aktualisierung": "2026-07-30"
+  "letzte_aktualisierung": "2026-07-31"
 }
