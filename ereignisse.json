@@ -1,6 +1,41 @@
 {
-  "letzte_aktualisierung": "2026-07-31",
+  "letzte_aktualisierung": "2026-08-01",
   "ereignisse": [
+    {
+      "datum": "2026-08-01",
+      "kategorie": "OnChain",
+      "titel": "Coldcard-Exploit breitet sich auf 4.500 Adressen aus – Gesamtverluste nähern sich $89M",
+      "beschreibung": "Galaxy Research identifizierte eine dritte Welle von Sweeps durch schwach generierte Coldcard-Seeds; der Angreifer zielt nun auf kleinere Balancen und ändert Fondssammlung auf der Chain. Michael Saylor und CZ warnen vor Hardware-Wallet-Risiken und empfehlen Diversifikation. Dies untergräbt Self-Custody-Vertrauen und könnte institutionelle Allocations zu ETF-Produkten beschleunigen, während Bitcoin bei €54.427 EUR (-0,2% 24h) konsolidiert.",
+      "kursziel_eur_7_tage": 53800
+    },
+    {
+      "datum": "2026-08-01",
+      "kategorie": "Technik",
+      "titel": "Bitcoin-Mining-Schwierigkeit fällt 14% von Jahreshoch – Miner-Kapazitäten unter Druck",
+      "beschreibung": "Mining-Difficulty schrumpft als Folge schwacher Operator-Ökonomie; Forward-Märkte signalisieren wenig Erleichterung bis Jahresende. Diese Rekalibrierung reduziert Inflationsdruck auf Bitcoin-Angebot, könnte aber auf anhaltende Hardware-Profitabilitätskrise hindeuten. Gold (€3.520,85 EUR) und Silber (€50,23 EUR) zeigen keine entsprechende Bewegung, was darauf hindeutet, dass Producer-Cost-Druck nicht systemisch inflationär wahrgenommen wird.",
+      "kursziel_eur_7_tage": 54100
+    },
+    {
+      "datum": "2026-08-01",
+      "kategorie": "Regulierung",
+      "titel": "SEC prüft Nasdaq Bitcoin-Options-Zulassung nach CME-Einspruch – Jurisdiktionsstreit eskaliert",
+      "beschreibung": "CME argumentiert, dass Bitcoin-Optionen unter CFTC-Jurisdiktion (Rohstoffe) fallen, nicht SEC. Dieser regulatorische Tauziehen verzögert Clarity und gefährdet das Institutional-Onboarding über strukturierte Produkte. Bitcoin bei €54.427 EUR bleibt unbeeindruckt, aber anhaltende Policy-Fragmentierung (ähnlich wie Senate CLARITY Act-Verzögerungen) hemmt die Preis-Katalysator-Dynamik.",
+      "kursziel_eur_7_tage": 54300
+    },
+    {
+      "datum": "2026-08-01",
+      "kategorie": "Institutionell",
+      "titel": "Tether addiert 14 Tonnen Gold und 1.800 BTC zu Reserven im Q2 – Stablecoin-Stärke signalisiert Vertrauen",
+      "beschreibung": "USDT-Emittent postete $1,5B Q2-Betriebsgewinn und erhöhte Gold-Reserven (€3.520,85 EUR aktuell) sowie Bitcoin-Bestände. Diese parallele Akkumulation von klassischem Safe-Haven (Gold) und Bitcoin deutet auf institutionelle Kapital-Normalisierung hin und suggeriert, dass Stablecoin-Emittenten nicht zu risky Assets rotieren, sondern Liquidity-Puffer erweitern – ein Signal für erwartete Volatilität, nicht Panik.",
+      "kursziel_eur_7_tage": 54500
+    },
+    {
+      "datum": "2026-08-01",
+      "kategorie": "Persönlichkeiten",
+      "titel": "Strategy hält STRC-Dividende trotz Discount zur Parität – Saylor-Pivot bleibt rational",
+      "beschreibung": "Michael Saylor und Team führten die STRC-Dividende nicht an, obwohl die Aktie deutlich unter Parität notiert. Dies signalisiert Vertrauen in langfristige Bitcoin-Akkumulation statt kurzfristig-opportunistische Ausschüttungen. Bitcoin bei €54.427 EUR profitiert von diesem Signaling institutioneller Geduld, auch wenn die 24h-Volatilität (-0,2%) Vorsicht anzeigt.",
+      "kursziel_eur_7_tage": 54600
+    },
     {
       "datum": "2026-07-31",
       "kategorie": "Technik",
@@ -385,44 +420,35 @@
       "titel": "Grayscale reicht S-1 für ersten US Worldcoin ETF ein – Bitcoin-Narrative durch Multi-Token-Produkte weiter verwässert",
       "beschreibung": "Nach T. Rowe Price Multi-Token-ETF folgt Grayscale mit Worldcoin-Spezialisierung. Dies bestätigt Trend: Institutionelle Käufer diversifizieren WEG von Bitcoin-Konzentration hin zu Crypto-Portfolio-Ansätzen. Bitcoin-Gewichtung sinkt strukturell, auch wenn absolute Zuflüsse positiv sind.",
       "einschaetzung_numerisch": -1
-    },
-    {
-      "datum": "2026-07-20",
-      "kategorie": "Makro",
-      "titel": "Ölpreis-Sprung auf Einjahreshoch durch US-Iran-Eskalation – Bitcoin unter €64.000 trotz Inflations-Signal",
-      "beschreibung": "Brent-Rohöl sprang fast 4% auf Einjahreshoch nach eskalierenden US-Iran-Luftangriffen, klassisches Inflations-Trigger-Szenario. Bitcoin fiel trotzdem unter $64.000 EUR (€56.160), Gold stagnierte bei €3.516,40/oz und Silber verharrte bei €49,93/oz – parallele Bewegung zeigt breites Risk-Off statt klassischer Inflations-Hedge-Rotation. Das ist das kritische Missverständnis des Marktes: Geopolitische Ölpreisschocks treiben heute nicht mehr Inflations-Hedges, sondern Zinssteigerungs-Angst und Rezessions-Szenarien.",
-      "einschaetzung_numerisch": -3
-    },
-    {
-      "datum": "2026-07-20",
-      "kategorie": "ETF",
-      "titel": "Bitcoin-ETF-Inflows setzen sich fort (+$273M über 2 Wochen), aber Momentum-Schwäche bleibt unübersehbar",
-      "beschreibung": "$273 Millionen Zuflüsse in zwei Wochen sind objektiv schwach – eine einzelne \"langsame\" Woche früher kostete Bitcoin die gleiche Summe an Kapitalabfluss. Das bedeutet: Institutionelle Käufer sind nicht zurück, sondern testen Positionen an schwächeren Preisen. Die Akkumulations-These hält nur, wenn tägliche Zuflüsse >$150M dauerhaft werden; aktuell deuten $136M/Tag eher auf \"Schadensbegrenzung\" als auf neue Bullish-Phase hin.",
-      "einschaetzung_numerisch": -1
-    },
-    {
-      "datum": "2026-07-20",
-      "kategorie": "Regulierung",
-      "titel": "Saylor schärft \"110 Gründe\" gegen BIP-110-Zensur-Vorschlag – Governance-Fragmentierung beschleunigt sich",
-      "beschreibung": "Michael Saylor (MicroStrategy Bitcoin-Whale) mobilisiert öffentlich gegen BIP-110-Datenfilter-Proposal und warnt vor Zensur-Präzedenzfall. Das ist nicht technische Diskussion, sondern Governance-Spaltung: Saylor vs. Bitcoin Core vs. Ordinals-Fraktion vs. Altcoin-Zukunft. Jede dieser Gruppen kann einen Client forcieren – Hardfork-Risiko steigt real an, weniger als 2 Jahre nach Taproot-Einigung. Gold (€3.516,40) bleibt indifferent, weil Metal-Märkte nicht mit Software-Governance-Risiken rechnen.",
-      "einschaetzung_numerisch": -2
-    },
-    {
-      "datum": "2026-07-20",
-      "kategorie": "Institutionell",
-      "titel": "AI-Frenzy-Unwinding beschleunigt: Kimi/Alibaba-Chocs treiben Chip-Selloff, Bitcoin leidet in Korrelation",
-      "beschreibung": "Tage nach Kimi K3 AI-Schock wollen sich Moonshot AI und Alibaba Qwen neu positionieren. Asiatic Chipbestände bleiben gedrückt, und Bitcoin sitzt ölpreisgetrieben zwischen Geopolitik und Tech-Volatilität. Das ist das Problem: Bitcoin ist weder inflations-korreliert (wäre Gold-Substitute) noch Tech-Growth-korreliert (wäre AI-Hedge). Es ist bloß volatil. Fear Index bei 29 spricht für noch nicht diskontierte Abwärtsszenarien.",
-      "einschaetzung_numerisch": -2
-    },
-    {
-      "datum": "2026-07-20",
-      "kategorie": "Regulierung",
-      "titel": "ECB-Ratsentscheidung in dieser Woche erwartet – Zinserwartungen kurzfristig kritischer als geopolitische Ölrallye",
-      "beschreibung": "CoinDesk listet die \"Crypto Week Ahead\" mit Fokus auf US-Regulierung und ECB-Decision. ECB-Zinsbeschluss wird Rendite-Erwartungen in EUR-Assets neu kalibrieren – wenn EZB hawkish bleibt, fallen Bitcoin und alle Risk-Assets. Silber (€49,93) sollte als erste Warnung fungieren: Wenn Silber nicht mit Ölpreis-Spike reagiert, sind Zinserwartungen nach unten revidiert, Bitcoin folgt der Rezessions-Angst statt Inflations-Hoffnung.",
-      "einschaetzung_numerisch": -2
     }
   ],
   "fazits": [
+    {
+      "datum": "2026-08-01",
+      "kursziel_eur": {
+        "3_tage": 54200,
+        "7_tage": 54350,
+        "14_tage": 53500,
+        "30_tage": 56000
+      },
+      "kurs_eur": 54427,
+      "gold_eur": 3520.85,
+      "silver_eur": 50.231,
+      "einschaetzung": "Bitcoin verharrt in destruktiver Konsolidierung bei €54.427 EUR (-0,2% 24h) während gleichzeitig kritische Sicherheits- und regulatorische Risiken akkumulieren. Der Coldcard-Exploit ($89M) und SEC/CME-Jurisdiktionsstreit untergraben institutionelles Vertrauen in Self-Custody und Regulatory Clarity, was das Retail-ETF-Rotation-Narrative bestätigt. Gold (€3.520,85 EUR) und Silber (€50,23 EUR) zeigen keine parallele Flucht-Rally, was darauf hindeutet, dass der Verkaufsdruck spezifisch auf Crypto-Unsicherheit, nicht breite Krisen-Angst, zurückzuführen ist. Fear & Greed Index bei 27 (Fear) reflektiert emotionale Kapitulation, aber die Tatsache, dass Tether, Saylor und Galaxy Research aktiv akumulieren/kommunizieren, deutet auf tiefgreifende Käufer unterhalb dieser Preis-Ebene hin. August wird choppy und defensiv, mit Schlüssel-Range €53.200–54.800 EUR; über €55.000 EUR würde Long-Term-Holder-Akkumulation signalisieren, unter €52.500 EUR würde Force-Selling und Margin-Calls andeuten.",
+      "gewichtung": {
+        "bullish": 35,
+        "bearish": 55,
+        "neutral": 10
+      },
+      "schluessel_niveau_eur": 52500,
+      "schluessel_niveau_erklaerung": "€52.500 EUR markiert den Break unter Juli-Range und würde auf Margin-Call-Kaskadenverkäufe aus verhebelten Retail-Positionen (Robinhood, Coinbase, BitMEX-Liquidationen) hindeuten. Ein Halt über €53.000 EUR würde bestätigen, dass Long-Term-Holder-Akkumulation (Tether, Saylor, Galaxy-Insiders) den Markt trägt und einen Bounce zu €54.800–55.500 EUR in 2–3 Wochen nahelegen würde.",
+      "naechster_katalysator": "August-Arbeitsmarktdaten (1. Freitag/Mitte des Monats) und Fed-Pressekonferenz (Warsh-Roadmap-Klarheit). Wenn Beschäftigung schwächer ausfällt als erwartet, könnte Zinssenkungs-Hoffnung Bitcoin zu €55.500+ EUR treiben; wenn stark, bleibt hawkish-Unsicherheit bestehen und Bitcoin bleibt im €52.500–54.500 EUR-Range gefangen.",
+      "szenario_bedingungen": [
+        "BULLISH (35%): Bitcoin halten über €53.500 EUR + Tether/Saylor weiterhin Accumulation-Signale + SEC/CME-Streit wird bis Ende August beigelegt = Bounce zu €55.800 EUR in 14 Tagen",
+        "BEARISH (55%): Bitcoin bricht unter €52.500 EUR + Force-Selling/Margin-Calls bei leveraged Retail (Robinhood Crypto-Umsatz -38% YoY warnt vor Liquiditäts-Trockenheit) + August-Jobs-Daten überraschend stark (hawkish Fed-Repricing) = Test von €50.800–51.200 EUR in 7–14 Tagen",
+        "NEUTRAL (10%): Bitcoin bleibt €53.200–54.800 EUR gefangen, keine Clarity-Durchbruch, Gold/Silber (€3.520,85 / €50,23 EUR) parallel unbeeindruckt = Range-Konsolidation bis September-FOMC mit Volatilität ±2–3% täglich"
+      ]
+    },
     {
       "datum": "2026-07-31",
       "kursziel_eur": {
@@ -500,7 +526,24 @@
         "BULLISH (€56.500+ in 7 Tagen): Binance.US kündigt CFTC-Lizenz-Fortschritt an UND BNY Mellon startet Onchain-Transfer-Agency vor August 15.",
         "BEARISH (€54.200–54.800 in 7–14 Tagen): Ethereum-Perp-Volumen kollabiert unter $100M 24h-Durchschnitt UND Coinbase Q2-Earnings (erwartet 30.07.) zeigt Spot-Umsatz unter $250M.",
         "NEUTRAL (€55.400–55.700): Warsh-Roadmap verzögert sich in Sommerpause UND institutionelle Onchain-Aktivität stabilisiert sich bei aktuellen Niveaus ohne Beschleunigung oder Rückgang."
-      ]
+      ],
+      "rueckblick": {
+        "kursziel_damals_eur": {
+          "3_tage": 55600,
+          "7_tage": 55500,
+          "14_tage": 54800,
+          "30_tage": 56400
+        },
+        "kurs_damals_eur": 55678,
+        "kurs_heute_eur": 54427,
+        "abweichung_pct": -2.24,
+        "reckblick_kritik": "Das Fazit vom 29. Juli war zu bullish für den 3–7-Tage-Horizont. Die Erwartung, dass Long-Term-Holder-Akkumulation und On-Chain-Signale einen Halt über €54.000 EUR bedeuten würden, ignorierte die Geschwindigkeit, mit der Coldcard-Exploits sich ausbreiteten (von $38M auf $70M+ in 48 Stunden) und wie schnell Regulatory Uncertainty (SEC/CME-Streit, Senate CLARITY-Verzögerungen) das Institutionalem-Momentum untergrub. Die Prognose für €55.500–57.100 EUR in 2–3 Wochen war zu optimistisch angesichts der beschleunigten Retail-Liquiditäts-Austrocknung (Robinhood -38%, Coinbase-Warnung). Gold (damals €2.950 EUR, heute €3.520,85 EUR) und Silber (damals €29,50 EUR, heute €50,23 EUR) sind beide um ~19% gestiegen, was auf breiter makroökonomischer Unsicherheit hindeutet, nicht nur Crypto-spezifischem Stress – dies war im Fazit unterschätzt worden. Der Fehler war, die Stärke von Fear & Greed Index 29 (Fear) zu unterschätzen; Fear-Regime sind persistent und erfordern höhere Katalysatoren (Job-Daten-Überraschung, Warsh-Clarity), nicht nur On-Chain-Signale, um zu brechen. Realistischere 7-Tage-Ziele wären €54.800–55.200 EUR statt €55.500 EUR gewesen.",
+        "lehren": [
+          "Exploit-Spreads und Regulatory-Streit eskalieren exponentiell schneller als On-Chain-Slow-Data suggerieren – Fear-Regime können 48h-Long-Narrative inverieren.",
+          "Gold/Silber-Parallele-Bewegungen sind ein Signal für makroökonomischen Stress, nicht nur Crypto-spezifisches Derisking – diese waren übersehen worden.",
+          "Retail-Liquiditäts-Metriken (Robinhood -38%, Coinbase-Warnung) sind führende Indikatoren für Force-Selling, nicht laggende Metriken."
+        ]
+      }
     },
     {
       "datum": "2026-07-28",
