@@ -1,6 +1,38 @@
 {
   "fazits": [
     {
+      "datum": "2026-08-01",
+      "kurs_eur": 54460,
+      "identifizierte_schwachstellen": [
+        "Kein Haiku-Fazit vorhanden – strukturelles Vakuum: Da heute weder ein Haiku-Fazit noch Ereignisdaten vorliegen, entfällt das eigentliche Objekt der kritischen Prüfung. Das System erzeugt damit eine Situation, in der die 'Gegenprüfung' ohne Gegner arbeiten muss. Dies ist keine Schwäche von Haiku, sondern ein systemisches Problem: Wenn beide Eingaben leer sind, besteht die Gefahr, dass die eigene Analyse das Vakuum mit unbegründeten Annahmen füllt, die mangels Kontrapart nicht hinterfragt werden.",
+        "Eigene historische Kursziele systematisch zu optimistisch kalibriert: Meine eigenen Prognosen der letzten Woche (z.B. 3-Tage-Ziel vom 27.07.: €56.800; vom 28.07.: €55.200; vom 30.07.: €55.400; vom 31.07.: €55.800) lagen alle deutlich über dem heutigen Kurs von €54.460. Der Markt hat sich konsistent unterhalb meiner Untergrenze entwickelt. Dies deutet auf einen systematischen Upward Bias in meinen Prognosen hin – eine konkrete, messbare Schwäche, die ich aktiv korrigieren muss.",
+        "Fear & Greed bei 27 wird möglicherweise als kontrarisches Kaufsignal übergewichtet: In einem anhaltenden Bärenmarkt signalisiert ein niedriger Fear & Greed-Wert nicht automatisch eine Bodenbildung, sondern kann Ausdruck eines strukturellen Abwärtstrends sein. Der Index war in den letzten Wochen durchgehend im 'Fear'-Bereich (27-30), ohne dass daraus bullische Kursbewegungen entstanden. Die reflexartige Interpretation 'Angst = antizyklische Kaufgelegenheit' ist in Trendmärkten ein klassischer Denkfehler."
+      ],
+      "staerkstes_gegenargument": "Bitcoin hat in den letzten 5 Handelstagen rund €2.700 (-4,7%) verloren und liegt heute mit -3,1% deutlich unter meinem niedrigsten 3-Tage-Kursziel der vergangenen Woche. ETH zeigt identische prozentuale Verluste (-3,1%), was auf einen breiten Marktdruck hindeutet, der nicht BTC-spezifisch ist. In einem Umfeld ohne positive Katalysatoren, mit persistenter Angstsituation (Fear & Greed seit Wochen unter 30) und ohne Nachrichtenimpulse gibt es kein rationales Argument für eine kurzfristige Trendumkehr – der stärkste Einwand gegen jede bullische Interpretation ist die schiere Gewichtskraft des laufenden Abwärtstrends, der durch meine eigene Fehlkalibrierung der letzten Woche empirisch bestätigt wird.",
+      "eigenes_kursziel_eur": {
+        "3_tage": 53800,
+        "7_tage": 53200,
+        "14_tage": 54500,
+        "30_tage": 55500
+      },
+      "eigene_einschaetzung": "Bitcoin zeigt heute bei €54.460 und -3,1% eine klare Fortsetzung des seit Ende Juli etablierten Abwärtstrends. Da weder Ereignisdaten noch ein Haiku-Fazit vorliegen, arbeite ich ausschließlich mit Kurs, Stimmung und meiner eigenen historischen Fehleranalyse. Mein wichtigster Befund: Meine Kursziele der letzten Woche waren durchgängig zu hoch kalibriert, was ich jetzt durch bewusst tiefere Zielmarken korrigiere. Der Fear & Greed-Index bei 27 bietet keinen verlässlichen Boden, solange kein positiver Katalysator sichtbar ist. Kurzfristig sehe ich weiteres Abwärtspotenzial in Richtung €53.000-54.000, mit einer möglichen Stabilisierung im 14-30-Tage-Fenster, sofern der Markt keine weiteren negativen Impulse erhält.",
+      "eigene_gewichtung": {
+        "bullish": 20,
+        "bearish": 65,
+        "neutral": 15
+      },
+      "begruendung_bei_uebereinstimmung": "Keine Übereinstimmung mit einem Haiku-Fazit möglich, da keines vorliegt. Meine Kursziele weichen zudem explizit nach unten von meinen eigenen Vortagsprognosen ab, was eine bewusste Neukalibrierung darstellt und keine Übereinstimmung mit einer früheren eigenen oder fremden Einschätzung bedeutet.",
+      "uebereinstimmung_mit_haiku": "unbekannt",
+      "szenario_bedingungen": [
+        "Bitcoin stabilisiert sich über 3 aufeinanderfolgende Tage oberhalb von €54.000 ohne neue Tiefs – dies würde die Bodenbildungshypothese für das 14-Tage-Ziel stützen.",
+        "Fear & Greed Index steigt auf über 35 und bleibt dort mindestens 48 Stunden – dies würde eine Stimmungswende signalisieren, die für das 30-Tage-Ziel notwendig ist.",
+        "ETH/BTC-Ratio stabilisiert sich oder ETH beginnt BTC zu underperformen (Kapitalrotation zurück in BTC als 'sicheren Hafen' im Krypto-Bereich) – ein messbarer Indikator für selektive BTC-Nachfrage.",
+        "Kein weiterer Tagesschlusskurs unter €53.000 – Unterschreiten dieser Marke würde meine bearishe These verstärken und die 30-Tage-Kursziele nach unten verschieben."
+      ],
+      "haiku_kursziel_zum_vergleich": null,
+      "erstellt_am": "2026-08-01T00:03:21.578324"
+    },
+    {
       "datum": "2026-07-31",
       "kurs_eur": 56194,
       "identifizierte_schwachstellen": [
@@ -94,7 +126,10 @@
         "Kein makroökonomischer Schock (US-Zinsentscheid, regulatorische Negativmeldung) in den nächsten 14 Tagen – bei externem Negativ-Catalyst müssen alle Ziele nach unten revidiert werden"
       ],
       "haiku_kursziel_zum_vergleich": null,
-      "erstellt_am": "2026-07-28T00:04:12.357544"
+      "erstellt_am": "2026-07-28T00:04:12.357544",
+      "rueckblick_3_tage_erwartet_prozent": -1.46,
+      "rueckblick_3_tage_tatsaechlich_prozent": 0.3,
+      "rueckblick_3_tage_tatsaechlicher_kurs": 56184.91540827129
     },
     {
       "datum": "2026-07-27",
@@ -731,5 +766,5 @@
       "rueckblick_kurs_7_tage": 54505.1633858627
     }
   ],
-  "letzte_aktualisierung": "2026-07-31"
+  "letzte_aktualisierung": "2026-08-01"
 }
