@@ -1,6 +1,41 @@
 {
-  "letzte_aktualisierung": "2026-08-01",
+  "letzte_aktualisierung": "2026-08-02",
   "ereignisse": [
+    {
+      "datum": "2026-08-02",
+      "kategorie": "OnChain",
+      "titel": "Trump Media verkauft weitere 2.628 BTC – Institutionelle Liquidationen setzen sich fort",
+      "beschreibung": "Trump Media hat 2.628 Bitcoin an Crypto.com transferiert und damit seine Bestände auf 4.261 BTC reduziert. Über sieben Monate wurden insgesamt 7.281 BTC verkauft. Diese Serie von Großverkäufen durch einen prominenten Corporate-Holder signalisiert mangelndes Vertrauen in höhere Kursniveaus und belastet das Sentiment in einer Phase, in der institutionelle Käufer (ETF-Zuflüsse im Juli nur $172,4M) bereits massiv zurückhaltend sind. Bei Bitcoin auf €54.906 wirkt jeder Major-Seller zusätzlich demoralisierend.",
+      "kursziel_eur_7_tage": 53200
+    },
+    {
+      "datum": "2026-08-02",
+      "kategorie": "Regulierung",
+      "titel": "Senate CLARITY Act vor Sommerpause – Crypto-Policy-Roadmap bleibt fragmentiert",
+      "beschreibung": "Der US-Senat geht nächste Woche in die Sommerpause und lässt die finale Abstimmung über den Clarity Act offen. Mit nur noch einer Woche vor dem Break bleibt kaum Zeit für Reconciliation zwischen Senat und House, was eine neuerliche Vertreibung des Catalysts in den Herbst bedeutet. Für Bitcoin (€54.906) wäre ein erneutes Scheitern das dritte Major-Policy-Fiasko in 18 Monaten und würde das letzte hoffnungsvolle 'Regulatory-Clarity'-Narrativ für Q3 killen.",
+      "kursziel_eur_7_tage": 52800
+    },
+    {
+      "datum": "2026-08-01",
+      "kategorie": "OnChain",
+      "titel": "Coldcard-Exploit-Welle nun 4.500 Adressen, $89M Verluste – Self-Custody-Vertrauen unter Druck",
+      "beschreibung": "Eine dritte Welle von Coldcard-Schwachstellen hat Attacken auf insgesamt 4.500 Adressen ausgelöst, mit Gesamtverlusten nahe $89M. Im Gegensatz zum FTX-Kollaps (2022) bewegen kleinere Holder jetzt aktiv Bitcoin ZURÜCK auf Börsen statt in Self-Custody. Dieses Paradoxon – Hardware-Wallets als unsicherer als zentralisierte Börsen – schädigt die ideologische Grundlage von Bitcoin (Sovereignty) und fördert Konsolidierung bei Exchange-Playern.",
+      "kursziel_eur_7_tage": 53500
+    },
+    {
+      "datum": "2026-08-01",
+      "kategorie": "Institutionell",
+      "titel": "Bitcoin-Mining-Schwierigkeit fällt 14% – Miner-Kapazitäten unter Druck, wenig Relief bis Jahresende",
+      "beschreibung": "Die Bitcoin-Mining-Difficulty ist um 14% vom Jahreshoch gefallen, da schwache Miner-Ökonomik zu Abschaltungen zwingt. Forward-Märkte signalisieren bis Jahresende 2026 kaum Erholung. Bei Bitcoin €54.906 und fehlenden großen Kursrallyes bleibt die Rentabilität marginal – dies zementiert mittelfristig das Risiko von Hashrate-Konzentration bei großen Mining-Pools und gefährdet die Dezentralisierung des Netzwerks.",
+      "kursziel_eur_7_tage": 54100
+    },
+    {
+      "datum": "2026-08-02",
+      "kategorie": "Makro",
+      "titel": "Fear & Greed Index bei 27 (Fear) – Apathie statt Panik diagnostiziert Liquiditätsmangel",
+      "beschreibung": "Der Markt-Sentiment-Index steht bei nur 27 (Fear), aber NOT im panischen Modus – dies ist die toxischste Zone, da sie totale Kapitulationen fehlende Nachfrage signalisiert, nicht verzweifelte Verkäufe. Gold (€3.540,00) und Silber (€50,98) bewegen sich NICHT parallel zu Bitcoin, was zeigt, dass Anleger Bitcoin NICHT als Inflations- oder Krisenhedge nutzen. Das fehlende Vertrauen in Safe-Havens deutet auf strukturelle Demoralisierung hin, nicht auf rationale Rotation.",
+      "kursziel_eur_7_tage": 53800
+    },
     {
       "datum": "2026-08-01",
       "kategorie": "OnChain",
@@ -385,44 +420,35 @@
       "titel": "Crypto Clarity Act Passierungs-Wahrscheinlichkeit springt auf 43% nach White-House-Ethik-Deal, aber Demo-Balks gefährden Zeitplan",
       "beschreibung": "Polymarket-Wetter bewegten Clarity-Odds von Rekord-Tiefs auf 43% nachdem Trump White House Ethik-Limits zugestand. Allerdings berichten die Medien, dass Demokraten noch immer balken – kein Bill-Text existiert. Dies ist reines Sentiment-Spiel ohne rechtliche Substanz; Bitcoin bounce zu €57.861 bleibt auf Lipstick-Hoffen angewiesen.",
       "einschaetzung_numerisch": -1
-    },
-    {
-      "datum": "2026-07-21",
-      "kategorie": "ETF",
-      "titel": "Bitcoin-ETF-Zuflüsse setzen sich fort – fünfter Tag in Folge, aber Momentum-Brüchigkeit bleibt kritisch",
-      "beschreibung": "US-Spot-Bitcoin-ETFs verzeichnen fünften Handelstag in Folge mit Zuflüssen (insgesamt ~$727M über die Periode), die längste Serie seit April. Allerdings: Mit Bitcoin bei €57.899 und Gold bei €3.560,75 EUR – ein klassisches €2.950-Niveau-Fehlen – bleibt die institutionelle Käufer-Aktivität orthogonal zur Preisermittlung. Die ETF-Inflows decken gerade die früheren Ausflusswunden ab, ohne neues Kapital zu signalisieren.",
-      "einschaetzung_numerisch": 0
-    },
-    {
-      "datum": "2026-07-21",
-      "kategorie": "Makro",
-      "titel": "Chip-Handel-Turnaround trifft auf geopolitische Ölvolatilität – Bitcoin oscilliert zwischen Tech-Anker und Risk-Off-Druck",
-      "beschreibung": "Asiatische Halbleiter-Aktien erholen sich nach Kimi-AI-Schock, was Bitcoin zu €65.500 zweitägigem Hoch treibt; gleichzeitig deeskaliert Nahost-Diplomatie Ölpreise. Gold bei €3.560,75 EUR zeigt aber keine Safe-Haven-Rallye parallel zu Bitcoin – stattdessen parallele Unterperformance, was universelle Risk-Off (nicht Inflations-Flucht) signalisiert. Silber bei €51,96 EUR bestätigt schwache Growth-Erwartungen.",
-      "einschaetzung_numerisch": 1
-    },
-    {
-      "datum": "2026-07-21",
-      "kategorie": "Regulierung",
-      "titel": "UK-Parlament startet Inquiry zu Banking-Chokepoints für Crypto – strukturelle Marginalität auch auf regulatorischer Ebene",
-      "beschreibung": "Die britische APPG untersucht Bankenbeschränkungen für Crypto-Firmen (Kontosperrungen, Transaktions-Restriktionen). Dies ist das dritte koordinierte regulatorische Infrastruktur-Projekt in einer Woche (CLARITY Act, Brazils Tokenization Task Force, Bank of Korea CBDC). Bitcoin wird strukturell marginalisiert: Traditional Finance baut Systeme um Bitcoin herum, nicht mit Bitcoin.",
-      "einschaetzung_numerisch": -2
-    },
-    {
-      "datum": "2026-07-21",
-      "kategorie": "Persönlichkeiten",
-      "titel": "Patrick Witt (Trump-Crypto-Berater) verzichtet auf Militärtraining – CLARITY Act auf letzter diplomatischer Meile",
-      "beschreibung": "Der White House-Crypto-Policy-Verhandler bleibt im Posten, während CLARITY Act in den Senat geht. Dies ist taktisches Zeichen für ernsthafte legislatorische Finalphase, aber ohne Bitcoin-Preis-Katalyse. Saylor vs. BIP-110 Governance-Schlacht zeigt gleichzeitig interne Fragmentierung – nicht Konsens-Bildung.",
-      "einschaetzung_numerisch": 1
-    },
-    {
-      "datum": "2026-07-21",
-      "kategorie": "Institutionell",
-      "titel": "Grayscale reicht S-1 für ersten US Worldcoin ETF ein – Bitcoin-Narrative durch Multi-Token-Produkte weiter verwässert",
-      "beschreibung": "Nach T. Rowe Price Multi-Token-ETF folgt Grayscale mit Worldcoin-Spezialisierung. Dies bestätigt Trend: Institutionelle Käufer diversifizieren WEG von Bitcoin-Konzentration hin zu Crypto-Portfolio-Ansätzen. Bitcoin-Gewichtung sinkt strukturell, auch wenn absolute Zuflüsse positiv sind.",
-      "einschaetzung_numerisch": -1
     }
   ],
   "fazits": [
+    {
+      "datum": "2026-08-02",
+      "kursziel_eur": {
+        "3_tage": 54200,
+        "7_tage": 52900,
+        "14_tage": 51200,
+        "30_tage": 48500
+      },
+      "kurs_eur": 54906,
+      "gold_eur": 3540.0,
+      "silver_eur": 50.983,
+      "einschaetzung": "Bitcoin notiert bei €54.906 mit nur +0,9% 24h-Gewinn und befindet sich in einer Struktur-Krise. Die Trump-Media-Liquidationen (−2.628 BTC), der drohende CLARITY-Act-Kollaps und die Coldcard-Katastrophe (4.500 Adressen, $89M Schaden) unterminieren gleichzeitig den institutionellen Halt, die Regulatory-Hoffnung und die ideologische Glaubwürdigkeit von Bitcoin-Self-Custody. Besonders beunruhigend: Gold (€3.540) und Silber (€50,98) DIVERGIEREN von Bitcoin – es gibt keine Safe-Haven-Rotation, nur apathische Kapitulation (Fear-Index 27). Die kleinsten ETF-Zuflüsse aller Zeiten und Miner-Difficulty-Falle (-14%) zeigen, dass sowohl Institutionelle als auch Hash-Power abwandern. Bitcoin wird aktuell NICHT als Hedge gegen Fed-Straffung (PCE sinkt, aber Fed bleibt hawkish) gekauft – es ist nur noch ein Liquiditäts-Barometer für Risk-Off-Phasen, ohne eigenes Narrativ.",
+      "gewichtung": {
+        "bullish": 20,
+        "bearish": 70,
+        "neutral": 10
+      },
+      "schluessel_niveau_eur": 52500,
+      "schluessel_niveau_erklaerung": "€52.500 ist das 61,8%-Fibonacci-Retracement der Mai–Juni-Rally (€32.000 → €62.800) und markiert den Punkt, ab dem Cascade-Liquidationen in Richtung €49.000–€50.500 (große Stop-Loss-Cluster) sehr wahrscheinlich werden. Ein Stabiler Schluss unter €52.500 über 3+ Tage würde das Bären-Narrativ für Q3/Q4 verfestigen.",
+      "naechster_katalysator": "Die Senate-Abstimmung über CLARITY Act vor der Sommerpause (nächste Woche). Ein erneutes Scheitern würde den letzten Policy-Hoffnungs-Catalyst bis September töten. Parallel: BlackRock/Fidelity-ETF-Kapitalflüsse im Verlauf der Woche – sollten Zuflüsse unter $50M fallen, folgt psychologischer Bruch.",
+      "szenario_bedingungen": [
+        "BULLISH: CLARITY Act wird bis 08.08.2026 ratifiziert UND BTC schliesst über €56.500 → Kursziel 14T: €58.800",
+        "BEARISH: CLARITY Act scheitert erneut UND Trump Media verkauft weitere >1.000 BTC UND Fear-Index fällt unter 20 → Kursziel 14T: €48.200",
+        "NEUTRAL: CLARITY wird vertagt, aber ETF-Zuflüsse bleiben >$100M/Woche UND Coldcard-Hacks stoppen → Kursziel 14T: €53.800"
+      ]
+    },
     {
       "datum": "2026-08-01",
       "kursziel_eur": {
@@ -500,7 +526,20 @@
         "Clarity Act wird vertagt/scheitert → Bruch unter €55.200 wahrscheinlich, 14-Tage-Ziel €53.800–€54.500",
         "Strategy/Treasury-Unternehmen verkündigen erzwungene BTC-Verkäufe >500M USD → Cascade-Liquidation bis €52.000–€53.200 möglich",
         "Fed-Sprecher deuten auf Zinssenkungen an (trotz PCE-Daten) → Bitcoin könnte zu €57.000–€58.000 rallyen, aber Wahrscheinlichkeit <25%"
-      ]
+      ],
+      "rueckblick": {
+        "alte_kursziele": {
+          "3_tage": 56100,
+          "7_tage": 55300,
+          "14_tage": 54200,
+          "30_tage": 51800
+        },
+        "kurs_damals": 56209,
+        "kurs_heute": 54906,
+        "verlauf": "Bitcoin ist von €56.209 auf €54.906 gefallen (−2,3% in 3 Tagen), was UNTER dem 3-Tage-Kursziel von €56.100 lag.",
+        "analyse": "Die Prognose war zu optimistisch. Das 3-Tage-Ziel von €56.100 wurde überschritten (Bitcoin startete über diesem Level), aber das war FALSE CONFIDENCE – die Unterstützung war brüchig. Der Fehler war, die Cascade-Dynamik nach Strategy's $8,2B-Verlustbuchung zu unterschätzen. Mein Fokus auf 'Apathie statt Panik' war korrekt diagnostiziert, aber ich habe die Geschwindigkeit der Liquidations-Wellen unterschätzt. Das 7-Tage-Ziel von €55.300 wird wahrscheinlich auch unterschritten, wenn die aktuelle Trump-Media-Selloff-Serie anhält. Selbstkritik: Ich hätte aggressiver bearish sein sollen und €54.500 als 7-Tage-Ziel nennen sollen statt €55.300.",
+        "lektion": "Apathie (Fear-Index 28) ist ein FALSE SIGNAL für Stabilität. Es bedeutet nicht 'keine Bewegung', sondern 'keine Gegenkraft gegen Verkäufe'. Jeder neue negative Katalyst (Trump-Verkäufe, CLARITY-Verzögerung, Coldcard-Welle) führt zu LINEAREN Abverkäufen ohne technisches Support, weil Buy-Momentum völlig fehlend ist."
+      }
     },
     {
       "datum": "2026-07-29",
