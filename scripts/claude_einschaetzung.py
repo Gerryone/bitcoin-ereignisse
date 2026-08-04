@@ -1,3 +1,4 @@
+# Aktualisiert: 2026-08-04 09:45
 #!/usr/bin/env python3
 """
 Claude (Sonnet) Bitcoin-Einschätzung
@@ -34,6 +35,14 @@ OB daneben. ALTE Einträge mit der -5/+5-Skala bleiben unverändert in
 claude_fazit.json stehen und werden von der neuen Trefferquoten-
 Berechnung übersprungen (keine Rückwirkung, keine Vermischung der
 Skalen).
+
+GEÄNDERT (04.08.2026): Nach wiederholten "Ungültiges JSON von Claude:
+Unterminated string"-Fehlern (zuletzt bei nur ~5700 Zeichen, weit unter
+dem max_tokens=4096-Budget) wird jetzt zusätzlich stop_reason und
+output_tokens der API-Antwort geloggt, um die tatsächliche Abbruch-
+ursache beim nächsten Auftreten sichtbar zu machen. Bei einem
+JSON-Fehler wird außerdem die VOLLSTÄNDIGE Rohantwort (nicht nur die
+ersten 500 Zeichen) in claude_fazit_error_debug.json gespeichert.
 """
 
 import json
@@ -100,6 +109,22 @@ def load_claude_fazit(path="claude_fazit.json"):
 def save_claude_fazit(daten, path="claude_fazit.json"):
     with open(path, "w", encoding="utf-8") as f:
         json.dump(daten, f, ensure_ascii=False, indent=2)
+
+
+def save_error_debug(response_text, stop_reason, output_tokens, error, path="claude_fazit_error_debug.json"):
+    """Speichert bei einem JSON-Fehler die vollständige Rohantwort samt
+    Diagnosedaten, damit der Fehler nicht nur an den ersten 500 Zeichen
+    im Actions-Log analysiert werden muss."""
+    debug_daten = {
+        "zeitpunkt": datetime.now().isoformat(),
+        "stop_reason": stop_reason,
+        "output_tokens": output_tokens,
+        "fehler": str(error),
+        "response_text_vollstaendig": response_text,
+        "response_text_laenge": len(response_text),
+    }
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(debug_daten, f, ensure_ascii=False, indent=2)
 
 
 # ─── Kursziel-Hilfsfunktionen (NEU 25.07.2026) ─────────────────────────────
@@ -502,6 +527,15 @@ def main():
         messages=[{"role": "user", "content": prompt}],
     )
 
+    # NEU (04.08.2026): stop_reason und output_tokens IMMER loggen, damit
+    # bei einem erneuten JSON-Fehler sofort klar ist, ob wirklich das
+    # Token-Limit erreicht wurde oder die Antwort aus einem anderen Grund
+    # (z.B. end_turn mitten im JSON) vorzeitig endete.
+    stop_reason = message.stop_reason
+    output_tokens = message.usage.output_tokens
+    print(f"  stop_reason: {stop_reason}", file=sys.stderr)
+    print(f"  output_tokens: {output_tokens}", file=sys.stderr)
+
     response_text = message.content[0].text.strip()
 
     if "```json" in response_text:
@@ -513,7 +547,12 @@ def main():
         result = json.loads(response_text)
     except json.JSONDecodeError as e:
         print(f"\nFehler: Ungültiges JSON von Claude: {e}", file=sys.stderr)
+        print(f"stop_reason: {stop_reason}, output_tokens: {output_tokens}", file=sys.stderr)
         print(f"Response (erste 500 Zeichen): {response_text[:500]}", file=sys.stderr)
+        # NEU (04.08.2026): vollständige Rohantwort + Diagnosedaten sichern,
+        # statt nur die ersten 500 Zeichen im Actions-Log zu haben.
+        save_error_debug(response_text, stop_reason, output_tokens, e)
+        print("Vollständige Rohantwort + Diagnosedaten gespeichert in claude_fazit_error_debug.json", file=sys.stderr)
         sys.exit(1)
 
     haiku_fazit_heute = next(
