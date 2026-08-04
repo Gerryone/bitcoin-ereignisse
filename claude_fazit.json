@@ -1,6 +1,38 @@
 {
   "fazits": [
     {
+      "datum": "2026-08-04",
+      "kurs_eur": 53000,
+      "identifizierte_schwachstellen": [
+        "Kein Haiku-Fazit vorhanden – strukturelles Vakuum: Die kritische Prüfung trifft auf ein leeres Analyseobjekt. Das ist selbst eine Schwachstelle des Gesamtsystems: Wenn kein Ereignis-Input und kein Haiku-Fazit vorliegen, wird die gesamte Analyse auf reine Kursstruktur und Momentum reduziert, ohne dass dies explizit methodisch begründet wird. Ein System, das bei Datenmangel schweigt, wäre ehrlicher als eines, das trotzdem Kursziele generiert.",
+        "Rückblick auf eigene Prognosen zeigt systematische Überschätzung: Am 01.08. lag mein 3-Tages-Ziel bei €53.800, der heutige Kurs ist €53.000 – eine Abweichung von -800€ nach unten. Am 31.07. lag das 7-Tages-Ziel bei €56.500, tatsächlich sind wir auf €53.000 gefallen – eine Fehlkalibrierung von ~-6,2%. Das zeigt ein konsistentes Muster: meine Kursziele waren in den letzten Wochen systematisch zu bullish trotz erkannter Schwäche. Diese Kalibrierungsverzerrung muss heute nach unten korrigiert werden.",
+        "Fear & Greed bei 25 (Extreme Fear) wird strukturell unterbewertet: In früheren Analysen wurde Extreme Fear als potenzieller Contrarian-Indikator behandelt ('Angst-Bounce'-Szenario). Tatsächlich zeigt der Kursverlauf seit Ende Juli das Gegenteil: Extreme Fear korrelierte mit fortgesetztem Preisverfall von ~€57.000 auf €53.000. Die Annahme, dass Extreme Fear automatisch einen Boden signalisiert, ist empirisch in diesem Zyklus nicht bestätigt und stellt einen wiederholten blinden Fleck dar."
+      ],
+      "staerkstes_gegenargument": "Das stärkste Argument gegen eine bearishe Fortschreibung ist die kumulative Überverkauft-These: Bitcoin hat in rund 8 Tagen von ~€57.358 auf €53.000 verloren, was einem Rückgang von ~7,6% entspricht – ohne erkennbaren fundamentalen Auslöser (keine Ereignisdaten verfügbar). In einem nachrichtenarmen Umfeld können derartige Rückgänge strukturell durch Liquidierungen und Stop-Loss-Kaskaden getrieben sein, die sich erschöpfen. Ein technischer Bounce auf €54.000–€55.000 ohne fundamentale Verbesserung wäre statistisch möglich und würde meine bearishe Einschätzung widerlegen, ohne dass sich das Makrobild verändert hätte.",
+      "eigenes_kursziel_eur": {
+        "3_tage": 52500,
+        "7_tage": 52000,
+        "14_tage": 53500,
+        "30_tage": 54500
+      },
+      "eigene_einschaetzung": "Bitcoin bei €53.000 und 0,0% Tagesveränderung signalisiert kein Gleichgewicht, sondern Erschöpfung auf niedrigem Niveau – der Markt findet keinen Käufer, der den Kurs treibt, aber auch keinen panikartigen Verkäufer mehr. Angesichts des anhaltenden Extreme-Fear-Niveaus (25) und der Tatsache, dass meine eigenen Kursziele in den letzten zwei Wochen konsistent zu optimistisch waren, kalibriere ich heute bewusst nach unten. Das Fehlen jeglicher positiver Katalysatoren (keine Ereignisse, keine ETH-Outperformance, kein Fear & Greed-Anstieg) spricht gegen eine kurzfristige Erholung. Mittelfristig (14–30 Tage) ist ein leichter Rebound wahrscheinlicher als ein weiterer Rückgang dieser Magnitude, da technische Gegenbewegungen nach -7,6%-Rückgängen historisch eintreten – aber das Ziel liegt dann nur bei €53.500–€54.500, nicht bei €57.000+.",
+      "eigene_gewichtung": {
+        "bullish": 20,
+        "bearish": 65,
+        "neutral": 15
+      },
+      "begruendung_bei_uebereinstimmung": "Keine Übereinstimmung mit Haiku vorhanden (kein Haiku-Fazit). Meine Kursziele weichen deutlich nach unten von meinen eigenen Vorwochenprognosen ab, was die identifizierte systematische Überschätzungsverzerrung korrigieren soll.",
+      "uebereinstimmung_mit_haiku": "unbekannt",
+      "szenario_bedingungen": [
+        "Bitcoin hält die €52.000-Marke als Unterstützung und schließt mindestens zwei aufeinanderfolgende Tageskerzen oberhalb dieses Niveaus – Bestätigung des Bodens.",
+        "Fear & Greed Index steigt von 25 auf mindestens 35 innerhalb der nächsten 7 Tage – Indikator für nachlassenden Verkaufsdruck und beginnende Stimmungsverbesserung.",
+        "ETH beginnt BTC zu outperformen (ETH/BTC-Ratio steigt) ohne externe Sondernachrichten – typisches Signal für breitere Risikobereitschaft im Kryptomarkt, die BTC-Rebounds vorausläuft.",
+        "Bitcoin durchbricht €54.500 nach oben mit erhöhtem Volumen – Bestätigung einer technischen Gegenbewegung und Widerlegung des kurzfristigen Abwärtsszenarios."
+      ],
+      "haiku_kursziel_zum_vergleich": null,
+      "erstellt_am": "2026-08-04T00:11:18.832181"
+    },
+    {
       "datum": "2026-08-01",
       "kurs_eur": 54460,
       "identifizierte_schwachstellen": [
@@ -94,7 +126,10 @@
         "Bitcoin durchbricht €57.000 mit Tagesvolumen deutlich über dem 7-Tages-Durchschnitt – das würde einen technischen Trendbruch nach oben markieren und das 30-Tage-Ziel von €57.500 als Mindestziel erscheinen lassen."
       ],
       "haiku_kursziel_zum_vergleich": null,
-      "erstellt_am": "2026-07-30T00:02:05.853387"
+      "erstellt_am": "2026-07-30T00:02:05.853387",
+      "rueckblick_3_tage_erwartet_prozent": -0.6,
+      "rueckblick_3_tage_tatsaechlich_prozent": -2.33,
+      "rueckblick_3_tage_tatsaechlicher_kurs": 54438.202921892946
     },
     {
       "datum": "2026-07-28",
@@ -766,5 +801,5 @@
       "rueckblick_kurs_7_tage": 54505.1633858627
     }
   ],
-  "letzte_aktualisierung": "2026-08-01"
+  "letzte_aktualisierung": "2026-08-04"
 }
