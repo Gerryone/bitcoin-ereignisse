@@ -1,4 +1,4 @@
-# Aktualisiert: 2026-08-04 09:45
+# Aktualisiert: 2026-08-04 11:40
 #!/usr/bin/env python3
 """
 Claude (Sonnet) Bitcoin-Einschätzung
@@ -36,13 +36,26 @@ claude_fazit.json stehen und werden von der neuen Trefferquoten-
 Berechnung übersprungen (keine Rückwirkung, keine Vermischung der
 Skalen).
 
-GEÄNDERT (04.08.2026): Nach wiederholten "Ungültiges JSON von Claude:
-Unterminated string"-Fehlern (zuletzt bei nur ~5700 Zeichen, weit unter
-dem max_tokens=4096-Budget) wird jetzt zusätzlich stop_reason und
-output_tokens der API-Antwort geloggt, um die tatsächliche Abbruch-
-ursache beim nächsten Auftreten sichtbar zu machen. Bei einem
-JSON-Fehler wird außerdem die VOLLSTÄNDIGE Rohantwort (nicht nur die
-ersten 500 Zeichen) in claude_fazit_error_debug.json gespeichert.
+GEÄNDERT (04.08.2026, 09:45): Nach wiederholten "Ungültiges JSON von
+Claude: Unterminated string"-Fehlern (zuletzt bei nur ~5700 Zeichen,
+weit unter dem max_tokens=4096-Budget) wird jetzt zusätzlich
+stop_reason und output_tokens der API-Antwort geloggt, um die
+tatsächliche Abbruchursache beim nächsten Auftreten sichtbar zu
+machen. Bei einem JSON-Fehler wird außerdem die VOLLSTÄNDIGE Rohantwort
+(nicht nur die ersten 500 Zeichen) in claude_fazit_error_debug.json
+gespeichert.
+
+GEÄNDERT (04.08.2026, 11:40): Bis zu 3 Versuche (Original + 2 Retries)
+bei ungültigem JSON, mit 5 Sekunden Pause dazwischen - fängt einmalige
+Ausreißer ab, ohne den Freitext/die Begründungen zu kürzen (Punkt 1 aus
+der Diskussion wurde bewusst verworfen: Klartext-Begründungen sind der
+Zweck des Projekts und dürfen nicht gekappt werden). Bei Erfolg nach
+einem Retry wird die Anzahl benötigter Versuche als Feld
+"api_versuche" im gespeicherten Eintrag vermerkt, damit Ausreißer in
+claude_fazit.json sichtbar bleiben, ohne den gesamten Workflow neu
+laufen zu lassen. Scheitern alle 3 Versuche, enthält die Debug-Datei
+jetzt alle Rohantworten (nicht nur die letzte), um Abbruchmuster
+vergleichen zu können.
 """
 
 import json
@@ -111,20 +124,70 @@ def save_claude_fazit(daten, path="claude_fazit.json"):
         json.dump(daten, f, ensure_ascii=False, indent=2)
 
 
-def save_error_debug(response_text, stop_reason, output_tokens, error, path="claude_fazit_error_debug.json"):
-    """Speichert bei einem JSON-Fehler die vollständige Rohantwort samt
-    Diagnosedaten, damit der Fehler nicht nur an den ersten 500 Zeichen
-    im Actions-Log analysiert werden muss."""
+def save_error_debug(versuche_protokoll, path="claude_fazit_error_debug.json"):
+    """Speichert nach endgültigem Scheitern (alle Versuche fehlgeschlagen)
+    ALLE Rohantworten samt Diagnosedaten je Versuch, damit man vergleichen
+    kann, ob der Abbruch immer an derselben Stelle passiert oder nicht -
+    hilfreich, um Content- vs. Limit- vs. API-Flakiness-Ursachen zu
+    unterscheiden."""
     debug_daten = {
         "zeitpunkt": datetime.now().isoformat(),
-        "stop_reason": stop_reason,
-        "output_tokens": output_tokens,
-        "fehler": str(error),
-        "response_text_vollstaendig": response_text,
-        "response_text_laenge": len(response_text),
+        "anzahl_versuche": len(versuche_protokoll),
+        "versuche": versuche_protokoll,
     }
     with open(path, "w", encoding="utf-8") as f:
         json.dump(debug_daten, f, ensure_ascii=False, indent=2)
+
+
+def frage_claude_mit_retry(client, prompt, max_versuche=3, pause_sekunden=5):
+    """Fragt Claude bis zu max_versuche mal an, bis eine Antwort ein
+    gültiges JSON-Objekt ergibt. Gibt (result_dict, anzahl_versuche,
+    versuche_protokoll) zurück, oder (None, anzahl_versuche,
+    versuche_protokoll) wenn alle Versuche scheitern - versuche_protokoll
+    enthält für JEDEN Versuch stop_reason/output_tokens/Rohantwort/Fehler,
+    damit im Fehlerfall nichts verloren geht."""
+    versuche_protokoll = []
+
+    for versuch_nr in range(1, max_versuche + 1):
+        message = client.messages.create(
+            model="claude-sonnet-4-6",
+            max_tokens=4096,
+            messages=[{"role": "user", "content": prompt}],
+        )
+
+        stop_reason = message.stop_reason
+        output_tokens = message.usage.output_tokens
+        response_text = message.content[0].text.strip()
+
+        print(f"  Versuch {versuch_nr}/{max_versuche} - stop_reason: {stop_reason}, "
+              f"output_tokens: {output_tokens}", file=sys.stderr)
+
+        geparster_text = response_text
+        if "```json" in geparster_text:
+            geparster_text = geparster_text.split("```json")[1].split("```")[0].strip()
+        elif "```" in geparster_text:
+            geparster_text = geparster_text.split("```")[1].split("```")[0].strip()
+
+        eintrag_protokoll = {
+            "versuch": versuch_nr,
+            "stop_reason": stop_reason,
+            "output_tokens": output_tokens,
+            "response_text_vollstaendig": response_text,
+            "response_text_laenge": len(response_text),
+        }
+
+        try:
+            result = json.loads(geparster_text)
+            versuche_protokoll.append(eintrag_protokoll)
+            return result, versuch_nr, versuche_protokoll
+        except json.JSONDecodeError as e:
+            eintrag_protokoll["fehler"] = str(e)
+            versuche_protokoll.append(eintrag_protokoll)
+            print(f"    Versuch {versuch_nr}/{max_versuche} fehlgeschlagen: {e}", file=sys.stderr)
+            if versuch_nr < max_versuche:
+                time.sleep(pause_sekunden)
+
+    return None, max_versuche, versuche_protokoll
 
 
 # ─── Kursziel-Hilfsfunktionen (NEU 25.07.2026) ─────────────────────────────
@@ -521,39 +584,28 @@ def main():
     prompt = build_prompt(ereignisse_daten, eigene_historie, preise, fear_greed, heute, trefferquote_block)
 
     client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
-    message = client.messages.create(
-        model="claude-sonnet-4-6",
-        max_tokens=4096,
-        messages=[{"role": "user", "content": prompt}],
+
+    # NEU (04.08.2026, 11:40): bis zu 3 Versuche (Original + 2 Retries) bei
+    # ungültigem JSON, statt sofort abzubrechen - fängt einmalige Ausreißer
+    # (z.B. kurzzeitige API-Instabilität) ab, ohne den Prompt oder die
+    # gewünschten Klartext-Begründungen zu kürzen.
+    result, anzahl_versuche, versuche_protokoll = frage_claude_mit_retry(
+        client, prompt, max_versuche=3, pause_sekunden=5
     )
 
-    # NEU (04.08.2026): stop_reason und output_tokens IMMER loggen, damit
-    # bei einem erneuten JSON-Fehler sofort klar ist, ob wirklich das
-    # Token-Limit erreicht wurde oder die Antwort aus einem anderen Grund
-    # (z.B. end_turn mitten im JSON) vorzeitig endete.
-    stop_reason = message.stop_reason
-    output_tokens = message.usage.output_tokens
-    print(f"  stop_reason: {stop_reason}", file=sys.stderr)
-    print(f"  output_tokens: {output_tokens}", file=sys.stderr)
-
-    response_text = message.content[0].text.strip()
-
-    if "```json" in response_text:
-        response_text = response_text.split("```json")[1].split("```")[0].strip()
-    elif "```" in response_text:
-        response_text = response_text.split("```")[1].split("```")[0].strip()
-
-    try:
-        result = json.loads(response_text)
-    except json.JSONDecodeError as e:
-        print(f"\nFehler: Ungültiges JSON von Claude: {e}", file=sys.stderr)
-        print(f"stop_reason: {stop_reason}, output_tokens: {output_tokens}", file=sys.stderr)
-        print(f"Response (erste 500 Zeichen): {response_text[:500]}", file=sys.stderr)
-        # NEU (04.08.2026): vollständige Rohantwort + Diagnosedaten sichern,
-        # statt nur die ersten 500 Zeichen im Actions-Log zu haben.
-        save_error_debug(response_text, stop_reason, output_tokens, e)
-        print("Vollständige Rohantwort + Diagnosedaten gespeichert in claude_fazit_error_debug.json", file=sys.stderr)
+    if result is None:
+        print(f"\nFehler: Ungültiges JSON von Claude nach {anzahl_versuche} Versuchen", file=sys.stderr)
+        letzter_fehler = versuche_protokoll[-1].get("fehler", "unbekannt")
+        print(f"Letzter Fehler: {letzter_fehler}", file=sys.stderr)
+        # Vollständige Rohantworten ALLER Versuche + Diagnosedaten sichern,
+        # damit man vergleichen kann, ob der Abbruch immer an derselben
+        # Stelle passiert.
+        save_error_debug(versuche_protokoll)
+        print("Alle Rohantworten + Diagnosedaten gespeichert in claude_fazit_error_debug.json", file=sys.stderr)
         sys.exit(1)
+
+    if anzahl_versuche > 1:
+        print(f"  ✓ Gültiges JSON erst im Versuch {anzahl_versuche}/3 erhalten (Ausreißer)", file=sys.stderr)
 
     haiku_fazit_heute = next(
         (f for f in ereignisse_daten.get("fazits", []) if f.get("datum") == heute),
@@ -605,6 +657,7 @@ def main():
         "szenario_bedingungen": result.get("szenario_bedingungen", []),
         "haiku_kursziel_zum_vergleich": haiku_kursziel,
         "erstellt_am": datetime.now().isoformat(),
+        "api_versuche": anzahl_versuche,
     }
 
     eigene_historie.setdefault("fazits", [])
@@ -624,6 +677,8 @@ def main():
     gew = result.get("eigene_gewichtung", {})
     print(f"✓ Eigene Gewichtung: Bullish {gew.get('bullish')}% / "
           f"Bearish {gew.get('bearish')}% / Neutral {gew.get('neutral')}%")
+    if anzahl_versuche > 1:
+        print(f"⚠ Hinweis: {anzahl_versuche} API-Versuche nötig (siehe api_versuche im Eintrag)")
 
 
 if __name__ == "__main__":
