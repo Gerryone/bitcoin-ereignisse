@@ -1,6 +1,39 @@
 {
   "fazits": [
     {
+      "datum": "2026-08-05",
+      "kurs_eur": 53000,
+      "identifizierte_schwachstellen": [
+        "Kein Haiku-Fazit vorhanden – die Hauptaufgabe (Gegenprüfung eines konkreten Fazits) entfällt strukturell. Damit fehlt das eigentliche Prüfobjekt, und jede 'Kritik' wäre konstruiert. Das ist keine Schwachstelle in Haikus Analyse, sondern ein Datenloch im System selbst – das muss transparent benannt werden, statt so zu tun, als gäbe es etwas zu kritisieren.",
+        "Eigene Modellanfälligkeit (Kalibrierungsproblem): Meine drei letzten 7-Tage-Kursziele lagen alle in Richtung und Magnitude daneben (0% Richtungsquote, ø 3,9 Prozentpunkte Abweichung). Das deutet auf einen systematischen Bias hin: Ich tendiere zu leicht-bullishen oder neutralen Projektionen in einem Markt, der tatsächlich stärker fällt. Ohne konkretes Ereignis- oder Nachrichtenmaterial fehlt mir heute erneut jeder externale Anker – das erhöht das Risiko, denselben Fehler zu wiederholen.",
+        "Informationsvakuum als Falle: Weder Haiku-Fazit noch Tagesereignisse liegen vor. In solchen Situationen neigen KI-Systeme dazu, Muster aus den Vortagen zu extrapolieren und diese als 'Analyse' zu verkleiden. Das ist kein echtes Signal, sondern Rauschen mit analytischer Verpackung. Die Kursziele meiner Vortage (€52.500/52.000/53.500/54.500) wurden unter identischen Datenbedingungen erstellt und waren systematisch zu optimistisch."
+      ],
+      "staerkstes_gegenargument": "Das stärkste Argument gegen jede bearishe Projektion (inkl. meiner eigenen Tendenz): Bei €53.000 und Fear & Greed 27 befinden wir uns bereits tief im Fear-Bereich, der historisch als Contrarian-Kaufsignal gilt. Extremes Fear ohne weitere Nachrichtenverschlechterung kann ein Bodenindikator sein – wer hier short geht oder tief projiziert, könnte genau an dem Punkt stehen, an dem der Markt dreht. Die Abwesenheit negativer Nachrichten ist kein neutrales Signal, sondern könnte aktiv bullish sein, weil der Markt bereits viel Negativität eingepreist hat.",
+      "eigenes_kursziel_eur": {
+        "3_tage": 52500,
+        "7_tage": 52800,
+        "14_tage": 53500,
+        "30_tage": 54000
+      },
+      "eigene_einschaetzung": "Bitcoin verharrt bei €53.000 mit 0,0% Tagesveränderung und Fear & Greed bei 27 – ein Markt ohne direktionalen Impuls und ohne neue Informationen. Meine eigene Trefferquote von 0% in den letzten drei 7-Tage-Prognosen zwingt zur Demut: Ich habe wiederholt zu optimistische Kursziele gesetzt in einem Markt, der stärker gefallen ist als erwartet. Die heutige Informationslage (keine Events, kein Haiku) ist identisch mit den Vortagen, was mich zwingt, nahe am aktuellen Kurs zu bleiben und keine Extrapolation vorzutäuschen. Leicht bearish gewichtet wegen des anhaltenden Abwärtstrends seit Ende Juli, aber die Kursziele sind bewusst enger gefasst als bisher, um meinen bekannten Kalibrierungsfehler zu korrigieren.",
+      "eigene_gewichtung": {
+        "bullish": 25,
+        "bearish": 55,
+        "neutral": 20
+      },
+      "begruendung_bei_uebereinstimmung": "Keine Übereinstimmung mit Haiku möglich, da kein Haiku-Fazit existiert. Meine Kursziele weichen zudem bewusst von meinen Vortageszielen ab: Statt €52.000 als 7-Tage-Ziel (zu bearish extrapoliert) und statt €54.500 als 30-Tage-Ziel (zu optimistisch) setze ich engere Bänder um den aktuellen Kurs, um meinen dokumentierten Kalibrierungsfehler (systematisch zu optimistisch bei 7 Tagen, dabei Richtung verfehlt) zu adressieren. Die Abwesenheit von Ereignissen rechtfertigt keine starken Richtungsaussagen.",
+      "uebereinstimmung_mit_haiku": "unbekannt",
+      "szenario_bedingungen": [
+        "Bitcoin fällt unter €51.500: Bestätigt bearishes Szenario und würde 3/7-Tage-Ziele nach unten validieren – möglicher Auslöser wäre ein Durchbruch unter die Unterstützungszone ohne Bounce.",
+        "Fear & Greed fällt unter 20 (Extreme Fear): Contrarian-Signal für mögliche Bodenbildung; würde bullishes Gegenszenario aktivieren und 30-Tage-Ziel nach oben revidieren.",
+        "Bitcoin schließt zwei aufeinanderfolgende Tage über €54.500 mit positivem Volumen: Würde den seit Ende Juli bestehenden Abwärtstrend technisch brechen und bullishe Umgewichtung rechtfertigen.",
+        "Signifikante Makronachricht (Fed, ETF-Flows, regulatorisches Ereignis) tritt auf: Jede meiner Prognosen unter Informationsvakuum ist bei exogenem Schock hinfällig – der Markt reagiert überproportional auf News in Fear-Phasen."
+      ],
+      "haiku_kursziel_zum_vergleich": null,
+      "erstellt_am": "2026-08-05T00:05:07.562481",
+      "api_versuche": 1
+    },
+    {
       "datum": "2026-08-04",
       "kurs_eur": 53000,
       "identifizierte_schwachstellen": [
@@ -62,7 +95,10 @@
         "Kein weiterer Tagesschlusskurs unter €53.000 – Unterschreiten dieser Marke würde meine bearishe These verstärken und die 30-Tage-Kursziele nach unten verschieben."
       ],
       "haiku_kursziel_zum_vergleich": null,
-      "erstellt_am": "2026-08-01T00:03:21.578324"
+      "erstellt_am": "2026-08-01T00:03:21.578324",
+      "rueckblick_3_tage_erwartet_prozent": -1.21,
+      "rueckblick_3_tage_tatsaechlich_prozent": 1.27,
+      "rueckblick_3_tage_tatsaechlicher_kurs": 55153.09902063022
     },
     {
       "datum": "2026-07-31",
@@ -94,7 +130,10 @@
         "ETH/BTC-Ratio steigt spürbar an (ETH outperformt BTC um >3% über 48h) – Indikator für Risk-On-Rotation in den breiteren Kryptomarkt, der Bitcoin mittelfristig nach oben ziehen würde."
       ],
       "haiku_kursziel_zum_vergleich": null,
-      "erstellt_am": "2026-07-31T00:03:56.959646"
+      "erstellt_am": "2026-07-31T00:03:56.959646",
+      "rueckblick_3_tage_erwartet_prozent": -0.7,
+      "rueckblick_3_tage_tatsaechlich_prozent": -2.16,
+      "rueckblick_3_tage_tatsaechlicher_kurs": 54977.893355949054
     },
     {
       "datum": "2026-07-30",
@@ -164,7 +203,10 @@
       "erstellt_am": "2026-07-28T00:04:12.357544",
       "rueckblick_3_tage_erwartet_prozent": -1.46,
       "rueckblick_3_tage_tatsaechlich_prozent": 0.3,
-      "rueckblick_3_tage_tatsaechlicher_kurs": 56184.91540827129
+      "rueckblick_3_tage_tatsaechlicher_kurs": 56184.91540827129,
+      "rueckblick_7_tage_erwartet_prozent": 0.86,
+      "rueckblick_7_tage_tatsaechlich_prozent": -1.54,
+      "rueckblick_7_tage_tatsaechlicher_kurs": 55153.09902063022
     },
     {
       "datum": "2026-07-27",
@@ -198,7 +240,10 @@
       "erstellt_am": "2026-07-27T00:02:18.975797",
       "rueckblick_3_tage_erwartet_prozent": -0.97,
       "rueckblick_3_tage_tatsaechlich_prozent": -2.85,
-      "rueckblick_3_tage_tatsaechlicher_kurs": 55723.46049929949
+      "rueckblick_3_tage_tatsaechlicher_kurs": 55723.46049929949,
+      "rueckblick_7_tage_erwartet_prozent": -0.28,
+      "rueckblick_7_tage_tatsaechlich_prozent": -4.15,
+      "rueckblick_7_tage_tatsaechlicher_kurs": 54977.893355949054
     },
     {
       "datum": "2026-07-26",
@@ -233,7 +278,10 @@
       "erstellt_am": "2026-07-26T00:02:13.206113",
       "rueckblick_3_tage_erwartet_prozent": -0.6,
       "rueckblick_3_tage_tatsaechlich_prozent": -0.77,
-      "rueckblick_3_tage_tatsaechlicher_kurs": 56103.86951156116
+      "rueckblick_3_tage_tatsaechlicher_kurs": 56103.86951156116,
+      "rueckblick_7_tage_erwartet_prozent": 1.7,
+      "rueckblick_7_tage_tatsaechlich_prozent": -3.71,
+      "rueckblick_7_tage_tatsaechlicher_kurs": 54438.202921892946
     },
     {
       "datum": "2026-07-25",
@@ -801,5 +849,5 @@
       "rueckblick_kurs_7_tage": 54505.1633858627
     }
   ],
-  "letzte_aktualisierung": "2026-08-04"
+  "letzte_aktualisierung": "2026-08-05"
 }
