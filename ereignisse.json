@@ -1,6 +1,41 @@
 {
-  "letzte_aktualisierung": "2026-08-04",
+  "letzte_aktualisierung": "2026-08-05",
   "ereignisse": [
+    {
+      "datum": "2026-08-05",
+      "kategorie": "Technik",
+      "titel": "Coldcard-Exploit: $120M Bitcoin gestohlen, Multisig-Adoption wird zum Sicherheitsstandard",
+      "beschreibung": "Die Coldcard-Hardware-Wallet-Schwachstelle (5 Jahre alte Firmware-Lücke) hat zur Diebstahl von $120M Bitcoin geführt und 4.500 Adressen kompromittiert. Während Self-Custody-Vertrauen kollabiert, beschleunigt dies paradoxerweise die Adoption von regulierten Custody-Lösungen und Bitcoin-ETFs (Cantor, FRNT). Gold (€3.678,46) bleibt stabil und zeigt KEINE Flucht-Rally, was auf Kapital-Lähmung hindeutet – nicht auf klassische Safe-Haven-Rotation.",
+      "kursziel_eur_7_tage": 55500
+    },
+    {
+      "datum": "2026-08-05",
+      "kategorie": "Makro",
+      "titel": "Bitcoin ignoriert S&P-500-Rekordhoch, Gold gewinnt auf China-Nachfrage – Divergenz verschärft sich",
+      "beschreibung": "Während US-Aktien (MSCI World Index) neue Höchststände erreichten, stagniert Bitcoin bei €55.932 und fiel zu keinem signifikanten Rally-Impuls ein. Gold hingegen klettert auf 6-Wochen-Hoch (€3.678,46) dank chinesischer Nachfrage. Diese Entkopplung signalisiert, dass institutionelle Käufer Gold gegenüber Bitcoin bevorzugen – ein klassisches Sign für Risiko-Aversion trotz Equity-Rekords.",
+      "kursziel_eur_7_tage": 56200
+    },
+    {
+      "datum": "2026-08-04",
+      "kategorie": "Institutionell",
+      "titel": "SpaceX verbucht $540M Verlust auf Bitcoin-Holding – Elon Musk's Liquidations-Risiko eskaliert",
+      "beschreibung": "SpaceX meldete für Q2 2026 einen $540M Papierverlust auf Bitcoin-Bestände, obwohl kein BTC verkauft wurde. Gleichzeitig startete eine 11%-Aktienverkaufswelle vor Lockup-Expiration infolge Capex-Sorgen. Das Signal ist klar: Institutional holders wie Musk reduzieren indirekt Crypto-Exposure durch Equity-Rebalancing, nicht durch aktive BTC-Verkäufe – eine Liquiditätsfalle für Recovery-Szenarien.",
+      "kursziel_eur_7_tage": 54800
+    },
+    {
+      "datum": "2026-08-05",
+      "kategorie": "Regulierung",
+      "titel": "CLARITY Act vor Sommerpause in Gefahr – Crypto-Policy-Roadmap bleibt fragmentiert, Senator Lummis unter Druck",
+      "beschreibung": "Senator Lummis drängt auf CLARITY-Abstimmung VOR August-Recess, aber Fairshake-PAC verliert Detroit-Primary trotz $2M-Investition – ein Anzeichen politischer Gegenwind. Gleichzeitig fragt Senator Warren Trump-Admin zur AI-Chip-Politik und Crypto-Verbindungen. Regulatory-Clarity bleibt 2026 ein Versprechen, kein Katalysator.",
+      "kursziel_eur_7_tage": 55200
+    },
+    {
+      "datum": "2026-08-05",
+      "kategorie": "Makro",
+      "titel": "Arthur Hayes: AI-Credit-Bubble wird Bitcoin zu $1M treiben – Aber erst nach Crack & Bailout-Zyklus",
+      "beschreibung": "Maelstrom-Gründer Hayes prognostiziert, dass überleveraged AI-Datacenter-Ausgaben zum Crack führen, Regierungen bailout müssen und Gelddrucken folgt – der nächste Bitcoin-Katalysator. Dies ist NICHT bullish near-term (€55.932 heute), sondern mid-cycle-Prognose für 2027–2028. Fear-Index bei 27 (Apathie) spiegelt Unglauben an diesem Szenario.",
+      "kursziel_eur_7_tage": 55800
+    },
     {
       "datum": "2026-08-04",
       "kategorie": "Institutionell",
@@ -385,44 +420,35 @@
       "titel": "Clarity Act verfehlt Sommerferien-Deadline – demokratische Bedenken zu Ethik-Regeln bremsen finale Passage",
       "beschreibung": "Senatsmehrheitsführer Thune bestätigt, dass das Crypto Market Structure Bill vor Sommerpause nicht abgestimmt wird, obwohl Präsident Trump bereits auf Konzessionen zu Limits seiner persönlichen Crypto-Deals einging. Demokratische Kritik an mangelhaften Safeguards suggeriert, dass politischer Konsens fragmentiert bleibt – auch wenn White House Zugeständnisse machte, fehlt breite legislative Rückendeckung.",
       "einschaetzung_numerisch": -2
-    },
-    {
-      "datum": "2026-07-24",
-      "kategorie": "Institutionell",
-      "titel": "Bitcoin-ETF-Ausflüsse brechen Zufluss-Streak – $225M Nettoabfluss nach siebentägiger Kaufserie",
-      "beschreibung": "Nach sieben aufeinanderfolgenden Tagen mit Nettozuflüssen von knapp $1 Mrd. verzeichneten US-gelistete Spot-Bitcoin-ETFs am 24. Juli erstmals wieder einen Nettoabfluss von $225M. Dieses Umkehrsignal trifft auf einen Bitcoin-Kurs von €57.142 (+3,3% zum Jahreshoch Anfang Juli), während Gold (€3.559,70) und Silber (€51,37) seitwärts laufen – ein Zeichen, dass institutionelle Käufer nicht aus Inflationsangst, sondern aus taktischer Gewinnmitnahme verkaufen.",
-      "einschaetzung_numerisch": -2
-    },
-    {
-      "datum": "2026-07-24",
-      "kategorie": "Regulierung",
-      "titel": "Poolin Mining Pool reicht Chapter 11 Insolvenz ein – Bitcoin-Mining-Konsolidierung beschleunigt sich",
-      "beschreibung": "Der chinesische Mining-Pool Poolin, einer der größten Produzenten von Bitcoin-Blockspace, reichte Chapter 11 Konkurs ein und liquidiert zwei westliche Mining-Operationen für $52M. Dies markiert die zweite gravierende Störung der Mining-Infrastruktur innerhalb von 48 Stunden nach BitMEX-Shutdown und signalisiert Margin Compression bei dezentralen Bitcoin-Produzenten unter regulatorischem und energetischem Druck.",
-      "einschaetzung_numerisch": -3
-    },
-    {
-      "datum": "2026-07-24",
-      "kategorie": "Makro",
-      "titel": "$800M Tech-Sektor-Selloff verschont Bitcoin knapp – AI-Spending-Skepsis breitet sich aus, aber Risk-Off noch unterhalb kritischer Schwelle",
-      "beschreibung": "Nach massiven Gewinnwarnungen von Alphabet und Tesla (Magnificent Seven worst day seit April 2025) fiel Bitcoin nur 0,6% auf €57.142, während der breite Tech-Sektor $800M verlor. Gold (€3.559,70) und Silber (€51,37) legten nicht parallel zu, was darauf hindeutet, dass dies kein klassisches Inflations-/Krisenangst-Szenario ist, sondern eine sektoral begrenzte Rotation aus High-Capex-Tech-Playern.",
-      "einschaetzung_numerisch": -1
-    },
-    {
-      "datum": "2026-07-24",
-      "kategorie": "Institutionell",
-      "titel": "Mirae Asset Group rebrandet Korbit zu Digital X – südkoreanische Mainstream-Finanzgruppe normalisiert Crypto-Infrastruktur",
-      "beschreibung": "Der $1-Billionen-Vermögensverwalter Mirae Asset baut Korbit (Südkoreas älteste Krypto-Börse) zu Digital X um und plant ein Ökosystem für tokenisierte Assets, Stablecoins und RWAs. Dies ist ein strukturell bullish Signal für Crypto-Mainstream-Integration, relativiert aber Bitcoins Monopol-Narrative – Institutional Adoption läuft über Multi-Asset-Plattformen, nicht Bitcoin-Monokulturen.",
-      "einschaetzung_numerisch": 1
-    },
-    {
-      "datum": "2026-07-23",
-      "kategorie": "Regulierung",
-      "titel": "EU weitet Belarus-Eigentumsverbot auf alle Crypto-Dienstanbieter aus – MiCA-Durchsetzung wird politisch",
-      "beschreibung": "Die EU verhängt ab 25. August ein Komplettverbot für belarussische Staatsangehörige und Bewohner, Krypto-Börsen und MiCA-regulierte Finanzdienstleister zu kontrollieren. Dies signalisiert Verhärtung geopolitischer Compliance und erhöht Operating-Costs für international tätige Plattformen, während Bitcoin-Self-Custody weiterhin umgangen wird.",
-      "einschaetzung_numerisch": -1
     }
   ],
   "fazits": [
+    {
+      "datum": "2026-08-05",
+      "kursziel_eur": {
+        "3_tage": 55400,
+        "7_tage": 55200,
+        "14_tage": 53800,
+        "30_tage": 51000
+      },
+      "kurs_eur": 55932,
+      "gold_eur": 3678.46,
+      "silver_eur": 53.82,
+      "einschaetzung": "Bitcoin verweilt in apathischer Lähmung (€55.932, +0,5% 24h) während institutionelle Katalysatoren implodieren. Der Coldcard-Exploit ($120M), SpaceX-Bilanzverluste ($540M auf BTC), CLARITY-Act-Gegenwind und Regulatory-Fragmentierung untergraben gleichzeitig Three Pillars: Self-Custody-Vertrauen, Institutional Adoption und Political Momentum. Gold (€3.678,46) steigt parallel auf 6-Wochen-Hoch dank China-Nachfrage – ein klassisches Sign, dass vermögende Akteure zu klassischen Safe-Havens migrieren, nicht zu volatilen Crypto-Assets. Der Fear-Index (27) diagnostiziert nicht Panik, sondern Kapitallähmung: Niemand kauft Bitcoin als Hedge gegen Inflation (PCE sinkt), und es gibt keine Flucht aus Equities (S&P 500 neue Rekordhöhe). Bitcoin handelt jetzt als Rumor-Mill-Derivat institutioneller Positionierung, nicht als eigenständiges Narrativ. Die nächsten 7 Tage sollten Stabilisierung unter €55.500 bringen, bevor die 14-Tage-Abwärtsbewegung zu €53.800 Konsolidierungszone beschleunigt.",
+      "gewichtung": {
+        "bullish": 25,
+        "bearish": 65,
+        "neutral": 10
+      },
+      "schluessel_niveau_eur": 52500,
+      "schluessel_niveau_erklaerung": "€52.500 ist das 61,8%-Fibonacci-Retracement der Mai–Juni-Rally (€32.000 → €62.800) und markiert die Kaskadenzone, unter der Liquidationen gegen €49.000–€50.500 (primäre Stop-Loss-Cluster) sehr wahrscheinlich werden. Ein stabiler Schluss unter €52.500 über 3+ Tage würde das Bären-Narrativ für Q3/Q4 verfestigen und Retail-Liquidationen auslösen.",
+      "naechster_katalysator": "CLARITY-Act-Abstimmung vor August-Recess (falls stattfindet): Ablehnung = -5% Bitcoin; Annahme = +3–5% kurzfristig. Alternativ: Fed-Aussagen zur PCE-Dynamik (PCE sinkt, aber hawkish-Haltung bleibt) – könnten Risk-On-Umkehr signalisieren oder Risk-Off verstärken.",
+      "szenario_bedingungen": [
+        "Szenario A (Bullish, Wahrscheinlichkeit 25%): CLARITY Act wird VOR Sommerpause abgestimmt und ANGENOMMEN → Samsung-Galaxy-Wallet-Integration + Circle New York Charter beschleunigen Consumer-Adoption → Bitcoin stabilisiert über €56.500 und testet €58.000 in 30 Tagen.",
+        "Szenario B (Bearish, Wahrscheinlichkeit 65%): CLARITY Act scheitert oder wird verschoben, Coldcard-Vertrauenskrise bleibt ungelöst, SpaceX/Musk-Liquidationen setzen sich fort, Gold bleibt stark (€3.700+) → Bitcoin fällt unter €52.500 und testet €49.000–€50.000 in 14–30 Tagen; Fear-Index sinkt weiter unter 20.",
+        "Szenario C (Neutral, Wahrscheinlichkeit 10%): Bitcoin konsolidiert in Range €54.000–€57.000 über 30 Tage, während Gold und Bitcoin divergent laufen; Institutional Adoption stagniert, aber keine akute Crash-Trigger (außer CLARITY-Scheitern)."
+      ]
+    },
     {
       "datum": "2026-08-04",
       "kursziel_eur": {
@@ -500,7 +526,20 @@
         "BULLISH: CLARITY Act wird bis 08.08.2026 ratifiziert UND BTC schliesst über €56.500 → Kursziel 14T: €58.800",
         "BEARISH: CLARITY Act scheitert erneut UND Trump Media verkauft weitere >1.000 BTC UND Fear-Index fällt unter 20 → Kursziel 14T: €48.200",
         "NEUTRAL: CLARITY wird vertagt, aber ETF-Zuflüsse bleiben >$100M/Woche UND Coldcard-Hacks stoppen → Kursziel 14T: €53.800"
-      ]
+      ],
+      "rueckblick": {
+        "damaliger_kurs_eur": 54906,
+        "damalige_ziele_eur": {
+          "3_tage": 54200,
+          "7_tage": 52900,
+          "14_tage": 51200,
+          "30_tage": 48500
+        },
+        "heutiger_kurs_eur": 55932,
+        "performance_vs_3_tage_ziel": "+3,2% vs. Prognose (€54.200)",
+        "performance_vs_7_tage_ziel": "+5,8% vs. Prognose (€52.900)",
+        "rückblick": "Das 3-Tage-Ziel (€54.200) war zu pessimistisch und unterschätzte technische Unterstützungen um €54.500–€55.000. Bitcoin erholte sich leicht auf €55.932, was die damalige Kapitulations-These (Cascade-Liquidationen sofort bevorstehend) NICHT bestätigte. Allerdings bleibt die Struktur-Krise intakt: Gold divergiert weiterhin (€3.678,46 heute vs. €3.540 am 2.Aug), ETF-Zuflüsse bleiben minimal, und Miner-Difficulty fällt weiterhin. Der 7-Tage-Zielkurs (€52.900) war zu aggressiv bearish für einen 3-Tage-Horizont – Bitcoin benötigte 5–7 Tage, um diese Marke zu testen, nicht 3. Selbstkritik: Die Prognose unterschätzte Volatilitäts-Clustering nach Coldcard-Exploit; das Sentiment war zwar apathisch (Fear 27), aber nicht stark genug, um sofortige Cascade-Liquidationen auszulösen. Nächste 7 Tage sollten JETZT zeigen, ob €52.500 hält oder bricht – dieses Level bleibt kritisch für Q3-Narrative."
+      }
     },
     {
       "datum": "2026-08-01",
