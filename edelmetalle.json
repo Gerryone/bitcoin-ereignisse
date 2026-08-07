@@ -1,6 +1,14 @@
 {
   "kurse": [
     {
+      "datum": "2026-08-07",
+      "gold_eur": 3679.08,
+      "gold_usd": 4246.399902,
+      "silver_eur": 53.638,
+      "silver_usd": 61.909,
+      "usd_eur": 0.8664
+    },
+    {
       "datum": "2026-08-05",
       "gold_eur": 3678.46,
       "gold_usd": 4250.100098,
@@ -233,5 +241,5 @@
       "usd_eur": 0.922
     }
   ],
-  "letzte_aktualisierung": "2026-08-05"
+  "letzte_aktualisierung": "2026-08-07"
 }

@@ -1,6 +1,41 @@
 {
-  "letzte_aktualisierung": "2026-08-05",
+  "letzte_aktualisierung": "2026-08-07",
   "ereignisse": [
+    {
+      "datum": "2026-08-06",
+      "kategorie": "Regulierung",
+      "titel": "US Senate stimmt diese Woche über CLARITY Act ab – Tim Scott bestätigt Abstimmung",
+      "beschreibung": "Senator Tim Scott kündigte an, dass der US Senate diese Woche definitiv über den CLARITY Act abstimmen wird – ein entscheidender pro-Krypto-Regulierungsrahmen, der seit Wochen ins Stocken geraten war. Bitcoin notiert bei €55.820 EUR im Fear-Sentiment (Index 29), während Gold bei €3.679,08 EUR seitwärts läuft – deutet darauf hin, dass dies ein Crypto-spezifisches, nicht systemisches Ereignis ist. Ein erfolgreicher CLARITY-Pass würde institutionelle Unsicherheit um Börse/Custody senken und könnte 2–4% Upside freisetzen.",
+      "kursziel_eur_7_tage": 56800
+    },
+    {
+      "datum": "2026-08-06",
+      "kategorie": "Institutionell",
+      "titel": "Hyperliquid ETF Zuflüsse kollabiert nach Highflyer-Mai/Juni – Konkurrenzangst wächst",
+      "beschreibung": "JPMorgan berichtet, dass Hyperliquid-Produkte nach massiven Zuflüssen in Mai/Juni im Juli/August zum Stillstand kamen, da neue Konkurrenz (Solana, andere Layer-2s) Kapital abzweigt. Dies ist ein Zeichen, dass Institutional-Appetite sich diversifiziert – nicht verschwindet. Bitcoin bleibt relativ stabil bei €55.820 EUR, während Silber mit €53,638 EUR ebenfalls stagniert: Rot-Flag für breiteren Risk-Off, nicht nur für einzelne Produkte.",
+      "kursziel_eur_7_tage": 55500
+    },
+    {
+      "datum": "2026-08-06",
+      "kategorie": "Technik",
+      "titel": "Bitcoin Core Audit findet 85 kritische Bugs pro Person/Tag – Developer Emergency rückt näher",
+      "beschreibung": "Ein volunteer-gestütztes AI-Audit-Team identifizierte rund 85 kritische Bugs im Bitcoin-Codebase, durchschnittlich eine Pro-Person pro Stunde bei ~$10.000 täglicher Compute-Kosten. Dies ist kein Breaking-Change-Ereignis, aber signalisiert, dass Bitcoin-Entwicklung unter Ressourcen-Stress steht – möglicherweise Pretext für Regulatoren, Bitcoin als \"unstable\" zu charakterisieren. Kurzzeitig bearish für Narrative, aber langfristig positive Triage für Netzwerk-Sicherheit.",
+      "kursziel_eur_7_tage": 55200
+    },
+    {
+      "datum": "2026-08-07",
+      "kategorie": "Institutionell",
+      "titel": "Wintermute registriert als US Broker-Dealer – Market-Maker Professionalisierung beschleunigt",
+      "beschreibung": "Crypto Market-Maker Wintermute hat sich als US Broker-Dealer registrieren lassen, ein Zeichen dafür, dass Maker-Infrastruktur dezentral werdende, aber gleichzeitig reguliert wachsende Professionalisierung spiegelt. Dies ist langsam-bullish für Liquidität und Volatilitäts-Stabilisierung, aber nicht unmittelbar kurspräsentierend. Bitcoin €55.820 EUR bewegt sich seitwärts, Gold €3.679,08 EUR parallel – kein Flight-to-Safety erkennbar.",
+      "kursziel_eur_7_tage": 55900
+    },
+    {
+      "datum": "2026-08-06",
+      "kategorie": "OnChain",
+      "titel": "XRP Whales akkumulieren leise auf Dips, ETH zeigt tiefere Kapitulation – Divergenz in Top-3",
+      "beschreibung": "CryptoQuant beobachtet, dass große XRP-Spot-Order ruhige Akkumulation deuten (nicht Ausbruch), während ETH-Holder unter Realized Value sitzen und die stärkste Valuation-Begründung unter BTC/ETH/XRP haben. Dies unterstreicht, dass Institutional-Allocators selektiv bleiben – nicht blind auf Alts kaufen. ETH bei €1.652 EUR zeigt relative Schwäche vs. Bitcoin, Signal für Rotation hin zu Core-Assets.",
+      "kursziel_eur_7_tage": 55700
+    },
     {
       "datum": "2026-08-05",
       "kategorie": "Technik",
@@ -385,44 +420,35 @@
       "titel": "Fear & Greed Index fällt auf 26 (Fear) – tiefste Lesart seit Clarity-Act-Kollaps, aber Bitcoin-Kurse zeigen Dekoupling",
       "beschreibung": "Der Crypto-Sentiment-Indikator notiert in extremer Fear-Zone (26/100), doch Bitcoin verliert nicht entsprechend an Wert. Dies ist entweder ein bullisches Divergenz-Signal (Kapitulation-Buy-Opportunities) oder ein Zeichen, dass der Index nicht mehr institutionelle Flows reflektiert. Gold (€3.597,36 EUR) und Silber (€52,68 EUR) zeigen ebenfalls keine Panik-Rallye – die Fear wird als psychologisch eher denn fundamental wahrgenommen. Nur ein Bruch unter €54.000 EUR würde klassische Fear-Confirmation bringen.",
       "kursziel_eur_7_tage": 57400
-    },
-    {
-      "datum": "2026-07-24",
-      "kategorie": "Regulierung",
-      "titel": "EU verhängt 21. Sanktionspaket gegen Russland – HTX und 13 weitere Crypto-Anbieter gezielt sanctioniert",
-      "beschreibung": "Die EU beschließt massive Sanktionen im Umfang von $120 Mrd. gegen Russland und nimmt erstmals gezielt Crypto-Dienstanbieter ins Visier, darunter die HTX-Börse. Dies signalisiert eine Eskalation der regulatorischen Kontrolle über Crypto-Infrastruktur als geopolitisches Druckmittel und könnte Liquidität aus der EU-Zone abziehen. Bitcoin fällt unter €64.000, während Gold (€3.563,08) stabil bleibt – kein paralleles Flucht-Szenario erkennbar.",
-      "einschaetzung_numerisch": -2
-    },
-    {
-      "datum": "2026-07-24",
-      "kategorie": "Institutionell",
-      "titel": "Bitcoin Treasury Companies liquidieren Holdings – Debt-Druck und Aktienkollaps erzwingen Pivot zu AI",
-      "beschreibung": "Ehemalige Bitcoin-Akkumulatoren wie Michael Saylor's Strategy müssen angesichts fallender Aktienpreise, Schuldverpflichtungen und bärenmarkt-Druck ihre BTC-Bestände verkaufen und umstrukturieren. Saylor's Team überarbeitet Kennzahlen zur Transparenzoptimierung, signalisiert aber zugleich Notwendigkeit von Derisking. Dies verstärkt strukturellen Verkaufsdruck bei Bitcoin und delegitimiert das \"Crypto Treasury\"-Narrativ.",
-      "einschaetzung_numerisch": -3
-    },
-    {
-      "datum": "2026-07-24",
-      "kategorie": "OnChain",
-      "titel": "Poolin Mining Pool reicht Insolvenz mit $173M Schulden ein – Bitcoin-Mining-Konsolidierung beschleunigt sich",
-      "beschreibung": "Der ehemals größte Bitcoin-Mining-Pool (≈20% Hashrate-Anteil) aus Singapur meldet Konkurs an und verkauft verbleibende Assets. Dies markiert eine Stufe der Mining-Infrastruktur-Kollapse und signalisiert, dass auch große spezialisierte Betreiber unter aktueller Profitabilität leiden. Bitcoin unter €56.000, Fear Index 27 – Mining-Stress wird nicht als existenziell betrachtet, reflektiert aber anhaltende Fundamentalschwäche.",
-      "einschaetzung_numerisch": -2
-    },
-    {
-      "datum": "2026-07-24",
-      "kategorie": "Makro",
-      "titel": "Brent-Rohöl rallyt auf $97,66 – höchstes Niveau seit Mai durch Iran-Konflikt, Bitcoin bleibt unbeeindruckt",
-      "beschreibung": "Ölpreis springt nahe $100 aufgrund anhaltender Iran-Eskalation, bietet klassisches Inflations-Signal. Bitcoin aber fällt 2,3% auf €56.058, während Gold mit €3.563,08 parallel zu Bitcoin schwach bleibt (nicht Rally wie in echtem Krisenszenario). Dies zeigt: Markt bewertet Ölvolatilität nicht als systemisch inflationär, sondern als geopolitisches Noise – Bitcoin und Safe-Haven-Assets decoupling, nicht converging.",
-      "einschaetzung_numerisch": -1
-    },
-    {
-      "datum": "2026-07-24",
-      "kategorie": "Regulierung",
-      "titel": "Clarity Act verfehlt Sommerferien-Deadline – demokratische Bedenken zu Ethik-Regeln bremsen finale Passage",
-      "beschreibung": "Senatsmehrheitsführer Thune bestätigt, dass das Crypto Market Structure Bill vor Sommerpause nicht abgestimmt wird, obwohl Präsident Trump bereits auf Konzessionen zu Limits seiner persönlichen Crypto-Deals einging. Demokratische Kritik an mangelhaften Safeguards suggeriert, dass politischer Konsens fragmentiert bleibt – auch wenn White House Zugeständnisse machte, fehlt breite legislative Rückendeckung.",
-      "einschaetzung_numerisch": -2
     }
   ],
   "fazits": [
+    {
+      "datum": "2026-08-07",
+      "kursziel_eur": {
+        "3_tage": 55800,
+        "7_tage": 55900,
+        "14_tage": 56800,
+        "30_tage": 58500
+      },
+      "kurs_eur": 55820,
+      "gold_eur": 3679.08,
+      "silver_eur": 53.638,
+      "einschaetzung": "Bitcoin konsolidiert hartnäckig bei €55.820 EUR inmitten eines strukturellen \"Waiting-Game\" vor drei Katalysatoren: (1) Senate-Abstimmung zu CLARITY Act diese Woche, (2) US Jobs-Report am Freitag mit Folgen für Treasury-Yields und Dollar-Stärke, (3) $101B SpaceX-Aktienfreigabe am Donnerstag (Diversifikations-Druck für Elon-Ecosystem). Gold (€3.679,08 EUR) läuft parallel statt divergent, was bestätigt, dass die aktuelle Schwäche CRYPTO-SPEZIFISCH (Regulatory-Risiko, Custody-Angst nach Coldcard) und NICHT makro (Inflations-/Krisenflucht) ist. Fear & Greed bei 29 (Fear) ist kein Kapitulations-Extreme mehr – Sentiment dreht in Apathie um, was Liquiditätsmangel statt Panik-Verkäufe bedeutet. Hyperliquid-Stagnation und Miner-Schwäche zeigen, dass Institutional-Appetite zwar wächst (Wintermute, Samsung, BNY), aber selektiv und risikoavers verteilt wird.",
+      "gewichtung": {
+        "bullish": 35,
+        "bearish": 50,
+        "neutral": 15
+      },
+      "schluessel_niveau_eur": 54200,
+      "schluessel_niveau_erklaerung": "€54.200 ist die technische 7-Tage-Unterstützung und markiert den Unterkante des aktuellen Seitwärtsbandes (€54.200–€56.500). Ein Bruch darunter würde Kapitulation unterhalb der jüngsten Hochs signalisieren und Test von €51.500–€52.800 (200-Tages-MA äquivalent bei aktuellen EUR-Kursen) auslösen. Ein Halten über €54.200 mit Konsolidierung über €56.000 würde dagegen Bärenmarkt-Floor bestätigen und Accumulation bis zur CLARITY-Abstimmung / Jobs-Report anzeigen.",
+      "naechster_katalysator": "Senate CLARITY Act Abstimmung diese Woche (regulatorischer Headline) + US Jobs-Report Freitag (Makro-Kontext für Dollar/Yields). Falls CLARITY passiert und NFP stärker ausfällt als erwartet, könnte Bitcoin zu €57.500–€58.800 EUR springen; falls beide schwach ausfallen, Test von €53.500–€54.200 EUR.",
+      "szenario_bedingungen": [
+        "CLARITY Act Abstimmung diese Woche: PASS → +€1.500–€2.000 EUR Upside zur €57.500-Marke; FAIL/Verschiebung → zusätzliches -2–3% Bearish-Signal zu €54.000–€54.500 EUR",
+        "US NFP Freitag (Konsensus: ~185k): Wenn >200k UND Wage Growth >0.4% MoM → Dollar-Stärke bleibt, Treasury-Yields steigen, Bitcoin unter €55.000 EUR Druck; wenn <150k → Risk-Off senkt Yields, Bitcoin profitiert bis €56.500–€57.200 EUR",
+        "SpaceX $101B Unlock Donnerstag: Falls Elon/Tesla/Musk-Ecosystem-Diversifikationen bekannt werden → zusätzlicher psychologischer Druck auf Institutional-Confidence, Ziel €54.500–€55.200 EUR; kein Unlock-News → technisch neutral"
+      ]
+    },
     {
       "datum": "2026-08-05",
       "kursziel_eur": {
@@ -474,7 +500,13 @@
         "Wenn BNY/Wells Fargo/Samsung-Infrastruktur-News Retail-FOMO auslöst und ETF-Zuflüsse positiv drehen: €57.200+ EUR im 14-Tage-Horizont möglich, mit Ziel €59.500 EUR im 30-Tage-Szene.",
         "Wenn SpaceX/Trump-Regulatory-Risiken eskalieren oder neuer Institutional-Hack emerges: Bitcoin fällt unter €53.800 EUR und sucht Support bei €52.000–€52.500 EUR (Margin-Call-Cascade-Szene).",
         "Wenn Gold unter €3.500 EUR oder Silber unter €50 EUR fällt: Dies würde auf breite Risk-Off-Dynamik hindeuten, was Bitcoin zu €51.000–€52.000 EUR ziehen könnte; aktuell kein Signal davon."
-      ]
+      ],
+      "rueckblick": {
+        "prognose_damals": "Kursziele 3/7/14/30 Tage: €55.200 / €55.100 / €54.500 / €57.200 | Kurs damals: €55.648 EUR",
+        "kurs_heute": "€55.820 EUR",
+        "bewertung": "TEILWEISE KORREKT, ABER FEHLERHAFTE INTERPRETATION: Die Prognose erwartete Seitwärtskonsolidierung (€54.500–€57.200 Bandbreite) und ein Hold über €53.800 EUR als Whale-Akkumulations-Signal – dies ist eingetreten (Bitcoin sitzt bei €55.820, kein Break unter €53.800). Allerdings war die Begründung zu bullish: Die Annahme, dass Institutional-Custody-Wachstum (BNY, Samsung, BlackRock) die Coldcard-Self-Custody-Flucht kompensieren würde, hat sich als VERZÖGERT herausgestellt. ETF-Inflows stagnieren (Hyperliquid-Crash), und CLARITY-Momentum bricht ein (Tyler Williams Exit), was bedeutet, dass der erwartete Bounce zu €56.500–57.200 bis Ende August UNWAHRSCHEINLICH wird. Der Rückblick muss lauten: Whale-Akkumulation bestätigt (technisch), aber Institutional-Confidence bricht ein (fundamental) – Netto-Neutral mit bearischem Bias für die nächsten 7 Tage.",
+        "selbstkritik": "Fehler 1: Zu sehr auf Custody-Infrastruktur-Verbesserung fokussiert (BNY, Samsung), ohne zu sehen, dass Regulierungsunsicherheit (Tyler Williams, CLARITY-Stagnation) die Narrative dominiert. Fehler 2: Gold/Silber-Flach-Annahme als ‚spezifisch Crypto-Verkauf' interpretiert, aber nicht berücksichtigt, dass Flach auch bedeutet: kein neues Geld, nur Umverteilung bestehender Bestände – das ist eher Bärenmarkt-Signal als bullish. Korrekt: Das €53.800-Hold hielt ein, aber die Konsequenz war Stagnation, nicht Bounce."
+      }
     },
     {
       "datum": "2026-08-03",
@@ -500,7 +532,13 @@
         "SZENARIO BULLISH (Kursziel 3T: €56.200, 7T: €56.800): CLARITY Act passiert Senate vor 15. August UND US-Jobs-Bericht zeigt Schwäche (USD-Rotation), BlackRock Tokenisierung katalysiert erste $100M+ Zuflüsse, Coldcard-Losses stabilisieren sich unter $100M.",
         "SZENARIO BEARISH (Kursziel 3T: €53.500, 7T: €51.800): Tyler Williams-Exit signalisiert Regulatory-Retreat, CLARITY stagniert in Sommerpause, US-Jobs-Daten bleiben stark (USD bleibt dominant), Strategy und andere Corporates erhöhen Verkäufe, Fear-Index fällt unter 20.",
         "SZENARIO NEUTRAL (Kursziel 3T: €54.800, 7T: €53.900): Bitcoin konsolidiert sich in €52.500–€56.500, Coldcard-Bug ist isoliert (keine Ansteckung auf andere Hardware), institutionelle BlackRock-Nutzung wächst still, ETF-Flüsse bleiben flat, Senate verschiebt CLARITY auf September post-Pause."
-      ]
+      ],
+      "rueckblick": {
+        "prognose_damals": "Kursziele 3/7/14/30 Tage: €54.800 / €53.900 / €52.500 / €50.200 | Kurs damals: €55.200 EUR",
+        "kurs_heute": "€55.820 EUR",
+        "bewertung": "STARK FEHLERHAFT, ABER RICHTIGER ANGST-RAHMEN: Die Prognose vom 3.8. war massiv bearish (30-Tage-Ziel €50.200 EUR, -9% vom damaligen Kurs) und basierte auf Saylor-Diversifikation (1.638 BTC Verkauf zu $105M STRC-Rotation) als psychologisches Red Flag. Bitcoin ist seitdem GESTIEGEN von €55.200 auf €55.820 EUR (+1,1%), nicht gefallen. Die 3-Tage-Prognose (€54.800) und 7-Tages-Prognose (€53.900) waren beide zu niedrig. Jedoch: Die Begründung war richtig – die Angst VOR Margin-Call-Kaskaden und Liquidationen war berechtigt, kam aber nicht (Whales hielten). Der Fehler war die Annahme, dass Saylor-Verkauf ein Dominoe-Effekt triggern würde; stattdessen blieb er isoliert (STRC-Umstrukturierung, nicht Panik-Verkauf).",
+        "selbstkritik": "Fehler 1: Saylor-Verkauf als Systemisches Signal überinterpretiert. Michael Saylor verkauft seit Q2 2026 regelmäßig (Dividendenzahlung, STRC-Aktienrückkauf-Finanzierung), nicht Notfall-Liquidation. Fehler 2: Fear-Index bei 28 als ‚Kapitulations-Trigger' angenommen, aber 28 ist nicht Extreme (echte Kapitulation ist <15). Fehler 3: €50.200 30-Tage-Ziel viel zu bearish ohne konkrete Trigger (CLARITY-Fail war hypothetisch, nicht bestätigt). Korrekt: Das Sentiment war tatsächlich am Schlechtesten um 3.8.; Bitcoin hat sich gerade noch über €55k gehalten statt unter €54k zu fallen – das war grenzwertig."
+      }
     },
     {
       "datum": "2026-08-02",
