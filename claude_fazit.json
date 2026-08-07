@@ -1,6 +1,45 @@
 {
   "fazits": [
     {
+      "datum": "2026-08-07",
+      "kurs_eur": 55820,
+      "identifizierte_schwachstellen": [
+        "SpaceX-Aktienfreigabe als Katalysator ist methodisch schwach hergeleitet: Die Annahme, dass eine $101B Aktienfreigabe Diversifikationsdruck auf Bitcoin ausübt, setzt voraus, dass SpaceX-Aktionäre signifikante BTC-Positionen halten UND diese zur Portfoliobalancierung verkaufen. Haiku liefert keine Evidenz für diesen Kausalzusammenhang. Es handelt sich um eine spekulative Übertragung ohne belegbare Transmission – ein Strohmann-Katalysator der zur Bearish-Narrative passt, aber nicht belegt ist.",
+        "Die Gewichtung Bearish 50% / Bullish 35% passt schlecht zu den eigenen Kurszielen: Haiku prognostiziert in 30 Tagen €58.500, was einem Anstieg von ~4,8% entspricht. Ein Markt mit 50% Bearish-Gewichtung sollte strukturell eher seitwärts bis abwärts tendieren – nicht +4,8% in einem Monat liefern. Die Diskrepanz zwischen pessimistischer Gewichtung und bullischen Mittelfristzielen ist intern inkonsistent und deutet auf einen unauflösten Widerspruch hin.",
+        "Die Interpretation von Fear & Greed 29 als 'Apathie statt Panik' ist nicht belegt und möglicherweise selektiv: Ein Wert von 29 liegt eindeutig im Fear-Bereich. Historisch sind Fear-Zonen häufig mit Akkumulationsphasen für geduldige Investoren assoziiert – Haiku rahmt dies ausschließlich negativ (Liquiditätsmangel) und ignoriert die konträre Lesart: Extreme Fear ist klassisch ein antizyklisches Kaufsignal. Diese einseitige Interpretation bedient die Bearish-These ohne die Gegenargumentation zu diskutieren.",
+        "CLARITY Act als Kurskatalysator ist konkret nicht prüfbar kalibriert: Haiku nennt 'Senate-Abstimmung diese Woche', gibt aber keine konkrete Bewertung der Wahrscheinlichkeit, dass CLARITY tatsächlich zur Abstimmung kommt. US-Gesetzgebung wird regelmäßig verzögert. Ein Ereignis als Katalysator zu nennen, ohne seine Eintrittswahrscheinlichkeit zu gewichten, führt zu einem Prognose-Halter, der im Rückblick immer als 'noch ausständig' erklärt werden kann."
+      ],
+      "staerkstes_gegenargument": "Haikus Bearish-Bias ignoriert, dass Bitcoin in den letzten 5 Handelstagen von ~€53.000 auf €55.839 geklettert ist – ein Anstieg von ca. 5,4% trotz Fear & Greed bei 27-29, trotz regulatorischer Unsicherheit und trotz Makro-Gegenwind. Diese Preisresilienz unter widrigen Bedingungen ist strukturell bullish: Wenn schlechte Nachrichten den Kurs nicht mehr drücken können, ist das klassisch ein Zeichen, dass das Selling exhausted ist und Accumulation bereits stattfindet. Die Wintermute-Registrierung als Broker-Dealer, Samsung-Custody-Expansion und BNY-Beteiligung deuten auf institutionelles Smart-Money hin, das bei tiefen Kursen kauft – nicht die Apathie, die Haiku als Hauptnarrative konstruiert.",
+      "eigenes_kursziel_eur": {
+        "3_tage": 55400,
+        "7_tage": 56200,
+        "14_tage": 56800,
+        "30_tage": 57800
+      },
+      "eigene_einschaetzung": "Bitcoin bei €55.839 befindet sich in einer echten Konsolidierungsphase mit asymmetrischem Risikoprofil: Das Downside-Risiko ist durch die Preisresilienz der letzten Woche begrenzt (Market absorbiert negative Headlines), das Upside-Potenzial durch binäre Katalysatoren (CLARITY, NFP) real aber unsicher. Meine eigene Trefferquote von 40% bei 7-Tage-Zielen und systematische Unterschätzung der Kursstärke (3 von 5 Fehlprognosen waren zu bearish) mahnt mich explizit, den Bearish-Bias zu dämpfen. Ich setze vorsichtig leicht bullische Kursziele, die die Preisresilienz respektieren, ohne den Katalysator-Unsicherheiten zu ignorieren. Das Schlüsselszenario bleibt: Hält €54.200 und passieren beide Katalysatoren positiv, ist €57.500-€58.500 in 30 Tagen realistisch; fallen beide Katalysatoren aus oder negativ, Test €53.500.",
+      "eigene_gewichtung": {
+        "bullish": 38,
+        "bearish": 42,
+        "neutral": 20
+      },
+      "begruendung_bei_uebereinstimmung": "Meine Kursziele tendieren in eine ähnliche Richtung wie Haikus, sind aber leicht bullischer kalibriert (30-Tage: €57.800 vs. €58.500). Die von mir identifizierte Kritik – insbesondere die interne Inkonsistenz zwischen Bearish-Gewichtung und bullischen Mittelfristzielen sowie die selektive Fear-Interpretation – kippt das Gesamtbild nicht, weil die strukturellen Fakten (Fear-Zone, Liquiditätsmangel, bevorstehende binäre Katalysatoren) eine neutrale-bis-bearishe Grundhaltung kurzfristig rechtfertigen. Was sich ändert: Ich gewichte Neutral stärker (20% vs. 15%) und Bearish schwächer (42% vs. 50%), weil die dokumentierte Preisresilienz der letzten Woche und mein eigener zu-bearisher Track-Record eine Kalibrierung erzwingen.",
+      "uebereinstimmung_mit_haiku": "hoch",
+      "szenario_bedingungen": [
+        "Der CLARITY Act kommt tatsächlich zur Senate-Abstimmung und wird mit einfacher Mehrheit angenommen (nicht nur vertagt oder in Komitee zurückgewiesen) – dies würde regulatorische Klarheit liefern und die Custody-Angst strukturell reduzieren.",
+        "US Jobs-Report (NFP) fällt moderat aus (nicht zu stark, nicht zu schwach): Zu starke Daten würden Fed-Zinserhöhungserwartungen befeuern und Dollar stärken (bearish BTC); zu schwache Daten würden Rezessionsangst triggern. Der Goldilocks-Bereich (100k-180k neue Stellen) würde Makro-Druck neutralisieren.",
+        "Bitcoin hält €54.200 auf Wochenschlusskurs-Basis – ein Unterschreiten dieses Niveaus invalidiert die Akkumulations-These und signalisiert weiteren Verkaufsdruck Richtung €51.500.",
+        "Institutionelle Custody-Volumes (gemessen an öffentlich zugänglichen ETF-Zuflüssen wie BlackRock IBIT) zeigen netto positive Flows über 3 aufeinanderfolgende Handelstage – dies würde den selektiven Institutional-Appetite, den Haiku beschreibt, in tatsächliche Nachfrage übersetzen."
+      ],
+      "haiku_kursziel_zum_vergleich": {
+        "3_tage": 55800,
+        "7_tage": 55900,
+        "14_tage": 56800,
+        "30_tage": 58500
+      },
+      "erstellt_am": "2026-08-07T01:42:38.642933",
+      "api_versuche": 1
+    },
+    {
       "datum": "2026-08-06",
       "kurs_eur": 55899,
       "identifizierte_schwachstellen": [
@@ -96,7 +135,10 @@
         "Bitcoin durchbricht €54.500 nach oben mit erhöhtem Volumen – Bestätigung einer technischen Gegenbewegung und Widerlegung des kurzfristigen Abwärtsszenarios."
       ],
       "haiku_kursziel_zum_vergleich": null,
-      "erstellt_am": "2026-08-04T00:11:18.832181"
+      "erstellt_am": "2026-08-04T00:11:18.832181",
+      "rueckblick_3_tage_erwartet_prozent": -0.94,
+      "rueckblick_3_tage_tatsaechlich_prozent": 5.22,
+      "rueckblick_3_tage_tatsaechlicher_kurs": 55763.999845821774
     },
     {
       "datum": "2026-08-01",
@@ -166,7 +208,10 @@
       "erstellt_am": "2026-07-31T00:03:56.959646",
       "rueckblick_3_tage_erwartet_prozent": -0.7,
       "rueckblick_3_tage_tatsaechlich_prozent": -2.16,
-      "rueckblick_3_tage_tatsaechlicher_kurs": 54977.893355949054
+      "rueckblick_3_tage_tatsaechlicher_kurs": 54977.893355949054,
+      "rueckblick_7_tage_erwartet_prozent": 0.54,
+      "rueckblick_7_tage_tatsaechlich_prozent": -0.77,
+      "rueckblick_7_tage_tatsaechlicher_kurs": 55763.999845821774
     },
     {
       "datum": "2026-07-30",
@@ -201,7 +246,10 @@
       "erstellt_am": "2026-07-30T00:02:05.853387",
       "rueckblick_3_tage_erwartet_prozent": -0.6,
       "rueckblick_3_tage_tatsaechlich_prozent": -2.33,
-      "rueckblick_3_tage_tatsaechlicher_kurs": 54438.202921892946
+      "rueckblick_3_tage_tatsaechlicher_kurs": 54438.202921892946,
+      "rueckblick_7_tage_erwartet_prozent": 0.12,
+      "rueckblick_7_tage_tatsaechlich_prozent": 0.25,
+      "rueckblick_7_tage_tatsaechlicher_kurs": 55874.08636065119
     },
     {
       "datum": "2026-07-28",
@@ -882,5 +930,5 @@
       "rueckblick_kurs_7_tage": 54505.1633858627
     }
   ],
-  "letzte_aktualisierung": "2026-08-06"
+  "letzte_aktualisierung": "2026-08-07"
 }
