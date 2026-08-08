@@ -1,6 +1,45 @@
 {
   "fazits": [
     {
+      "datum": "2026-08-08",
+      "kurs_eur": 56192,
+      "identifizierte_schwachstellen": [
+        "Interner Widerspruch bei 7-Tage vs. 14-Tage-Ziel: Haiku prognostiziert €57.200 für Tag 7, dann €55.800 für Tag 14 – ein Rückgang von ~2,4% innerhalb von einer Woche nach einem vorherigen Anstieg. Diese V-förmige Kurve wird nicht mechanisch begründet, sondern nur mit 'institutionelle Akkumulation braucht tiefere Preise' erklärt – das ist eine narrative Post-hoc-Rationalisierung, kein aus Marktstruktur abgeleitetes Argument. Welcher konkrete Katalysator erzeugt den Rückfall zwischen Tag 7 und 14? Dieser bleibt unbenannt.",
+        "Cherry-Picking bei Netzwerk-Risiken ohne Gewichtung: Haiku listet 'Bitcoin Core Audit-Kontroversen (85 kritische Bugs/Person/Tag)', 'BIP-110 Fork-Risiken' und 'Lightning-Exploit-Wellen (BTCPay-Angriffe)' als parallele Bedrohungen auf – ohne zu differenzieren, ob diese voneinander unabhängig sind, welches Gewicht jeder Faktor realistically hat, und ob 'BTCPay-Angriffe' ein Netzwerk-Protokoll-Problem oder ein Anwendungsschicht-Problem darstellt. Diese Häufung erzeugt einen Bedrohungs-Eindruck, der durch keine der Einzelmeldungen inhaltlich gestützt wird – das BIP-110 Event mit <3% Miner-Support ist strukturell eher harmlos als gefährlich.",
+        "Fibonacci-Schlüsselniveau €54.200 als ungeprüfte Autorität: Das '38,2%-Fibonacci-Retracement der Mai–Juni-Rally (€32.000 → €62.800)' klingt präzise, ist aber methodisch angreifbar. Erstens ist die Rally-Basis €32.000 nicht belegt. Zweitens sind Fibonacci-Retracements deskriptiv, nicht prädiktiv – sie werden im Nachhinein auf passende Punkte gelegt. Drittens behauptet Haiku, dieses Niveau löse 'Retail-Liquidierungscluster' aus, ohne Daten zu Open Interest oder Futures-Positionen zu liefern. Das erweckt den Anschein technischer Präzision ohne die erforderliche Substanz.",
+        "Gewichtungs-Asymmetrie zwischen Bullish-Faktoren und Schlussfolgerung: Haiku listet drei bedeutende Bullish-Treiber auf (CLARITY Act Senatsprozess, $1B ETF-Zuflüsse als drittbeste Woche seit Oktober, sinkende Zinserhöhungswahrscheinlichkeit), gewichtet dann aber Bearish mit 50% und Bullish mit nur 35%. Die Begründung für diese Asymmetrie – Gold ist flach, Fear & Greed bei 30 – sind Stimmungsindikatoren, keine strukturellen Gegenargumente zu den bullishen Fundamentaldaten. Die Gewichtung wirkt wie eine vorsorgliche Absicherung, nicht wie eine Ableitung aus den genannten Faktoren."
+      ],
+      "staerkstes_gegenargument": "Die $1B ETF-Zuflüsse in einer einzigen Woche – als drittbeste Woche seit Oktober – kombiniert mit einem nahenden regulatorischen Katalysator (CLARITY Act September-Votum) und einem Fear & Greed-Index bei 30 (klassisches Contrarian-Buy-Signal) ergibt historisch eine Ausgangslage, die eher zu Ausbrüchen nach oben als zu defensiven Seitwärtsbewegungen führt. Haiku behandelt den Fear-Index als Bestätigung für Lähmung, obwohl institutionelle Käufer bei Fear-Werten von 25-35 typischerweise akkumulieren – der Index beschreibt Retailstimmung, nicht institutionelles Verhalten. Wenn $1B/Woche in ETFs fließt während Retail Angst hat, ist das eine klassische Smart-Money-vs-Retail-Divergenz, die strukturell bullisher ist als Haikus 35% Bullish-Gewichtung suggeriert.",
+      "eigenes_kursziel_eur": {
+        "3_tage": 56400,
+        "7_tage": 57100,
+        "14_tage": 57500,
+        "30_tage": 59200
+      },
+      "eigene_einschaetzung": "Bitcoin bei €56.166 befindet sich in einer Phase, in der die Stimmungsindikatoren (Fear 30) und die Fundamentaldaten ($1B ETF-Zuflüsse, regulatorisches Momentum) in verschiedene Richtungen zeigen – das ist historisch keine Lähmung, sondern oft die Vorstufe zu einem gerichteten Ausbruch. Meine eigene Prognose-Bilanz (33% Trefferquote, systematischer Bearish-Bias, durchschnittlich 3,1 Prozentpunkte zu pessimistisch) zwingt mich, meine Default-Vorsicht aktiv nach oben zu kalibrieren – die Evidenz der letzten Wochen zeigt, dass ich Upside-Bewegungen konsistent unterschätze. Das BIP-110-Fork-Risiko mit <3% Miner-Support ist strukturell kein Preistreiber in einem Beobachtungszeitraum von 30 Tagen, da Soft Forks ohne Konsens historisch ohne Netzwerk-Disruption auslaufen. Der 30-Tage-Horizont hängt stark am September-FOMC und CLARITY Act – beide Katalysatoren bieten eher Upside als Downside, da der aktuelle Preis bereits eine erhebliche Risikoprämie eingepreist hat. Ich bin vorsichtig bullisher als Haiku, ohne die realen Abwärtsrisiken zu ignorieren.",
+      "eigene_gewichtung": {
+        "bullish": 42,
+        "bearish": 40,
+        "neutral": 18
+      },
+      "begruendung_bei_uebereinstimmung": "Meine Kursziele weichen in der Richtung leicht von Haiku ab – ich sehe kein 14-Tage-Retracement auf €55.800, sondern einen moderateren Aufwärtstrend bis €57.500. Die gefundene Kritik kippt Haikus Gesamtrichtung nicht vollständig, weil der Fear & Greed bei 30 und die Netzwerk-Kontroversen reale Risiken für kurzfristige Volatilität darstellen. Aber der interne Widerspruch in Haikus V-Kurve (Anstieg auf €57.200, dann Rückfall auf €55.800) und die Unterschätzung des ETF-Akkumulationssignals führen dazu, dass ich ein flacheres aber konsistenteres Aufwärtsprofil für wahrscheinlicher halte. Mein eigener historischer Bearish-Bias ist hier der entscheidende Kalibrierungsfaktor: Ich verscheibe meine Ziele bewusst nach oben relativ zu meinem intuitiven Ausgangsurteil.",
+      "uebereinstimmung_mit_haiku": "hoch",
+      "szenario_bedingungen": [
+        "US-Senat schreitet beim CLARITY Act Cloture-Prozess voran ohne größere Rückschläge bis Ende August – konkret: mindestens 55 angekündigte Stimmen bis 31. August, nachweisbar durch Senate.gov oder Reuters-Berichte",
+        "Bitcoin-Spot-ETF-Zuflüsse bleiben positiv in der KW33 (11.-15. August) – konkret: kumulative Wochenzuflüsse von mindestens $300M laut Farside Investors oder Bloomberg ETF-Tracking",
+        "BIP-110 Soft Fork läuft ohne Netzwerk-Split oder Replay-Angriffe durch die Mandatory-Signaling-Phase – konkret: keine dokumentierten Kettenspaltungen in den Bitcoin Explorer-Daten bis Block 962.000",
+        "Fed kommuniziert vor der September-FOMC-Sitzung keine neue hawkishe Überraschung – konkret: kein überraschendes CPI-Print über 3,5% oder Fed-Sprecher-Statement, das Zinserhöhung für September explizit wieder auf den Tisch legt"
+      ],
+      "haiku_kursziel_zum_vergleich": {
+        "3_tage": 56300,
+        "7_tage": 57200,
+        "14_tage": 55800,
+        "30_tage": 58400
+      },
+      "erstellt_am": "2026-08-08T23:31:18.542840",
+      "api_versuche": 1
+    },
+    {
       "datum": "2026-08-07",
       "kurs_eur": 55820,
       "identifizierte_schwachstellen": [
@@ -103,7 +142,10 @@
       ],
       "haiku_kursziel_zum_vergleich": null,
       "erstellt_am": "2026-08-05T00:05:07.562481",
-      "api_versuche": 1
+      "api_versuche": 1,
+      "rueckblick_3_tage_erwartet_prozent": -0.94,
+      "rueckblick_3_tage_tatsaechlich_prozent": 5.87,
+      "rueckblick_3_tage_tatsaechlicher_kurs": 56112.98320100046
     },
     {
       "datum": "2026-08-04",
@@ -173,7 +215,10 @@
       "erstellt_am": "2026-08-01T00:03:21.578324",
       "rueckblick_3_tage_erwartet_prozent": -1.21,
       "rueckblick_3_tage_tatsaechlich_prozent": 1.27,
-      "rueckblick_3_tage_tatsaechlicher_kurs": 55153.09902063022
+      "rueckblick_3_tage_tatsaechlicher_kurs": 55153.09902063022,
+      "rueckblick_7_tage_erwartet_prozent": -2.31,
+      "rueckblick_7_tage_tatsaechlich_prozent": 3.04,
+      "rueckblick_7_tage_tatsaechlicher_kurs": 56112.98320100046
     },
     {
       "datum": "2026-07-31",
@@ -930,5 +975,5 @@
       "rueckblick_kurs_7_tage": 54505.1633858627
     }
   ],
-  "letzte_aktualisierung": "2026-08-07"
+  "letzte_aktualisierung": "2026-08-08"
 }
