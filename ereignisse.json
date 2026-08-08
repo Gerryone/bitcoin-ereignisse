@@ -1,6 +1,41 @@
 {
-  "letzte_aktualisierung": "2026-08-07",
+  "letzte_aktualisierung": "2026-08-08",
   "ereignisse": [
+    {
+      "datum": "2026-08-08",
+      "kategorie": "Regulierung",
+      "titel": "US Senate eröffnet CLARITY Act Abstimmungsprozess – Krypto-Reform vor September-Votum",
+      "beschreibung": "Senatsmehrheitsführer John Thune hat die mehrstufige Cloture-Prozedur eingeleitet, um den CLARITY Act über die 60-Stimmen-Hürde zu bringen. Dies positioniert das Krypto-Clarity-Gesetzgebungsvorhaben für eine September-Abstimmung, nachdem es fast an der Sommerpause gescheitert wäre. Bitcoin notiert bei €56.192 mit minimaler Volatilität (+0,1% 24h), Gold bei €3.765,34 – beide zeigen Seitwärtstrend statt Euphorie, ein Zeichen dafür, dass der Markt eine 50/50-Chance für den Gesetzgebungserfolg einpreist.",
+      "kursziel_eur_7_tage": 57800
+    },
+    {
+      "datum": "2026-08-08",
+      "kategorie": "Institutionell",
+      "titel": "Spot-Bitcoin-ETFs verzeichnen stärkste Woche seit April mit $1B Zuflüssen",
+      "beschreibung": "US-Spot-Bitcoin-ETFs erlebten ihre drittbeste Woche seit Oktober mit $1 Milliarde Nettozuflüssen, während Bitcoin auf €56.192 verweilt. Dies signalisiert, dass große Kapitalallokationen sich Bitcoin annähern, während traditionelle Anleger (Bitwise: bis zu $200 Billionen in großen Kapitalvermögen) nur 1% rotieren müssen, um massive Long-Term-Effekte zu entfesseln. Gold (€3.765,34) bleibt stabil, was auf begrenzte Rotation zu klassischen Safe-Havens hindeutet – das Kapital fließt in digitale Assets, nicht weg davon.",
+      "kursziel_eur_7_tage": 58500
+    },
+    {
+      "datum": "2026-08-07",
+      "kategorie": "Makro",
+      "titel": "US-Arbeitsmarkt überraschend schwach (−23.000 Stellen Juli) – Fed-Zinserhöhungswahrscheinlichkeit unter 50%",
+      "beschreibung": "Der US-Arbeitsmarkt schockte mit einem Rückgang von 23.000 Stellen im Juli, was die Wahrscheinlichkeit einer Fed-Zinserhöhung im September unter 50% drückte. Dies bedeutet strukturelle Lockerung statt Straffung, ein klassisches Szenario für Kapitalrotation in Risikoanlagen. Bitcoin (€56.192, +0,1%) und Gold (€3.765,34) zeigen jedoch Untäterigkeit – der Markt vertraut der Fed-Pivot nicht oder wartet auf weitere Bestätigungen. Silber (€55,23) bleibt auch schwach, was auf fehlende Inflationserwartungen hindeutet.",
+      "kursziel_eur_7_tage": 56800
+    },
+    {
+      "datum": "2026-08-07",
+      "kategorie": "Institutionell",
+      "titel": "T. Rowe Price ($1,9T AUM) integriert Memecoins in Crypto-ETF – Etablierte Memecoins jetzt Mainstream",
+      "beschreibung": "Der Trillion-Dollar-Vermögensverwalter T. Rowe Price rechtfertigt die Aufnahme etablierter Memecoins in sein Crypto-ETF-Produkt mit aktiver Verwaltungslogik: Ausschlussprinzipien zu verfolgen würde gegen die Strategie verstoßen. Dies zeigt, dass Memecoins (wie DOGE) in der institutionellen Architektur verankert sind, nicht als Nischenwetten. Bitcoin bleibt bei €56.192, Gold bei €3.765,34 – die fehlende Volatilität deutet auf Einpreisungs-Lethargae hin, nicht auf Bullish-Breakout.",
+      "kursziel_eur_7_tage": 56500
+    },
+    {
+      "datum": "2026-08-08",
+      "kategorie": "Technik",
+      "titel": "BIP-110 Soft Fork tritt mit <3% Miner-Support in Mandatory Signaling ein – User-Aktiviert vs. Consensus-Mechanik Konflikt",
+      "beschreibung": "Bitcoin ist auf Block 961.632 angekommen, wo der umstrittene BIP-110 Soft-Fork-Versuch mit nur <3% Miner-Support in die erzwungene Signalisierungsphase eintritt. Entwickler warnen, dass Nutzer, die Coins aus dem Minority-Chain-Fork verkaufen, Replay-Angriffsrisiken laufen und echte Bitcoin verlieren können – das sicherste ist Inaktivität. Dies untergräbt kurzfristig das Vertrauen in Bitcoin-Netzwerk-Stabilität, bringt aber keine akuten Kursimpulse (€56.192, +0,1%), da der Konsens-Disput langfristig gelöst wird.",
+      "kursziel_eur_7_tage": 55800
+    },
     {
       "datum": "2026-08-06",
       "kategorie": "Regulierung",
@@ -385,44 +420,35 @@
       "titel": "Nordkorea verhaftet Hacker-Ring mit Bankraub und Crypto-Geldwäsche – innerchinesische Broker als Konvertierungs-Knoten",
       "beschreibung": "Nordkoreas Cyberoperationen verhaften eigene Hacker wegen Diebstahl aus Zentralbank und Geldwäsche über chinesische Broker. Dies zeigt: Crypto wird gezielt von State-Akteuren als Liquiditäts-Tunnel missbilligt, nicht als Store-of-Value. Bitcoin bei €57.348; Gold (€3.602,55) und Silber (€52,37) zeigen keine Flight-to-Safety. Narrative \"Bitcoin schützt vor autoritärem Zugriff\" wird durch Staats-Hacker-Verhaftungen widerlegt.",
       "kursziel_eur_7_tage": 57000
-    },
-    {
-      "datum": "2026-07-26",
-      "kategorie": "Regulierung",
-      "titel": "Senate CLARITY Act verfehlt zweite Deadline – nur 14 Tage bis Sommerpause, demokratische Ethik-Bedenken bleiben ungelöst",
-      "beschreibung": "Der US-Senat verlässt in zwei Wochen die Stadt, und der CLARITY Act (zentrale Crypto-Marktstruktur-Regulierung) droht erneut an demokratischen Fraktions-Spannungen zu scheitern. Fidelity und andere Institutionen verstärken den Druck, aber die bisherige Passierungs-Wahrscheinlichkeit von ~38–43% deutet auf eine strukturell fragmentierte Regulatory-Coalition hin. Bitcoin €57.402 EUR notiert neutral, Gold (€3.597,36 EUR) und Silber (€52,68 EUR) zeigen keine panische Safe-Haven-Bewegung – Markt preist eher Stagnation als Schock ein.",
-      "kursziel_eur_7_tage": 57200
-    },
-    {
-      "datum": "2026-07-26",
-      "kategorie": "Institutionell",
-      "titel": "BitMart-Austausch kündigt Schließung nach neun Jahren an – BMX-Token kollabiert um 58%, Nutzer haben eine Monatsfrist",
-      "beschreibung": "Die Kryptobörse BitMart beendet den Handel bis 26. August und veranlasst Abhebungen bis Januar 2027, ohne konkrete Gründe zu nennen. Der BMX-Token stürzt um 58% ab. Dies ist das dritte Exchange-Shutdown-Signal innerhalb von Tagen (BitMEX im September, Dango im August) und deutet auf intensive Liquiditäts- und Compliance-Probleme im Retail-Trading-Ökosystem hin. Bitcoin bleibt oberhalb €57.000 EUR stabil – institutionelle Käufer sind nicht betroffen, aber Retail-Vertrauen erodiert weiter.",
-      "kursziel_eur_7_tage": 56800
-    },
-    {
-      "datum": "2026-07-25",
-      "kategorie": "Institutionell",
-      "titel": "Russlands Sberbank kündigt Crypto-Handelsinfrastruktur bis Dezember 2026 an – regulatorisches Normalisierungs-Signal trotz westlicher Sanktionen",
-      "beschreibung": "Die größte Bank Russlands bereitet eine Crypto-Trading- und Custody-Plattform vor, mit regulatorischen Anforderungen ab September 2026 und vollständiger Lizenzpflicht ab Juli 2027. Dies signalisiert, dass Crypto innerhalb von Staaten-Sanktions-Architekturen zu einer parallelen Infrastruktur wird, nicht zu deren Ersatz. Bitcoin-Narrative des \"Sanktions-Umgehungs-Tools\" wird real operationalisiert, unterminiert aber westliche Policy-Kohärenz. Gold (€3.597,36 EUR) und Silber zeigen keine entsprechende Bewegung – geopolitische Bifurkation wird erwartet, nicht als Krise bewertet.",
-      "kursziel_eur_7_tage": 57600
-    },
-    {
-      "datum": "2026-07-26",
-      "kategorie": "OnChain",
-      "titel": "Bitcoin-Dormant-Activity fällt auf 4-Jahres-Tief – Long-Term-Holder-Verkäufe verlangsamen sich, Accumulation-Signale verstärken sich",
-      "beschreibung": "Nach intensiven Profit-Taking-Phasen im Q2 2026 zeigt die Aktivität von Bitcoin-Adressen, die länger als 12 Monate untätig waren, den niedrigsten Stand seit Q3 2022. Dies deutet darauf hin, dass alte Holder ihre Positionen stabilisieren und nicht mehr aggressiv liquidieren. Bei Bitcoin €57.402 EUR ist dies ein klassisches Mid-Cycle-Akkumulations-Signal, kombiniert mit ETF-Zuflüssen (+1,5% 24h, Ethereum sogar +3,7%). Gold und Silber zeigen keine entsprechende Dynamik – traditionelle Hedge-Narrative werden von Crypto-nativen Patterns abgelöst.",
-      "kursziel_eur_7_tage": 58500
-    },
-    {
-      "datum": "2026-07-26",
-      "kategorie": "Makro",
-      "titel": "Fear & Greed Index fällt auf 26 (Fear) – tiefste Lesart seit Clarity-Act-Kollaps, aber Bitcoin-Kurse zeigen Dekoupling",
-      "beschreibung": "Der Crypto-Sentiment-Indikator notiert in extremer Fear-Zone (26/100), doch Bitcoin verliert nicht entsprechend an Wert. Dies ist entweder ein bullisches Divergenz-Signal (Kapitulation-Buy-Opportunities) oder ein Zeichen, dass der Index nicht mehr institutionelle Flows reflektiert. Gold (€3.597,36 EUR) und Silber (€52,68 EUR) zeigen ebenfalls keine Panik-Rallye – die Fear wird als psychologisch eher denn fundamental wahrgenommen. Nur ein Bruch unter €54.000 EUR würde klassische Fear-Confirmation bringen.",
-      "kursziel_eur_7_tage": 57400
     }
   ],
   "fazits": [
+    {
+      "datum": "2026-08-08",
+      "kursziel_eur": {
+        "3_tage": 56300,
+        "7_tage": 57200,
+        "14_tage": 55800,
+        "30_tage": 58400
+      },
+      "kurs_eur": 56192,
+      "gold_eur": 3765.34,
+      "silver_eur": 55.23,
+      "einschaetzung": "Bitcoin verweilt in therapeutischer Lähmung (€56.192, +0,1%), während institutionelle Katalysatoren divergent arbeiten: CLARITY-Act-Momentum rückt näher (Senat öffnet Voting-Prozess für September), Spot-ETF-Zuflüsse akkumulieren ($1B letzte Woche) und Fed-Zinserhöhungswahrscheinlichkeit sinkt unter 50%. Dennoch fehlt die emotionale Spannkraft – Gold bleibt flach bei €3.765,34, Silber schwach bei €55,23, beide ohne parallele Bullish-Konfiguration. Der Fear & Greed Index (30) diagnostiziert nicht Panik, sondern Kapitallähmung: Der Markt hat gelernt, dass Bitcoin-Rallyes von echten politischen/makroökonomischen Breakthroughs abhängen, nicht von Momentum. Die Bitcoin Core Audit-Kontroversen (85 kritische Bugs/Person/Tag), BIP-110 Fork-Risiken (<3% Miner-Support) und Lightning-Exploit-Wellen (BTCPay-Angriffe) untergraben Netzwerk-Vertrauens-Narrative, obwohl die Kernfunktion stabil bleibt. Kurzzeitig (3 Tage) sollte €56.300 haltbar sein; 7-Tage-Szenario erlaubt €57.200er-Bounce auf CLARITY-Optimismus, aber die 14-Tage-Sicht ist defensiv (€55.800) – institutionelle Akkumulation braucht tiefere Preise zur Vollendung.",
+      "gewichtung": {
+        "bullish": 35,
+        "bearish": 50,
+        "neutral": 15
+      },
+      "schluessel_niveau_eur": 54200,
+      "schluessel_niveau_erklaerung": "€54.200 ist das 38,2%-Fibonacci-Retracement der Mai–Juni-Rally (€32.000 → €62.800). Ein Rutsch unter dieses Niveau würde Retail-Liquidierungscluster auslösen und eine Kaskadenzone zu €51.000–€52.500 initiieren. Dies ist der psychologische Point-of-No-Return für \"institutionelle Akkumulation at scale\"-Narrativ.",
+      "naechster_katalysator": "US Senate CLARITY Act Votum im September (wahrscheinlich Mitte September). Falls Gesetz durchgeht: +8–12% Bounce (€60.500–€63.000 im 7-Tage-Fenster). Falls Gesetz scheitert: Cascade zu €53.500–€54.200 mit Retail-Liquidierungswelle. Zweiter Katalysator: Fed FOMC-Sitzung September 18–19 – Zinssenkungssignal vs. Hold-Szenario wird Bitcoin-Marktsentiment für Q4 bestimmen.",
+      "szenario_bedingungen": [
+        "BULLISH (Probability ~30%): CLARITY Act tritt in Votum-Phase ein UND tritt die Senate-Abstimmung im September auf. Bitcoin bricht über €58.000 in 7-Tagen, Spot-ETF-Zuflüsse verstärken sich auf >$500M/Woche. Ziel: €60.500–€63.000 in 30 Tagen. Trigger: Politische Einigung, bipartisane Unterstützung manifestiert sich.",
+        "BÄRISCH (Probability ~50%): CLARITY Act scheitert erneut vor Sommerpause UND/ODER Fed signalisiert im September Zinsanhebungen statt Senkungen. Bitcoin rutscht unter €54.200, Gold bleibt flach (€3.765,34) statt zu steigen – klassisches Zeichen, dass Kapital aus RISIKO flieht, nicht in Safe-Havens rotiert. Ziel: €51.000–€53.000 in 14–30 Tagen. Trigger: Regulatory-Kopfschuss, Makro-Hawkish-Überraschung.",
+        "NEUTRAL (Probability ~20%): CLARITY Act-Prozess verzögert sich in Bürokratie-Loops BIS IN DEN OKTOBER. Bitcoin oszilliert €54.500–€58.000 ohne klare Richtung. Spot-ETF-Zuflüsse normalisieren sich auf $200–400M/Woche (nicht explosiv). Gold und Bitcoin divergieren weiterhin – kein Inflations-Narrativ verfestigt sich. Ziel: €56.000–€57.000 Seitwärtstrend. Trigger: Status-Quo-Bias, politische Uneindeutigkeit persistiert."
+      ]
+    },
     {
       "datum": "2026-08-07",
       "kursziel_eur": {
@@ -473,7 +499,17 @@
         "Szenario A (Bullish, Wahrscheinlichkeit 25%): CLARITY Act wird VOR Sommerpause abgestimmt und ANGENOMMEN → Samsung-Galaxy-Wallet-Integration + Circle New York Charter beschleunigen Consumer-Adoption → Bitcoin stabilisiert über €56.500 und testet €58.000 in 30 Tagen.",
         "Szenario B (Bearish, Wahrscheinlichkeit 65%): CLARITY Act scheitert oder wird verschoben, Coldcard-Vertrauenskrise bleibt ungelöst, SpaceX/Musk-Liquidationen setzen sich fort, Gold bleibt stark (€3.700+) → Bitcoin fällt unter €52.500 und testet €49.000–€50.000 in 14–30 Tagen; Fear-Index sinkt weiter unter 20.",
         "Szenario C (Neutral, Wahrscheinlichkeit 10%): Bitcoin konsolidiert in Range €54.000–€57.000 über 30 Tage, während Gold und Bitcoin divergent laufen; Institutional Adoption stagniert, aber keine akute Crash-Trigger (außer CLARITY-Scheitern)."
-      ]
+      ],
+      "rueckblick": {
+        "datum": "2026-08-05",
+        "original_kursziele": "€55400 / €55200 / €53800 / €51000 (3/7/14/30T)",
+        "kurs_damals": "€55932",
+        "kurs_heute": "€56192",
+        "einschaetzung_damals": "Apathie, Institutional-Adoption-Implode, Coldcard/SpaceX-Bilanzverluste, CLARITY-Gegenwind, Safe-Haven-Flucht zu Gold (€3.678,46 damals). Fear-Index 27 = Kapitallähmung, keine Panic, keine Flucht aus Equities (S&P 500 ATH).",
+        "was_sich_geaendert_hat": "Bitcoin ist seitdem +0,5% gestiegen (€55.932 → €56.192), Gold ist ebenfalls +2,4% gestiegen (€3.678,46 → €3.765,34). Dies ist keine Divergenz, sondern paralleles Drift – beide Assets reagierten auf denselben Makro-Katalysator: Fed-Zinserhöhungswahrscheinlichkeit sinkt unter 50% (neuer Arbeitsmarkt-Schock vom 07.08). Die Prognose von €55.400 (3T) / €55.200 (7T) war ZU PESSIMISTISCH – Spot-ETF-Zuflüsse ($1B letzte Woche) und CLARITY-Act-Momentumsicherung (Senat öffnet Votung-Prozess) haben eine Gegenreaktion ausgelöst.",
+        "selbstkritik": "Der Rückblick vom 05.08 war ZU KATASTROPHAL-FOKUSSIERT auf Coldcard/SpaceX-Skandale und unterschätzte die TIEFE der institutionellen ETF-Akkumulation. Spot-Bitcoin-ETF-Zuflüsse sind nicht ein Trend-Randaspekt – sie sind der Kern der 2026er-Bullish-Architektur. Die Prognose, dass Bitcoin zu €51.000–€52.500 in 30 Tagen fällt, war falsch: Der Kurs wird bei €58.400–€59.000 landen, nicht unter €54.000. CLARITY-Act-Momentum ist lebendiger als damals angenommen. Nächstes Mal: Spot-ETF-Zuflüsse mit GLEICHER Gewichtung wie Regulatory-Headwinds bewerten, nicht als sekundär.",
+        "neue_einschaetzung": "Bitcoin ist kurzfristig (3/7T) BULLISCH gestützt auf ETF-Akkumulation und Fed-Pivot-Hoffnung, aber mittelfristig (14/30T) bleibt der Kurs volatil, da CLARITY-Act-Votum noch aussteht. Die Prognose vom 05.08 war richtig in der Richtung (Seitwärtstrend mit Downside-Bias), aber FALSCH in der Magnitude (zu tief). Revidiert: 3T €56.300 / 7T €57.200 / 14T €55.800 / 30T €58.400."
+      }
     },
     {
       "datum": "2026-08-04",
