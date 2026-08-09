@@ -1,6 +1,44 @@
 {
   "fazits": [
     {
+      "datum": "2026-08-09",
+      "kurs_eur": 56466,
+      "identifizierte_schwachstellen": [
+        "Übergewichtung der ETF-Zuflüsse ohne Kontextualisierung: Haiku behandelt $853M Netto-Zuflüsse als klaren Bullish-Katalysator, ohne zu hinterfragen, ob diese Zuflüsse bereits im aktuellen Kurs eingepreist sind. Bitcoin steht bei €56.122 – fast identisch mit dem Niveau zum Zeitpunkt der Analyse (€56.466). Wenn $853M institutionelle Käufe den Markt nicht bewegt haben, ist das eher ein Warnsignal für schwaches Aufwärtspotenzial als ein Bullish-Signal.",
+        "Systematische Unterschätzung des BIP-110-Risikos: Haiku nennt den Fork-Kollaps als bremsenden Faktor, stuft ihn aber als 'Governance-Fragmentation' ein und lässt ihn in der 45%/35%/20%-Gewichtung weitgehend verschwinden. Das Replay-Risiko ist aber kein abstraktes Governance-Problem – es ist ein konkretes, akutes Sicherheitsrisiko für BTC-Transaktionen auf der Mainchain. Haiku schreibt 'technische Kapitulation' erst unter €53.500 – aber technische Infrastrukturprobleme (Lightning-Exploits + aktives Replay-Risiko) können Vertrauen erodieren, bevor der Kurs technische Niveaus bricht.",
+        "Kursziele wirken wie lineare Extrapolation ohne Herleitung: €56.100 / €57.200 / €59.500 / €62.000 zeigen eine gleichmäßige Aufwärtskurve von ~+10,6% in 30 Tagen. Es gibt keine erkennbare Begründung, warum gerade diese Schritte – und nicht z.B. eine Konsolidierung auf aktuellem Niveau gefolgt von einem scharfen Impuls – eintreten sollen. Die Kursziele spiegeln einen narrativen Optimismus wider, nicht eine datenbasierte Herleitung. Insbesondere der Sprung von €59.500 auf €62.000 in zwei Wochen ist bei Fear & Greed 31 und fehlendem technischen Momentum nicht substanziell begründet."
+      ],
+      "staerkstes_gegenargument": "Das stärkste Argument gegen Haikus Bullish-Bias: Ein Markt, der $853M institutionelle Netto-Zuflüsse in einer Woche absorbiert und trotzdem auf Wochenbasis bei 0,0% steht, demonstriert eine erhebliche Verkaufsseite, die institutionelle Käufe kompensiert – nicht absorbiert. Das ist kein Boden mit Unterstützung, das ist ein Deckel. Kombiniert mit dem aktiven BIP-110-Replay-Risiko, das professionelle Custody-Anbieter und Exchanges zu defensivem Verhalten zwingen dürfte, und einem CLARITY-Act-Votum, das mehrfach verschoben wurde und dessen September-Termin nicht verbindlich ist, fehlt dem bullischen Szenario ein konkreter Auslöser mit fester Timeline. Die Gewichtung von 45% Bullish bei dieser Datenlage ist nicht durch die Ereignisse gedeckt.",
+      "eigenes_kursziel_eur": {
+        "3_tage": 55600,
+        "7_tage": 56300,
+        "14_tage": 57200,
+        "30_tage": 58500
+      },
+      "eigene_einschaetzung": "Bitcoin zeigt bei €56.122 das klassische Muster eines Marktes, der von zwei sich annähernd aufhebenden Kräften gehalten wird: institutionelle ETF-Nachfrage stützt den Boden, während Replay-Risiko, schwache Retail-Stimmung (Fear 31) und regulatorische Unsicherheit das Upside begrenzen. Meine eigene Trefferquote von 33% und eine durchschnittliche Abweichung von 3,1 Prozentpunkten mahnen zur Vorsicht – insbesondere zeigte ich in der Vergangenheit einen Bearish-Bias, der den tatsächlichen Kursen nicht gerecht wurde. Kalibriert auf dieses Muster: ein leichtes Downside-Risiko kurzfristig durch das Replay-Risiko (3-Tage), dann Stabilisierung, sofern keine weiteren technischen Incidents folgen. Mittelfristig (14-30 Tage) ist moderates Aufwärtspotenzial realistisch, aber deutlich verhaltener als Haiku projiziert – €62.000 in 30 Tagen würde einen klaren Katalysator-Trigger (CLARITY-Act-Durchbruch oder ETH-Korrelations-Rally) erfordern, der derzeit nicht sicher ist. ETH bei €1.655 (-0,2%) liefert keinen positiven Vorlaufindikator.",
+      "eigene_gewichtung": {
+        "bullish": 30,
+        "bearish": 45,
+        "neutral": 25
+      },
+      "begruendung_bei_uebereinstimmung": "Meine 7-Tage- und 14-Tage-Ziele liegen in grober Richtung bei Haiku (leicht bullisch), aber mit deutlich reduzierter Amplitude. Die gefundene Kritik kippt das Gesamtbild nicht vollständig, weil die ETF-Zuflüsse real und quantifizierbar sind und institutionelle Käufer bei Fear 31 tendenziell antizyklisch agieren – das ist ein echter Boden-Mechanismus. Jedoch reduziert das Replay-Risiko (akutes technisches Problem) und die Kursimmunität gegenüber den $853M-Zuflüssen meine Bullish-Erwartung erheblich. Haikus 30-Tage-Ziel von €62.000 (+10,5%) halte ich für zu aggressiv und ohne klare Triggerherleitung – ich bleibe bei €58.500 (+4,2%), was dem realistischen Szenario einer graduellen Entspannung ohne scharfen Katalysator entspricht.",
+      "uebereinstimmung_mit_haiku": "hoch",
+      "szenario_bedingungen": [
+        "Das BIP-110-Replay-Risiko wird durch ein koordiniertes Exchange- und Wallet-Statement als 'mitigiert' eingestuft und/oder eine technische Lösung (z.B. Replay-Protection-Patch) wird von Entwicklern veröffentlicht – das würde technisches Vertrauen wiederherstellen.",
+        "US Senate CLARITY Act Abstimmung findet tatsächlich im September statt (kein weiterer Aufschub) und ein positives Signaling durch mindestens 5 bipartisane Senatoren wird vor der Abstimmung publik – das würde regulatorisches Upside-Potenzial aktivieren.",
+        "Bitcoin-ETF-Zuflüsse bleiben in der Folgewoche (16.-22.08.) positiv (>$300M netto) und der Kurs bricht erstmals sustained über €57.500 – das würde bestätigen, dass die Käuferseite den Deckel durchbrechen kann.",
+        "Fear & Greed Index steigt bis Ende August über 45 (Neutral-Zone) ohne begleitenden Kursrückgang unter €54.500 – das würde organische Stimmungsverbesserung ohne Kapitulations-Trigger signalisieren."
+      ],
+      "haiku_kursziel_zum_vergleich": {
+        "3_tage": 56100,
+        "7_tage": 57200,
+        "14_tage": 59500,
+        "30_tage": 62000
+      },
+      "erstellt_am": "2026-08-09T23:33:07.819175",
+      "api_versuche": 1
+    },
+    {
       "datum": "2026-08-08",
       "kurs_eur": 56192,
       "identifizierte_schwachstellen": [
@@ -109,7 +147,10 @@
       ],
       "haiku_kursziel_zum_vergleich": null,
       "erstellt_am": "2026-08-06T00:01:21.396849",
-      "api_versuche": 1
+      "api_versuche": 1,
+      "rueckblick_3_tage_erwartet_prozent": -1.25,
+      "rueckblick_3_tage_tatsaechlich_prozent": 0.47,
+      "rueckblick_3_tage_tatsaechlicher_kurs": 56161.65647809969
     },
     {
       "datum": "2026-08-05",
@@ -407,7 +448,10 @@
       "rueckblick_3_tage_tatsaechlicher_kurs": 56103.86951156116,
       "rueckblick_7_tage_erwartet_prozent": 1.7,
       "rueckblick_7_tage_tatsaechlich_prozent": -3.71,
-      "rueckblick_7_tage_tatsaechlicher_kurs": 54438.202921892946
+      "rueckblick_7_tage_tatsaechlicher_kurs": 54438.202921892946,
+      "rueckblick_14_tage_erwartet_prozent": 4.0,
+      "rueckblick_14_tage_tatsaechlich_prozent": -0.66,
+      "rueckblick_14_tage_tatsaechlicher_kurs": 56161.65647809969
     },
     {
       "datum": "2026-07-25",
@@ -975,5 +1019,5 @@
       "rueckblick_kurs_7_tage": 54505.1633858627
     }
   ],
-  "letzte_aktualisierung": "2026-08-08"
+  "letzte_aktualisierung": "2026-08-09"
 }
