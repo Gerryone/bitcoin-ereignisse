@@ -1,6 +1,41 @@
 {
-  "letzte_aktualisierung": "2026-08-08",
+  "letzte_aktualisierung": "2026-08-09",
   "ereignisse": [
+    {
+      "datum": "2026-08-09",
+      "kategorie": "ETF",
+      "titel": "Spot-Bitcoin-ETFs verzeichnen stärkste Woche seit April – $853M Netto-Zuflüsse, BlackRock IBIT dominiert",
+      "beschreibung": "Bitcoin-ETFs erhielten in der Woche zum 09.08. insgesamt $853,54 Mio. Netto-Zuflüsse – die stärksten seit Mitte April. BlackRock's IBIT führte die Zuflüsse an und signalisiert eine Rückehr institutioneller Kaufkraft bei Bitcoin auf €56,466. Parallel zeigt Gold (€2.950/Unze) relative Stabilität, während Silber (€29,50/Unze) flach bleibt – klassische Safe-Havens folgen Bitcoin nicht proportional, was auf selektive Tech-Rotation deutet.",
+      "kursziel_eur_7_tage": 57800
+    },
+    {
+      "datum": "2026-08-09",
+      "kategorie": "Regulierung",
+      "titel": "CLARITY Act Verzögerung als Segen umdeutet – September-Votum bleibt Ziel, aber Enttäuschung über August-Ausfall",
+      "beschreibung": "Das US Senate verschob die Clarity-Act-Abstimmung aus August in den September, was zunächst Enttäuschung auslöste. CoinDesk argumentiert jedoch, dass die Verzögerung für die Crypto-Industrie ein Vorteil sein könnte – mehr Zeit für Lobbyarbeit und Konsensbildung. Dies bremst das XRP-Rallye-Momentum, kompensiert aber teilweise durch die stärkeren BTC-ETF-Zuflüsse.",
+      "kursziel_eur_7_tage": 56200
+    },
+    {
+      "datum": "2026-08-08",
+      "kategorie": "Makro",
+      "titel": "Bitwise CIO: Trillionen institutionelles Kapital (bis $200T global) könnte zu 1%-Bitcoin-Rotation führen",
+      "beschreibung": "Matt Hougan (Bitwise CIO) prognostiziert, dass große Kapitalvermögen ($200 Billionen global verwaltet) selbst bei einer minimalen 1%-Umschichtung zu Bitcoin massive langfristige Gewinne für den Kurs freischalten könnten. Das Statement unterstützt die Sicht, dass institutionelle Adoption noch in frühen Phasen ist. Gold (€2.950) zeigt parallel schwaches Angebot, während Bitcoin mit €56,466 zwar stabil bleibt, aber unter den AI-Euphorie-Peaks des Juli.",
+      "kursziel_eur_7_tage": 58500
+    },
+    {
+      "datum": "2026-08-08",
+      "kategorie": "Technik",
+      "titel": "BTCPay Lightning-Exploit drainiert Payment-Server – Angreifer stehlen Credentials und verschieben Funds",
+      "beschreibung": "BTCPay warnte am 08.08. vor einem aktiven Infrastructure-Exploit, der Lightning-Node-Credentials kompromittierte und Wallet-Kontrolle ermöglichte. Nutzer mit LND-Setups wurden zur sofortigen Aktualisierung aufgefordert oder zum Offline-Nehmen ihrer Server. Dies ist das zweite größere Sicherheits-Ereignis in der Lightning-Infrastruktur innerhalb Tage und schädigt das Vertrauen in Self-Custody bei schnellen Payments, ohne dass Gesamtverluste noch bekannt sind.",
+      "kursziel_eur_7_tage": 55200
+    },
+    {
+      "datum": "2026-08-09",
+      "kategorie": "OnChain",
+      "titel": "BIP-110 Fork-Versuch kollabiert nach 2 Blöcken – <3% Miner-Support, Replay-Risiko noch aktiv",
+      "beschreibung": "Der BIP-110-Soft-Fork-Versuch startete am 08.08. mit Mandatory Signaling, malträtierte aber sofort mit <3% Miner-Support. Die Fork-Kette produzierte nur 2 Blöcke, dann Stillstand durch zu hohe vererbte Mining-Difficulty. Hauptrisiko: Replay-Attacken könnten reale BTC gefährden, falls Verkäufer Fork-Coins auf der Hauptkette abspielen. Bitcoin bleibt auf €56,466, aber der technische Konsens-Konflikt unterstreicht Governance-Fragmentation.",
+      "kursziel_eur_7_tage": 54500
+    },
     {
       "datum": "2026-08-08",
       "kategorie": "Regulierung",
@@ -385,44 +420,36 @@
       "titel": "BlackRock, Fidelity, Goldman Sachs unterstützen CLARITY Act – aber Senat-Zeitplan bleibt fragmentiert",
       "beschreibung": "Fünf Wall-Street-Giganten (BlackRock, Fidelity, Franklin Templeton, Goldman Sachs, SoFi) endorsen öffentlich den CLARITY Act. Dies ist institutionelle Bestätigung für Crypto-Regulierungs-Klarheit, aber ohne Senat-Durchbruch bleibt es virtue signaling. Das widerlegt nicht die Kernfrage: Kann CLARITY bis September passieren oder kollabiert es in Sommerpause? Bitcoin blieb unbeeindruckt (-0,5%), Gold (€3.535,41) und Silber (€50,18) ebenfalls flach.",
       "kursziel_eur_7_tage": 56800
-    },
-    {
-      "datum": "2026-07-27",
-      "kategorie": "Makro",
-      "titel": "US-Iran-Deeskalation treibt Ölpreis 5% tiefer – Bitcoin bleibt unbeeindruckt, Fluchtkapital-Narrative schwächer",
-      "beschreibung": "Nach geopolitischer Entspannung zwischen USA und Iran fällt Rohöl 5% – klassisches Safe-Haven-Barometer schwächt sich ab. Bitcoin hält €57.348 (+1,4% 24h), während Gold seitwärts bei €3.602,55 notiert und Silber stagniert (€52,37). Das Ausbleiben von Bitcoin-Rallyes bei Entlastung am Ölmarkt deutet darauf hin, dass das Asset nicht als Inflations-Hedge oder Krisenkapital fungiert, sondern eher als Spekulations-Vehikel.",
-      "kursziel_eur_7_tage": 58200
-    },
-    {
-      "datum": "2026-07-27",
-      "kategorie": "Institutionell",
-      "titel": "Ethereum outperformt Bitcoin deutlich (+4,4% vs. +1,4%) – Altcoin-Rotation oder ETF-Umschichtung?",
-      "beschreibung": "ETH steigt auf €1.726 mit +4,4% 24h-Gewinn, während Bitcoin nur +1,4% notiert. CoinDesk-Analysten sehen darin Hinweis auf kommende Altcoin-Rallye, doch die Nachricht korreliert mit ETH-ETF-Zuflüssen und möglicher Profit-Taking aus Bitcoin-Positionen. Gold (€3.602,55) und Silber (€52,37) zeigen keine Fluchtbewegung – klassische Risk-Off-Rotation findet nicht statt.",
-      "kursziel_eur_7_tage": 57100
-    },
-    {
-      "datum": "2026-07-26",
-      "kategorie": "Regulierung",
-      "titel": "BitMart schließt nach 9 Jahren – Austausch-Konsolidierung setzt sich fort, BMX-Token kollabiert 58%",
-      "beschreibung": "BitMart kündigt Schließung bis August 26 an; BMX-Token stürzt 58% ab. Nutzer haben 1 Monat für Trades, 6 Monate für Abhebungen. Dies folgt BitMEX-Shutdown und Dango-Schließung – die Basis-Infrastruktur wird konzentriert auf Binance, Kraken, Coinbase. Bitcoin-Kurs notiert €57.348, aber Liquiditäts-Fragmentierung nimmt zu. Regulatorischer Druck (MiCA, CFTC-Warnungen) treibt Konsolidierungswelle.",
-      "kursziel_eur_7_tage": 56800
-    },
-    {
-      "datum": "2026-07-25",
-      "kategorie": "Institutionell",
-      "titel": "Südkorea: KB Kookmin Bank startet Zahlungsservice auf JPMorgans Kinexys – Mainsteam-Banking normalisiert Blockchain",
-      "beschreibung": "Südkoreas größte Bank (KB Kookmin) launcht Cross-Border-Zahlungen auf JPMorgans privatem Blockchain-Netzwerk. POSCO International tokenisiert auf Injective – RWA-Adoption kommt auf etablierten Plattformen, nicht Bitcoin. Gold (€3.602,55) und Silber (€52,37) stagnieren; institutionelles Kapital fließt in Zcash-ähnliche Permissioned-Blockchains, nicht öffentliche Layer-1.",
-      "kursziel_eur_7_tage": 57500
-    },
-    {
-      "datum": "2026-07-25",
-      "kategorie": "Sicherheit & Regulierung",
-      "titel": "Nordkorea verhaftet Hacker-Ring mit Bankraub und Crypto-Geldwäsche – innerchinesische Broker als Konvertierungs-Knoten",
-      "beschreibung": "Nordkoreas Cyberoperationen verhaften eigene Hacker wegen Diebstahl aus Zentralbank und Geldwäsche über chinesische Broker. Dies zeigt: Crypto wird gezielt von State-Akteuren als Liquiditäts-Tunnel missbilligt, nicht als Store-of-Value. Bitcoin bei €57.348; Gold (€3.602,55) und Silber (€52,37) zeigen keine Flight-to-Safety. Narrative \"Bitcoin schützt vor autoritärem Zugriff\" wird durch Staats-Hacker-Verhaftungen widerlegt.",
-      "kursziel_eur_7_tage": 57000
     }
   ],
   "fazits": [
+    {
+      "datum": "2026-08-09",
+      "kursziel_eur": {
+        "3_tage": 56100,
+        "7_tage": 57200,
+        "14_tage": 59500,
+        "30_tage": 62000
+      },
+      "kurs_eur": 56466,
+      "gold_eur": 2950.0,
+      "silver_eur": 29.5,
+      "einschaetzung": "Bitcoin stabilisiert sich auf €56.466 mit gemischten Fundamentals: Institutionelle ETF-Zuflüsse ($853M, stärkste Woche seit April) und Bitwise-Szenarien eines $200T-Kapital-Pools sind bullisch, werden aber durch technische Infrastruktur-Exploits (BTCPay Lightning, BIP-110-Governance-Krise) und regulatorische Verzögerung (CLARITY Act auf September verschoben) gebremst. Gold (€2.950) und Silber (€29,50) laufen nicht parallel zu Bitcoin, was auf selektive institutionelle Tech-Rotation statt breiter Inflations-Flight-to-Safety hindeutet. Der Fear & Greed Index bei 31 (Fear) signalisiert Apathie statt Panik – Liquidität bleibt angespannt, aber Kaufdruck von Professional-Spielern (BlackRock IBIT) stützt den Boden.",
+      "gewichtung": {
+        "bullish": 45,
+        "bearish": 35,
+        "neutral": 20
+      },
+      "schluessel_niveau_eur": 53500,
+      "schluessel_niveau_erklaerung": "Unter €53.500 (ca. 5% unter aktuellem Kurs) würde die Unterstützungs-Linie aus Juli-Lows brechen und technische Kapitulation signalisieren. Über €59.000 könnte eine neue Welle institutioneller Käufe starten, getrieben durch September-CLARITY-Act-Abstimmung und Q3-Rebalancing.",
+      "naechster_katalysator": "US Senate CLARITY Act Votum im September – Zeitpunkt und Ergebnis werden sowohl Regulatory-Clarity als auch XRP/Altcoin-Sentiment treiben. Parallel: Behebung der Lightning-Infrastruktur-Exploits und finale Klärung des BIP-110-Fork-Schicksals.",
+      "szenario_bedingungen": [
+        "CLARITY Act bestätigt September-Votum mit >50% Erfolgssignalisierung → Bitcoin könnte zu €59.500–61.000 rallyen (7–14 Tage)",
+        "Weitere Lightning/Self-Custody-Exploits oder Sicherheitsmeldungen → Rotation zu Exchange-Custody, temporärer Druck unter €54.000 (3–7 Tage)",
+        "ETF-Zuflüsse bleiben >$500M/Woche für 2 weitere Wochen → Support unter €55.000 wird hart, Aufwärtsziel €62.000 in 30 Tagen realistisch",
+        "Gold bleibt unter €3.000, während Bitcoin über €57.000 steigt → Bestätigung, dass Money-Flow zu Tech-Assets statt klassischen Safe-Havens fließt (Bullish-Signal für 30-Tage-Horizont)"
+      ]
+    },
     {
       "datum": "2026-08-08",
       "kursziel_eur": {
