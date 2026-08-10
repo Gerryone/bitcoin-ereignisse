@@ -1,6 +1,45 @@
 {
   "fazits": [
     {
+      "datum": "2026-08-10",
+      "kurs_eur": 55408,
+      "identifizierte_schwachstellen": [
+        "Fehlinterpretation des Strategy-Verkaufs als strukturelles Bearish-Signal: Haiku interpretiert Saylors 1.690 BTC Verkauf als 'Diversifikation' und 'Widerspruch zum Bitcoin-als-Hedge-Narrativ' – das ist eine fundamentale Fehllektüre. Strategy verkauft regelmäßig kleinere BTC-Positionen zur Liquiditätssicherung, während sie strukturell weiter akkumuliert. 1.690 BTC bei einem Gesamtbestand von über 200.000 BTC ist <1% – das als 'strukturellen Headwind' zu framen ist Überreaktion auf eine Routinemaßnahme. Haiku extrapoliert aus einer Treasury-Management-Entscheidung einen narrativen Paradigmenwechsel, ohne den Kontext der Gesamtposition zu nennen.",
+        "Methodischer Widerspruch in der Gold-Bitcoin-Korrelationsaussage: Haiku argumentiert, dass Gold parallel zu Bitcoin läuft (statt divergent), was beweise, dass die Schwäche 'crypto-spezifisch' sei. Das ist logisch inkohärent: Wenn beide Assets fallen würden, wäre das ein Makro-Signal. Wenn Gold stabil bleibt und Bitcoin fällt, wäre das crypto-spezifisch. Tatsächlich zeigt der Iran-Oman-Deal, dass Bitcoin heute kurzfristig STÄRKER als Gold reagierte (+2,5%), was eher für Risk-Asset-Korrelation als für crypto-spezifische Schwäche spricht. Die Schlussfolgerung widerspricht den eigenen Datenpunkten.",
+        "Kursziele ohne erkennbare technische Herleitung und zu engem Spread: Die Ziele €54800/€54900/€55200/€56500 über 3/7/14/30 Tage zeigen einen implausiblen linearen Aufwärtstrend von nur 0,2%/Woche, ohne dass Haiku erklärt, warum der Markt nach 3 Tagen Boden findet und dann stetig steigt. Gleichzeitig ist die Differenz zwischen 3-Tage- und 7-Tage-Ziel nur €100 – rechnerisch bedeutungslos und wirkt wie Pseudopräzision. Der 30-Tage-Aufwärtstrend auf €56.500 (+2,0%) widerspricht der eigenen bearishen Gewichtung von 60%, da ein Bearish-dominiertes Szenario kaum konsistent mit einem +2% Aufwärtsziel auf 30 Tage ist.",
+        "Selektive Nachrichtengewichtung: Coinsbuy-Hack als 'Fiat-Exchange-Vertrauen erodiert' rahmen, aber gleichzeitig den Iran-Oman-Deal als 'kein nachhaltiger Katalysator' abtun, ist selektiv. Der Hack betraf $8M bei einer kleineren Exchange – substanziell kleiner als frühere Hacks (FTX, Binance). Haiku gewichtet das negative Event stärker als das geopolitische Relief, ohne diese Asymmetrie methodisch zu begründen. Omissions-Bias: Keine Erwähnung von ETF-Zuflüssen oder On-Chain-Metriken, die den Bullish-Case stützen könnten."
+      ],
+      "staerkstes_gegenargument": "Das stärkste Argument gegen Haikus bearishes Fazit: Der Fear & Greed Index bei 30 markiert historisch eher Akkumulationszonen als den Beginn weiterer Abwärtsbewegungen – in den letzten Zyklen waren Werte zwischen 25-35 statistisch häufiger Einstiegspunkte als Vorboten weiterer Korrekturen. Haiku nennt die Fear-Zone selbst 'Apathie' statt Kapitulation, schlussfolgert aber dennoch 60% Bearish – dabei ist ein Markt ohne Panikverkäufe und ohne frische Negativkatalysatoren eher stabil als weiter fallend. Der Iran-Oman-Deal, der Bitcoin kurzfristig auf €56.200 trieb, zeigt latente Kaufbereitschaft: Ein Markt, der auf geopolitische Reliefs so sensitiv reagiert, hat noch keine echte Nachfrageschwäche, sondern wartet auf den nächsten positiven Impuls, was eher für seitwärts-bis-leicht-bullish als für €54.200 als nächstes Ziel spricht.",
+      "eigenes_kursziel_eur": {
+        "3_tage": 54800,
+        "7_tage": 55200,
+        "14_tage": 55800,
+        "30_tage": 57000
+      },
+      "eigene_einschaetzung": "Bitcoin bei €55.374 befindet sich in einem informationsarmen Konsolidierungsmodus, in dem weder klare Kapitulation noch frischer Kaufimpuls erkennbar sind – das ist strukturell neutral, nicht bearish. Meine eigene Track-Record-Analyse zeigt eine systematische Tendenz zu zu pessimistischen Zielen (4 von 6 letzten Prognosen zu bearish), weshalb ich Haikus 60% Bearish-Gewichtung aktiv nach unten korrigiere. Der Strategy-Verkauf ist kein narrativer Wendepunkt, sondern Routine-Liquiditätsmanagement; der Coinsbuy-Hack ist zu klein, um Vertrauensschäden auf Marktebene zu erzeugen. Das eigentliche Risiko liegt im CPI-Report: ein heißer Print würde Dollar-Stärke erzwingen und Bitcoin auf €53.500-54.000 drücken, während ein weicher Print den nächsten Rally-Versuch in Richtung €57.000+ triggern könnte. Bis zur Datenlage bleibe ich defensiv-neutral mit leichtem Aufwärtsbias auf 30-Tage-Sicht.",
+      "eigene_gewichtung": {
+        "bullish": 30,
+        "bearish": 48,
+        "neutral": 22
+      },
+      "begruendung_bei_uebereinstimmung": "Meine Kursziele gehen grundsätzlich in eine ähnliche Richtung (kurzfristig leicht unter Spot, mittelfristig leichte Erholung), aber mit relevantem Unterschied: Ich setze das 30-Tage-Ziel auf €57.000 statt €56.500 und gewichte Bearish nur 48% statt 60%, weil meine eigene Fehlerbilanz zeigt, dass ich systematisch zu pessimistisch bin. Die von mir identifizierte Kritik (Fehlinterpretation Strategy-Verkauf, inkohärente Gold-Korrelationslogik, selektive Nachrichtengewichtung) kippt das Gesamtbild nicht, weil trotzdem gilt: Fear & Greed bei 30, fehlender Makro-Katalysator vor CPI und schwache technische Momentum rechtfertigen kurzfristige Vorsicht. Die Kritik reduziert aber die Intensität des Bearish-Signals erheblich – von strukturellem Headwind zu temporärer Unsicherheitspause.",
+      "uebereinstimmung_mit_haiku": "hoch",
+      "szenario_bedingungen": [
+        "US-CPI-Report kommt bei ≤2,8% YoY herein (unter Konsenserwartung 2,9%): würde Dollar-Stärke-Druck reduzieren und Bitcoin-Rally in Richtung €57.000-58.000 triggern – überprüfbar am Veröffentlichungstag.",
+        "Bitcoin hält das Niveau €54.200 als Support über 7 aufeinanderfolgende Tagesschlusskurse ohne Unterschreitung: bestätigt Akkumulationszone und invalidiert die bearishe Short-Term-These.",
+        "Spot-Bitcoin-ETF-Zuflüsse in den USA bleiben in der laufenden Woche kumulativ positiv (Netto-Zufluss >$200M): zeigt, dass institutionelle Nachfrage trotz Strategy-Verkauf und negativer Stimmung stabil bleibt – täglich via Farside-Daten überprüfbar.",
+        "CLARITY Act erhält nach Senate-Rückkehr im September einen konkreten Abstimmungstermin oder Committee-Durchgang: regulatorische Klarheit als 30-Tage-Katalysator für €57.000+-Ziel, überprüfbar via Congressional Record."
+      ],
+      "haiku_kursziel_zum_vergleich": {
+        "3_tage": 54800,
+        "7_tage": 54900,
+        "14_tage": 55200,
+        "30_tage": 56500
+      },
+      "erstellt_am": "2026-08-10T23:37:17.877611",
+      "api_versuche": 1
+    },
+    {
       "datum": "2026-08-09",
       "kurs_eur": 56466,
       "identifizierte_schwachstellen": [
@@ -114,7 +153,10 @@
         "30_tage": 58500
       },
       "erstellt_am": "2026-08-07T01:42:38.642933",
-      "api_versuche": 1
+      "api_versuche": 1,
+      "rueckblick_3_tage_erwartet_prozent": -0.75,
+      "rueckblick_3_tage_tatsaechlich_prozent": 0.55,
+      "rueckblick_3_tage_tatsaechlicher_kurs": 56125.23479222714
     },
     {
       "datum": "2026-08-06",
@@ -410,7 +452,10 @@
       "rueckblick_3_tage_tatsaechlicher_kurs": 55723.46049929949,
       "rueckblick_7_tage_erwartet_prozent": -0.28,
       "rueckblick_7_tage_tatsaechlich_prozent": -4.15,
-      "rueckblick_7_tage_tatsaechlicher_kurs": 54977.893355949054
+      "rueckblick_7_tage_tatsaechlicher_kurs": 54977.893355949054,
+      "rueckblick_14_tage_erwartet_prozent": 1.12,
+      "rueckblick_14_tage_tatsaechlich_prozent": -2.15,
+      "rueckblick_14_tage_tatsaechlicher_kurs": 56125.23479222714
     },
     {
       "datum": "2026-07-26",
@@ -1019,5 +1064,5 @@
       "rueckblick_kurs_7_tage": 54505.1633858627
     }
   ],
-  "letzte_aktualisierung": "2026-08-09"
+  "letzte_aktualisierung": "2026-08-10"
 }
