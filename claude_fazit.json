@@ -1,6 +1,44 @@
 {
   "fazits": [
     {
+      "datum": "2026-08-11",
+      "kurs_eur": 55163,
+      "identifizierte_schwachstellen": [
+        "Inkonsistenz zwischen 3-Tage- und 14-Tage-Kursziel: Haiku setzt €55.163 für 3 Tage (faktisch kein Bewegungsspielraum) und dann €54.800 für 14 Tage – das impliziert, dass nach dem CPI-Katalysator am Mittwoch (3 Tage) der Kurs erst stagniert und dann *fällt*, obwohl Haiku selbst den CPI als 'größten Katalysator seit Wochen' beschreibt. Wenn der CPI bullish ausfällt (was 50% Wahrscheinlichkeit hätte), würde das 14-Tage-Ziel von €54.800 strukturell widersprochen. Die 14-Tage-Prognose ist ein impliziter Bearish-Call, der nicht explizit begründet wird – er widerspricht dem institutionellen Akkumulationsnarrativ, das Haiku gleichzeitig konstruiert.",
+        "Übergewichtung negativer Randnarrative bei gleichzeitiger Untergewichtung des Riot-Deals: Der BTCPay-Exploit ($190k Bounty, entspricht ~3 BTC) ist operativ marginal und betrifft den Payment-Layer, nicht Bitcoin-Settlements oder Custody in institutionellem Sinn. Haiku wertet ihn als 'technische Erosion des Vertrauensnarrativs', aber ein $190k-Vorfall bei einem Open-Source-Zahlungssystem sagt nichts über die Bitcoin-Basis-Sicherheit aus. Gleichzeitig wird der Riot-Anthropic-Deal (+20% Pre-Market, 20-Jahres-Abkommen) als 'indirekte' positive Kraft abgetan, obwohl ein struktureller Shift von Mining-zu-AI-Infra eine dauerhaft veränderte Kapitalallokationslogik für Mining-Equity bedeutet – und damit langfristig das Bitcoin-Angebot verknappt (weniger spekulativer Mining-Verkaufsdruck).",
+        "Das Schlüsselniveau €53.800 wird als 'Point-of-No-Return' konstruiert, ohne dass der aktuelle Abstand (~2,3% unter Spot) mit der aktuellen Volatilität kontextualisiert wird. Bei einem 7-Tage-ATR von ca. €1.500–2.000 ist €53.800 eine plausible Schwankungszone, kein struktureller Bruchpunkt im Sinne eines narrativen Wendepunkts. Die Fibonacci-Herleitung (€32.000 → €62.800, 50%-Retracement = €47.400, nicht €53.800) ist zudem rechnerisch fragwürdig: Das exakte 50%-Retracement liegt bei ~€47.400, nicht €53.800. Falls Haiku eine andere Ausgangsbasis nutzt, fehlt die Herleitung. Das Schlüsselniveau wirkt rückwärts konstruiert, nicht technisch hergeleitet."
+      ],
+      "staerkstes_gegenargument": "Haikus Bearish-Bias (50%) ignoriert, dass der Markt bei €55.000–55.200 seit mehreren Tagen konsistent Käufernachfrage zeigt – ein Fear-Index von 29 in einem Markt, der *nicht* unter €54.000 bricht, ist eher ein Kontraindikator-Signal als eine Bestätigung von Bearishness. Wenn institutionelle Akkumulation (Riot, Erebor-Deposits, ETF-Zuflüsse der Vorwoche) real ist, sollte der CPI-Report bei einem gemäßigt positiven Ausgang (Inflation unter Erwartung) einen asymmetrisch bullischen Ausbruch über €57.000 auslösen können – und die Wahrscheinlichkeit eines solchen Ausgangs (Disinflationstrend seit Q1 2026) wird von Haiku faktisch mit 0% bewertet. Ein 35/50/15 Bullish/Bearish/Neutral-Split setzt implizit voraus, dass der CPI mit hoher Wahrscheinlichkeit enttäuscht – eine These, die nicht begründet wird.",
+      "eigenes_kursziel_eur": {
+        "3_tage": 55400,
+        "7_tage": 55800,
+        "14_tage": 55200,
+        "30_tage": 57500
+      },
+      "eigene_einschaetzung": "Bitcoin bei €55.070 befindet sich in einer CPI-induzierten Wartehaltung, die strukturell weder klar bullisch noch klar bearisch ist – mein eigenes Track-Record mit 29% Richtungstreffer mahnt zur Vorsicht vor zu starken Direktionalwetten. Der Riot-Anthropic-Deal ist kein Randphänomen: Ein 20-Jahres-AI-Infra-Kontrakt verändert die Kapitalstruktur von Mining-Equity dauerhaft und reduziert spekulativen BTC-Verkaufsdruck aus dem Mining-Sektor langfristig. Der CPI am Mittwoch ist der dominante kurzfristige Katalysator, und die Richtungsverteilung zwischen gut/schlecht ist näher an 50/50 als Haikus implizite Bearish-Gewichtung suggeriert. Ich halte an meiner gestrigen Einschätzung fest, dass €55.000 als Boden funktioniert, justiere aber mein 14-Tage-Ziel leicht nach unten, da post-CPI-Euphorie oft schnell abgebaut wird. Mein 30-Tage-Ziel bleibt bei €57.500, da die strukturellen Akkumulationssignale (institutionelle Kapitalzuflüsse, Mining-Equity-Neubewertung) auf eine höhere Basis nach der Konsolidierung hindeuten.",
+      "eigene_gewichtung": {
+        "bullish": 38,
+        "bearish": 42,
+        "neutral": 20
+      },
+      "begruendung_bei_uebereinstimmung": "Meine Kursziele gehen kurzfristig (3/7 Tage) leicht bullischer als Haiku, stimmen aber in der mittelfristigen Vorsicht (14 Tage) tendenziell überein. Die von mir identifizierte Kritik – insbesondere die Übergewichtung marginaler Negativ-Ereignisse und die fehlerhafte Fibonacci-Herleitung – kippt das Gesamtbild nicht, weil der dominierende Unsicherheitsfaktor (CPI-Ausgang) tatsächlich bidirektional und unkalkulierbar ist. Die Wartehaltung des Marktes ist real und messbar (niedrige Volatilität, enger Kursbereich seit Tagen). Meine Kritik verschiebt aber die Bullisch/Bärisch-Gewichtung von 35/50 auf 38/42, weil die positiven Struktursignale systematisch unterschätzt wurden – nicht weil der Markt klar bullisch ist.",
+      "uebereinstimmung_mit_haiku": "hoch",
+      "szenario_bedingungen": [
+        "CPI-Report am Mittwoch, 13. August zeigt US-Inflation bei oder unter 2,8% (Konsenserwartung): würde Fed-Zinssenkungserwartungen stärken und Bitcoin über €57.000 treiben – bestätigt 7-Tage-Ziel €55.800 als konservativ.",
+        "Bitcoin hält €54.200 als Unterstützung nach dem CPI, auch im Fall eines leicht höher als erwarteten Inflationswerts: würde strukturelle Käufernachfrage und institutionelle Boden-Absorption bestätigen.",
+        "Riot Platforms schließt den Anthropic-AI-Infra-Deal offiziell ab und gibt Guidance zu Mining-BTC-Retention: würde den strukturellen Shift von Mining-als-Verkäufer zu Mining-als-Infrastruktur bestätigen und bullischen Sentiment-Impuls erzeugen.",
+        "SEC-Treffen zur Crypto-Policy endet mit einem Regelwerk-Entwurf, der tokenisierte Securities klar definiert (kein blanket crackdown): würde institutionelle Investoren aus der Wartehaltung lösen und 30-Tage-Ziel €57.500 stützen."
+      ],
+      "haiku_kursziel_zum_vergleich": {
+        "3_tage": 55163,
+        "7_tage": 55600,
+        "14_tage": 54800,
+        "30_tage": 57200
+      },
+      "erstellt_am": "2026-08-11T23:42:13.950162",
+      "api_versuche": 1
+    },
+    {
       "datum": "2026-08-10",
       "kurs_eur": 55408,
       "identifizierte_schwachstellen": [
@@ -114,7 +152,10 @@
         "30_tage": 58400
       },
       "erstellt_am": "2026-08-08T23:31:18.542840",
-      "api_versuche": 1
+      "api_versuche": 1,
+      "rueckblick_3_tage_erwartet_prozent": 0.37,
+      "rueckblick_3_tage_tatsaechlich_prozent": -1.49,
+      "rueckblick_3_tage_tatsaechlicher_kurs": 55356.24779779719
     },
     {
       "datum": "2026-08-07",
@@ -263,7 +304,10 @@
       "erstellt_am": "2026-08-04T00:11:18.832181",
       "rueckblick_3_tage_erwartet_prozent": -0.94,
       "rueckblick_3_tage_tatsaechlich_prozent": 5.22,
-      "rueckblick_3_tage_tatsaechlicher_kurs": 55763.999845821774
+      "rueckblick_3_tage_tatsaechlicher_kurs": 55763.999845821774,
+      "rueckblick_7_tage_erwartet_prozent": -1.89,
+      "rueckblick_7_tage_tatsaechlich_prozent": 4.45,
+      "rueckblick_7_tage_tatsaechlicher_kurs": 55356.24779779719
     },
     {
       "datum": "2026-08-01",
@@ -415,7 +459,10 @@
       "rueckblick_3_tage_tatsaechlicher_kurs": 56184.91540827129,
       "rueckblick_7_tage_erwartet_prozent": 0.86,
       "rueckblick_7_tage_tatsaechlich_prozent": -1.54,
-      "rueckblick_7_tage_tatsaechlicher_kurs": 55153.09902063022
+      "rueckblick_7_tage_tatsaechlicher_kurs": 55153.09902063022,
+      "rueckblick_14_tage_erwartet_prozent": 3.18,
+      "rueckblick_14_tage_tatsaechlich_prozent": -1.18,
+      "rueckblick_14_tage_tatsaechlicher_kurs": 55356.24779779719
     },
     {
       "datum": "2026-07-27",
@@ -1064,5 +1111,5 @@
       "rueckblick_kurs_7_tage": 54505.1633858627
     }
   ],
-  "letzte_aktualisierung": "2026-08-10"
+  "letzte_aktualisierung": "2026-08-11"
 }
