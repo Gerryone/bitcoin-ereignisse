@@ -1,6 +1,41 @@
 {
-  "letzte_aktualisierung": "2026-08-10",
+  "letzte_aktualisierung": "2026-08-11",
   "ereignisse": [
+    {
+      "datum": "2026-08-11",
+      "kategorie": "Makro",
+      "titel": "Inflationsdaten als kritischer Katalysator – Bitcoin verharrt unter $65k vor CPI-Report",
+      "beschreibung": "Bitcoin stagniert bei €55.163 (-0,3% in 24h) mit Wochen der Seitwärtsbewegung, die die Volatilität zermürbt hat. Der US-Inflationsbericht am Mittwoch wird zum Pivot-Punkt für die nächste Bewegungsrichtung – Analysten erwarten 50-100 Punkte Volatilität je nach Ausschlag. Gold bei €3.793,24 notiert parallel-fest, Silber bei €56,31 leicht im Plus (+0,6%), beide ohne divergenten Safe-Haven-Druck. Die Hoffnung auf Hormuz-Relief (Iran-Oman-Deal) ist zusammengebrochen, nachdem Trump 50 Jahre iranische Kompensationen forderte, Öl zurück auf $89 getrieben und damit Inflations-Narrative neu entfacht hat.",
+      "kursziel_eur_7_tage": 55800
+    },
+    {
+      "datum": "2026-08-11",
+      "kategorie": "Regulierung",
+      "titel": "SEC bereitete Crypto-Regelwerk vor CLARITY-Verzögerung auf – Unabhängige Regulierung statt Gesetzgebung",
+      "beschreibung": "Die US-Börsenaufsicht plant diese Woche ein Treffen zur Festlegung von Crypto-Policies, ohne auf den verzögerten CLARITY Act zu warten. Dies signalisiert einen Szenario-Wechsel: SEC könnte unilaterale Regelwerke für tokenisierte Assets schaffen, was institutionelle Clarity verbessert, aber auch politische Konflikte verschärft. Die drei demokratischen Frauen im Kongress (bekannt für Crypto-Skepsis) könnten künftige legislative Anläufe blockieren. Bitcoin-Kurs bleibt unter Regulierungs-Lähmung bei €55.163, Gold bei €3.793,24 zeigt keine Flucht in klassische Safe-Havens.",
+      "kursziel_eur_7_tage": 55500
+    },
+    {
+      "datum": "2026-08-11",
+      "kategorie": "Institutionell",
+      "titel": "Riot Platforms springt +20% auf $9,1B Anthropic-Deal – Bitcoin-Miner werden zur AI-Infrastruktur",
+      "beschreibung": "Der Bitcoin-Miner Riot Platforms verzeichnet im Pre-Market-Handel +20% Kurssprung auf ein 20-Jahres-Abkommen mit Anthropic (KI-Trainings-Infrastruktur). Dies markiert einen strukturellen Shift: Bitcoin-Mining-Hardware wird zur bankbaren AI-Compute-Infrastruktur, ähnlich wie Nvidias $500B-Infrastruktur-Push bei Wall Street. Wenn Mining-Cashflows primär aus AI-Leasing statt Bitcoin-Block-Rewards generiert werden, entsteht eine neue institutionelle Akquisitions-Logik. Bitcoin bei €55.163 profitiert indirekt von steigendem Mining-Equity-Wert, aber nicht von direktem Preis-Druck.",
+      "kursziel_eur_7_tage": 56300
+    },
+    {
+      "datum": "2026-08-11",
+      "kategorie": "Institutionell",
+      "titel": "MoneyGram erweitert Solana auf globales Fiat-Ramp-Netzwerk – Stablecoin-Onboarding beschleunigt",
+      "beschreibung": "Das Geldtransfer-Netzwerk MoneyGram integriert Solana-Wallets direkt in sein globales Cash-Netzwerk über die Rift-Wallet. Dies reduziert die Reibung zwischen Crypto (Digital) und Fiat (Legacy) um entscheidende Grad und ermöglicht Millionen Solana-Nutzern sofortiges Cash-Out. Bitcoin profitiert indirekt: wenn Stablecoin-Infrastruktur liquider wird, sinken Ausweich-Liquiditätskosten und die Fiat-On-Ramp-Barrieren für BTC-Käufe fallen. Gold bei €3.793,24 zeigt keine Konkurrenz-Reaktion.",
+      "kursziel_eur_7_tage": 55600
+    },
+    {
+      "datum": "2026-08-11",
+      "kategorie": "Technik",
+      "titel": "BTCPay Lightning-Exploit kostet $190k – Credential-Diebstahl zeigt Custody-Gap im Payment-Layer",
+      "beschreibung": "Das Bitcoin-Payment-System BTCPay bietet $190k Bounty (bis zu 3 BTC bei €55.163 = €165.489 Äquivalent) nach einem Exploit, bei dem Angreifer LND-Node-Credentials stahlen und Merchant-Lightning-Wallets leer räumten. Dies unterstreicht eine kritische Schwachstelle im Lightning-Network-Sicherheits-Modell: Nodes sind oft ungesichert, Credentials zentral gelagert. Der Incident ist technisch begrenzt (Payment-Layer, nicht Bitcoin-Settlement), schwächt aber Narrativ der 'Bitcoin-Payment-Revolution' und verstärkt Custody-Misstrauen.",
+      "kursziel_eur_7_tage": 55000
+    },
     {
       "datum": "2026-08-10",
       "kategorie": "Institutionell",
@@ -385,44 +420,36 @@
       "titel": "Fed bleibt hawkish, BUT: PCE-Inflation sinkt erstmals seit 6 Jahren – Markt verarbeitet Zinswende-Hemmung",
       "beschreibung": "Die Federal Reserve hält Zinsen stabil, signalisiert aber Widerstand gegen Senkungen, während PCE-Inflationsdaten einen Monatsinfall zeigen. Das schafft Widerspruch: Inflation sinkt, aber die Fed bleibt bullish auf höhere Raten. Bitcoin (-0,9% YoY trotz +0,9% heute) profitiert nicht – die Unsicherheit über Zinsdynamik bleibt Bremse. Gold und Silber stagnieren, was auf fehlende Inflations-Hedge-Nachfrage hindeutet.",
       "kursziel_eur_7_tage": 56000
-    },
-    {
-      "datum": "2026-07-29",
-      "kategorie": "Regulierung",
-      "titel": "Fed hält Zinsen stabil – Warsh-Roadmap bleibt Schachzug vor Sommerpause",
-      "beschreibung": "Die Federal Reserve entschied sich für eine Pause bei den Leitzinsen, während Märkte zu 50% auf eine Erhöhung wetteten. Ciladel-Makro-Team spekulierte auf Überraschungs-Hike als Warsh-Signal vor August-Pause. Bitcoin stabilisierte sich über €63.865 USD (~€55.678 EUR), während Oil um 8% spike aus Iran-Konflikt nicht auf Krypto durchschlug. Gold (€2.950 EUR) und Silber (€29.50 EUR) bewegten sich nicht parallel – deutet auf Regulatory-Stress, nicht auf breite Krisen-Angst.",
-      "kursziel_eur_7_tage": 55800
-    },
-    {
-      "datum": "2026-07-29",
-      "kategorie": "Institutionell",
-      "titel": "Robinhood Crypto-Umsatz kollabiert 38% YoY – Retail-Liquidität versiegt weiter",
-      "beschreibung": "Robinhood meldete Rekord-Quartalsergebnis, aber Crypto-Handels-Umsatz fiel von $161M auf $100M (38% Rückgang). Gleichzeitig expandierte Robinhood Chain, Tokenized Stocks und dezentrales Lending – Signal für Pivot zu Infrastruktur statt Spot-Trading-Volumen. Coinbase vor Earnings warnt ebenfalls vor schwächerem Q2 bei Spot-Trading. Dies verstärkt Fear & Greed Index auf 29 (Fear) und unterminiert Retail-Demand bei Bitcoin €55.678 EUR.",
-      "kursziel_eur_7_tage": 55200
-    },
-    {
-      "datum": "2026-07-29",
-      "kategorie": "OnChain",
-      "titel": "Ionic Digital (Celsius-Spinoff) debütiert mit $2,8B Bewertung – Miner-Konsolidierung schreitet voran",
-      "beschreibung": "Ionic Digital, aus Celsius-Network-Assets entstanden, sprang 26% auf Nasdaq-Debut mit $2,8B Bewertung (44,9M Shares). Dies signalisiert, dass institutionelle Kapitalallokation zu Bitcoin-Mining-Produktivität statt Spot-Liquidität rotiert. Parallel meldeten Poolin Pool ($173M Schulden-Insolvenz) und BitMEX-Shutdown (bis 23.09.2026) von struktureller Konsolidierung. Long-Term-Holder-Akkumulation bleibt intakt, obwohl Retail-Börsenneutzer schrumpfen.",
-      "kursziel_eur_7_tage": 56100
-    },
-    {
-      "datum": "2026-07-29",
-      "kategorie": "Institutionell",
-      "titel": "BNY Mellon bringt $8,6T Transfer-Agency-Markt onchain – Blockchain-Normalisierung beschleunigt",
-      "beschreibung": "BNY Mellon, weltgrößter Custody-Anbieter, kündigte Blockchain-basierte Transfer-Agency-Plattform für tokenisierte Fonds an (digital ownership records parallel zu Legacy-Systemen). Dies folgt auf Binance-Ankündigung von Gold/Silber-Optionen nach Milliarden-Volumen bei Rohstoff-Perps. Institutionelle Infrastruktur-Normalisierung schreitet voran, während Retail-Börsen implodieren – Dekoupling von Top-Down-Adoption und Bottom-Up-Volatilität.",
-      "kursziel_eur_7_tage": 55900
-    },
-    {
-      "datum": "2026-07-29",
-      "kategorie": "Technik",
-      "titel": "$60M Crypto-Liquidationen durch Korea Pre-Market AI-Trade – Oracle-Design-Stabilität getestet",
-      "beschreibung": "Eine südkoreanische AI-Trading-Firma verursachte 19% Mark-Price-Fall auf Derivat-Plattform (Liquidationen ~$60M), doch die Firma erklärt: Oracle arbeitete exakt wie designed. Südkoreas Kospi-Crash (10-11%) von SK Hynix (-17% trotz +557% Gewinn-Beat) belastet generelles Risk-On, aber Bitcoin-Sektor-Isolation wächst. Gold (€2.950 EUR) und Silber (€29.50 EUR) zeigen kein Fluchtkapital-Aufkauf – Stress bleibt strukturell, nicht makro-getrieben.",
-      "kursziel_eur_7_tage": 55400
     }
   ],
   "fazits": [
+    {
+      "datum": "2026-08-11",
+      "kursziel_eur": {
+        "3_tage": 55163,
+        "7_tage": 55600,
+        "14_tage": 54800,
+        "30_tage": 57200
+      },
+      "kurs_eur": 55163,
+      "gold_eur": 3793.24,
+      "silver_eur": 56.3128,
+      "einschaetzung": "Bitcoin verharrt in therapeutischer Lähmung (€55.163, -0,3%) vor dem kritischen CPI-Report am Mittwoch, dem laut Analysten größten Katalysator seit Wochen. Gold bei €3.793,24 und Silber bei €56,31 notieren parallel-flach ohne Safe-Haven-Divergenz – der Markt signalisiert keine echte Krisen-Angst, sondern Kapitalverhärtung und Wartehaltung. Institutionell zeigt sich aber diffuse Akkumulationsdynamik: Riot Platforms springt +20% auf AI-Infra-Pivot, MoneyGram baut Stablecoin-Ramps aus, Erebor-Bank wächst auf $4,6B Deposits. Gleichzeitig erodieren technische Vertrauensnarrative (BTCPay-Exploit, Ravencoin-Fork-Kollaps mit nur 2 Blöcken, BIP-110-Desaster unter 3% Miner-Support), während die Regulierungs-Schieflage verschärft wird: SEC plant unilaterale Crypto-Policy statt auf CLARITY zu warten, demokratische Hawk-Frauen lauern auf neue legislative Anläufe. Der Fear & Greed Index (29) reflektiert akkurat: nicht Panik, sondern resignierte Lähmung angesichts fragmentierter Katalysatoren und technischer Erosion.",
+      "gewichtung": {
+        "bullish": 35,
+        "bearish": 50,
+        "neutral": 15
+      },
+      "schluessel_niveau_eur": 53800,
+      "schluessel_niveau_erklaerung": "€53.800 ist das 50%-Fibonacci-Retracement der gesamten Mai–Juni-Rally (€32.000 → €62.800). Ein Bruch unter dieses Niveau würde Retail-Liquidierungs-Cluster auslösen und eine Kaskadenzone zu €50.000–€51.500 öffnen. Dies wäre das technische Point-of-No-Return für das 'institutionelle Akkumulation'-Szenario und würde eine Retest des Juli-Tiefs (€48.500) wahrscheinlich machen.",
+      "naechster_katalysator": "US CPI-Report Mittwoch 13. August – wird Inflations-Narrative und Fed-Zinserwartungen neu kalibrieren. 30 BPS-höhere/niedrigere Inflation = 50–100 EUR Bitcoin-Volatilität im Bereich €54.500–€56.200.",
+      "szenario_bedingungen": [
+        "CPI-Report zeigt Inflations-Abkühlung unter Fed-Erwartung (< 2,8% YoY) → Bitcoin +2–3% zu €56.500–€57.000 innerhalb 48h, Gold-Parallel bleibt stabil bei €3.780–€3.820 (kein echter Safe-Haven-Flight).",
+        "CPI-Report überraschend heiß (> 3,2% YoY) → Bitcoin -3–4% zu €53.500–€54.300, Öl-Risiko-Premium revanchiert, Silber könnte auf €54–€55 drücken.",
+        "Regulierungs-Narrative: SEC vollzieht unilaterale Crypto-Tokenisierungs-Regeln ohne CLARITY-Verzögerung → Institutionelle Clarity-Gewinne pushen Bitcoin +1–2% zu €56.000–€56.500, aber nur wenn Richtung positiv-konstruktiv wahrgenommen wird (Wahrscheinlichkeit 45%, da Hawk-Demokraten Blockade-Risiko tragen).",
+        "Lightning/Custody-Erosion setzt sich fort (weitere BTCPay-ähnliche Exploits) → Technisches Vertrauen sinkt, Short-Volatilität steigt, aber Bitcoin-Settlement-Layer bleibt unbetroffen; Preis-Druck +1–2% nach unten nur, wenn Exploits Stablecoin-Ökosystem treffen."
+      ]
+    },
     {
       "datum": "2026-08-10",
       "kursziel_eur": {
@@ -500,7 +527,15 @@
         "BULLISH (Probability ~30%): CLARITY Act tritt in Votum-Phase ein UND tritt die Senate-Abstimmung im September auf. Bitcoin bricht über €58.000 in 7-Tagen, Spot-ETF-Zuflüsse verstärken sich auf >$500M/Woche. Ziel: €60.500–€63.000 in 30 Tagen. Trigger: Politische Einigung, bipartisane Unterstützung manifestiert sich.",
         "BÄRISCH (Probability ~50%): CLARITY Act scheitert erneut vor Sommerpause UND/ODER Fed signalisiert im September Zinsanhebungen statt Senkungen. Bitcoin rutscht unter €54.200, Gold bleibt flach (€3.765,34) statt zu steigen – klassisches Zeichen, dass Kapital aus RISIKO flieht, nicht in Safe-Havens rotiert. Ziel: €51.000–€53.000 in 14–30 Tagen. Trigger: Regulatory-Kopfschuss, Makro-Hawkish-Überraschung.",
         "NEUTRAL (Probability ~20%): CLARITY Act-Prozess verzögert sich in Bürokratie-Loops BIS IN DEN OKTOBER. Bitcoin oszilliert €54.500–€58.000 ohne klare Richtung. Spot-ETF-Zuflüsse normalisieren sich auf $200–400M/Woche (nicht explosiv). Gold und Bitcoin divergieren weiterhin – kein Inflations-Narrativ verfestigt sich. Ziel: €56.000–€57.000 Seitwärtstrend. Trigger: Status-Quo-Bias, politische Uneindeutigkeit persistiert."
-      ]
+      ],
+      "rueckblick": {
+        "prognose_3_tage": "€56.300",
+        "prognose_7_tage": "€57.200",
+        "prognose_14_tage": "€55.800",
+        "prognose_30_tage": "€58.400",
+        "aktueller_kurs_heute": "€55.163",
+        "rueckblick_selbstkritik": "Das Fazit vom 8. August war zu optimistisch bei der 7-Tages-Prognose (€57.200 vs. aktuell €55.163, -3,6% Fehler). Die Begründung – dass ETF-Zuflüsse ($1B) und CLARITY-Momentum institutionelle Akkumulation antreiben – war richtig diagnostiziert, aber die zeitliche Katalysator-Prognose war zu aggressiv. Der Hormuz-Relief-Trade kollabierte schneller als erwartet (Trump-Forderung der 50-Jahres-Kompensation), Öl stieg unerwartet, und der Inflations-Angst-Reflex schlug stärker durch als antizipiert. Gold bei €3.765,34 (vs. €3.793,24 heute) und Silber bei €55,23 (vs. €56,31 heute) haben tatsächlich leicht zugelegt, was auf diffuse Risiko-Aversion hinweist – nicht auf den klaren Safe-Haven-Flight, der ein Bullish-Szenario antreiben würde. Die 3-Tages-Prognose (€56.300) war zu aggressiv. Die 14-Tage-Prognose (€55.800) war nah richtig und hätte als defensiver Anker gewichtet werden sollen. Lehre: Bei fragmentierter Katalysator-Landschaft (CLARITY-Verzögerung, Hormuz-Relief-Kollaps, technische Erosion durch Exploits) sind konservativere 7-Tages-Szenarien angezeigt."
+      }
     },
     {
       "datum": "2026-08-07",
