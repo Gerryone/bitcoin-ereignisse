@@ -1,0 +1,109 @@
+# 12.08.2026 14:45
+# Ersetzt bitcoin-update.yml und claude-einschaetzung.yml.
+# Drei Jobs laufen sequenziell: Haiku → Sonnet → HA-Sync.
+# Sonnet startet erst wenn Haiku erfolgreich abgeschlossen ist,
+# HA-Sync erst wenn Sonnet erfolgreich abgeschlossen ist.
+# Kein Timing-Problem mehr möglich.
+
+name: Bitcoin Pipeline
+
+on:
+  schedule:
+    # Haiku startet täglich um 22:00 UTC (nach US-Börsenschluss 21:00 UTC)
+    - cron: '0 22 * * *'
+  workflow_dispatch:
+
+jobs:
+
+  # ─── Job 1: Haiku ────────────────────────────────────────────
+  haiku_update:
+    name: Bitcoin Ereignisse Update (Haiku)
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Repository auschecken
+        uses: actions/checkout@v4
+
+      - name: Python einrichten
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Abhängigkeiten installieren
+        run: pip install anthropic requests
+
+      - name: Bitcoin-Ereignisse aktualisieren
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scripts/update_bitcoin.py
+
+      - name: Änderungen committen und pushen
+        run: |
+          git config user.name "Bitcoin-Ereignisse-Bot"
+          git config user.email "bitcoin-ereignisse-bot@github.com"
+          git add ereignisse.json edelmetalle.json
+          if git diff --staged --quiet; then
+            echo "Keine Änderungen – nichts zu committen."
+          else
+            git commit -m "Update: Bitcoin-Ereignisse + Edelmetalle $(date +%Y-%m-%d)"
+            git pull --rebase origin main
+            git push
+            echo "✓ Erfolgreich gepusht."
+          fi
+
+  # ─── Job 2: Sonnet ───────────────────────────────────────────
+  sonnet_einschaetzung:
+    name: Claude Sonnet Bitcoin-Einschätzung
+    runs-on: ubuntu-latest
+    needs: haiku_update
+    permissions:
+      contents: write
+    steps:
+      - name: Repository auschecken
+        uses: actions/checkout@v4
+
+      - name: Python einrichten
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Abhängigkeiten installieren
+        run: pip install anthropic requests
+
+      - name: Claude (Sonnet) Einschätzung erstellen
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scripts/claude_einschaetzung.py
+
+      - name: Änderungen committen und pushen
+        run: |
+          git config user.name "Claude-Einschaetzung-Bot"
+          git config user.email "claude-einschaetzung-bot@github.com"
+          git add claude_fazit.json
+          if git diff --staged --quiet; then
+            echo "Keine Änderungen – nichts zu committen."
+          else
+            git commit -m "Update: Claude-Einschätzung $(date +%Y-%m-%d)"
+            git pull --rebase origin main
+            git push
+            echo "✓ Erfolgreich gepusht."
+          fi
+
+  # ─── Job 3: HA-Sync ──────────────────────────────────────────
+  ha_sync:
+    name: Home Assistant Sync
+    runs-on: ubuntu-latest
+    needs: sonnet_einschaetzung
+    steps:
+      - name: GitHub-Sync in Home Assistant auslösen
+        run: |
+          HTTP_STATUS=$(curl -s -o /dev/null -w "%{http_code}" \
+            -X POST \
+            "https://ha.renken2019.de/api/webhook/bitcoin_github_sync_webhook")
+          echo "HTTP Status: $HTTP_STATUS"
+          if [ "$HTTP_STATUS" != "200" ] && [ "$HTTP_STATUS" != "204" ]; then
+            echo "Fehler: HA-Webhook antwortete mit Status $HTTP_STATUS"
+            exit 1
+          fi
+          echo "✓ HA-Sync erfolgreich ausgelöst."
