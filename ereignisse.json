@@ -1,6 +1,41 @@
 {
-  "letzte_aktualisierung": "2026-08-11",
+  "letzte_aktualisierung": "2026-08-12",
   "ereignisse": [
+    {
+      "datum": "2026-08-12",
+      "kategorie": "Institutionell",
+      "titel": "Goldman Sachs kauft NEOS für $2,25B – Bitcoin Income ETFs werden Mainstream-Produkt",
+      "beschreibung": "Goldman Sachs übernimmt den ETF-Manager NEOS für $2,25 Mrd. und integriert damit $30 Mrd. an Bitcoin- und Ethereum-Income-Produkten in seine Asset Management Division. Dies erweitert Goldmans Derivate-Plattform auf $130 Mrd. und stellt eine direkte Konkurrenz zu BlackRocks BITA-Fonds dar. Die Transaktion signalisiert, dass selbst konservative Megabanken Bitcoin jetzt als Standard-Institutional-Asset betrachten – nicht mehr als Nische.",
+      "kursziel_eur_7_tage": 56200
+    },
+    {
+      "datum": "2026-08-12",
+      "kategorie": "Makro",
+      "titel": "US CPI bestätigt 3,4% (erwartet) – Fed-Pausierungswahrscheinlichkeit Sept. auf 60% gestiegen, Bitcoin hält bei €54,957",
+      "beschreibung": "Headline- und Core-Inflation erfüllten Erwartungen (3,4%), Treasury-Renditen fallen, und Markterwartungen für September-Ratenpause steigen auf 60%. Bitcoin zeigte keine Reaktion und bleibt bei €54,957 – neutral bis leicht negativ nach dem CPI-Release. Gold (€3.812,84) und Silber (€56,46) bewegen sich nicht parallel zu Bitcoin: Ein normales deflationäres Szenario (sinkende Renditen) sollte beide Safe-Havens heben, aber die Stagnation deutet auf Kapital-Rotation in AI-Infrastruktur statt klassische Inflations-Hedge.",
+      "kursziel_eur_7_tage": 54800
+    },
+    {
+      "datum": "2026-08-12",
+      "kategorie": "Technik",
+      "titel": "CoreWeave +16% auf $2,58B Quartal-Umsatz – AI-Infrastruktur eclipst Crypto-Mining als Kapital-Magnet",
+      "beschreibung": "Der GPU-Infrastructure-Provider CoreWeave surgt 16% nach starkem Q2-Report, während Bitcoin-Mining-Aktien und Crypto-Assets underperformen. AI-Demand dominiert Cloud-Nachfrage völlig – die öffentlichen Bitcoin-Miner generieren parallel Verkaufsdruck durch ihre Pivot zu AI-Hardware. Dies erklärt den fehlenden Bounce bei Bitcoin trotz positiver Macro-Daten: Kapital fließt nicht zu Crypto-Sicherung, sondern zu Compute-Infrastruktur.",
+      "kursziel_eur_7_tage": 54500
+    },
+    {
+      "datum": "2026-08-12",
+      "kategorie": "Institutionell",
+      "titel": "Fidelity plant Staking + Quarterly Payouts für Ethereum ETF (€1.628) – ETH als Yield-Asset etabliert",
+      "beschreibung": "Fidelity reicht SEC-Antrag für Staking-Integration in seinen ~€1,5B Ethereum ETF ein: 85% der Gross-Staking-Rewards bleiben beim Fonds, 15% für Service-Provider. Dies transformiert ETH von spekulativem Vermögenswert zu institutionellem Yield-Produkt. Während Bitcoin zu €54,957 stagniert, wird Ethereum (€1.628, +0% 24h) durch strukturelle Yield-Mechaniken gestützt – ein divergentes Signal, das auf Risiko-Umverteilung hindeutet.",
+      "kursziel_eur_7_tage": 1680
+    },
+    {
+      "datum": "2026-08-12",
+      "kategorie": "Regulierung",
+      "titel": "Hawaii verbietet Crypto-ATMs ab Okt. 1 – Vierter US-Staat schließt Retail-Onramp ab",
+      "beschreibung": "Hawaii wird vier US-Bundesstaaten (Minnesota, Tennessee, Indiana) folgen und Crypto-ATM/Kiosk-Operationen ab 1. Oktober verbieten. Begründung: Betrugsprävention bei Retail-Nutzern. Dies fragmentiert das US-Retail-Zugangs-Ökosystem weiter und zwingt Nutzer zu zentralisierten KYC-Börsen – bearish für Peer-to-Peer-Adoption, aber neutral für Spot-ETF-Dominanz.",
+      "kursziel_eur_7_tage": 54600
+    },
     {
       "datum": "2026-08-11",
       "kategorie": "Makro",
@@ -385,44 +420,35 @@
       "titel": "US-Sanktionen gegen iranische Bitcoin-Versicherungs- und Schiffs-Sanctions-Umgeh-Netzwerke",
       "beschreibung": "US Treasury verhängt Sanktionen gegen Hormuz Safe Platform (Bitcoin-basierte Schiffs-Versicherung) und Dubai-basierte Shelbit (angeblich $4B Iran-Netzwerk zur Sanktions-Umgehung, mit Zuflüssen zu Binance). Dies signalisiert hawkish geopolitische Regulatory-Stimmung. Bitcoin bleibt bei €54.494 stabil – Geopolitik-Risiko nicht in Kurs eingepreist. Gold (€3.520,85) und Silber (€50,23) zeigen KEINE Flucht-Rally, was bedeutet: Sicherheitsrisiko, nicht Inflations-/Krisen-Angst.",
       "kursziel_eur_7_tage": 53800
-    },
-    {
-      "datum": "2026-07-30",
-      "kategorie": "Institutionell",
-      "titel": "Strategy bucht $8,2B Q2-Verlust – Bitcoin-Treasury-Unternehmen unter Druck",
-      "beschreibung": "Das größte Corporate-Bitcoin-Holder der Welt verzeichnet massive unrealisierte Verluste und hat eine $3,75B-Barreserve aufgebaut, um Vorzugsaktien-Dividenden zu decken. Dies signalisiert Liquiditätsdruck bei institutionellen Großhaltern und könnte zu erzwungenen Verkäufen führen. Bitcoin notiert bei €56.209, während Gold (€3.581,81) und Silber (€51,59) stabil bleiben – klassische Safe-Havens profitieren nicht von dieser Unsicherheit.",
-      "kursziel_eur_7_tage": 54800
-    },
-    {
-      "datum": "2026-07-30",
-      "kategorie": "Regulierung",
-      "titel": "Clarity Act: Überarbeitete Ethik-Regeln gehen zum Weißen Haus – Senat-Ratifizierung vor Sommerpause unklar",
-      "beschreibung": "Senatoren haben überarbeitete Ethik-Bestimmungen zum Weißen Haus geschickt, um Trumps Crypto-Geschäfte zu adressieren. Das Fenster für eine Verabschiedung vor der einmonatigen Sommerpause schließt sich – nur noch wenige Tage bleiben. Ein erneutes Scheitern würde den regulatorischen Katalysator für Q3 eliminieren und institutionelle Positionen gefährden.",
-      "kursziel_eur_7_tage": 55200
-    },
-    {
-      "datum": "2026-07-30",
-      "kategorie": "Institutionell",
-      "titel": "Coinbase verfehlt Q2-Umsatzziele deutlich – Revenue-Rückgang 19% YoY auf $1,22B",
-      "beschreibung": "Der führende US-Crypto-Exchange meldet $1,22B Umsatz (vs. $1,5B im Vorjahr) und verfehlt Erwartungen, trotz Rekord-Marktanteilen. Schwacher Spot-Handel und niedrige Volatilität belasten Profitabilität. Dies verstärkt das Narrativ einer ermüdeten Retail-Liquidität und reduziert den Nutzen für Einzelanleger – ein Strukturproblem für breite Adoption.",
-      "kursziel_eur_7_tage": 55600
-    },
-    {
-      "datum": "2026-07-30",
-      "kategorie": "Makro",
-      "titel": "Bitcoin-ETFs auf Kurs für kleinste Monats-Zuflüsse aller Zeiten – Institutionelles Interesse erlahmt",
-      "beschreibung": "Bitcoin-ETFs steuern auf die schwächsten Juli-Zuflüsse ihrer Geschichte zu, nachdem eine 7-Tage-Kaufserie mit einem Nettoabfluss endete. Dies deuten darauf hin, dass institutionelle Accumulation entweder abgeschlossen ist oder dass Unsicherheit rund um Clarity Act und Fed-Politik Neukäufer abschreckt. Gold (€3.581,81) und Silber (€51,59) zeigen keine Fluchtbewegungen – breite Inflationsangst fehlt.",
-      "kursziel_eur_7_tage": 55400
-    },
-    {
-      "datum": "2026-07-30",
-      "kategorie": "Makro",
-      "titel": "Fed bleibt hawkish, BUT: PCE-Inflation sinkt erstmals seit 6 Jahren – Markt verarbeitet Zinswende-Hemmung",
-      "beschreibung": "Die Federal Reserve hält Zinsen stabil, signalisiert aber Widerstand gegen Senkungen, während PCE-Inflationsdaten einen Monatsinfall zeigen. Das schafft Widerspruch: Inflation sinkt, aber die Fed bleibt bullish auf höhere Raten. Bitcoin (-0,9% YoY trotz +0,9% heute) profitiert nicht – die Unsicherheit über Zinsdynamik bleibt Bremse. Gold und Silber stagnieren, was auf fehlende Inflations-Hedge-Nachfrage hindeutet.",
-      "kursziel_eur_7_tage": 56000
     }
   ],
   "fazits": [
+    {
+      "datum": "2026-08-12",
+      "kursziel_eur": {
+        "3_tage": 54800,
+        "7_tage": 55400,
+        "14_tage": 56800,
+        "30_tage": 59200
+      },
+      "kurs_eur": 54957,
+      "gold_eur": 3812.84,
+      "silver_eur": 56.461,
+      "einschaetzung": "Bitcoin stagniert bei €54.957 trotz positivem CPI-Report (3,4%, erwartet), das normalerweise zu Safe-Haven-Käufen führen sollte. Die fehlende parallele Bewegung von Gold (€3.812,84) und Silber (€56,46) zeigt, dass keine breite Inflations-Flucht stattfindet – stattdessen rotiert Kapital selektiv zu AI-Infrastruktur (CoreWeave +16%) und Yield-Produkten (Fidelity Ethereum Staking). Goldman Sachs' $2,25B NEOS-Übernahme ist strukturell bullisch für Bitcoin-ETFs, aber markttechnisch zu klein, um sofortige Preisreaktionen zu triggern. Fear & Greed bei 27 (Fear) signalisiert Apathie statt Panic-Kapitulation – ein Umfeld, in dem Micro-Moves (±1%) dominieren und Makro-Katalysatoren (September CLARITY Act, Fed-Pause-Bestätigung) kritisch werden.",
+      "gewichtung": {
+        "bullish": 35,
+        "bearish": 45,
+        "neutral": 20
+      },
+      "schluessel_niveau_eur": 52800,
+      "schluessel_niveau_erklaerung": "€52.800 ist die psychologische Unterstützung aus den Juli-Lows und dem 200-Tages-SMA-Bereich. Ein Bruch unter dieses Niveau würde Momentum-Verkäufe von institutionellen Hedge-Positionen auslösen und in Richtung €50.000–€51.000 führen. Über €58.000 könnte September-CLARITY-Act-Optimismus und Q3-Rebalancing neue Käuferwellen triggern.",
+      "naechster_katalysator": "September US Senate CLARITY Act Abstimmung (erwartungsgemäß Woche 1–2 September) – Bestätigung würde institutionelles Kapital freigeben; Verzögerung oder Ablehnung würde regulatorischen Pessimismus triggern und Bitcoin unter €52.000 drücken. Parallel: Fed Powell Jackson Hole Rede (voraussichtlich 23. August) für Zinsausblick-Clarification.",
+      "szenario_bedingungen": [
+        "BULLISH: CLARITY Act passiert September-Votum mit >60% Support UND Fed signalisiert Pause-Serie → Bitcoin steigt zu €59.000–€61.000 in 30 Tagen (Institutional-Rebalancing); ETF-Zuflüsse beschleunigen auf >$1B/Woche",
+        "BEARISH: CLARITY Act verzögert sich bis Q4 UND Fed-Hawkishness persistiert (Powell redet hart, Arbeitsmarkt stärker als erwartet) → Bitcoin fällt zu €50.000–€51.000 (Rücktest July-Lows) auf despair-selling von Retail; Gold rotiert zu €3.900+ (Flight-to-Safety bestätigt)",
+        "NEUTRAL: Status quo (CPI erfüllt, CLARITY bleibt September-Ziel, Fed ambivalent) → Bitcoin oszilliert €53.500–€56.500 für weitere 2–3 Wochen; AI-Infrastruktur-Rotation bleibt dominanter Kapital-Magnet als Crypto"
+      ]
+    },
     {
       "datum": "2026-08-11",
       "kursziel_eur": {
@@ -501,7 +527,21 @@
         "Weitere Lightning/Self-Custody-Exploits oder Sicherheitsmeldungen → Rotation zu Exchange-Custody, temporärer Druck unter €54.000 (3–7 Tage)",
         "ETF-Zuflüsse bleiben >$500M/Woche für 2 weitere Wochen → Support unter €55.000 wird hart, Aufwärtsziel €62.000 in 30 Tagen realistisch",
         "Gold bleibt unter €3.000, während Bitcoin über €57.000 steigt → Bestätigung, dass Money-Flow zu Tech-Assets statt klassischen Safe-Havens fließt (Bullish-Signal für 30-Tage-Horizont)"
-      ]
+      ],
+      "rueckblick": {
+        "kursziele_damals_eur": {
+          "3_tage": 56100,
+          "7_tage": 57200,
+          "14_tage": 59500,
+          "30_tage": 62000
+        },
+        "kurs_damals_eur": 56466,
+        "kurs_heute_eur": 54957,
+        "abweichung_3_tage_absolut": -1143,
+        "abweichung_3_tage_prozent": -2.0,
+        "selbstkritik": "Die 3-Tages-Prognose von €56.100 war zu optimistisch und unterschätzte die bearische Kraft von (a) CoreWeave AI-Rotation, (b) Public Miner Selling-Druck (auf €54–€55k nivelliert), und (c) technische Schwäche vor CPI-Release. Der 7-Tages-Ziel von €57.200 und 14-Tages-Ziel von €59.500 basierte auf ETF-Zufluss-Dynamik ($853M Woche), die sich aber als zu fragil erwies – ohne Makro-Clarification (CLARITY verzögert auf September, Fed ambivalent) konnte Buying-Druck nicht persistieren. Die 30-Tages-Prognose von €62.000 basierte auf optimistischer CLARITY-Bestätigung in August, die faktisch nicht eintrat. Besser wäre gewesen, die AI-Infrastruktur-Rotations-Realität früher in die Baseline einzupreisen und CPI als Neutral-Event zu bewerten statt als automatischen Bullish-Katalysator.",
+        "lernpunkt": "Institutionelle Flows (ETF-Zuflüsse) sind notwendig, aber nicht ausreichend ohne makroökonomische und regulatorische Catalysts. Die Divergenz zwischen Bitcoin-Stagnation und Gold-Seitwärts (nicht parallel) deutet auf selektive Tech-Rotation statt breiter Inflations-Flight-to-Safety hin – dieses Signal war in der alten Prognose zu schwach gewichtet."
+      }
     },
     {
       "datum": "2026-08-08",
