@@ -1,6 +1,41 @@
 {
-  "letzte_aktualisierung": "2026-08-12",
+  "letzte_aktualisierung": "2026-08-13",
   "ereignisse": [
+    {
+      "datum": "2026-08-13",
+      "kategorie": "Regulierung",
+      "titel": "SEC cancelt Reg Crypto Proposal – Regulierungsunklarheit bleibt strukturelles Headwind",
+      "beschreibung": "Die SEC hat ihre lange erwartete Crypto-Regulierungs-Proposal überraschend verschoben und keinen neuen Termin genannt. Dies verlängert die regulatorische Grauzone, die Bitcoin bei €55.060 EUR halten, während institutionelle Adoption (Goldman Sachs NEOS-Deal, Fidelity ETH-Staking) weiterläuft. Gold (€3.777,26 EUR) zeigt keine Flucht-Reaktion, was bestätigt, dass dies crypto-spezifisches Governance-Risiko ist, kein makro-Schock.",
+      "kursziel_eur_7_tage": 55200
+    },
+    {
+      "datum": "2026-08-13",
+      "kategorie": "Makro",
+      "titel": "Treasury-Renditen (und damit Bitcoin-Opportunity-Cost) bleiben strukturell erhöht – 1M-Bitcoin-These unter Druck",
+      "beschreibung": "CoinDesk analysiert, dass hohe US-Treasury-Renditen nicht-verzinsliche Assets wie Bitcoin weniger attraktiv machen – die 1-Million-Dollar-These könnte zu optimistisch sein. Bei €55.060 EUR und Gold parallel bei €3.777,26 EUR (beide ohne divergente Fluchtbewegung) signalisiert dies, dass Kapital eher zu Fixed-Income als zu alternativem Risk-On fließt. Dies erklärt die Käufer-Apathie (Fear & Greed: 29).",
+      "kursziel_eur_7_tage": 54800
+    },
+    {
+      "datum": "2026-08-13",
+      "kategorie": "Institutionell",
+      "titel": "B2C2 rekrutiert Schroders-Veteran – Institutional Liquidity Layer reift, bleibt aber nischen-fokussiert",
+      "beschreibung": "Der institutionelle Crypto-Liquidity-Provider B2C2 stellt Schroders Wealth Management Asia-Chef an, um Family Offices und Asset Manager zu adressieren. Dies bestätigt, dass Institutional Adoption auf Wealth-Management-Ebene wächst, bleibt aber geographisch und Segment-begrenzt. Bitcoin bei €55.060 EUR profitiert nur langsam davon – kein Mass-Market-Tipping-Point erkennbar.",
+      "kursziel_eur_7_tage": 55100
+    },
+    {
+      "datum": "2026-08-13",
+      "kategorie": "OnChain",
+      "titel": "Public Bitcoin Miner reduzieren Hashrate um 13,4% – AI-Infrastructure-Pivot wird zur Profitabilität-Falle",
+      "beschreibung": "Öffentliche Bitcoin-Miner schneiden ihre Hashrate um 13,4% um, da sie Kapazität in AI/HPC-Infrastruktur umleiten. Dies zeigt strukturelle Hashrate-Volatilität und reduzierte Mining-Sicherheitsmarge, während Bitcoin-Preis bei €55.060 EUR nicht compellingly genug ist. Silber (€56,03 EUR, parallel zu BTC schwach) bestätigt, dass dies kein inflationäres Safe-Haven-Szenario ist.",
+      "kursziel_eur_7_tage": 54700
+    },
+    {
+      "datum": "2026-08-13",
+      "kategorie": "Institutionell",
+      "titel": "Figure revenues verdoppeln sich auf $226M, Blockchain-Loan-TVL auf $4,3B – Tokenization-Momentum vs. Bitcoin-Preisapathie-Divergenz",
+      "beschreibung": "Figure Technologies meldet Umsatz-Verdopplung und $4,3B Blockchain-Loan-Volumen, was das Tokenization-Ökosystem als eigenständiges Growth-Driver-Narrativ etabliert. Bitcoin bei €55.060 EUR participiert indirekt durch Layer-2-/Infra-Heben, aber profitiert nicht direkt von Asset-Tokenization-Traction. Dies zeigt: Crypto-Ecosystem wächst, Bitcoin-Core bleibt Narrative-Anker statt Price-Driver.",
+      "kursziel_eur_7_tage": 55250
+    },
     {
       "datum": "2026-08-12",
       "kategorie": "Institutionell",
@@ -385,44 +420,35 @@
       "titel": "Strategy hält STRC-Dividende trotz Discount zur Parität – Saylor-Pivot bleibt rational",
       "beschreibung": "Michael Saylor und Team führten die STRC-Dividende nicht an, obwohl die Aktie deutlich unter Parität notiert. Dies signalisiert Vertrauen in langfristige Bitcoin-Akkumulation statt kurzfristig-opportunistische Ausschüttungen. Bitcoin bei €54.427 EUR profitiert von diesem Signaling institutioneller Geduld, auch wenn die 24h-Volatilität (-0,2%) Vorsicht anzeigt.",
       "kursziel_eur_7_tage": 54600
-    },
-    {
-      "datum": "2026-07-31",
-      "kategorie": "Technik",
-      "titel": "Coldcard Hardware-Wallet-Bug: $38M Bitcoin gestohlen – Self-Custody-Vertrauen erschüttert",
-      "beschreibung": "Ein Randomness-Bug in der beliebten Coldcard Hardware-Wallet führte zur Entwendung von ~600 BTC (~€38M) in 25 Minuten. Sicherheitsexperten warnen, dass die Seed-Generierung kompromittiert wurde. Dies verstärkt die Flucht zu ETF-Lösungen und institutioneller Custody, während Self-Custody-Narrative unter Druck gerät. Bitcoin notiert bei €54.494, Gold (€3.520,85) und Silber (€50,23) zeigen keine Flucht-Rallies – technisches Risiko wird isoliert betrachtet.",
-      "kursziel_eur_7_tage": 53500
-    },
-    {
-      "datum": "2026-07-31",
-      "kategorie": "Regulierung",
-      "titel": "Circle erhält New York Trust Charter – USDC-Regulierung normalisiert sich",
-      "beschreibung": "Circle sichert sich New York Trust Charter und darf künftig Fiduciary- und Custody-Services anbieten. Dies ist ein strukturelles Normalisierungs-Signal für stablecoin-Ökosysteme, auch während Bitcoin -3,1% im 24h-Verlauf verliert. Parallel: Tether generiert Q2-Gewinn von $1,5B, kauft 14 Tonnen Gold und 1.800 Bitcoin – klassische Safe-Haven-Käufe trotz Krypto-Schwäche. Gold (€3.520,85) bleibt stabil, was auf differentielle Risikowahrnehmung hindeutet.",
-      "kursziel_eur_7_tage": 54000
-    },
-    {
-      "datum": "2026-07-31",
-      "kategorie": "Makro",
-      "titel": "Quantum Computing vor kommerziellem Durchbruch – IBM prognostiziert materielle Revenue vor 2030",
-      "beschreibung": "IBM-CEO Arvind Krishna kündigt an, dass Quantum Computing vor Ende des Jahrzehnts bedeutende Umsätze generieren wird. Dies reignet Besorgnis über Krypto-Sicherheit auf (Quantum-Resistenz unbekannt) und könnte langfristig Bitcoin-Sicherheitsmodelle in Frage stellen. Markt reagiert emotional (Fear Index 25 = Extreme Fear), nicht technisch. Gold (€3.520,85) und Silber (€50,23) reflektieren Unsicherheit nicht – eher Zinsdiskonto-Sorge.",
-      "kursziel_eur_7_tage": 52800
-    },
-    {
-      "datum": "2026-07-31",
-      "kategorie": "Institutionell",
-      "titel": "Coinbase verfehlte Q2-Umsatzziele – Wall Street zweifelt an Timing der Erholung",
-      "beschreibung": "Coinbase verfehlt Q2-Revenue-Schätzungen deutlich (€1,22B vs. Vorjahr €1,5B, -19% YoY). Analysten spalten sich über Erholungs-Timing. Dies unterstreicht Retail-Liquidations-Apathie parallel zu institutionellen Normalisierungs-Spielen (Morgan Stanley, BNY Mellon). Bitcoin fällt -3,1% auf €54.494 in Markt mit Fear Index 25. Gold (€3.520,85) bleibt unbewegt – kein Safe-Haven-Escape erkennbar.",
-      "kursziel_eur_7_tage": 53200
-    },
-    {
-      "datum": "2026-07-31",
-      "kategorie": "Makro",
-      "titel": "US-Sanktionen gegen iranische Bitcoin-Versicherungs- und Schiffs-Sanctions-Umgeh-Netzwerke",
-      "beschreibung": "US Treasury verhängt Sanktionen gegen Hormuz Safe Platform (Bitcoin-basierte Schiffs-Versicherung) und Dubai-basierte Shelbit (angeblich $4B Iran-Netzwerk zur Sanktions-Umgehung, mit Zuflüssen zu Binance). Dies signalisiert hawkish geopolitische Regulatory-Stimmung. Bitcoin bleibt bei €54.494 stabil – Geopolitik-Risiko nicht in Kurs eingepreist. Gold (€3.520,85) und Silber (€50,23) zeigen KEINE Flucht-Rally, was bedeutet: Sicherheitsrisiko, nicht Inflations-/Krisen-Angst.",
-      "kursziel_eur_7_tage": 53800
     }
   ],
   "fazits": [
+    {
+      "datum": "2026-08-13",
+      "kursziel_eur": {
+        "3_tage": 55060,
+        "7_tage": 54950,
+        "14_tage": 55200,
+        "30_tage": 56800
+      },
+      "kurs_eur": 55060,
+      "gold_eur": 3777.26,
+      "silver_eur": 56.033,
+      "einschaetzung": "Bitcoin verharrt in Apathie-Liquiditätsloch bei €55.060 EUR trotz gemischter Nachrichten. Die SEC-Verschiebung von Reg Crypto (Bearish für regulatorische Klarheit) wird aufgewogen durch Institutional Adoption-Signale (Figure, B2C2, Goldman Sachs NEOS), doch die reale Preisaktion bleibt stumpf (+0,2% 24h). Gold (€3.777,26 EUR) und Silber (€56,03 EUR) laufen PARALLEL zu Bitcoin – keine Divergenz zu klassischen Safe-Havens erkennbar – was signalisiert: Die Schwäche ist NICHT makro-getrieben (Inflation, Krise), sondern CRYPTO-SPEZIFISCH (Regulatory Fog, Hashrate-Exodus zu AI, hohe Treasury-Renditen). Fear & Greed Index bei 29 (Fear) bestätigt, dass Kapital zögerlich bleibt. Positive Momente (Tokenization Ramp, Mining-Kapazität zu höherer Marge) sind zu klein für Bulk-Rallys. Bitcoin konsolidiert im €54.700–€55.500-Band, testet demnächst €54.200-Unterstützung als 7-Tage-Floor.",
+      "gewichtung": {
+        "bullish": 25,
+        "bearish": 65,
+        "neutral": 10
+      },
+      "schluessel_niveau_eur": 54200,
+      "schluessel_niveau_erklaerung": "€54.200 ist die technische Unterkante des aktuellen Konsolidierungsbandes (€54.200–€56.500 seit Aug. 10). Ein Bruch darunter triggert Test von €51.500–€52.800 (200-Tages-MA-Äquivalent) und bestätigt Kapitulation unterhalb der jüngsten Higher-Lows. Ein stabiles Halten über €54.200 signalisiert Bärenmarkt-Floor + Akkumulation vor CLARITY Act Votum (September) und nächstem CPI-Report.",
+      "naechster_katalysator": "Jackson Hole Economic Symposium (24.–26. August) – Powells Rede wird Zinspfad-Guidance geben und Direct-Bid-Support für Assets zeigen (oder fehlen). Parallel: CPI-Report (20. August) und US-Arbeitsmarkt-Daten (nächster NFP) als Sekundär-Katalysatoren für Treasury-Rendite-Umdenken.",
+      "szenario_bedingungen": [
+        "BULLISH: Powell signalisiert auf Jackson Hole Zinssenkungs-Kurs → Treasury-Renditen fallen unter 3,8% 10-Jahr-Äquivalent → Bitcoin-Opportunity-Cost sinkt → Rally zu €56.500–€57.200 über 7–14 Tage.",
+        "BEARISH: SEC-Verzögerung wird als Governance-Rückschlag interpretiert, B2C2/Figure Gains reichen nicht für Bulk-Anleger-Einstieg → Bitcoin bricht €54.200 Support → Kapitulation zu €52.000–€53.000 über 14 Tage; Gold (€3.777,26) und Silber bleiben parallel, kein Safe-Haven-Flight erkennbar.",
+        "NEUTRAL: Bitcoin verbleibt im €54.200–€56.500-Band bis Jackson Hole, dann volatile Rotation auf Powells Rhetoric → Fear & Greed Index bleibt 25–35 (Apathie) → Großkapital wartet auf September CLARITY Act Votum, Tokenization-Ramp wird zum Micro-Narrative."
+      ]
+    },
     {
       "datum": "2026-08-12",
       "kursziel_eur": {
@@ -500,7 +526,17 @@
         "SZENARIO A (BULLISH): CPI kommt heißer rein als erwartet (3,2%+ YoY) → Fed-Hawkish-Signale → USD-Stärke bleibt Headwind. Bitcoin bleibt unter €56.000, aber Halten über €54.200 signalisiert Floor. Ziel: €56.500 in 7 Tagen.",
         "SZENARIO B (BEARISH): CPI misst cooler (2,7%–2,8%) → Dollar-Schwäche, aber Recession-Angst steigt → Kapitaltransfer zu Gold (€3.802,79 EUR → €3.850+) statt Bitcoin. Bitcoin-Resistance bleibt €55.500–€56.000. Breakout nach unten auf €52.000–€53.000 in 14 Tagen möglich.",
         "SZENARIO C (NEUTRAL): CPI im Erwartungsrahmen (2,9%) → Keine neuen Fed-Signale → Bitcoin oszilliert €54.200–€56.000 bis CLARITY Act. ETF-Zuflüsse ($853M letzte Woche) halten Boden, aber organisches Momentum fehlt. Seitwärts bis €55.408 in 7 Tagen."
-      ]
+      ],
+      "rueckblick": {
+        "kursziel_damals_3_tage": 54800,
+        "kursziel_damals_7_tage": 54900,
+        "kursziel_damals_14_tage": 55200,
+        "kursziel_damals_30_tage": 56500,
+        "kurs_damals": 55408,
+        "kurs_heute": 55060,
+        "performance_bewertung": "TEILWEISE KORREKT. Die 7-Tage-Projektion (€54.900) war 160 EUR zu niedrig – Bitcoin ist statt auf 54.900 bei 55.060 geblieben. Die 3-Tage-Projektion (€54.800) war zu pessimistisch (Bitcoin fiel nicht so tief). Die 14/30-Tages-Ziele (€55.200 / €56.500) bleiben aktuell und sind MITTELFRISTIG noch valide. Der damalige Rückblick identifizierte korrekt, dass Strategy-Verkauf + Trump Media-Losses = Corporate Diversification-Trend (nicht Safe-Haven-Holding), was die Schwäche erklärte. Gold parallel zu BTC (damals €3.802,79, heute €3.777,26) war korrekt als crypto-spezifisches Regulatory-Risiko-Signal interpretiert.",
+        "lehren": "1) Die Projektion war zu linear-pessimistisch: Ein Bruch des €54.200-Supports erfolgte nicht, was zeigt, dass der Bärenmarkt-Floor robuster ist als angenommen. 2) Die Warnung vor Custody-Unbehagen (Coldcard/Coinsbuy Hacks) war zeitkritisch, ist aber jetzt 3 Tage veraltet – neue Hacks/Exploits müssen neu bewertet werden (z.B. BTCPay Lightning-Exploit €190k heute). 3) Fear & Greed 30 bleibt in Apathie-Zone, was bestätigt, dass die Apathie-These hielt, aber liquiditätsgesteuerter Rally ausgeblieben ist. Für nächste Rückblick: Jackson Hole wird entscheidend, um zu sehen, ob Treasury-Rendite-Szenario die Preisaktion antreibt oder institutionelle Adoption (Figure, Tokenization) das Skript umschreibt."
+      }
     },
     {
       "datum": "2026-08-09",
