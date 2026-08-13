@@ -1,6 +1,39 @@
 {
   "fazits": [
     {
+      "datum": "2026-08-13",
+      "kurs_eur": 55051,
+      "identifizierte_schwachstellen": [
+        "Kein Haiku-Fazit vorhanden – daher keine inhaltliche Schwachstelle prüfbar. Allerdings offenbart die Abwesenheit eines Haiku-Fazits selbst ein strukturelles Problem: Wenn ein KI-System an einem Tag ohne Ereignisse schlicht kein Fazit produziert, fehlt die wichtige Null-Hypothese ('kein Signal = kein klarer Bias'). Das ist eine Unterlassungsschwäche, keine inhaltliche.",
+        "Strukturelles Muster aus den Vortagen (prüfbar als Proxy): Haikus Vorgängereinschätzungen haben wiederholt auf Fear-Index und Nachrichtenleere als bearishe Signale gesetzt. Das ist eine klassische Verwechslung von Abwesenheit von Bullen-Katalysatoren mit aktiven Bären-Katalysatoren. Fear bei 29 kann Bodenbildung markieren, nicht nur Fortschreiten einer Abwärtsbewegung.",
+        "Meine eigene Analyse vom 2026-08-12 prognostizierte €54.200 für 7 Tage – der aktuelle Kurs liegt bei €55.051, also leicht über meinem damaligen 3-Tage-Ziel (€54.500). Das zeigt: die konsistente Downside-Bias der letzten Tage (meine wie Haikus) wurde durch Marktresilienz nicht bestätigt. Beide Systeme unterschätzen systematisch die Klebeeffekte bei Konsolidierungsniveaus."
+      ],
+      "staerkstes_gegenargument": "Der stärkste Einwand gegen eine bearishe Grundhaltung lautet: Bitcoin hat in den letzten 5 Handelstagen trotz Fear-Index um 27-29, trotz nachrichtenarmer Lage und trotz bearisher KI-Prognosen konsistent im €54.900–€55.400-Band gehalten. Märkte, die unter multiplem bärischen Druck nicht fallen, senden ein strukturelles Stärkesignal – das wird von narrativen 'Vakuum = bearish'-Analysen systematisch ignoriert. Wer wartet auf einen Rücksetzer, der nicht kommt, verpasst eine stille Akkumulationsphase.",
+      "eigenes_kursziel_eur": {
+        "3_tage": 55200,
+        "7_tage": 54800,
+        "14_tage": 54500,
+        "30_tage": 56500
+      },
+      "eigene_einschaetzung": "Bitcoin bei €55.051 zeigt eine bemerkenswert stabile Konsolidierung, die ich in meinen Vorprognosen zu aggressiv nach unten bewertet habe – meine 22% Richtungstreffer-Quote mahnt zur Demut. Der Fear-Index bei 29 ist kein eindeutiger Verkaufssignal, sondern historisch oft ein Bodenindikator wenn gleichzeitig keine Kapitulation im Volumen erkennbar ist. ETH's leicht positiveres Momentum (+0.6% vs BTC +0.2%) deutet auf keine systemische Risk-off-Bewegung hin. Ich gewichte kurzfristig neutral-bis-bearish, mittelfristig (30 Tage) jedoch vorsichtig bullisch, weil die Klebeeffekte im €54.500–€55.500-Band eine komprimierte Basis für eine eventuelle Aufwärtsbewegung darstellen könnten. Meine Kursziele sind bewusst enger gefasst als in der Vergangenheit, um meiner nachgewiesenen Tendenz zur Über-Extrapolation entgegenzuwirken.",
+      "eigene_gewichtung": {
+        "bullish": 25,
+        "bearish": 45,
+        "neutral": 30
+      },
+      "begruendung_bei_uebereinstimmung": "Kein Haiku-Fazit vorhanden, daher keine direkte Übereinstimmung prüfbar. Meine eigene Abweichung von meinen gestrigen Zielen (€54.200 für 7 Tage) nach oben korrigiert – der Markt hat meine bearishe Bias erneut nicht bestätigt. Die Kritik an systematischer Downside-Extrapolation kippt nicht das Gesamtbild eines strukturell angeschlagenen Momentums (Fear 29, kein Katalysator), verschiebt aber die Gewichtung spürbar Richtung neutral.",
+      "uebereinstimmung_mit_haiku": "unbekannt",
+      "szenario_bedingungen": [
+        "Bitcoin schließt 3 aufeinanderfolgende Tageskerzen über €55.800 – dies würde den Ausbruch aus der aktuellen Konsolidierungszone bestätigen und das 30-Tage-Ziel €56.500+ plausibilisieren.",
+        "Der Crypto Fear & Greed Index steigt innerhalb von 7 Tagen auf über 40 (Neutral-Zone) ohne begleitende Kursexplosion – das wäre ein Zeichen für organische Stimmungsverbesserung und stützt den mittelfristigen Bullcase.",
+        "Bitcoin fällt unter €53.500 auf Tagesschlusskursbasis – dies würde das bearishe Szenario aktivieren und wäre eine klare Bestätigung, dass die Konsolidierung keine Akkumulation, sondern Verteilung war.",
+        "ETH/BTC-Ratio verbessert sich messbar (ETH outperformt BTC um >5% in 7 Tagen) – dies würde auf breiteren Risikoappetit im Krypto-Sektor hindeuten und wäre ein vorauseilender Indikator für Bitcoin-Stärke."
+      ],
+      "haiku_kursziel_zum_vergleich": null,
+      "erstellt_am": "2026-08-13T22:52:23.505131",
+      "api_versuche": 1
+    },
+    {
       "datum": "2026-08-12",
       "kurs_eur": 54959,
       "identifizierte_schwachstellen": [
@@ -108,7 +141,10 @@
         "30_tage": 56500
       },
       "erstellt_am": "2026-08-10T23:37:17.877611",
-      "api_versuche": 1
+      "api_versuche": 1,
+      "rueckblick_3_tage_erwartet_prozent": -1.1,
+      "rueckblick_3_tage_tatsaechlich_prozent": -0.73,
+      "rueckblick_3_tage_tatsaechlicher_kurs": 55002.353962570174
     },
     {
       "datum": "2026-08-09",
@@ -269,7 +305,10 @@
       "api_versuche": 1,
       "rueckblick_3_tage_erwartet_prozent": -1.25,
       "rueckblick_3_tage_tatsaechlich_prozent": 0.47,
-      "rueckblick_3_tage_tatsaechlicher_kurs": 56161.65647809969
+      "rueckblick_3_tage_tatsaechlicher_kurs": 56161.65647809969,
+      "rueckblick_7_tage_erwartet_prozent": 1.08,
+      "rueckblick_7_tage_tatsaechlich_prozent": -1.6,
+      "rueckblick_7_tage_tatsaechlicher_kurs": 55002.353962570174
     },
     {
       "datum": "2026-08-05",
@@ -460,7 +499,10 @@
       "rueckblick_3_tage_tatsaechlicher_kurs": 54438.202921892946,
       "rueckblick_7_tage_erwartet_prozent": 0.12,
       "rueckblick_7_tage_tatsaechlich_prozent": 0.25,
-      "rueckblick_7_tage_tatsaechlicher_kurs": 55874.08636065119
+      "rueckblick_7_tage_tatsaechlicher_kurs": 55874.08636065119,
+      "rueckblick_14_tage_erwartet_prozent": 1.37,
+      "rueckblick_14_tage_tatsaechlich_prozent": -1.31,
+      "rueckblick_14_tage_tatsaechlicher_kurs": 55002.353962570174
     },
     {
       "datum": "2026-07-28",
@@ -1150,5 +1192,5 @@
       "rueckblick_kurs_7_tage": 54505.1633858627
     }
   ],
-  "letzte_aktualisierung": "2026-08-12"
+  "letzte_aktualisierung": "2026-08-13"
 }
