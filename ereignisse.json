@@ -1,6 +1,51 @@
 {
-  "letzte_aktualisierung": "2026-08-13",
+  "letzte_aktualisierung": "2026-08-14",
   "ereignisse": [
+    {
+      "datum": "2026-08-14",
+      "kategorie": "Regulierung",
+      "titel": "World Liberty Trust Co. erhält bedingte Bankcharta von US-Comptroller",
+      "beschreibung": "Das Office of the Comptroller of the Currency erteilte World Liberty Trust Co. am Freitag die vorläufige bedingte Genehmigung für eine Bankcharta. Dies markiert einen Schritt in der institutionellen Infrastrukturbildung für Crypto-Services, während Bitcoin bei €54.264 notiert und der Fear & Greed Index bei 29 verbleibt.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-08-14",
+      "kategorie": "Regulierung",
+      "titel": "SEC verzögert Innovation Exemption für Tokenisierung – Bullish, Coinbase, Circle verlieren an Wert",
+      "beschreibung": "Die SEC verschob ihre Ankündigung zum Innovation Exemption für Tokenisierung und stornierte das für Freitag geplante Treffen zur Reg Crypto ohne neuen Termin. Tokenisierungs-Stocks gerieten unter Druck; die Verzögerung wird als Regulierungs-Rückschlag für Wall Street's Crypto-Integration interpretiert.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-08-14",
+      "kategorie": "Institutionell",
+      "titel": "Bank Leumi (Israels größte Bank) startet Bitcoin-, Ether- und Solana-Trading ab Q1 2027",
+      "beschreibung": "Bank Leumi kündigte eine Partnerschaft mit Galaxy an, um Kunden ab Anfang 2027 den Handel von Bitcoin, Ethereum und Solana über die Investment-App zu ermöglichen. Dies symbolisiert die Integration von Crypto-Assets in etablierte Bankingkanäle außerhalb der USA.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-08-14",
+      "kategorie": "Institutionell",
+      "titel": "Morgan Stanley Q2: BlackRock Bitcoin ETF Holdings um 23% gestiegen; JPMorgan verdoppelt Bitcoin-ETF-Position",
+      "beschreibung": "Morgan Stanleys IBIT-Holdings (BlackRock Bitcoin ETF) stiegen auf 16,5 Mio. Anteile in Q2 (+23%); JPMorgan erhöhte seine Bitcoin-ETF-Position um 25% und sein Ether-ETF-Position um über 400%. Beide Transaktionen entstanden während Bitcoin auf €54.264 korrigierte und Spot-ETFs ihre erste zweitägige Abflussreihe seit Juli verzeichneten.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-08-14",
+      "kategorie": "Institutionell",
+      "titel": "MSCI plant Ausschluss von Bitcoin-Treasury-Unternehmen – Strategy und Metaplanet von Indexlöschung bedroht",
+      "beschreibung": "MSCI kündigte eine Konsultation an, die Non-Operating-Unternehmen wie Strategy und Metaplanet aus ihren Indizes ausschließen würde. Strategy argumentiert, dass Indexanbieter Märkte messen, statt zu diktieren, welche Assets Unternehmen halten dürfen – eine strukturelle Auseinandersetzung über Crypto-Assets als legitime Konzern-Reserven.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
     {
       "datum": "2026-08-13",
       "kategorie": "Regulierung",
@@ -385,41 +430,6 @@
       "titel": "Fear & Greed Index bei 27 (Fear) – Apathie statt Panik diagnostiziert Liquiditätsmangel",
       "beschreibung": "Der Markt-Sentiment-Index steht bei nur 27 (Fear), aber NOT im panischen Modus – dies ist die toxischste Zone, da sie totale Kapitulationen fehlende Nachfrage signalisiert, nicht verzweifelte Verkäufe. Gold (€3.540,00) und Silber (€50,98) bewegen sich NICHT parallel zu Bitcoin, was zeigt, dass Anleger Bitcoin NICHT als Inflations- oder Krisenhedge nutzen. Das fehlende Vertrauen in Safe-Havens deutet auf strukturelle Demoralisierung hin, nicht auf rationale Rotation.",
       "kursziel_eur_7_tage": 53800
-    },
-    {
-      "datum": "2026-08-01",
-      "kategorie": "OnChain",
-      "titel": "Coldcard-Exploit breitet sich auf 4.500 Adressen aus – Gesamtverluste nähern sich $89M",
-      "beschreibung": "Galaxy Research identifizierte eine dritte Welle von Sweeps durch schwach generierte Coldcard-Seeds; der Angreifer zielt nun auf kleinere Balancen und ändert Fondssammlung auf der Chain. Michael Saylor und CZ warnen vor Hardware-Wallet-Risiken und empfehlen Diversifikation. Dies untergräbt Self-Custody-Vertrauen und könnte institutionelle Allocations zu ETF-Produkten beschleunigen, während Bitcoin bei €54.427 EUR (-0,2% 24h) konsolidiert.",
-      "kursziel_eur_7_tage": 53800
-    },
-    {
-      "datum": "2026-08-01",
-      "kategorie": "Technik",
-      "titel": "Bitcoin-Mining-Schwierigkeit fällt 14% von Jahreshoch – Miner-Kapazitäten unter Druck",
-      "beschreibung": "Mining-Difficulty schrumpft als Folge schwacher Operator-Ökonomie; Forward-Märkte signalisieren wenig Erleichterung bis Jahresende. Diese Rekalibrierung reduziert Inflationsdruck auf Bitcoin-Angebot, könnte aber auf anhaltende Hardware-Profitabilitätskrise hindeuten. Gold (€3.520,85 EUR) und Silber (€50,23 EUR) zeigen keine entsprechende Bewegung, was darauf hindeutet, dass Producer-Cost-Druck nicht systemisch inflationär wahrgenommen wird.",
-      "kursziel_eur_7_tage": 54100
-    },
-    {
-      "datum": "2026-08-01",
-      "kategorie": "Regulierung",
-      "titel": "SEC prüft Nasdaq Bitcoin-Options-Zulassung nach CME-Einspruch – Jurisdiktionsstreit eskaliert",
-      "beschreibung": "CME argumentiert, dass Bitcoin-Optionen unter CFTC-Jurisdiktion (Rohstoffe) fallen, nicht SEC. Dieser regulatorische Tauziehen verzögert Clarity und gefährdet das Institutional-Onboarding über strukturierte Produkte. Bitcoin bei €54.427 EUR bleibt unbeeindruckt, aber anhaltende Policy-Fragmentierung (ähnlich wie Senate CLARITY Act-Verzögerungen) hemmt die Preis-Katalysator-Dynamik.",
-      "kursziel_eur_7_tage": 54300
-    },
-    {
-      "datum": "2026-08-01",
-      "kategorie": "Institutionell",
-      "titel": "Tether addiert 14 Tonnen Gold und 1.800 BTC zu Reserven im Q2 – Stablecoin-Stärke signalisiert Vertrauen",
-      "beschreibung": "USDT-Emittent postete $1,5B Q2-Betriebsgewinn und erhöhte Gold-Reserven (€3.520,85 EUR aktuell) sowie Bitcoin-Bestände. Diese parallele Akkumulation von klassischem Safe-Haven (Gold) und Bitcoin deutet auf institutionelle Kapital-Normalisierung hin und suggeriert, dass Stablecoin-Emittenten nicht zu risky Assets rotieren, sondern Liquidity-Puffer erweitern – ein Signal für erwartete Volatilität, nicht Panik.",
-      "kursziel_eur_7_tage": 54500
-    },
-    {
-      "datum": "2026-08-01",
-      "kategorie": "Persönlichkeiten",
-      "titel": "Strategy hält STRC-Dividende trotz Discount zur Parität – Saylor-Pivot bleibt rational",
-      "beschreibung": "Michael Saylor und Team führten die STRC-Dividende nicht an, obwohl die Aktie deutlich unter Parität notiert. Dies signalisiert Vertrauen in langfristige Bitcoin-Akkumulation statt kurzfristig-opportunistische Ausschüttungen. Bitcoin bei €54.427 EUR profitiert von diesem Signaling institutioneller Geduld, auch wenn die 24h-Volatilität (-0,2%) Vorsicht anzeigt.",
-      "kursziel_eur_7_tage": 54600
     }
   ],
   "fazits": [
@@ -1753,5 +1763,7 @@
         "lernpunkte": "Whale-Akkumulation sollte höher gewichtet werden bei Bodenbildungs-Szenarien. ETF-Abflüsse allein sind bearish, aber bei gleichzeitiger Whale-Käufe eher ein Indikator für MISPRICINGS als für Abwärts-Trend. Fear-Index bei 23 ist wirklich ein Konträr-Signal, nicht nur theoretisch."
       }
     }
-  ]
+  ],
+  "recherche_modell": "claude-haiku-4-5",
+  "recherche_prompt_version": 2
 }
