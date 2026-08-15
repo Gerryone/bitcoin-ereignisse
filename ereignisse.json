@@ -1,6 +1,51 @@
 {
-  "letzte_aktualisierung": "2026-08-14",
+  "letzte_aktualisierung": "2026-08-15",
   "ereignisse": [
+    {
+      "datum": "2026-08-15",
+      "kategorie": "Institutionell",
+      "titel": "UBS erhöht Bitcoin-Engagement massiv – 24x Anstieg bei Call-Optionen, IBIT-Bestände +12%",
+      "beschreibung": "Die Schweizer Megabank UBS hat ihre Bitcoin-Exposure im Quartal dramatisch ausgebaut: Call-Optionen auf Bitcoin stiegen um das 24-Fache, während die direkten Bestände des iShares Bitcoin ETF (IBIT) um 12% auf 407.890 Anteile wuchsen. Gleichzeitig reduzierte UBS Put-Optionen um 53%. Der Schritt signalisiert institutionelle Akquisitionsbereitschaft auf Kursniveaus von €54.527.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-08-15",
+      "kategorie": "Regulierung",
+      "titel": "Chinas zweitgrößter Bitcoin-Miner stellt Operationen in der Hauptstadt ein – Energierestriktionen treten in Kraft",
+      "beschreibung": "Das chinesische Energieministerium hat ganzjährige Betriebsbeschränkungen für Mining-Operationen in der Hauptstadt erlassen, um Stromengpässe zu entlasten. Dies ist ein strukturelles Headwind für die globale Bitcoin-Mining-Hashrate und könnte zu weiteren regionalen Abschaltungen führen, da energieintensive Infrastruktur regionale Stromnetze belastet.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-08-15",
+      "kategorie": "Institutionell",
+      "titel": "Paul Tudor Jones' Firma kehrt zu BlackRock Bitcoin ETF zurück – Call-Optionen fallen um 85%",
+      "beschreibung": "Das Vermögensmanagement-Unternehmen des legendären Traders Paul Tudor Jones beendete nach einem Jahr Verkäufen seinen Rückzug aus Bitcoin und erhöht seine Position im BlackRock Bitcoin ETF. Call-Optionen sanken um 85,2% auf 148.000 Anteile, während Put-Optionen mit −1,4% stabil blieben – ein Zeichen der Repositionierung in bullischere Strukturen bei €54.527.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-08-15",
+      "kategorie": "Regulierung",
+      "titel": "Tokenisierte Aktienbeteilungen verdoppeln sich – Halter steigen auf 1,31 Mio., Monatsvolumen +179%",
+      "beschreibung": "Im Laufe eines Monats hat sich die Anzahl der Inhaber von tokenisierten Aktien mehr als verdoppelt auf 1,31 Millionen, während das monatliche Transfervolumen um 179% auf $23,13 Mrd. anstieg. Dies dokumentiert einen messbaren Durchbruch bei Real-World-Asset-Tokenisierung, unabhängig von Bitcoin-Kursbewegungen und trotz Verzögerungen bei der SEC-Innovation-Exemption.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-08-15",
+      "kategorie": "Makro",
+      "titel": "Gold (€3.784,57) und Silber (€56,05) bewegen sich seitwärts – Risk-Off-Stimmung bei Crypto-Fear-Index 34",
+      "beschreibung": "Während Bitcoin bei €54.527 notiert und der Crypto Fear & Greed Index auf 34 (Angst) gefallen ist, zeigen traditionelle Safe-Havens Goldpreis €3.784,57 und Silber €56,05 eine stabile Seitwärtsbewegung ohne Fluchtbewegung. Dies deutet darauf hin, dass die aktuelle Marktangst eher Crypto-spezifisch ist als eine breitere Inflations- oder Krisenangst zu reflektieren.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
     {
       "datum": "2026-08-14",
       "kategorie": "Regulierung",
@@ -394,41 +439,6 @@
       "kategorie": "Persönlichkeiten",
       "titel": "Strategy verkauft weitere $105M Bitcoin, kauft STRC-Aktien – Saylor-Diversifikation in Gang",
       "beschreibung": "Michael Saylors Strategy trimmt Bitcoin-Holdings um 1.638 BTC (~$105M) und rotiert zu eigenen Aktien (STRC), während $290,6M Eigenkapital beschafft wird. Dies ist eine subtile Rebalancierung, nicht Panik, aber das Signal ist klar: Saylor sieht Bitcoin unter Druck und bevorzugt jetzt Wertschöpfung im eigenen Equity.",
-      "kursziel_eur_7_tage": 53800
-    },
-    {
-      "datum": "2026-08-02",
-      "kategorie": "OnChain",
-      "titel": "Trump Media verkauft weitere 2.628 BTC – Institutionelle Liquidationen setzen sich fort",
-      "beschreibung": "Trump Media hat 2.628 Bitcoin an Crypto.com transferiert und damit seine Bestände auf 4.261 BTC reduziert. Über sieben Monate wurden insgesamt 7.281 BTC verkauft. Diese Serie von Großverkäufen durch einen prominenten Corporate-Holder signalisiert mangelndes Vertrauen in höhere Kursniveaus und belastet das Sentiment in einer Phase, in der institutionelle Käufer (ETF-Zuflüsse im Juli nur $172,4M) bereits massiv zurückhaltend sind. Bei Bitcoin auf €54.906 wirkt jeder Major-Seller zusätzlich demoralisierend.",
-      "kursziel_eur_7_tage": 53200
-    },
-    {
-      "datum": "2026-08-02",
-      "kategorie": "Regulierung",
-      "titel": "Senate CLARITY Act vor Sommerpause – Crypto-Policy-Roadmap bleibt fragmentiert",
-      "beschreibung": "Der US-Senat geht nächste Woche in die Sommerpause und lässt die finale Abstimmung über den Clarity Act offen. Mit nur noch einer Woche vor dem Break bleibt kaum Zeit für Reconciliation zwischen Senat und House, was eine neuerliche Vertreibung des Catalysts in den Herbst bedeutet. Für Bitcoin (€54.906) wäre ein erneutes Scheitern das dritte Major-Policy-Fiasko in 18 Monaten und würde das letzte hoffnungsvolle 'Regulatory-Clarity'-Narrativ für Q3 killen.",
-      "kursziel_eur_7_tage": 52800
-    },
-    {
-      "datum": "2026-08-01",
-      "kategorie": "OnChain",
-      "titel": "Coldcard-Exploit-Welle nun 4.500 Adressen, $89M Verluste – Self-Custody-Vertrauen unter Druck",
-      "beschreibung": "Eine dritte Welle von Coldcard-Schwachstellen hat Attacken auf insgesamt 4.500 Adressen ausgelöst, mit Gesamtverlusten nahe $89M. Im Gegensatz zum FTX-Kollaps (2022) bewegen kleinere Holder jetzt aktiv Bitcoin ZURÜCK auf Börsen statt in Self-Custody. Dieses Paradoxon – Hardware-Wallets als unsicherer als zentralisierte Börsen – schädigt die ideologische Grundlage von Bitcoin (Sovereignty) und fördert Konsolidierung bei Exchange-Playern.",
-      "kursziel_eur_7_tage": 53500
-    },
-    {
-      "datum": "2026-08-01",
-      "kategorie": "Institutionell",
-      "titel": "Bitcoin-Mining-Schwierigkeit fällt 14% – Miner-Kapazitäten unter Druck, wenig Relief bis Jahresende",
-      "beschreibung": "Die Bitcoin-Mining-Difficulty ist um 14% vom Jahreshoch gefallen, da schwache Miner-Ökonomik zu Abschaltungen zwingt. Forward-Märkte signalisieren bis Jahresende 2026 kaum Erholung. Bei Bitcoin €54.906 und fehlenden großen Kursrallyes bleibt die Rentabilität marginal – dies zementiert mittelfristig das Risiko von Hashrate-Konzentration bei großen Mining-Pools und gefährdet die Dezentralisierung des Netzwerks.",
-      "kursziel_eur_7_tage": 54100
-    },
-    {
-      "datum": "2026-08-02",
-      "kategorie": "Makro",
-      "titel": "Fear & Greed Index bei 27 (Fear) – Apathie statt Panik diagnostiziert Liquiditätsmangel",
-      "beschreibung": "Der Markt-Sentiment-Index steht bei nur 27 (Fear), aber NOT im panischen Modus – dies ist die toxischste Zone, da sie totale Kapitulationen fehlende Nachfrage signalisiert, nicht verzweifelte Verkäufe. Gold (€3.540,00) und Silber (€50,98) bewegen sich NICHT parallel zu Bitcoin, was zeigt, dass Anleger Bitcoin NICHT als Inflations- oder Krisenhedge nutzen. Das fehlende Vertrauen in Safe-Havens deutet auf strukturelle Demoralisierung hin, nicht auf rationale Rotation.",
       "kursziel_eur_7_tage": 53800
     }
   ],
