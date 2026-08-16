@@ -1,6 +1,51 @@
 {
-  "letzte_aktualisierung": "2026-08-15",
+  "letzte_aktualisierung": "2026-08-16",
   "ereignisse": [
+    {
+      "datum": "2026-08-16",
+      "kategorie": "Regulierung",
+      "titel": "SEC-Treffen verschoben – Clarity Act bleibt Hoffnungsträger ohne Momentum",
+      "beschreibung": "Das erwartete SEC-Regulierungstreffen fand nicht statt; Hoffnungen auf Fortschritte bei der Crypto-Regulierung, sollte der Clarity Act scheitern, werden sich verzögern. Bitcoin notiert bei €54.280 EUR im Fear-Modus (Index: 34), während Gold bei €3.782,92 EUR und Silber bei €56,21 EUR seitwärts laufen – das deutet auf andauernde Unsicherheit ohne akuten Safe-Haven-Run hin.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-08-16",
+      "kategorie": "Technik",
+      "titel": "SafePal-Wallet meldet Datenleck – 40.000 Kunden betroffen, Private Keys sicher",
+      "beschreibung": "Der Wallet-Anbieter SafePal bestätigte einen Datenleck, das persönliche Bestelldaten von knapp 40.000 Kunden exponierte. Laut Anbieter blieben Private Keys, Seed Phrases und Krypto-Assets vollständig geschützt. Das Ereignis reflektiert ein wiederkehrendes Vertrauens-Problem bei zentralisierten Wallet-Schnittstellen.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-08-16",
+      "kategorie": "Regulierung",
+      "titel": "MiCA-Umsetzung in EU triggert Betrüger-Welle – Fake-Regulator-Phishing nimmt zu",
+      "beschreibung": "Nach der MiCA-Deadline sind Betrüger systematisch als Regulatoren und lizenzierte Krypto-Börsen aktiv, um Nutzer zu manipulieren, die ihre Konten migrieren mussten. Dies zeigt ein strukturelles Sicherheitsrisiko bei regulatorisch erzwungenen Konten-Umzügen.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-08-15",
+      "kategorie": "Institutionell",
+      "titel": "TradFi-Giganten bauen Crypto-Infrastruktur – ‚Long Bitcoin, Short Bankers'-Ära endet",
+      "beschreibung": "Große Finanzkonzerne partnern aktiv mit Crypto-Spezialisten zur Infrastruktur-Entwicklung; die traditionelle Wall-Street-Skepsis wird durch systematische Integration ersetzt. Mit Bitcoin bei €54.280 EUR zeigt sich ein struktureller Wandel vom Antagonismus zur hybriden Finanzarchitektur.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-08-15",
+      "kategorie": "Institutionell",
+      "titel": "Trump plant White-House-Treffen mit Crypto-CEOs – Politische Signale in der nächsten Woche",
+      "beschreibung": "Präsident Trump soll an einem Treffen mit Führungskräften aus Crypto, Prediction Markets und AI teilnehmen. Das Zusammentreffen signalisiert anhaltende politische Aufmerksamkeit für den Sektor, unabhängig von der stagnierenden SEC-Agenda.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
     {
       "datum": "2026-08-15",
       "kategorie": "Institutionell",
@@ -405,41 +450,6 @@
       "titel": "Coldcard-Exploit noch aktiv, 15+ Angreifer identifiziert – Self-Custody-Vertrauen erleidet Dauerschaden",
       "beschreibung": "Coldcard-Sicherheitslücke bleibt live; Galaxy bestätigt mindestens 15 verschiedene Angreifer, Gesamtverluste über $114M und steigende Dynamik. Dies treibt Kapitalflucht zu Exchanges (Coinbase, Kraken) und Institutional Custody (BNY, Fidelity), was das Narrative von Self-Custody-Erosion bestätigt. Bitcoin bei €55.648 EUR leidet nicht unmittelbar, aber psychologische Schäden für Hodler-Klasse sind erheblich; Gold (€3.543,11 EUR) bleibt neutral, was Spezifizität der Crypto-Angst unterstreicht.",
       "kursziel_eur_7_tage": 54800
-    },
-    {
-      "datum": "2026-08-03",
-      "kategorie": "OnChain",
-      "titel": "Coldcard-Exploit erreicht $89M Gesamtverluste – Flucht aus Self-Custody in Exchanges",
-      "beschreibung": "Der Coldcard-Hardware-Wallet-Bug hat inzwischen 4.500 Adressen kompromittiert und $89M in Bitcoin-Verlusten verursacht. Im Gegensatz zur FTX-Panik 2022 bewegen kleinere Halter ihre Funds ZURÜCK auf Exchanges für vermeintliche Sicherheit – ein psychologisches Umkehrphänomen. Bitcoin notiert bei €55.200, Gold (€3.513,58) und Silber (€50,51) ignorieren die Krypto-Krise vollständig, was auf spezifisch Crypto-Angst hindeutet, nicht auf breite systemische Risiken.",
-      "kursziel_eur_7_tage": 54000
-    },
-    {
-      "datum": "2026-08-03",
-      "kategorie": "Regulierung",
-      "titel": "Bessent-Crypto-Berater Tyler Williams verlässt US Treasury – Clarity-Act-Momentum bricht",
-      "beschreibung": "Ein Schlüsselarchtekt der Trump-Administrations-Digitalasset-Agenda tritt aus dem Finanzministerium aus, genau während der Senate seine Sommerpause antritt. Der CLARITY Act, kritisch für Crypto-Regulierungsklarheit in den USA, steht nun ohne Top-Advocate da – das Signal ist ein Rückzug der politischen Priorität vor der August-Pause.",
-      "kursziel_eur_7_tage": 53500
-    },
-    {
-      "datum": "2026-08-03",
-      "kategorie": "Institutionell",
-      "titel": "BlackRock launcht tokenisierte Geldmarktfonds als Stablecoin-Reserveassets – Normalisierung der Blockchain-Nutzung",
-      "beschreibung": "BlackRock bringt zwei blockchain-basierte Money-Market-Fonds unter der GENIUS Act als Stablecoin-Reserve-Assets. Dies ist ein massives Zeichen von Mainstream-Finanz-Integration und institutioneller Expansion in echte Blockchain-Nutzung – kein reines Exposure-Play. Die Nachricht ist positiv, wird aber von Coldcard-Unsicherheit und Regulatory-Rückwind überschattet.",
-      "kursziel_eur_7_tage": 55800
-    },
-    {
-      "datum": "2026-08-03",
-      "kategorie": "Makro",
-      "titel": "US-Japan-Yen-Intervention und Treasury-Yield-Fall – Dollar-Stärke bleibt Bitcoin-Risiko, nicht Carry-Trade",
-      "beschreibung": "Koordinierte US-Japan-Intervention schickte Yen höher (erste Aktion seit 2011), aber Bitcoin's jüngste Korrelation deutet auf USD-Stärke, nicht Carry-Trade-Unwinding, als Risiko hin. Oil und Treasury-Yields sanken (Iran-Hoffnung), aber Bitcoin fing keinen Bid ab – klassisches Disconnect zwischen Makro-Entspannung und Crypto-Schwäche.",
-      "kursziel_eur_7_tage": 54500
-    },
-    {
-      "datum": "2026-08-03",
-      "kategorie": "Persönlichkeiten",
-      "titel": "Strategy verkauft weitere $105M Bitcoin, kauft STRC-Aktien – Saylor-Diversifikation in Gang",
-      "beschreibung": "Michael Saylors Strategy trimmt Bitcoin-Holdings um 1.638 BTC (~$105M) und rotiert zu eigenen Aktien (STRC), während $290,6M Eigenkapital beschafft wird. Dies ist eine subtile Rebalancierung, nicht Panik, aber das Signal ist klar: Saylor sieht Bitcoin unter Druck und bevorzugt jetzt Wertschöpfung im eigenen Equity.",
-      "kursziel_eur_7_tage": 53800
     }
   ],
   "fazits": [
