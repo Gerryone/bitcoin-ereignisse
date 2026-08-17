@@ -1,4 +1,4 @@
-# 14.08.2026 13:05
+# 17.08.2026 08:00
 #!/usr/bin/env python3
 """
 Bitcoin-Einschätzung (Claude Sonnet 5)
@@ -86,7 +86,9 @@ ASSET = "BTC"
 # Datensatz mitgespeichert, damit die Auswertung sauber schneiden kann.
 PROMPT_VERSION = 4
 
-MAX_TOKENS = 8192
+# Denk-Token zaehlen in dasselbe Budget wie die sichtbare Antwort. Sonnet 5
+# denkt standardmaessig mit, 8192 reichten danach nicht mehr.
+MAX_TOKENS = 24000
 
 # Reduziert von [3, 7, 14, 30]: 3 Tage sind bei Bitcoin fast reines Rauschen,
 # 14 und 30 ueberlappen stark. Zwei Horizonte brauchen halb so viele Daten
@@ -553,48 +555,77 @@ abgelesen hast. Alle EUR-Werte sind ganze Zahlen ohne Tausendertrennzeichen.
 
 # ─── API-Aufruf ────────────────────────────────────────────────────────────
 
+def extrahiere_text(message):
+    """Sammelt ALLE Textbloecke der Antwort und ueberspringt alles andere.
+
+    Sonnet 5 schaltet adaptives Denken standardmaessig ein und stellt der
+    Antwort einen ThinkingBlock voran. Der hat kein .text — ein Zugriff auf
+    content[0].text stuerzt deshalb ab (Ursache der Ausfaelle ab 14.08.2026).
+    Der Filter nach Blocktyp ist auch gegen kuenftige neue Blocktypen immun.
+    """
+    teile = [b.text for b in message.content
+             if getattr(b, "type", None) == "text"]
+    return "\n".join(teile).strip()
+
+
 def frage_modell_mit_retry(client, prompt, max_versuche=3, pause_sekunden=5):
     """Bis zu drei Versuche, bis eine Antwort gueltiges JSON ergibt.
     Protokolliert je Versuch stop_reason, output_tokens und die vollstaendige
-    Rohantwort — im Fehlerfall geht damit nichts verloren."""
+    Rohantwort — im Fehlerfall geht damit nichts verloren.
+
+    Der API-Aufruf steht INNERHALB des try. Vorher lag er davor: eine
+    fehlgeschlagene Antwort loeste dadurch keinen zweiten Versuch aus, es
+    entstand kein Fehlerartefakt und im Log stand nur ein nackter Traceback.
+    """
     versuche_protokoll = []
 
     for versuch_nr in range(1, max_versuche + 1):
-        message = client.messages.create(
-            model=MODELL,
-            max_tokens=MAX_TOKENS,
-            messages=[{"role": "user", "content": prompt}],
-        )
-
-        stop_reason = message.stop_reason
-        output_tokens = message.usage.output_tokens
-        response_text = message.content[0].text.strip()
-
-        print(f"  Versuch {versuch_nr}/{max_versuche} — stop_reason: {stop_reason}, "
-              f"output_tokens: {output_tokens}", file=sys.stderr)
-
-        geparster_text = response_text
-        if "```json" in geparster_text:
-            geparster_text = geparster_text.split("```json")[1].split("```")[0].strip()
-        elif "```" in geparster_text:
-            geparster_text = geparster_text.split("```")[1].split("```")[0].strip()
-
-        eintrag = {
-            "versuch": versuch_nr,
-            "stop_reason": stop_reason,
-            "output_tokens": output_tokens,
-            "response_text_vollstaendig": response_text,
-            "response_text_laenge": len(response_text),
-        }
+        eintrag = {"versuch": versuch_nr}
 
         try:
+            message = client.messages.create(
+                model=MODELL,
+                max_tokens=MAX_TOKENS,
+                messages=[{"role": "user", "content": prompt}],
+            )
+
+            stop_reason = message.stop_reason
+            output_tokens = message.usage.output_tokens
+            blocktypen = [getattr(b, "type", "?") for b in message.content]
+            response_text = extrahiere_text(message)
+
+            eintrag.update({
+                "stop_reason": stop_reason,
+                "output_tokens": output_tokens,
+                "blocktypen": blocktypen,
+                "response_text_vollstaendig": response_text,
+                "response_text_laenge": len(response_text),
+            })
+
+            print(f"  Versuch {versuch_nr}/{max_versuche} — stop_reason: {stop_reason}, "
+                  f"output_tokens: {output_tokens}, Bloecke: {blocktypen}, "
+                  f"Textlaenge: {len(response_text)}", file=sys.stderr)
+
+            if not response_text:
+                raise ValueError(
+                    f"Antwort ohne Textblock (Blocktypen: {blocktypen}, "
+                    f"stop_reason: {stop_reason})"
+                )
+
+            geparster_text = response_text
+            if "```json" in geparster_text:
+                geparster_text = geparster_text.split("```json")[1].split("```")[0].strip()
+            elif "```" in geparster_text:
+                geparster_text = geparster_text.split("```")[1].split("```")[0].strip()
+
             result = json.loads(geparster_text)
             versuche_protokoll.append(eintrag)
             return result, versuch_nr, versuche_protokoll
-        except json.JSONDecodeError as e:
-            eintrag["fehler"] = str(e)
+
+        except Exception as e:
+            eintrag["fehler"] = f"{type(e).__name__}: {e}"
             versuche_protokoll.append(eintrag)
-            print(f"    fehlgeschlagen: {e}", file=sys.stderr)
+            print(f"    fehlgeschlagen: {type(e).__name__}: {e}", file=sys.stderr)
             if versuch_nr < max_versuche:
                 time.sleep(pause_sekunden)
 
