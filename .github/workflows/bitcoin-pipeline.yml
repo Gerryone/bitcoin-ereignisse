@@ -1,4 +1,4 @@
-# 12.08.2026 14:45
+# 17.08.2026 08:00
 # Ersetzt bitcoin-update.yml und claude-einschaetzung.yml.
 # Drei Jobs laufen sequenziell: Haiku → Sonnet → HA-Sync.
 # Sonnet startet erst wenn Haiku erfolgreich abgeschlossen ist,
@@ -75,6 +75,18 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python scripts/claude_einschaetzung.py
+
+      # Ohne diesen Schritt geht die Fehlerdatei verloren: sie wird zwar
+      # geschrieben, aber der Commit-Schritt laeuft nach einem Absturz nicht
+      # mehr. Uebrig blieb bisher nur der Traceback im Log.
+      - name: Fehlerprotokoll als Artefakt sichern
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: claude-fazit-error-debug
+          path: claude_fazit_error_debug.json
+          if-no-files-found: warn
+          retention-days: 14
 
       - name: Änderungen committen und pushen
         run: |
