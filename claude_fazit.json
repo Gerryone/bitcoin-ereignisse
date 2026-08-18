@@ -1,6 +1,75 @@
 {
   "fazits": [
     {
+      "datum": "2026-08-18",
+      "asset": "BTC",
+      "erstellt_am": "2026-08-18T22:31:24.067276Z",
+      "modell": "claude-sonnet-5",
+      "prompt_version": 4,
+      "kurs_eur_referenz": 55758.0,
+      "konfidenz_prozent": 80,
+      "prognosen": [
+        {
+          "horizont_tage": 7,
+          "wahrscheinlichkeit_hoeher": 48,
+          "spanne_unten": 53257,
+          "spanne_oben": 58275,
+          "konfidenz": 80,
+          "kursziel_abgeleitet": 55766
+        },
+        {
+          "horizont_tage": 30,
+          "wahrscheinlichkeit_hoeher": 52,
+          "spanne_unten": 50580,
+          "spanne_oben": 60952,
+          "konfidenz": 80,
+          "kursziel_abgeleitet": 55766
+        }
+      ],
+      "basisrate_verwendet": 45,
+      "abweichung_begruendung": "Die letzten drei Tage zeigen ein klares kurzfristiges Momentum nach oben (54,355 auf 55,766, +2.6%), was die 7-Tage-Basisrate leicht anhebt. Der Kurs liegt fast exakt auf dem 30-Tage-Mittel (-0.07%), was auf eine Konsolidierungsphase ohne starken Trend hindeutet. Fear&Greed bei 41 (Fear) ist neutral-negativ, aber nicht extrem genug, um eine deutliche Abweichung zu rechtfertigen. Für den 30-Tage-Horizont gibt es keine neuen Erkenntnisse, die von der Basisrate abweichen lassen.",
+      "einschaetzung": "Bitcoin befindet sich nach einem deutlichen Rückgang über die letzten 90 Tage (-16.26%) aktuell in einer Seitwärts- bis leichten Erholungsphase. Die letzten Tage zeigen eine kurzfristige Stabilisierung mit leichtem Aufwärtstrend, der Kurs liegt aber weiterhin klar unter den Mai-Niveaus. Die Marktstimmung ist leicht ängstlich, ohne dass akute negative Ereignisse vorliegen. Insgesamt scheint der Markt in einer Findungsphase nach der stärkeren Korrektur zu sein, ohne klare Richtungsentscheidung.",
+      "staerkstes_gegenargument": "Die 90-Tage-Baisse (-16.26%) und die Tatsache, dass der Kurs noch deutlich unter dem Mai-Niveau liegt, könnten auf einen fortgesetzten strukturellen Abwärtstrend hindeuten, bei dem die jüngste Stabilisierung nur eine temporäre Verschnaufpause ist. Die Fear-Stimmung könnte sich bei neuen negativen Nachrichten schnell verschärfen und den kurzfristigen Aufwärtsimpuls umkehren.",
+      "wichtigste_treiber": [
+        "Kurzfristiges positives Momentum der letzten 3-4 Tage (+2.6%)",
+        "Kurs liegt nahe am 30-Tage-Mittel, was auf Konsolidierung hindeutet",
+        "Keine neuen bearishen oder bullishen Ereignisse bekannt",
+        "Fear&Greed-Index neutral-negativ ohne extreme Ausschläge"
+      ],
+      "umschlagpunkt": "Ein Bruch unter die Marke von etwa €53,200 (7-Tage-Tief) mit anhaltendem Volumen würde die kurzfristige Erholung negieren und auf Fortsetzung des Abwärtstrends hindeuten. Umgekehrt würde ein nachhaltiger Anstieg über €58,000 mit Bestätigung durch mehrere Tage das bullische Szenario stärken.",
+      "kennzahlen_zum_zeitpunkt": {
+        "kurs_aktuell": 55766.38,
+        "veraenderung_7_tage_prozent": 1.28,
+        "veraenderung_30_tage_prozent": -1.4,
+        "veraenderung_90_tage_prozent": -16.26,
+        "mittel_30_tage": 55806.38,
+        "abstand_zum_mittel_prozent": -0.07,
+        "tages_schwankung_prozent": 1.7,
+        "hoch_90_tage": 66756.49,
+        "tief_90_tage": 51253.18,
+        "basisraten": {
+          "7": {
+            "anteil_gestiegen_prozent": 45,
+            "anzahl_faelle": 84,
+            "typische_schwankung_prozent": 4.5
+          },
+          "30": {
+            "anteil_gestiegen_prozent": 52,
+            "anzahl_faelle": 61,
+            "typische_schwankung_prozent": 9.3
+          }
+        },
+        "beobachtete_tage": 91
+      },
+      "feedback_verfuegbar": true,
+      "api_versuche": 1,
+      "datenstand": {
+        "kurs": "2026-08-18T22:31:04.938715Z",
+        "fear_greed": "2026-08-18T22:31:05.085733Z",
+        "trefferbilanz": "2026-08-19T00:00:51.560522"
+      }
+    },
+    {
       "datum": "2026-08-13",
       "kurs_eur": 55051,
       "identifizierte_schwachstellen": [
@@ -1192,5 +1261,5 @@
       "rueckblick_kurs_7_tage": 54505.1633858627
     }
   ],
-  "letzte_aktualisierung": "2026-08-13"
+  "letzte_aktualisierung": "2026-08-18"
 }
