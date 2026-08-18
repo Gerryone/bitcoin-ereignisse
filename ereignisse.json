@@ -1,6 +1,51 @@
 {
-  "letzte_aktualisierung": "2026-08-17",
+  "letzte_aktualisierung": "2026-08-18",
   "ereignisse": [
+    {
+      "datum": "2026-08-18",
+      "kategorie": "Regulierung",
+      "titel": "SEC kündigt erste umfassende Crypto-Regulierung nach abgesagter Abstimmung an",
+      "beschreibung": "Die US-Finanzaufsicht SEC veröffentlichte überraschend den Vorschlag für \"Regulation Crypto\", nachdem sie eine für Tage zuvor geplante Abstimmung zu diesem Thema abgesagt hatte. Dies markiert einen konkreten regulatorischen Schritt nach Monaten der Unklarheit. Bitcoin notierte bei €55.758 EUR im Kontext eines Fear-Index von 41 (Fear-Territorium).",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-08-18",
+      "kategorie": "Institutionell",
+      "titel": "Citi kündigt Bitcoin-Custody-Plattform für institutionelle Kunden noch 2026 an",
+      "beschreibung": "Die Wall-Street-Bank Citigroup plant die Einführung ihrer \"Custody+\"-Plattform, die es institutionellen Kunden erlaubt, Bitcoin neben traditionellen Assets zu halten. Dies folgt auf ähnliche Schritte von UBS und anderen TradFi-Playern und signalisiert fortgesetzten Infrastruktur-Ausbau für professionelle Bitcoin-Verwahrstellen.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-08-18",
+      "kategorie": "Institutionell",
+      "titel": "Metaplanet lanciert US-Bitcoin-Treasury-Unternehmen mit 2.100 BTC und $135 Mio. Bewertung",
+      "beschreibung": "Metaplanet kündigte einen Zusammenschluss mit der Nasdaq-gelisteten Super League Enterprise an, wobei das japanische Unternehmen 2.100 Bitcoin im Wert von $134,6 Mio. sowie $2,5 Mio. bar beisteuert. Dies erweitert die Bitcoin-Treasury-Strategie des Unternehmens auf den US-Markt und signalisiert institutionelle Skalierung dieses Ansatzes.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-08-18",
+      "kategorie": "Institutionell",
+      "titel": "Kraken fügt US-Aktien in Europa hinzu – TradFi-Crypto-Integration auf regulierter Plattform",
+      "beschreibung": "Kraken kündigte an, erste Crypto-Börse zu sein, die europäischen Kunden auf einer regulierten Plattform sowohl traditionelle US-Aktien als auch tokenisierte Versionen dieser Assets anbietet. Dies zeigt weitere Konvergenz zwischen traditionellem und Crypto-Finanzwesen auf Infrastruktur-Ebene.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-08-18",
+      "kategorie": "Regulierung",
+      "titel": "Wyoming verbietet LayerZero auf Blockchain-Infrastruktur – erste US-Behörde ersetzt Blockchain aus Sicherheitsgründen",
+      "beschreibung": "Der US-Bundesstaat Wyoming kündigte an, seine Blockchain-Infrastruktur aufgrund von Sicherheitsbedenken von LayerZero zu ersetzen und damit einen $15-Mrd.-Exodus aus dieser Plattform anzuführen. Dies ist das erste Mal, dass eine US-Regierungsbehörde öffentlich Blockchain-Infrastruktur aus Sicherheitsgründen wechselt und markiert ein konkretes Governance-Ereignis.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
     {
       "datum": "2026-08-17",
       "kategorie": "Regulierung",
@@ -425,41 +470,6 @@
       "titel": "XRP Whales akkumulieren leise auf Dips, ETH zeigt tiefere Kapitulation – Divergenz in Top-3",
       "beschreibung": "CryptoQuant beobachtet, dass große XRP-Spot-Order ruhige Akkumulation deuten (nicht Ausbruch), während ETH-Holder unter Realized Value sitzen und die stärkste Valuation-Begründung unter BTC/ETH/XRP haben. Dies unterstreicht, dass Institutional-Allocators selektiv bleiben – nicht blind auf Alts kaufen. ETH bei €1.652 EUR zeigt relative Schwäche vs. Bitcoin, Signal für Rotation hin zu Core-Assets.",
       "kursziel_eur_7_tage": 55700
-    },
-    {
-      "datum": "2026-08-05",
-      "kategorie": "Technik",
-      "titel": "Coldcard-Exploit: $120M Bitcoin gestohlen, Multisig-Adoption wird zum Sicherheitsstandard",
-      "beschreibung": "Die Coldcard-Hardware-Wallet-Schwachstelle (5 Jahre alte Firmware-Lücke) hat zur Diebstahl von $120M Bitcoin geführt und 4.500 Adressen kompromittiert. Während Self-Custody-Vertrauen kollabiert, beschleunigt dies paradoxerweise die Adoption von regulierten Custody-Lösungen und Bitcoin-ETFs (Cantor, FRNT). Gold (€3.678,46) bleibt stabil und zeigt KEINE Flucht-Rally, was auf Kapital-Lähmung hindeutet – nicht auf klassische Safe-Haven-Rotation.",
-      "kursziel_eur_7_tage": 55500
-    },
-    {
-      "datum": "2026-08-05",
-      "kategorie": "Makro",
-      "titel": "Bitcoin ignoriert S&P-500-Rekordhoch, Gold gewinnt auf China-Nachfrage – Divergenz verschärft sich",
-      "beschreibung": "Während US-Aktien (MSCI World Index) neue Höchststände erreichten, stagniert Bitcoin bei €55.932 und fiel zu keinem signifikanten Rally-Impuls ein. Gold hingegen klettert auf 6-Wochen-Hoch (€3.678,46) dank chinesischer Nachfrage. Diese Entkopplung signalisiert, dass institutionelle Käufer Gold gegenüber Bitcoin bevorzugen – ein klassisches Sign für Risiko-Aversion trotz Equity-Rekords.",
-      "kursziel_eur_7_tage": 56200
-    },
-    {
-      "datum": "2026-08-04",
-      "kategorie": "Institutionell",
-      "titel": "SpaceX verbucht $540M Verlust auf Bitcoin-Holding – Elon Musk's Liquidations-Risiko eskaliert",
-      "beschreibung": "SpaceX meldete für Q2 2026 einen $540M Papierverlust auf Bitcoin-Bestände, obwohl kein BTC verkauft wurde. Gleichzeitig startete eine 11%-Aktienverkaufswelle vor Lockup-Expiration infolge Capex-Sorgen. Das Signal ist klar: Institutional holders wie Musk reduzieren indirekt Crypto-Exposure durch Equity-Rebalancing, nicht durch aktive BTC-Verkäufe – eine Liquiditätsfalle für Recovery-Szenarien.",
-      "kursziel_eur_7_tage": 54800
-    },
-    {
-      "datum": "2026-08-05",
-      "kategorie": "Regulierung",
-      "titel": "CLARITY Act vor Sommerpause in Gefahr – Crypto-Policy-Roadmap bleibt fragmentiert, Senator Lummis unter Druck",
-      "beschreibung": "Senator Lummis drängt auf CLARITY-Abstimmung VOR August-Recess, aber Fairshake-PAC verliert Detroit-Primary trotz $2M-Investition – ein Anzeichen politischer Gegenwind. Gleichzeitig fragt Senator Warren Trump-Admin zur AI-Chip-Politik und Crypto-Verbindungen. Regulatory-Clarity bleibt 2026 ein Versprechen, kein Katalysator.",
-      "kursziel_eur_7_tage": 55200
-    },
-    {
-      "datum": "2026-08-05",
-      "kategorie": "Makro",
-      "titel": "Arthur Hayes: AI-Credit-Bubble wird Bitcoin zu $1M treiben – Aber erst nach Crack & Bailout-Zyklus",
-      "beschreibung": "Maelstrom-Gründer Hayes prognostiziert, dass überleveraged AI-Datacenter-Ausgaben zum Crack führen, Regierungen bailout müssen und Gelddrucken folgt – der nächste Bitcoin-Katalysator. Dies ist NICHT bullish near-term (€55.932 heute), sondern mid-cycle-Prognose für 2027–2028. Fear-Index bei 27 (Apathie) spiegelt Unglauben an diesem Szenario.",
-      "kursziel_eur_7_tage": 55800
     }
   ],
   "fazits": [
