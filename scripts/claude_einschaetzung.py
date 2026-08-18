@@ -1,4 +1,4 @@
-# 17.08.2026 08:00
+# 18.08.2026 17:00
 #!/usr/bin/env python3
 """
 Bitcoin-Einschätzung (Claude Sonnet 5)
@@ -88,6 +88,12 @@ PROMPT_VERSION = 4
 
 # Denk-Token zaehlen in dasselbe Budget wie die sichtbare Antwort. Sonnet 5
 # denkt standardmaessig mit, 8192 reichten danach nicht mehr.
+#
+# ACHTUNG: Ohne Streaming lehnt das SDK jeden Aufruf mit max_tokens ueber
+# rund 21.333 clientseitig ab (Rechnung in _base_client.py: 3600 * max_tokens
+# / 128000 > 600 Sekunden). Genau daran ist der Lauf vom 17.08.2026 dreimal
+# gescheitert, bevor ueberhaupt eine Anfrage rausging. Der Aufruf unten
+# streamt deshalb — damit ist dieser Wert nach oben frei.
 MAX_TOKENS = 24000
 
 # Reduziert von [3, 7, 14, 30]: 3 Tage sind bei Bitcoin fast reines Rauschen,
@@ -576,6 +582,14 @@ def frage_modell_mit_retry(client, prompt, max_versuche=3, pause_sekunden=5):
     Der API-Aufruf steht INNERHALB des try. Vorher lag er davor: eine
     fehlgeschlagene Antwort loeste dadurch keinen zweiten Versuch aus, es
     entstand kein Fehlerartefakt und im Log stand nur ein nackter Traceback.
+
+    GESTREAMT statt messages.create(): Bei nicht gestreamten Aufrufen schaetzt
+    das SDK die Dauer allein aus max_tokens und verweigert alles ueber rund
+    21.333 Token mit einem ValueError, ohne die Anfrage abzuschicken. Das hat
+    am 17.08.2026 drei Versuche in Folge gekostet. get_final_message() liefert
+    dasselbe Message-Objekt wie create(), also bleiben extrahiere_text(),
+    stop_reason und usage unveraendert nutzbar — und die Schwelle betrifft
+    uns kuenftig nicht mehr, egal wie hoch MAX_TOKENS steht.
     """
     versuche_protokoll = []
 
@@ -583,11 +597,12 @@ def frage_modell_mit_retry(client, prompt, max_versuche=3, pause_sekunden=5):
         eintrag = {"versuch": versuch_nr}
 
         try:
-            message = client.messages.create(
+            with client.messages.stream(
                 model=MODELL,
                 max_tokens=MAX_TOKENS,
                 messages=[{"role": "user", "content": prompt}],
-            )
+            ) as stream:
+                message = stream.get_final_message()
 
             stop_reason = message.stop_reason
             output_tokens = message.usage.output_tokens
