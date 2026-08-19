@@ -1,6 +1,51 @@
 {
-  "letzte_aktualisierung": "2026-08-18",
+  "letzte_aktualisierung": "2026-08-19",
   "ereignisse": [
+    {
+      "datum": "2026-08-19",
+      "kategorie": "Makro",
+      "titel": "US-Finanzministerium verdoppelt Long-End Bond-Buybacks – Risikoappetit steigt",
+      "beschreibung": "Das US-Finanzministerium unter Führung von Scott Bessent kündigte mindestens eine Verdoppelung seiner langfristigen Staatsanleihen-Rückkaufprogramme an. Bitcoin sprang daraufhin von €59.229 EUR auf kurzzeitig über €69.168 USD (€65.000+ EUR-Äquivalent) und liquidierte $1,4 Mrd. Short-Positionen. Gold (€3.896,61) und Silber (€57,847) stiegen parallel, was auf breite Inflations-/Liquiditätsangst deutet.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-08-19",
+      "kategorie": "Regulierung",
+      "titel": "Trump drängt auf Clarity Act im Weißen Haus; CFTC arbeitet an Hyperliquid-Integration",
+      "beschreibung": "Präsident Donald Trump führte ein White-House-Treffen mit Crypto-CEOs durch und forderte den Senat auf, die Clarity Act-Gesetzgebung zur Marktstruktur zu verabschieden. Gleichzeitig kündigte er an, dass CFTC-Chair Mike Selig an der Integration der Perpetual-Futures-Plattform Hyperliquid unter föderale Regelung arbeitet. HYPE sprang 11% nach dieser Ankündigung.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-08-19",
+      "kategorie": "Institutionell",
+      "titel": "StanChart und HSBC führen erste Live-Transaktion auf Swift-Blockchain-Ledger durch",
+      "beschreibung": "Standard Chartered und HSBC verarbeiteten die erste Live-Transaktion über Swifts neues Blockchain-Ledger und verbanden dabei ihre separaten tokenisierten Depositsysteme. Dies markiert einen Schritt zur Standardisierung von Blockchain-Infrastruktur im globalen Bankensektor und unterstützt die institutionelle Adoption von On-Chain-Finanzinfrastruktur.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-08-19",
+      "kategorie": "OnChain",
+      "titel": "Maya Protocol-Exploit zieht $11 Mio. ab – Kette von sechs Sicherheitslücken in Cross-Chain-Trading",
+      "beschreibung": "Das Cross-Chain-Trading-Netzwerk Maya Protocol wurde durch eine Abfolge von sechs Schwachstellen kompromittiert, die es einem Angreifer ermöglichten, einen Pool mit fast 50 Mio. Token zu kreditieren, die nie ordnungsgemäß finanziert waren. Der Exploit führte zum Abfluss echter Vermögenswerte in Höhe von $11 Mio. und signalisiert anhaltende Risiken in komplexer Multi-Chain-Logik.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-08-19",
+      "kategorie": "Regulierung",
+      "titel": "CFTC verhängt 5-Jahres-Handelsverbot gegen Ex-FTX/Alameda-Führungskräfte",
+      "beschreibung": "Die US-Warenbörsenkommission CFTC erließ endgültige Verfügungen gegen zwei ehemalige Executives von FTX und Alameda, die ein fünfjähriges Handelsverbot umfassen. Dies folgt auf ein Abkommen, bei dem FTX und Alameda insgesamt $12,7 Mrd. Vergleichszahlungen akzeptierten und markiert den regulatorischen Abschluss eines Fallkomplexes, der die institutionelle Vertrauenskrise in Crypto ausgelöst hatte.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
     {
       "datum": "2026-08-18",
       "kategorie": "Regulierung",
@@ -435,41 +480,6 @@
       "titel": "BIP-110 Soft Fork tritt mit <3% Miner-Support in Mandatory Signaling ein – User-Aktiviert vs. Consensus-Mechanik Konflikt",
       "beschreibung": "Bitcoin ist auf Block 961.632 angekommen, wo der umstrittene BIP-110 Soft-Fork-Versuch mit nur <3% Miner-Support in die erzwungene Signalisierungsphase eintritt. Entwickler warnen, dass Nutzer, die Coins aus dem Minority-Chain-Fork verkaufen, Replay-Angriffsrisiken laufen und echte Bitcoin verlieren können – das sicherste ist Inaktivität. Dies untergräbt kurzfristig das Vertrauen in Bitcoin-Netzwerk-Stabilität, bringt aber keine akuten Kursimpulse (€56.192, +0,1%), da der Konsens-Disput langfristig gelöst wird.",
       "kursziel_eur_7_tage": 55800
-    },
-    {
-      "datum": "2026-08-06",
-      "kategorie": "Regulierung",
-      "titel": "US Senate stimmt diese Woche über CLARITY Act ab – Tim Scott bestätigt Abstimmung",
-      "beschreibung": "Senator Tim Scott kündigte an, dass der US Senate diese Woche definitiv über den CLARITY Act abstimmen wird – ein entscheidender pro-Krypto-Regulierungsrahmen, der seit Wochen ins Stocken geraten war. Bitcoin notiert bei €55.820 EUR im Fear-Sentiment (Index 29), während Gold bei €3.679,08 EUR seitwärts läuft – deutet darauf hin, dass dies ein Crypto-spezifisches, nicht systemisches Ereignis ist. Ein erfolgreicher CLARITY-Pass würde institutionelle Unsicherheit um Börse/Custody senken und könnte 2–4% Upside freisetzen.",
-      "kursziel_eur_7_tage": 56800
-    },
-    {
-      "datum": "2026-08-06",
-      "kategorie": "Institutionell",
-      "titel": "Hyperliquid ETF Zuflüsse kollabiert nach Highflyer-Mai/Juni – Konkurrenzangst wächst",
-      "beschreibung": "JPMorgan berichtet, dass Hyperliquid-Produkte nach massiven Zuflüssen in Mai/Juni im Juli/August zum Stillstand kamen, da neue Konkurrenz (Solana, andere Layer-2s) Kapital abzweigt. Dies ist ein Zeichen, dass Institutional-Appetite sich diversifiziert – nicht verschwindet. Bitcoin bleibt relativ stabil bei €55.820 EUR, während Silber mit €53,638 EUR ebenfalls stagniert: Rot-Flag für breiteren Risk-Off, nicht nur für einzelne Produkte.",
-      "kursziel_eur_7_tage": 55500
-    },
-    {
-      "datum": "2026-08-06",
-      "kategorie": "Technik",
-      "titel": "Bitcoin Core Audit findet 85 kritische Bugs pro Person/Tag – Developer Emergency rückt näher",
-      "beschreibung": "Ein volunteer-gestütztes AI-Audit-Team identifizierte rund 85 kritische Bugs im Bitcoin-Codebase, durchschnittlich eine Pro-Person pro Stunde bei ~$10.000 täglicher Compute-Kosten. Dies ist kein Breaking-Change-Ereignis, aber signalisiert, dass Bitcoin-Entwicklung unter Ressourcen-Stress steht – möglicherweise Pretext für Regulatoren, Bitcoin als \"unstable\" zu charakterisieren. Kurzzeitig bearish für Narrative, aber langfristig positive Triage für Netzwerk-Sicherheit.",
-      "kursziel_eur_7_tage": 55200
-    },
-    {
-      "datum": "2026-08-07",
-      "kategorie": "Institutionell",
-      "titel": "Wintermute registriert als US Broker-Dealer – Market-Maker Professionalisierung beschleunigt",
-      "beschreibung": "Crypto Market-Maker Wintermute hat sich als US Broker-Dealer registrieren lassen, ein Zeichen dafür, dass Maker-Infrastruktur dezentral werdende, aber gleichzeitig reguliert wachsende Professionalisierung spiegelt. Dies ist langsam-bullish für Liquidität und Volatilitäts-Stabilisierung, aber nicht unmittelbar kurspräsentierend. Bitcoin €55.820 EUR bewegt sich seitwärts, Gold €3.679,08 EUR parallel – kein Flight-to-Safety erkennbar.",
-      "kursziel_eur_7_tage": 55900
-    },
-    {
-      "datum": "2026-08-06",
-      "kategorie": "OnChain",
-      "titel": "XRP Whales akkumulieren leise auf Dips, ETH zeigt tiefere Kapitulation – Divergenz in Top-3",
-      "beschreibung": "CryptoQuant beobachtet, dass große XRP-Spot-Order ruhige Akkumulation deuten (nicht Ausbruch), während ETH-Holder unter Realized Value sitzen und die stärkste Valuation-Begründung unter BTC/ETH/XRP haben. Dies unterstreicht, dass Institutional-Allocators selektiv bleiben – nicht blind auf Alts kaufen. ETH bei €1.652 EUR zeigt relative Schwäche vs. Bitcoin, Signal für Rotation hin zu Core-Assets.",
-      "kursziel_eur_7_tage": 55700
     }
   ],
   "fazits": [
