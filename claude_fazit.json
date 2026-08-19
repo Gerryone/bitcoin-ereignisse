@@ -1,6 +1,75 @@
 {
   "fazits": [
     {
+      "datum": "2026-08-19",
+      "asset": "BTC",
+      "erstellt_am": "2026-08-19T22:31:46.398180Z",
+      "modell": "claude-sonnet-5",
+      "prompt_version": 4,
+      "kurs_eur_referenz": 59207.0,
+      "konfidenz_prozent": 80,
+      "prognosen": [
+        {
+          "horizont_tage": 7,
+          "wahrscheinlichkeit_hoeher": 50,
+          "spanne_unten": 56200,
+          "spanne_oben": 62300,
+          "konfidenz": 80,
+          "kursziel_abgeleitet": 59250
+        },
+        {
+          "horizont_tage": 30,
+          "wahrscheinlichkeit_hoeher": 53,
+          "spanne_unten": 53300,
+          "spanne_oben": 65200,
+          "konfidenz": 80,
+          "kursziel_abgeleitet": 59250
+        }
+      ],
+      "basisrate_verwendet": 46,
+      "abweichung_begruendung": "Der Tagessprung von +6.1% am 19.08. (55,831 auf 59,221) zusammen mit ETH +17% deutet auf eine breite, plötzliche Rally hin, die kurzfristig sowohl Fortsetzung als auch Gewinnmitnahmen provozieren kann - daher bleibe ich bei 50% fuer 7 Tage statt der Basisrate 46%, da der Momentum-Faktor die leicht bearishe Basisrate ausgleicht. Fuer 30 Tage folge ich der Basisrate von 54% (leicht bullish), da der Kurs trotz 90-Tage-Ruecklauf (-11.29%) nun wieder ueber dem 30-Tage-Mittel liegt und sich stabilisiert.",
+      "einschaetzung": "Bitcoin zeigt nach Wochen der Seitwaertsbewegung um 54,000-56,000 einen deutlichen Ausbruch nach oben, getrieben von einer breiten Krypto-Rally (ETH +17%). Der Fear&Greed-Index von 46 signalisiert trotz der Rally noch keine Euphorie, was Raum fuer weitere Aufwaertsbewegung laesst, aber der abrupte Tagessprung erhoeht das Risiko einer kurzfristigen Korrektur. Die 90-Tage-Spanne (51,253-66,756) zeigt, dass der aktuelle Kurs sich im oberen Drittel bewegt, aber noch deutlich unter dem Mai-Hoch liegt. Insgesamt ist die Lage volatil und die Richtung auf 7 Tage unsicher, auf 30 Tage leicht bullish.",
+      "staerkstes_gegenargument": "Ein derart abrupter Tagessprung (+6% an einem Tag) nach Wochen der Seitwaertsbewegung ist historisch oft ein Zeichen fuer eine kurzfristige Ueberhitzung, die durch Gewinnmitnahmen oder eine Korrektur zurueck zum 30-Tage-Mittel (55,881) ausgeglichen wird. Wenn der Sprung News-getrieben war und diese News bereits eingepreist sind, fehlt der fundamentale Rueckenwind fuer eine Fortsetzung.",
+      "wichtigste_treiber": [
+        "Abrupter Tagessprung von +6.1% signalisiert starkes kurzfristiges Momentum",
+        "Breite Krypto-Rally (ETH +17% in 24h) deutet auf sektorweiten Risk-On-Sentiment hin",
+        "Fear&Greed bei 46 (Fear) trotz Rally laesst Spielraum fuer weiteren Anstieg ohne Euphorie-Warnsignal",
+        "30-Tage-Basisrate leicht bullish (54%), unterstuetzt durch Kurs ueber 30-Tage-Mittel (+5.98%)"
+      ],
+      "umschlagpunkt": "Ein Rueckfall unter das 30-Tage-Mittel von etwa 55,881 EUR innerhalb wenigerTage wuerde signalisieren, dass der Sprung eine kurzfristige Uebertreibung war und die vorherige Seitwaertsphase sich fortsetzt bzw. eine Korrektur einleitet.",
+      "kennzahlen_zum_zeitpunkt": {
+        "kurs_aktuell": 59221.21,
+        "veraenderung_7_tage_prozent": 7.73,
+        "veraenderung_30_tage_prozent": 3.83,
+        "veraenderung_90_tage_prozent": -11.29,
+        "mittel_30_tage": 55881.39,
+        "abstand_zum_mittel_prozent": 5.98,
+        "tages_schwankung_prozent": 1.82,
+        "hoch_90_tage": 66756.49,
+        "tief_90_tage": 51253.18,
+        "basisraten": {
+          "7": {
+            "anteil_gestiegen_prozent": 46,
+            "anzahl_faelle": 84,
+            "typische_schwankung_prozent": 4.8
+          },
+          "30": {
+            "anteil_gestiegen_prozent": 54,
+            "anzahl_faelle": 61,
+            "typische_schwankung_prozent": 10.0
+          }
+        },
+        "beobachtete_tage": 91
+      },
+      "feedback_verfuegbar": true,
+      "api_versuche": 1,
+      "datenstand": {
+        "kurs": "2026-08-19T22:31:19.441713Z",
+        "fear_greed": "2026-08-19T22:31:19.541843Z",
+        "trefferbilanz": "2026-08-20T00:00:09.734487"
+      }
+    },
+    {
       "datum": "2026-08-18",
       "asset": "BTC",
       "erstellt_am": "2026-08-18T22:31:24.067276Z",
@@ -1261,5 +1330,5 @@
       "rueckblick_kurs_7_tage": 54505.1633858627
     }
   ],
-  "letzte_aktualisierung": "2026-08-18"
+  "letzte_aktualisierung": "2026-08-19"
 }
