@@ -1,6 +1,51 @@
 {
-  "letzte_aktualisierung": "2026-08-19",
+  "letzte_aktualisierung": "2026-08-20",
   "ereignisse": [
+    {
+      "datum": "2026-08-20",
+      "kategorie": "Regulierung",
+      "titel": "CFTC-Chef setzt Staff unter Druck für Crypto-Regelwerk – Clarity Act als Deadline",
+      "beschreibung": "CFTC-Chairman Mike Selig kündigte an, dass seine Behörde aktiv werden wird, falls der Clarity Act nicht verabschiedet wird. Auf der ersten Sitzung des Innovation Advisory Committee forderte er sein Team auf, Crypto-Regulierungen zu entwickeln. Dies signalisiert einen behördlichen Gegenpol zur legislativen Route und reflektiert die Marktdynamik bei Bitcoin bei €62.246 mit +5,3% Tagesgewinn.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-08-20",
+      "kategorie": "OnChain",
+      "titel": "Rekord-Short-Liquidation: $3 Mrd. Bearish-Positionen in 24 Stunden aufgelöst",
+      "beschreibung": "Nach einem sechswöchigen Range-Bruch liquidierte ein massiver Short-Squeeze $2,74 Mrd. bearischer Positionen – die größte Tageskapitulation seit mindestens 2021 und größer als der Oktober-2025-Crash. Bitcoin durchbrach €62.246, während ETH um 18% auf $2.250 sprang. Die Kapitalisierung des Short-Seitenverlustes deutet auf extreme Hebelkonzentration bei dünnerer Likuidität hin.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-08-20",
+      "kategorie": "Institutionell",
+      "titel": "BitGo erhält erste Global-Crypto-Company-Lizenz in Südkorea – Hana Financial und SK Telecom als Backers",
+      "beschreibung": "BitGo sicherte sich die Virtual-Asset-Lizenz in Südkorea als erste globale Crypto-Firma und gründete eine lokal registrierte Entität mit Unterstützung von Hana Financial Group und SK Telecom. Diese Infrastruktur-Milestones institutioneller Player erfolgen parallel zu Bitcoins Bewegung über die 200-Tage-Moving-Average – erstes Mal seit November 2025.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-08-20",
+      "kategorie": "Institutionell",
+      "titel": "Bitcoin-Miner investieren Milliarden in KI – Capex übersteigt Revenue um 15:1",
+      "beschreibung": "Neun börsennotierte Bitcoin-Miner generierten im ersten Halbjahr 2026 nur $341 Mio. aus KI- und HPC-Operationen, während sie über $5 Mrd. Capex ausgaben. Diese Kapitalintensivierungsstrategie signalisiert einen Strukturwandel der Mining-Industrie weg vom reinen Bitcoin-Focus, während Gold bei €3.870,30 seitwärts notiert.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-08-20",
+      "kategorie": "Makro",
+      "titel": "US-Schuldenmeilenstein bei $40 Billionen – Debatte über Bitcoin als Inflations-Hedge intensiviert sich",
+      "beschreibung": "Die US-Gesamtverschuldung überschritt erstmals $40 Billionen, was Analysten zur Neubewertung von Bitcoins langfristiger These als Absicherung gegen Fiskalgelddruckung führte. Parallel verdoppelte das Finanzministerium seine Long-End-Bond-Buybacks, was Liquiditätseffekte für Risk-Assets verstärkte. Gold (+€3.870,30) und Bitcoin (+€62.246, +5,3%) bewegen sich nicht parallel – dies deutet auf Kapitalrotation von klassischen Safe-Havens zu Tech-Assets hin.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
     {
       "datum": "2026-08-19",
       "kategorie": "Makro",
@@ -445,41 +490,6 @@
       "titel": "BIP-110 Fork-Versuch kollabiert nach 2 Blöcken – <3% Miner-Support, Replay-Risiko noch aktiv",
       "beschreibung": "Der BIP-110-Soft-Fork-Versuch startete am 08.08. mit Mandatory Signaling, malträtierte aber sofort mit <3% Miner-Support. Die Fork-Kette produzierte nur 2 Blöcke, dann Stillstand durch zu hohe vererbte Mining-Difficulty. Hauptrisiko: Replay-Attacken könnten reale BTC gefährden, falls Verkäufer Fork-Coins auf der Hauptkette abspielen. Bitcoin bleibt auf €56,466, aber der technische Konsens-Konflikt unterstreicht Governance-Fragmentation.",
       "kursziel_eur_7_tage": 54500
-    },
-    {
-      "datum": "2026-08-08",
-      "kategorie": "Regulierung",
-      "titel": "US Senate eröffnet CLARITY Act Abstimmungsprozess – Krypto-Reform vor September-Votum",
-      "beschreibung": "Senatsmehrheitsführer John Thune hat die mehrstufige Cloture-Prozedur eingeleitet, um den CLARITY Act über die 60-Stimmen-Hürde zu bringen. Dies positioniert das Krypto-Clarity-Gesetzgebungsvorhaben für eine September-Abstimmung, nachdem es fast an der Sommerpause gescheitert wäre. Bitcoin notiert bei €56.192 mit minimaler Volatilität (+0,1% 24h), Gold bei €3.765,34 – beide zeigen Seitwärtstrend statt Euphorie, ein Zeichen dafür, dass der Markt eine 50/50-Chance für den Gesetzgebungserfolg einpreist.",
-      "kursziel_eur_7_tage": 57800
-    },
-    {
-      "datum": "2026-08-08",
-      "kategorie": "Institutionell",
-      "titel": "Spot-Bitcoin-ETFs verzeichnen stärkste Woche seit April mit $1B Zuflüssen",
-      "beschreibung": "US-Spot-Bitcoin-ETFs erlebten ihre drittbeste Woche seit Oktober mit $1 Milliarde Nettozuflüssen, während Bitcoin auf €56.192 verweilt. Dies signalisiert, dass große Kapitalallokationen sich Bitcoin annähern, während traditionelle Anleger (Bitwise: bis zu $200 Billionen in großen Kapitalvermögen) nur 1% rotieren müssen, um massive Long-Term-Effekte zu entfesseln. Gold (€3.765,34) bleibt stabil, was auf begrenzte Rotation zu klassischen Safe-Havens hindeutet – das Kapital fließt in digitale Assets, nicht weg davon.",
-      "kursziel_eur_7_tage": 58500
-    },
-    {
-      "datum": "2026-08-07",
-      "kategorie": "Makro",
-      "titel": "US-Arbeitsmarkt überraschend schwach (−23.000 Stellen Juli) – Fed-Zinserhöhungswahrscheinlichkeit unter 50%",
-      "beschreibung": "Der US-Arbeitsmarkt schockte mit einem Rückgang von 23.000 Stellen im Juli, was die Wahrscheinlichkeit einer Fed-Zinserhöhung im September unter 50% drückte. Dies bedeutet strukturelle Lockerung statt Straffung, ein klassisches Szenario für Kapitalrotation in Risikoanlagen. Bitcoin (€56.192, +0,1%) und Gold (€3.765,34) zeigen jedoch Untäterigkeit – der Markt vertraut der Fed-Pivot nicht oder wartet auf weitere Bestätigungen. Silber (€55,23) bleibt auch schwach, was auf fehlende Inflationserwartungen hindeutet.",
-      "kursziel_eur_7_tage": 56800
-    },
-    {
-      "datum": "2026-08-07",
-      "kategorie": "Institutionell",
-      "titel": "T. Rowe Price ($1,9T AUM) integriert Memecoins in Crypto-ETF – Etablierte Memecoins jetzt Mainstream",
-      "beschreibung": "Der Trillion-Dollar-Vermögensverwalter T. Rowe Price rechtfertigt die Aufnahme etablierter Memecoins in sein Crypto-ETF-Produkt mit aktiver Verwaltungslogik: Ausschlussprinzipien zu verfolgen würde gegen die Strategie verstoßen. Dies zeigt, dass Memecoins (wie DOGE) in der institutionellen Architektur verankert sind, nicht als Nischenwetten. Bitcoin bleibt bei €56.192, Gold bei €3.765,34 – die fehlende Volatilität deutet auf Einpreisungs-Lethargae hin, nicht auf Bullish-Breakout.",
-      "kursziel_eur_7_tage": 56500
-    },
-    {
-      "datum": "2026-08-08",
-      "kategorie": "Technik",
-      "titel": "BIP-110 Soft Fork tritt mit <3% Miner-Support in Mandatory Signaling ein – User-Aktiviert vs. Consensus-Mechanik Konflikt",
-      "beschreibung": "Bitcoin ist auf Block 961.632 angekommen, wo der umstrittene BIP-110 Soft-Fork-Versuch mit nur <3% Miner-Support in die erzwungene Signalisierungsphase eintritt. Entwickler warnen, dass Nutzer, die Coins aus dem Minority-Chain-Fork verkaufen, Replay-Angriffsrisiken laufen und echte Bitcoin verlieren können – das sicherste ist Inaktivität. Dies untergräbt kurzfristig das Vertrauen in Bitcoin-Netzwerk-Stabilität, bringt aber keine akuten Kursimpulse (€56.192, +0,1%), da der Konsens-Disput langfristig gelöst wird.",
-      "kursziel_eur_7_tage": 55800
     }
   ],
   "fazits": [
