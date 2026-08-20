@@ -1,6 +1,75 @@
 {
   "fazits": [
     {
+      "datum": "2026-08-20",
+      "asset": "BTC",
+      "erstellt_am": "2026-08-20T22:35:41.424964Z",
+      "modell": "claude-sonnet-5",
+      "prompt_version": 4,
+      "kurs_eur_referenz": 62246.0,
+      "konfidenz_prozent": 80,
+      "prognosen": [
+        {
+          "horizont_tage": 7,
+          "wahrscheinlichkeit_hoeher": 50,
+          "spanne_unten": 57300,
+          "spanne_oben": 67300,
+          "konfidenz": 80,
+          "kursziel_abgeleitet": 62300
+        },
+        {
+          "horizont_tage": 30,
+          "wahrscheinlichkeit_hoeher": 54,
+          "spanne_unten": 54800,
+          "spanne_oben": 69700,
+          "konfidenz": 80,
+          "kursziel_abgeleitet": 62250
+        }
+      ],
+      "basisrate_verwendet": 48,
+      "abweichung_begruendung": "Der Kurs ist in den letzten zwei Tagen um über 11% gesprungen (55,831 auf 62,273), was deutlich über der typischen 7-Tage-Schwankung liegt und den Kurs 11% über dem 30-Tage-Mittel positioniert. Solche starken kurzfristigen Sprünge bergen sowohl Fortsetzungs- als auch Korrekturrisiko, weshalb ich die 7-Tage-Wahrscheinlichkeit trotz Momentum bei 50% belasse statt sie stark anzuheben. Für 30 Tage spreche ich eine leichte Erhöhung gegenüber der Basisrate aus, da der Fear&Greed-Index (62, Greed, aber nicht extrem) und der intakte Aufwärtstrend über 90 Tage (Spanne bis 66,198) für nachhaltiges Interesse sprechen könnten, sofern der Sprung fundamental getrieben ist.",
+      "einschaetzung": "Bitcoin zeigt einen sehr starken kurzfristigen Ausbruch von rund 55,800 auf 62,273 innerhalb von zwei Tagen, was auf einen bedeutenden Trigger hindeutet, der in den vorliegenden Daten nicht benannt ist. Die Volatilität ist damit deutlich erhöht gegenüber den vorherigen Wochen, in denen der Kurs meist zwischen 54,000 und 56,000 seitwärts lief. Der Fear&Greed-Index von 62 zeigt moderate Gier, aber keine Extremwerte, die auf eine unmittelbar bevorstehende scharfe Korrektur hindeuten würden. Kurzfristig ist mit erhöhter Schwankungsbreite in beide Richtungen zu rechnen, während der mittelfristige Trend leicht positiv bleibt, sofern der Auslöser des Sprungs fundamentalen Charakter hat.",
+      "staerkstes_gegenargument": "Ein derart abrupter, isolierter Kurssprung ohne erkennbaren fundamentalen Auslöser in den Daten ist ein klassisches Muster für kurzfristige Übertreibung, die häufig innerhalb weniger Tage teilweise zurückgegeben wird (Mean Reversion). Sollte sich herausstellen, dass der Anstieg auf spekulativem Hebelhandel oder kurzfristigen Nachrichten beruhte, könnte der Kurs schnell wieder Richtung 30-Tage-Mittel (56,000) zurückfallen.",
+      "wichtigste_treiber": [
+        "Abrupter, unbelegter Kurssprung von +13% in 7 Tagen deutet auf starken externen Trigger hin, dessen Nachhaltigkeit unklar ist",
+        "Kurs liegt bereits 11% über dem 30-Tage-Mittel, was Überhitzungsrisiko und Korrekturpotenzial erhöht",
+        "Fear&Greed-Index bei 62 (Greed, aber nicht extrem) signalisiert weder Panik noch Euphorie-Exzess",
+        "90-Tage-Spanne bis 66,198 zeigt, dass aktuelle Kurshöhe bereits in der Nähe des jüngsten Hochs liegt, was Widerstand nahelegt"
+      ],
+      "umschlagpunkt": "Ein Rückfall unter das 30-Tage-Mittel von rund 56,000 innerhalb weniger Tage würde signalisieren, dass der jüngste Sprung eine kurzfristige Übertreibung ohne fundamentale Basis war und die Aufwärtseinschätzung widerlegen. Umgekehrt würde ein Ausbruch über 66,198 (91-Tage-Hoch) mit anhaltendem Volumen die positive Einschätzung bestätigen.",
+      "kennzahlen_zum_zeitpunkt": {
+        "kurs_aktuell": 62273.41,
+        "veraenderung_7_tage_prozent": 13.18,
+        "veraenderung_30_tage_prozent": 7.13,
+        "veraenderung_90_tage_prozent": -4.46,
+        "mittel_30_tage": 56021.81,
+        "abstand_zum_mittel_prozent": 11.16,
+        "tages_schwankung_prozent": 1.89,
+        "hoch_90_tage": 66197.78,
+        "tief_90_tage": 51253.18,
+        "basisraten": {
+          "7": {
+            "anteil_gestiegen_prozent": 48,
+            "anzahl_faelle": 84,
+            "typische_schwankung_prozent": 5.0
+          },
+          "30": {
+            "anteil_gestiegen_prozent": 56,
+            "anzahl_faelle": 61,
+            "typische_schwankung_prozent": 10.4
+          }
+        },
+        "beobachtete_tage": 91
+      },
+      "feedback_verfuegbar": true,
+      "api_versuche": 1,
+      "datenstand": {
+        "kurs": "2026-08-20T22:35:04.277517Z",
+        "fear_greed": "2026-08-20T22:35:04.639617Z",
+        "trefferbilanz": "2026-08-21T00:00:12.798784"
+      }
+    },
+    {
       "datum": "2026-08-19",
       "asset": "BTC",
       "erstellt_am": "2026-08-19T22:31:46.398180Z",
@@ -1330,5 +1399,5 @@
       "rueckblick_kurs_7_tage": 54505.1633858627
     }
   ],
-  "letzte_aktualisierung": "2026-08-19"
+  "letzte_aktualisierung": "2026-08-20"
 }
