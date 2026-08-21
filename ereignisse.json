@@ -1,6 +1,51 @@
 {
-  "letzte_aktualisierung": "2026-08-20",
+  "letzte_aktualisierung": "2026-08-21",
   "ereignisse": [
+    {
+      "datum": "2026-08-21",
+      "kategorie": "ETF",
+      "titel": "Spot Bitcoin und Ether ETFs verzeichnen massive Zuflüsse bei $78.487 USD – institutionaler Bid bestätigt",
+      "beschreibung": "Spot Bitcoin ETFs zogen am 20. August $606 Mio. ein, Ether-Fonds $221 Mio. – beide Beträge größer als am Vortag. Die Zuflüsse bestätigen institutionalen Kaufdruck hinter Bitcoins Wochenrally von +24% seit Montag. Bitcoin notiert bei €67.201, Gold parallel bei €3.935,70 pro Unze – beide Hard Assets profitieren von gleichgerichteter Kapitalrotation.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-08-21",
+      "kategorie": "Makro",
+      "titel": "Ray Dalio empfiehlt Bitcoin-Allokation zur Absicherung von Schuldenkrise",
+      "beschreibung": "Der Hedge-Fund-Gründer mit geschätztem Vermögen von $15 Mrd. rät Investoren, Bitcoin und Gold gegenüber Anleihen zu übergewichten. Dalio reagiert auf potenzielle US-Schuldenkrise-Szenarien. Gold notiert aktuell bei €3.935,70/Unze, Bitcoin bei €67.201 – beide Assets profitieren von Krisenszenario-Diskursen.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-08-21",
+      "kategorie": "Regulierung",
+      "titel": "Illinois-Kryptowährungssteuer vor Gericht: Crypto Council und Blockchain Association klagen",
+      "beschreibung": "Die Crypto Council for Innovation und die Blockchain Association reichten Klage gegen Illinoins neu verabschiedete 0,2%-Kryptowährungssteuer ein. Dies ist bereits die zweite Klage gegen die Steuer und signalisiert organisierten Widerstand gegen staatliche Crypto-Besteuerung in den USA.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-08-21",
+      "kategorie": "Regulierung",
+      "titel": "Japan genehmigt Laser Digital (Nomura-gestützt) – erste Crypto-Exchange-Lizenz seit 4 Jahren",
+      "beschreibung": "Laser Digital Japan erhielt Registrierung als Crypto-Exchange und wird Liquidität für inländische Crypto-Provider bereitstellen mit institutionellen Trading-Services als nächster Schritt. Dies ist Japans erste Crypto-Exchange-Genehmigung seit vier Jahren und signalisiert wieder steigende Appetitlichkeit für Crypto-Institutionen in Asien.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-08-21",
+      "kategorie": "OnChain",
+      "titel": "MANTRA-Token stürzt 18% ab – Blockchain stoppt Blöcke nach Exploit",
+      "beschreibung": "Der MANTRA-Token fiel auf Rekordtief von $0,004126, nachdem die Blockchain Blöcke stoppte. Ein Angreifer exploitierte eine Sicherheitslücke in der Chain-Software. Der Exploit unterstreicht anhaltende Risiken in Layer-1-Infrastruktur trotz bullischer Marktmeldung (Bitcoin +7,9% zu €67.201, ETH +9,4%).",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
     {
       "datum": "2026-08-20",
       "kategorie": "Regulierung",
@@ -455,41 +500,6 @@
       "titel": "UK-FCA reguliert Tokenisiertes Gold – Bullion-Hub bleibt traditionell, Blockchain optional",
       "beschreibung": "Die FCA (UK) signalisiert, dass sie tokenisiertes Gold im Rahmen neuer Blockchain-Regeln erlauben wird. Dies ist symbolisch: Klassische Edelmetalle (Gold €3.802,79 EUR, Silber €57,01 EUR) werden durch Tokenisierung nicht verdrängt, sondern ergänzt. Es ist kein Konkurrenz-Signal, sondern eine Integration – ähnlich wie Spot Bitcoin ETFs den institutionellen Zugang vereinfacht haben.",
       "kursziel_eur_7_tage": 55400
-    },
-    {
-      "datum": "2026-08-09",
-      "kategorie": "ETF",
-      "titel": "Spot-Bitcoin-ETFs verzeichnen stärkste Woche seit April – $853M Netto-Zuflüsse, BlackRock IBIT dominiert",
-      "beschreibung": "Bitcoin-ETFs erhielten in der Woche zum 09.08. insgesamt $853,54 Mio. Netto-Zuflüsse – die stärksten seit Mitte April. BlackRock's IBIT führte die Zuflüsse an und signalisiert eine Rückehr institutioneller Kaufkraft bei Bitcoin auf €56,466. Parallel zeigt Gold (€2.950/Unze) relative Stabilität, während Silber (€29,50/Unze) flach bleibt – klassische Safe-Havens folgen Bitcoin nicht proportional, was auf selektive Tech-Rotation deutet.",
-      "kursziel_eur_7_tage": 57800
-    },
-    {
-      "datum": "2026-08-09",
-      "kategorie": "Regulierung",
-      "titel": "CLARITY Act Verzögerung als Segen umdeutet – September-Votum bleibt Ziel, aber Enttäuschung über August-Ausfall",
-      "beschreibung": "Das US Senate verschob die Clarity-Act-Abstimmung aus August in den September, was zunächst Enttäuschung auslöste. CoinDesk argumentiert jedoch, dass die Verzögerung für die Crypto-Industrie ein Vorteil sein könnte – mehr Zeit für Lobbyarbeit und Konsensbildung. Dies bremst das XRP-Rallye-Momentum, kompensiert aber teilweise durch die stärkeren BTC-ETF-Zuflüsse.",
-      "kursziel_eur_7_tage": 56200
-    },
-    {
-      "datum": "2026-08-08",
-      "kategorie": "Makro",
-      "titel": "Bitwise CIO: Trillionen institutionelles Kapital (bis $200T global) könnte zu 1%-Bitcoin-Rotation führen",
-      "beschreibung": "Matt Hougan (Bitwise CIO) prognostiziert, dass große Kapitalvermögen ($200 Billionen global verwaltet) selbst bei einer minimalen 1%-Umschichtung zu Bitcoin massive langfristige Gewinne für den Kurs freischalten könnten. Das Statement unterstützt die Sicht, dass institutionelle Adoption noch in frühen Phasen ist. Gold (€2.950) zeigt parallel schwaches Angebot, während Bitcoin mit €56,466 zwar stabil bleibt, aber unter den AI-Euphorie-Peaks des Juli.",
-      "kursziel_eur_7_tage": 58500
-    },
-    {
-      "datum": "2026-08-08",
-      "kategorie": "Technik",
-      "titel": "BTCPay Lightning-Exploit drainiert Payment-Server – Angreifer stehlen Credentials und verschieben Funds",
-      "beschreibung": "BTCPay warnte am 08.08. vor einem aktiven Infrastructure-Exploit, der Lightning-Node-Credentials kompromittierte und Wallet-Kontrolle ermöglichte. Nutzer mit LND-Setups wurden zur sofortigen Aktualisierung aufgefordert oder zum Offline-Nehmen ihrer Server. Dies ist das zweite größere Sicherheits-Ereignis in der Lightning-Infrastruktur innerhalb Tage und schädigt das Vertrauen in Self-Custody bei schnellen Payments, ohne dass Gesamtverluste noch bekannt sind.",
-      "kursziel_eur_7_tage": 55200
-    },
-    {
-      "datum": "2026-08-09",
-      "kategorie": "OnChain",
-      "titel": "BIP-110 Fork-Versuch kollabiert nach 2 Blöcken – <3% Miner-Support, Replay-Risiko noch aktiv",
-      "beschreibung": "Der BIP-110-Soft-Fork-Versuch startete am 08.08. mit Mandatory Signaling, malträtierte aber sofort mit <3% Miner-Support. Die Fork-Kette produzierte nur 2 Blöcke, dann Stillstand durch zu hohe vererbte Mining-Difficulty. Hauptrisiko: Replay-Attacken könnten reale BTC gefährden, falls Verkäufer Fork-Coins auf der Hauptkette abspielen. Bitcoin bleibt auf €56,466, aber der technische Konsens-Konflikt unterstreicht Governance-Fragmentation.",
-      "kursziel_eur_7_tage": 54500
     }
   ],
   "fazits": [
