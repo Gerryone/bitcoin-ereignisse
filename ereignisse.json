@@ -1,6 +1,42 @@
 {
-  "letzte_aktualisierung": "2026-08-21",
+  "letzte_aktualisierung": "2026-08-22",
   "ereignisse": [
+    {
+      "datum": "2026-08-22",
+      "kategorie": "Institutionell",
+      "titel": "BitMart plant Teilrestart und Gläubigerzahlungen nach Shutdown-Ankündigung",
+      "beschreibung": "Die Kryptobörse BitMart hat die Anwaltskanzlei White & Case als Umstrukturierungsberaterin engagiert und will bis 9. September einen detaillierten Fahrplan vorlegen. Das Ereignis zeigt Bewegung bei der Sanierung einer der größeren Exchange-Ausfälle und könnte Auswirkungen auf gebundene Nutzergelder haben, während Bitcoin bei €66.026 notiert.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-08-22",
+      "kategorie": "Regulierung",
+      "titel": "Kalshi-Prediction-Markets in mehreren US-Staaten blockiert – CFTC-Rechtsstreit eskaliert",
+      "beschreibung": "Washington State hat Kalshi-Kunden ausgeschlossen, während das Unternehmen in Gerichtsverfahren und gegen regulatorischen Druck der CFTC kämpft. Der Konflikt zwischen dezentralen Vorhersagemärkten und föderaler Regulierung zeigt sich konkret in staatlichen Handelssperren.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-08-21",
+      "kategorie": "OnChain",
+      "titel": "Zcash springt 48% auf über €750 – Grayscale-Spot-ETF-Antrag treibt Interesse",
+      "beschreibung": "ZEC handelt über seinem Januar-2018-Hoch, während Grayscale-Futures-Volumen in Milliardenhöhe läuft und die Umwandlung des Zcash-Trust in einen Spot-ETF Fortschritt zeigt. Das Ereignis zeigt Kapitalrotation zu Altcoins und institutionelles Interesse an weiteren Spot-Produkten.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-08-21",
+      "kategorie": "Makro",
+      "titel": "Rekord-Short-Liquidation: Über €4 Mrd. Bärenpositionen in 48 Stunden aufgelöst",
+      "beschreibung": "Die Zwei-Tages-Liquidation überschreitet €4 Milliarden, mit Freitags-Rekord seit 2021. Gold (€3.935,70) und Bitcoin (€66.026) zeigen parallele Aufwärtsbewegung – beide als Safe-Havens in Macro-Umfeld gekauft, während Silber (€59,07) schwächer ausfällt und Risk-Off bestätigt.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
     {
       "datum": "2026-08-21",
       "kategorie": "ETF",
@@ -472,34 +508,6 @@
       "titel": "Strategy verkauft 1.690 Bitcoin für $653M – Baut Cash-Puffer auf $4,65 Mrd. auf",
       "beschreibung": "Michael Saylor's Strategy Inc. reduziert Bitcoin-Bestände um 1.690 BTC (verkauft bei ~€55.408 EUR aktuell) und erhöht gleichzeitig USD-Reserven massiv auf $4,65 Mrd. Die Firma signalisiert damit, dass traditionelle Investoren Bitcoin nicht als vollständigen Dollar-Ersatz akzeptieren – eine bedeutende Erkenntnis für Corporate Treasuries. Dies widerspricht dem jahrelangen Narrative von Bitcoin als reines Hedge-Instrument und erzwingt Diversifikation auch bei den größten Crypto-Holdingfirmen.",
       "kursziel_eur_7_tage": 54800
-    },
-    {
-      "datum": "2026-08-10",
-      "kategorie": "Institutionell",
-      "titel": "Trump Media erleidet $361M Verluste auf Bitcoin – 9.477 BTC Holdings kollabierten",
-      "beschreibung": "Trump Media (Truth Social) verzeichnet massive Unrealized Losses: Die 9.477 BTC im Wert von €557M Ende Juni sind deutlich abgeschrieben. Dies ist ein prominentes Beispiel für Concentrated Bitcoin Risk bei kleineren, nicht-spezialistischen Corporates – ein Signal, dass die Euphorie um Corporate Treasury-Adoption (Wintermute, BNY Mellon) selektiv bleibt und reputationelle Risiken für Nicht-Crypto-Firmen wachsen.",
-      "kursziel_eur_7_tage": 54500
-    },
-    {
-      "datum": "2026-08-10",
-      "kategorie": "Sicherheit",
-      "titel": "Coinsbuy erleidet $8M koordinierter Hack – Fiat-Exchange-Vertrauen erodiert",
-      "beschreibung": "Der Kryptobörse Coinsbuy wird €7,5M in koordiniertem zwei-Blockchain-Angriff (TRON + Ethereum) gestohlen. Trotz Rückerstattung an Kunden wird das Vertrauen in zentralisierte Exchanges weiter untergraben – zeitlich perfekt nach Coldcard Self-Custody-Exploits und Wintermute-Professionalisierung. Gold (€3.802,79 EUR) und Silber (€57,01 EUR) bleiben stabil, keine Flucht-Reaktion erkennbar.",
-      "kursziel_eur_7_tage": 54200
-    },
-    {
-      "datum": "2026-08-10",
-      "kategorie": "Makro",
-      "titel": "Iran-Oman Deal-Hoffnung pusht Bitcoin über $65k (+2,5%) – Hormuz-Risiko temporär gebannt",
-      "beschreibung": "Bitcoin springt auf €56.200+ EUR (~$65.209 USD) auf Nachrichten von Iran-Oman-Verhandlungen zur Öffnung der Strait of Hormuz. Der schnelle Anstieg zeigt, dass Risiko-Assets (inkl. Bitcoin) kurzfristig von Geopolitik-Reliefs profitieren, während WTI um 5% auf $80 klettert. Allerdings ist dies noch kein strukturelles Bullish-Signal – es bleibt Intraday-Volatilität ohne nachhaltigen Catalyzt.",
-      "kursziel_eur_7_tage": 55800
-    },
-    {
-      "datum": "2026-08-10",
-      "kategorie": "Regulierung",
-      "titel": "UK-FCA reguliert Tokenisiertes Gold – Bullion-Hub bleibt traditionell, Blockchain optional",
-      "beschreibung": "Die FCA (UK) signalisiert, dass sie tokenisiertes Gold im Rahmen neuer Blockchain-Regeln erlauben wird. Dies ist symbolisch: Klassische Edelmetalle (Gold €3.802,79 EUR, Silber €57,01 EUR) werden durch Tokenisierung nicht verdrängt, sondern ergänzt. Es ist kein Konkurrenz-Signal, sondern eine Integration – ähnlich wie Spot Bitcoin ETFs den institutionellen Zugang vereinfacht haben.",
-      "kursziel_eur_7_tage": 55400
     }
   ],
   "fazits": [
