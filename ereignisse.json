@@ -1,6 +1,51 @@
 {
-  "letzte_aktualisierung": "2026-08-22",
+  "letzte_aktualisierung": "2026-08-23",
   "ereignisse": [
+    {
+      "datum": "2026-08-23",
+      "kategorie": "Regulierung",
+      "titel": "SEC veröffentlicht Reg Crypto Proposal – 60-Tage Kommentierungsfrist eröffnet",
+      "beschreibung": "Die US-Börsenaufsicht SEC hat ihre umfassende Crypto-Regulierungsvorlage (Reg Crypto) veröffentlicht und eine 60-tägige öffentliche Kommentierungsfrist eröffnet. Dies ist die erste systematische Regulierungsinitiative nach mehreren Jahren fragmentierter Ansätze. Bitcoin notierte bei €66.562 EUR zum Zeitpunkt der Meldung.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-08-23",
+      "kategorie": "Institutionell",
+      "titel": "Stablecoin-Kartenzahlungen überschreiten $1 Mrd. Marke – 70% USDC/USDT",
+      "beschreibung": "Das Transaktionsvolumen über Crypto-Zahlungskarten hat sich in einem Jahr mehr als verdreifacht und überschreitet nun die Milliardenmarke. USDC und USDT finanzieren über 70% dieser alltäglichen Transaktionen für Lebensmittel, Fahrdienste und Abos. Dies signalisiert eine breite Adoption von Stablecoins im Einzelhandel.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-08-23",
+      "kategorie": "OnChain",
+      "titel": "Coinbase identifiziert KI-Agenten als nächste Nutzergeneration – Stablecoin-Zahlungen",
+      "beschreibung": "Laut Coinbase-Leitung befinden sich agentic Payments aktuell in der 'Napster/LimeWire-Ära' ihrer Entwicklung. KI-Agenten werden als potenzielle nächste Milliarde Nutzer positioniert, die primär mit Stablecoins zahlen. Dies beschreibt eine technologische Verschiebung vom menschlichen zum automatisierten Zahlungsverkehr.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-08-22",
+      "kategorie": "Institutionell",
+      "titel": "Musk's X kündigt Stablecoin-Zahlungen für Content-Creator an",
+      "beschreibung": "Die Plattform X (ehemals Twitter) hat angekündigt, Creator künftig in Stablecoins auszahlen zu wollen. Diese Ankündigung erfolgte parallel zu einem der stärksten Crypto-Rallys in Monaten, bei dem Bitcoin und Ether von Treasury-Interventionen und einer historischen Short-Liquidation profitierten. Bitcoin lag zu dieser Zeit bei knapp €75.800 EUR.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-08-22",
+      "kategorie": "Regulierung",
+      "titel": "Kalshi Prediction Markets in mehreren US-Bundesstaaten gesperrt – CFTC-Rechtsstreit",
+      "beschreibung": "Der Prediction-Market-Betreiber Kalshi wurde in Washington State und weiteren Bundesstaaten blockiert. Das Unternehmen kämpft rechtlich gegen diese Sperrung, während die Bundesbehörde CFTC neue Regelwerke für Prediction Markets verfolgt. Dies zeigt zunehmende regulatorische Fragmentierung auf US-Bundesstaatsebene.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
     {
       "datum": "2026-08-22",
       "kategorie": "Institutionell",
@@ -473,41 +518,6 @@
       "titel": "Inflationsdaten als kritischer Katalysator – Bitcoin verharrt unter $65k vor CPI-Report",
       "beschreibung": "Bitcoin stagniert bei €55.163 (-0,3% in 24h) mit Wochen der Seitwärtsbewegung, die die Volatilität zermürbt hat. Der US-Inflationsbericht am Mittwoch wird zum Pivot-Punkt für die nächste Bewegungsrichtung – Analysten erwarten 50-100 Punkte Volatilität je nach Ausschlag. Gold bei €3.793,24 notiert parallel-fest, Silber bei €56,31 leicht im Plus (+0,6%), beide ohne divergenten Safe-Haven-Druck. Die Hoffnung auf Hormuz-Relief (Iran-Oman-Deal) ist zusammengebrochen, nachdem Trump 50 Jahre iranische Kompensationen forderte, Öl zurück auf $89 getrieben und damit Inflations-Narrative neu entfacht hat.",
       "kursziel_eur_7_tage": 55800
-    },
-    {
-      "datum": "2026-08-11",
-      "kategorie": "Regulierung",
-      "titel": "SEC bereitete Crypto-Regelwerk vor CLARITY-Verzögerung auf – Unabhängige Regulierung statt Gesetzgebung",
-      "beschreibung": "Die US-Börsenaufsicht plant diese Woche ein Treffen zur Festlegung von Crypto-Policies, ohne auf den verzögerten CLARITY Act zu warten. Dies signalisiert einen Szenario-Wechsel: SEC könnte unilaterale Regelwerke für tokenisierte Assets schaffen, was institutionelle Clarity verbessert, aber auch politische Konflikte verschärft. Die drei demokratischen Frauen im Kongress (bekannt für Crypto-Skepsis) könnten künftige legislative Anläufe blockieren. Bitcoin-Kurs bleibt unter Regulierungs-Lähmung bei €55.163, Gold bei €3.793,24 zeigt keine Flucht in klassische Safe-Havens.",
-      "kursziel_eur_7_tage": 55500
-    },
-    {
-      "datum": "2026-08-11",
-      "kategorie": "Institutionell",
-      "titel": "Riot Platforms springt +20% auf $9,1B Anthropic-Deal – Bitcoin-Miner werden zur AI-Infrastruktur",
-      "beschreibung": "Der Bitcoin-Miner Riot Platforms verzeichnet im Pre-Market-Handel +20% Kurssprung auf ein 20-Jahres-Abkommen mit Anthropic (KI-Trainings-Infrastruktur). Dies markiert einen strukturellen Shift: Bitcoin-Mining-Hardware wird zur bankbaren AI-Compute-Infrastruktur, ähnlich wie Nvidias $500B-Infrastruktur-Push bei Wall Street. Wenn Mining-Cashflows primär aus AI-Leasing statt Bitcoin-Block-Rewards generiert werden, entsteht eine neue institutionelle Akquisitions-Logik. Bitcoin bei €55.163 profitiert indirekt von steigendem Mining-Equity-Wert, aber nicht von direktem Preis-Druck.",
-      "kursziel_eur_7_tage": 56300
-    },
-    {
-      "datum": "2026-08-11",
-      "kategorie": "Institutionell",
-      "titel": "MoneyGram erweitert Solana auf globales Fiat-Ramp-Netzwerk – Stablecoin-Onboarding beschleunigt",
-      "beschreibung": "Das Geldtransfer-Netzwerk MoneyGram integriert Solana-Wallets direkt in sein globales Cash-Netzwerk über die Rift-Wallet. Dies reduziert die Reibung zwischen Crypto (Digital) und Fiat (Legacy) um entscheidende Grad und ermöglicht Millionen Solana-Nutzern sofortiges Cash-Out. Bitcoin profitiert indirekt: wenn Stablecoin-Infrastruktur liquider wird, sinken Ausweich-Liquiditätskosten und die Fiat-On-Ramp-Barrieren für BTC-Käufe fallen. Gold bei €3.793,24 zeigt keine Konkurrenz-Reaktion.",
-      "kursziel_eur_7_tage": 55600
-    },
-    {
-      "datum": "2026-08-11",
-      "kategorie": "Technik",
-      "titel": "BTCPay Lightning-Exploit kostet $190k – Credential-Diebstahl zeigt Custody-Gap im Payment-Layer",
-      "beschreibung": "Das Bitcoin-Payment-System BTCPay bietet $190k Bounty (bis zu 3 BTC bei €55.163 = €165.489 Äquivalent) nach einem Exploit, bei dem Angreifer LND-Node-Credentials stahlen und Merchant-Lightning-Wallets leer räumten. Dies unterstreicht eine kritische Schwachstelle im Lightning-Network-Sicherheits-Modell: Nodes sind oft ungesichert, Credentials zentral gelagert. Der Incident ist technisch begrenzt (Payment-Layer, nicht Bitcoin-Settlement), schwächt aber Narrativ der 'Bitcoin-Payment-Revolution' und verstärkt Custody-Misstrauen.",
-      "kursziel_eur_7_tage": 55000
-    },
-    {
-      "datum": "2026-08-10",
-      "kategorie": "Institutionell",
-      "titel": "Strategy verkauft 1.690 Bitcoin für $653M – Baut Cash-Puffer auf $4,65 Mrd. auf",
-      "beschreibung": "Michael Saylor's Strategy Inc. reduziert Bitcoin-Bestände um 1.690 BTC (verkauft bei ~€55.408 EUR aktuell) und erhöht gleichzeitig USD-Reserven massiv auf $4,65 Mrd. Die Firma signalisiert damit, dass traditionelle Investoren Bitcoin nicht als vollständigen Dollar-Ersatz akzeptieren – eine bedeutende Erkenntnis für Corporate Treasuries. Dies widerspricht dem jahrelangen Narrative von Bitcoin als reines Hedge-Instrument und erzwingt Diversifikation auch bei den größten Crypto-Holdingfirmen.",
-      "kursziel_eur_7_tage": 54800
     }
   ],
   "fazits": [
