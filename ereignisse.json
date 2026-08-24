@@ -1,6 +1,51 @@
 {
-  "letzte_aktualisierung": "2026-08-23",
+  "letzte_aktualisierung": "2026-08-24",
   "ereignisse": [
+    {
+      "datum": "2026-08-24",
+      "kategorie": "Institutionell",
+      "titel": "Treasury-Buyback löst massive Short-Liquidationen aus – über $3 Mrd. in einer Woche",
+      "beschreibung": "US-Finanzminister Bessents Ankündigung von Bond-Buybacks katalysierte einen explosiven Bitcoin-Rally: In der vergangenen Woche wurden über $3 Milliarden Short-Positionen liquidiert, während Bitcoin von ~€63.000 auf €67.516 sprang (24% Wochengewinn). Die Liquidationen setzten sich auch am 24.8. fort mit $220 Millionen in 24 Stunden, als BTC erstmals seit Mai die €78.700-Marke durchbrach.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-08-24",
+      "kategorie": "Institutionell",
+      "titel": "Bitcoin-Treasury-Unternehmen verstärken Akkumulation – Strive und MicroStrategy kaufen massiv",
+      "beschreibung": "Strive erwarb 1.110 Bitcoin für €75 Millionen, womit die Gesamtbestände auf 21.000 BTC stiegen. Gleichzeitig veräußerte MicroStrategy (Strategy) 18,26 Millionen Aktien für $2 Milliarden und erhöhte seine USD-Reserve auf $5,1 Milliarden, während es seine Bitcoin-Bestände vorübergehend auf 840.447 BTC hielt. Diese institutionelle Akkumulation während starker Rallys signalisiert strategisches Kaufverhalten bei bestehenden Positionen.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-08-24",
+      "kategorie": "Regulierung",
+      "titel": "Pakistan startet Crypto-Lizenzsystem – Registrierungsfrist bis 5. September",
+      "beschreibung": "Pakistan gab den Startschuss für sein neues Crypto-Licensing-Regime: Unternehmen müssen bis 5. September Anträge auf ein No-Objection-Certificate (NOC) einreichen oder ihren Betrieb einstellen. Dies markiert einen regulatorischen Meilenstein in Südasien und folgt der globalen Tendenz zur formalen Lizenzierung von Krypto-Plattformen.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-08-24",
+      "kategorie": "Institutionell",
+      "titel": "Coinbase bringt tokenisierte Aktien auf Base-Netzwerk – Apple, Nvidia, Meta, Alphabet",
+      "beschreibung": "Coinbase startete eine neue Produktlinie: tokenisierte Versionen von US-Blue-Chip-Aktien (Apple, Nvidia, Meta, Alphabet) auf dem Base-Blockchain-Netzwerk, ausgegeben unter einem neuen Abu-Dhabi-Rahmenwerk. Dies erweitert die TradFi-Crypto-Integration auf Basis-Layer und zielt auf institutionelle Anleger ab.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-08-24",
+      "kategorie": "OnChain",
+      "titel": "Solana Governance plant aggressive Supply-Reduktion – tägliche Burns könnten auf $800.000 steigen",
+      "beschreibung": "Zwei von drei aktiven Solana-Governance-Proposals zielen auf drastische Angebotsreduktion ab: Die täglichen Fee-Verbrennungen sollen von ~650 SOL auf bis zu 9.000 SOL erhöht werden, was dem Netzwerk täglich ~$800.000 entzöge. Parallel soll die Inflation durch beschleunigte Deflation reduziert werden – eine direkte Reaktion auf Community-Druck für Deflationary Mechanics.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
     {
       "datum": "2026-08-23",
       "kategorie": "Regulierung",
@@ -483,41 +528,6 @@
       "titel": "Goldman Sachs kauft NEOS für $2,25B – Bitcoin Income ETFs werden Mainstream-Produkt",
       "beschreibung": "Goldman Sachs übernimmt den ETF-Manager NEOS für $2,25 Mrd. und integriert damit $30 Mrd. an Bitcoin- und Ethereum-Income-Produkten in seine Asset Management Division. Dies erweitert Goldmans Derivate-Plattform auf $130 Mrd. und stellt eine direkte Konkurrenz zu BlackRocks BITA-Fonds dar. Die Transaktion signalisiert, dass selbst konservative Megabanken Bitcoin jetzt als Standard-Institutional-Asset betrachten – nicht mehr als Nische.",
       "kursziel_eur_7_tage": 56200
-    },
-    {
-      "datum": "2026-08-12",
-      "kategorie": "Makro",
-      "titel": "US CPI bestätigt 3,4% (erwartet) – Fed-Pausierungswahrscheinlichkeit Sept. auf 60% gestiegen, Bitcoin hält bei €54,957",
-      "beschreibung": "Headline- und Core-Inflation erfüllten Erwartungen (3,4%), Treasury-Renditen fallen, und Markterwartungen für September-Ratenpause steigen auf 60%. Bitcoin zeigte keine Reaktion und bleibt bei €54,957 – neutral bis leicht negativ nach dem CPI-Release. Gold (€3.812,84) und Silber (€56,46) bewegen sich nicht parallel zu Bitcoin: Ein normales deflationäres Szenario (sinkende Renditen) sollte beide Safe-Havens heben, aber die Stagnation deutet auf Kapital-Rotation in AI-Infrastruktur statt klassische Inflations-Hedge.",
-      "kursziel_eur_7_tage": 54800
-    },
-    {
-      "datum": "2026-08-12",
-      "kategorie": "Technik",
-      "titel": "CoreWeave +16% auf $2,58B Quartal-Umsatz – AI-Infrastruktur eclipst Crypto-Mining als Kapital-Magnet",
-      "beschreibung": "Der GPU-Infrastructure-Provider CoreWeave surgt 16% nach starkem Q2-Report, während Bitcoin-Mining-Aktien und Crypto-Assets underperformen. AI-Demand dominiert Cloud-Nachfrage völlig – die öffentlichen Bitcoin-Miner generieren parallel Verkaufsdruck durch ihre Pivot zu AI-Hardware. Dies erklärt den fehlenden Bounce bei Bitcoin trotz positiver Macro-Daten: Kapital fließt nicht zu Crypto-Sicherung, sondern zu Compute-Infrastruktur.",
-      "kursziel_eur_7_tage": 54500
-    },
-    {
-      "datum": "2026-08-12",
-      "kategorie": "Institutionell",
-      "titel": "Fidelity plant Staking + Quarterly Payouts für Ethereum ETF (€1.628) – ETH als Yield-Asset etabliert",
-      "beschreibung": "Fidelity reicht SEC-Antrag für Staking-Integration in seinen ~€1,5B Ethereum ETF ein: 85% der Gross-Staking-Rewards bleiben beim Fonds, 15% für Service-Provider. Dies transformiert ETH von spekulativem Vermögenswert zu institutionellem Yield-Produkt. Während Bitcoin zu €54,957 stagniert, wird Ethereum (€1.628, +0% 24h) durch strukturelle Yield-Mechaniken gestützt – ein divergentes Signal, das auf Risiko-Umverteilung hindeutet.",
-      "kursziel_eur_7_tage": 1680
-    },
-    {
-      "datum": "2026-08-12",
-      "kategorie": "Regulierung",
-      "titel": "Hawaii verbietet Crypto-ATMs ab Okt. 1 – Vierter US-Staat schließt Retail-Onramp ab",
-      "beschreibung": "Hawaii wird vier US-Bundesstaaten (Minnesota, Tennessee, Indiana) folgen und Crypto-ATM/Kiosk-Operationen ab 1. Oktober verbieten. Begründung: Betrugsprävention bei Retail-Nutzern. Dies fragmentiert das US-Retail-Zugangs-Ökosystem weiter und zwingt Nutzer zu zentralisierten KYC-Börsen – bearish für Peer-to-Peer-Adoption, aber neutral für Spot-ETF-Dominanz.",
-      "kursziel_eur_7_tage": 54600
-    },
-    {
-      "datum": "2026-08-11",
-      "kategorie": "Makro",
-      "titel": "Inflationsdaten als kritischer Katalysator – Bitcoin verharrt unter $65k vor CPI-Report",
-      "beschreibung": "Bitcoin stagniert bei €55.163 (-0,3% in 24h) mit Wochen der Seitwärtsbewegung, die die Volatilität zermürbt hat. Der US-Inflationsbericht am Mittwoch wird zum Pivot-Punkt für die nächste Bewegungsrichtung – Analysten erwarten 50-100 Punkte Volatilität je nach Ausschlag. Gold bei €3.793,24 notiert parallel-fest, Silber bei €56,31 leicht im Plus (+0,6%), beide ohne divergenten Safe-Haven-Druck. Die Hoffnung auf Hormuz-Relief (Iran-Oman-Deal) ist zusammengebrochen, nachdem Trump 50 Jahre iranische Kompensationen forderte, Öl zurück auf $89 getrieben und damit Inflations-Narrative neu entfacht hat.",
-      "kursziel_eur_7_tage": 55800
     }
   ],
   "fazits": [
