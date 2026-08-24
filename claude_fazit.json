@@ -1,6 +1,75 @@
 {
   "fazits": [
     {
+      "datum": "2026-08-24",
+      "asset": "BTC",
+      "erstellt_am": "2026-08-24T22:34:17.937415Z",
+      "modell": "claude-sonnet-5",
+      "prompt_version": 4,
+      "kurs_eur_referenz": 67516.0,
+      "konfidenz_prozent": 80,
+      "prognosen": [
+        {
+          "horizont_tage": 7,
+          "wahrscheinlichkeit_hoeher": 48,
+          "spanne_unten": 63138,
+          "spanne_oben": 71904,
+          "konfidenz": 80,
+          "kursziel_abgeleitet": 67521
+        },
+        {
+          "horizont_tage": 30,
+          "wahrscheinlichkeit_hoeher": 55,
+          "spanne_unten": 59899,
+          "spanne_oben": 75151,
+          "konfidenz": 80,
+          "kursziel_abgeleitet": 67525
+        }
+      ],
+      "basisrate_verwendet": 52,
+      "abweichung_begruendung": "Der Kurs ist in nur 10 Tagen von 54,320 auf 67,516 gesprungen (+24%), mit Fear&Greed bei 73 (Greed) und einem Abstand von +17.79% zum 30-Tage-Mittel. Diese Art parabolischer Kurzfrist-Rallye erhöht statistisch das Risiko einer kurzfristigen Korrektur/Konsolidierung, weshalb ich die 7-Tage-Wahrscheinlichkeit leicht unter die Basisrate senke. Für 30 Tage bleibt der grundsätzliche Aufwärtstrend (62% Basisrate) relevant, aber die Überhitzung dämpft die Zuversicht etwas, daher moderate Abweichung nach unten auf 55%.",
+      "einschaetzung": "Bitcoin befindet sich in einer sehr starken, schnellen Aufwärtsbewegung, die in den letzten 5 Handelstagen (19.-24.8.) besonders steil verlief (+59,291 auf 67,516). Diese Beschleunigung zusammen mit Greed-Index 73 signalisiert eine überkaufte kurzfristige Marktlage. Die 90-Tage-Performance (+3.74%) zeigt, dass der Großteil des Anstiegs sehr rezent ist, was die Nachhaltigkeit auf 7-Tage-Sicht unsicherer macht. Auf 30-Tage-Sicht überwiegt historisch der Aufwärtstrend, aber die aktuelle Überdehnung vom gleitenden Durchschnitt spricht für eine gewisse Wahrscheinlichkeit einer Verschnaufpause oder Korrektur.",
+      "staerkstes_gegenargument": "Starke Momentum-Rallyes in Bitcoin setzen sich historisch oft über mehrere Wochen fort, besonders wenn sie von echtem Nachfrageschub (z.B. institutionelle Zuflüsse) getragen werden, was die Greed-Phase eher als Bestätigung denn als Warnsignal interpretierbar macht. Zudem zeigt die Basisrate für 30 Tage klar 62% Aufwärtswahrscheinlichkeit, und mein Abschlag könnte zu konservativ sein, wenn der Trend fundamental getrieben ist statt spekulativ.",
+      "wichtigste_treiber": [
+        "Extrem schneller Kursanstieg von +21.7% in 7 Tagen deutet auf kurzfristige Überhitzung hin",
+        "Fear&Greed-Index bei 73 (Greed) signalisiert erhöhtes Korrekturrisiko",
+        "Kurs liegt +17.79% über 30-Tage-Mittel, historisch ein Mean-Reversion-Signal",
+        "Basisraten (52% bzw. 62% höher) bleiben der fundamentale Ausgangspunkt trotz Anpassung"
+      ],
+      "umschlagpunkt": "Ein Rückfall des Kurses unter das 30-Tage-Mittel (~57,300) oder ein Bruch der Unterstützung um 62,000-63,000 mit erhöhtem Handelsvolumen würde signalisieren, dass die Rallye erschöpft ist und eine tiefere Korrektur folgt, was meine Einschätzung bestätigen würde. Umgekehrt würde ein Anstieg über 70,000 mit anhaltend hohem Greed-Index und positiven fundamentalen Nachrichten (z.B. ETF-Zuflüsse) für eine Fortsetzung des Trends sprechen und mein Gegenargument stärken.",
+      "kennzahlen_zum_zeitpunkt": {
+        "kurs_aktuell": 67516.03,
+        "veraenderung_7_tage_prozent": 21.69,
+        "veraenderung_30_tage_prozent": 19.35,
+        "veraenderung_90_tage_prozent": 3.74,
+        "mittel_30_tage": 57317.62,
+        "abstand_zum_mittel_prozent": 17.79,
+        "tages_schwankung_prozent": 2.07,
+        "hoch_90_tage": 67516.03,
+        "tief_90_tage": 51253.18,
+        "basisraten": {
+          "7": {
+            "anteil_gestiegen_prozent": 52,
+            "anzahl_faelle": 84,
+            "typische_schwankung_prozent": 5.5
+          },
+          "30": {
+            "anteil_gestiegen_prozent": 62,
+            "anzahl_faelle": 61,
+            "typische_schwankung_prozent": 11.3
+          }
+        },
+        "beobachtete_tage": 91
+      },
+      "feedback_verfuegbar": false,
+      "api_versuche": 1,
+      "datenstand": {
+        "kurs": "2026-08-24T22:33:46.116330Z",
+        "fear_greed": "2026-08-24T22:33:46.383863Z",
+        "trefferbilanz": null
+      }
+    },
+    {
       "datum": "2026-08-23",
       "asset": "BTC",
       "erstellt_am": "2026-08-23T22:30:03.884895Z",
@@ -1606,5 +1675,5 @@
       "rueckblick_kurs_7_tage": 54505.1633858627
     }
   ],
-  "letzte_aktualisierung": "2026-08-23"
+  "letzte_aktualisierung": "2026-08-24"
 }
