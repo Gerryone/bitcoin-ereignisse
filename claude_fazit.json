@@ -1,6 +1,75 @@
 {
   "fazits": [
     {
+      "datum": "2026-08-25",
+      "asset": "BTC",
+      "erstellt_am": "2026-08-25T22:35:16.244709Z",
+      "modell": "claude-sonnet-5",
+      "prompt_version": 4,
+      "kurs_eur_referenz": 67410.0,
+      "konfidenz_prozent": 80,
+      "prognosen": [
+        {
+          "horizont_tage": 7,
+          "wahrscheinlichkeit_hoeher": 53,
+          "spanne_unten": 63800,
+          "spanne_oben": 71100,
+          "konfidenz": 80,
+          "kursziel_abgeleitet": 67450
+        },
+        {
+          "horizont_tage": 30,
+          "wahrscheinlichkeit_hoeher": 58,
+          "spanne_unten": 59800,
+          "spanne_oben": 75100,
+          "konfidenz": 80,
+          "kursziel_abgeleitet": 67450
+        }
+      ],
+      "basisrate_verwendet": 54,
+      "abweichung_begruendung": "Fuer 7 Tage bleibe ich nahe der Basisrate (54%), da der starke Kursanstieg der letzten Tage (+20,8% in 7 Tagen) sowohl bullisches Momentum als auch ein erhoehtes Overbought-Risiko (Greed-Index 74, Kurs +17% ueber 30-Tage-Mittel) signalisiert - diese Effekte gleichen sich teilweise aus. Fuer 30 Tage liegt die Basisrate bei 64%, ich reduziere leicht auf 58%, da die extreme kurzfristige Ueberhitzung eine hoehere Wahrscheinlichkeit einer Konsolidierung oder Teil-Korrektur mit sich bringt als der historische Durchschnitt. Mein bisheriger Pessimismus-Bias wird hierbei aktiv gegengeprueft: Ich vermeide eine staerkere Abwaertskorrektur der Wahrscheinlichkeit, da echte fundamentale Belege fuer einen Trendbruch fehlen.",
+      "einschaetzung": "Bitcoin befindet sich in einer starken, schnellen Rally von rund 55.000 auf ueber 67.000 Euro innerhalb weniger Tage, angetrieben von klarem Aufwaertsmomentum. Der Fear&Greed-Index von 74 und der Abstand von +17% zum 30-Tage-Mittel deuten auf eine ueberhitzte kurzfristige Lage hin, die haeufig von Konsolidierungsphasen gefolgt wird. Gleichzeitig gibt es keine konkreten negativen Ereignisse, die den Trend fundamental infrage stellen. Die Basisraten sprechen weiterhin fuer eine Mehrheit an Aufwaertsszenarien, weshalb ich trotz Overbought-Signalen nur moderat von der Basisrate abweiche.",
+      "staerkstes_gegenargument": "Ein Anstieg von +20% in nur 7 Tagen ist historisch selten nachhaltig und erhoeht statistisch die Wahrscheinlichkeit einer scharfen Korrektur oder zumindest einer laengeren Seitwaertsphase, besonders bei einem Fear&Greed-Wert von 74. Wenn Ethereum gleichzeitig leicht faellt, koennte dies ein fruehes Anzeichen fuer eine Divergenz und nachlassende Breite der Rally sein.",
+      "wichtigste_treiber": [
+        "Starkes kurzfristiges Momentum (+20,8% in 7 Tagen, +17,5% in 30 Tagen)",
+        "Historische Basisraten zeigen mehrheitlich weiter steigende Kurse nach aehnlichen Ausgangslagen",
+        "Ueberhitzungssignale (Greed-Index 74, +17% ueber 30-Tage-Mittel) sprechen fuer erhoehtes Korrekturrisiko",
+        "Korrektur des eigenen dokumentierten Pessimismus-Bias aus vorherigen Prognosen"
+      ],
+      "umschlagpunkt": "Ein Ruecksetzer unter das 30-Tage-Mittel von etwa 57.600 Euro oder ein Bruch der kurzfristigen Aufwaertsstruktur (z.B. mehrere Tage in Folge unter 63.000 Euro) waeren starke Signale, dass die Rally beendet ist und die Wahrscheinlichkeit fuer weiter fallende Kurse deutlich steigt.",
+      "kennzahlen_zum_zeitpunkt": {
+        "kurs_aktuell": 67444.13,
+        "veraenderung_7_tage_prozent": 20.8,
+        "veraenderung_30_tage_prozent": 17.49,
+        "veraenderung_90_tage_prozent": 5.54,
+        "mittel_30_tage": 57649.27,
+        "abstand_zum_mittel_prozent": 16.99,
+        "tages_schwankung_prozent": 2.06,
+        "hoch_90_tage": 67444.13,
+        "tief_90_tage": 51253.18,
+        "basisraten": {
+          "7": {
+            "anteil_gestiegen_prozent": 54,
+            "anzahl_faelle": 84,
+            "typische_schwankung_prozent": 5.4
+          },
+          "30": {
+            "anteil_gestiegen_prozent": 64,
+            "anzahl_faelle": 61,
+            "typische_schwankung_prozent": 11.3
+          }
+        },
+        "beobachtete_tage": 91
+      },
+      "feedback_verfuegbar": true,
+      "api_versuche": 1,
+      "datenstand": {
+        "kurs": "2026-08-25T22:34:45.044212Z",
+        "fear_greed": "2026-08-25T22:34:45.421967Z",
+        "trefferbilanz": "2026-08-26T00:00:04.831768"
+      }
+    },
+    {
       "datum": "2026-08-24",
       "asset": "BTC",
       "erstellt_am": "2026-08-24T22:34:17.937415Z",
@@ -1675,5 +1744,5 @@
       "rueckblick_kurs_7_tage": 54505.1633858627
     }
   ],
-  "letzte_aktualisierung": "2026-08-24"
+  "letzte_aktualisierung": "2026-08-25"
 }
