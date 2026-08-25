@@ -1,6 +1,51 @@
 {
-  "letzte_aktualisierung": "2026-08-24",
+  "letzte_aktualisierung": "2026-08-25",
   "ereignisse": [
+    {
+      "datum": "2026-08-25",
+      "kategorie": "Institutionell",
+      "titel": "BankChain Alliance kündigt 2027-Start an – Stablecoins und tokenisierte Deposits im regulatorischen Rahmen",
+      "beschreibung": "U.S. state banking associations planen den Launch einer nationalen Blockchain-Netzwerk namens BankChain Alliance für 2027. Das Netzwerk soll Stablecoins, Zahlungen und tokenisierte Bankeinlagen innerhalb des regulatorischen Rahmens des Bankensystems ermöglichen. Dies signalisiert institutionelle Akzeptanz von Blockchain-Infrastruktur für traditionelle Finanzdienstleistungen.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-08-25",
+      "kategorie": "Regulierung",
+      "titel": "LayerZero startet Handelsinfrastruktur mit DTCC und ICE Institutional Exploration",
+      "beschreibung": "LayerZero hat eine Trading-Infrastruktur für Kryptowährungen und tokenisierte Märkte auf dem Zero-Blockchain gestartet, unterstützt durch Citadel Securities. DTCC und ICE erkunden aktiv institutionelle Marktanwendungen auf der Plattform. Der ZRO-Token ist daraufhin angestiegen. Dies zeigt konkrete Bestrebungen großer Finanzinfrastruktur-Player, in Blockchain-basiertes Clearing und Settlement vorzudringen.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-08-25",
+      "kategorie": "ETF",
+      "titel": "Solana ETFs verzeichnen größten Single-Day-Inflow seit Dezember – $33,5 Mio. am 24. August",
+      "beschreibung": "Solana Spot-ETFs erhalten $33,5 Millionen Zufluss am 24. August – der größte Single-Day-Inflow seit Dezember 2025. Die kumulativen Netto-Zuflüsse erreichten einen Rekord von $1,22 Milliarden. Dies folgt SOL-Gewinnen von ca. 40% in kurzer Zeit und erhöhtem Netzwerk-Aktivität (4,2 Mrd. Transaktionen). Institutionelle Kapitalbewegungen in Solana-Produkte beschleunigen sich parallel zur Bitcoin-Erholung (€67.410).",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-08-25",
+      "kategorie": "Institutionell",
+      "titel": "Bitwise integriert Coinbase tokenisierte Aktien in automatisierte KI- und Robotics-Portfolios",
+      "beschreibung": "Der Crypto-ETF-Emittent Bitwise nutzt Coinbase tokenisierte Aktien (Apple, Nvidia, Meta, Alphabet) zur Erstellung automatisierter, KI-gesteuerter Investment-Portfolios auf der Blockchain. Dies zeigt erweiterte Use-Cases für tokenisierte RWAs (Real-World Assets) und deepere Integration von traditionellen Assets in dezentrales Vermögensmanagement.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-08-25",
+      "kategorie": "Makro",
+      "titel": "Bitcoin übersteigt €67.410 mit 25%-7-Tage-Rally – Gold folgt bei €4.003,02 auf fallende US-Renditen",
+      "beschreibung": "Bitcoin ist in 7 Tagen um etwa 25% gestiegen und notiert bei €67.410 (aktuell -0,2% in 24h), nachdem es erstmals seit Mai die $80.000-Marke ($78.703 USD aktuell) überschritten hat. Gold ist parallel gestiegen und notiert bei €4.003,02 pro Unze – beide Assets folgen der Treasury-Bondkauf-Expansion und fallenden US-Renditen. Silber (€59,197) bewegt sich deutlich schwächer, was auf differentierte Risk-Asset-Rotation hindeutet. Spot Bitcoin ETFs verzeichneten $337,56 Mio. Zufluss am 24. August.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
     {
       "datum": "2026-08-24",
       "kategorie": "Institutionell",
@@ -493,41 +538,6 @@
       "titel": "SEC cancelt Reg Crypto Proposal – Regulierungsunklarheit bleibt strukturelles Headwind",
       "beschreibung": "Die SEC hat ihre lange erwartete Crypto-Regulierungs-Proposal überraschend verschoben und keinen neuen Termin genannt. Dies verlängert die regulatorische Grauzone, die Bitcoin bei €55.060 EUR halten, während institutionelle Adoption (Goldman Sachs NEOS-Deal, Fidelity ETH-Staking) weiterläuft. Gold (€3.777,26 EUR) zeigt keine Flucht-Reaktion, was bestätigt, dass dies crypto-spezifisches Governance-Risiko ist, kein makro-Schock.",
       "kursziel_eur_7_tage": 55200
-    },
-    {
-      "datum": "2026-08-13",
-      "kategorie": "Makro",
-      "titel": "Treasury-Renditen (und damit Bitcoin-Opportunity-Cost) bleiben strukturell erhöht – 1M-Bitcoin-These unter Druck",
-      "beschreibung": "CoinDesk analysiert, dass hohe US-Treasury-Renditen nicht-verzinsliche Assets wie Bitcoin weniger attraktiv machen – die 1-Million-Dollar-These könnte zu optimistisch sein. Bei €55.060 EUR und Gold parallel bei €3.777,26 EUR (beide ohne divergente Fluchtbewegung) signalisiert dies, dass Kapital eher zu Fixed-Income als zu alternativem Risk-On fließt. Dies erklärt die Käufer-Apathie (Fear & Greed: 29).",
-      "kursziel_eur_7_tage": 54800
-    },
-    {
-      "datum": "2026-08-13",
-      "kategorie": "Institutionell",
-      "titel": "B2C2 rekrutiert Schroders-Veteran – Institutional Liquidity Layer reift, bleibt aber nischen-fokussiert",
-      "beschreibung": "Der institutionelle Crypto-Liquidity-Provider B2C2 stellt Schroders Wealth Management Asia-Chef an, um Family Offices und Asset Manager zu adressieren. Dies bestätigt, dass Institutional Adoption auf Wealth-Management-Ebene wächst, bleibt aber geographisch und Segment-begrenzt. Bitcoin bei €55.060 EUR profitiert nur langsam davon – kein Mass-Market-Tipping-Point erkennbar.",
-      "kursziel_eur_7_tage": 55100
-    },
-    {
-      "datum": "2026-08-13",
-      "kategorie": "OnChain",
-      "titel": "Public Bitcoin Miner reduzieren Hashrate um 13,4% – AI-Infrastructure-Pivot wird zur Profitabilität-Falle",
-      "beschreibung": "Öffentliche Bitcoin-Miner schneiden ihre Hashrate um 13,4% um, da sie Kapazität in AI/HPC-Infrastruktur umleiten. Dies zeigt strukturelle Hashrate-Volatilität und reduzierte Mining-Sicherheitsmarge, während Bitcoin-Preis bei €55.060 EUR nicht compellingly genug ist. Silber (€56,03 EUR, parallel zu BTC schwach) bestätigt, dass dies kein inflationäres Safe-Haven-Szenario ist.",
-      "kursziel_eur_7_tage": 54700
-    },
-    {
-      "datum": "2026-08-13",
-      "kategorie": "Institutionell",
-      "titel": "Figure revenues verdoppeln sich auf $226M, Blockchain-Loan-TVL auf $4,3B – Tokenization-Momentum vs. Bitcoin-Preisapathie-Divergenz",
-      "beschreibung": "Figure Technologies meldet Umsatz-Verdopplung und $4,3B Blockchain-Loan-Volumen, was das Tokenization-Ökosystem als eigenständiges Growth-Driver-Narrativ etabliert. Bitcoin bei €55.060 EUR participiert indirekt durch Layer-2-/Infra-Heben, aber profitiert nicht direkt von Asset-Tokenization-Traction. Dies zeigt: Crypto-Ecosystem wächst, Bitcoin-Core bleibt Narrative-Anker statt Price-Driver.",
-      "kursziel_eur_7_tage": 55250
-    },
-    {
-      "datum": "2026-08-12",
-      "kategorie": "Institutionell",
-      "titel": "Goldman Sachs kauft NEOS für $2,25B – Bitcoin Income ETFs werden Mainstream-Produkt",
-      "beschreibung": "Goldman Sachs übernimmt den ETF-Manager NEOS für $2,25 Mrd. und integriert damit $30 Mrd. an Bitcoin- und Ethereum-Income-Produkten in seine Asset Management Division. Dies erweitert Goldmans Derivate-Plattform auf $130 Mrd. und stellt eine direkte Konkurrenz zu BlackRocks BITA-Fonds dar. Die Transaktion signalisiert, dass selbst konservative Megabanken Bitcoin jetzt als Standard-Institutional-Asset betrachten – nicht mehr als Nische.",
-      "kursziel_eur_7_tage": 56200
     }
   ],
   "fazits": [
