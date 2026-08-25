@@ -1,4 +1,4 @@
-# 17.08.2026 08:00
+# 25.08.2026 16:45
 # Ersetzt bitcoin-update.yml und claude-einschaetzung.yml.
 # Drei Jobs laufen sequenziell: Haiku → Sonnet → HA-Sync.
 # Sonnet startet erst wenn Haiku erfolgreich abgeschlossen ist,
@@ -108,14 +108,40 @@ jobs:
     runs-on: ubuntu-latest
     needs: sonnet_einschaetzung
     steps:
+      # 25.08.2026 16:45 - Ziel von ha.renken2019.de auf gerry07.duckdns.org
+      # umgestellt. Der alte Name wurde vom Reverse Proxy der Synology-NAS
+      # bedient und per CNAME auf die MyFRITZ-Adresse gefuehrt. Die NAS ist
+      # abgeschaltet; seitdem beantwortet der NGINX des Home Assistant die
+      # Anfrage mit seinem Zertifikat fuer gerry07.duckdns.org, das nicht zum
+      # angefragten Namen passt - curl bricht im TLS-Handshake ab (Exitcode 35,
+      # in der Nacht davor Exitcode 28). Der DuckDNS-Name haengt an keinem NAS.
       - name: GitHub-Sync in Home Assistant auslösen
         run: |
-          HTTP_STATUS=$(curl -s -o /dev/null -w "%{http_code}" \
+          # "|| CURL_EXIT=$?" ist noetig, weil GitHub Actions das Skript mit
+          # "bash -e" startet: ohne das bricht die Shell schon bei der Zuweisung
+          # mit dem curl-Exitcode ab und die Ausgaben darunter laufen nie. Genau
+          # deshalb stand in den Logs vom 23. bis 25.08. nur eine nackte
+          # Exit-Nummer und keine Erklaerung.
+          HTTP_STATUS=$(curl -sS -o /dev/null -w "%{http_code}" \
+            --connect-timeout 15 --max-time 60 \
             -X POST \
-            "https://ha.renken2019.de/api/webhook/bitcoin_github_sync_webhook")
-          echo "HTTP Status: $HTTP_STATUS"
+            "https://gerry07.duckdns.org/api/webhook/bitcoin_github_sync_webhook") \
+            || CURL_EXIT=$?
+          CURL_EXIT=${CURL_EXIT:-0}
+          echo "curl-Exitcode: $CURL_EXIT"
+          echo "HTTP Status:   $HTTP_STATUS"
+          if [ "$CURL_EXIT" -ne 0 ]; then
+            echo "Fehler: curl konnte den Webhook nicht aufrufen (Exitcode $CURL_EXIT)."
+            echo "  6 = DNS, 7 = keine Verbindung, 28 = Zeitueberschreitung,"
+            echo "  35 = TLS-Handshake, 60 = Zertifikat nicht ueberpruefbar."
+            exit 1
+          fi
           if [ "$HTTP_STATUS" != "200" ] && [ "$HTTP_STATUS" != "204" ]; then
             echo "Fehler: HA-Webhook antwortete mit Status $HTTP_STATUS"
             exit 1
           fi
+          # Achtung: Home Assistant antwortet auch auf einen UNBEKANNTEN
+          # webhook_id mit 200. Ein gruener Schritt beweist nur, dass HA
+          # erreichbar war - nicht, dass die Automation gelaufen ist. Das
+          # zeigt nur last_triggered der Automation in HA.
           echo "✓ HA-Sync erfolgreich ausgelöst."
