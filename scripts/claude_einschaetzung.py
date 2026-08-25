@@ -1,4 +1,4 @@
-# 18.08.2026 17:00
+# 25.08.2026 17:00
 #!/usr/bin/env python3
 """
 Bitcoin-Einschätzung (Claude Sonnet 5)
@@ -107,7 +107,16 @@ KONFIDENZ_PROZENT = 80
 
 KURSHISTORIE_TAGE = 90
 
-HA_FEEDBACK_URL = "https://ha.renken2019.de/local/bitcoin_feedback.json"
+# FIX 25.08.2026 17:00: Adresse von ha.renken2019.de auf gerry07.duckdns.org
+# umgestellt. Der alte Name wurde vom Reverse Proxy der Synology-NAS bedient
+# und per CNAME auf die MyFRITZ-Adresse gefuehrt. Die NAS ist abgeschaltet,
+# seitdem beantwortet der NGINX des Home Assistant die Anfrage mit seinem
+# Zertifikat fuer gerry07.duckdns.org - der Name passt nicht, die TLS-Pruefung
+# scheitert. Sichtbar in claude_fazit.json: feedback_verfuegbar sprang am
+# 23.08.2026 von true auf false, die Einschaetzungen vom 23. und 24.08.
+# entstanden also ohne Brier-Score und Trefferbilanz.
+# MUSS mit FEEDBACK_URL_HINWEIS in bitcoin/konstanten.py uebereinstimmen.
+HA_FEEDBACK_URL = "https://gerry07.duckdns.org/local/bitcoin_feedback.json"
 HA_FEEDBACK_TIMEOUT = 15
 
 ERLAUBTE_KATEGORIEN = {
