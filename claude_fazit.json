@@ -1,6 +1,75 @@
 {
   "fazits": [
     {
+      "datum": "2026-08-27",
+      "asset": "BTC",
+      "erstellt_am": "2026-08-27T03:03:11.129701Z",
+      "modell": "claude-sonnet-5",
+      "prompt_version": 4,
+      "kurs_eur_referenz": 67529.0,
+      "konfidenz_prozent": 80,
+      "prognosen": [
+        {
+          "horizont_tage": 7,
+          "wahrscheinlichkeit_hoeher": 55,
+          "spanne_unten": 63500,
+          "spanne_oben": 71600,
+          "konfidenz": 80,
+          "kursziel_abgeleitet": 67550
+        },
+        {
+          "horizont_tage": 30,
+          "wahrscheinlichkeit_hoeher": 62,
+          "spanne_unten": 60000,
+          "spanne_oben": 76500,
+          "konfidenz": 80,
+          "kursziel_abgeleitet": 68250
+        }
+      ],
+      "basisrate_verwendet": 56,
+      "abweichung_begruendung": "Fuer 7 Tage bleibe ich nahe der Basisrate (56%), leicht erhoeht auf 55% da der Kurs nach der Rally seit drei Tagen stabil bei ~67.5k konsolidiert, ohne Anzeichen eines Einbruchs, was fuer eine gesunde Verschnaufpause statt Trendumkehr spricht. Fuer 30 Tage weiche ich leicht nach unten von 69% auf 62% ab, weil der Kurs bereits +20% in 30 Tagen und +15.5% ueber dem 30-Tage-Mittel liegt - eine derart starke Abweichung erhoeht das Risiko einer Korrektur/Mean-Reversion trotz intaktem Aufwaertstrend.",
+      "einschaetzung": "Bitcoin hat eine kraeftige Rally von rund 54k auf 67.5k in zwei Wochen hingelegt und konsolidiert seither auf hohem Niveau ohne Rueckgang - ein Zeichen fuer Staerke, nicht fuer Erschoepfung. Der Fear&Greed-Index bei 71 zeigt Gier, aber noch keine Extremwerte, die historisch unmittelbar Korrekturen ausloesen. Die kurzfristige Basisrate spricht leicht fuer weitere Kursgewinne, waehrend die starke Abweichung vom 30-Tage-Mittel mittelfristig ein erhoehtes Korrekturrisiko signalisiert. Insgesamt bleibt der Trend intakt, aber die Wahrscheinlichkeit einer Verschnaufpause oder leichten Korrektur auf 30-Tage-Sicht ist etwas hoeher als der reine historische Durchschnitt.",
+      "staerkstes_gegenargument": "Die Abweichung von +15.5% ueber dem 30-Tage-Mittel und ein Fear&Greed-Wert von 71 sind klassische Warnsignale fuer eine bevorstehende Korrektur - historisch folgen auf solch starke, schnelle Anstiege oft Ruecksetzer von 10-15%, besonders wenn sich die Konsolidierung bei einem Hoch als Verteilungsphase statt als Pause erweist.",
+      "wichtigste_treiber": [
+        "Starke Kursrallye von 54k auf 67.5k in unter zwei Wochen mit anschliessender stabiler Seitwaertsbewegung",
+        "Historische Basisraten von 56% (7T) und 69% (30T) fuer steigende Kurse als Ausgangspunkt",
+        "Deutliche Ueberdehnung ueber dem 30-Tage-Mittel (+15.5%) erhoeht Korrekturrisiko auf laengere Sicht",
+        "Fear&Greed-Index bei 71 (Greed, nicht Extreme Greed) - noch kein akutes Warnsignal"
+      ],
+      "umschlagpunkt": "Ein Bruch unter das kurzfristige Konsolidierungsniveau von etwa 65,000-66,000 Euro mit steigendem Volumen, oder eine deutliche Verschlechterung der Marktstimmung (z.B. Fear&Greed-Index faellt unter 50) wuerden signalisieren, dass die Rally in eine Korrektur uebergeht statt zu konsolidieren.",
+      "kennzahlen_zum_zeitpunkt": {
+        "kurs_aktuell": 67507.32,
+        "veraenderung_7_tage_prozent": 8.55,
+        "veraenderung_30_tage_prozent": 20.59,
+        "veraenderung_90_tage_prozent": 7.26,
+        "mittel_30_tage": 58428.86,
+        "abstand_zum_mittel_prozent": 15.54,
+        "tages_schwankung_prozent": 2.06,
+        "hoch_90_tage": 67552.89,
+        "tief_90_tage": 51253.18,
+        "basisraten": {
+          "7": {
+            "anteil_gestiegen_prozent": 56,
+            "anzahl_faelle": 84,
+            "typische_schwankung_prozent": 5.5
+          },
+          "30": {
+            "anteil_gestiegen_prozent": 69,
+            "anzahl_faelle": 61,
+            "typische_schwankung_prozent": 11.3
+          }
+        },
+        "beobachtete_tage": 91
+      },
+      "feedback_verfuegbar": true,
+      "api_versuche": 1,
+      "datenstand": {
+        "kurs": "2026-08-27T03:02:40.064391Z",
+        "fear_greed": "2026-08-27T03:02:40.150218Z",
+        "trefferbilanz": "2026-08-27T00:00:01.820094"
+      }
+    },
+    {
       "datum": "2026-08-25",
       "asset": "BTC",
       "erstellt_am": "2026-08-25T22:35:16.244709Z",
@@ -1744,5 +1813,5 @@
       "rueckblick_kurs_7_tage": 54505.1633858627
     }
   ],
-  "letzte_aktualisierung": "2026-08-25"
+  "letzte_aktualisierung": "2026-08-27"
 }
