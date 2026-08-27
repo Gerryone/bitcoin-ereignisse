@@ -1,6 +1,51 @@
 {
-  "letzte_aktualisierung": "2026-08-25",
+  "letzte_aktualisierung": "2026-08-27",
   "ereignisse": [
+    {
+      "datum": "2026-08-26",
+      "kategorie": "Regulierung",
+      "titel": "SEC überarbeitet Crypto-Custody-Regel – White House Überprüfung eingeleitet",
+      "beschreibung": "Die SEC hat ihre überarbeitete Crypto-Custody-Regelung dem Weißen Haus zur Überprüfung vorgelegt. Der Vorschlag soll klären, wie Anlageberater und Fonds digitale Vermögenswerte für Kunden verwahren dürfen – eine Regelung, die die vorherige Administration 2023 nicht durchsetzen konnte.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-08-26",
+      "kategorie": "Regulierung",
+      "titel": "Dallas Fed warnt vor tokenisierten Deposits – $700 Mrd. Kreditvergabe-Kapazität gefährdet",
+      "beschreibung": "Die Federal Reserve Bank of Dallas hat gewarnt, dass programmierbare Deposits und KI-Agenten zu automatischem Bankwechsel führen könnten, was Refinanzierungskosten für Banken erhöht und potentiell $700 Mrd. Kreditvergabe-Kapazität aus dem traditionellen Bankensektor abzieht.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-08-26",
+      "kategorie": "Institutionell",
+      "titel": "BlackRock senkt Bitcoin ETF Swap-Minimum auf $1 Mio. – Zugang für Whales vereinfacht",
+      "beschreibung": "BlackRock hat die Mindestanlage für Bitcoin ETF Swaps von vorher höheren Schwellen auf $1 Mio. gesenkt. Dies reduziert die Barriere für große Investoren, ihre selbstverwahrten Bitcoin gegen ETF-Anteile zu tauschen, während Bitcoin bei €67.520 handelt und August ETF-Zuflüsse bereits $3 Mrd. überschritten haben.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-08-27",
+      "kategorie": "Technik",
+      "titel": "SHRINCS Bitcoin Improvement Proposal veröffentlicht – Quantensicherheit mit Kompromissen",
+      "beschreibung": "Ein neuer Bitcoin Improvement Proposal (BIP) für das SHRINCS Signature Scheme wurde veröffentlicht, um Bitcoin gegen Quantencomputer-Bedrohungen zu schützen. Die Lösung bringt allerdings technische Kompromisse mit sich, deren Details noch evaluiert werden.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-08-26",
+      "kategorie": "Institutionell",
+      "titel": "Better und Coinbase launchen Bitcoin-besicherte Hypotheken – Krypto als Eigenkapitalgarantie",
+      "beschreibung": "Better und Coinbase haben ein Hypotheken-Produkt gestartet, das US-Immobilienkäufern ermöglicht, Bitcoin als Sicherheit für Anzahlungen zu verpfänden. Dies etabliert Bitcoin als akzeptiertes Vermögensmittel in traditionellen Finanzierungsprozessen.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
     {
       "datum": "2026-08-25",
       "kategorie": "Institutionell",
@@ -495,49 +540,6 @@
       "modell": "claude-haiku-4-5",
       "prompt_version": 2,
       "asset": "BTC"
-    },
-    {
-      "datum": "2026-08-14",
-      "kategorie": "Regulierung",
-      "titel": "SEC verzögert Innovation Exemption für Tokenisierung – Bullish, Coinbase, Circle verlieren an Wert",
-      "beschreibung": "Die SEC verschob ihre Ankündigung zum Innovation Exemption für Tokenisierung und stornierte das für Freitag geplante Treffen zur Reg Crypto ohne neuen Termin. Tokenisierungs-Stocks gerieten unter Druck; die Verzögerung wird als Regulierungs-Rückschlag für Wall Street's Crypto-Integration interpretiert.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-08-14",
-      "kategorie": "Institutionell",
-      "titel": "Bank Leumi (Israels größte Bank) startet Bitcoin-, Ether- und Solana-Trading ab Q1 2027",
-      "beschreibung": "Bank Leumi kündigte eine Partnerschaft mit Galaxy an, um Kunden ab Anfang 2027 den Handel von Bitcoin, Ethereum und Solana über die Investment-App zu ermöglichen. Dies symbolisiert die Integration von Crypto-Assets in etablierte Bankingkanäle außerhalb der USA.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-08-14",
-      "kategorie": "Institutionell",
-      "titel": "Morgan Stanley Q2: BlackRock Bitcoin ETF Holdings um 23% gestiegen; JPMorgan verdoppelt Bitcoin-ETF-Position",
-      "beschreibung": "Morgan Stanleys IBIT-Holdings (BlackRock Bitcoin ETF) stiegen auf 16,5 Mio. Anteile in Q2 (+23%); JPMorgan erhöhte seine Bitcoin-ETF-Position um 25% und sein Ether-ETF-Position um über 400%. Beide Transaktionen entstanden während Bitcoin auf €54.264 korrigierte und Spot-ETFs ihre erste zweitägige Abflussreihe seit Juli verzeichneten.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-08-14",
-      "kategorie": "Institutionell",
-      "titel": "MSCI plant Ausschluss von Bitcoin-Treasury-Unternehmen – Strategy und Metaplanet von Indexlöschung bedroht",
-      "beschreibung": "MSCI kündigte eine Konsultation an, die Non-Operating-Unternehmen wie Strategy und Metaplanet aus ihren Indizes ausschließen würde. Strategy argumentiert, dass Indexanbieter Märkte messen, statt zu diktieren, welche Assets Unternehmen halten dürfen – eine strukturelle Auseinandersetzung über Crypto-Assets als legitime Konzern-Reserven.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-08-13",
-      "kategorie": "Regulierung",
-      "titel": "SEC cancelt Reg Crypto Proposal – Regulierungsunklarheit bleibt strukturelles Headwind",
-      "beschreibung": "Die SEC hat ihre lange erwartete Crypto-Regulierungs-Proposal überraschend verschoben und keinen neuen Termin genannt. Dies verlängert die regulatorische Grauzone, die Bitcoin bei €55.060 EUR halten, während institutionelle Adoption (Goldman Sachs NEOS-Deal, Fidelity ETH-Staking) weiterläuft. Gold (€3.777,26 EUR) zeigt keine Flucht-Reaktion, was bestätigt, dass dies crypto-spezifisches Governance-Risiko ist, kein makro-Schock.",
-      "kursziel_eur_7_tage": 55200
     }
   ],
   "fazits": [
