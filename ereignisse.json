@@ -1,6 +1,51 @@
 {
-  "letzte_aktualisierung": "2026-08-27",
+  "letzte_aktualisierung": "2026-08-28",
   "ereignisse": [
+    {
+      "datum": "2026-08-28",
+      "kategorie": "ETF",
+      "titel": "Spot Bitcoin ETFs verzeichnen achten Handelstag mit Nettozuflüssen – $2,8 Mrd. seit Start der Serie",
+      "beschreibung": "US-Spot-Bitcoin-ETFs erlebten ihren achten aufeinanderfolgenden Tag mit positiven Nettozuflüssen, wobei insgesamt $2,8 Mrd. in die Fonds flossen. Parallel dazu meldeten Ether-ETFs tägliche Zuflüsse in ähnlicher Größenordnung. Bitcoin notierte am 28. August bei €68.489, auf Wochenbasis ein Plus von 9%.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-08-27",
+      "kategorie": "Regulierung",
+      "titel": "SEC genehmigt Merger-Antrag für XRP Treasury Company – Nasdaq-Listing im September geplant",
+      "beschreibung": "Die SEC hat die erforderlichen Unterlagen für die Fusion der von Ripple unterstützten Evernorth mit einem Mantelunternehmen genehmigt. Ein Aktionärsvotum ist für 30. September vorgesehen, woraufhin ein Nasdaq-Listing unter dem Ticker XRPN angestrebt wird. Dies stellt einen formalen Regulierungsmeilenstein für ein crypto-gebundenes Wertpapier dar.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-08-27",
+      "kategorie": "Institutionell",
+      "titel": "Charles Schwab erweitert Crypto-Plattform um Solana, Avalanche und Chainlink",
+      "beschreibung": "Der Finanzdienstleister Charles Schwab kündigte die Ausweitung seiner nascent Crypto-Plattform an, die bislang nur Bitcoin und Ether abdeckte. Mit dem Hinzufügen von Solana (das in der Woche um 20% gestiegen war), Avalanche und Chainlink zeigt der Broker eine systematische Expansion ins Altcoin-Segment für Retail-Kunden.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-08-27",
+      "kategorie": "Makro",
+      "titel": "Nvidia-Gewinnschlag löst Technologie-Rally aus – Bitcoin profitiert von breiteren Risk-On-Bewegungen",
+      "beschreibung": "Nvidia veröffentlichte Quartalsergebnisse, die Erwartungen um etwa $4 Mrd. übertrafen, was Technologiewerte und damit verbundene Risiko-Assets nach oben zog. Bitcoin reagierte mit einem Anstieg auf €68.489 (+1,2% in 24h), während Gold bei €3.929,25 relativ stabil blieb – ein Hinweis auf Kapitalrotation in Wachstumswerte statt klassische Safe-Havens.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-08-27",
+      "kategorie": "Regulierung",
+      "titel": "Connecticut reicht Klage gegen Kalshi ein – Prediction-Markets-Rechtsstreit wird zum Patchwork",
+      "beschreibung": "Connecticut kündigte eine Klage gegen die Prediction-Markt-Plattform Kalshi an, die sich zu den bestehenden Verfahren auf Bundes- und Staatsebene gesellt. Bisherige Gerichtsurteile zeigen ein Patchwork von Erfolgen und Niederlagen, was Analysten auf eine mögliche Eskalation zum Supreme Court hindeutet.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
     {
       "datum": "2026-08-26",
       "kategorie": "Regulierung",
@@ -492,51 +537,6 @@
       "kategorie": "Institutionell",
       "titel": "UBS erhöht Bitcoin-Engagement massiv – 24x Anstieg bei Call-Optionen, IBIT-Bestände +12%",
       "beschreibung": "Die Schweizer Megabank UBS hat ihre Bitcoin-Exposure im Quartal dramatisch ausgebaut: Call-Optionen auf Bitcoin stiegen um das 24-Fache, während die direkten Bestände des iShares Bitcoin ETF (IBIT) um 12% auf 407.890 Anteile wuchsen. Gleichzeitig reduzierte UBS Put-Optionen um 53%. Der Schritt signalisiert institutionelle Akquisitionsbereitschaft auf Kursniveaus von €54.527.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-08-15",
-      "kategorie": "Regulierung",
-      "titel": "Chinas zweitgrößter Bitcoin-Miner stellt Operationen in der Hauptstadt ein – Energierestriktionen treten in Kraft",
-      "beschreibung": "Das chinesische Energieministerium hat ganzjährige Betriebsbeschränkungen für Mining-Operationen in der Hauptstadt erlassen, um Stromengpässe zu entlasten. Dies ist ein strukturelles Headwind für die globale Bitcoin-Mining-Hashrate und könnte zu weiteren regionalen Abschaltungen führen, da energieintensive Infrastruktur regionale Stromnetze belastet.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-08-15",
-      "kategorie": "Institutionell",
-      "titel": "Paul Tudor Jones' Firma kehrt zu BlackRock Bitcoin ETF zurück – Call-Optionen fallen um 85%",
-      "beschreibung": "Das Vermögensmanagement-Unternehmen des legendären Traders Paul Tudor Jones beendete nach einem Jahr Verkäufen seinen Rückzug aus Bitcoin und erhöht seine Position im BlackRock Bitcoin ETF. Call-Optionen sanken um 85,2% auf 148.000 Anteile, während Put-Optionen mit −1,4% stabil blieben – ein Zeichen der Repositionierung in bullischere Strukturen bei €54.527.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-08-15",
-      "kategorie": "Regulierung",
-      "titel": "Tokenisierte Aktienbeteilungen verdoppeln sich – Halter steigen auf 1,31 Mio., Monatsvolumen +179%",
-      "beschreibung": "Im Laufe eines Monats hat sich die Anzahl der Inhaber von tokenisierten Aktien mehr als verdoppelt auf 1,31 Millionen, während das monatliche Transfervolumen um 179% auf $23,13 Mrd. anstieg. Dies dokumentiert einen messbaren Durchbruch bei Real-World-Asset-Tokenisierung, unabhängig von Bitcoin-Kursbewegungen und trotz Verzögerungen bei der SEC-Innovation-Exemption.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-08-15",
-      "kategorie": "Makro",
-      "titel": "Gold (€3.784,57) und Silber (€56,05) bewegen sich seitwärts – Risk-Off-Stimmung bei Crypto-Fear-Index 34",
-      "beschreibung": "Während Bitcoin bei €54.527 notiert und der Crypto Fear & Greed Index auf 34 (Angst) gefallen ist, zeigen traditionelle Safe-Havens Goldpreis €3.784,57 und Silber €56,05 eine stabile Seitwärtsbewegung ohne Fluchtbewegung. Dies deutet darauf hin, dass die aktuelle Marktangst eher Crypto-spezifisch ist als eine breitere Inflations- oder Krisenangst zu reflektieren.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-08-14",
-      "kategorie": "Regulierung",
-      "titel": "World Liberty Trust Co. erhält bedingte Bankcharta von US-Comptroller",
-      "beschreibung": "Das Office of the Comptroller of the Currency erteilte World Liberty Trust Co. am Freitag die vorläufige bedingte Genehmigung für eine Bankcharta. Dies markiert einen Schritt in der institutionellen Infrastrukturbildung für Crypto-Services, während Bitcoin bei €54.264 notiert und der Fear & Greed Index bei 29 verbleibt.",
       "modell": "claude-haiku-4-5",
       "prompt_version": 2,
       "asset": "BTC"
