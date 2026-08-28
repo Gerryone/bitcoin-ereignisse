@@ -1,6 +1,75 @@
 {
   "fazits": [
     {
+      "datum": "2026-08-28",
+      "asset": "BTC",
+      "erstellt_am": "2026-08-28T06:03:52.733947Z",
+      "modell": "claude-sonnet-5",
+      "prompt_version": 4,
+      "kurs_eur_referenz": 68489.0,
+      "konfidenz_prozent": 80,
+      "prognosen": [
+        {
+          "horizont_tage": 7,
+          "wahrscheinlichkeit_hoeher": 55,
+          "spanne_unten": 64756,
+          "spanne_oben": 72294,
+          "konfidenz": 80,
+          "kursziel_abgeleitet": 68525
+        },
+        {
+          "horizont_tage": 30,
+          "wahrscheinlichkeit_hoeher": 63,
+          "spanne_unten": 60782,
+          "spanne_oben": 76280,
+          "konfidenz": 80,
+          "kursziel_abgeleitet": 68531
+        }
+      ],
+      "basisrate_verwendet": 57,
+      "abweichung_begruendung": "7 Tage: Ich bleibe nahe der Basisrate von 57%, senke sie leicht auf 55%, da der Kurs nach +23% in 30 Tagen und nahe am 91-Tage-Hoch (68,905) kurzfristig konsolidierungsanfällig ist; der Greed-Index von 73 signalisiert Überhitzungsrisiko. 30 Tage: Basisrate 70% wird auf 63% gesenkt, da der Kurs bereits +16% über dem 30-Tage-Mittel liegt, was historisch öfter zu Mean-Reversion-Phasen führt, auch wenn das Momentum grundsätzlich bullish bleibt.",
+      "einschaetzung": "Bitcoin befindet sich in einer starken Aufwärtsbewegung mit deutlichem Momentum-Ausbruch seit dem 19.08 (von ~55,800 auf über 68,000). Der Kurs testet aktuell die obere Grenze der 91-Tage-Spanne, was sowohl auf fortgesetzte Stärke als auch auf eine überkaufte Situation hindeuten kann. Der Fear&Greed-Index bei 73 (Greed) unterstützt die bullische Grundtendenz, warnt aber auch vor kurzfristiger Erschöpfung. Ohne neue negative Ereignisse überwiegt der positive Trend, weshalb ich nur moderat von der Basisrate abweiche statt stark bärisch zu werden.",
+      "staerkstes_gegenargument": "Nach einem derart schnellen Anstieg (+23% in 30 Tagen, +2% allein in der letzten Woche mit Verlangsamung) ist eine technische Korrektur oder Konsolidierung wahrscheinlich, besonders da der Kurs bereits am oberen Rand der 91-Tage-Spanne notiert und der Greed-Index überkaufte Bedingungen anzeigt. Sollte diese Korrektur eintreten, könnte sie sowohl den 7-Tage- als auch den 30-Tage-Horizont ins Negative drehen.",
+      "wichtigste_treiber": [
+        "Starkes kurzfristiges Momentum mit Ausbruch über die 91-Tage-Spanne (68,905 als neues lokales Hoch)",
+        "Historische Basisraten favorisieren steigende Kurse in beiden Horizonten deutlich",
+        "Fear&Greed-Index bei 73 zeigt Optimismus, aber auch Überhitzungsrisiko",
+        "Deutlicher Abstand zum 30-Tage-Mittel (+16.33%) spricht für erhöhte Rückschlagsgefahr"
+      ],
+      "umschlagpunkt": "Ein Kursrückgang unter das 30-Tage-Mittel (~58,900) oder ein Bruch der Unterstützung bei ca. 65,000 mit begleitendem Volumenanstieg würde die bullische These widerlegen und auf eine echte Trendwende statt Konsolidierung hindeuten.",
+      "kennzahlen_zum_zeitpunkt": {
+        "kurs_aktuell": 68524.94,
+        "veraenderung_7_tage_prozent": 2.02,
+        "veraenderung_30_tage_prozent": 23.06,
+        "veraenderung_90_tage_prozent": 8.3,
+        "mittel_30_tage": 58903.52,
+        "abstand_zum_mittel_prozent": 16.33,
+        "tages_schwankung_prozent": 2.07,
+        "hoch_90_tage": 68904.55,
+        "tief_90_tage": 51253.18,
+        "basisraten": {
+          "7": {
+            "anteil_gestiegen_prozent": 57,
+            "anzahl_faelle": 84,
+            "typische_schwankung_prozent": 5.5
+          },
+          "30": {
+            "anteil_gestiegen_prozent": 70,
+            "anzahl_faelle": 61,
+            "typische_schwankung_prozent": 11.3
+          }
+        },
+        "beobachtete_tage": 91
+      },
+      "feedback_verfuegbar": true,
+      "api_versuche": 1,
+      "datenstand": {
+        "kurs": "2026-08-28T06:03:27.578262Z",
+        "fear_greed": "2026-08-28T06:03:27.785534Z",
+        "trefferbilanz": "2026-08-28T06:00:01.110746"
+      }
+    },
+    {
       "datum": "2026-08-27",
       "asset": "BTC",
       "erstellt_am": "2026-08-27T03:03:11.129701Z",
@@ -1813,5 +1882,5 @@
       "rueckblick_kurs_7_tage": 54505.1633858627
     }
   ],
-  "letzte_aktualisierung": "2026-08-27"
+  "letzte_aktualisierung": "2026-08-28"
 }
