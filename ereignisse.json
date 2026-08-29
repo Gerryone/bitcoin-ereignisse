@@ -1,6 +1,51 @@
 {
-  "letzte_aktualisierung": "2026-08-28",
+  "letzte_aktualisierung": "2026-08-29",
   "ereignisse": [
+    {
+      "datum": "2026-08-28",
+      "kategorie": "Technik",
+      "titel": "Bitcoin und Ethereum veröffentlichen Quantencomputer-Migrationspläne – Ripple bereitet XRP Ledger vor",
+      "beschreibung": "Nach Anthropic-Modell, das die Bruchanfälligkeit eines Post-Quantum-Signatur-Kandidaten um Faktor 67 Millionen reduzierte, haben Bitcoin und Ethereum konkrete Migrationspläne veröffentlicht. Ripple bereitet parallel das XRP Ledger für Quantencomputer-Sicherheit vor, bevor sogenannter 'Q-Day' eintritt.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-08-28",
+      "kategorie": "Makro",
+      "titel": "Fed-Chair Warsh signalisiert hawkische Haltung bei Jackson Hole – September-Zinserhöhung wieder im Fokus",
+      "beschreibung": "Fed-Chair Kevin Warsh erklärte auf dem Kansas City Fed Symposium, dass die Zentralbank 'Arbeit zu tun' bei der Inflationsbekämpfung habe. Diese hawkische Rhetorik führte zu Kursverlust bei Bitcoin auf €74.530 ($78.400 USD) und löste schnelle Neubewertung von Zinserhöhungserwartungen aus. Gold notierte bei €3.827,56 EUR.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-08-28",
+      "kategorie": "OnChain",
+      "titel": "Solana-Governance genehmigt Disinflations-Beschleunigung in dramatischer Abstimmung",
+      "beschreibung": "Solanas erstes Netzwerk-weites Abstimmungs-Voting über eine Verdopplung der Disinflations-Geschwindigkeit passierte mit äußerst knappem Ergebnis. Kraken- und Galaxy-gebundene Validatoren wechselten ihre Abstimmung kurz vor Deadline, wodurch der Vorschlag nur knapp die erforderliche Mehrheit erreichte.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-08-28",
+      "kategorie": "Institutionell",
+      "titel": "BitGo erwirbt NYDIG-Trading-Arm – Expansion von institutioneller Crypto-Infrastruktur",
+      "beschreibung": "BitGo hat die institutionelle Trading-Sparte von NYDIG übernommen und integriert damit etwa 30 Mitarbeiter. Die Akquisition verstärkt BitGos Derivatives-Angebot für institutionelle Kunden, während Bitcoin auf €67.012 EUR notiert.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-08-28",
+      "kategorie": "Institutionell",
+      "titel": "SBI erwirbt 20% Stake in indonesischer Ajaib für $270 Mio. – Yen-Stablecoin-Expansion in Südostasien",
+      "beschreibung": "Der japanische Finanzkonzern SBI kauft 20% der indonesischen Online-Brokerage Ajaib für $270 Millionen, um ein blockchaingestütztes, grenzüberschreitendes Settlement-Netzwerk aufzubauen. Ziel ist Expansion des Yen-Stablecoin-Ökosystems in der Region.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
     {
       "datum": "2026-08-28",
       "kategorie": "ETF",
@@ -492,51 +537,6 @@
       "kategorie": "Regulierung",
       "titel": "SEC-Treffen verschoben – Clarity Act bleibt Hoffnungsträger ohne Momentum",
       "beschreibung": "Das erwartete SEC-Regulierungstreffen fand nicht statt; Hoffnungen auf Fortschritte bei der Crypto-Regulierung, sollte der Clarity Act scheitern, werden sich verzögern. Bitcoin notiert bei €54.280 EUR im Fear-Modus (Index: 34), während Gold bei €3.782,92 EUR und Silber bei €56,21 EUR seitwärts laufen – das deutet auf andauernde Unsicherheit ohne akuten Safe-Haven-Run hin.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-08-16",
-      "kategorie": "Technik",
-      "titel": "SafePal-Wallet meldet Datenleck – 40.000 Kunden betroffen, Private Keys sicher",
-      "beschreibung": "Der Wallet-Anbieter SafePal bestätigte einen Datenleck, das persönliche Bestelldaten von knapp 40.000 Kunden exponierte. Laut Anbieter blieben Private Keys, Seed Phrases und Krypto-Assets vollständig geschützt. Das Ereignis reflektiert ein wiederkehrendes Vertrauens-Problem bei zentralisierten Wallet-Schnittstellen.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-08-16",
-      "kategorie": "Regulierung",
-      "titel": "MiCA-Umsetzung in EU triggert Betrüger-Welle – Fake-Regulator-Phishing nimmt zu",
-      "beschreibung": "Nach der MiCA-Deadline sind Betrüger systematisch als Regulatoren und lizenzierte Krypto-Börsen aktiv, um Nutzer zu manipulieren, die ihre Konten migrieren mussten. Dies zeigt ein strukturelles Sicherheitsrisiko bei regulatorisch erzwungenen Konten-Umzügen.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-08-15",
-      "kategorie": "Institutionell",
-      "titel": "TradFi-Giganten bauen Crypto-Infrastruktur – ‚Long Bitcoin, Short Bankers'-Ära endet",
-      "beschreibung": "Große Finanzkonzerne partnern aktiv mit Crypto-Spezialisten zur Infrastruktur-Entwicklung; die traditionelle Wall-Street-Skepsis wird durch systematische Integration ersetzt. Mit Bitcoin bei €54.280 EUR zeigt sich ein struktureller Wandel vom Antagonismus zur hybriden Finanzarchitektur.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-08-15",
-      "kategorie": "Institutionell",
-      "titel": "Trump plant White-House-Treffen mit Crypto-CEOs – Politische Signale in der nächsten Woche",
-      "beschreibung": "Präsident Trump soll an einem Treffen mit Führungskräften aus Crypto, Prediction Markets und AI teilnehmen. Das Zusammentreffen signalisiert anhaltende politische Aufmerksamkeit für den Sektor, unabhängig von der stagnierenden SEC-Agenda.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-08-15",
-      "kategorie": "Institutionell",
-      "titel": "UBS erhöht Bitcoin-Engagement massiv – 24x Anstieg bei Call-Optionen, IBIT-Bestände +12%",
-      "beschreibung": "Die Schweizer Megabank UBS hat ihre Bitcoin-Exposure im Quartal dramatisch ausgebaut: Call-Optionen auf Bitcoin stiegen um das 24-Fache, während die direkten Bestände des iShares Bitcoin ETF (IBIT) um 12% auf 407.890 Anteile wuchsen. Gleichzeitig reduzierte UBS Put-Optionen um 53%. Der Schritt signalisiert institutionelle Akquisitionsbereitschaft auf Kursniveaus von €54.527.",
       "modell": "claude-haiku-4-5",
       "prompt_version": 2,
       "asset": "BTC"
