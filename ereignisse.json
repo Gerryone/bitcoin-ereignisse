@@ -1,6 +1,51 @@
 {
-  "letzte_aktualisierung": "2026-08-29",
+  "letzte_aktualisierung": "2026-08-30",
   "ereignisse": [
+    {
+      "datum": "2026-08-29",
+      "kategorie": "OnChain",
+      "titel": "Tokenisierte Aktien-Transfers explodieren um 415% – $29,5 Mrd. Volumen in 30 Tagen",
+      "beschreibung": "Onchain-Aktivität bei tokenisierten Equities ist in den letzten 30 Tagen um 415% gestiegen, mit $29,5 Mrd. Transfervolumen. Die Zahl aktiver Adressen und Halter verzeichnete entsprechend einen scharfen Anstieg. Dies deutet auf wachsende Adoption von Blockchain-basierter Aktienabwicklung hin.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-08-29",
+      "kategorie": "Technik",
+      "titel": "Polygon offenbart und behebt Sicherheitslücken in kürzlichen Hard Forks",
+      "beschreibung": "Polygon hat Sicherheitslücken veröffentlicht, die in neueren Hard Forks behoben wurden. Die Schwachstellen beinhalteten Denial-of-Service- und Validator-Ressourcen-Risiken. Die Patches wurden vor der öffentlichen Ankündigung implementiert.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-08-28",
+      "kategorie": "Institutionell",
+      "titel": "Visa erweitert Stablecoin-Zahlungsinfrastruktur in Südkorea mit Dunamu-Partnership",
+      "beschreibung": "Visa kündigte eine Partnerschaft mit Dunamu, dem Betreiber von Upbit (Südkoreas größter Kryptobörse), zur Unterstützung von Stablecoin-Zahlungen an. Dies folgt auf ein früheres Abkommen mit Shinhan Financial und verstärkt Visas Präsenz in Asiens führendem Crypto-Hub.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-08-28",
+      "kategorie": "ETF",
+      "titel": "Bitcoin ETF Zufluss-Serie endet nach 9 Tagen – $201,8 Mio. Nettoabflüsse am 28. August",
+      "beschreibung": "US Spot Bitcoin ETFs verzeichneten am 28. August Nettoabflüsse von $201,8 Mio., was eine 9-tägige Zufluss-Serie beendete. Bitcoin rutschte unter €78.000 (ca. $78 Tsd. USD) ab, nachdem Fed-Chair Warsh hawkische Signale sendete und Investoren ihre Positionen reduzierten.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-08-29",
+      "kategorie": "Institutionell",
+      "titel": "Bullish finanziert USD.AI mit $100 Mio. Stablecoin-Facility für GPU-Lending",
+      "beschreibung": "Die Kryptobörse Bullish stellte USD.AI eine $100 Mio. Schuldenfazilität bereit, um GPU-besicherte Darlehen für KI-Infrastruktur zu finanzieren. Dies reflektiert die wachsende Verflechtung von Kryptovermögen mit KI-Hardware-Kapitalvergabe.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
     {
       "datum": "2026-08-28",
       "kategorie": "Technik",
@@ -492,51 +537,6 @@
       "kategorie": "Regulierung",
       "titel": "OCC genehmigt World Liberty Financial (Trump-Familie) für Trust-Charter",
       "beschreibung": "Die US-Finanzaufsicht OCC hat bedingte Genehmigung für die Bankcharta-Bewerbung von World Liberty Financial erteilt. Dies markiert die erste regulatorische Anerkennung einer mit der Trump-Familie verbundenen Crypto-Finanzfirma auf föderaler Ebene. Bitcoin notiert bei €55.493.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-08-17",
-      "kategorie": "Institutionell",
-      "titel": "Bitmine erwirbt weitere 9.926 ETH – Bestand nähert sich 5%-Marke des gesamten Angebots",
-      "beschreibung": "Tom Lees Crypto-Treasury-Firma kaufte letzte Woche 9.926 Ethereum (ETH €1.643) nach, was den Bestand auf knapp 5% des Gesamtangebots bringt. Der Kauftrend läuft seit Juni 2025 durch, trotz €8,4 Mrd. unrealisierter Verluste. Dies signalisiert strukturelle Akkumulation durch Large Holder unabhängig von Kursniveaus.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-08-17",
-      "kategorie": "Institutionell",
-      "titel": "Strategy Holdings hebt $333,7 Mio. via Aktienverkauf auf – keine neuen Bitcoin-Käufe, Bargeldreserve gestärkt",
-      "beschreibung": "Michael Saylors Strategy Holdings sammelte $333,7 Mio. durch Aktienverkauf ein. Statt Bitcoin zu kaufen, priorisierte das Unternehmen Bargeldreserven (€149,1 Mio. hinzugefügt), STRC-Dividenden und Aktienrückkäufe. Dies markiert eine Verschiebung der Investitionsstrategie weg von Bitcoin-Akkumulation bei aktuellen Preisen (€55.493).",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-08-17",
-      "kategorie": "Technik",
-      "titel": "Coldcard-Exploit-Report: €100 Mio. Schaden durch jahrelang übersehene Code-Lücke",
-      "beschreibung": "Ein Sicherheitsbericht deckt auf, dass eine kritische Coldcard-Hardware-Wallet-Lücke fünf Jahre unbemerkt blieb und zu circa €100 Mio. Schäden führte. Die Crypto-Community habe dabei das Maxim 'Don't trust, verify' missachtet und Verantwortung zu stark auf eine einzelne Person externalisiert. Dies unterstreicht strukturelle Probleme in der Wallet-Verifikationspraxis.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-08-17",
-      "kategorie": "Regulierung",
-      "titel": "Binance übermittelte Nutzerdaten an Russland – ukrainischer Spender festgenommen",
-      "beschreibung": "Recherchen zeigen, dass Binance Nutzerdaten an russische Behörden weitergab, was zur Verhaftung eines ukrainischen Donors führte. Binance bestätigte die Kooperation bei 'rechtmäßigen Anfragen', trotz Marktaustritt aus Russland 2023. Dies zeigt Spannungen zwischen Compliance-Anforderungen und geopolitischen Risiken für Nutzer in Konfliktregionen.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-08-16",
-      "kategorie": "Regulierung",
-      "titel": "SEC-Treffen verschoben – Clarity Act bleibt Hoffnungsträger ohne Momentum",
-      "beschreibung": "Das erwartete SEC-Regulierungstreffen fand nicht statt; Hoffnungen auf Fortschritte bei der Crypto-Regulierung, sollte der Clarity Act scheitern, werden sich verzögern. Bitcoin notiert bei €54.280 EUR im Fear-Modus (Index: 34), während Gold bei €3.782,92 EUR und Silber bei €56,21 EUR seitwärts laufen – das deutet auf andauernde Unsicherheit ohne akuten Safe-Haven-Run hin.",
       "modell": "claude-haiku-4-5",
       "prompt_version": 2,
       "asset": "BTC"
