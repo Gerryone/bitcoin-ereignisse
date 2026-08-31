@@ -1,6 +1,51 @@
 {
-  "letzte_aktualisierung": "2026-08-30",
+  "letzte_aktualisierung": "2026-08-31",
   "ereignisse": [
+    {
+      "datum": "2026-08-30",
+      "kategorie": "Institutionell",
+      "titel": "Michael Saylor signalisiert Wiederaufnahme von Bitcoin-Käufen nach zweimonatiger Pause",
+      "beschreibung": "MicroStrategy-CEO Michael Saylor deutet an, dass das Unternehmen nach einer zweimonatigen Pause zur Bilanzstabilisierung wieder Bitcoin kaufen wird. Bitcoin notiert aktuell bei €67.163 EUR, während Bitcoin Dominance über 60% klettert. Die Ankündigung erfolgt während ein Rebound von Freitags-Tiefs stattfindet.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-08-29",
+      "kategorie": "Technik",
+      "titel": "Anthropic-Modell reduziert Post-Quantum-Signatur-Bruchzeit um Faktor 67 Millionen",
+      "beschreibung": "Ein KI-Modell von Anthropic hat die Rechenzeit zur Kompromittierung eines führenden Post-Quantum-Signatur-Kandidaten drastisch gesenkt. Bitcoin und Ethereum haben daraufhin ihre eigenen Migrations-Pläne gegen Quantencomputer-Risiken veröffentlicht; Ripple bereitet das XRP Ledger ebenfalls vor. Dies unterstreicht den akuten technologischen Handlungsdruck in der Blockchain-Infrastruktur.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-08-29",
+      "kategorie": "Institutionell",
+      "titel": "Ruhlands Sber akzeptiert USDT und Ether als Kreditsicherheiten neben Bitcoin",
+      "beschreibung": "Russlands größte Bank Sber integriert Stablecoins (USDT) und Ether in ihr Kreditvergabe-System als Sicherheiten. Dies signalisiert institutionelle Expansion von Kryptovermögenswerten im traditionellen Bankensektor als regulierte Kreditinstrumente unter neuem russischen Regelwerk.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-08-29",
+      "kategorie": "OnChain",
+      "titel": "Dormante Bitcoin-Wallets nach 10 Jahren bewegen €36,4 Mio. – Aktivität auf Jahrestief",
+      "beschreibung": "Sechs zehn Jahrzehnte alte Bitcoin-Wallets transferierten im August umgerechnet etwa €36,4 Mio. Galaxy-Daten zeigen jedoch, dass die Aktivität alter Coins auf ihrem niedrigsten Niveau seit 2022 liegt; 2026 ist auf Kurs für weniger als die Hälfte des Vorjahres-Volumens. Dies deutet auf begrenzte Bewegung von historischen Beständen hin.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-08-29",
+      "kategorie": "Makro",
+      "titel": "Tokenisierte Aktien-Transfers verzeichnen 415%-Wachstum in 30 Tagen – €26,7 Mrd. Volumen",
+      "beschreibung": "Das Volumen von On-Chain-Transferen tokenisierter Aktien ist in 30 Tagen um 415% auf €26,7 Mrd. explodiert, begleitet von starken Zuwächsen bei aktiven Adressen und Haltern. Dieses Wachstum zeigt, dass Blockchain-basierte Equity-Infrastruktur schnell Mainstream-Skalierung erreicht, während Gold bei €3.831,85 EUR stabil bleibt.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
     {
       "datum": "2026-08-29",
       "kategorie": "OnChain",
@@ -492,51 +537,6 @@
       "kategorie": "Regulierung",
       "titel": "SEC kündigt erste umfassende Crypto-Regulierung nach abgesagter Abstimmung an",
       "beschreibung": "Die US-Finanzaufsicht SEC veröffentlichte überraschend den Vorschlag für \"Regulation Crypto\", nachdem sie eine für Tage zuvor geplante Abstimmung zu diesem Thema abgesagt hatte. Dies markiert einen konkreten regulatorischen Schritt nach Monaten der Unklarheit. Bitcoin notierte bei €55.758 EUR im Kontext eines Fear-Index von 41 (Fear-Territorium).",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-08-18",
-      "kategorie": "Institutionell",
-      "titel": "Citi kündigt Bitcoin-Custody-Plattform für institutionelle Kunden noch 2026 an",
-      "beschreibung": "Die Wall-Street-Bank Citigroup plant die Einführung ihrer \"Custody+\"-Plattform, die es institutionellen Kunden erlaubt, Bitcoin neben traditionellen Assets zu halten. Dies folgt auf ähnliche Schritte von UBS und anderen TradFi-Playern und signalisiert fortgesetzten Infrastruktur-Ausbau für professionelle Bitcoin-Verwahrstellen.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-08-18",
-      "kategorie": "Institutionell",
-      "titel": "Metaplanet lanciert US-Bitcoin-Treasury-Unternehmen mit 2.100 BTC und $135 Mio. Bewertung",
-      "beschreibung": "Metaplanet kündigte einen Zusammenschluss mit der Nasdaq-gelisteten Super League Enterprise an, wobei das japanische Unternehmen 2.100 Bitcoin im Wert von $134,6 Mio. sowie $2,5 Mio. bar beisteuert. Dies erweitert die Bitcoin-Treasury-Strategie des Unternehmens auf den US-Markt und signalisiert institutionelle Skalierung dieses Ansatzes.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-08-18",
-      "kategorie": "Institutionell",
-      "titel": "Kraken fügt US-Aktien in Europa hinzu – TradFi-Crypto-Integration auf regulierter Plattform",
-      "beschreibung": "Kraken kündigte an, erste Crypto-Börse zu sein, die europäischen Kunden auf einer regulierten Plattform sowohl traditionelle US-Aktien als auch tokenisierte Versionen dieser Assets anbietet. Dies zeigt weitere Konvergenz zwischen traditionellem und Crypto-Finanzwesen auf Infrastruktur-Ebene.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-08-18",
-      "kategorie": "Regulierung",
-      "titel": "Wyoming verbietet LayerZero auf Blockchain-Infrastruktur – erste US-Behörde ersetzt Blockchain aus Sicherheitsgründen",
-      "beschreibung": "Der US-Bundesstaat Wyoming kündigte an, seine Blockchain-Infrastruktur aufgrund von Sicherheitsbedenken von LayerZero zu ersetzen und damit einen $15-Mrd.-Exodus aus dieser Plattform anzuführen. Dies ist das erste Mal, dass eine US-Regierungsbehörde öffentlich Blockchain-Infrastruktur aus Sicherheitsgründen wechselt und markiert ein konkretes Governance-Ereignis.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-08-17",
-      "kategorie": "Regulierung",
-      "titel": "OCC genehmigt World Liberty Financial (Trump-Familie) für Trust-Charter",
-      "beschreibung": "Die US-Finanzaufsicht OCC hat bedingte Genehmigung für die Bankcharta-Bewerbung von World Liberty Financial erteilt. Dies markiert die erste regulatorische Anerkennung einer mit der Trump-Familie verbundenen Crypto-Finanzfirma auf föderaler Ebene. Bitcoin notiert bei €55.493.",
       "modell": "claude-haiku-4-5",
       "prompt_version": 2,
       "asset": "BTC"
