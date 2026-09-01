@@ -1,6 +1,51 @@
 {
-  "letzte_aktualisierung": "2026-08-31",
+  "letzte_aktualisierung": "2026-09-01",
   "ereignisse": [
+    {
+      "datum": "2026-08-31",
+      "kategorie": "Institutionell",
+      "titel": "Strategy kauft $370 Mio. Bitcoin nach zweimonatiger Kaufpause – erste Transaktion seit Juni",
+      "beschreibung": "Das Michael Saylor-geführte Unternehmen hat in der vergangenen Woche Bitcoin im Wert von $370 Millionen gekauft – die erste Bitcoin-Akquisition seit etwa zwei Monaten. Der Schritt signalisiert Wiederaufnahme institutioneller Käufe in einem Markt, in dem Bitcoin aktuell bei €67.713 notiert und im August eine 25%-Rally verzeichnet.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-08-31",
+      "kategorie": "Institutionell",
+      "titel": "Strive wird fünftgrößter Bitcoin-Halter mit 1.800 BTC-Kauf für $143 Millionen",
+      "beschreibung": "Die Investmentfirma Strive hat 1.800 Bitcoin für $143 Millionen erworben und ist damit auf 23.156 BTC angewachsen – Platzierung als fünftgrößter öffentlich gehandelter Bitcoin-Halter. Diese Transaktion dokumentiert fortgesetzte Corporate-Treasury-Diversifikation in einem Umfeld, in dem Bitcoin bei €67.713 EUR notiert.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-08-31",
+      "kategorie": "OnChain",
+      "titel": "Nordkoreanische Lazarus-Gruppe verkauft über $30 Mio. Bitcoin auf Hyperliquid in drei Wochen",
+      "beschreibung": "Blockchain-Daten von CoinDesk zeigen, dass Wallets der nordkoreanischen Lazarus-Hacker-Gruppe in den letzten drei Wochen über $30 Millionen Bitcoin auf der Plattform Hyperliquid verkauft haben. Dies erfolgt zeitgleich mit Trumps Initiative, Hyperliquid als amerikanische Plattform anzusiedeln.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-08-31",
+      "kategorie": "Regulierung",
+      "titel": "Irland schließt Kryptowährungen aus neuen steuerbegünstigten Anlagekonten aus",
+      "beschreibung": "Irlands neue steuerbegünstigte Anlagekonten akzeptieren nur börsennotierte Aktien, Anleihen und ETFs – Kryptowährungen sind explizit ausgeschlossen. Dies steht im Kontrast zu institutionellen Käufen (Bitcoin €67.713) und signalisiert Spannungen zwischen privater Retail-Förderung und behördlicher Risikokalibrierung.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-08-31",
+      "kategorie": "Institutionell",
+      "titel": "Bitmine erhöht Ether-Position auf 4,9% der globalen ETH-Versorgung – 65 Wochen kontinuierliche Käufe",
+      "beschreibung": "Die Investmentfirma Bitmine hat 53.500 ETH hinzugekauft und kontrolliert nun 4,9% des gesamten Ethereum-Angebots. Die Transaktion ist Teil einer 65-Wochen-Serie kontinuierlicher Akkumulation, während ETH bei €2.128 EUR notiert und +2,1% in 24h verzeichnet.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
     {
       "datum": "2026-08-30",
       "kategorie": "Institutionell",
@@ -492,51 +537,6 @@
       "kategorie": "Makro",
       "titel": "US-Finanzministerium verdoppelt Long-End Bond-Buybacks – Risikoappetit steigt",
       "beschreibung": "Das US-Finanzministerium unter Führung von Scott Bessent kündigte mindestens eine Verdoppelung seiner langfristigen Staatsanleihen-Rückkaufprogramme an. Bitcoin sprang daraufhin von €59.229 EUR auf kurzzeitig über €69.168 USD (€65.000+ EUR-Äquivalent) und liquidierte $1,4 Mrd. Short-Positionen. Gold (€3.896,61) und Silber (€57,847) stiegen parallel, was auf breite Inflations-/Liquiditätsangst deutet.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-08-19",
-      "kategorie": "Regulierung",
-      "titel": "Trump drängt auf Clarity Act im Weißen Haus; CFTC arbeitet an Hyperliquid-Integration",
-      "beschreibung": "Präsident Donald Trump führte ein White-House-Treffen mit Crypto-CEOs durch und forderte den Senat auf, die Clarity Act-Gesetzgebung zur Marktstruktur zu verabschieden. Gleichzeitig kündigte er an, dass CFTC-Chair Mike Selig an der Integration der Perpetual-Futures-Plattform Hyperliquid unter föderale Regelung arbeitet. HYPE sprang 11% nach dieser Ankündigung.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-08-19",
-      "kategorie": "Institutionell",
-      "titel": "StanChart und HSBC führen erste Live-Transaktion auf Swift-Blockchain-Ledger durch",
-      "beschreibung": "Standard Chartered und HSBC verarbeiteten die erste Live-Transaktion über Swifts neues Blockchain-Ledger und verbanden dabei ihre separaten tokenisierten Depositsysteme. Dies markiert einen Schritt zur Standardisierung von Blockchain-Infrastruktur im globalen Bankensektor und unterstützt die institutionelle Adoption von On-Chain-Finanzinfrastruktur.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-08-19",
-      "kategorie": "OnChain",
-      "titel": "Maya Protocol-Exploit zieht $11 Mio. ab – Kette von sechs Sicherheitslücken in Cross-Chain-Trading",
-      "beschreibung": "Das Cross-Chain-Trading-Netzwerk Maya Protocol wurde durch eine Abfolge von sechs Schwachstellen kompromittiert, die es einem Angreifer ermöglichten, einen Pool mit fast 50 Mio. Token zu kreditieren, die nie ordnungsgemäß finanziert waren. Der Exploit führte zum Abfluss echter Vermögenswerte in Höhe von $11 Mio. und signalisiert anhaltende Risiken in komplexer Multi-Chain-Logik.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-08-19",
-      "kategorie": "Regulierung",
-      "titel": "CFTC verhängt 5-Jahres-Handelsverbot gegen Ex-FTX/Alameda-Führungskräfte",
-      "beschreibung": "Die US-Warenbörsenkommission CFTC erließ endgültige Verfügungen gegen zwei ehemalige Executives von FTX und Alameda, die ein fünfjähriges Handelsverbot umfassen. Dies folgt auf ein Abkommen, bei dem FTX und Alameda insgesamt $12,7 Mrd. Vergleichszahlungen akzeptierten und markiert den regulatorischen Abschluss eines Fallkomplexes, der die institutionelle Vertrauenskrise in Crypto ausgelöst hatte.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-08-18",
-      "kategorie": "Regulierung",
-      "titel": "SEC kündigt erste umfassende Crypto-Regulierung nach abgesagter Abstimmung an",
-      "beschreibung": "Die US-Finanzaufsicht SEC veröffentlichte überraschend den Vorschlag für \"Regulation Crypto\", nachdem sie eine für Tage zuvor geplante Abstimmung zu diesem Thema abgesagt hatte. Dies markiert einen konkreten regulatorischen Schritt nach Monaten der Unklarheit. Bitcoin notierte bei €55.758 EUR im Kontext eines Fear-Index von 41 (Fear-Territorium).",
       "modell": "claude-haiku-4-5",
       "prompt_version": 2,
       "asset": "BTC"
