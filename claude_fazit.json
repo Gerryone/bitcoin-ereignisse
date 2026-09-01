@@ -1,6 +1,75 @@
 {
   "fazits": [
     {
+      "datum": "2026-09-01",
+      "asset": "BTC",
+      "erstellt_am": "2026-09-01T01:11:35.088746Z",
+      "modell": "claude-sonnet-5",
+      "prompt_version": 4,
+      "kurs_eur_referenz": 67718.0,
+      "konfidenz_prozent": 80,
+      "prognosen": [
+        {
+          "horizont_tage": 7,
+          "wahrscheinlichkeit_hoeher": 58,
+          "spanne_unten": 64300,
+          "spanne_oben": 71100,
+          "konfidenz": 80,
+          "kursziel_abgeleitet": 67700
+        },
+        {
+          "horizont_tage": 30,
+          "wahrscheinlichkeit_hoeher": 67,
+          "spanne_unten": 60700,
+          "spanne_oben": 74800,
+          "konfidenz": 80,
+          "kursziel_abgeleitet": 67750
+        }
+      ],
+      "basisrate_verwendet": 61,
+      "abweichung_begruendung": "7-Tage: Kurs konsolidiert seit einer Woche fast unveraendert (+0.23%) nach starkem Anstieg, keine neuen negativen Ereignisse, Greed-Index moderat (69) - daher nur leichte Anhebung ueber Basisrate gerechtfertigt durch anhaltendes positives Momentum. 30-Tage: Kurs liegt +11.84% ueber dem 30-Tage-Mittel und nahe am 91-Tage-Hoch (68,905), was Mean-Reversion-Risiko erhoeht - deshalb liegt meine Einschaetzung leicht UNTER der Basisrate von 77%, nicht wegen genereller Skepsis, sondern wegen der konkret ueberdehnten Distanz zum gleitenden Durchschnitt.",
+      "einschaetzung": "Bitcoin befindet sich in einem starken Aufwaertstrend (+23% in 30 Tagen), der sich in den letzten Tagen leicht abgeflacht hat und um die 67,500-68,000 konsolidiert. Die Marktstimmung ist optimistisch (Greed 69), aber nicht euphorisch-extrem. Die Distanz zum 30-Tage-Mittel (+11.84%) und die Naehe zum 91-Tage-Hoch deuten auf ein gewisses Ueberdehnungsrisiko auf Sicht von 30 Tagen hin, waehrend kurzfristig (7 Tage) die Konsolidierung eher stabil wirkt. Keine neuen bearishen Ereignisse liegen vor, die Basisraten sprechen klar fuer eine Fortsetzung nach oben.",
+      "staerkstes_gegenargument": "Nach einem derart schnellen Anstieg von 59k auf 68k in zwei Wochen ist eine technische Korrektur oder Gewinnmitnahme-Welle statistisch wahrscheinlich, besonders da der Kurs bereits am 91-Tage-Hoch kratzt. Die Basisraten stammen aus einem Fenster, das diesen Rallye-Zeitraum selbst enthaelt und koennten daher den zukuenftigen Fortsetzungs-Bias ueberschaetzen.",
+      "wichtigste_treiber": [
+        "Starker, anhaltender Aufwaertstrend mit hoher Basisrate fuer weitere Steigerung (61%/77%)",
+        "Konsolidierung nahe Hoechststand ohne neue negative Nachrichten",
+        "Historischer Pessimismus-Bias in eigener Prognosehistorie, der aktiv korrigiert werden muss",
+        "Erhoehtes Ueberdehnungsrisiko (11.84% ueber 30-Tage-Mittel) als Gegengewicht fuer den 30-Tage-Horizont"
+      ],
+      "umschlagpunkt": "Ein Bruch unter die 30-Tage-Durchschnittslinie (~60,500) mit Beschleunigung des Verkaufsdrucks, ein deutlicher Ruecksetzer im Fear&Greed-Index Richtung 'Fear' (<40), oder ein grosses negatives regulatorisches/makrooekonomisches Ereignis wuerden die Wahrscheinlichkeit fuer einen hoeheren Kurs deutlich senken.",
+      "kennzahlen_zum_zeitpunkt": {
+        "kurs_aktuell": 67708.14,
+        "veraenderung_7_tage_prozent": 0.23,
+        "veraenderung_30_tage_prozent": 23.39,
+        "veraenderung_90_tage_prozent": 21.25,
+        "mittel_30_tage": 60541.22,
+        "abstand_zum_mittel_prozent": 11.84,
+        "tages_schwankung_prozent": 1.9,
+        "hoch_90_tage": 68904.55,
+        "tief_90_tage": 51253.18,
+        "basisraten": {
+          "7": {
+            "anteil_gestiegen_prozent": 61,
+            "anzahl_faelle": 84,
+            "typische_schwankung_prozent": 5.0
+          },
+          "30": {
+            "anteil_gestiegen_prozent": 77,
+            "anzahl_faelle": 61,
+            "typische_schwankung_prozent": 10.4
+          }
+        },
+        "beobachtete_tage": 91
+      },
+      "feedback_verfuegbar": true,
+      "api_versuche": 1,
+      "datenstand": {
+        "kurs": "2026-09-01T01:11:05.774681Z",
+        "fear_greed": "2026-09-01T01:11:05.905878Z",
+        "trefferbilanz": "2026-09-01T00:00:03.559557"
+      }
+    },
+    {
       "datum": "2026-08-31",
       "asset": "BTC",
       "erstellt_am": "2026-08-31T00:22:08.305540Z",
@@ -2089,5 +2158,5 @@
       "rueckblick_kurs_7_tage": 54505.1633858627
     }
   ],
-  "letzte_aktualisierung": "2026-08-31"
+  "letzte_aktualisierung": "2026-09-01"
 }
