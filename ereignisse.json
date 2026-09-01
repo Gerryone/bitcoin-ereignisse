@@ -2,6 +2,51 @@
   "letzte_aktualisierung": "2026-09-01",
   "ereignisse": [
     {
+      "datum": "2026-09-01",
+      "kategorie": "Regulierung",
+      "titel": "SEC modernisiert Wertpapier-Transferstellen-Regeln mit Blockchain-Berücksichtigung",
+      "beschreibung": "Die SEC hat einen Vorschlag zur umfassenden Modernisierung der Transferstellen-Vorschriften eingereicht, die seit den 1980er Jahren weitgehend unverändert waren. Der Vorschlag adressiert erstmals explizit blockchain-basierte Recordkeeping-Systeme und signalisiert regulatorische Öffnung für tokenisierte Wertpapiere auf Distributed-Ledger-Infrastruktur.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-09-01",
+      "kategorie": "Institutionell",
+      "titel": "Robinhood Chain erzielt Tagesrekord von $1,9 Mio. Gebühren – Arbitrum-Token um 30% gestiegen",
+      "beschreibung": "Robinhoods neues Netzwerk verzeichnete im 24-Stunden-Zeitraum Gebühren von $1,9 Millionen, was eine Sekundäreffekt-Rally im Arbitrum-Token (ARB +30%) auslöste. Daten zeigen, dass dedizierte Layer-2-Netzwerke großer Handelsplattformen erhebliche Liquiditätszuflüsse generieren können, während Bitcoin bei €66.808 EUR (-1,2%) konsolidiert.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-09-01",
+      "kategorie": "Institutionell",
+      "titel": "London Stock Exchange partnert mit Kraken-Mutterkonzern für tokenisierte UK-Aktien 24/5-Handel",
+      "beschreibung": "Der LSE-Betreiber arbeitet mit Kraken-Parent zusammen, um 24/5-Zugang zu tokenisierten britischen Equities anzubieten. Das Projekt zielt darauf ab, traditionelle Marktzeiten durch blockchain-basierte Abwicklung zu erweitern, während die UK-Regulierung schrittweise OnChain-Wertpapierhandel legitimiert.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-09-01",
+      "kategorie": "OnChain",
+      "titel": "Nordkoreanische Lazarus-Gruppe verkauft weitere $30 Mio. Bitcoin auf Hyperliquid in drei Wochen",
+      "beschreibung": "Blockchain-Analyse zeigt, dass OFAC-sanktionierte Wallets der Lazarus-Gruppe in den letzten 21 Tagen über $30 Millionen Bitcoin auf der Plattform Hyperliquid liquidiert haben. Dies unterstreicht die laufende Herausforderung bei der Konformität dezentralisierter Börsen mit Sanktionsregimen, während Trump die Onshoring des Protokolls vorschlägt.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-09-01",
+      "kategorie": "Makro",
+      "titel": "Bitcoin konsolidiert bei €66.808 EUR während globale Anleihemärkte einbrechen – JGB auf Jahreshoch",
+      "beschreibung": "Bitcoin bleibt flach bei €66.808 EUR (-1,2%), während japanische Staatsanleihen (JGB) Mehrjahreshöchststände erreichen und der globale Renditebärenmarkt eskaliert. Gold hält sich bei €3.736,31 EUR stabil – weder Bitcoin noch Gold zeigen parallele Bewegungen, was auf ausbleibende breite Inflationspanik hindeutet. Silber notiert bei €55,50 EUR und folgt nicht der BTC-Schwäche, was selektive Risk-Off-Dynamiken suggeriert.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
       "datum": "2026-08-31",
       "kategorie": "Institutionell",
       "titel": "Strategy kauft $370 Mio. Bitcoin nach zweimonatiger Kaufpause – erste Transaktion seit Juni",
@@ -492,51 +537,6 @@
       "kategorie": "Regulierung",
       "titel": "CFTC-Chef setzt Staff unter Druck für Crypto-Regelwerk – Clarity Act als Deadline",
       "beschreibung": "CFTC-Chairman Mike Selig kündigte an, dass seine Behörde aktiv werden wird, falls der Clarity Act nicht verabschiedet wird. Auf der ersten Sitzung des Innovation Advisory Committee forderte er sein Team auf, Crypto-Regulierungen zu entwickeln. Dies signalisiert einen behördlichen Gegenpol zur legislativen Route und reflektiert die Marktdynamik bei Bitcoin bei €62.246 mit +5,3% Tagesgewinn.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-08-20",
-      "kategorie": "OnChain",
-      "titel": "Rekord-Short-Liquidation: $3 Mrd. Bearish-Positionen in 24 Stunden aufgelöst",
-      "beschreibung": "Nach einem sechswöchigen Range-Bruch liquidierte ein massiver Short-Squeeze $2,74 Mrd. bearischer Positionen – die größte Tageskapitulation seit mindestens 2021 und größer als der Oktober-2025-Crash. Bitcoin durchbrach €62.246, während ETH um 18% auf $2.250 sprang. Die Kapitalisierung des Short-Seitenverlustes deutet auf extreme Hebelkonzentration bei dünnerer Likuidität hin.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-08-20",
-      "kategorie": "Institutionell",
-      "titel": "BitGo erhält erste Global-Crypto-Company-Lizenz in Südkorea – Hana Financial und SK Telecom als Backers",
-      "beschreibung": "BitGo sicherte sich die Virtual-Asset-Lizenz in Südkorea als erste globale Crypto-Firma und gründete eine lokal registrierte Entität mit Unterstützung von Hana Financial Group und SK Telecom. Diese Infrastruktur-Milestones institutioneller Player erfolgen parallel zu Bitcoins Bewegung über die 200-Tage-Moving-Average – erstes Mal seit November 2025.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-08-20",
-      "kategorie": "Institutionell",
-      "titel": "Bitcoin-Miner investieren Milliarden in KI – Capex übersteigt Revenue um 15:1",
-      "beschreibung": "Neun börsennotierte Bitcoin-Miner generierten im ersten Halbjahr 2026 nur $341 Mio. aus KI- und HPC-Operationen, während sie über $5 Mrd. Capex ausgaben. Diese Kapitalintensivierungsstrategie signalisiert einen Strukturwandel der Mining-Industrie weg vom reinen Bitcoin-Focus, während Gold bei €3.870,30 seitwärts notiert.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-08-20",
-      "kategorie": "Makro",
-      "titel": "US-Schuldenmeilenstein bei $40 Billionen – Debatte über Bitcoin als Inflations-Hedge intensiviert sich",
-      "beschreibung": "Die US-Gesamtverschuldung überschritt erstmals $40 Billionen, was Analysten zur Neubewertung von Bitcoins langfristiger These als Absicherung gegen Fiskalgelddruckung führte. Parallel verdoppelte das Finanzministerium seine Long-End-Bond-Buybacks, was Liquiditätseffekte für Risk-Assets verstärkte. Gold (+€3.870,30) und Bitcoin (+€62.246, +5,3%) bewegen sich nicht parallel – dies deutet auf Kapitalrotation von klassischen Safe-Havens zu Tech-Assets hin.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-08-19",
-      "kategorie": "Makro",
-      "titel": "US-Finanzministerium verdoppelt Long-End Bond-Buybacks – Risikoappetit steigt",
-      "beschreibung": "Das US-Finanzministerium unter Führung von Scott Bessent kündigte mindestens eine Verdoppelung seiner langfristigen Staatsanleihen-Rückkaufprogramme an. Bitcoin sprang daraufhin von €59.229 EUR auf kurzzeitig über €69.168 USD (€65.000+ EUR-Äquivalent) und liquidierte $1,4 Mrd. Short-Positionen. Gold (€3.896,61) und Silber (€57,847) stiegen parallel, was auf breite Inflations-/Liquiditätsangst deutet.",
       "modell": "claude-haiku-4-5",
       "prompt_version": 2,
       "asset": "BTC"
