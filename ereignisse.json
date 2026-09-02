@@ -1,6 +1,51 @@
 {
-  "letzte_aktualisierung": "2026-09-01",
+  "letzte_aktualisierung": "2026-09-02",
   "ereignisse": [
+    {
+      "datum": "2026-09-02",
+      "kategorie": "Regulierung",
+      "titel": "FBI beschlagnahmt Hamas-Kryptospenden im Umfang von $560.000",
+      "beschreibung": "Das US-Justizministerium gab bekannt, dass FBI-Agenten Domains und Server, darunter Alqassam.ps, übernahmen, um Kryptospenden für die Al-Qassam-Brigaden abzufangen und weitere Fundraising zu unterbinden. Dies dokumentiert einen Einsatz staatlicher Infrastruktur zur Blockade von Kryptotransaktionen für designierte Organisationen.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-09-02",
+      "kategorie": "Technik",
+      "titel": "CrowdStrike und US-Behörden zerlegen russische Malware nach achtjähriger Kryptowährungs-Diebstahl-Operation",
+      "beschreibung": "Die Sality-Malware mit russischen Ursprüngen wurde über acht Jahre hinweg aktiv, indem sie Bitcoin- und Ethereum-Adressen kopierte und durch die des Angreifers ersetzte. Mehr als 15.000 infizierte Maschinen wurden isoliert. Dies unterstreicht anhaltende Sicherheitsrisiken für Kryptowährungsbestände auf verwundbaren Systemen.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-09-02",
+      "kategorie": "Makro",
+      "titel": "US-Luftschläge auf Iran treiben Öl über $93 – Bitcoin fällt unter €66.700 bei steigenden Renditen",
+      "beschreibung": "Nach Berichten über US-Militärschläge auf den Iran sprang Brent-Öl über $93, Treasury-Renditen kletterten gegen 4,8%, und Bitcoin rutschte 1% auf unter €66.700 ab. Gleichzeitig verzeichneten Gold (€3.789,27) und Silber (€56,57) Rückgänge. Der schwache ADP-Arbeitsbericht (38.000 private Arbeitsplätze) verschärfte die Risikobewertung.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-09-02",
+      "kategorie": "Institutionell",
+      "titel": "XRP Spot-ETFs ziehen $170 Mio. an – Goldman Sachs, Jane Street und Millennium unter Top-Haltern",
+      "beschreibung": "Spot-XRP-Fonds verzeichneten 11 aufeinanderfolgende Tage mit Zuflüssen und $170 Millionen Netto-Kapitalzufluss. Q2-SEC-Filings zeigen, dass Goldman Sachs, Jane Street und Millennium Management zu den größten institutionellen Positionen gehören. Dies signalisiert institutionelle Etablierung in XRP-Instrumenten.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-09-01",
+      "kategorie": "Regulierung",
+      "titel": "Coinbase startet regulierte Kryptoderivate in Kanada mit bis zu 10x Leverage",
+      "beschreibung": "Coinbase kündigte regulierte Perpetual- und befristete Kryptofutures für kanadische Trader an. Das Angebot umfasst bis zu 10-fachen Leverage und positioniert die Plattform als offizieller Derivate-Anbieter unter kanadischer Aufsicht, was dem nordamerikanischen Derivate-Markt Struktur verleiht.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
     {
       "datum": "2026-09-01",
       "kategorie": "Regulierung",
@@ -492,51 +537,6 @@
       "kategorie": "ETF",
       "titel": "Spot Bitcoin und Ether ETFs verzeichnen massive Zuflüsse bei $78.487 USD – institutionaler Bid bestätigt",
       "beschreibung": "Spot Bitcoin ETFs zogen am 20. August $606 Mio. ein, Ether-Fonds $221 Mio. – beide Beträge größer als am Vortag. Die Zuflüsse bestätigen institutionalen Kaufdruck hinter Bitcoins Wochenrally von +24% seit Montag. Bitcoin notiert bei €67.201, Gold parallel bei €3.935,70 pro Unze – beide Hard Assets profitieren von gleichgerichteter Kapitalrotation.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-08-21",
-      "kategorie": "Makro",
-      "titel": "Ray Dalio empfiehlt Bitcoin-Allokation zur Absicherung von Schuldenkrise",
-      "beschreibung": "Der Hedge-Fund-Gründer mit geschätztem Vermögen von $15 Mrd. rät Investoren, Bitcoin und Gold gegenüber Anleihen zu übergewichten. Dalio reagiert auf potenzielle US-Schuldenkrise-Szenarien. Gold notiert aktuell bei €3.935,70/Unze, Bitcoin bei €67.201 – beide Assets profitieren von Krisenszenario-Diskursen.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-08-21",
-      "kategorie": "Regulierung",
-      "titel": "Illinois-Kryptowährungssteuer vor Gericht: Crypto Council und Blockchain Association klagen",
-      "beschreibung": "Die Crypto Council for Innovation und die Blockchain Association reichten Klage gegen Illinoins neu verabschiedete 0,2%-Kryptowährungssteuer ein. Dies ist bereits die zweite Klage gegen die Steuer und signalisiert organisierten Widerstand gegen staatliche Crypto-Besteuerung in den USA.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-08-21",
-      "kategorie": "Regulierung",
-      "titel": "Japan genehmigt Laser Digital (Nomura-gestützt) – erste Crypto-Exchange-Lizenz seit 4 Jahren",
-      "beschreibung": "Laser Digital Japan erhielt Registrierung als Crypto-Exchange und wird Liquidität für inländische Crypto-Provider bereitstellen mit institutionellen Trading-Services als nächster Schritt. Dies ist Japans erste Crypto-Exchange-Genehmigung seit vier Jahren und signalisiert wieder steigende Appetitlichkeit für Crypto-Institutionen in Asien.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-08-21",
-      "kategorie": "OnChain",
-      "titel": "MANTRA-Token stürzt 18% ab – Blockchain stoppt Blöcke nach Exploit",
-      "beschreibung": "Der MANTRA-Token fiel auf Rekordtief von $0,004126, nachdem die Blockchain Blöcke stoppte. Ein Angreifer exploitierte eine Sicherheitslücke in der Chain-Software. Der Exploit unterstreicht anhaltende Risiken in Layer-1-Infrastruktur trotz bullischer Marktmeldung (Bitcoin +7,9% zu €67.201, ETH +9,4%).",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-08-20",
-      "kategorie": "Regulierung",
-      "titel": "CFTC-Chef setzt Staff unter Druck für Crypto-Regelwerk – Clarity Act als Deadline",
-      "beschreibung": "CFTC-Chairman Mike Selig kündigte an, dass seine Behörde aktiv werden wird, falls der Clarity Act nicht verabschiedet wird. Auf der ersten Sitzung des Innovation Advisory Committee forderte er sein Team auf, Crypto-Regulierungen zu entwickeln. Dies signalisiert einen behördlichen Gegenpol zur legislativen Route und reflektiert die Marktdynamik bei Bitcoin bei €62.246 mit +5,3% Tagesgewinn.",
       "modell": "claude-haiku-4-5",
       "prompt_version": 2,
       "asset": "BTC"
