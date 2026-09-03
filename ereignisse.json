@@ -1,6 +1,51 @@
 {
-  "letzte_aktualisierung": "2026-09-02",
+  "letzte_aktualisierung": "2026-09-03",
   "ereignisse": [
+    {
+      "datum": "2026-09-03",
+      "kategorie": "Institutionell",
+      "titel": "Standard Chartered bringt institutionelles Spot-Trading für Bitcoin und Ethereum nach Dubai",
+      "beschreibung": "Die britische Großbank hat Kryptowährungen auf ihre bestehende eFX-Handelsplattform für Institutionen integriert, auf der bisher USD und EUR gehandelt werden. Bitcoin notiert aktuell bei €69.926 EUR (+4,8% in 24h), während Gold bei €3.855,47 EUR parallel zu klassischen Safe-Havens steigt und ebenfalls Kaufdruck verzeichnet.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-09-03",
+      "kategorie": "Institutionell",
+      "titel": "Bitget führt Gespräche mit BlackRock und Wall-Street-Firmen für tokenisierte ETF-Vertrieb in Asien",
+      "beschreibung": "Das Krypto-Derivate-Unternehmen arbeitet mit dem weltgrößten Vermögensverwalter BlackRock zusammen, um die Verteilung tokenisierter ETFs in der asiatischen Region auszubauen. Dies signalisiert wachsendes institutionelles Interesse am Krypto-Ökosystem bei gleichzeitig starker Bitcoin-Performance von €69.926 EUR.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-09-03",
+      "kategorie": "Makro",
+      "titel": "Yen-Anstieg und USD-Schwäche treiben Bitcoin über €69.900 EUR – Dollar Index fällt",
+      "beschreibung": "Eine vermutete Bank-of-Japan-Intervention führte zu Yen-Aufwertung und US-Dollar-Abwertung, was Bitcoin (+4,8%) und Gold (€3.855,47 EUR) parallel angetrieben hat. Der schwächere Dollar machte Rohstoffe und Kryptowährungen für internationale Käufer attraktiver, während Silber mit €57,753 EUR ebenfalls zulegte.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-09-03",
+      "kategorie": "Regulierung",
+      "titel": "SoFi und Kraken verbinden traditionelles Banking mit Kryptomärkten über Settlements-Netzwerk",
+      "beschreibung": "Kraken tritt Sofis Settlement-Netzwerk bei und listet SoFiUSD als Stablecoin, um traditionelle Bankinfrastruktur direkt mit Kryptohandel zu verknüpfen. Dies markiert eine formale Regulierungs-Akzeptanz und institutionelle Integration bei einem Bitcoin-Kurs von €69.926 EUR.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-09-03",
+      "kategorie": "OnChain",
+      "titel": "Pons Memecoin-App erzeugt $6 Mio. Gebühren in 24h – Robinhood Chain Aktivität explodiert",
+      "beschreibung": "Die Token-Erstellungs-App auf Robinhood Chain generierte tägliche Gebühren von knapp $6 Millionen und übertraf damit etablierte Plattformen wie Pump, Hyperliquid und die Chain selbst. Dies deutet auf massive Retail-Aktivität hin, während Bitcoin bei €69.926 EUR einen 4,8%-Tagesgewinn verbucht.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
     {
       "datum": "2026-09-02",
       "kategorie": "Regulierung",
@@ -492,51 +537,6 @@
       "kategorie": "Regulierung",
       "titel": "Kalshi Prediction Markets in mehreren US-Bundesstaaten gesperrt – CFTC-Rechtsstreit",
       "beschreibung": "Der Prediction-Market-Betreiber Kalshi wurde in Washington State und weiteren Bundesstaaten blockiert. Das Unternehmen kämpft rechtlich gegen diese Sperrung, während die Bundesbehörde CFTC neue Regelwerke für Prediction Markets verfolgt. Dies zeigt zunehmende regulatorische Fragmentierung auf US-Bundesstaatsebene.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-08-22",
-      "kategorie": "Institutionell",
-      "titel": "BitMart plant Teilrestart und Gläubigerzahlungen nach Shutdown-Ankündigung",
-      "beschreibung": "Die Kryptobörse BitMart hat die Anwaltskanzlei White & Case als Umstrukturierungsberaterin engagiert und will bis 9. September einen detaillierten Fahrplan vorlegen. Das Ereignis zeigt Bewegung bei der Sanierung einer der größeren Exchange-Ausfälle und könnte Auswirkungen auf gebundene Nutzergelder haben, während Bitcoin bei €66.026 notiert.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-08-22",
-      "kategorie": "Regulierung",
-      "titel": "Kalshi-Prediction-Markets in mehreren US-Staaten blockiert – CFTC-Rechtsstreit eskaliert",
-      "beschreibung": "Washington State hat Kalshi-Kunden ausgeschlossen, während das Unternehmen in Gerichtsverfahren und gegen regulatorischen Druck der CFTC kämpft. Der Konflikt zwischen dezentralen Vorhersagemärkten und föderaler Regulierung zeigt sich konkret in staatlichen Handelssperren.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-08-21",
-      "kategorie": "OnChain",
-      "titel": "Zcash springt 48% auf über €750 – Grayscale-Spot-ETF-Antrag treibt Interesse",
-      "beschreibung": "ZEC handelt über seinem Januar-2018-Hoch, während Grayscale-Futures-Volumen in Milliardenhöhe läuft und die Umwandlung des Zcash-Trust in einen Spot-ETF Fortschritt zeigt. Das Ereignis zeigt Kapitalrotation zu Altcoins und institutionelles Interesse an weiteren Spot-Produkten.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-08-21",
-      "kategorie": "Makro",
-      "titel": "Rekord-Short-Liquidation: Über €4 Mrd. Bärenpositionen in 48 Stunden aufgelöst",
-      "beschreibung": "Die Zwei-Tages-Liquidation überschreitet €4 Milliarden, mit Freitags-Rekord seit 2021. Gold (€3.935,70) und Bitcoin (€66.026) zeigen parallele Aufwärtsbewegung – beide als Safe-Havens in Macro-Umfeld gekauft, während Silber (€59,07) schwächer ausfällt und Risk-Off bestätigt.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-08-21",
-      "kategorie": "ETF",
-      "titel": "Spot Bitcoin und Ether ETFs verzeichnen massive Zuflüsse bei $78.487 USD – institutionaler Bid bestätigt",
-      "beschreibung": "Spot Bitcoin ETFs zogen am 20. August $606 Mio. ein, Ether-Fonds $221 Mio. – beide Beträge größer als am Vortag. Die Zuflüsse bestätigen institutionalen Kaufdruck hinter Bitcoins Wochenrally von +24% seit Montag. Bitcoin notiert bei €67.201, Gold parallel bei €3.935,70 pro Unze – beide Hard Assets profitieren von gleichgerichteter Kapitalrotation.",
       "modell": "claude-haiku-4-5",
       "prompt_version": 2,
       "asset": "BTC"
