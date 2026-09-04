@@ -1,6 +1,51 @@
 {
-  "letzte_aktualisierung": "2026-09-03",
+  "letzte_aktualisierung": "2026-09-04",
   "ereignisse": [
+    {
+      "datum": "2026-09-04",
+      "kategorie": "ETF",
+      "titel": "Spot-Bitcoin-ETF Netto-Assets überschreiten erstmals $103 Mrd. – BlackRock IBIT dominant",
+      "beschreibung": "Die kombinierten Netto-Assets aller Spot-Bitcoin-ETFs sind erstmals über die Marke von $103 Mrd. gestiegen. BlackRock's IBIT-Fonds macht dabei mehr als die Hälfte dieser Summe aus. Dies zeigt die wachsende institutionelle Nachfrage nach direktem Bitcoin-Exposure.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-09-04",
+      "kategorie": "Regulierung",
+      "titel": "UK-Einzelhandelsinvestitionsplattform Hargreaves Lansdown öffnet Zugang zu Crypto-ETNs nach FCA-Freigabe",
+      "beschreibung": "Hargreaves Lansdown, Großbritanniens größte Einzelhandelsinvestitionsplattform, hebt sein Krypto-Verbot auf und bietet nun Zugang zu Crypto Exchange Traded Notes, nachdem die FCA ihre Restriktionen für Retail-Investoren im Oktober aufgehoben hat. Dies signalisiert zunehmende Mainstream-Integration von Kryptoprodukten in traditionelle Anlageplattformen.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-09-04",
+      "kategorie": "Regulierung",
+      "titel": "US-Sheriffs-Verband wechselt Position zum Clarity Act von Opposition zu neutral",
+      "beschreibung": "Der US-Sheriffs-Verband hat seine Haltung zum Clarity Act von aktiver Opposition zu neutral geändert, nachdem er zuvor vor Krypto-Kriminalität gewarnt hatte. Diese Positionsänderung einer Strafverfolgungsinstitution reduziert die Regulierungshürden für US-Kryptopolitik.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-09-04",
+      "kategorie": "Institutionell",
+      "titel": "Südkorea plant vollständige tokenisierte Wertpapiermarkt-Einführung bis Februar 2027",
+      "beschreibung": "Südkoreas Finanzregulierungs-Roadmap sieht einen schrittweisen Aufbau eines tokenisierten Kapitalmarkts vor, abgeschlossen mit On-Chain-Stablecoin-Settlement. Dies macht Südkorea zu einem Vorreiter für institutionelle Blockchain-Integration traditioneller Finanzmarktinfrastrukturen.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-09-04",
+      "kategorie": "Institutionell",
+      "titel": "Bitcoin überschreitet Gold-Äquivalent von 18 Unzen pro BTC – höchster Stand seit Januar",
+      "beschreibung": "Ein Bitcoin kauft nun knapp über 18 Unzen Gold (€3.812,70 EUR pro Unze), der höchste Verhältnis-Wert seit Januar. Beide Assets steigen parallel auf Inflationsängste und Schuldenabschreibungs-Befürchtungen, was zeigt, dass institutionelle Investoren Bitcoin zunehmend als Hard-Asset neben Gold bewerten.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
     {
       "datum": "2026-09-03",
       "kategorie": "Institutionell",
@@ -492,51 +537,6 @@
       "kategorie": "OnChain",
       "titel": "Solana Governance plant aggressive Supply-Reduktion – tägliche Burns könnten auf $800.000 steigen",
       "beschreibung": "Zwei von drei aktiven Solana-Governance-Proposals zielen auf drastische Angebotsreduktion ab: Die täglichen Fee-Verbrennungen sollen von ~650 SOL auf bis zu 9.000 SOL erhöht werden, was dem Netzwerk täglich ~$800.000 entzöge. Parallel soll die Inflation durch beschleunigte Deflation reduziert werden – eine direkte Reaktion auf Community-Druck für Deflationary Mechanics.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-08-23",
-      "kategorie": "Regulierung",
-      "titel": "SEC veröffentlicht Reg Crypto Proposal – 60-Tage Kommentierungsfrist eröffnet",
-      "beschreibung": "Die US-Börsenaufsicht SEC hat ihre umfassende Crypto-Regulierungsvorlage (Reg Crypto) veröffentlicht und eine 60-tägige öffentliche Kommentierungsfrist eröffnet. Dies ist die erste systematische Regulierungsinitiative nach mehreren Jahren fragmentierter Ansätze. Bitcoin notierte bei €66.562 EUR zum Zeitpunkt der Meldung.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-08-23",
-      "kategorie": "Institutionell",
-      "titel": "Stablecoin-Kartenzahlungen überschreiten $1 Mrd. Marke – 70% USDC/USDT",
-      "beschreibung": "Das Transaktionsvolumen über Crypto-Zahlungskarten hat sich in einem Jahr mehr als verdreifacht und überschreitet nun die Milliardenmarke. USDC und USDT finanzieren über 70% dieser alltäglichen Transaktionen für Lebensmittel, Fahrdienste und Abos. Dies signalisiert eine breite Adoption von Stablecoins im Einzelhandel.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-08-23",
-      "kategorie": "OnChain",
-      "titel": "Coinbase identifiziert KI-Agenten als nächste Nutzergeneration – Stablecoin-Zahlungen",
-      "beschreibung": "Laut Coinbase-Leitung befinden sich agentic Payments aktuell in der 'Napster/LimeWire-Ära' ihrer Entwicklung. KI-Agenten werden als potenzielle nächste Milliarde Nutzer positioniert, die primär mit Stablecoins zahlen. Dies beschreibt eine technologische Verschiebung vom menschlichen zum automatisierten Zahlungsverkehr.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-08-22",
-      "kategorie": "Institutionell",
-      "titel": "Musk's X kündigt Stablecoin-Zahlungen für Content-Creator an",
-      "beschreibung": "Die Plattform X (ehemals Twitter) hat angekündigt, Creator künftig in Stablecoins auszahlen zu wollen. Diese Ankündigung erfolgte parallel zu einem der stärksten Crypto-Rallys in Monaten, bei dem Bitcoin und Ether von Treasury-Interventionen und einer historischen Short-Liquidation profitierten. Bitcoin lag zu dieser Zeit bei knapp €75.800 EUR.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-08-22",
-      "kategorie": "Regulierung",
-      "titel": "Kalshi Prediction Markets in mehreren US-Bundesstaaten gesperrt – CFTC-Rechtsstreit",
-      "beschreibung": "Der Prediction-Market-Betreiber Kalshi wurde in Washington State und weiteren Bundesstaaten blockiert. Das Unternehmen kämpft rechtlich gegen diese Sperrung, während die Bundesbehörde CFTC neue Regelwerke für Prediction Markets verfolgt. Dies zeigt zunehmende regulatorische Fragmentierung auf US-Bundesstaatsebene.",
       "modell": "claude-haiku-4-5",
       "prompt_version": 2,
       "asset": "BTC"
