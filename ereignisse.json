@@ -1,6 +1,51 @@
 {
-  "letzte_aktualisierung": "2026-09-04",
+  "letzte_aktualisierung": "2026-09-05",
   "ereignisse": [
+    {
+      "datum": "2026-09-05",
+      "kategorie": "ETF",
+      "titel": "Bitcoin-ETF-Zuflüsse erreichen stärkste Drei-Wochen-Spanne 2026 mit $3,8 Mrd.",
+      "beschreibung": "US-Spot-Bitcoin-ETFs verzeichneten in der letzten Woche knapp $1 Mrd. Zuflüsse, was die stärkste Drei-Wochen-Performance des Jahres 2026 darstellt. Bei einem Bitcoin-Kurs von €68.710 EUR zeigt sich anhaltende institutionelle Nachfrage trotz Volatilität in den vergangenen Handelstagen.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-09-04",
+      "kategorie": "Regulierung",
+      "titel": "Britischer Einzelhandels-Investitionsplattform Hargreaves Lansdown ermöglicht Krypto-ETN-Zugang nach FCA-Freigabe",
+      "beschreibung": "Nach Aufhebung des britischen Einzelhandelverbots für Krypto-ETPs durch die FCA im Oktober hat Hargreaves Lansdown, die größte Privatanleger-Plattform des Vereinigten Königreichs, seinen Kurswechsel vollzogen und bietet nun Zugang zu Krypto-Exchange Traded Notes an.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-09-04",
+      "kategorie": "Regulierung",
+      "titel": "US-Sheriffs-Verband verschiebt Position zum Clarity Act von Opposition zu neutral",
+      "beschreibung": "Der US-amerikanische Sheriffs-Verband hat seine Haltung zum Clarity Act von Ablehnung zu neutraler Position geändert, nachdem er Monate zuvor vor einer Gesetzgebung gewarnt hatte, die seiner Ansicht nach Kryptokriminalität begünstigen könnte.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-09-04",
+      "kategorie": "Institutionell",
+      "titel": "OCC genehmigt OpenReserve und Revolut für nationale US-Bankgründung mit Kryptoplänen",
+      "beschreibung": "Das Office of the Comptroller of the Currency hat sowohl OpenReserve als auch Revolut vorläufige Chartas zur Gründung von nationalen Banken erteilt, wobei beide Institute Kryptowährungsaktivitäten planen. OpenReserve erhielt zudem Genehmigung zur Durchführung von Blockchain-Banking-Operationen.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-09-04",
+      "kategorie": "OnChain",
+      "titel": "Pineapple Financial tokenisiert $1 Mrd. Hypothekendatensätze auf Injective-Blockchain",
+      "beschreibung": "Der Hypothekengeber Pineapple Financial hat über $1 Mrd. in Hypothekendatensätze auf der Injective-Blockchain verlagert und plant, mehr als $10 Mrd. historischer Darlehen zu tokenisieren. Dies signalisiert Vorantritt bei der Verbriefung von traditionellen Vermögenswerten im dezentralen Umfeld.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
     {
       "datum": "2026-09-04",
       "kategorie": "ETF",
@@ -492,51 +537,6 @@
       "kategorie": "Makro",
       "titel": "Bitcoin übersteigt €67.410 mit 25%-7-Tage-Rally – Gold folgt bei €4.003,02 auf fallende US-Renditen",
       "beschreibung": "Bitcoin ist in 7 Tagen um etwa 25% gestiegen und notiert bei €67.410 (aktuell -0,2% in 24h), nachdem es erstmals seit Mai die $80.000-Marke ($78.703 USD aktuell) überschritten hat. Gold ist parallel gestiegen und notiert bei €4.003,02 pro Unze – beide Assets folgen der Treasury-Bondkauf-Expansion und fallenden US-Renditen. Silber (€59,197) bewegt sich deutlich schwächer, was auf differentierte Risk-Asset-Rotation hindeutet. Spot Bitcoin ETFs verzeichneten $337,56 Mio. Zufluss am 24. August.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-08-24",
-      "kategorie": "Institutionell",
-      "titel": "Treasury-Buyback löst massive Short-Liquidationen aus – über $3 Mrd. in einer Woche",
-      "beschreibung": "US-Finanzminister Bessents Ankündigung von Bond-Buybacks katalysierte einen explosiven Bitcoin-Rally: In der vergangenen Woche wurden über $3 Milliarden Short-Positionen liquidiert, während Bitcoin von ~€63.000 auf €67.516 sprang (24% Wochengewinn). Die Liquidationen setzten sich auch am 24.8. fort mit $220 Millionen in 24 Stunden, als BTC erstmals seit Mai die €78.700-Marke durchbrach.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-08-24",
-      "kategorie": "Institutionell",
-      "titel": "Bitcoin-Treasury-Unternehmen verstärken Akkumulation – Strive und MicroStrategy kaufen massiv",
-      "beschreibung": "Strive erwarb 1.110 Bitcoin für €75 Millionen, womit die Gesamtbestände auf 21.000 BTC stiegen. Gleichzeitig veräußerte MicroStrategy (Strategy) 18,26 Millionen Aktien für $2 Milliarden und erhöhte seine USD-Reserve auf $5,1 Milliarden, während es seine Bitcoin-Bestände vorübergehend auf 840.447 BTC hielt. Diese institutionelle Akkumulation während starker Rallys signalisiert strategisches Kaufverhalten bei bestehenden Positionen.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-08-24",
-      "kategorie": "Regulierung",
-      "titel": "Pakistan startet Crypto-Lizenzsystem – Registrierungsfrist bis 5. September",
-      "beschreibung": "Pakistan gab den Startschuss für sein neues Crypto-Licensing-Regime: Unternehmen müssen bis 5. September Anträge auf ein No-Objection-Certificate (NOC) einreichen oder ihren Betrieb einstellen. Dies markiert einen regulatorischen Meilenstein in Südasien und folgt der globalen Tendenz zur formalen Lizenzierung von Krypto-Plattformen.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-08-24",
-      "kategorie": "Institutionell",
-      "titel": "Coinbase bringt tokenisierte Aktien auf Base-Netzwerk – Apple, Nvidia, Meta, Alphabet",
-      "beschreibung": "Coinbase startete eine neue Produktlinie: tokenisierte Versionen von US-Blue-Chip-Aktien (Apple, Nvidia, Meta, Alphabet) auf dem Base-Blockchain-Netzwerk, ausgegeben unter einem neuen Abu-Dhabi-Rahmenwerk. Dies erweitert die TradFi-Crypto-Integration auf Basis-Layer und zielt auf institutionelle Anleger ab.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-08-24",
-      "kategorie": "OnChain",
-      "titel": "Solana Governance plant aggressive Supply-Reduktion – tägliche Burns könnten auf $800.000 steigen",
-      "beschreibung": "Zwei von drei aktiven Solana-Governance-Proposals zielen auf drastische Angebotsreduktion ab: Die täglichen Fee-Verbrennungen sollen von ~650 SOL auf bis zu 9.000 SOL erhöht werden, was dem Netzwerk täglich ~$800.000 entzöge. Parallel soll die Inflation durch beschleunigte Deflation reduziert werden – eine direkte Reaktion auf Community-Druck für Deflationary Mechanics.",
       "modell": "claude-haiku-4-5",
       "prompt_version": 2,
       "asset": "BTC"
