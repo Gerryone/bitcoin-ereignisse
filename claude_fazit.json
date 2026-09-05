@@ -1,6 +1,75 @@
 {
   "fazits": [
     {
+      "datum": "2026-09-05",
+      "asset": "BTC",
+      "erstellt_am": "2026-09-05T23:44:02.983670Z",
+      "modell": "claude-sonnet-5",
+      "prompt_version": 4,
+      "kurs_eur_referenz": 68710.0,
+      "konfidenz_prozent": 80,
+      "prognosen": [
+        {
+          "horizont_tage": 7,
+          "wahrscheinlichkeit_hoeher": 58,
+          "spanne_unten": 65206,
+          "spanne_oben": 72214,
+          "konfidenz": 80,
+          "kursziel_abgeleitet": 68710
+        },
+        {
+          "horizont_tage": 30,
+          "wahrscheinlichkeit_hoeher": 72,
+          "spanne_unten": 61495,
+          "spanne_oben": 75925,
+          "konfidenz": 80,
+          "kursziel_abgeleitet": 68710
+        }
+      ],
+      "basisrate_verwendet": 60,
+      "abweichung_begruendung": "Fuer 7 Tage bleibe ich nahe der Basisrate (60%->58%), da der Kurs zwar nahe am 90-Tage-Hoch liegt und Fear&Greed bei 73 (Greed) leichte Ueberhitzung signalisiert, das Momentum aber intakt ist. Fuer 30 Tage senke ich die hohe Basisrate von 78% leicht auf 72%, weil der Kurs bereits +23% in 30 Tagen zugelegt hat und +10.46% ueber dem 30-Tage-Mittel liegt, was die Wahrscheinlichkeit einer Verschnaufpause erhoeht, ohne den grundsaetzlichen Aufwaertstrend zu negieren.",
+      "einschaetzung": "Bitcoin befindet sich in einem robusten, mehrwoechigen Aufwaertstrend mit neuem 90-Tage-Hoch bei 69,811 Euro. Die taegliche Schwankung von knapp 2% und die Greed-Stimmung deuten auf anhaltende Kaufbereitschaft hin, aber auch auf ein gewisses Ueberhitzungsrisiko nach dem starken 30-Tage-Anstieg. Kurzfristig (7 Tage) ueberwiegt die Fortsetzung des Trends leicht, laengerfristig (30 Tage) bleibt die Aufwaertswahrscheinlichkeit hoch, aber nicht ganz so hoch wie die reine Basisrate suggeriert. Es gibt keine neuen bearischen Ereignisse, die die Einschaetzung veraendern wuerden.",
+      "staerkstes_gegenargument": "Der Kurs liegt mehr als 10% ueber seinem 30-Tage-Mittel und nahe am 90-Tage-Hoch, was klassisch ein Warnsignal fuer eine kurzfristige Korrektur oder Gewinnmitnahmen ist, besonders bei einem Greed-Index von 73. Ein schneller Ruecksetzer auf das 30-Tage-Mittel (~62,000) waere technisch plausibel und wuerde meine optimistische Einschaetzung widerlegen.",
+      "wichtigste_treiber": [
+        "Starker, anhaltender Aufwaertstrend mit neuem 90-Tage-Hoch",
+        "Hohe historische Basisraten fuer steigende Kurse in beiden Zeitfenstern",
+        "Greed-Index (73) und ueberdurchschnittliche Distanz zum 30-Tage-Mittel als Ueberhitzungswarnung",
+        "Aktiv gegen den eigenen Pessimismus-Bias korrigiert, da fruehere bearische Prognosen systematisch falsch lagen"
+      ],
+      "umschlagpunkt": "Ein Bruch unter das 30-Tage-Mittel (~62,200 Euro) mit erhoehtem Handelsvolumen, ein deutlicher Ruecksetzer des Fear&Greed-Index in den Angst-Bereich, oder ein konkretes negatives regulatorisches/makrooekonomisches Ereignis wuerden die Aufwaertswahrscheinlichkeit deutlich senken.",
+      "kennzahlen_zum_zeitpunkt": {
+        "kurs_aktuell": 68710.23,
+        "veraenderung_7_tage_prozent": 1.75,
+        "veraenderung_30_tage_prozent": 23.11,
+        "veraenderung_90_tage_prozent": null,
+        "mittel_30_tage": 62203.68,
+        "abstand_zum_mittel_prozent": 10.46,
+        "tages_schwankung_prozent": 1.92,
+        "hoch_90_tage": 69810.75,
+        "tief_90_tage": 51253.18,
+        "basisraten": {
+          "7": {
+            "anteil_gestiegen_prozent": 60,
+            "anzahl_faelle": 83,
+            "typische_schwankung_prozent": 5.1
+          },
+          "30": {
+            "anteil_gestiegen_prozent": 78,
+            "anzahl_faelle": 60,
+            "typische_schwankung_prozent": 10.5
+          }
+        },
+        "beobachtete_tage": 90
+      },
+      "feedback_verfuegbar": true,
+      "api_versuche": 1,
+      "datenstand": {
+        "kurs": "2026-09-05T23:43:36.747040Z",
+        "fear_greed": "2026-09-05T23:43:37.129280Z",
+        "trefferbilanz": "2026-09-06T00:00:01.938977"
+      }
+    },
+    {
       "datum": "2026-09-04",
       "asset": "BTC",
       "erstellt_am": "2026-09-04T23:53:28.402727Z",
@@ -2365,5 +2434,5 @@
       "rueckblick_kurs_7_tage": 54505.1633858627
     }
   ],
-  "letzte_aktualisierung": "2026-09-04"
+  "letzte_aktualisierung": "2026-09-05"
 }
