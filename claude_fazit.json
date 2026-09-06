@@ -1,6 +1,75 @@
 {
   "fazits": [
     {
+      "datum": "2026-09-06",
+      "asset": "BTC",
+      "erstellt_am": "2026-09-06T23:42:54.064913Z",
+      "modell": "claude-sonnet-5",
+      "prompt_version": 4,
+      "kurs_eur_referenz": 69229.0,
+      "konfidenz_prozent": 80,
+      "prognosen": [
+        {
+          "horizont_tage": 7,
+          "wahrscheinlichkeit_hoeher": 58,
+          "spanne_unten": 65751,
+          "spanne_oben": 72673,
+          "konfidenz": 80,
+          "kursziel_abgeleitet": 69212
+        },
+        {
+          "horizont_tage": 30,
+          "wahrscheinlichkeit_hoeher": 72,
+          "spanne_unten": 62022,
+          "spanne_oben": 76418,
+          "konfidenz": 80,
+          "kursziel_abgeleitet": 69220
+        }
+      ],
+      "basisrate_verwendet": 60,
+      "abweichung_begruendung": "7-Tage-Basisrate (60%) leicht nach unten korrigiert auf 58%, da Fear&Greed bei 73 (Greed) und Kurs +10.5% über 30-Tage-Mittel auf kurzfristige Überhitzung hindeuten. 30-Tage-Basisrate (80%) auf 72% gesenkt, da die Basisrate selbst aus einer Phase starken Aufwärtstrends stammt und eine Konsolidierung nach dem steilen Anstieg (+23% in 30 Tagen) plausibel ist, ohne dass ich den grundsätzlich bullishen Trend negiere.",
+      "einschaetzung": "Bitcoin befindet sich in einem klaren, stabilen Aufwärtstrend mit neuem 90-Tage-Hoch bei 69,811. Die Volatilität ist moderat (1.89% täglich), es gibt keine akuten negativen Ereignisse, aber die Greed-Stimmung und die Distanz zum gleitenden Durchschnitt signalisieren eine gewisse Überhitzung. Ich vermeide meinen bisherigen Pessimismus-Bias, bleibe aber nicht blind bullish, sondern moderat optimistisch nahe der Basisrate.",
+      "staerkstes_gegenargument": "Der Kurs liegt bereits 10.5% über dem 30-Tage-Mittel und der Fear&Greed-Index zeigt Gier (73) – solche Konstellationen gehen historisch häufig mit kurzfristigen Korrekturen von 5-10% einher, besonders nach einem derart steilen 23%-Anstieg in 30 Tagen.",
+      "wichtigste_treiber": [
+        "Starker, anhaltender Aufwärtstrend über mehrere Wochen (30-Tage-Basisrate 80% höher)",
+        "Hohe Basisraten-Zuverlässigkeit historisch bei ähnlichen Marktphasen",
+        "Überkaufte Indikatoren (Greed 73, +10.5% über MA30) als moderierender Gegenfaktor",
+        "Korrektur des eigenen dokumentierten Pessimismus-Bias ohne Überkompensation"
+      ],
+      "umschlagpunkt": "Ein Rückfall unter das 30-Tage-Mittel (ca. 62,640) verbunden mit einem Abfall des Fear&Greed-Index unter 40 (Fear) würde signalisieren, dass die Korrektur eingesetzt hat und der Kurs mit höherer Wahrscheinlichkeit fällt statt steigt.",
+      "kennzahlen_zum_zeitpunkt": {
+        "kurs_aktuell": 69212.49,
+        "veraenderung_7_tage_prozent": 2.25,
+        "veraenderung_30_tage_prozent": 23.39,
+        "veraenderung_90_tage_prozent": null,
+        "mittel_30_tage": 62640.43,
+        "abstand_zum_mittel_prozent": 10.49,
+        "tages_schwankung_prozent": 1.89,
+        "hoch_90_tage": 69810.75,
+        "tief_90_tage": 51253.18,
+        "basisraten": {
+          "7": {
+            "anteil_gestiegen_prozent": 60,
+            "anzahl_faelle": 83,
+            "typische_schwankung_prozent": 5.0
+          },
+          "30": {
+            "anteil_gestiegen_prozent": 80,
+            "anzahl_faelle": 60,
+            "typische_schwankung_prozent": 10.4
+          }
+        },
+        "beobachtete_tage": 90
+      },
+      "feedback_verfuegbar": true,
+      "api_versuche": 1,
+      "datenstand": {
+        "kurs": "2026-09-06T23:42:33.339701Z",
+        "fear_greed": "2026-09-06T23:42:33.417385Z",
+        "trefferbilanz": "2026-09-07T00:00:02.058011"
+      }
+    },
+    {
       "datum": "2026-09-05",
       "asset": "BTC",
       "erstellt_am": "2026-09-05T23:44:02.983670Z",
@@ -2434,5 +2503,5 @@
       "rueckblick_kurs_7_tage": 54505.1633858627
     }
   ],
-  "letzte_aktualisierung": "2026-09-05"
+  "letzte_aktualisierung": "2026-09-06"
 }
