@@ -1,6 +1,42 @@
 {
-  "letzte_aktualisierung": "2026-09-05",
+  "letzte_aktualisierung": "2026-09-06",
   "ereignisse": [
+    {
+      "datum": "2026-09-06",
+      "kategorie": "Regulierung",
+      "titel": "US Supreme Court nähert sich Kryptowährungs-Regulierungsfrage – New Jersey reicht Beschwerde in Kalshi-Fall ein",
+      "beschreibung": "New Jersey petitionierte letzte Woche für einen Schriftsatz vor dem Supreme Court im Kalshi-Fall gegen den Staat, was die Frage der Regulierungskompetenz für Kryptowährungen-Vorhersagemärkte vor das höchste US-Gericht bringt. Dies markiert eine Eskalation in der grundsätzlichen Debatte über die behördliche Zuständigkeit für digitale Vermögenswerte. Bitcoin notiert bei €69.229 EUR im Kontext dieser regulatorischen Entwicklung.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-09-06",
+      "kategorie": "Institutionell",
+      "titel": "Coinbase und Better Mortgage erweitern Bitcoin-Hypotheken mit Wiederverwendungsmechanismus für Sicherheiten",
+      "beschreibung": "Better Mortgage kann verpfändete Bitcoin-Sicherheiten nun wiederverwendet werden, während Kreditnehmer ihre Kryptowährungen erst nach vollständiger Rückzahlung oder Refinanzierung der konventionellen Hypothek zurückerhalten. Dieses Modell etabliert neue strukturelle Möglichkeiten für Bitcoin-basierte Finanzprodukte im traditionellen Hypothekenmarkt.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-09-06",
+      "kategorie": "OnChain",
+      "titel": "Satoshi-Ära Bitcoin nach 16 Jahren Inaktivität bewegt – 600 BTC aus Mining-Belohnungen transferiert",
+      "beschreibung": "Whale Alert identifizierte 12 Mining-Belohnungen aus der frühen Bitcoin-Phase, insgesamt 600 BTC, die nach 16 Jahren Dormanz bewegt wurden. Dies sind unter den ältesten noch existierenden Bitcoin-Bestände und signalisieren Aktivität in extrem lang gehaltenen Positionen aus der Genesis-Ära der Blockchain.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-09-05",
+      "kategorie": "Regulierung",
+      "titel": "Polen bekräftigt Veto gegen Kryptowährungs-Gesetz – Zondacrypto-Skandal weitet sich aus",
+      "beschreibung": "Polnische Abgeordnete scheiterten beim Versuch, das präsidentielle Veto gegen Kryptowährungs-Gesetzgebung zu überstimmen, während die Untersuchung des Zondacrypto-Skandals sich ausdehnt und auf Verbindungen zu estländischen Operationen hinweist. Dies verdeutlicht die regulatorische Fragmentierung in Osteuropa und anhaltende Bedenken bezüglich Betrugsfälle im lokalen Kryptosektor.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
     {
       "datum": "2026-09-05",
       "kategorie": "ETF",
@@ -501,42 +537,6 @@
       "kategorie": "Institutionell",
       "titel": "BankChain Alliance kündigt 2027-Start an – Stablecoins und tokenisierte Deposits im regulatorischen Rahmen",
       "beschreibung": "U.S. state banking associations planen den Launch einer nationalen Blockchain-Netzwerk namens BankChain Alliance für 2027. Das Netzwerk soll Stablecoins, Zahlungen und tokenisierte Bankeinlagen innerhalb des regulatorischen Rahmens des Bankensystems ermöglichen. Dies signalisiert institutionelle Akzeptanz von Blockchain-Infrastruktur für traditionelle Finanzdienstleistungen.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-08-25",
-      "kategorie": "Regulierung",
-      "titel": "LayerZero startet Handelsinfrastruktur mit DTCC und ICE Institutional Exploration",
-      "beschreibung": "LayerZero hat eine Trading-Infrastruktur für Kryptowährungen und tokenisierte Märkte auf dem Zero-Blockchain gestartet, unterstützt durch Citadel Securities. DTCC und ICE erkunden aktiv institutionelle Marktanwendungen auf der Plattform. Der ZRO-Token ist daraufhin angestiegen. Dies zeigt konkrete Bestrebungen großer Finanzinfrastruktur-Player, in Blockchain-basiertes Clearing und Settlement vorzudringen.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-08-25",
-      "kategorie": "ETF",
-      "titel": "Solana ETFs verzeichnen größten Single-Day-Inflow seit Dezember – $33,5 Mio. am 24. August",
-      "beschreibung": "Solana Spot-ETFs erhalten $33,5 Millionen Zufluss am 24. August – der größte Single-Day-Inflow seit Dezember 2025. Die kumulativen Netto-Zuflüsse erreichten einen Rekord von $1,22 Milliarden. Dies folgt SOL-Gewinnen von ca. 40% in kurzer Zeit und erhöhtem Netzwerk-Aktivität (4,2 Mrd. Transaktionen). Institutionelle Kapitalbewegungen in Solana-Produkte beschleunigen sich parallel zur Bitcoin-Erholung (€67.410).",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-08-25",
-      "kategorie": "Institutionell",
-      "titel": "Bitwise integriert Coinbase tokenisierte Aktien in automatisierte KI- und Robotics-Portfolios",
-      "beschreibung": "Der Crypto-ETF-Emittent Bitwise nutzt Coinbase tokenisierte Aktien (Apple, Nvidia, Meta, Alphabet) zur Erstellung automatisierter, KI-gesteuerter Investment-Portfolios auf der Blockchain. Dies zeigt erweiterte Use-Cases für tokenisierte RWAs (Real-World Assets) und deepere Integration von traditionellen Assets in dezentrales Vermögensmanagement.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-08-25",
-      "kategorie": "Makro",
-      "titel": "Bitcoin übersteigt €67.410 mit 25%-7-Tage-Rally – Gold folgt bei €4.003,02 auf fallende US-Renditen",
-      "beschreibung": "Bitcoin ist in 7 Tagen um etwa 25% gestiegen und notiert bei €67.410 (aktuell -0,2% in 24h), nachdem es erstmals seit Mai die $80.000-Marke ($78.703 USD aktuell) überschritten hat. Gold ist parallel gestiegen und notiert bei €4.003,02 pro Unze – beide Assets folgen der Treasury-Bondkauf-Expansion und fallenden US-Renditen. Silber (€59,197) bewegt sich deutlich schwächer, was auf differentierte Risk-Asset-Rotation hindeutet. Spot Bitcoin ETFs verzeichneten $337,56 Mio. Zufluss am 24. August.",
       "modell": "claude-haiku-4-5",
       "prompt_version": 2,
       "asset": "BTC"
