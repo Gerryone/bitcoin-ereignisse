@@ -2,6 +2,51 @@
   "letzte_aktualisierung": "2026-09-08",
   "ereignisse": [
     {
+      "datum": "2026-09-08",
+      "kategorie": "Institutionell",
+      "titel": "Visa Stablecoin-Settlement überschreitet $20 Milliarden annualisiertes Volumen – 15x Wachstum YoY",
+      "beschreibung": "Visa kombiniert VisaNet-Daten mit On-Chain-Lending, um Kreditlinien für Stablecoin-Emittenten zu erweitern. Das Stablecoin-Siedlungsvolumen ist auf eine annualisierte Run Rate von über $20 Milliarden angewachsen, ein 15-faches Wachstum gegenüber dem Vorjahr. Bitcoin notiert bei €67.441 EUR.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-09-08",
+      "kategorie": "Technik",
+      "titel": "Ethereum Foundation setzt Quantenresistenz-Deadline auf 2029",
+      "beschreibung": "Die Ethereum Foundation hat die Quantenresistenz als Top-Priorität bestätigt und plant Upgrades bis 2029, um das Netzwerk vor quantencomputergestützten Angriffen zu schützen. Ziel ist es, die Infrastruktur zu sichern, bevor Quantencomputer fähig werden, die heutige Kryptographie zu brechen. ETH notiert bei €2.137 EUR.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-09-08",
+      "kategorie": "OnChain",
+      "titel": "Cronos führt kontroverse Blockchain-Rollback durch – $111 Millionen Exploit teilweise kompensiert",
+      "beschreibung": "Cronos-Validatoren haben etwa zwei Stunden Blockchain-Historie zurückgerollt, um User-Assets nach dem Tectonic-Exploit wiederherzustellen. Allerdings entkamen Angreifer vor der Netzwerk-Pause mit $9,19 Millionen. Der Gesamtschaden des Exploits wird auf $111 Millionen beziffert.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-09-08",
+      "kategorie": "OnChain",
+      "titel": "Liquid Network erhält 3.400 Bitcoin von vermeintlichen White-Hat-Hackern zurück",
+      "beschreibung": "Nach dem Sonntags-Breach von Liquid haben angebliche White-Hat-Hacker 3.400 der 4.000 gestohlenen Bitcoin zurückgegeben. Knapp €47 Millionen in Bitcoin bleiben allerdings noch ausstehend. Bitcoin-Kurs bei €67.441 EUR; Gold bei €3.747,20 EUR pro Unze bleibt stabil.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-09-08",
+      "kategorie": "Regulierung",
+      "titel": "Bit2Me richtet spezialisierte Einheit zur Crypto-Asset-Verfolgung für Strafverfolgung ein",
+      "beschreibung": "Die spanische Börse Bit2Me hat eine formalisierte Spezialeinheit zur Unterstützung von Strafverfolgungsbehörden gegründet. 2025 verarbeitete die Plattform 1,5 Millionen Euro beschlagnahmter Kryptowährungen für Agenturen wie Interpol und Europol. Die Struktur formalisiert bisherige operative Tätigkeiten.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
       "datum": "2026-09-07",
       "kategorie": "OnChain",
       "titel": "Liquid Network sidechain nach $320-Millionen-Exploit pausiert – Akteure behaupten White-Hat-Status",
@@ -492,51 +537,6 @@
       "kategorie": "ETF",
       "titel": "Spot Bitcoin ETFs verzeichnen achten Handelstag mit Nettozuflüssen – $2,8 Mrd. seit Start der Serie",
       "beschreibung": "US-Spot-Bitcoin-ETFs erlebten ihren achten aufeinanderfolgenden Tag mit positiven Nettozuflüssen, wobei insgesamt $2,8 Mrd. in die Fonds flossen. Parallel dazu meldeten Ether-ETFs tägliche Zuflüsse in ähnlicher Größenordnung. Bitcoin notierte am 28. August bei €68.489, auf Wochenbasis ein Plus von 9%.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-08-27",
-      "kategorie": "Regulierung",
-      "titel": "SEC genehmigt Merger-Antrag für XRP Treasury Company – Nasdaq-Listing im September geplant",
-      "beschreibung": "Die SEC hat die erforderlichen Unterlagen für die Fusion der von Ripple unterstützten Evernorth mit einem Mantelunternehmen genehmigt. Ein Aktionärsvotum ist für 30. September vorgesehen, woraufhin ein Nasdaq-Listing unter dem Ticker XRPN angestrebt wird. Dies stellt einen formalen Regulierungsmeilenstein für ein crypto-gebundenes Wertpapier dar.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-08-27",
-      "kategorie": "Institutionell",
-      "titel": "Charles Schwab erweitert Crypto-Plattform um Solana, Avalanche und Chainlink",
-      "beschreibung": "Der Finanzdienstleister Charles Schwab kündigte die Ausweitung seiner nascent Crypto-Plattform an, die bislang nur Bitcoin und Ether abdeckte. Mit dem Hinzufügen von Solana (das in der Woche um 20% gestiegen war), Avalanche und Chainlink zeigt der Broker eine systematische Expansion ins Altcoin-Segment für Retail-Kunden.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-08-27",
-      "kategorie": "Makro",
-      "titel": "Nvidia-Gewinnschlag löst Technologie-Rally aus – Bitcoin profitiert von breiteren Risk-On-Bewegungen",
-      "beschreibung": "Nvidia veröffentlichte Quartalsergebnisse, die Erwartungen um etwa $4 Mrd. übertrafen, was Technologiewerte und damit verbundene Risiko-Assets nach oben zog. Bitcoin reagierte mit einem Anstieg auf €68.489 (+1,2% in 24h), während Gold bei €3.929,25 relativ stabil blieb – ein Hinweis auf Kapitalrotation in Wachstumswerte statt klassische Safe-Havens.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-08-27",
-      "kategorie": "Regulierung",
-      "titel": "Connecticut reicht Klage gegen Kalshi ein – Prediction-Markets-Rechtsstreit wird zum Patchwork",
-      "beschreibung": "Connecticut kündigte eine Klage gegen die Prediction-Markt-Plattform Kalshi an, die sich zu den bestehenden Verfahren auf Bundes- und Staatsebene gesellt. Bisherige Gerichtsurteile zeigen ein Patchwork von Erfolgen und Niederlagen, was Analysten auf eine mögliche Eskalation zum Supreme Court hindeutet.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-08-26",
-      "kategorie": "Regulierung",
-      "titel": "SEC überarbeitet Crypto-Custody-Regel – White House Überprüfung eingeleitet",
-      "beschreibung": "Die SEC hat ihre überarbeitete Crypto-Custody-Regelung dem Weißen Haus zur Überprüfung vorgelegt. Der Vorschlag soll klären, wie Anlageberater und Fonds digitale Vermögenswerte für Kunden verwahren dürfen – eine Regelung, die die vorherige Administration 2023 nicht durchsetzen konnte.",
       "modell": "claude-haiku-4-5",
       "prompt_version": 2,
       "asset": "BTC"
