@@ -1,6 +1,51 @@
 {
-  "letzte_aktualisierung": "2026-09-06",
+  "letzte_aktualisierung": "2026-09-08",
   "ereignisse": [
+    {
+      "datum": "2026-09-07",
+      "kategorie": "OnChain",
+      "titel": "Liquid Network sidechain nach $320-Millionen-Exploit pausiert – Akteure behaupten White-Hat-Status",
+      "beschreibung": "Die Bitcoin Liquid Network, eine von Exchanges genutzte Settlement-Layer, wurde nach einem Sicherheits-Exploit mit Verlust von 4.000 BTC (~€317 Millionen) stillgelegt. Die Angreifer erklärten sich als White-Hats und versprachen, das Geld nach Patch zurückzugeben. Dies ereignete sich während Bitcoin bei €67.958 EUR handelt und Sicherheitsrisiken in DeFi-Infrastruktur thematisiert.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-09-07",
+      "kategorie": "OnChain",
+      "titel": "Coldcard Hack – Angreifer der dritten Welle bewegt 45% der gestohlenen Bitcoin",
+      "beschreibung": "Der Täter aus der dritten Welle der Coldcard-Exploits hat 45% der insgesamt gestohlenen Bitcoin aus den 11 größten Vaults transferiert, wie Galaxy Research berichtete. 82% aller Coldcard-Diebstähle bleiben noch in den ursprünglichen Adressen. Das Ereignis unterstreicht persistente Hardware-Wallet-Sicherheitsrisiken im Ökosystem.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-09-07",
+      "kategorie": "Technik",
+      "titel": "Citi und DBS vollenden erste Wochenend-Tokenisierungstransaktion auf Swift Digital Ledger",
+      "beschreibung": "Citibank und Development Bank of Singapore führten erfolgreich die zweite live-Transaktion über Swifts Blockchain-Ledger durch und tauschten tokenisierte USD-Einlagen am Wochenende aus. Dies belegt institutionelle Fortschritte in Blockchain-basierten Cross-Border-Settlements parallel zu Bitcoin-Kursen bei €67.958 EUR.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-09-07",
+      "kategorie": "Makro",
+      "titel": "US-Luftschläge auf iranische Öltanker treiben Rohöl höher – Bitcoin fällt auf Geopolitik-Sorgen",
+      "beschreibung": "Eskalation US-iranischer Spannungen mit Drohnenangriffen auf iranische Öltanker führte zu Ölpreisanstieg. Bitcoin fiel daraufhin um knapp 1% und handelt nun bei €67.958 EUR (-1,8% in 24h), während Geopolitik-Unsicherheit Anleger zu traditionellen Sicherheits-Assets wie Gold (€3.801,85 EUR) lenkt statt zu riskanteren Kryptoassets.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-09-07",
+      "kategorie": "Regulierung",
+      "titel": "Polen erhebt fünfte Anklage in Zondacrypto-Skandal – €94-Millionen-Verluste dokumentiert",
+      "beschreibung": "Polnische Staatsanwälte klagten den fünften Verdächtigen in der Zondacrypto-Untersuchung an. Die ehemals als BitBay bekannte Börse stockte nach Rebranding 2021 und erzielte Stillstand im April mit geschätzten Kundenverlusten von mindestens $94 Millionen durch eingefrorene Abhebungen. Dieses Regulierungs- und Durchsetzungsereignis reflektiert anhaltende Compliance-Anforderungen im europäischen Kryptoraum.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
     {
       "datum": "2026-09-06",
       "kategorie": "Regulierung",
@@ -492,51 +537,6 @@
       "kategorie": "Regulierung",
       "titel": "SEC überarbeitet Crypto-Custody-Regel – White House Überprüfung eingeleitet",
       "beschreibung": "Die SEC hat ihre überarbeitete Crypto-Custody-Regelung dem Weißen Haus zur Überprüfung vorgelegt. Der Vorschlag soll klären, wie Anlageberater und Fonds digitale Vermögenswerte für Kunden verwahren dürfen – eine Regelung, die die vorherige Administration 2023 nicht durchsetzen konnte.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-08-26",
-      "kategorie": "Regulierung",
-      "titel": "Dallas Fed warnt vor tokenisierten Deposits – $700 Mrd. Kreditvergabe-Kapazität gefährdet",
-      "beschreibung": "Die Federal Reserve Bank of Dallas hat gewarnt, dass programmierbare Deposits und KI-Agenten zu automatischem Bankwechsel führen könnten, was Refinanzierungskosten für Banken erhöht und potentiell $700 Mrd. Kreditvergabe-Kapazität aus dem traditionellen Bankensektor abzieht.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-08-26",
-      "kategorie": "Institutionell",
-      "titel": "BlackRock senkt Bitcoin ETF Swap-Minimum auf $1 Mio. – Zugang für Whales vereinfacht",
-      "beschreibung": "BlackRock hat die Mindestanlage für Bitcoin ETF Swaps von vorher höheren Schwellen auf $1 Mio. gesenkt. Dies reduziert die Barriere für große Investoren, ihre selbstverwahrten Bitcoin gegen ETF-Anteile zu tauschen, während Bitcoin bei €67.520 handelt und August ETF-Zuflüsse bereits $3 Mrd. überschritten haben.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-08-27",
-      "kategorie": "Technik",
-      "titel": "SHRINCS Bitcoin Improvement Proposal veröffentlicht – Quantensicherheit mit Kompromissen",
-      "beschreibung": "Ein neuer Bitcoin Improvement Proposal (BIP) für das SHRINCS Signature Scheme wurde veröffentlicht, um Bitcoin gegen Quantencomputer-Bedrohungen zu schützen. Die Lösung bringt allerdings technische Kompromisse mit sich, deren Details noch evaluiert werden.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-08-26",
-      "kategorie": "Institutionell",
-      "titel": "Better und Coinbase launchen Bitcoin-besicherte Hypotheken – Krypto als Eigenkapitalgarantie",
-      "beschreibung": "Better und Coinbase haben ein Hypotheken-Produkt gestartet, das US-Immobilienkäufern ermöglicht, Bitcoin als Sicherheit für Anzahlungen zu verpfänden. Dies etabliert Bitcoin als akzeptiertes Vermögensmittel in traditionellen Finanzierungsprozessen.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-08-25",
-      "kategorie": "Institutionell",
-      "titel": "BankChain Alliance kündigt 2027-Start an – Stablecoins und tokenisierte Deposits im regulatorischen Rahmen",
-      "beschreibung": "U.S. state banking associations planen den Launch einer nationalen Blockchain-Netzwerk namens BankChain Alliance für 2027. Das Netzwerk soll Stablecoins, Zahlungen und tokenisierte Bankeinlagen innerhalb des regulatorischen Rahmens des Bankensystems ermöglichen. Dies signalisiert institutionelle Akzeptanz von Blockchain-Infrastruktur für traditionelle Finanzdienstleistungen.",
       "modell": "claude-haiku-4-5",
       "prompt_version": 2,
       "asset": "BTC"
