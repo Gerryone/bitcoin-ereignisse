@@ -2,6 +2,51 @@
   "letzte_aktualisierung": "2026-09-10",
   "ereignisse": [
     {
+      "datum": "2026-09-10",
+      "kategorie": "Institutionell",
+      "titel": "Nasdaq investiert $100 Million in Kraken-Muttergesellschaft Payward mit $21-Milliarden-Bewertung",
+      "beschreibung": "Die Nasdaq hat $100 Million in Payward, die Muttergesellschaft von Kraken, investiert und bewertet das Unternehmen mit $21 Milliarden. Die Investition erweitert eine strategische Partnerschaft zur Einführung von tokenisierten, abstimmungsfähigen Aktien auf Krypto-Börsen. Dies markiert einen weiteren Schritt der Integration von traditionellen Finanzmarktinfrastrukturen mit dezentralisierten Token-Plattformen.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-09-10",
+      "kategorie": "Regulierung",
+      "titel": "ESMA warnt vor Regulierungslücken bei Polymarket und Kalshi – Fragen zur EU-Zulassung von Event-Kontrakten",
+      "beschreibung": "Die Europäische Wertpapier- und Marktaufsichtsbehörde (ESMA) stellte fest, dass Event-Kontrakte möglicherweise unter EU-Verbote für Binäroptionen, MiCA-Rahmenwerk oder nationale Glücksspielgesetze fallen. Die Behörde warnte zudem vor Autorisierungslücken beim Zugang dieser Plattformen zum europäischen Markt und betonte wachsende Risiken durch verstärkte Verflechtungen zwischen Krypto und traditionellem Finanzwesen.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-09-10",
+      "kategorie": "Regulierung",
+      "titel": "SEC-Plan zur Überhaul von Transfer-Agent-Regeln könnte tokenisierte Wertpapiere entlasten",
+      "beschreibung": "Die SEC hat einen neuen Vorschlag zur Überholung der Transfer-Agent-Regeln angekündigt, der doppelte Off-Chain-Aktionärsaufzeichnungen eliminieren könnte. Dies würde Abstimmungskosten und rechtliche Unsicherheiten für tokenisierte Wertpapiere reduzieren und die Infrastruktur für die digitale Wertpapierausgabe vereinfachen.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-09-10",
+      "kategorie": "Institutionell",
+      "titel": "Bybit erhält MiFID-Lizenz und plant europäischen 'Super-App' mit Aktien und Derivaten",
+      "beschreibung": "Die Krypto-Börse Bybit kündigte an, eine europäische 'Super-App' mit Aktien und Derivaten zu starten. Das Unternehmen verfügt bereits über eine elektronische Geldinstituts-Lizenz in Österreich und erhält nun eine MiFID-Lizenz. Diese Entwicklung ermöglicht es Bybit, traditionelle Wertpapierhandelsprodukte direkt auf seiner Plattform anzubieten.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-09-10",
+      "kategorie": "Makro",
+      "titel": "Bitcoin fällt auf Inflationsdaten und Zinssorgen – Gold (€3.713,58) und Ölpreise steigen",
+      "beschreibung": "Bitcoin (€66.045) fiel um 1,8% in 24 Stunden, da die US-Kernpreise höher als erwartet ausfallen und die 30-Jahres-Anleiherenditen auf ein neues 19-Jahres-Hoch kletterten. Gold (€3.713,58) und Öl stiegen derweil deutlich an, während die ECB ihre Zinssätze erhöhte – ein Zeichen, dass traditionelle sichere Häfen Kapital gegenüber riskanteren Assets wie Bitcoin anziehen.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
       "datum": "2026-09-09",
       "kategorie": "Regulierung",
       "titel": "Deutschland plant 25%-Kryptosteuer ab 2028 – Bestandshaltungen bleiben begünstigt",
@@ -492,51 +537,6 @@
       "kategorie": "OnChain",
       "titel": "Tokenisierte Aktien-Transfers explodieren um 415% – $29,5 Mrd. Volumen in 30 Tagen",
       "beschreibung": "Onchain-Aktivität bei tokenisierten Equities ist in den letzten 30 Tagen um 415% gestiegen, mit $29,5 Mrd. Transfervolumen. Die Zahl aktiver Adressen und Halter verzeichnete entsprechend einen scharfen Anstieg. Dies deutet auf wachsende Adoption von Blockchain-basierter Aktienabwicklung hin.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-08-29",
-      "kategorie": "Technik",
-      "titel": "Polygon offenbart und behebt Sicherheitslücken in kürzlichen Hard Forks",
-      "beschreibung": "Polygon hat Sicherheitslücken veröffentlicht, die in neueren Hard Forks behoben wurden. Die Schwachstellen beinhalteten Denial-of-Service- und Validator-Ressourcen-Risiken. Die Patches wurden vor der öffentlichen Ankündigung implementiert.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-08-28",
-      "kategorie": "Institutionell",
-      "titel": "Visa erweitert Stablecoin-Zahlungsinfrastruktur in Südkorea mit Dunamu-Partnership",
-      "beschreibung": "Visa kündigte eine Partnerschaft mit Dunamu, dem Betreiber von Upbit (Südkoreas größter Kryptobörse), zur Unterstützung von Stablecoin-Zahlungen an. Dies folgt auf ein früheres Abkommen mit Shinhan Financial und verstärkt Visas Präsenz in Asiens führendem Crypto-Hub.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-08-28",
-      "kategorie": "ETF",
-      "titel": "Bitcoin ETF Zufluss-Serie endet nach 9 Tagen – $201,8 Mio. Nettoabflüsse am 28. August",
-      "beschreibung": "US Spot Bitcoin ETFs verzeichneten am 28. August Nettoabflüsse von $201,8 Mio., was eine 9-tägige Zufluss-Serie beendete. Bitcoin rutschte unter €78.000 (ca. $78 Tsd. USD) ab, nachdem Fed-Chair Warsh hawkische Signale sendete und Investoren ihre Positionen reduzierten.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-08-29",
-      "kategorie": "Institutionell",
-      "titel": "Bullish finanziert USD.AI mit $100 Mio. Stablecoin-Facility für GPU-Lending",
-      "beschreibung": "Die Kryptobörse Bullish stellte USD.AI eine $100 Mio. Schuldenfazilität bereit, um GPU-besicherte Darlehen für KI-Infrastruktur zu finanzieren. Dies reflektiert die wachsende Verflechtung von Kryptovermögen mit KI-Hardware-Kapitalvergabe.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-08-28",
-      "kategorie": "Technik",
-      "titel": "Bitcoin und Ethereum veröffentlichen Quantencomputer-Migrationspläne – Ripple bereitet XRP Ledger vor",
-      "beschreibung": "Nach Anthropic-Modell, das die Bruchanfälligkeit eines Post-Quantum-Signatur-Kandidaten um Faktor 67 Millionen reduzierte, haben Bitcoin und Ethereum konkrete Migrationspläne veröffentlicht. Ripple bereitet parallel das XRP Ledger für Quantencomputer-Sicherheit vor, bevor sogenannter 'Q-Day' eintritt.",
       "modell": "claude-haiku-4-5",
       "prompt_version": 2,
       "asset": "BTC"
