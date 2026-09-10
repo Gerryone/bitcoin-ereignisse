@@ -1,6 +1,51 @@
 {
-  "letzte_aktualisierung": "2026-09-08",
+  "letzte_aktualisierung": "2026-09-10",
   "ereignisse": [
+    {
+      "datum": "2026-09-09",
+      "kategorie": "Regulierung",
+      "titel": "Deutschland plant 25%-Kryptosteuer ab 2028 – Bestandshaltungen bleiben begünstigt",
+      "beschreibung": "Das deutsche Finanzministerium hat einen Gesetzentwurf vorgelegt, der ab 2028 eine pauschale 25%-Steuer auf Kryptogewinne vorsieht. Bestandshaltungen behalten ihre aktuelle Behandlung, die Verkäufe nach 12-monatiger Haltefrist steuerfrei ermöglicht. Bitcoin notiert aktuell bei €67.266, Gold bei €3.771,88 pro Unze.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-09-09",
+      "kategorie": "Regulierung",
+      "titel": "US-Finanzministerium sanktioniert Xinbi – chinesische Krypto-Betrugszentrale zerschlagen",
+      "beschreibung": "Das US-Schatzamt hat die chinesischsprachige Plattform Xinbi Guarantee sanktioniert, die als Drehscheibe für Krypto-Transaktionen krimineller Netzwerke fungierte. Die Maßnahme ist Teil einer breiteren Kampagne gegen Cyber-Betrug im Kryptosektor.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-09-09",
+      "kategorie": "Technik",
+      "titel": "Bitcoin und Ethereum rüsten für Quantenresistenz – 2029 als kritisches Konvergenzjahr",
+      "beschreibung": "Die US-Regierung unterstützt eine 300-Millionen-Dollar-Initiative für fehlertolerante Quantencomputer. Bitcoin und Ethereum bauen Migration zu quantenresistenten Technologien bis 2029 ein. Konkrete Maßnahmen konvergieren auf denselben Zeitrahmen, bevor Quantenrisiken kritisch werden.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-09-09",
+      "kategorie": "Institutionell",
+      "titel": "Tether und Fasanara starten $400-Millionen-Kreditfonds mit USDT-Infrastruktur",
+      "beschreibung": "Tether und Fasanara Capital haben einen Evergreen-Fonds mit $400 Millionen Startkapital gegründet, mit Zielvolumen von $3 Milliarden. Der Fonds nutzt USDT-Infrastruktur für Asset-besicherte Kreditvergabe über FinTech-Plattformen. Bitcoin kostet €67.266, ETH €2.120.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-09-09",
+      "kategorie": "Regulierung",
+      "titel": "Italiens Zentralbank ordnet Sanktionsprüfungen für Kryptotransfers an",
+      "beschreibung": "Die Banca d'Italia hat Kryptovermögensdienstleister verpflichtet, interne Kontrollen zur Überprüfung von Sanktionslisten bei Kryptotransfers einzuführen. Die Maßnahme folgt europäischen AML-Compliance-Standards und betrifft alle in Italien operierenden Kryptodienstleister.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
     {
       "datum": "2026-09-08",
       "kategorie": "Institutionell",
@@ -492,51 +537,6 @@
       "kategorie": "Technik",
       "titel": "Bitcoin und Ethereum veröffentlichen Quantencomputer-Migrationspläne – Ripple bereitet XRP Ledger vor",
       "beschreibung": "Nach Anthropic-Modell, das die Bruchanfälligkeit eines Post-Quantum-Signatur-Kandidaten um Faktor 67 Millionen reduzierte, haben Bitcoin und Ethereum konkrete Migrationspläne veröffentlicht. Ripple bereitet parallel das XRP Ledger für Quantencomputer-Sicherheit vor, bevor sogenannter 'Q-Day' eintritt.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-08-28",
-      "kategorie": "Makro",
-      "titel": "Fed-Chair Warsh signalisiert hawkische Haltung bei Jackson Hole – September-Zinserhöhung wieder im Fokus",
-      "beschreibung": "Fed-Chair Kevin Warsh erklärte auf dem Kansas City Fed Symposium, dass die Zentralbank 'Arbeit zu tun' bei der Inflationsbekämpfung habe. Diese hawkische Rhetorik führte zu Kursverlust bei Bitcoin auf €74.530 ($78.400 USD) und löste schnelle Neubewertung von Zinserhöhungserwartungen aus. Gold notierte bei €3.827,56 EUR.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-08-28",
-      "kategorie": "OnChain",
-      "titel": "Solana-Governance genehmigt Disinflations-Beschleunigung in dramatischer Abstimmung",
-      "beschreibung": "Solanas erstes Netzwerk-weites Abstimmungs-Voting über eine Verdopplung der Disinflations-Geschwindigkeit passierte mit äußerst knappem Ergebnis. Kraken- und Galaxy-gebundene Validatoren wechselten ihre Abstimmung kurz vor Deadline, wodurch der Vorschlag nur knapp die erforderliche Mehrheit erreichte.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-08-28",
-      "kategorie": "Institutionell",
-      "titel": "BitGo erwirbt NYDIG-Trading-Arm – Expansion von institutioneller Crypto-Infrastruktur",
-      "beschreibung": "BitGo hat die institutionelle Trading-Sparte von NYDIG übernommen und integriert damit etwa 30 Mitarbeiter. Die Akquisition verstärkt BitGos Derivatives-Angebot für institutionelle Kunden, während Bitcoin auf €67.012 EUR notiert.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-08-28",
-      "kategorie": "Institutionell",
-      "titel": "SBI erwirbt 20% Stake in indonesischer Ajaib für $270 Mio. – Yen-Stablecoin-Expansion in Südostasien",
-      "beschreibung": "Der japanische Finanzkonzern SBI kauft 20% der indonesischen Online-Brokerage Ajaib für $270 Millionen, um ein blockchaingestütztes, grenzüberschreitendes Settlement-Netzwerk aufzubauen. Ziel ist Expansion des Yen-Stablecoin-Ökosystems in der Region.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-08-28",
-      "kategorie": "ETF",
-      "titel": "Spot Bitcoin ETFs verzeichnen achten Handelstag mit Nettozuflüssen – $2,8 Mrd. seit Start der Serie",
-      "beschreibung": "US-Spot-Bitcoin-ETFs erlebten ihren achten aufeinanderfolgenden Tag mit positiven Nettozuflüssen, wobei insgesamt $2,8 Mrd. in die Fonds flossen. Parallel dazu meldeten Ether-ETFs tägliche Zuflüsse in ähnlicher Größenordnung. Bitcoin notierte am 28. August bei €68.489, auf Wochenbasis ein Plus von 9%.",
       "modell": "claude-haiku-4-5",
       "prompt_version": 2,
       "asset": "BTC"
