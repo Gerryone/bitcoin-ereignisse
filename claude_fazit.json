@@ -1,6 +1,75 @@
 {
   "fazits": [
     {
+      "datum": "2026-09-10",
+      "asset": "BTC",
+      "erstellt_am": "2026-09-10T00:01:17.678488Z",
+      "modell": "claude-sonnet-5",
+      "prompt_version": 4,
+      "kurs_eur_referenz": 67266.0,
+      "konfidenz_prozent": 80,
+      "prognosen": [
+        {
+          "horizont_tage": 7,
+          "wahrscheinlichkeit_hoeher": 58,
+          "spanne_unten": 64000,
+          "spanne_oben": 71000,
+          "konfidenz": 80,
+          "kursziel_abgeleitet": 67500
+        },
+        {
+          "horizont_tage": 30,
+          "wahrscheinlichkeit_hoeher": 68,
+          "spanne_unten": 61000,
+          "spanne_oben": 75500,
+          "konfidenz": 80,
+          "kursziel_abgeleitet": 68250
+        }
+      ],
+      "basisrate_verwendet": 60,
+      "abweichung_begruendung": "Die Basisrate von 60% (7T) bzw. 80% (30T) beruht auf einem starken Aufwärtstrend der letzten 90 Tage, der weiterhin intakt ist (30-Tage-Veränderung +21%, Kurs über 30-Tage-Mittel). Ich senke die 7-Tage-Wahrscheinlichkeit leicht auf 58%, da die letzten drei Tage eine Konsolidierung von €69.811 auf €67.249 zeigen und Greed-Index bei 69 auf erhöhte Korrekturanfälligkeit hindeutet. Für 30 Tage senke ich moderat auf 68%, da der Kurs bereits deutlich über dem 30-Tage-Mittel liegt (+5,4%) und ein Teil der Basisrate durch die außergewöhnlich starke Rally der letzten 4 Wochen aufgebläht sein dürfte. Gleichzeitig korrigiere ich meine bisherige Tendenz, Aufwärtsbewegungen systematisch zu unterschätzen (88% tatsächliche Steigerungen vs. nur 25% prognostizierte Rückgänge), indem ich nicht zu stark unter die Basisrate gehe.",
+      "einschaetzung": "Bitcoin befindet sich seit Mitte August in einer kräftigen Aufwärtsphase (+21% in 30 Tagen), die aktuell eine kurzfristige Verschnaufpause zeigt (drei aufeinanderfolgende Rückgänge von €69.811 auf €67.249). Die Marktstimmung bleibt mit einem Fear&Greed-Wert von 69 klar bullisch, aber nicht euphorisch überhitzt. ETH zeigt leichte Schwäche, was auf begrenzte Rotation hindeutet, ändert aber nichts am übergeordneten BTC-Trend. Die hohe Basisrate für steigende Kurse spiegelt die Struktur der letzten Wochen wider, dürfte aber angesichts der bereits erreichten Höhe leicht überzeichnet sein. Insgesamt bleibt die Grundtendenz bullisch, mit moderatem Korrekturrisiko auf kurze Sicht.",
+      "staerkstes_gegenargument": "Die letzten drei Handelstage zeigen eine klare Abwärtsbewegung nach einem lokalen Hoch, was ein Warnsignal für eine beginnende Korrektur nach der starken Rally sein könnte. Bei einem Kurs, der bereits 5,4% über dem 30-Tage-Mittel liegt und nahe der 90-Tage-Spanne-Obergrenze (€69.811), ist Gewinnmitnahme-Druck realistisch, was die 80%-Basisrate für 30 Tage zu optimistisch erscheinen lässt.",
+      "wichtigste_treiber": [
+        "Starker, intakter Aufwärtstrend über 30 Tage (+21%) mit hoher historischer Fortsetzungsrate",
+        "Kurze Konsolidierung der letzten 3 Tage als leichtes Gegengewicht zur reinen Basisrate",
+        "Erhöhte Greed-Stimmung (69) als Hinweis auf mögliche kurzfristige Übertreibung",
+        "Eigene Kalibrierungshistorie zeigt systematische Unterschätzung von Aufwärtsbewegungen"
+      ],
+      "umschlagpunkt": "Ein Bruch unter das 30-Tage-Mittel von €63.793 mit fortgesetztem Momentum nach unten, begleitet von einem Rückgang des Fear&Greed-Index in den neutralen oder Angst-Bereich, würde die bullische Einschätzung widerlegen und eine Trendwende signalisieren.",
+      "kennzahlen_zum_zeitpunkt": {
+        "kurs_aktuell": 67248.82,
+        "veraenderung_7_tage_prozent": 1.19,
+        "veraenderung_30_tage_prozent": 21.38,
+        "veraenderung_90_tage_prozent": null,
+        "mittel_30_tage": 63793.3,
+        "abstand_zum_mittel_prozent": 5.42,
+        "tages_schwankung_prozent": 1.88,
+        "hoch_90_tage": 69810.75,
+        "tief_90_tage": 51253.18,
+        "basisraten": {
+          "7": {
+            "anteil_gestiegen_prozent": 60,
+            "anzahl_faelle": 83,
+            "typische_schwankung_prozent": 5.0
+          },
+          "30": {
+            "anteil_gestiegen_prozent": 80,
+            "anzahl_faelle": 60,
+            "typische_schwankung_prozent": 10.3
+          }
+        },
+        "beobachtete_tage": 90
+      },
+      "feedback_verfuegbar": true,
+      "api_versuche": 1,
+      "datenstand": {
+        "kurs": "2026-09-10T00:00:44.152624Z",
+        "fear_greed": "2026-09-10T00:00:44.401630Z",
+        "trefferbilanz": "2026-09-10T00:00:01.964616"
+      }
+    },
+    {
       "datum": "2026-09-08",
       "asset": "BTC",
       "erstellt_am": "2026-09-08T00:09:14.547049Z",
@@ -2572,5 +2641,5 @@
       "rueckblick_kurs_7_tage": 54505.1633858627
     }
   ],
-  "letzte_aktualisierung": "2026-09-08"
+  "letzte_aktualisierung": "2026-09-10"
 }
