@@ -2,6 +2,42 @@
   "letzte_aktualisierung": "2026-09-12",
   "ereignisse": [
     {
+      "datum": "2026-09-12",
+      "kategorie": "Persönlichkeiten",
+      "titel": "Crypto-Milliardäre spenden $97 Millionen an Farage's Reform UK – größte Einzelspenden der britischen Geschichte",
+      "beschreibung": "BitMEX-Mitgründer Ben Delo und ein zweiter Crypto-Billionär überweisen kombiniert $97 Millionen an Nigel Farage's Reform UK innerhalb von 24 Stunden. Dies markiert die größten Einzelspenden der britischen Politikgeschichte und signalisiert eine massive Kapitalverlagerung der Crypto-Industrie in den politischen Raum.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-09-12",
+      "kategorie": "Institutionell",
+      "titel": "Bitcoin Suisse verlagert bis zu 50% der Schweizer Jobs ins Ausland – Kostensenkungsstrategie",
+      "beschreibung": "Bitcoin Suisse schließt seinen IT-Standort in Kopenhagen und verlagert Back-Office-Funktionen nach Bratislava und Vietnam. Die Maßnahme zielt auf Kostenreduktion ab, während das Unternehmen gleichzeitig argumentiert, dass steigende KI-Investitionen und schwächelnde Diversifikation zwischen Aktien und Anleihen den Fall für Bitcoin in traditionellen Portfolios stärken (Bitcoin aktuell €66.604).",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-09-11",
+      "kategorie": "OnChain",
+      "titel": "Blockstream lehnt Lösegeldverhandlung ab – Liquid-Netzwerk-Hacker halten knapp 600 BTC",
+      "beschreibung": "Nach dem Exploit im Liquid Sidechain-Netzwerk halten Angreifer etwa 600 Bitcoin (ca. €39,96 Millionen zum aktuellen Kurs von €66.604). Blockstream kündigte an, mit Strafverfolgung, Börsen und forensischen Spezialisten zusammenzuarbeiten, anstatt Verhandlungen zu führen – ein seltener Weg bei großvolumigen Exploits.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-09-11",
+      "kategorie": "Regulierung",
+      "titel": "Revolut gibt Bitcoin-Aktivitäten, Pässe und Wohnadressen nach gefälschter Behördenanfrage preis",
+      "beschreibung": "Die Fintech-Bank Revolut gab Kundendaten einschließlich Pässe, Selfies und Wohnadressen nach einer betrügerischen Regierungsanfrage heraus. Obwohl keine Kundenguthaben kompromittiert wurden, offenbart der Vorfall erhebliche Sicherheitslücken bei der Authentifizierung behördlicher Anfragen durch Crypto-Dienstleister.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
       "datum": "2026-09-11",
       "kategorie": "Makro",
       "titel": "US-Kerninfla­tion überraschend auf 0,3% im August – Fed-Zinserhöhung signalisiert",
@@ -501,42 +537,6 @@
       "kategorie": "Institutionell",
       "titel": "Strive wird fünftgrößter Bitcoin-Halter mit 1.800 BTC-Kauf für $143 Millionen",
       "beschreibung": "Die Investmentfirma Strive hat 1.800 Bitcoin für $143 Millionen erworben und ist damit auf 23.156 BTC angewachsen – Platzierung als fünftgrößter öffentlich gehandelter Bitcoin-Halter. Diese Transaktion dokumentiert fortgesetzte Corporate-Treasury-Diversifikation in einem Umfeld, in dem Bitcoin bei €67.713 EUR notiert.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-08-31",
-      "kategorie": "OnChain",
-      "titel": "Nordkoreanische Lazarus-Gruppe verkauft über $30 Mio. Bitcoin auf Hyperliquid in drei Wochen",
-      "beschreibung": "Blockchain-Daten von CoinDesk zeigen, dass Wallets der nordkoreanischen Lazarus-Hacker-Gruppe in den letzten drei Wochen über $30 Millionen Bitcoin auf der Plattform Hyperliquid verkauft haben. Dies erfolgt zeitgleich mit Trumps Initiative, Hyperliquid als amerikanische Plattform anzusiedeln.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-08-31",
-      "kategorie": "Regulierung",
-      "titel": "Irland schließt Kryptowährungen aus neuen steuerbegünstigten Anlagekonten aus",
-      "beschreibung": "Irlands neue steuerbegünstigte Anlagekonten akzeptieren nur börsennotierte Aktien, Anleihen und ETFs – Kryptowährungen sind explizit ausgeschlossen. Dies steht im Kontrast zu institutionellen Käufen (Bitcoin €67.713) und signalisiert Spannungen zwischen privater Retail-Förderung und behördlicher Risikokalibrierung.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-08-31",
-      "kategorie": "Institutionell",
-      "titel": "Bitmine erhöht Ether-Position auf 4,9% der globalen ETH-Versorgung – 65 Wochen kontinuierliche Käufe",
-      "beschreibung": "Die Investmentfirma Bitmine hat 53.500 ETH hinzugekauft und kontrolliert nun 4,9% des gesamten Ethereum-Angebots. Die Transaktion ist Teil einer 65-Wochen-Serie kontinuierlicher Akkumulation, während ETH bei €2.128 EUR notiert und +2,1% in 24h verzeichnet.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-08-30",
-      "kategorie": "Institutionell",
-      "titel": "Michael Saylor signalisiert Wiederaufnahme von Bitcoin-Käufen nach zweimonatiger Pause",
-      "beschreibung": "MicroStrategy-CEO Michael Saylor deutet an, dass das Unternehmen nach einer zweimonatigen Pause zur Bilanzstabilisierung wieder Bitcoin kaufen wird. Bitcoin notiert aktuell bei €67.163 EUR, während Bitcoin Dominance über 60% klettert. Die Ankündigung erfolgt während ein Rebound von Freitags-Tiefs stattfindet.",
       "modell": "claude-haiku-4-5",
       "prompt_version": 2,
       "asset": "BTC"
