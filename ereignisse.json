@@ -1,6 +1,51 @@
 {
-  "letzte_aktualisierung": "2026-09-10",
+  "letzte_aktualisierung": "2026-09-12",
   "ereignisse": [
+    {
+      "datum": "2026-09-11",
+      "kategorie": "Makro",
+      "titel": "US-Kerninfla­tion überraschend auf 0,3% im August – Fed-Zinserhöhung signalisiert",
+      "beschreibung": "Die US-Kerninfla­tion stieg im August 2026 schneller als erwartet um 0,3% Monat-über-Monat, während die Jahresrate mit 2,4% moderat ausfiel. Die Nachricht löste Marktbewegungen aus: Bitcoin fiel kurzzeitig unter €77.000 EUR, während Anleiherenditen auf 22-Jahres-Hochs stiegen. Gold notierte bei €3.752,31 EUR und Silber bei €55,747 EUR.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-09-11",
+      "kategorie": "ETF",
+      "titel": "Bitcoin-ETF-Abflüsse beschleunigen sich – $449 Millionen in drei Tagen abgezogen",
+      "beschreibung": "Institutionelle Investoren zogen innerhalb von drei Tagen $449 Millionen aus Bitcoin-ETFs ab, wobei ARK 21Shares allein $164 Millionen am Donnerstag verantwortete. Dies spiegelt Unsicherheit angesichts erwarteter Zinserhöhungen wider, während Bitcoin bei €66.548 EUR notiert (+0,9% in 24h).",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-09-11",
+      "kategorie": "Regulierung",
+      "titel": "Blockstream lehnt Lösegeld ab – Liquid-Hacker halten knapp 600 BTC",
+      "beschreibung": "Nach dem Liquid-Exploit mit circa 600 Bitcoin lehnte Blockstream Lösegeldverhandlungen ab und kündigte Zusammenarbeit mit Strafverfolgungsbehörden, Börsen und Forensik-Spezialisten an. Dies ist ein bedeutsames Sicherheitsereignis im sidechain-Ökosystem.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-09-11",
+      "kategorie": "Institutionell",
+      "titel": "India startet Tokenisierungs-Pilotprojekt für $620-Mrd. Unternehmensanleihen-Markt",
+      "beschreibung": "Indiens SEBI initiierte Demat 2.0 mit digitalem Rupie-Settlement; erste Phase tokenisierte Corporate Bonds mit $107 Millionen Emission. Sekundärhandel und Retail-Zugang folgen in späteren Phasen – signalisiert institutionelle Blockchain-Adoption in traditionellen Kapitalmärkten.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-09-11",
+      "kategorie": "Regulierung",
+      "titel": "Überarbeiteter US-CLARITY Act zielt auf ‚nicht-dezentralisierte' DeFi-Betreiber",
+      "beschreibung": "Der revidierte CLARITY Act konzentriert sich auf DeFi-Operatoren ohne echte Dezentralisierung, während die Ethik-Klauseln weitgehend unverändert blieben. Dies signalisiert präzisere regulatorische Unterscheidungen zwischen dezentralisierten Protokollen und zentralisierten Vermittlern.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
     {
       "datum": "2026-09-10",
       "kategorie": "Institutionell",
@@ -492,51 +537,6 @@
       "kategorie": "Institutionell",
       "titel": "Michael Saylor signalisiert Wiederaufnahme von Bitcoin-Käufen nach zweimonatiger Pause",
       "beschreibung": "MicroStrategy-CEO Michael Saylor deutet an, dass das Unternehmen nach einer zweimonatigen Pause zur Bilanzstabilisierung wieder Bitcoin kaufen wird. Bitcoin notiert aktuell bei €67.163 EUR, während Bitcoin Dominance über 60% klettert. Die Ankündigung erfolgt während ein Rebound von Freitags-Tiefs stattfindet.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-08-29",
-      "kategorie": "Technik",
-      "titel": "Anthropic-Modell reduziert Post-Quantum-Signatur-Bruchzeit um Faktor 67 Millionen",
-      "beschreibung": "Ein KI-Modell von Anthropic hat die Rechenzeit zur Kompromittierung eines führenden Post-Quantum-Signatur-Kandidaten drastisch gesenkt. Bitcoin und Ethereum haben daraufhin ihre eigenen Migrations-Pläne gegen Quantencomputer-Risiken veröffentlicht; Ripple bereitet das XRP Ledger ebenfalls vor. Dies unterstreicht den akuten technologischen Handlungsdruck in der Blockchain-Infrastruktur.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-08-29",
-      "kategorie": "Institutionell",
-      "titel": "Ruhlands Sber akzeptiert USDT und Ether als Kreditsicherheiten neben Bitcoin",
-      "beschreibung": "Russlands größte Bank Sber integriert Stablecoins (USDT) und Ether in ihr Kreditvergabe-System als Sicherheiten. Dies signalisiert institutionelle Expansion von Kryptovermögenswerten im traditionellen Bankensektor als regulierte Kreditinstrumente unter neuem russischen Regelwerk.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-08-29",
-      "kategorie": "OnChain",
-      "titel": "Dormante Bitcoin-Wallets nach 10 Jahren bewegen €36,4 Mio. – Aktivität auf Jahrestief",
-      "beschreibung": "Sechs zehn Jahrzehnte alte Bitcoin-Wallets transferierten im August umgerechnet etwa €36,4 Mio. Galaxy-Daten zeigen jedoch, dass die Aktivität alter Coins auf ihrem niedrigsten Niveau seit 2022 liegt; 2026 ist auf Kurs für weniger als die Hälfte des Vorjahres-Volumens. Dies deutet auf begrenzte Bewegung von historischen Beständen hin.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-08-29",
-      "kategorie": "Makro",
-      "titel": "Tokenisierte Aktien-Transfers verzeichnen 415%-Wachstum in 30 Tagen – €26,7 Mrd. Volumen",
-      "beschreibung": "Das Volumen von On-Chain-Transferen tokenisierter Aktien ist in 30 Tagen um 415% auf €26,7 Mrd. explodiert, begleitet von starken Zuwächsen bei aktiven Adressen und Haltern. Dieses Wachstum zeigt, dass Blockchain-basierte Equity-Infrastruktur schnell Mainstream-Skalierung erreicht, während Gold bei €3.831,85 EUR stabil bleibt.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-08-29",
-      "kategorie": "OnChain",
-      "titel": "Tokenisierte Aktien-Transfers explodieren um 415% – $29,5 Mrd. Volumen in 30 Tagen",
-      "beschreibung": "Onchain-Aktivität bei tokenisierten Equities ist in den letzten 30 Tagen um 415% gestiegen, mit $29,5 Mrd. Transfervolumen. Die Zahl aktiver Adressen und Halter verzeichnete entsprechend einen scharfen Anstieg. Dies deutet auf wachsende Adoption von Blockchain-basierter Aktienabwicklung hin.",
       "modell": "claude-haiku-4-5",
       "prompt_version": 2,
       "asset": "BTC"
