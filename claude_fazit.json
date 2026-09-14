@@ -1,6 +1,75 @@
 {
   "fazits": [
     {
+      "datum": "2026-09-14",
+      "asset": "BTC",
+      "erstellt_am": "2026-09-14T00:02:42.335648Z",
+      "modell": "claude-sonnet-5",
+      "prompt_version": 4,
+      "kurs_eur_referenz": 66266.0,
+      "konfidenz_prozent": 80,
+      "prognosen": [
+        {
+          "horizont_tage": 7,
+          "wahrscheinlichkeit_hoeher": 54,
+          "spanne_unten": 62960,
+          "spanne_oben": 69590,
+          "konfidenz": 80,
+          "kursziel_abgeleitet": 66275
+        },
+        {
+          "horizont_tage": 30,
+          "wahrscheinlichkeit_hoeher": 72,
+          "spanne_unten": 59460,
+          "spanne_oben": 73120,
+          "konfidenz": 80,
+          "kursziel_abgeleitet": 66290
+        }
+      ],
+      "basisrate_verwendet": 58,
+      "abweichung_begruendung": "Fuer 7 Tage weiche ich leicht nach unten von der Basisrate (58% -> 54%) ab, da der Kurs seit dem Hoch am 03.09. (69.811) kontinuierlich gefallen ist (-3.85% in 7 Tagen) und sich zuletzt seitwaerts bei ~66.200-66.550 stabilisiert, was auf anhaltenden kurzfristigen Abwaertsdruck statt sofortiger Erholung hindeutet. Fuer 30 Tage senke ich die Basisrate von 83% auf 72%, da der Kurs nach +22% in 30 Tagen deutlich ueber dem 90-Tage-Mittel liegt und eine Konsolidierung/Korrektur nach so starker Rallye statistisch wahrscheinlicher wird, auch wenn der langfristige Trend intakt bleibt.",
+      "einschaetzung": "Bitcoin befindet sich nach einer starken Rallye (von 55.799 auf 69.811 in wenigen Wochen) aktuell in einer Konsolidierungsphase mit leichtem Rueckgang. Der Kurs liegt weiterhin ueber dem 30-Tage-Mittel und der Fear & Greed Index zeigt moderate Gier (57), was auf keine akute Panik hindeutet. Kurzfristig ueberwiegt leichte Unsicherheit durch den jungen Abwaertstrend, langfristig bleibt der Aufwaertstrend der letzten 90 Tage dominant. Meine bisherige Kalibrierung war zu selbstsicher und teils zu bearish in volatilen Phasen, weshalb ich naeher an der Basisrate bleibe als an kurzfristigen Impulsen.",
+      "staerkstes_gegenargument": "Die letzten 10 Tage zeigen einen klaren, nicht nur kurzfristigen Ruecksetzer (-4.7% vom Hoch), und wiederholte Tests der 66.000er-Marke koennten auf einen Trendbruch statt auf Konsolidierung hindeuten, was meine Aufwaertswahrscheinlichkeit zu optimistisch erscheinen liesse.",
+      "wichtigste_treiber": [
+        "Kurzfristiger Abwaertstrend seit dem Hoch am 03.09. (-3.85% in 7 Tagen)",
+        "Kurs liegt weiterhin ueber 30-Tage-Mittel (+1.46%), langfristiger Trend intakt",
+        "Historische Basisraten (58% / 83%) als primaerer Anker",
+        "Moderate Marktstimmung (Fear&Greed 57) ohne Extremwerte, die auf Panik oder Euphorie hindeuten"
+      ],
+      "umschlagpunkt": "Ein Bruch unter das 90-Tage-Tief-nahe Niveau von etwa 63.000 EUR mit anhaltendem Volumen wuerde auf einen echten Trendwechsel hindeuten und die Aufwaertswahrscheinlichkeit deutlich senken; umgekehrt wuerde ein schneller Anstieg ueber 69.800 EUR (neues Hoch) die Aufwaertswahrscheinlichkeit weiter bestaetigen.",
+      "kennzahlen_zum_zeitpunkt": {
+        "kurs_aktuell": 66272.52,
+        "veraenderung_7_tage_prozent": -3.85,
+        "veraenderung_30_tage_prozent": 22.01,
+        "veraenderung_90_tage_prozent": null,
+        "mittel_30_tage": 65317.79,
+        "abstand_zum_mittel_prozent": 1.46,
+        "tages_schwankung_prozent": 1.88,
+        "hoch_90_tage": 69810.75,
+        "tief_90_tage": 51253.18,
+        "basisraten": {
+          "7": {
+            "anteil_gestiegen_prozent": 58,
+            "anzahl_faelle": 83,
+            "typische_schwankung_prozent": 5.0
+          },
+          "30": {
+            "anteil_gestiegen_prozent": 83,
+            "anzahl_faelle": 60,
+            "typische_schwankung_prozent": 10.3
+          }
+        },
+        "beobachtete_tage": 90
+      },
+      "feedback_verfuegbar": true,
+      "api_versuche": 1,
+      "datenstand": {
+        "kurs": "2026-09-14T00:01:58.712613Z",
+        "fear_greed": "2026-09-14T00:01:58.897113Z",
+        "trefferbilanz": "2026-09-14T00:00:00.892693"
+      }
+    },
+    {
       "datum": "2026-09-12",
       "asset": "BTC",
       "erstellt_am": "2026-09-12T00:04:35.614752Z",
@@ -2710,5 +2779,5 @@
       "rueckblick_kurs_7_tage": 54505.1633858627
     }
   ],
-  "letzte_aktualisierung": "2026-09-12"
+  "letzte_aktualisierung": "2026-09-14"
 }
