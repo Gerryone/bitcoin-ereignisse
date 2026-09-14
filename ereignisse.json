@@ -1,6 +1,51 @@
 {
-  "letzte_aktualisierung": "2026-09-12",
+  "letzte_aktualisierung": "2026-09-14",
   "ereignisse": [
+    {
+      "datum": "2026-09-13",
+      "kategorie": "Regulierung",
+      "titel": "CLARITY Act vor kritischem 60-Stimmen-Test im US-Senat am 15. September",
+      "beschreibung": "Der überarbeitete CLARITY Act steht am 15. September vor einer Abstimmung im US-Senat, die eine 60-Stimmen-Mehrheit erfordert. Polymarket bewertet die Wahrscheinlichkeit der Verabschiedung bis Ende 2026 auf nur noch 13% (im Februar lag die Quote bei 82%). Die Unsicherheit über das Abstimmungsergebnis und die niedrigen Chancen deuten auf erhebliche legislative Hürden hin.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-09-13",
+      "kategorie": "Technik",
+      "titel": "Quantenresistente Blockchain-Sicherheit durch klassische Mathematik erreichbar – MIT-Professor widerlegt Quantum-Threat-Narrativ",
+      "beschreibung": "MIT-Professor Muriel Médard von Optimum argumentiert, dass Blockchains keine Quantencomputer benötigen, um quantensicher zu werden – klassische mathematische Verfahren seien ausreichend. Dies widerlegt das verbreitete Narrativ einer unmittelbar bevorstehenden Quantum-Bedrohung und positioniert mathematische Lösungen als praktikable Alternative.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-09-13",
+      "kategorie": "Institutionell",
+      "titel": "Goldman Sachs und weitere Großbanken signalisieren Fed-Zinserhöhung – letzte Major Bank zieht No-Hike-Prognose zurück",
+      "beschreibung": "Goldman Sachs ist die letzte der großen Banken, die ihre Vorhersage gegen eine Fed-Zinserhöhung aufgibt. Ein Ökonom argumentiert, dass die Zinserhöhung eher Wall-Street-fokussiert als inflationsgesteuert ist. Diese institutionelle Positionsänderung signalisiert eine Verschiebung der Markterwartungen und könnte Druck auf risikobehaftete Assets wie Bitcoin (€66.279) ausüben, während sichere Häfen wie Gold (€3.737,56) an Attraktivität gewinnen.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-09-12",
+      "kategorie": "Persönlichkeiten",
+      "titel": "Sam Bankman-Fried reicht Supreme-Court-Beschwerde gegen FTX-Verurteilung ein – $11-Milliarden-Vermögensabschöpfung in Frage",
+      "beschreibung": "Der FTX-Gründer Sam Bankman-Fried beantragte eine Überprüfung seiner Verurteilung wegen Betrug und seiner 25-jährigen Haftstrafe beim US Supreme Court an. Die Beschwerde umfasst auch eine Anfechtung der Vermögensabschöpfung von rund $11 Milliarden. Dies markiert die nächste rechtliche Phase einer der größten Crypto-Betrugsfälle der Geschichte.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-09-12",
+      "kategorie": "Institutionell",
+      "titel": "Charles Schwab integriert XRP-ETFs als Repo-Sicherheiten in Wall-Street-Geldmarkt",
+      "beschreibung": "Charles Schwab hat XRP-Exchange-Traded-Funds als akzeptable Besicherung für den Repo-Markt zugelassen. Dies signalisiert eine wachsende Akzeptanz von Krypto-ETFs als legitime Finanzinstrumente im klassischen Wall-Street-Finanzsystem und vergrößert den institutionellen Zugang zu digitalen Vermögenswerten.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
     {
       "datum": "2026-09-12",
       "kategorie": "Persönlichkeiten",
@@ -492,51 +537,6 @@
       "kategorie": "Institutionell",
       "titel": "Robinhood Chain erzielt Tagesrekord von $1,9 Mio. Gebühren – Arbitrum-Token um 30% gestiegen",
       "beschreibung": "Robinhoods neues Netzwerk verzeichnete im 24-Stunden-Zeitraum Gebühren von $1,9 Millionen, was eine Sekundäreffekt-Rally im Arbitrum-Token (ARB +30%) auslöste. Daten zeigen, dass dedizierte Layer-2-Netzwerke großer Handelsplattformen erhebliche Liquiditätszuflüsse generieren können, während Bitcoin bei €66.808 EUR (-1,2%) konsolidiert.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-09-01",
-      "kategorie": "Institutionell",
-      "titel": "London Stock Exchange partnert mit Kraken-Mutterkonzern für tokenisierte UK-Aktien 24/5-Handel",
-      "beschreibung": "Der LSE-Betreiber arbeitet mit Kraken-Parent zusammen, um 24/5-Zugang zu tokenisierten britischen Equities anzubieten. Das Projekt zielt darauf ab, traditionelle Marktzeiten durch blockchain-basierte Abwicklung zu erweitern, während die UK-Regulierung schrittweise OnChain-Wertpapierhandel legitimiert.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-09-01",
-      "kategorie": "OnChain",
-      "titel": "Nordkoreanische Lazarus-Gruppe verkauft weitere $30 Mio. Bitcoin auf Hyperliquid in drei Wochen",
-      "beschreibung": "Blockchain-Analyse zeigt, dass OFAC-sanktionierte Wallets der Lazarus-Gruppe in den letzten 21 Tagen über $30 Millionen Bitcoin auf der Plattform Hyperliquid liquidiert haben. Dies unterstreicht die laufende Herausforderung bei der Konformität dezentralisierter Börsen mit Sanktionsregimen, während Trump die Onshoring des Protokolls vorschlägt.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-09-01",
-      "kategorie": "Makro",
-      "titel": "Bitcoin konsolidiert bei €66.808 EUR während globale Anleihemärkte einbrechen – JGB auf Jahreshoch",
-      "beschreibung": "Bitcoin bleibt flach bei €66.808 EUR (-1,2%), während japanische Staatsanleihen (JGB) Mehrjahreshöchststände erreichen und der globale Renditebärenmarkt eskaliert. Gold hält sich bei €3.736,31 EUR stabil – weder Bitcoin noch Gold zeigen parallele Bewegungen, was auf ausbleibende breite Inflationspanik hindeutet. Silber notiert bei €55,50 EUR und folgt nicht der BTC-Schwäche, was selektive Risk-Off-Dynamiken suggeriert.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-08-31",
-      "kategorie": "Institutionell",
-      "titel": "Strategy kauft $370 Mio. Bitcoin nach zweimonatiger Kaufpause – erste Transaktion seit Juni",
-      "beschreibung": "Das Michael Saylor-geführte Unternehmen hat in der vergangenen Woche Bitcoin im Wert von $370 Millionen gekauft – die erste Bitcoin-Akquisition seit etwa zwei Monaten. Der Schritt signalisiert Wiederaufnahme institutioneller Käufe in einem Markt, in dem Bitcoin aktuell bei €67.713 notiert und im August eine 25%-Rally verzeichnet.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-08-31",
-      "kategorie": "Institutionell",
-      "titel": "Strive wird fünftgrößter Bitcoin-Halter mit 1.800 BTC-Kauf für $143 Millionen",
-      "beschreibung": "Die Investmentfirma Strive hat 1.800 Bitcoin für $143 Millionen erworben und ist damit auf 23.156 BTC angewachsen – Platzierung als fünftgrößter öffentlich gehandelter Bitcoin-Halter. Diese Transaktion dokumentiert fortgesetzte Corporate-Treasury-Diversifikation in einem Umfeld, in dem Bitcoin bei €67.713 EUR notiert.",
       "modell": "claude-haiku-4-5",
       "prompt_version": 2,
       "asset": "BTC"
