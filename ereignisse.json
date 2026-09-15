@@ -1,6 +1,51 @@
 {
-  "letzte_aktualisierung": "2026-09-14",
+  "letzte_aktualisierung": "2026-09-15",
   "ereignisse": [
+    {
+      "datum": "2026-09-14",
+      "kategorie": "Regulierung",
+      "titel": "Trump einigt sich auf erweiterte Ethik-Regeln zur Rettung des CLARITY Act",
+      "beschreibung": "US-Präsident Donald Trump akzeptierte verschärfte Interessenskonflikts-Regelungen und staatliche Durchsetzungsbefugnisse, um entscheidende Senatsstimmen für den Crypto-Clarity Act zu sichern. Der Senat plant eine Abstimmung am 15. September. Gleichzeitig lehnen 17 Staatsanwälte die Gesetzgebung ab und argumentieren, dass sie ihre Befugnisse bei Wertpapier- und Rohstoffdelikten einschränken könnte.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-09-14",
+      "kategorie": "Institutionell",
+      "titel": "Trumps $800-Millionen-Kryptovermögen unterliegt Vesting bis 2028 mit obligatorischem Token-Burn",
+      "beschreibung": "On-Chain-Daten zeigen, dass ein $800-Millionen-Kryptovermögen, das Donald Trumps Beteiligungen an World Liberty Financial entspricht, in einen Vesting-Vertrag übertragen wurde. Verkäufe sind bis 2028 gesperrt, und ein obligatorischer 10%-Token-Burn ist vorgesehen. Dies legt die Beteiligung des Präsidenten an der Krypto-Infrastruktur offen dar.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-09-14",
+      "kategorie": "ETF",
+      "titel": "Bitwise Dogecoin ETF wird nach 10 Monaten geschlossen – schwache Nachfrage bei DOGE-Fonds",
+      "beschreibung": "Der Bitwise BWOW Dogecoin ETF wird nach nur 10 Monaten geschlossen, während rivale XRP- und Solana-ETFs $3 Milliarden einsammelten. Die Schließung wirft Fragen zur Marktnutzung von Altcoin-ETFs auf und signalisiert anhaltend schwaches Retail-Interesse an Dogecoin-Produkten troinsgesamt positiver Marktstimmung (Fear & Greed: 69).",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-09-14",
+      "kategorie": "Institutionell",
+      "titel": "Strive kauft 469 Bitcoin und erreicht 25.000-BTC-Schatzkammer",
+      "beschreibung": "Strive Asset Management erhöhte seine Bitcoin-Reserven um 469 BTC und erreichte damit eine Gesamttreaury von 25.000 Bitcoin. Die Akquisition wurde vollständig durch SATA-Vorzugsaktien finanziert. Dies unterstreicht die fortgesetzte Akkumulation institutioneller Bitcoin-Holdings bei aktuellen Kursen von €67.617 pro Bitcoin.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-09-14",
+      "kategorie": "Regulierung",
+      "titel": "EU-Cybersicherheitsregeln: Krypto-Wallet-Anbieter müssen Sicherheitslücken innerhalb von 24 Stunden melden",
+      "beschreibung": "Die EU hat neue Cybersicherheitsvorschriften eingeführt, die Krypto-Wallet-Anbieter zur Meldung von Schwachstellen innerhalb von 24 Stunden verpflichten. Diese Regelung schließt eine regulatorische Lücke und verschärft die Compliance-Anforderungen für europäische Krypto-Infrastruktur erheblich.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
     {
       "datum": "2026-09-13",
       "kategorie": "Regulierung",
@@ -492,51 +537,6 @@
       "kategorie": "Technik",
       "titel": "CrowdStrike und US-Behörden zerlegen russische Malware nach achtjähriger Kryptowährungs-Diebstahl-Operation",
       "beschreibung": "Die Sality-Malware mit russischen Ursprüngen wurde über acht Jahre hinweg aktiv, indem sie Bitcoin- und Ethereum-Adressen kopierte und durch die des Angreifers ersetzte. Mehr als 15.000 infizierte Maschinen wurden isoliert. Dies unterstreicht anhaltende Sicherheitsrisiken für Kryptowährungsbestände auf verwundbaren Systemen.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-09-02",
-      "kategorie": "Makro",
-      "titel": "US-Luftschläge auf Iran treiben Öl über $93 – Bitcoin fällt unter €66.700 bei steigenden Renditen",
-      "beschreibung": "Nach Berichten über US-Militärschläge auf den Iran sprang Brent-Öl über $93, Treasury-Renditen kletterten gegen 4,8%, und Bitcoin rutschte 1% auf unter €66.700 ab. Gleichzeitig verzeichneten Gold (€3.789,27) und Silber (€56,57) Rückgänge. Der schwache ADP-Arbeitsbericht (38.000 private Arbeitsplätze) verschärfte die Risikobewertung.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-09-02",
-      "kategorie": "Institutionell",
-      "titel": "XRP Spot-ETFs ziehen $170 Mio. an – Goldman Sachs, Jane Street und Millennium unter Top-Haltern",
-      "beschreibung": "Spot-XRP-Fonds verzeichneten 11 aufeinanderfolgende Tage mit Zuflüssen und $170 Millionen Netto-Kapitalzufluss. Q2-SEC-Filings zeigen, dass Goldman Sachs, Jane Street und Millennium Management zu den größten institutionellen Positionen gehören. Dies signalisiert institutionelle Etablierung in XRP-Instrumenten.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-09-01",
-      "kategorie": "Regulierung",
-      "titel": "Coinbase startet regulierte Kryptoderivate in Kanada mit bis zu 10x Leverage",
-      "beschreibung": "Coinbase kündigte regulierte Perpetual- und befristete Kryptofutures für kanadische Trader an. Das Angebot umfasst bis zu 10-fachen Leverage und positioniert die Plattform als offizieller Derivate-Anbieter unter kanadischer Aufsicht, was dem nordamerikanischen Derivate-Markt Struktur verleiht.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-09-01",
-      "kategorie": "Regulierung",
-      "titel": "SEC modernisiert Wertpapier-Transferstellen-Regeln mit Blockchain-Berücksichtigung",
-      "beschreibung": "Die SEC hat einen Vorschlag zur umfassenden Modernisierung der Transferstellen-Vorschriften eingereicht, die seit den 1980er Jahren weitgehend unverändert waren. Der Vorschlag adressiert erstmals explizit blockchain-basierte Recordkeeping-Systeme und signalisiert regulatorische Öffnung für tokenisierte Wertpapiere auf Distributed-Ledger-Infrastruktur.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-09-01",
-      "kategorie": "Institutionell",
-      "titel": "Robinhood Chain erzielt Tagesrekord von $1,9 Mio. Gebühren – Arbitrum-Token um 30% gestiegen",
-      "beschreibung": "Robinhoods neues Netzwerk verzeichnete im 24-Stunden-Zeitraum Gebühren von $1,9 Millionen, was eine Sekundäreffekt-Rally im Arbitrum-Token (ARB +30%) auslöste. Daten zeigen, dass dedizierte Layer-2-Netzwerke großer Handelsplattformen erhebliche Liquiditätszuflüsse generieren können, während Bitcoin bei €66.808 EUR (-1,2%) konsolidiert.",
       "modell": "claude-haiku-4-5",
       "prompt_version": 2,
       "asset": "BTC"
