@@ -1,6 +1,75 @@
 {
   "fazits": [
     {
+      "datum": "2026-09-15",
+      "asset": "BTC",
+      "erstellt_am": "2026-09-15T00:27:30.236648Z",
+      "modell": "claude-sonnet-5",
+      "prompt_version": 4,
+      "kurs_eur_referenz": 67587.0,
+      "konfidenz_prozent": 80,
+      "prognosen": [
+        {
+          "horizont_tage": 7,
+          "wahrscheinlichkeit_hoeher": 60,
+          "spanne_unten": 64200,
+          "spanne_oben": 71200,
+          "konfidenz": 80,
+          "kursziel_abgeleitet": 67700
+        },
+        {
+          "horizont_tage": 30,
+          "wahrscheinlichkeit_hoeher": 78,
+          "spanne_unten": 62000,
+          "spanne_oben": 77000,
+          "konfidenz": 80,
+          "kursziel_abgeleitet": 69500
+        }
+      ],
+      "basisrate_verwendet": 60,
+      "abweichung_begruendung": "Für 7 Tage bleibe ich nahe der Basisrate (60%), da der Kurs seit zwei Wochen in einer engen Range (66-68k) konsolidiert und keine neuen Ereignisse vorliegen - weder Grund für starke Abweichung nach oben noch unten. Für 30 Tage senke ich die Basisrate leicht von 85% auf 78%, weil der Kurs bereits +24% in 30 Tagen und nahe dem 91-Tage-Hoch liegt, was das Risiko einer Verschnaufpause erhöht - allerdings ohne die Greed-Stimmung (69) und den fehlenden negativen Nachrichten übermäßig zu gewichten.",
+      "einschaetzung": "Bitcoin hat nach einer starken Rally (55k auf 69,8k) in den letzten zwei Wochen konsolidiert und pendelt um 66-68k. Die Marktstimmung bleibt mit Fear&Greed 69 im Greed-Bereich klar bullisch, ohne belastende Nachrichtenlage. Die Konsolidierung nahe dem oberen Ende der 91-Tage-Spanne deutet auf eine Verdauungsphase hin, nicht auf eine Trendwende. Meine bisherige Prognosehistorie zeigt eine systematische Unterschätzung von Aufwärtsbewegungen, weshalb ich mich bewusst nicht zu stark nach unten korrigiere.",
+      "staerkstes_gegenargument": "Nach einem +24%-Anstieg in 30 Tagen und einer Position nahe dem 91-Tage-Hoch ist eine Korrektur oder zumindest eine längere Seitwärtsphase statistisch wahrscheinlich; die Konsolidierung der letzten zwei Wochen (7-Tage-Veränderung nur +0,01%) könnte der Beginn einer Abkühlung sein, die die hohe 30-Tage-Basisrate von 85% unrealistisch macht.",
+      "wichtigste_treiber": [
+        "Anhaltende Konsolidierung in enger Range (66-68k) nach starker Rally, keine klare Trendumkehr erkennbar",
+        "Positive Marktstimmung (Fear&Greed 69, Greed) ohne belastende Nachrichten",
+        "Eigene Kalibrierungshistorie zeigt systematische Unterschätzung von Aufwärtsbewegungen - Korrektur nach oben gerechtfertigt",
+        "Kurs bereits deutlich über 30-Tage-Mittel (+2,06%) und nahe 91-Tage-Hoch, was Rückschlagrisiko erhöht"
+      ],
+      "umschlagpunkt": "Ein Bruch unter die Unterstützung bei ca. 65.000-66.000 EUR mit anhaltendem Volumen, verbunden mit einem Rückgang des Fear&Greed-Index unter 50 oder negativen regulatorischen/makroökonomischen Ereignissen, würde die bullische Einschätzung widerlegen.",
+      "kennzahlen_zum_zeitpunkt": {
+        "kurs_aktuell": 67571.05,
+        "veraenderung_7_tage_prozent": 0.01,
+        "veraenderung_30_tage_prozent": 24.47,
+        "veraenderung_90_tage_prozent": 20.97,
+        "mittel_30_tage": 66205.58,
+        "abstand_zum_mittel_prozent": 2.06,
+        "tages_schwankung_prozent": 1.88,
+        "hoch_90_tage": 69810.75,
+        "tief_90_tage": 51253.18,
+        "basisraten": {
+          "7": {
+            "anteil_gestiegen_prozent": 60,
+            "anzahl_faelle": 84,
+            "typische_schwankung_prozent": 5.0
+          },
+          "30": {
+            "anteil_gestiegen_prozent": 85,
+            "anzahl_faelle": 61,
+            "typische_schwankung_prozent": 10.3
+          }
+        },
+        "beobachtete_tage": 91
+      },
+      "feedback_verfuegbar": true,
+      "api_versuche": 2,
+      "datenstand": {
+        "kurs": "2026-09-15T00:26:29.069649Z",
+        "fear_greed": "2026-09-15T00:26:29.166228Z",
+        "trefferbilanz": "2026-09-15T00:00:01.406603"
+      }
+    },
+    {
       "datum": "2026-09-14",
       "asset": "BTC",
       "erstellt_am": "2026-09-14T00:02:42.335648Z",
@@ -2779,5 +2848,5 @@
       "rueckblick_kurs_7_tage": 54505.1633858627
     }
   ],
-  "letzte_aktualisierung": "2026-09-14"
+  "letzte_aktualisierung": "2026-09-15"
 }
