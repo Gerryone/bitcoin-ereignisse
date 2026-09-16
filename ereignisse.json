@@ -1,6 +1,51 @@
 {
-  "letzte_aktualisierung": "2026-09-15",
+  "letzte_aktualisierung": "2026-09-16",
   "ereignisse": [
+    {
+      "datum": "2026-09-15",
+      "kategorie": "Regulierung",
+      "titel": "US-Senat blockiert CLARITY Act – Jahre der Regulierungsbemühungen scheitern",
+      "beschreibung": "Der US-Senat lehnte den Crypto Clarity Act in einer entscheidenden Abstimmung ab und verfehlte die erforderliche 60-Stimmen-Schwelle. Das Scheitern beendet die legislativen Arbeiten zur Marktstruktur für 2026 und stellt den Abschluss jahrelanger Bemühungen der Krypto-Industrie dar, die Hunderte Millionen Dollar in Lobbyarbeit investiert hatte. Bitcoin fiel daraufhin um 3,2% auf €65.522, während ETH um 4,5% auf €2.079 sank – ein breiterer Risk-Off, da auch Gold (€2.950) und Silber (€29.500) keine Fluchtbewegung zeigten.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-09-15",
+      "kategorie": "Institutionell",
+      "titel": "Crypto-Aktien-Verkaufsflut nach CLARITY-Abstimmung – Coinbase und Circle fallen 10%",
+      "beschreibung": "Nach dem Scheitern des CLARITY Act erlebten börsennotierte Krypto-Unternehmen einen breiten Ausverkauf, angeführt von Coinbase und Circle mit Kursverlusten von etwa 10%. Der Rückgang reflektiert die gestoppten Erwartungen auf regulatorische Klarheit und Institutionalisierung, die als Wachstumstreiber für diese Unternehmen gerechnet worden waren.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-09-15",
+      "kategorie": "OnChain",
+      "titel": "DeFi-Bridge-Hack: 46 Milliarden gefälschte Bitcoin-Token durch zwei Codefehler erzeugt",
+      "beschreibung": "Ein Hacker nutzte zwei Software-Bugs auf der Symbiosis-Bridge aus, um über 2.000-mal Bitcoins maximale Geldmenge (21 Millionen) an unbacked syBTC-Tokens zu generieren. Symbiosis beziffert die Verluste auf 9,97 BTC, während Analysten die Gesamtschäden auf $7,8 Millionen schätzten. Der Vorfall unterstreicht persistente Sicherheitsrisiken in dezentralisierten Finanzprotokollen.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-09-15",
+      "kategorie": "Institutionell",
+      "titel": "Nigel Farage-gestützter Stack BTC plant $16-Millionen-Übernahme eines Edelmetallhändlers",
+      "beschreibung": "Stack BTC gibt bekannt, einen Goldshop für $16 Millionen akquirieren zu wollen, um Cashflows aus Edelmetallverkäufen (Gold €2.950, Silber €29.500) zur Finanzierung von Bitcoin-Käufen zu nutzen. Das Modell verbindet klassische Safeheaven-Assets mit Krypto-Akkumulation und signalisiert ein Konvergenz-Narrativ zwischen traditionellen und digitalen Vermögenswerten.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
+    {
+      "datum": "2026-09-15",
+      "kategorie": "Institutionell",
+      "titel": "Hong Kong Krypto-Börse CoinEx beendet 9-jährigen Betrieb – Gründer lehnt Verkauf ab",
+      "beschreibung": "CoinEx-Gründer Haipo Yang kündigte die Schließung der Börse an und nannte steigende Sicherheits- und Compliance-Risiken sowie sinkende Liquidität als Gründe. Die Entscheidung, einen Verkauf abzulehnen und stattdessen einen ‚sauberen Ausstieg' zu wählen, deutet auf Konsolidierungsdruck im globalen Krypto-Börsenmarkt hin, besonders unter regulatorischem Druck.",
+      "modell": "claude-haiku-4-5",
+      "prompt_version": 2,
+      "asset": "BTC"
+    },
     {
       "datum": "2026-09-14",
       "kategorie": "Regulierung",
@@ -492,51 +537,6 @@
       "kategorie": "Institutionell",
       "titel": "Bitget führt Gespräche mit BlackRock und Wall-Street-Firmen für tokenisierte ETF-Vertrieb in Asien",
       "beschreibung": "Das Krypto-Derivate-Unternehmen arbeitet mit dem weltgrößten Vermögensverwalter BlackRock zusammen, um die Verteilung tokenisierter ETFs in der asiatischen Region auszubauen. Dies signalisiert wachsendes institutionelles Interesse am Krypto-Ökosystem bei gleichzeitig starker Bitcoin-Performance von €69.926 EUR.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-09-03",
-      "kategorie": "Makro",
-      "titel": "Yen-Anstieg und USD-Schwäche treiben Bitcoin über €69.900 EUR – Dollar Index fällt",
-      "beschreibung": "Eine vermutete Bank-of-Japan-Intervention führte zu Yen-Aufwertung und US-Dollar-Abwertung, was Bitcoin (+4,8%) und Gold (€3.855,47 EUR) parallel angetrieben hat. Der schwächere Dollar machte Rohstoffe und Kryptowährungen für internationale Käufer attraktiver, während Silber mit €57,753 EUR ebenfalls zulegte.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-09-03",
-      "kategorie": "Regulierung",
-      "titel": "SoFi und Kraken verbinden traditionelles Banking mit Kryptomärkten über Settlements-Netzwerk",
-      "beschreibung": "Kraken tritt Sofis Settlement-Netzwerk bei und listet SoFiUSD als Stablecoin, um traditionelle Bankinfrastruktur direkt mit Kryptohandel zu verknüpfen. Dies markiert eine formale Regulierungs-Akzeptanz und institutionelle Integration bei einem Bitcoin-Kurs von €69.926 EUR.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-09-03",
-      "kategorie": "OnChain",
-      "titel": "Pons Memecoin-App erzeugt $6 Mio. Gebühren in 24h – Robinhood Chain Aktivität explodiert",
-      "beschreibung": "Die Token-Erstellungs-App auf Robinhood Chain generierte tägliche Gebühren von knapp $6 Millionen und übertraf damit etablierte Plattformen wie Pump, Hyperliquid und die Chain selbst. Dies deutet auf massive Retail-Aktivität hin, während Bitcoin bei €69.926 EUR einen 4,8%-Tagesgewinn verbucht.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-09-02",
-      "kategorie": "Regulierung",
-      "titel": "FBI beschlagnahmt Hamas-Kryptospenden im Umfang von $560.000",
-      "beschreibung": "Das US-Justizministerium gab bekannt, dass FBI-Agenten Domains und Server, darunter Alqassam.ps, übernahmen, um Kryptospenden für die Al-Qassam-Brigaden abzufangen und weitere Fundraising zu unterbinden. Dies dokumentiert einen Einsatz staatlicher Infrastruktur zur Blockade von Kryptotransaktionen für designierte Organisationen.",
-      "modell": "claude-haiku-4-5",
-      "prompt_version": 2,
-      "asset": "BTC"
-    },
-    {
-      "datum": "2026-09-02",
-      "kategorie": "Technik",
-      "titel": "CrowdStrike und US-Behörden zerlegen russische Malware nach achtjähriger Kryptowährungs-Diebstahl-Operation",
-      "beschreibung": "Die Sality-Malware mit russischen Ursprüngen wurde über acht Jahre hinweg aktiv, indem sie Bitcoin- und Ethereum-Adressen kopierte und durch die des Angreifers ersetzte. Mehr als 15.000 infizierte Maschinen wurden isoliert. Dies unterstreicht anhaltende Sicherheitsrisiken für Kryptowährungsbestände auf verwundbaren Systemen.",
       "modell": "claude-haiku-4-5",
       "prompt_version": 2,
       "asset": "BTC"
